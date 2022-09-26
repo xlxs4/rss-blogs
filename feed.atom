@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>urn:2022-09-26T20:47:07.764Z</id>
+    <title>osmos::feed</title>
+    <updated>2022-09-26T20:47:07.764Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
+    <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Back to the basics: don’t lag behind with your DataFrames.jl skills]]></title>
+        <id>/julialang/2022/09/23/lagging</id>
+        <link href="https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/"/>
+        <updated>2022-09-23T20:12:01.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Approximating a function using derivatives]]></title>
+        <id>https://tamaspapp.eu/pages/blog/2022/hermite-approximation-spectralkit/index.html</id>
+        <link href="https://www.juliabloggers.com/approximating-a-function-using-derivatives/"/>
+        <updated>2022-09-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[.]]></summary>
+        <author>
+            <name>Tamás K. Papp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reproducible examples in blog posts]]></title>
+        <id>https://tamaspapp.eu/pages/blog/2022/09-14-reproducible-examples/index.html</id>
+        <link href="https://www.juliabloggers.com/reproducible-examples-in-blog-posts/"/>
+        <updated>2022-09-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[.]]></summary>
+        <author>
+            <name>Tamás K. Papp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tricky concepts in Julia for beginners (and how to overcome them)]]></title>
+        <id>https://medium.com/p/46af1c514d50</id>
+        <link href="https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/"/>
+        <updated>2022-09-20T13:17:30.000Z</updated>
+        <summary type="html"><![CDATA[Avoid common pitfalls new Julia users makeContinue reading on Medium »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best kept secret of modern CPU technology]]></title>
+        <id>/julialang/2022/09/16/benchmarking</id>
+        <link href="https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/"/>
+        <updated>2022-09-16T05:34:36.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The only way you should be splitting a String in Julia —  Julia Base.split()]]></title>
+        <id>https://medium.com/p/374b191a543</id>
+        <link href="https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/"/>
+        <updated>2022-09-15T13:16:33.000Z</updated>
+        <summary type="html"><![CDATA[Tips and tricks for splitting Strings in JuliaContinue reading on Medium »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)]]></title>
+        <id>https://medium.com/p/641ae3d2a177</id>
+        <link href="https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/"/>
+        <updated>2022-09-12T13:02:19.000Z</updated>
+        <summary type="html"><![CDATA[If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Julia tutorial during Social Simulation Conference 2022]]></title>
+        <id>/julialang/2022/09/09/ssc2022</id>
+        <link href="https://www.juliabloggers.com/julia-tutorial-during-social-simulation-conference-2022/"/>
+        <updated>2022-09-09T04:13:12.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Common Lisp to Julia]]></title>
+        <id>https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html</id>
+        <link href="https://www.juliabloggers.com/from-common-lisp-to-julia/"/>
+        <updated>2022-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From Common Lisp to Julia]]></summary>
+        <author>
+            <name>Michael Fiano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Common Lisp to Julia]]></title>
+        <id>https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html</id>
+        <link href="https://www.juliabloggers.com/from-common-lisp-to-julia/"/>
+        <updated>2022-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From Common Lisp to Julia]]></summary>
+        <author>
+            <name>Michael Fiano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simple is best: do you really need your code to be fast?]]></title>
+        <id>/julialang/2022/09/02/speed</id>
+        <link href="https://www.juliabloggers.com/simple-is-best-do-you-really-need-your-code-to-be-fast/"/>
+        <updated>2022-09-02T05:42:26.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Linear Models and Decision Trees in Julia]]></title>
+        <id>http://www.juliabloggers.com/?guid=81eac208802156de6230ba31bdfe92af</id>
+        <link href="https://www.juliabloggers.com/how-to-use-linear-models-and-decision-trees-in-julia/"/>
+        <updated>2022-08-29T13:46:21.000Z</updated>
+        <summary type="html"><![CDATA[undefined]]></summary>
+        <author>
+            <name>n Logan Kilpatrick n</name>
+        </author>
+    </entry>
+</feed>
