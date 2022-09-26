@@ -1,0 +1,10 @@
+#########################
+# Full reference
+# https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
+#########################
+
+# cacheUrl: https://GITHUB_USERNAME.github.io/REPO_NAME/cache.json
+sources:
+  - href: http://www.stochasticlifestyle.com/feed/ # Stochastic Lifestyle (Rackauckas blog)
+  - href: https://www.juliabloggers.com/feed/ # Julia bloggers
+  - href: http://karpathy.github.io/feed.xml # Andrej Karpathy
