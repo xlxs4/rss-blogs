@@ -175,21 +175,6 @@
             "type": ""
           },
           "imageUrl": null
-        },
-        {
-          "id": "http://www.juliabloggers.com/?guid=81eac208802156de6230ba31bdfe92af",
-          "author": "n Logan Kilpatrick n",
-          "description": "undefined",
-          "link": "https://www.juliabloggers.com/how-to-use-linear-models-and-decision-trees-in-julia/",
-          "publishedOn": "2022-08-29T13:46:21.000Z",
-          "wordCount": 990,
-          "title": "How to Use Linear Models and Decision Trees in Julia",
-          "enclosure": {
-            "url": "https://www.freecodecamp.org/news/content/images/2022/08/LinearModels-1.png",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/08/LinearModels-1.png"
         }
       ]
     },
