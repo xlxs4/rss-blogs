@@ -12,12 +12,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "/julialang/2022/09/30/knights",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/knight-covering-puzzle/",
+          "publishedOn": "2022-09-30T04:34:32.000Z",
+          "wordCount": 2446,
+          "title": "Knight covering puzzle",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://tamaspapp.eu/pages/blog/2022/markdown-tables/index.html",
           "author": "Tamás K. Papp",
           "description": ".",
           "link": "https://www.juliabloggers.com/tables-output-with-literate-jl/",
           "publishedOn": "2022-09-29T00:00:00.000Z",
-          "wordCount": 1089,
+          "wordCount": 1091,
           "title": "Tables output with Literate.jl",
           "enclosure": {
             "url": "",
@@ -32,7 +47,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/",
           "publishedOn": "2022-09-23T20:12:01.000Z",
-          "wordCount": 2144,
+          "wordCount": 2142,
           "title": "Back to the basics: don’t lag behind with your DataFrames.jl skills",
           "enclosure": {
             "url": "",
@@ -47,7 +62,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/approximating-a-function-using-derivatives/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1523,
+          "wordCount": 1521,
           "title": "Approximating a function using derivatives",
           "enclosure": {
             "url": "",
@@ -62,7 +77,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/reproducible-examples-in-blog-posts/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1106,
+          "wordCount": 1104,
           "title": "Reproducible examples in blog posts",
           "enclosure": {
             "url": "",
@@ -77,7 +92,7 @@
           "description": "Avoid common pitfalls new Julia users makeContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/",
           "publishedOn": "2022-09-20T13:17:30.000Z",
-          "wordCount": 997,
+          "wordCount": 995,
           "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
           "enclosure": {
             "url": "",
@@ -92,7 +107,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/",
           "publishedOn": "2022-09-16T05:34:36.000Z",
-          "wordCount": 2327,
+          "wordCount": 2325,
           "title": "Best kept secret of modern CPU technology",
           "enclosure": {
             "url": "",
@@ -107,7 +122,7 @@
           "description": "Tips and tricks for splitting Strings in JuliaContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/",
           "publishedOn": "2022-09-15T13:16:33.000Z",
-          "wordCount": 1020,
+          "wordCount": 1018,
           "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
           "enclosure": {
             "url": "",
@@ -122,7 +137,7 @@
           "description": "If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/",
           "publishedOn": "2022-09-12T13:02:19.000Z",
-          "wordCount": 1059,
+          "wordCount": 1057,
           "title": "Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)",
           "enclosure": {
             "url": "",
@@ -137,7 +152,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/julia-tutorial-during-social-simulation-conference-2022/",
           "publishedOn": "2022-09-09T04:13:12.000Z",
-          "wordCount": 2558,
+          "wordCount": 2556,
           "title": "Julia tutorial during Social Simulation Conference 2022",
           "enclosure": {
             "url": "",
@@ -152,7 +167,7 @@
           "description": "From Common Lisp to Julia",
           "link": "https://www.juliabloggers.com/from-common-lisp-to-julia/",
           "publishedOn": "2022-09-04T00:00:00.000Z",
-          "wordCount": 1037,
+          "wordCount": 1035,
           "title": "From Common Lisp to Julia",
           "enclosure": {
             "url": "",
@@ -167,7 +182,7 @@
           "description": "From Common Lisp to Julia",
           "link": "https://www.juliabloggers.com/from-common-lisp-to-julia/",
           "publishedOn": "2022-09-04T00:00:00.000Z",
-          "wordCount": 1037,
+          "wordCount": 1035,
           "title": "From Common Lisp to Julia",
           "enclosure": {
             "url": "",
@@ -182,7 +197,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/simple-is-best-do-you-really-need-your-code-to-be-fast/",
           "publishedOn": "2022-09-02T05:42:26.000Z",
-          "wordCount": 2817,
+          "wordCount": 2815,
           "title": "Simple is best: do you really need your code to be fast?",
           "enclosure": {
             "url": "",
