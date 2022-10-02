@@ -190,21 +190,6 @@
             "type": ""
           },
           "imageUrl": null
-        },
-        {
-          "id": "/julialang/2022/09/02/speed",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/simple-is-best-do-you-really-need-your-code-to-be-fast/",
-          "publishedOn": "2022-09-02T05:42:26.000Z",
-          "wordCount": 2815,
-          "title": "Simple is best: do you really need your code to be fast?",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": null
         }
       ]
     },
