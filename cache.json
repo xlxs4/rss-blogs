@@ -17,7 +17,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knight-covering-puzzle/",
           "publishedOn": "2022-09-30T04:34:32.000Z",
-          "wordCount": 2446,
+          "wordCount": 2454,
           "title": "Knight covering puzzle",
           "enclosure": {
             "url": "",
@@ -160,36 +160,6 @@
             "type": ""
           },
           "imageUrl": "https://bkamins.github.io/assets/anim_fps15.gif"
-        },
-        {
-          "id": "https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html",
-          "author": "Michael Fiano",
-          "description": "From Common Lisp to Julia",
-          "link": "https://www.juliabloggers.com/from-common-lisp-to-julia/",
-          "publishedOn": "2022-09-04T00:00:00.000Z",
-          "wordCount": 1035,
-          "title": "From Common Lisp to Julia",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html",
-          "author": "Michael Fiano",
-          "description": "From Common Lisp to Julia",
-          "link": "https://www.juliabloggers.com/from-common-lisp-to-julia/",
-          "publishedOn": "2022-09-04T00:00:00.000Z",
-          "wordCount": 1035,
-          "title": "From Common Lisp to Julia",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": null
         }
       ]
     },

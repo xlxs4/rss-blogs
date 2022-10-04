@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-03T00:40:01.519Z</id>
+    <id>urn:2022-10-04T00:50:32.604Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-03T00:40:01.519Z</updated>
+    <updated>2022-10-04T00:50:32.604Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -103,26 +103,6 @@
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Common Lisp to Julia]]></title>
-        <id>https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html</id>
-        <link href="https://www.juliabloggers.com/from-common-lisp-to-julia/"/>
-        <updated>2022-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From Common Lisp to Julia]]></summary>
-        <author>
-            <name>Michael Fiano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Common Lisp to Julia]]></title>
-        <id>https://mfiano.net/posts/2022-09-04-from-common-lisp-to-julia/index.html</id>
-        <link href="https://www.juliabloggers.com/from-common-lisp-to-julia/"/>
-        <updated>2022-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From Common Lisp to Julia]]></summary>
-        <author>
-            <name>Michael Fiano</name>
         </author>
     </entry>
 </feed>
