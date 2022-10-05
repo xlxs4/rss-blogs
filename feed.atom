@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-04T00:50:32.604Z</id>
+    <id>urn:2022-10-05T00:47:44.693Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-04T00:50:32.604Z</updated>
+    <updated>2022-10-05T00:47:44.693Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[5 free courses to learn Julia —  Start learning today!]]></title>
+        <id>https://medium.com/p/66c1e3173ebc</id>
+        <link href="https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/"/>
+        <updated>2022-10-04T13:01:54.000Z</updated>
+        <summary type="html"><![CDATA[The best online Julia courses you can take for free going into 2023Continue reading on Medium »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately?]]></title>
+        <id>https://www.stochasticlifestyle.com/?p=1670</id>
+        <link href="http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/"/>
+        <updated>2022-10-04T07:38:56.000Z</updated>
+        <summary type="html"><![CDATA[Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.
+The goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a "true" 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?
+
+This isn't a new problem: climate scientists have  ... READ MORE
+The post Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SCIP plugins and the cut selection interface]]></title>
+        <id>https://matbesancon.xyz/post/2022-10-03-cutselection/</id>
+        <link href="https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/"/>
+        <updated>2022-10-02T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a short post on the cut selection mechanism in SCIP
+and things I used for its implementation in the SCIP.jl Julia wrapper.
+You can check out the corresponding pull request for completeness.
+Table of Contents
+
+  
+    Callbacks?
+    SCIP plugins
+...]]></summary>
+        <author>
+            <name>Julia on μβ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Julia on Kaggle]]></title>
+        <id>https://www.justinochalek.com/blog/post2/index.html</id>
+        <link href="https://www.juliabloggers.com/julia-on-kaggle/"/>
+        <updated>2022-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Competing on Kaggle with Julia.]]></summary>
+        <author>
+            <name>Jusin Ochalek</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Knight covering puzzle]]></title>
         <id>/julialang/2022/09/30/knights</id>
