@@ -28,7 +28,7 @@
           "description": "The best online Julia courses you can take for free going into 2023Continue reading on Medium »",
           "link": "https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/",
           "publishedOn": "2022-10-04T13:01:54.000Z",
-          "wordCount": 929,
+          "wordCount": 925,
           "title": "5 free courses to learn Julia —  Start learning today!",
           "enclosure": {
             "url": "",
@@ -43,7 +43,7 @@
           "description": "This is a short post on the cut selection mechanism in SCIP\nand things I used for its implementation in the SCIP.jl Julia wrapper.\nYou can check out the corresponding pull request for completeness.\nTable of Contents\n\n  \n    Callbacks?\n    SCIP plugins\n...",
           "link": "https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/",
           "publishedOn": "2022-10-02T22:00:00.000Z",
-          "wordCount": 2253,
+          "wordCount": 2249,
           "title": "SCIP plugins and the cut selection interface",
           "enclosure": {
             "url": "",
@@ -58,8 +58,23 @@
           "description": "Competing on Kaggle with Julia.",
           "link": "https://www.juliabloggers.com/julia-on-kaggle/",
           "publishedOn": "2022-10-02T00:00:00.000Z",
-          "wordCount": 1713,
+          "wordCount": 1709,
           "title": "Julia on Kaggle",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "/julialang/2022/09/30/metadata",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/is-dataframes-jl-hamiltonian/",
+          "publishedOn": "2022-09-30T04:51:52.000Z",
+          "wordCount": 2168,
+          "title": "Is DataFrames.jl Hamiltonian?",
           "enclosure": {
             "url": "",
             "length": "0",
@@ -73,7 +88,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knight-covering-puzzle/",
           "publishedOn": "2022-09-30T04:34:32.000Z",
-          "wordCount": 2416,
+          "wordCount": 2412,
           "title": "Knight covering puzzle",
           "enclosure": {
             "url": "",
@@ -88,7 +103,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/tables-output-with-literate-jl/",
           "publishedOn": "2022-09-29T00:00:00.000Z",
-          "wordCount": 1056,
+          "wordCount": 1052,
           "title": "Tables output with Literate.jl",
           "enclosure": {
             "url": "",
@@ -103,7 +118,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/",
           "publishedOn": "2022-09-23T20:12:01.000Z",
-          "wordCount": 2084,
+          "wordCount": 2080,
           "title": "Back to the basics: don’t lag behind with your DataFrames.jl skills",
           "enclosure": {
             "url": "",
@@ -118,7 +133,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/approximating-a-function-using-derivatives/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1483,
+          "wordCount": 1479,
           "title": "Approximating a function using derivatives",
           "enclosure": {
             "url": "",
@@ -133,7 +148,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/reproducible-examples-in-blog-posts/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1066,
+          "wordCount": 1062,
           "title": "Reproducible examples in blog posts",
           "enclosure": {
             "url": "",
@@ -148,7 +163,7 @@
           "description": "Avoid common pitfalls new Julia users makeContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/",
           "publishedOn": "2022-09-20T13:17:30.000Z",
-          "wordCount": 931,
+          "wordCount": 927,
           "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
           "enclosure": {
             "url": "",
@@ -163,7 +178,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/",
           "publishedOn": "2022-09-16T05:34:36.000Z",
-          "wordCount": 2279,
+          "wordCount": 2275,
           "title": "Best kept secret of modern CPU technology",
           "enclosure": {
             "url": "",
@@ -178,7 +193,7 @@
           "description": "Tips and tricks for splitting Strings in JuliaContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/",
           "publishedOn": "2022-09-15T13:16:33.000Z",
-          "wordCount": 947,
+          "wordCount": 943,
           "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
           "enclosure": {
             "url": "",
@@ -193,7 +208,7 @@
           "description": "If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/",
           "publishedOn": "2022-09-12T13:02:19.000Z",
-          "wordCount": 965,
+          "wordCount": 961,
           "title": "Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)",
           "enclosure": {
             "url": "",
@@ -208,7 +223,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/julia-tutorial-during-social-simulation-conference-2022/",
           "publishedOn": "2022-09-09T04:13:12.000Z",
-          "wordCount": 2510,
+          "wordCount": 2506,
           "title": "Julia tutorial during Social Simulation Conference 2022",
           "enclosure": {
             "url": "",

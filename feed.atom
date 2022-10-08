@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-07T00:54:57.414Z</id>
+    <id>urn:2022-10-08T00:39:16.499Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-07T00:54:57.414Z</updated>
+    <updated>2022-10-08T00:39:16.499Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -55,6 +55,16 @@ Table of Contents
         <summary type="html"><![CDATA[Competing on Kaggle with Julia.]]></summary>
         <author>
             <name>Jusin Ochalek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is DataFrames.jl Hamiltonian?]]></title>
+        <id>/julialang/2022/09/30/metadata</id>
+        <link href="https://www.juliabloggers.com/is-dataframes-jl-hamiltonian/"/>
+        <updated>2022-09-30T04:51:52.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
     <entry>
