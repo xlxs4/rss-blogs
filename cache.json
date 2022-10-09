@@ -216,21 +216,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/09/09/ssc2022",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/julia-tutorial-during-social-simulation-conference-2022/",
-          "publishedOn": "2022-09-09T04:13:12.000Z",
-          "wordCount": 2506,
-          "title": "Julia tutorial during Social Simulation Conference 2022",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },

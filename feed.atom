@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-08T00:39:16.499Z</id>
+    <id>urn:2022-10-09T00:39:52.462Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-08T00:39:16.499Z</updated>
+    <updated>2022-10-09T00:39:52.462Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -155,16 +155,6 @@ Table of Contents
         <summary type="html"><![CDATA[If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia tutorial during Social Simulation Conference 2022]]></title>
-        <id>/julialang/2022/09/09/ssc2022</id>
-        <link href="https://www.juliabloggers.com/julia-tutorial-during-social-simulation-conference-2022/"/>
-        <updated>2022-09-09T04:13:12.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
 </feed>
