@@ -3,16 +3,26 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
+        {
+          "id": "http://www.stochasticlifestyle.com/?p=1681",
+          "author": "Christopher Rackauckas",
+          "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
+          "link": "http://www.stochasticlifestyle.com/direct-automatic-differentiation-of-solvers-vs-analytical-adjoints-which-is-better/",
+          "publishedOn": "2022-10-11T07:09:53.000Z",
+          "wordCount": 3134,
+          "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
+          "imageUrl": "http://www.stochasticlifestyle.com/wp-content/uploads/2022/10/Capture7.png"
+        },
         {
           "id": "https://www.stochasticlifestyle.com/?p=1670",
           "author": "Christopher Rackauckas",
-          "description": "Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.\nThe goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a \"true\" 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?\n\nThis isn't a new problem: climate scientists have  ... READ MORE\nThe post Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately? appeared first on Stochastic Lifestyle.",
+          "description": "Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.\nThe goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a “true” 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?\n\nThis isn’t a new problem: climate scientists  ... READ MORE\nThe post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.",
           "link": "http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/",
           "publishedOn": "2022-10-04T07:38:56.000Z",
-          "wordCount": 1523,
-          "title": "Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately?",
+          "wordCount": 1510,
+          "title": "Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately?",
           "imageUrl": "http://www.stochasticlifestyle.com/wp-content/uploads/2022/10/Screenshot-2022-10-03-192913.png"
         }
       ]
@@ -23,12 +33,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "http://www.stochasticlifestyle.com/?p=1681",
+          "author": "Christopher Rackauckas",
+          "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
+          "link": "https://www.juliabloggers.com/direct-automatic-differentiation-of-differential-equation-solvers-vs-analytical-adjoints-which-is-better/",
+          "publishedOn": "2022-10-11T07:09:53.000Z",
+          "wordCount": 2959,
+          "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://i0.wp.com/www.stochasticlifestyle.com/wp-content/uploads/2022/10/Capture7.png?resize=2091%2C1010"
+        },
+        {
           "id": "https://medium.com/p/66c1e3173ebc",
           "author": "Logan Kilpatrick",
           "description": "The best online Julia courses you can take for free going into 2023Continue reading on Medium »",
           "link": "https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/",
           "publishedOn": "2022-10-04T13:01:54.000Z",
-          "wordCount": 925,
+          "wordCount": 941,
           "title": "5 free courses to learn Julia —  Start learning today!",
           "enclosure": {
             "url": "",
@@ -43,7 +68,7 @@
           "description": "This is a short post on the cut selection mechanism in SCIP\nand things I used for its implementation in the SCIP.jl Julia wrapper.\nYou can check out the corresponding pull request for completeness.\nTable of Contents\n\n  \n    Callbacks?\n    SCIP plugins\n...",
           "link": "https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/",
           "publishedOn": "2022-10-02T22:00:00.000Z",
-          "wordCount": 2249,
+          "wordCount": 2251,
           "title": "SCIP plugins and the cut selection interface",
           "enclosure": {
             "url": "",
@@ -58,7 +83,7 @@
           "description": "Competing on Kaggle with Julia.",
           "link": "https://www.juliabloggers.com/julia-on-kaggle/",
           "publishedOn": "2022-10-02T00:00:00.000Z",
-          "wordCount": 1709,
+          "wordCount": 1711,
           "title": "Julia on Kaggle",
           "enclosure": {
             "url": "",
@@ -73,7 +98,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/is-dataframes-jl-hamiltonian/",
           "publishedOn": "2022-09-30T04:51:52.000Z",
-          "wordCount": 2168,
+          "wordCount": 2170,
           "title": "Is DataFrames.jl Hamiltonian?",
           "enclosure": {
             "url": "",
@@ -88,7 +113,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knight-covering-puzzle/",
           "publishedOn": "2022-09-30T04:34:32.000Z",
-          "wordCount": 2412,
+          "wordCount": 2414,
           "title": "Knight covering puzzle",
           "enclosure": {
             "url": "",
@@ -103,7 +128,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/tables-output-with-literate-jl/",
           "publishedOn": "2022-09-29T00:00:00.000Z",
-          "wordCount": 1052,
+          "wordCount": 1054,
           "title": "Tables output with Literate.jl",
           "enclosure": {
             "url": "",
@@ -118,7 +143,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/",
           "publishedOn": "2022-09-23T20:12:01.000Z",
-          "wordCount": 2080,
+          "wordCount": 2082,
           "title": "Back to the basics: don’t lag behind with your DataFrames.jl skills",
           "enclosure": {
             "url": "",
@@ -133,7 +158,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/approximating-a-function-using-derivatives/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1479,
+          "wordCount": 1481,
           "title": "Approximating a function using derivatives",
           "enclosure": {
             "url": "",
@@ -148,7 +173,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/reproducible-examples-in-blog-posts/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1062,
+          "wordCount": 1064,
           "title": "Reproducible examples in blog posts",
           "enclosure": {
             "url": "",
@@ -163,7 +188,7 @@
           "description": "Avoid common pitfalls new Julia users makeContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/",
           "publishedOn": "2022-09-20T13:17:30.000Z",
-          "wordCount": 927,
+          "wordCount": 929,
           "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
           "enclosure": {
             "url": "",
@@ -178,7 +203,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/",
           "publishedOn": "2022-09-16T05:34:36.000Z",
-          "wordCount": 2275,
+          "wordCount": 2277,
           "title": "Best kept secret of modern CPU technology",
           "enclosure": {
             "url": "",
@@ -193,7 +218,7 @@
           "description": "Tips and tricks for splitting Strings in JuliaContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/",
           "publishedOn": "2022-09-15T13:16:33.000Z",
-          "wordCount": 943,
+          "wordCount": 945,
           "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
           "enclosure": {
             "url": "",
@@ -208,7 +233,7 @@
           "description": "If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/",
           "publishedOn": "2022-09-12T13:02:19.000Z",
-          "wordCount": 961,
+          "wordCount": 963,
           "title": "Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)",
           "enclosure": {
             "url": "",

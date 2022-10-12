@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-11T00:41:08.658Z</id>
+    <id>urn:2022-10-12T00:53:42.575Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-11T00:41:08.659Z</updated>
+    <updated>2022-10-12T00:53:42.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?]]></title>
+        <id>http://www.stochasticlifestyle.com/?p=1681</id>
+        <link href="http://www.stochasticlifestyle.com/direct-automatic-differentiation-of-solvers-vs-analytical-adjoints-which-is-better/"/>
+        <updated>2022-10-11T07:09:53.000Z</updated>
+        <summary type="html"><![CDATA[Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.
+I’ll give a brief summary of all my materials here below.
+Continuous vs Discrete Differentiation of Solvers
+AD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE
+The post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?]]></title>
+        <id>http://www.stochasticlifestyle.com/?p=1681</id>
+        <link href="https://www.juliabloggers.com/direct-automatic-differentiation-of-differential-equation-solvers-vs-analytical-adjoints-which-is-better/"/>
+        <updated>2022-10-11T07:09:53.000Z</updated>
+        <summary type="html"><![CDATA[Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.
+I’ll give a brief summary of all my materials here below.
+Continuous vs Discrete Differentiation of Solvers
+AD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE
+The post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5 free courses to learn Julia —  Start learning today!]]></title>
         <id>https://medium.com/p/66c1e3173ebc</id>
@@ -16,15 +44,15 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately?]]></title>
+        <title type="html"><![CDATA[Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately?]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1670</id>
         <link href="http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/"/>
         <updated>2022-10-04T07:38:56.000Z</updated>
         <summary type="html"><![CDATA[Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.
-The goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a "true" 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?
+The goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a “true” 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?
 
-This isn't a new problem: climate scientists have  ... READ MORE
-The post Is Differentiable Programming Actually Necessary? Can't you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
+This isn’t a new problem: climate scientists  ... READ MORE
+The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
         </author>
