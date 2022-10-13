@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-12T00:53:42.575Z</id>
+    <id>urn:2022-10-13T00:44:51.474Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-12T00:53:42.575Z</updated>
+    <updated>2022-10-13T00:44:51.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -171,16 +171,6 @@ Table of Contents
         <link href="https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/"/>
         <updated>2022-09-15T13:16:33.000Z</updated>
         <summary type="html"><![CDATA[Tips and tricks for splitting Strings in JuliaContinue reading on Medium »]]></summary>
-        <author>
-            <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)]]></title>
-        <id>https://medium.com/p/641ae3d2a177</id>
-        <link href="https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/"/>
-        <updated>2022-09-12T13:02:19.000Z</updated>
-        <summary type="html"><![CDATA[If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
         </author>

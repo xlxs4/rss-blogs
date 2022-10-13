@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "http://www.stochasticlifestyle.com/?p=1681",
@@ -220,21 +220,6 @@
           "publishedOn": "2022-09-15T13:16:33.000Z",
           "wordCount": 945,
           "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://medium.com/p/641ae3d2a177",
-          "author": "Logan Kilpatrick",
-          "description": "If you have been programming for a while, there’s a good chance you have lived through breaking changes in ecosystems which may have left…Continue reading on Towards Data Science »",
-          "link": "https://www.juliabloggers.com/why-julia-2-0-isnt-coming-anytime-soon-and-why-that-is-a-good-thing/",
-          "publishedOn": "2022-09-12T13:02:19.000Z",
-          "wordCount": 963,
-          "title": "Why Julia 2.0 isn’t coming anytime soon (and why that is a good thing)",
           "enclosure": {
             "url": "",
             "length": "0",
