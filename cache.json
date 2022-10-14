@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "http://www.stochasticlifestyle.com/?p=1681",
@@ -33,12 +33,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "https://jkrumbiegel.com/pages/2022-10-13-gpt3-harry-potter/index.html",
+          "author": "jkrumbiegel.com",
+          "description": "In this blog post, I’ll show how I used Julia and a GPT-3 model (via an online API) in an attempt to analyze the monetary value of items in the Harry Potter novels, and what I learned in the process.",
+          "link": "https://www.juliabloggers.com/extracting-data-from-harry-potter-with-gpt-3/",
+          "publishedOn": "2022-10-12T22:00:00.000Z",
+          "wordCount": 938,
+          "title": "Extracting data from Harry Potter with GPT-3",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://www.stochasticlifestyle.com/?p=1681",
           "author": "Christopher Rackauckas",
           "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
           "link": "https://www.juliabloggers.com/direct-automatic-differentiation-of-differential-equation-solvers-vs-analytical-adjoints-which-is-better/",
           "publishedOn": "2022-10-11T07:09:53.000Z",
-          "wordCount": 2959,
+          "wordCount": 2969,
           "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
           "enclosure": {
             "url": "",
@@ -53,7 +68,7 @@
           "description": "The best online Julia courses you can take for free going into 2023Continue reading on Medium »",
           "link": "https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/",
           "publishedOn": "2022-10-04T13:01:54.000Z",
-          "wordCount": 941,
+          "wordCount": 943,
           "title": "5 free courses to learn Julia —  Start learning today!",
           "enclosure": {
             "url": "",
@@ -68,7 +83,7 @@
           "description": "This is a short post on the cut selection mechanism in SCIP\nand things I used for its implementation in the SCIP.jl Julia wrapper.\nYou can check out the corresponding pull request for completeness.\nTable of Contents\n\n  \n    Callbacks?\n    SCIP plugins\n...",
           "link": "https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/",
           "publishedOn": "2022-10-02T22:00:00.000Z",
-          "wordCount": 2251,
+          "wordCount": 2253,
           "title": "SCIP plugins and the cut selection interface",
           "enclosure": {
             "url": "",
@@ -83,7 +98,7 @@
           "description": "Competing on Kaggle with Julia.",
           "link": "https://www.juliabloggers.com/julia-on-kaggle/",
           "publishedOn": "2022-10-02T00:00:00.000Z",
-          "wordCount": 1711,
+          "wordCount": 1713,
           "title": "Julia on Kaggle",
           "enclosure": {
             "url": "",
@@ -98,7 +113,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/is-dataframes-jl-hamiltonian/",
           "publishedOn": "2022-09-30T04:51:52.000Z",
-          "wordCount": 2170,
+          "wordCount": 2172,
           "title": "Is DataFrames.jl Hamiltonian?",
           "enclosure": {
             "url": "",
@@ -113,7 +128,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knight-covering-puzzle/",
           "publishedOn": "2022-09-30T04:34:32.000Z",
-          "wordCount": 2414,
+          "wordCount": 2416,
           "title": "Knight covering puzzle",
           "enclosure": {
             "url": "",
@@ -128,7 +143,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/tables-output-with-literate-jl/",
           "publishedOn": "2022-09-29T00:00:00.000Z",
-          "wordCount": 1054,
+          "wordCount": 1056,
           "title": "Tables output with Literate.jl",
           "enclosure": {
             "url": "",
@@ -143,7 +158,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/",
           "publishedOn": "2022-09-23T20:12:01.000Z",
-          "wordCount": 2082,
+          "wordCount": 2084,
           "title": "Back to the basics: don’t lag behind with your DataFrames.jl skills",
           "enclosure": {
             "url": "",
@@ -158,7 +173,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/approximating-a-function-using-derivatives/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1481,
+          "wordCount": 1483,
           "title": "Approximating a function using derivatives",
           "enclosure": {
             "url": "",
@@ -173,7 +188,7 @@
           "description": ".",
           "link": "https://www.juliabloggers.com/reproducible-examples-in-blog-posts/",
           "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1064,
+          "wordCount": 1066,
           "title": "Reproducible examples in blog posts",
           "enclosure": {
             "url": "",
@@ -188,7 +203,7 @@
           "description": "Avoid common pitfalls new Julia users makeContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/",
           "publishedOn": "2022-09-20T13:17:30.000Z",
-          "wordCount": 929,
+          "wordCount": 931,
           "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
           "enclosure": {
             "url": "",
@@ -203,7 +218,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/",
           "publishedOn": "2022-09-16T05:34:36.000Z",
-          "wordCount": 2277,
+          "wordCount": 2279,
           "title": "Best kept secret of modern CPU technology",
           "enclosure": {
             "url": "",
@@ -218,7 +233,7 @@
           "description": "Tips and tricks for splitting Strings in JuliaContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/",
           "publishedOn": "2022-09-15T13:16:33.000Z",
-          "wordCount": 945,
+          "wordCount": 947,
           "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
           "enclosure": {
             "url": "",
