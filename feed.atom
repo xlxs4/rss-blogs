@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-14T00:53:24.562Z</id>
+    <id>urn:2022-10-15T00:44:40.669Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-14T00:53:24.562Z</updated>
+    <updated>2022-10-15T00:44:40.669Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[130 graded exercises to train your Julia for data analysis muscle]]></title>
+        <id>/julialang/2022/10/14/exercises</id>
+        <link href="https://www.juliabloggers.com/130-graded-exercises-to-train-your-julia-for-data-analysis-muscle/"/>
+        <updated>2022-10-14T08:51:52.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Extracting data from Harry Potter with GPT-3]]></title>
         <id>https://jkrumbiegel.com/pages/2022-10-13-gpt3-harry-potter/index.html</id>
@@ -41,6 +51,16 @@ AD of a solver can be done in essentially two different ways: either directly pe
 The post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is DataFrames.jl Hamiltonian?]]></title>
+        <id>/julialang/2022/10/07/metadata</id>
+        <link href="https://www.juliabloggers.com/is-dataframes-jl-hamiltonian-2/"/>
+        <updated>2022-10-07T04:51:52.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
     <entry>
