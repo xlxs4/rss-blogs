@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "http://www.stochasticlifestyle.com/?p=1681",
@@ -235,36 +235,6 @@
           "publishedOn": "2022-09-20T13:17:30.000Z",
           "wordCount": 929,
           "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/09/16/benchmarking",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/",
-          "publishedOn": "2022-09-16T05:34:36.000Z",
-          "wordCount": 2277,
-          "title": "Best kept secret of modern CPU technology",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://medium.com/p/374b191a543",
-          "author": "Logan Kilpatrick",
-          "description": "Tips and tricks for splitting Strings in JuliaContinue reading on Medium »",
-          "link": "https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/",
-          "publishedOn": "2022-09-15T13:16:33.000Z",
-          "wordCount": 945,
-          "title": "The only way you should be splitting a String in Julia —  Julia Base.split()",
           "enclosure": {
             "url": "",
             "length": "0",

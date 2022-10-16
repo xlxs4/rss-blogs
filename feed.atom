@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-15T00:44:40.669Z</id>
+    <id>urn:2022-10-16T00:47:51.319Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-15T00:44:40.669Z</updated>
+    <updated>2022-10-16T00:47:51.319Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -181,26 +181,6 @@ Table of Contents
         <link href="https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/"/>
         <updated>2022-09-20T13:17:30.000Z</updated>
         <summary type="html"><![CDATA[Avoid common pitfalls new Julia users makeContinue reading on Medium »]]></summary>
-        <author>
-            <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best kept secret of modern CPU technology]]></title>
-        <id>/julialang/2022/09/16/benchmarking</id>
-        <link href="https://www.juliabloggers.com/best-kept-secret-of-modern-cpu-technology/"/>
-        <updated>2022-09-16T05:34:36.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The only way you should be splitting a String in Julia —  Julia Base.split()]]></title>
-        <id>https://medium.com/p/374b191a543</id>
-        <link href="https://www.juliabloggers.com/the-only-way-you-should-be-splitting-a-string-in-julia-julia-base-split/"/>
-        <updated>2022-09-15T13:16:33.000Z</updated>
-        <summary type="html"><![CDATA[Tips and tricks for splitting Strings in JuliaContinue reading on Medium »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
         </author>
