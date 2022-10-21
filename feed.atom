@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-20T00:41:42.472Z</id>
+    <id>urn:2022-10-21T00:39:57.986Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-20T00:41:42.472Z</updated>
+    <updated>2022-10-21T00:39:57.986Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -153,36 +153,6 @@ Table of Contents
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Approximating a function using derivatives]]></title>
-        <id>https://tamaspapp.eu/pages/blog/2022/hermite-approximation-spectralkit/index.html</id>
-        <link href="https://www.juliabloggers.com/approximating-a-function-using-derivatives/"/>
-        <updated>2022-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[.]]></summary>
-        <author>
-            <name>Tamás K. Papp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reproducible examples in blog posts]]></title>
-        <id>https://tamaspapp.eu/pages/blog/2022/09-14-reproducible-examples/index.html</id>
-        <link href="https://www.juliabloggers.com/reproducible-examples-in-blog-posts/"/>
-        <updated>2022-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[.]]></summary>
-        <author>
-            <name>Tamás K. Papp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tricky concepts in Julia for beginners (and how to overcome them)]]></title>
-        <id>https://medium.com/p/46af1c514d50</id>
-        <link href="https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/"/>
-        <updated>2022-09-20T13:17:30.000Z</updated>
-        <summary type="html"><![CDATA[Avoid common pitfalls new Julia users makeContinue reading on Medium »]]></summary>
-        <author>
-            <name>Logan Kilpatrick</name>
         </author>
     </entry>
 </feed>

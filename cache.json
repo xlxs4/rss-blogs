@@ -196,51 +196,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://tamaspapp.eu/pages/blog/2022/hermite-approximation-spectralkit/index.html",
-          "author": "Tamás K. Papp",
-          "description": ".",
-          "link": "https://www.juliabloggers.com/approximating-a-function-using-derivatives/",
-          "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1481,
-          "title": "Approximating a function using derivatives",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://tamaspapp.eu/pages/blog/2022/09-14-reproducible-examples/index.html",
-          "author": "Tamás K. Papp",
-          "description": ".",
-          "link": "https://www.juliabloggers.com/reproducible-examples-in-blog-posts/",
-          "publishedOn": "2022-09-21T00:00:00.000Z",
-          "wordCount": 1064,
-          "title": "Reproducible examples in blog posts",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://medium.com/p/46af1c514d50",
-          "author": "Logan Kilpatrick",
-          "description": "Avoid common pitfalls new Julia users makeContinue reading on Medium »",
-          "link": "https://www.juliabloggers.com/tricky-concepts-in-julia-for-beginners-and-how-to-overcome-them/",
-          "publishedOn": "2022-09-20T13:17:30.000Z",
-          "wordCount": 929,
-          "title": "Tricky concepts in Julia for beginners (and how to overcome them)",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
