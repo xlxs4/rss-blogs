@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "http://www.stochasticlifestyle.com/?p=1681",
@@ -190,21 +190,6 @@
           "publishedOn": "2022-09-29T00:00:00.000Z",
           "wordCount": 1057,
           "title": "Tables output with Literate.jl",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/09/23/lagging",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/back-to-the-basics-dont-lag-behind-with-your-dataframes-jl-skills/",
-          "publishedOn": "2022-09-23T20:12:01.000Z",
-          "wordCount": 2085,
-          "title": "Back to the basics: don’t lag behind with your DataFrames.jl skills",
           "enclosure": {
             "url": "",
             "length": "0",
