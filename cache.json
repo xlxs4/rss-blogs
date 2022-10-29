@@ -33,12 +33,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "/julialang/2022/10/28/indexing",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/dataframes-jl-indexing-rules/",
+          "publishedOn": "2022-10-28T05:03:44.000Z",
+          "wordCount": 3667,
+          "title": "DataFrames.jl indexing rules",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://medium.com/p/ab51adae091c",
           "author": "Logan Kilpatrick",
           "description": "What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/the-best-julia-programming-books-going-into-2023/",
           "publishedOn": "2022-10-25T12:42:19.000Z",
-          "wordCount": 932,
+          "wordCount": 936,
           "title": "The best Julia programming books going into 2023",
           "enclosure": {
             "url": "",
@@ -190,21 +205,6 @@
           "publishedOn": "2022-09-30T04:34:32.000Z",
           "wordCount": 2422,
           "title": "Knight covering puzzle",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://tamaspapp.eu/pages/blog/2022/markdown-tables/index.html",
-          "author": "Tamás K. Papp",
-          "description": ".",
-          "link": "https://www.juliabloggers.com/tables-output-with-literate-jl/",
-          "publishedOn": "2022-09-29T00:00:00.000Z",
-          "wordCount": 1062,
-          "title": "Tables output with Literate.jl",
           "enclosure": {
             "url": "",
             "length": "0",
