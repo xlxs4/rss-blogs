@@ -204,6 +204,18 @@
       "feedUrl": "http://karpathy.github.io/feed.xml",
       "siteUrl": "http://karpathy.github.io/",
       "articles": []
+    },
+    {
+      "title": "Mosè Giordano",
+      "feedUrl": "https://giordano.github.io/blog/feed.xml",
+      "siteUrl": "http://giordano.github.io",
+      "articles": []
+    },
+    {
+      "title": "Shuhei Kadowaki&#39;s homepage",
+      "feedUrl": "https://aviatesk.github.io/feed.xml",
+      "siteUrl": "https://aviatesk.github.io/",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
