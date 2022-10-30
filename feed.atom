@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-29T00:32:11.588Z</id>
+    <id>urn:2022-10-30T00:42:51.944Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-29T00:32:11.588Z</updated>
+    <updated>2022-10-30T00:42:51.944Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial]]></title>
+        <id>http://www.juliabloggers.com/?guid=44a405e7b6f897b1e6fcbacb7615d0a3</id>
+        <link href="https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/"/>
+        <updated>2022-10-28T23:54:26.000Z</updated>
+        <summary type="html"><![CDATA[undefined]]></summary>
+        <author>
+            <name>n Logan Kilpatrick n</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DataFrames.jl indexing rules]]></title>
         <id>/julialang/2022/10/28/indexing</id>
@@ -143,26 +153,6 @@ Table of Contents
         <summary type="html"><![CDATA[Competing on Kaggle with Julia.]]></summary>
         <author>
             <name>Jusin Ochalek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is DataFrames.jl Hamiltonian?]]></title>
-        <id>/julialang/2022/09/30/metadata</id>
-        <link href="https://www.juliabloggers.com/is-dataframes-jl-hamiltonian/"/>
-        <updated>2022-09-30T04:51:52.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knight covering puzzle]]></title>
-        <id>/julialang/2022/09/30/knights</id>
-        <link href="https://www.juliabloggers.com/knight-covering-puzzle/"/>
-        <updated>2022-09-30T04:34:32.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
 </feed>
