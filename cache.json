@@ -181,21 +181,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://www.justinochalek.com/blog/post2/index.html",
-          "author": "Jusin Ochalek",
-          "description": "Competing on Kaggle with Julia.",
-          "link": "https://www.juliabloggers.com/julia-on-kaggle/",
-          "publishedOn": "2022-10-02T00:00:00.000Z",
-          "wordCount": 1726,
-          "title": "Julia on Kaggle",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },

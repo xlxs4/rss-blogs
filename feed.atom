@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-31T00:42:47.867Z</id>
+    <id>urn:2022-11-01T00:44:42.549Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-31T00:42:47.867Z</updated>
+    <updated>2022-11-01T00:44:42.549Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -143,16 +143,6 @@ Table of Contents
 ...]]></summary>
         <author>
             <name>Julia on μβ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia on Kaggle]]></title>
-        <id>https://www.justinochalek.com/blog/post2/index.html</id>
-        <link href="https://www.juliabloggers.com/julia-on-kaggle/"/>
-        <updated>2022-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Competing on Kaggle with Julia.]]></summary>
-        <author>
-            <name>Jusin Ochalek</name>
         </author>
     </entry>
 </feed>
