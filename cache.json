@@ -166,21 +166,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://matbesancon.xyz/post/2022-10-03-cutselection/",
-          "author": "Julia on μβ",
-          "description": "This is a short post on the cut selection mechanism in SCIP\nand things I used for its implementation in the SCIP.jl Julia wrapper.\nYou can check out the corresponding pull request for completeness.\nTable of Contents\n\n  \n    Callbacks?\n    SCIP plugins\n...",
-          "link": "https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/",
-          "publishedOn": "2022-10-02T22:00:00.000Z",
-          "wordCount": 2266,
-          "title": "SCIP plugins and the cut selection interface",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },

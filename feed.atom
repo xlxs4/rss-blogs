@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-01T00:44:42.549Z</id>
+    <id>urn:2022-11-02T00:41:04.885Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-01T00:44:42.549Z</updated>
+    <updated>2022-11-02T00:41:04.886Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -125,24 +125,6 @@ This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SCIP plugins and the cut selection interface]]></title>
-        <id>https://matbesancon.xyz/post/2022-10-03-cutselection/</id>
-        <link href="https://www.juliabloggers.com/scip-plugins-and-the-cut-selection-interface/"/>
-        <updated>2022-10-02T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a short post on the cut selection mechanism in SCIP
-and things I used for its implementation in the SCIP.jl Julia wrapper.
-You can check out the corresponding pull request for completeness.
-Table of Contents
-
-  
-    Callbacks?
-    SCIP plugins
-...]]></summary>
-        <author>
-            <name>Julia on μβ</name>
         </author>
     </entry>
 </feed>
