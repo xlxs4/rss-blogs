@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-02T00:41:04.885Z</id>
+    <id>urn:2022-11-03T00:37:33.089Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-02T00:41:04.886Z</updated>
+    <updated>2022-11-03T00:37:33.089Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -111,20 +111,6 @@ The post Direct Automatic Differentiation of (Differential Equation) Solvers vs 
         <summary type="html"><![CDATA[The best online Julia courses you can take for free going into 2023Continue reading on Medium »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately?]]></title>
-        <id>https://www.stochasticlifestyle.com/?p=1670</id>
-        <link href="http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/"/>
-        <updated>2022-10-04T07:38:56.000Z</updated>
-        <summary type="html"><![CDATA[Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.
-The goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a “true” 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?
-
-This isn’t a new problem: climate scientists  ... READ MORE
-The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
-        <author>
-            <name>Christopher Rackauckas</name>
         </author>
     </entry>
 </feed>

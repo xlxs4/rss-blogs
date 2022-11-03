@@ -14,16 +14,6 @@
           "wordCount": 3134,
           "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
           "imageUrl": "http://www.stochasticlifestyle.com/wp-content/uploads/2022/10/Capture7.png"
-        },
-        {
-          "id": "https://www.stochasticlifestyle.com/?p=1670",
-          "author": "Christopher Rackauckas",
-          "description": "Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.\nThe goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a “true” 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?\n\nThis isn’t a new problem: climate scientists  ... READ MORE\nThe post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.",
-          "link": "http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/",
-          "publishedOn": "2022-10-04T07:38:56.000Z",
-          "wordCount": 1510,
-          "title": "Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately?",
-          "imageUrl": "http://www.stochasticlifestyle.com/wp-content/uploads/2022/10/Screenshot-2022-10-03-192913.png"
         }
       ]
     },
