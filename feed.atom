@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-03T00:37:33.089Z</id>
+    <id>urn:2022-11-04T00:38:40.003Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-03T00:37:33.089Z</updated>
+    <updated>2022-11-04T00:38:40.003Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[10 examples of embedding Julia in C/C++]]></title>
+        <id>https://medium.com/p/66282477e62c</id>
+        <link href="https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/"/>
+        <updated>2022-11-03T10:19:58.000Z</updated>
+        <summary type="html"><![CDATA[A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...]]></summary>
+        <author>
+            <name>Abel Soares Siqueira</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial]]></title>
         <id>http://www.juliabloggers.com/?guid=44a405e7b6f897b1e6fcbacb7615d0a3</id>
@@ -101,16 +111,6 @@ The post Direct Automatic Differentiation of (Differential Equation) Solvers vs 
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 free courses to learn Julia —  Start learning today!]]></title>
-        <id>https://medium.com/p/66c1e3173ebc</id>
-        <link href="https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/"/>
-        <updated>2022-10-04T13:01:54.000Z</updated>
-        <summary type="html"><![CDATA[The best online Julia courses you can take for free going into 2023Continue reading on Medium »]]></summary>
-        <author>
-            <name>Logan Kilpatrick</name>
         </author>
     </entry>
 </feed>

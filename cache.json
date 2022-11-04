@@ -23,12 +23,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "https://medium.com/p/66282477e62c",
+          "author": "Abel Soares Siqueira",
+          "description": "A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...",
+          "link": "https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/",
+          "publishedOn": "2022-11-03T10:19:58.000Z",
+          "wordCount": 4862,
+          "title": "10 examples of embedding Julia in C/C++",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://www.juliabloggers.com/?guid=44a405e7b6f897b1e6fcbacb7615d0a3",
           "author": "n Logan Kilpatrick n",
           "description": "undefined",
           "link": "https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/",
           "publishedOn": "2022-10-28T23:54:26.000Z",
-          "wordCount": 928,
+          "wordCount": 936,
           "title": "Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial",
           "enclosure": {
             "url": "https://www.freecodecamp.org/news/content/images/2022/10/7-projects-1.png",
@@ -135,21 +150,6 @@
           "publishedOn": "2022-10-07T04:51:52.000Z",
           "wordCount": 2202,
           "title": "Is DataFrames.jl Hamiltonian?",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://medium.com/p/66c1e3173ebc",
-          "author": "Logan Kilpatrick",
-          "description": "The best online Julia courses you can take for free going into 2023Continue reading on Medium »",
-          "link": "https://www.juliabloggers.com/5-free-courses-to-learn-julia-start-learning-today/",
-          "publishedOn": "2022-10-04T13:01:54.000Z",
-          "wordCount": 946,
-          "title": "5 free courses to learn Julia —  Start learning today!",
           "enclosure": {
             "url": "",
             "length": "0",
