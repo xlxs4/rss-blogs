@@ -23,12 +23,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "/julialang/2022/11/04/minilanguage",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/",
+          "publishedOn": "2022-11-04T05:03:44.000Z",
+          "wordCount": 2010,
+          "title": "DataFrames.jl 1.4: operation specification syntax news",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://medium.com/p/66282477e62c",
           "author": "Abel Soares Siqueira",
           "description": "A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...",
           "link": "https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/",
           "publishedOn": "2022-11-03T10:19:58.000Z",
-          "wordCount": 4862,
+          "wordCount": 4865,
           "title": "10 examples of embedding Julia in C/C++",
           "enclosure": {
             "url": "",
@@ -43,7 +58,7 @@
           "description": "undefined",
           "link": "https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/",
           "publishedOn": "2022-10-28T23:54:26.000Z",
-          "wordCount": 936,
+          "wordCount": 932,
           "title": "Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial",
           "enclosure": {
             "url": "https://www.freecodecamp.org/news/content/images/2022/10/7-projects-1.png",
@@ -58,7 +73,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/dataframes-jl-indexing-rules/",
           "publishedOn": "2022-10-28T05:03:44.000Z",
-          "wordCount": 3685,
+          "wordCount": 3681,
           "title": "DataFrames.jl indexing rules",
           "enclosure": {
             "url": "",
@@ -73,7 +88,7 @@
           "description": "What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/the-best-julia-programming-books-going-into-2023/",
           "publishedOn": "2022-10-25T12:42:19.000Z",
-          "wordCount": 943,
+          "wordCount": 939,
           "title": "The best Julia programming books going into 2023",
           "enclosure": {
             "url": "",
@@ -88,7 +103,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/what-is-the-shortest-path-to-alphatensor/",
           "publishedOn": "2022-10-21T04:12:23.000Z",
-          "wordCount": 2914,
+          "wordCount": 2910,
           "title": "What is the shortest path to AlphaTensor?",
           "enclosure": {
             "url": "",
@@ -103,7 +118,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/130-graded-exercises-to-train-your-julia-for-data-analysis-muscle/",
           "publishedOn": "2022-10-14T08:51:52.000Z",
-          "wordCount": 1596,
+          "wordCount": 1592,
           "title": "130 graded exercises to train your Julia for data analysis muscle",
           "enclosure": {
             "url": "",
@@ -118,7 +133,7 @@
           "description": "In this blog post, I’ll show how I used Julia and a GPT-3 model (via an online API) in an attempt to analyze the monetary value of items in the Harry Potter novels, and what I learned in the process.",
           "link": "https://www.juliabloggers.com/extracting-data-from-harry-potter-with-gpt-3/",
           "publishedOn": "2022-10-12T22:00:00.000Z",
-          "wordCount": 963,
+          "wordCount": 959,
           "title": "Extracting data from Harry Potter with GPT-3",
           "enclosure": {
             "url": "",
@@ -133,7 +148,7 @@
           "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
           "link": "https://www.juliabloggers.com/direct-automatic-differentiation-of-differential-equation-solvers-vs-analytical-adjoints-which-is-better/",
           "publishedOn": "2022-10-11T07:09:53.000Z",
-          "wordCount": 2975,
+          "wordCount": 2971,
           "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
           "enclosure": {
             "url": "",
@@ -148,7 +163,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/is-dataframes-jl-hamiltonian-2/",
           "publishedOn": "2022-10-07T04:51:52.000Z",
-          "wordCount": 2202,
+          "wordCount": 2198,
           "title": "Is DataFrames.jl Hamiltonian?",
           "enclosure": {
             "url": "",

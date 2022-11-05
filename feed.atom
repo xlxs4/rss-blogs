@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-04T00:38:40.003Z</id>
+    <id>urn:2022-11-05T00:38:23.734Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-04T00:38:40.003Z</updated>
+    <updated>2022-11-05T00:38:23.734Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DataFrames.jl 1.4: operation specification syntax news]]></title>
+        <id>/julialang/2022/11/04/minilanguage</id>
+        <link href="https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/"/>
+        <updated>2022-11-04T05:03:44.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 examples of embedding Julia in C/C++]]></title>
         <id>https://medium.com/p/66282477e62c</id>
