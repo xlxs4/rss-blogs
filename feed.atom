@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-07T00:33:35.803Z</id>
+    <id>urn:2022-11-08T00:33:47.366Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-07T00:33:35.803Z</updated>
+    <updated>2022-11-08T00:33:47.366Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -43,6 +43,16 @@
         <summary type="html"><![CDATA[A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...]]></summary>
         <author>
             <name>Abel Soares Siqueira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graphs.jl: The Myers difference algorithm]]></title>
+        <id>https://opensourc.es/blog/2022-11-03-graphs.jl-the-myers-difference-algorithm/index.html</id>
+        <link href="https://www.juliabloggers.com/graphs-jl-the-myers-difference-algorithm/"/>
+        <updated>2022-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Julia implementation of the Myers difference algorithm]]></summary>
+        <author>
+            <name>Ole Kröger</name>
         </author>
     </entry>
     <entry>
