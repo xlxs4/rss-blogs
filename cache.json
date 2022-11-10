@@ -3,19 +3,8 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
-      "articles": [
-        {
-          "id": "http://www.stochasticlifestyle.com/?p=1681",
-          "author": "Christopher Rackauckas",
-          "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
-          "link": "http://www.stochasticlifestyle.com/direct-automatic-differentiation-of-solvers-vs-analytical-adjoints-which-is-better/",
-          "publishedOn": "2022-10-11T07:09:53.000Z",
-          "wordCount": 3134,
-          "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
-          "imageUrl": "http://www.stochasticlifestyle.com/wp-content/uploads/2022/10/Capture7.png"
-        }
-      ]
+      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "articles": []
     },
     {
       "title": "juliabloggers.com",
@@ -186,21 +175,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://www.stochasticlifestyle.com/?p=1681",
-          "author": "Christopher Rackauckas",
-          "description": "Automatic differentiation of a “solver” is a subject with many details for doing it in the most  effective form. For this reason, there are a lot of talks and courses that go into lots of depth on the topic. I recently gave a talk on some of the latest stuff in differentiable simulation with the American Statistical Association, and have some detailed notes on such adjoint derivations as part of the 18.337 Parallel Computing and Scientific Machine Learning graduate course at MIT. And there are entire organizations like my SciML Open Source Software Organization which work day-in and day-out on the development of new differentiable solvers.\nI’ll give a brief summary of all my materials here below.\nContinuous vs Discrete Differentiation of Solvers\nAD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE\nThe post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.",
-          "link": "https://www.juliabloggers.com/direct-automatic-differentiation-of-differential-equation-solvers-vs-analytical-adjoints-which-is-better/",
-          "publishedOn": "2022-10-11T07:09:53.000Z",
-          "wordCount": 3052,
-          "title": "Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://i0.wp.com/www.stochasticlifestyle.com/wp-content/uploads/2022/10/Capture7.png?resize=2091%2C1010"
         }
       ]
     },
