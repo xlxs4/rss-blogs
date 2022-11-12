@@ -12,12 +12,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "/julialang/2022/11/11/knights2",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/knights-tour-puzzle/",
+          "publishedOn": "2022-11-11T04:34:32.000Z",
+          "wordCount": 2199,
+          "title": "Knight’s tour puzzle",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://mfiano.net/posts/2022-11-05-programming-languages-i-use/index.html",
           "author": "Michael Fiano",
           "description": "Programming Languages I Use",
           "link": "https://www.juliabloggers.com/programming-languages-i-use-2/",
           "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1331,
+          "wordCount": 1321,
           "title": "Programming Languages I Use",
           "enclosure": {
             "url": "",
@@ -32,7 +47,7 @@
           "description": "Programming Languages I Use",
           "link": "https://www.juliabloggers.com/programming-languages-i-use/",
           "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1331,
+          "wordCount": 1321,
           "title": "Programming Languages I Use",
           "enclosure": {
             "url": "",
@@ -47,7 +62,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/",
           "publishedOn": "2022-11-04T05:03:44.000Z",
-          "wordCount": 2095,
+          "wordCount": 2082,
           "title": "DataFrames.jl 1.4: operation specification syntax news",
           "enclosure": {
             "url": "",
@@ -62,7 +77,7 @@
           "description": "A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...",
           "link": "https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/",
           "publishedOn": "2022-11-03T10:19:58.000Z",
-          "wordCount": 4950,
+          "wordCount": 4937,
           "title": "10 examples of embedding Julia in C/C++",
           "enclosure": {
             "url": "",
@@ -77,7 +92,7 @@
           "description": "A Julia implementation of the Myers difference algorithm",
           "link": "https://www.juliabloggers.com/graphs-jl-the-myers-difference-algorithm/",
           "publishedOn": "2022-11-03T00:00:00.000Z",
-          "wordCount": 998,
+          "wordCount": 985,
           "title": "Graphs.jl: The Myers difference algorithm",
           "enclosure": {
             "url": "",
@@ -92,7 +107,7 @@
           "description": "undefined",
           "link": "https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/",
           "publishedOn": "2022-10-28T23:54:26.000Z",
-          "wordCount": 1011,
+          "wordCount": 998,
           "title": "Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial",
           "enclosure": {
             "url": "https://www.freecodecamp.org/news/content/images/2022/10/7-projects-1.png",
@@ -107,7 +122,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/dataframes-jl-indexing-rules/",
           "publishedOn": "2022-10-28T05:03:44.000Z",
-          "wordCount": 3761,
+          "wordCount": 3748,
           "title": "DataFrames.jl indexing rules",
           "enclosure": {
             "url": "",
@@ -122,7 +137,7 @@
           "description": "What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/the-best-julia-programming-books-going-into-2023/",
           "publishedOn": "2022-10-25T12:42:19.000Z",
-          "wordCount": 1020,
+          "wordCount": 1007,
           "title": "The best Julia programming books going into 2023",
           "enclosure": {
             "url": "",
@@ -137,7 +152,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/what-is-the-shortest-path-to-alphatensor/",
           "publishedOn": "2022-10-21T04:12:23.000Z",
-          "wordCount": 2991,
+          "wordCount": 2978,
           "title": "What is the shortest path to AlphaTensor?",
           "enclosure": {
             "url": "",
@@ -152,23 +167,8 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/130-graded-exercises-to-train-your-julia-for-data-analysis-muscle/",
           "publishedOn": "2022-10-14T08:51:52.000Z",
-          "wordCount": 1672,
+          "wordCount": 1659,
           "title": "130 graded exercises to train your Julia for data analysis muscle",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://jkrumbiegel.com/pages/2022-10-13-gpt3-harry-potter/index.html",
-          "author": "jkrumbiegel.com",
-          "description": "In this blog post, I’ll show how I used Julia and a GPT-3 model (via an online API) in an attempt to analyze the monetary value of items in the Harry Potter novels, and what I learned in the process.",
-          "link": "https://www.juliabloggers.com/extracting-data-from-harry-potter-with-gpt-3/",
-          "publishedOn": "2022-10-12T22:00:00.000Z",
-          "wordCount": 1039,
-          "title": "Extracting data from Harry Potter with GPT-3",
           "enclosure": {
             "url": "",
             "length": "0",
