@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": []
     },
     {
@@ -17,7 +17,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knights-tour-puzzle/",
           "publishedOn": "2022-11-11T04:34:32.000Z",
-          "wordCount": 2199,
+          "wordCount": 2198,
           "title": "Knight’s tour puzzle",
           "enclosure": {
             "url": "",
@@ -32,7 +32,7 @@
           "description": "As a trans-femme on HRT, I would like to know the concentrations of estradiol in my blood at all hours of day. This is useful as the peak, the trough and average all have effects. However, I only get blood tests a finite number of times per day – usually once. I am not a medical doctor, but I am the kind of doctor who can apply scientific modelling to the task of estimating curves based on limited observations. I am honestly surprised no one has done this. The intersection of trans folk and scientific computing is non-trivial. After all, the hardest problem in computer science is gender dysphoria. To do this we are going to use probabilistic programming, to get a distribution of possible level curves. This is a great use-case for probabilistic programming. We have a ton of domain knowledge, but that domain knowledge has a few parameters we don’t know, and we have only a little data. And crucially we are perfectly fine with getting a distribution of answers out, rather than a single answer.",
           "link": "https://www.juliabloggers.com/estimating-estrogen/",
           "publishedOn": "2022-11-11T00:00:00.000Z",
-          "wordCount": 3577,
+          "wordCount": 3576,
           "title": "Estimating Estrogen",
           "enclosure": {
             "url": "",
@@ -47,7 +47,7 @@
           "description": "Programming Languages I Use",
           "link": "https://www.juliabloggers.com/programming-languages-i-use-2/",
           "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1321,
+          "wordCount": 1320,
           "title": "Programming Languages I Use",
           "enclosure": {
             "url": "",
@@ -62,7 +62,7 @@
           "description": "Programming Languages I Use",
           "link": "https://www.juliabloggers.com/programming-languages-i-use/",
           "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1321,
+          "wordCount": 1320,
           "title": "Programming Languages I Use",
           "enclosure": {
             "url": "",
@@ -77,7 +77,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/",
           "publishedOn": "2022-11-04T05:03:44.000Z",
-          "wordCount": 2082,
+          "wordCount": 2081,
           "title": "DataFrames.jl 1.4: operation specification syntax news",
           "enclosure": {
             "url": "",
@@ -92,7 +92,7 @@
           "description": "A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...",
           "link": "https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/",
           "publishedOn": "2022-11-03T10:19:58.000Z",
-          "wordCount": 4937,
+          "wordCount": 4936,
           "title": "10 examples of embedding Julia in C/C++",
           "enclosure": {
             "url": "",
@@ -107,7 +107,7 @@
           "description": "A Julia implementation of the Myers difference algorithm",
           "link": "https://www.juliabloggers.com/graphs-jl-the-myers-difference-algorithm/",
           "publishedOn": "2022-11-03T00:00:00.000Z",
-          "wordCount": 985,
+          "wordCount": 984,
           "title": "Graphs.jl: The Myers difference algorithm",
           "enclosure": {
             "url": "",
@@ -122,7 +122,7 @@
           "description": "undefined",
           "link": "https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/",
           "publishedOn": "2022-10-28T23:54:26.000Z",
-          "wordCount": 998,
+          "wordCount": 997,
           "title": "Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial",
           "enclosure": {
             "url": "https://www.freecodecamp.org/news/content/images/2022/10/7-projects-1.png",
@@ -137,7 +137,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/dataframes-jl-indexing-rules/",
           "publishedOn": "2022-10-28T05:03:44.000Z",
-          "wordCount": 3748,
+          "wordCount": 3747,
           "title": "DataFrames.jl indexing rules",
           "enclosure": {
             "url": "",
@@ -152,7 +152,7 @@
           "description": "What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »",
           "link": "https://www.juliabloggers.com/the-best-julia-programming-books-going-into-2023/",
           "publishedOn": "2022-10-25T12:42:19.000Z",
-          "wordCount": 1007,
+          "wordCount": 1006,
           "title": "The best Julia programming books going into 2023",
           "enclosure": {
             "url": "",
@@ -167,7 +167,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/what-is-the-shortest-path-to-alphatensor/",
           "publishedOn": "2022-10-21T04:12:23.000Z",
-          "wordCount": 2978,
+          "wordCount": 2977,
           "title": "What is the shortest path to AlphaTensor?",
           "enclosure": {
             "url": "",
