@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-17T00:32:59.802Z</id>
+    <id>urn:2022-11-18T00:37:39.843Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-17T00:32:59.802Z</updated>
+    <updated>2022-11-18T00:37:39.843Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Advanced Geodata Science at Arpeggeo®]]></title>
+        <id>https://juliohm.github.io/science/geodatascience/</id>
+        <link href="https://www.juliabloggers.com/advanced-geodata-science-at-arpeggeo/"/>
+        <updated>2022-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Demonstration of our advanced geodata science platform.]]></summary>
+        <author>
+            <name>Júlio Hoffimann</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Knight’s tour puzzle]]></title>
         <id>/julialang/2022/11/11/knights2</id>
