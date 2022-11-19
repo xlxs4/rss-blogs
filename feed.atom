@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-18T00:37:39.843Z</id>
+    <id>urn:2022-11-19T00:35:28.971Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-18T00:37:39.843Z</updated>
+    <updated>2022-11-19T00:35:28.971Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Pivot tables in DataFrames.jl 1.4]]></title>
+        <id>/julialang/2022/11/18/unstack</id>
+        <link href="https://www.juliabloggers.com/pivot-tables-in-dataframes-jl-1-4/"/>
+        <updated>2022-11-18T05:04:45.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trend Following with ETFs]]></title>
+        <id>https://dm13450.github.io/2022/11/18/Trend-Following-with-ETFs.html</id>
+        <link href="https://www.juliabloggers.com/trend-following-with-etfs/"/>
+        <updated>2022-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trend following is a rebranded name for momentum trading strategies. It looks at assets where the price has gone up and buying them because it believes the price will continue to rise and likewise for falling prices where it sells. I’ll use this post t...]]></summary>
+        <author>
+            <name>Dean Markwick&amp;#039;s Blog -- Julia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Advanced Geodata Science at Arpeggeo®]]></title>
         <id>https://juliohm.github.io/science/geodatascience/</id>
