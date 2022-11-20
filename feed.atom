@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-19T00:35:28.971Z</id>
+    <id>urn:2022-11-20T00:35:52.788Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-19T00:35:28.971Z</updated>
+    <updated>2022-11-20T00:35:52.788Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -133,16 +133,6 @@
         <summary type="html"><![CDATA[What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is the shortest path to AlphaTensor?]]></title>
-        <id>/julialang/2022/10/21/distances</id>
-        <link href="https://www.juliabloggers.com/what-is-the-shortest-path-to-alphatensor/"/>
-        <updated>2022-10-21T04:12:23.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
 </feed>

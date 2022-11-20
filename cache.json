@@ -205,21 +205,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/10/21/distances",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/what-is-the-shortest-path-to-alphatensor/",
-          "publishedOn": "2022-10-21T04:12:23.000Z",
-          "wordCount": 2970,
-          "title": "What is the shortest path to AlphaTensor?",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
