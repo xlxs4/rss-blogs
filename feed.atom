@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-21T00:34:19.843Z</id>
+    <id>urn:2022-11-22T00:36:02.756Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-21T00:34:19.843Z</updated>
+    <updated>2022-11-22T00:36:02.756Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Here’s why quantum computing could be the big break for the Julia Language]]></title>
+        <id>https://medium.com/p/4684eb15bc12</id>
+        <link href="https://www.juliabloggers.com/heres-why-quantum-computing-could-be-the-big-break-for-the-julia-language/"/>
+        <updated>2022-11-21T14:17:11.000Z</updated>
+        <summary type="html"><![CDATA[How Julia might be well positioned for the quantum revolutionContinue reading on Medium »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pivot tables in DataFrames.jl 1.4]]></title>
         <id>/julialang/2022/11/18/unstack</id>
