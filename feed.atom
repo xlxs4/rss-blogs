@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-24T00:34:48.750Z</id>
+    <id>urn:2022-11-25T00:31:34.819Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-24T00:34:48.750Z</updated>
+    <updated>2022-11-25T00:31:34.820Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Integrating equation solvers with probabilistic programming through differentiable programming]]></title>
+        <id>https://www.stochasticlifestyle.com/?p=1705</id>
+        <link href="http://www.stochasticlifestyle.com/integrating-equation-solvers-with-probabilistic-programming-through-differentiable-programming/"/>
+        <updated>2022-11-24T01:04:59.000Z</updated>
+        <summary type="html"><![CDATA[Part of the COMPUTATIONAL ABSTRACTIONS FOR PROBABILISTIC AND DIFFERENTIABLE PROGRAMMING WORKSHOP
+Abstract: Many probabilistic programming languages (PPLs) attempt to integrate with equation solvers (differential equations, nonlinear equations, partial differential equations, etc.) from the inside, i.e. the developers of the PPLs like Stan provide differential equation solver choices as part of the suite. However, as equation solvers are an entire discipline to themselves with many active development communities and subfields, this places an immense burden on PPL developers to keep up with the changing landscape of tens of thousands of independent researchers. In this talk we will explore how Julia PPLs such as Turing.jl support of equation solvers from the outside, i.e. how the tools of differentiable programming allows equation solver libraries to be compatible with PPLs  ... READ MORE
+The post Integrating equation solvers with probabilistic programming through differentiable programming appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating equation solvers with probabilistic programming through differentiable programming]]></title>
+        <id>https://www.stochasticlifestyle.com/?p=1705</id>
+        <link href="https://www.juliabloggers.com/integrating-equation-solvers-with-probabilistic-programming-through-differentiable-programming/"/>
+        <updated>2022-11-24T01:04:59.000Z</updated>
+        <summary type="html"><![CDATA[Part of the COMPUTATIONAL ABSTRACTIONS FOR PROBABILISTIC AND DIFFERENTIABLE PROGRAMMING WORKSHOP
+Abstract: Many probabilistic programming languages (PPLs) attempt to integrate with equation solvers (differential equations, nonlinear equations, partial differential equations, etc.) from the inside, i.e. the developers of the PPLs like Stan provide differential equation solver choices as part of the suite. However, as equation solvers are an entire discipline to themselves with many active development communities and subfields, this places an immense burden on PPL developers to keep up with the changing landscape of tens of thousands of independent researchers. In this talk we will explore how Julia PPLs such as Turing.jl support of equation solvers from the outside, i.e. how the tools of differentiable programming allows equation solver libraries to be compatible with PPLs  ... READ MORE
+The post Integrating equation solvers with probabilistic programming through differentiable programming appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Here’s why quantum computing could be the big break for the Julia Language]]></title>
         <id>https://medium.com/p/4684eb15bc12</id>
@@ -133,16 +157,6 @@
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Julia programming books going into 2023]]></title>
-        <id>https://medium.com/p/ab51adae091c</id>
-        <link href="https://www.juliabloggers.com/the-best-julia-programming-books-going-into-2023/"/>
-        <updated>2022-10-25T12:42:19.000Z</updated>
-        <summary type="html"><![CDATA[What are the Julia books you should read to learn the language?Continue reading on Towards Data Science »]]></summary>
-        <author>
-            <name>Logan Kilpatrick</name>
         </author>
     </entry>
 </feed>
