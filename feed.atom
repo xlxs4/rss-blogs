@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-25T00:31:34.819Z</id>
+    <id>urn:2022-11-26T00:27:51.000Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-25T00:31:34.820Z</updated>
+    <updated>2022-11-26T00:27:51.000Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The mighty trio: Project Euler, Simpson’s paradox, and DataFrames.jl]]></title>
+        <id>/julialang/2022/11/25/paradox</id>
+        <link href="https://www.juliabloggers.com/the-mighty-trio-project-euler-simpsons-paradox-and-dataframes-jl/"/>
+        <updated>2022-11-25T04:12:31.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Integrating equation solvers with probabilistic programming through differentiable programming]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1705</id>
