@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-26T00:27:51.000Z</id>
+    <id>urn:2022-11-27T00:32:59.831Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-26T00:27:51.000Z</updated>
+    <updated>2022-11-27T00:32:59.831Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -157,16 +157,6 @@ The post Integrating equation solvers with probabilistic programming through dif
         <summary type="html"><![CDATA[undefined]]></summary>
         <author>
             <name>n Logan Kilpatrick n</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DataFrames.jl indexing rules]]></title>
-        <id>/julialang/2022/10/28/indexing</id>
-        <link href="https://www.juliabloggers.com/dataframes-jl-indexing-rules/"/>
-        <updated>2022-10-28T05:03:44.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
 </feed>
