@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-27T00:32:59.831Z</id>
+    <id>urn:2022-11-28T00:28:58.930Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-27T00:32:59.831Z</updated>
+    <updated>2022-11-28T00:28:58.930Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -147,16 +147,6 @@ The post Integrating equation solvers with probabilistic programming through dif
         <summary type="html"><![CDATA[A Julia implementation of the Myers difference algorithm]]></summary>
         <author>
             <name>Ole Kröger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial]]></title>
-        <id>http://www.juliabloggers.com/?guid=44a405e7b6f897b1e6fcbacb7615d0a3</id>
-        <link href="https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/"/>
-        <updated>2022-10-28T23:54:26.000Z</updated>
-        <summary type="html"><![CDATA[undefined]]></summary>
-        <author>
-            <name>n Logan Kilpatrick n</name>
         </author>
     </entry>
 </feed>

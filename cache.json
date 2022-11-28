@@ -216,21 +216,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://www.juliabloggers.com/?guid=44a405e7b6f897b1e6fcbacb7615d0a3",
-          "author": "n Logan Kilpatrick n",
-          "description": "undefined",
-          "link": "https://www.juliabloggers.com/learn-julia-by-coding-7-projects-hands-on-programming-tutorial/",
-          "publishedOn": "2022-10-28T23:54:26.000Z",
-          "wordCount": 1003,
-          "title": "Learn Julia by Coding 7 Projects – Hands-On Programming Tutorial",
-          "enclosure": {
-            "url": "https://www.freecodecamp.org/news/content/images/2022/10/7-projects-1.png",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
