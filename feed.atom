@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-28T00:28:58.930Z</id>
+    <id>urn:2022-11-29T00:32:04.920Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-28T00:28:58.930Z</updated>
+    <updated>2022-11-29T00:32:04.920Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[No, Julia is not 34,000,000,000 times faster than Python]]></title>
+        <id>https://medium.com/p/f63e956313d7</id>
+        <link href="https://www.juliabloggers.com/no-julia-is-not-34000000000-times-faster-than-python/"/>
+        <updated>2022-11-28T15:17:02.000Z</updated>
+        <summary type="html"><![CDATA[Julia is fast, but not THAT fast, an honest look at performanceContinue reading on JuliaZoid »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The mighty trio: Project Euler, Simpson’s paradox, and DataFrames.jl]]></title>
         <id>/julialang/2022/11/25/paradox</id>
