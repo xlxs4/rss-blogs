@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-30T00:32:02.967Z</id>
+    <id>urn:2022-12-01T00:35:00.830Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-30T00:32:02.967Z</updated>
+    <updated>2022-12-01T00:35:00.830Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[10 Simple Reasons to Learn the Julia Programming Language (in 2023)]]></title>
+        <id>https://medium.com/p/453a4dafab32</id>
+        <link href="https://www.juliabloggers.com/10-simple-reasons-to-learn-the-julia-programming-language-in-2023/"/>
+        <updated>2022-11-30T15:58:51.000Z</updated>
+        <summary type="html"><![CDATA[Why you should be using Julia in 2023Continue reading on JuliaZoid »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[No, Julia is not 34,000,000,000 times faster than Python]]></title>
         <id>https://medium.com/p/f63e956313d7</id>
