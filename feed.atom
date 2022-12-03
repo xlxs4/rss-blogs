@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-02T00:29:14.092Z</id>
+    <id>urn:2022-12-03T00:27:10.994Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-02T00:29:14.092Z</updated>
+    <updated>2022-12-03T00:27:10.994Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Automatically generate comments for your Julia code with OpenAI.jl and GPT-3]]></title>
+        <id>https://medium.com/p/8dcff3d8672d</id>
+        <link href="https://www.juliabloggers.com/automatically-generate-comments-for-your-julia-code-with-openai-jl-and-gpt-3/"/>
+        <updated>2022-12-02T15:17:13.000Z</updated>
+        <summary type="html"><![CDATA[Use large language models to improve your Julia codeContinue reading on Medium »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metadata in DataFrames.jl: why and how?]]></title>
+        <id>/julialang/2022/12/02/metadata</id>
+        <link href="https://www.juliabloggers.com/metadata-in-dataframes-jl-why-and-how/"/>
+        <updated>2022-12-02T03:42:12.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 Simple Reasons to Learn the Julia Programming Language (in 2023)]]></title>
         <id>https://medium.com/p/453a4dafab32</id>
@@ -147,26 +167,6 @@ The post Integrating equation solvers with probabilistic programming through dif
         <summary type="html"><![CDATA[Introduction]]></summary>
         <author>
             <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 examples of embedding Julia in C/C++]]></title>
-        <id>https://medium.com/p/66282477e62c</id>
-        <link href="https://www.juliabloggers.com/10-examples-of-embedding-julia-in-c-c/"/>
-        <updated>2022-11-03T10:19:58.000Z</updated>
-        <summary type="html"><![CDATA[A beginner-friendly collection of examplesWe can put C/C++ inside Julia, and Julia inside C/C++, but wait until we call C/C++ from Julia from C/C++. This image is derived from the photos of Andrej Lišakov and Kelli McClintock found on Unsplash.I have b...]]></summary>
-        <author>
-            <name>Abel Soares Siqueira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graphs.jl: The Myers difference algorithm]]></title>
-        <id>https://opensourc.es/blog/2022-11-03-graphs.jl-the-myers-difference-algorithm/index.html</id>
-        <link href="https://www.juliabloggers.com/graphs-jl-the-myers-difference-algorithm/"/>
-        <updated>2022-11-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A Julia implementation of the Myers difference algorithm]]></summary>
-        <author>
-            <name>Ole Kröger</name>
         </author>
     </entry>
 </feed>
