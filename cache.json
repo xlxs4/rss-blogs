@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -225,21 +225,6 @@
           "publishedOn": "2022-11-05T00:00:00.000Z",
           "wordCount": 1350,
           "title": "Programming Languages I Use",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/11/04/minilanguage",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/",
-          "publishedOn": "2022-11-04T05:03:44.000Z",
-          "wordCount": 2111,
-          "title": "DataFrames.jl 1.4: operation specification syntax news",
           "enclosure": {
             "url": "",
             "length": "0",

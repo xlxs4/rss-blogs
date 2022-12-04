@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-03T00:27:10.994Z</id>
+    <id>urn:2022-12-04T00:28:24.744Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-03T00:27:10.994Z</updated>
+    <updated>2022-12-04T00:28:24.744Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -157,16 +157,6 @@ The post Integrating equation solvers with probabilistic programming through dif
         <summary type="html"><![CDATA[Programming Languages I Use]]></summary>
         <author>
             <name>Michael Fiano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DataFrames.jl 1.4: operation specification syntax news]]></title>
-        <id>/julialang/2022/11/04/minilanguage</id>
-        <link href="https://www.juliabloggers.com/dataframes-jl-1-4-operation-specification-syntax-news/"/>
-        <updated>2022-11-04T05:03:44.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
         </author>
     </entry>
 </feed>
