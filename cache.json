@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -195,36 +195,6 @@
           "publishedOn": "2022-11-11T00:00:00.000Z",
           "wordCount": 3606,
           "title": "Estimating Estrogen",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://mfiano.net/posts/2022-11-05-programming-languages-i-use/index.html",
-          "author": "Michael Fiano",
-          "description": "Programming Languages I Use",
-          "link": "https://www.juliabloggers.com/programming-languages-i-use-2/",
-          "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1350,
-          "title": "Programming Languages I Use",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://mfiano.net/posts/2022-09-04-programming-languages-i-use/index.html",
-          "author": "Michael Fiano",
-          "description": "Programming Languages I Use",
-          "link": "https://www.juliabloggers.com/programming-languages-i-use/",
-          "publishedOn": "2022-11-05T00:00:00.000Z",
-          "wordCount": 1350,
-          "title": "Programming Languages I Use",
           "enclosure": {
             "url": "",
             "length": "0",
