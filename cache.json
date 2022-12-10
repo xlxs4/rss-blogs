@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -23,12 +23,27 @@
       "siteUrl": "https://www.juliabloggers.com",
       "articles": [
         {
+          "id": "/julialang/2022/12/09/lessons",
+          "author": "Blog by Bogumił Kamiński",
+          "description": "Introduction",
+          "link": "https://www.juliabloggers.com/lessons-in-the-fundamentals-of-julia-from-master-toshiro-kageyama/",
+          "publishedOn": "2022-12-09T04:12:12.000Z",
+          "wordCount": 3048,
+          "title": "Lessons in the fundamentals of Julia from master Toshiro Kageyama",
+          "enclosure": {
+            "url": "",
+            "length": "0",
+            "type": ""
+          },
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://medium.com/p/8dcff3d8672d",
           "author": "Logan Kilpatrick",
           "description": "Use large language models to improve your Julia codeContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/automatically-generate-comments-for-your-julia-code-with-openai-jl-and-gpt-3/",
           "publishedOn": "2022-12-02T15:17:13.000Z",
-          "wordCount": 1032,
+          "wordCount": 1048,
           "title": "Automatically generate comments for your Julia code with OpenAI.jl and GPT-3",
           "enclosure": {
             "url": "",
@@ -43,7 +58,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/metadata-in-dataframes-jl-why-and-how/",
           "publishedOn": "2022-12-02T03:42:12.000Z",
-          "wordCount": 4915,
+          "wordCount": 4920,
           "title": "Metadata in DataFrames.jl: why and how?",
           "enclosure": {
             "url": "",
@@ -58,7 +73,7 @@
           "description": "Why you should be using Julia in 2023Continue reading on JuliaZoid »",
           "link": "https://www.juliabloggers.com/10-simple-reasons-to-learn-the-julia-programming-language-in-2023/",
           "publishedOn": "2022-11-30T15:58:51.000Z",
-          "wordCount": 1041,
+          "wordCount": 1046,
           "title": "10 Simple Reasons to Learn the Julia Programming Language (in 2023)",
           "enclosure": {
             "url": "",
@@ -73,7 +88,7 @@
           "description": "Julia is fast, but not THAT fast, an honest look at performanceContinue reading on JuliaZoid »",
           "link": "https://www.juliabloggers.com/no-julia-is-not-34000000000-times-faster-than-python/",
           "publishedOn": "2022-11-28T15:17:02.000Z",
-          "wordCount": 1045,
+          "wordCount": 1050,
           "title": "No, Julia is not 34,000,000,000 times faster than Python",
           "enclosure": {
             "url": "",
@@ -88,7 +103,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/the-mighty-trio-project-euler-simpsons-paradox-and-dataframes-jl/",
           "publishedOn": "2022-11-25T04:12:31.000Z",
-          "wordCount": 3196,
+          "wordCount": 3201,
           "title": "The mighty trio: Project Euler, Simpson’s paradox, and DataFrames.jl",
           "enclosure": {
             "url": "",
@@ -103,7 +118,7 @@
           "description": "Part of the COMPUTATIONAL ABSTRACTIONS FOR PROBABILISTIC AND DIFFERENTIABLE PROGRAMMING WORKSHOP\nAbstract: Many probabilistic programming languages (PPLs) attempt to integrate with equation solvers (differential equations, nonlinear equations, partial differential equations, etc.) from the inside, i.e. the developers of the PPLs like Stan provide differential equation solver choices as part of the suite. However, as equation solvers are an entire discipline to themselves with many active development communities and subfields, this places an immense burden on PPL developers to keep up with the changing landscape of tens of thousands of independent researchers. In this talk we will explore how Julia PPLs such as Turing.jl support of equation solvers from the outside, i.e. how the tools of differentiable programming allows equation solver libraries to be compatible with PPLs  ... READ MORE\nThe post Integrating equation solvers with probabilistic programming through differentiable programming appeared first on Stochastic Lifestyle.",
           "link": "https://www.juliabloggers.com/integrating-equation-solvers-with-probabilistic-programming-through-differentiable-programming/",
           "publishedOn": "2022-11-24T01:04:59.000Z",
-          "wordCount": 1227,
+          "wordCount": 1232,
           "title": "Integrating equation solvers with probabilistic programming through differentiable programming",
           "enclosure": {
             "url": "",
@@ -118,7 +133,7 @@
           "description": "How Julia might be well positioned for the quantum revolutionContinue reading on Medium »",
           "link": "https://www.juliabloggers.com/heres-why-quantum-computing-could-be-the-big-break-for-the-julia-language/",
           "publishedOn": "2022-11-21T14:17:11.000Z",
-          "wordCount": 1045,
+          "wordCount": 1050,
           "title": "Here’s why quantum computing could be the big break for the Julia Language",
           "enclosure": {
             "url": "",
@@ -133,7 +148,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/pivot-tables-in-dataframes-jl-1-4/",
           "publishedOn": "2022-11-18T05:04:45.000Z",
-          "wordCount": 3030,
+          "wordCount": 3035,
           "title": "Pivot tables in DataFrames.jl 1.4",
           "enclosure": {
             "url": "",
@@ -148,7 +163,7 @@
           "description": "Trend following is a rebranded name for momentum trading strategies. It looks at assets where the price has gone up and buying them because it believes the price will continue to rise and likewise for falling prices where it sells. I’ll use this post t...",
           "link": "https://www.juliabloggers.com/trend-following-with-etfs/",
           "publishedOn": "2022-11-18T00:00:00.000Z",
-          "wordCount": 3846,
+          "wordCount": 3851,
           "title": "Trend Following with ETFs",
           "enclosure": {
             "url": "",
@@ -163,7 +178,7 @@
           "description": "Demonstration of our advanced geodata science platform.",
           "link": "https://www.juliabloggers.com/advanced-geodata-science-at-arpeggeo/",
           "publishedOn": "2022-11-17T00:00:00.000Z",
-          "wordCount": 1000,
+          "wordCount": 1005,
           "title": "Advanced Geodata Science at Arpeggeo®",
           "enclosure": {
             "url": "",
@@ -178,7 +193,7 @@
           "description": "Introduction",
           "link": "https://www.juliabloggers.com/knights-tour-puzzle/",
           "publishedOn": "2022-11-11T04:34:32.000Z",
-          "wordCount": 2234,
+          "wordCount": 2239,
           "title": "Knight’s tour puzzle",
           "enclosure": {
             "url": "",
@@ -193,7 +208,7 @@
           "description": "As a trans-femme on HRT, I would like to know the concentrations of estradiol in my blood at all hours of day. This is useful as the peak, the trough and average all have effects. However, I only get blood tests a finite number of times per day – usually once. I am not a medical doctor, but I am the kind of doctor who can apply scientific modelling to the task of estimating curves based on limited observations. I am honestly surprised no one has done this. The intersection of trans folk and scientific computing is non-trivial. After all, the hardest problem in computer science is gender dysphoria. To do this we are going to use probabilistic programming, to get a distribution of possible level curves. This is a great use-case for probabilistic programming. We have a ton of domain knowledge, but that domain knowledge has a few parameters we don’t know, and we have only a little data. And crucially we are perfectly fine with getting a distribution of answers out, rather than a single answer.",
           "link": "https://www.juliabloggers.com/estimating-estrogen/",
           "publishedOn": "2022-11-11T00:00:00.000Z",
-          "wordCount": 3606,
+          "wordCount": 3611,
           "title": "Estimating Estrogen",
           "enclosure": {
             "url": "",

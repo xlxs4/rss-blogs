@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-09T00:29:55.666Z</id>
+    <id>urn:2022-12-10T00:26:29.629Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-09T00:29:55.666Z</updated>
+    <updated>2022-12-10T00:26:29.629Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Lessons in the fundamentals of Julia from master Toshiro Kageyama]]></title>
+        <id>/julialang/2022/12/09/lessons</id>
+        <link href="https://www.juliabloggers.com/lessons-in-the-fundamentals-of-julia-from-master-toshiro-kageyama/"/>
+        <updated>2022-12-09T04:12:12.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automatically generate comments for your Julia code with OpenAI.jl and GPT-3]]></title>
         <id>https://medium.com/p/8dcff3d8672d</id>
