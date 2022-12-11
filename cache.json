@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -180,36 +180,6 @@
           "publishedOn": "2022-11-17T00:00:00.000Z",
           "wordCount": 1005,
           "title": "Advanced Geodata Science at Arpeggeo®",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "/julialang/2022/11/11/knights2",
-          "author": "Blog by Bogumił Kamiński",
-          "description": "Introduction",
-          "link": "https://www.juliabloggers.com/knights-tour-puzzle/",
-          "publishedOn": "2022-11-11T04:34:32.000Z",
-          "wordCount": 2239,
-          "title": "Knight’s tour puzzle",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://www.oxinabox.net/2022/11/11/Estimating-Estrogen",
-          "author": "oxinabox.github.io",
-          "description": "As a trans-femme on HRT, I would like to know the concentrations of estradiol in my blood at all hours of day. This is useful as the peak, the trough and average all have effects. However, I only get blood tests a finite number of times per day – usually once. I am not a medical doctor, but I am the kind of doctor who can apply scientific modelling to the task of estimating curves based on limited observations. I am honestly surprised no one has done this. The intersection of trans folk and scientific computing is non-trivial. After all, the hardest problem in computer science is gender dysphoria. To do this we are going to use probabilistic programming, to get a distribution of possible level curves. This is a great use-case for probabilistic programming. We have a ton of domain knowledge, but that domain knowledge has a few parameters we don’t know, and we have only a little data. And crucially we are perfectly fine with getting a distribution of answers out, rather than a single answer.",
-          "link": "https://www.juliabloggers.com/estimating-estrogen/",
-          "publishedOn": "2022-11-11T00:00:00.000Z",
-          "wordCount": 3611,
-          "title": "Estimating Estrogen",
           "enclosure": {
             "url": "",
             "length": "0",
