@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-12T00:31:23.740Z</id>
+    <id>urn:2022-12-13T00:32:29.891Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-12T00:31:23.740Z</updated>
+    <updated>2022-12-13T00:32:29.891Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Here’s why startups are building with the Julia Programming Language]]></title>
+        <id>https://medium.com/p/5addadac3bdc</id>
+        <link href="https://www.juliabloggers.com/heres-why-startups-are-building-with-the-julia-programming-language/"/>
+        <updated>2022-12-12T13:16:48.000Z</updated>
+        <summary type="html"><![CDATA[Julia is powering the next wave of biomedical, machine learning, and climate startupsContinue reading on JuliaZoid »]]></summary>
+        <author>
+            <name>Logan Kilpatrick</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lessons in the fundamentals of Julia from master Toshiro Kageyama]]></title>
         <id>/julialang/2022/12/09/lessons</id>
