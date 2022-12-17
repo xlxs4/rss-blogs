@@ -201,21 +201,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://juliohm.github.io/science/geodatascience/",
-          "author": "Júlio Hoffimann",
-          "description": "Demonstration of our advanced geodata science platform.",
-          "link": "https://www.juliabloggers.com/advanced-geodata-science-at-arpeggeo/",
-          "publishedOn": "2022-11-17T00:00:00.000Z",
-          "wordCount": 1013,
-          "title": "Advanced Geodata Science at Arpeggeo®",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
