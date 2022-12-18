@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-17T00:26:41.107Z</id>
+    <id>urn:2022-12-18T00:27:35.734Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-17T00:26:41.107Z</updated>
+    <updated>2022-12-18T00:27:35.734Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Handling summary statistics of empty collections]]></title>
+        <id>/julialang/2022/12/17/empty</id>
+        <link href="https://www.juliabloggers.com/handling-summary-statistics-of-empty-collections/"/>
+        <updated>2022-12-17T06:23:45.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <author>
+            <name>Blog by Bogumił Kamiński</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚧 WIP 🚧 From Julia to BQN]]></title>
         <id>http://www.juliabloggers.com/?guid=8f14e45fceea167a5a36dedd4bea2543</id>
@@ -117,26 +127,6 @@ The post Integrating equation solvers with probabilistic programming through dif
         <summary type="html"><![CDATA[How Julia might be well positioned for the quantum revolutionContinue reading on Medium »]]></summary>
         <author>
             <name>Logan Kilpatrick</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pivot tables in DataFrames.jl 1.4]]></title>
-        <id>/julialang/2022/11/18/unstack</id>
-        <link href="https://www.juliabloggers.com/pivot-tables-in-dataframes-jl-1-4/"/>
-        <updated>2022-11-18T05:04:45.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <author>
-            <name>Blog by Bogumił Kamiński</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trend Following with ETFs]]></title>
-        <id>https://dm13450.github.io/2022/11/18/Trend-Following-with-ETFs.html</id>
-        <link href="https://www.juliabloggers.com/trend-following-with-etfs/"/>
-        <updated>2022-11-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Trend following is a rebranded name for momentum trading strategies. It looks at assets where the price has gone up and buying them because it believes the price will continue to rise and likewise for falling prices where it sells. I’ll use this post t...]]></summary>
-        <author>
-            <name>Dean Markwick&amp;#039;s Blog -- Julia</name>
         </author>
     </entry>
 </feed>
