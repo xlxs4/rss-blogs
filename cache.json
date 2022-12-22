@@ -171,21 +171,6 @@
             "type": ""
           },
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://medium.com/p/4684eb15bc12",
-          "author": "Logan Kilpatrick",
-          "description": "How Julia might be well positioned for the quantum revolutionContinue reading on Medium »",
-          "link": "https://www.juliabloggers.com/heres-why-quantum-computing-could-be-the-big-break-for-the-julia-language/",
-          "publishedOn": "2022-11-21T14:17:11.000Z",
-          "wordCount": 1051,
-          "title": "Here’s why quantum computing could be the big break for the Julia Language",
-          "enclosure": {
-            "url": "",
-            "length": "0",
-            "type": ""
-          },
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
