@@ -152,16 +152,6 @@
           "wordCount": 534,
           "title": "Adventures in Face Space",
           "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/2022/03/02/fungible.html",
-          "author": null,
-          "description": "It’s easy to mock NFTs (non-fungible tokens),[^1] or even to feel cynical about them. Cryptocurrency enthusiasts are spending enough cash to buy a rather nice house, and instead receiving a signed URL for a digital work of art, like this one.",
-          "link": "https://mikeinnes.io/2022/03/02/fungible.html",
-          "publishedOn": "2022-03-02T00:00:00.000Z",
-          "wordCount": 1335,
-          "title": "The Fun in Non-Fungible",
-          "imageUrl": null
         }
       ]
     }
