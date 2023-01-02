@@ -154,6 +154,23 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "Tom Kwong's Infinite Loop",
+      "feedUrl": "https://ahsmart.com/feed.xml",
+      "siteUrl": "https://ahsmart.com/",
+      "articles": [
+        {
+          "id": "https://ahsmart.com/pub/hiring-talents/index.html",
+          "author": null,
+          "description": "Hiring talents is not the same as finding someone with specific experience\nRead more",
+          "link": "https://ahsmart.com/pub/hiring-talents/index.html",
+          "publishedOn": "2022-04-09T00:00:00.000Z",
+          "wordCount": 883,
+          "title": "Hiring talents is not the same as finding someone with specific experience",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

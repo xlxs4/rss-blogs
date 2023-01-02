@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-02T00:29:07.500Z</id>
-    <title>osmos::feed</title>
-    <updated>2023-01-02T00:29:07.500Z</updated>
+    <id>urn:2023-01-02T12:43:45.138Z</id>
+    <title>A curated list of ramblings</title>
+    <updated>2023-01-02T12:43:45.138Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -108,6 +108,17 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
         <summary type="html"><![CDATA[This post isn’t about the first macro I wrote in the Julia programming language, but it can be about your first macro. Frequently Asked Questions Question: What are macros in Julia? Answer: Macros are sort of functions which take as input unevaluated expressions (Expr) and return as output another expression,...]]></summary>
         <author>
             <name>Mosè Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hiring talents is not the same as finding someone with specific experience]]></title>
+        <id>https://ahsmart.com/pub/hiring-talents/index.html</id>
+        <link href="https://ahsmart.com/pub/hiring-talents/index.html"/>
+        <updated>2022-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hiring talents is not the same as finding someone with specific experience
+Read more]]></summary>
+        <author>
+            <name>Tom Kwong's Infinite Loop</name>
         </author>
     </entry>
     <entry>
