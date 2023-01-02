@@ -10,6 +10,7 @@ sources:
   - href: https://giordano.github.io/blog/feed.xml # Mose Giordano
   - href: https://aviatesk.github.io/feed.xml # shuhei (@aviatesk)
   - href: https://mikeinnes.io/feed.xml # Mike J Innes
+  - href: https://ahsmart.com/feed.xml # Tom Kwong
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
