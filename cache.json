@@ -171,6 +171,43 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "JuliaLang - The Julia programming language",
+      "feedUrl": "https://julialang.org/feed.xml",
+      "siteUrl": "https://julialang.org/",
+      "articles": [
+        {
+          "id": "https://julialang.org/blog/2022/08/julia-1.8-highlights/",
+          "author": null,
+          "description": "Highlights of the Julia 1.8 release.\nRead more",
+          "link": "https://julialang.org/blog/2022/08/julia-1.8-highlights/",
+          "publishedOn": "2022-08-18T00:00:00.000Z",
+          "wordCount": 2763,
+          "title": "Julia 1.8 Highlights",
+          "imageUrl": "/assets/images/julia-open-graph.png"
+        },
+        {
+          "id": "https://julialang.org/blog/2022/08/juliacon-highlights-2022/",
+          "author": null,
+          "description": "JuliaCon 2022 Highlights\nRead more",
+          "link": "https://julialang.org/blog/2022/08/juliacon-highlights-2022/",
+          "publishedOn": "2022-08-10T00:00:00.000Z",
+          "wordCount": 1104,
+          "title": "JuliaCon 2022 Highlights",
+          "imageUrl": "https://user-images.githubusercontent.com/35577566/183544010-09691b83-9fc6-4b49-b835-d9a8e691e112.png"
+        },
+        {
+          "id": "https://julialang.org/blog/2022/04/simple-chains/",
+          "author": null,
+          "description": "Doing small network scientific machine learning in Julia 5x faster than PyTorch ...\nRead more",
+          "link": "https://julialang.org/blog/2022/04/simple-chains/",
+          "publishedOn": "2022-04-14T00:00:00.000Z",
+          "wordCount": 4650,
+          "title": "Doing small network scientific machine learning in Julia 5x faster than PyTorch",
+          "imageUrl": "/assets/images/julia-open-graph.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

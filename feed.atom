@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-02T12:43:45.138Z</id>
+    <id>urn:2023-01-02T15:33:23.473Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-01-02T12:43:45.138Z</updated>
+    <updated>2023-01-02T15:33:23.473Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -43,6 +43,28 @@ This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Julia 1.8 Highlights]]></title>
+        <id>https://julialang.org/blog/2022/08/julia-1.8-highlights/</id>
+        <link href="https://julialang.org/blog/2022/08/julia-1.8-highlights/"/>
+        <updated>2022-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Highlights of the Julia 1.8 release.
+Read more]]></summary>
+        <author>
+            <name>JuliaLang - The Julia programming language</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JuliaCon 2022 Highlights]]></title>
+        <id>https://julialang.org/blog/2022/08/juliacon-highlights-2022/</id>
+        <link href="https://julialang.org/blog/2022/08/juliacon-highlights-2022/"/>
+        <updated>2022-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JuliaCon 2022 Highlights
+Read more]]></summary>
+        <author>
+            <name>JuliaLang - The Julia programming language</name>
         </author>
     </entry>
     <entry>
@@ -108,6 +130,17 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
         <summary type="html"><![CDATA[This post isn’t about the first macro I wrote in the Julia programming language, but it can be about your first macro. Frequently Asked Questions Question: What are macros in Julia? Answer: Macros are sort of functions which take as input unevaluated expressions (Expr) and return as output another expression,...]]></summary>
         <author>
             <name>Mosè Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doing small network scientific machine learning in Julia 5x faster than PyTorch]]></title>
+        <id>https://julialang.org/blog/2022/04/simple-chains/</id>
+        <link href="https://julialang.org/blog/2022/04/simple-chains/"/>
+        <updated>2022-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Doing small network scientific machine learning in Julia 5x faster than PyTorch ...
+Read more]]></summary>
+        <author>
+            <name>JuliaLang - The Julia programming language</name>
         </author>
     </entry>
     <entry>
