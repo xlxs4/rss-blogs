@@ -71,18 +71,7 @@
       "title": "Andrej Karpathy blog",
       "feedUrl": "http://karpathy.github.io/feed.xml",
       "siteUrl": "http://karpathy.github.io/",
-      "articles": [
-        {
-          "id": "http://karpathy.github.io/2022/03/14/lecun1989/",
-          "author": null,
-          "description": ".post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfcfc;\n    font-size: 13px; /* make code smaller for this post... */\n}\n\n\nThe Yann LeCun et al. (1989) paper Backpropagation Applied to Handwritten Zip Code Recognition is I believe of some historical significance because it is, to my knowledge, the earliest real-world application of a neural net trained end-to-end with backpropagation. Except for the tiny dataset (7291 16x16 grayscale images of digits) and the tiny neural network used (only 1,000 neurons), this paper reads remarkably modern today, 33 years later - it lays out a dataset, describes the neural net architecture, loss function, optimization, and reports the experimental classification error rates over training and test sets. It’s all very r…",
-          "link": "http://karpathy.github.io/2022/03/14/lecun1989/",
-          "publishedOn": "2022-03-14T07:00:00.000Z",
-          "wordCount": 2726,
-          "title": "Deep Neural Nets: 33 years ago and 33 years from now",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mosè Giordano",

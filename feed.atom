@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-07T00:28:29.020Z</id>
+    <id>urn:2023-01-08T00:31:16.453Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-01-07T00:28:29.020Z</updated>
+    <updated>2023-01-08T00:31:16.453Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -173,26 +173,6 @@ The post Composing Modeling and Simulation with Julia (2021 Modelica Conference)
         <summary type="html"><![CDATA[The website thispersondoesnotexist.com shows off images created by StyleGAN, a kind of machine learning model trained on around 70,000 headshots from Flickr. Although the photos on the site resemble real ones, they are wholly made up: StyleGAN can generate an unlimited number of convincing faces on the fly, each unique and never to be seen again.]]></summary>
         <author>
             <name>Mike Innes’s Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deep Neural Nets: 33 years ago and 33 years from now]]></title>
-        <id>http://karpathy.github.io/2022/03/14/lecun1989/</id>
-        <link href="http://karpathy.github.io/2022/03/14/lecun1989/"/>
-        <updated>2022-03-14T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[.post-header h1 {
-    font-size: 35px;
-}
-.post pre,
-.post code {
-    background-color: #fcfcfc;
-    font-size: 13px; /* make code smaller for this post... */
-}
-
-
-The Yann LeCun et al. (1989) paper Backpropagation Applied to Handwritten Zip Code Recognition is I believe of some historical significance because it is, to my knowledge, the earliest real-world application of a neural net trained end-to-end with backpropagation. Except for the tiny dataset (7291 16x16 grayscale images of digits) and the tiny neural network used (only 1,000 neurons), this paper reads remarkably modern today, 33 years later - it lays out a dataset, describes the neural net architecture, loss function, optimization, and reports the experimental classification error rates over training and test sets. It’s all very r…]]></summary>
-        <author>
-            <name>Andrej Karpathy blog</name>
         </author>
     </entry>
 </feed>
