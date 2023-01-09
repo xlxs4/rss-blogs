@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-09T00:28:39.572Z</id>
+    <id>urn:2023-01-09T17:30:06.092Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-01-09T00:28:39.572Z</updated>
+    <updated>2023-01-09T17:30:06.092Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
