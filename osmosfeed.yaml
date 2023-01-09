@@ -12,6 +12,7 @@ sources:
   - href: https://mikeinnes.io/feed.xml # Mike J Innes
   - href: https://ahsmart.com/feed.xml # Tom Kwong
   - href: https://julialang.org/feed.xml # Julia programming language
+  - href: https://www.tedinski.com/feed.xml # Ted Kaminski
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
