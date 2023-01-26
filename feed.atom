@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-25T00:29:04.593Z</id>
+    <id>urn:2023-01-26T00:28:58.972Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-01-25T00:29:04.593Z</updated>
+    <updated>2023-01-26T00:28:58.972Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -163,16 +163,6 @@ Read more]]></summary>
 The post Composing Modeling and Simulation with Julia (2021 Modelica Conference) appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adventures in Face Space]]></title>
-        <id>https://mikeinnes.io/2022/04/01/facespace.html</id>
-        <link href="https://mikeinnes.io/2022/04/01/facespace.html"/>
-        <updated>2022-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The website thispersondoesnotexist.com shows off images created by StyleGAN, a kind of machine learning model trained on around 70,000 headshots from Flickr. Although the photos on the site resemble real ones, they are wholly made up: StyleGAN can generate an unlimited number of convincing faces on the fly, each unique and never to be seen again.]]></summary>
-        <author>
-            <name>Mike Innes’s Blog</name>
         </author>
     </entry>
 </feed>

@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -130,16 +130,6 @@
           "publishedOn": "2022-06-24T00:00:00.000Z",
           "wordCount": 330,
           "title": "Imperative Syntax, Functional Semantics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/2022/04/01/facespace.html",
-          "author": null,
-          "description": "The website thispersondoesnotexist.com shows off images created by StyleGAN, a kind of machine learning model trained on around 70,000 headshots from Flickr. Although the photos on the site resemble real ones, they are wholly made up: StyleGAN can generate an unlimited number of convincing faces on the fly, each unique and never to be seen again.",
-          "link": "https://mikeinnes.io/2022/04/01/facespace.html",
-          "publishedOn": "2022-04-01T00:00:00.000Z",
-          "wordCount": 534,
-          "title": "Adventures in Face Space",
           "imageUrl": null
         }
       ]
