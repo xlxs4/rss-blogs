@@ -193,6 +193,23 @@
       "feedUrl": "https://www.tedinski.com/feed.xml",
       "siteUrl": "http://www.tedinski.com/",
       "articles": []
+    },
+    {
+      "title": "Invenia Blog",
+      "feedUrl": "https://invenia.github.io/blog/feed.xml",
+      "siteUrl": "https://invenia.github.io/blog/",
+      "articles": [
+        {
+          "id": "https://invenia.github.io/blog/2022/06/17/deprecating-in-julia/",
+          "author": null,
+          "description": "In software development, the term “deprecated” refers to functionality that is still usable, but is obsolete and about to be replaced or removed in a future version of the software. This blog post will explain why deprecating functionality is a good idea, and will discuss available mechanisms for deprecating functionality in the Julia language.",
+          "link": "https://invenia.github.io/blog/2022/06/17/deprecating-in-julia/",
+          "publishedOn": "2022-06-17T00:00:00.000Z",
+          "wordCount": 1440,
+          "title": "Deprecating in Julia",
+          "imageUrl": "https://invenia.github.io/blog/public/InveniaLogo.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
