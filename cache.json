@@ -210,6 +210,12 @@
           "imageUrl": "https://invenia.github.io/blog/public/InveniaLogo.png"
         }
       ]
+    },
+    {
+      "title": "Two-Bit History",
+      "feedUrl": "https://twobithistory.org/feed.xml",
+      "siteUrl": "https://twobithistory.org/",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
