@@ -14,6 +14,7 @@ sources:
   - href: https://julialang.org/feed.xml # Julia programming language
   - href: https://www.tedinski.com/feed.xml # Ted Kaminski
   - href: https://invenia.github.io/blog/feed.xml # Invenia Blog
+  - href: https://twobithistory.org/feed.xml # Sinclair Target
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
