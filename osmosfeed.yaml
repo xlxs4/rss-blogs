@@ -15,6 +15,7 @@ sources:
   - href: https://www.tedinski.com/feed.xml # Ted Kaminski
   - href: https://invenia.github.io/blog/feed.xml # Invenia Blog
   - href: https://twobithistory.org/feed.xml # Sinclair Target
+  - href: https://jao.io/blog/rss.xml # jao
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
