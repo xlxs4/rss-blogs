@@ -54,16 +54,6 @@
           "wordCount": 1221,
           "title": "Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021)",
           "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
-        },
-        {
-          "id": "https://www.stochasticlifestyle.com/?p=1650",
-          "author": "Christopher Rackauckas",
-          "description": "In this paper we introduce JuliaSim, a high-performance programming environment designed to blend traditional modeling and simulation with machine learning. JuliaSim can build accelerated surrogates from component-based models, such as those conforming to the FMI standard, using continuous-time echo state networks (CTESN). The foundation of this environment, ModelingToolkit.jl, is an acausal modeling language which can compose the trained surrogates as components within its staged compilation process. As a complementary factor we present the JuliaSim model library, a standard library with differential-algebraic equations and pre-trained surrogates, which can be composed using the modeling system for design, optimization, and control. We demonstrate the effectiveness of the surrogate-accelerated modeling and simulation approach on HVAC dynamics by showing that the CTESN surrogates accurately capture the dynamics of a HVAC  ... READ MORE\nThe post Composing Modeling and Simulation with Julia (2021 Modelica Conference) appeared first on Stochastic Lifestyle.",
-          "link": "http://www.stochasticlifestyle.com/composing-modeling-and-simulation-with-julia-2021-modelica-conference/",
-          "publishedOn": "2022-04-08T11:30:11.000Z",
-          "wordCount": 1331,
-          "title": "Composing Modeling and Simulation with Julia (2021 Modelica Conference)",
-          "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
         }
       ]
     },

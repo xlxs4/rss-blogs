@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-01T00:34:54.538Z</id>
+    <id>urn:2023-02-02T00:31:40.991Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-02-01T00:34:54.538Z</updated>
+    <updated>2023-02-02T00:31:40.991Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -162,17 +162,6 @@ Read more]]></summary>
 Read more]]></summary>
         <author>
             <name>Tom Kwong's Infinite Loop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Composing Modeling and Simulation with Julia (2021 Modelica Conference)]]></title>
-        <id>https://www.stochasticlifestyle.com/?p=1650</id>
-        <link href="http://www.stochasticlifestyle.com/composing-modeling-and-simulation-with-julia-2021-modelica-conference/"/>
-        <updated>2022-04-08T11:30:11.000Z</updated>
-        <summary type="html"><![CDATA[In this paper we introduce JuliaSim, a high-performance programming environment designed to blend traditional modeling and simulation with machine learning. JuliaSim can build accelerated surrogates from component-based models, such as those conforming to the FMI standard, using continuous-time echo state networks (CTESN). The foundation of this environment, ModelingToolkit.jl, is an acausal modeling language which can compose the trained surrogates as components within its staged compilation process. As a complementary factor we present the JuliaSim model library, a standard library with differential-algebraic equations and pre-trained surrogates, which can be composed using the modeling system for design, optimization, and control. We demonstrate the effectiveness of the surrogate-accelerated modeling and simulation approach on HVAC dynamics by showing that the CTESN surrogates accurately capture the dynamics of a HVAC  ... READ MORE
-The post Composing Modeling and Simulation with Julia (2021 Modelica Conference) appeared first on Stochastic Lifestyle.]]></summary>
-        <author>
-            <name>Christopher Rackauckas</name>
         </author>
     </entry>
 </feed>
