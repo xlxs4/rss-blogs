@@ -22,6 +22,424 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-27 datetime="2023-01-27T21:45:03.000Z">2023-01-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-27 datetime="2023-01-27T21:45:03.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing"
+                        open
+                      >
+                        <summary class="article-expander__title">three approaches to heap sizing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>How much memory should a program get?  Tonight, a quick note on sizing
+for garbage-collected heaps.  There are a few possible answers,
+depending on what your goals are for the system.
+Sometimes you build a system and you want to study it: to identify its
+principal components and see how they work together, or to isolate the
+effect of altering a single component.  In that case, what you want is a
+fixed heap size.  You run your program a few times and determine a heap
+size that is sufficient for your problem, and then in future run the
+program with that new fixed heap size.  This allows you to concentrate
+on the other components of the system.
+A good approach to choosing the fixed heap size for a program is to
+determine the minimum heap size a program can have by bisection, then
+multiplying …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-24 datetime="2023-01-24T10:48:49.000Z">2023-01-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-24 datetime="2023-01-24T10:48:49.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing"
+                        open
+                      >
+                        <summary class="article-expander__title">parallel ephemeron tracing</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hello all, and happy new year.  Today&#x27;s note continues the .series on
+implementing ephemerons in a garbage
+collector
+In our  we
+looked at a serial algorithm to trace ephemerons.  However, production
+garbage collectors are parallel: during collection, they trace
+the object graph using multiple worker threads.  Our problem is to
+extend the ephemeron-tracing algorithm with support for multiple tracing
+threads, without introducing stalls or serial bottlenecks.last
+dispatch
+Recall that we ended up having to define a table of pending ephemerons:
+This table holds  ephemerons that have been visited by the
+graph tracer but whose keys haven&#x27;t been found yet, as well as a
+singly-linked list of  ephemerons that are waiting to have
+their values traced.  As a global data structure, the pending ephemeron…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-15 datetime="2022-12-15T21:21:05.000Z">2022-12-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-15 datetime="2022-12-15T21:21:05.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/12/15/ephemeral-success"
+                        open
+                      >
+                        <summary class="article-expander__title">ephemeral success</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/12/15/ephemeral-success">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good evening, patient hackers :)  Today finishes off my .series on
+implementing ephemerons in a garbage
+collector
+Last time, we had a working solution for ephemerons, but it involved
+recursively visiting any pending ephemerons from within the 
+routine—the bit of a semi-space collector that is called when
+traversing the object graph and we see an object that we hadn&#x27;t seen
+yet.  This recursive visit could itself recurse, and so we could
+overflow the control stack.copy
+The solution, of course, is &quot;don&#x27;t do that&quot;: instead of visiting
+recursively, enqueue the ephemeron for visiting later.  Iterate, don&#x27;t
+recurse.  But here we run into a funny problem: how do we add an
+ephemeron to a queue or worklist?  It&#x27;s such a pedestrian question
+(&quot;just... enqueue it?&quot;) but I think it illustrates some of t…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-12 datetime="2022-12-12T14:02:41.000Z">2022-12-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-12 datetime="2022-12-12T14:02:41.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited"
+                        open
+                      >
+                        <summary class="article-expander__title">i&#x27;m throwing ephemeron party &amp; you&#x27;re invited</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good day, hackfolk.  Today&#x27;s note tries to extend our semi-space
+collector with support for ephemerons.  Spoiler alert: we fail in a
+subtle and interesting way.  See if you can spot it before the end :)
+Recall that, as we concluded in ,
+a memory manager needs to incorporate ephemerons as a core part of the
+tracing algorithm.  Ephemerons are not macro-expressible in terms of
+object trace functions.an earlier
+article
+Instead, to support ephemerons we need to augment our core trace
+routine.  When we see an ephemeron , we need to check if the key 
+is already visited (and therefore live); if so, we trace the value 
+directly, and we&#x27;re done.  Otherwise, we add  to a global table of
+pending ephemerons , indexed under .  Finally whenever we trace a
+new object , ephemerons included, we look up  in …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-11 datetime="2022-12-11T21:19:20.000Z">2022-12-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-11 datetime="2022-12-11T21:19:20.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse"
+                        open
+                      >
+                        <summary class="article-expander__title">we iterate so that you can recurse</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Sometimes when you see an elegant algorithm, you think &quot;looks great, I
+just need it to also do X&quot;.  Perhaps you are able to build X directly
+out of what the algorithm gives you; fantastic.  Or, perhaps you can
+alter the algorithm a bit, and it works just as well while also doing X.
+Sometimes, though, you alter the algorithm and things go pear-shaped.
+Tonight&#x27;s little note builds on 
+and discusses an worse alternative to the Cheney scanning algorithm.yesterday&#x27;s semi-space collector
+article
+To recall, we had this  function that takes a edge in the
+object graph, as the address of a field in memory containing a .  If the edge points to an object that was already copied,
+ updates it to the forwarded address.  Otherwise it copies the object,
+thus computing the new address, and then updates the …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-10 datetime="2022-12-10T20:50:28.000Z">2022-12-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-10 datetime="2022-12-10T20:50:28.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector"
+                        open
+                      >
+                        <summary class="article-expander__title">a simple semi-space collector</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good day, hackfolk.  Today&#x27;s article is about semi-space collectors.
+Many of you know what these are, but perhaps not so many have
+seen an annotated implementation, so let&#x27;s do that.
+Just to recap, the big picture here is that a semi-space collector
+divides a chunk of memory into two equal halves or spaces, called the
+ and the .  Allocation proceeds linearly across
+tospace, from one end to the other.  When the tospace is full, we 
+the spaces: the tospace becomes the fromspace, and the fromspace becomes
+the tospace.  The collector copies out all live data  the
+fromspace  the tospace (hence the names), starting from some set of
+root objects.  Once the copy is done, allocation then proceeds in the
+new tospace.fromspacetospaceflipfromto
+In practice when you build a GC, it&#x27;s parameterized in a …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-28 datetime="2022-11-28T21:11:30.000Z">2022-11-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-28 datetime="2022-11-28T21:11:30.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive"
+                        open
+                      >
+                        <summary class="article-expander__title">are ephemerons primitive?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good evening :)  A quick note, tonight: I&#x27;ve long thought that
+
+are primitive and can&#x27;t be implemented with mark functions and/or
+finalizers, but today I think I have a counterexample.ephemerons
+For context, one of the goals of the  is to replace
+&#x27;s current use of the .  Of course, changing a
+garbage collector for a production language runtime is risky, and for Guile one of the mitigation
+strategies for this work is that the new collector is behind an abstract API
+whose implementation can be chosen at compile-time, without requiring
+changes to user code.  That way we can first switch to
+BDW-implementing-the-new-GC-API, then switch the implementation behind
+that API to something else.GC implementation I have been
+working on onGuileBoehm-Demers-Weiser (BDW) conservative
+collector
+Abstracting…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-24 datetime="2022-11-24T01:04:59.000Z">2022-11-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-24 datetime="2022-11-24T01:04:59.000Z"></time>
           </button>
@@ -112,6 +530,68 @@ Older entries
 
 
 Tags: sundry</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-31 datetime="2022-10-31T12:21:23.000Z">2022-10-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-31 datetime="2022-10-31T12:21:23.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers"
+                        open
+                      >
+                        <summary class="article-expander__title">ephemerons and finalizers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good day, hackfolk.  Today we continue the series on garbage collection
+with some notes on ephemerons and finalizers.
+conjunctions and disjunctions
+First described in a , which
+attributes the invention to George Bosworth, ephemerons are a kind of
+weak key-value association.1997 paper by Barry
+Hayes
+Thinking about the problem abstractly, consider that the garbage
+collector&#x27;s job is to keep live objects and recycle memory for dead
+objects, making that memory available for future allocations.  Formally
+speaking, we can say:
+This circular definition uses the word , indicating a disjunction:
+a single incoming reference from a live object is sufficient to mark a
+referent object as live.any
+Ephemerons augment this definition with a conjunction: 
+This is a more annoying property for a garbage coll…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -226,6 +706,65 @@ Tags: books</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-22 datetime="2022-10-22T08:42:07.000Z">2022-10-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-22 datetime="2022-10-22T08:42:07.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm"
+                        open
+                      >
+                        <summary class="article-expander__title">the sticky mark-bit algorithm</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good day, hackfolk!
+A funny post today; I gave an internal presentation at work recently
+describing the so-called &quot;sticky mark bit&quot; algorithm.  I figured I might
+as well post it here, as a gift to you from your local garbage human.
+Before diving in though, we start with some broad context about
+.  The term mostly means &quot;garbage
+collection&quot; these days, but really it describes a component of a system
+that provides fresh memory for new objects and  reclaims memory for objects that won&#x27;t be needed in the program&#x27;s future.  This stands in
+contrast to , which relies on the programmer
+to  their objects.automatic memory managementautomaticallymanual memory managementfree
+Of course, automatic memory management ensures some valuable system-wide
+properties, like lack of .  But also by
+enlarging the s…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-11 datetime="2022-10-11T07:09:53.000Z">2022-10-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-11 datetime="2022-10-11T07:09:53.000Z"></time>
           </button>
@@ -312,6 +851,54 @@ The goal of this project is to understand temperature mixing in large eddy simul
 This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-03 datetime="2022-10-03T08:24:17.000Z">2022-10-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-03 datetime="2022-10-03T08:24:17.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models"
+                        open
+                      >
+                        <summary class="article-expander__title">on &quot;correct and efficient work-stealing for weak memory models&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hello all, a quick post today.  Inspired by  by Yi Lin et al, a few months ago I had a look to see how the basic Rust concurrency facilities that they used were implemented.Rust as a Language for High Performance GC Implementation
+One of the key components that Lin et al used was a Chase-Lev work-stealing double-ended queue (deque).  The 2005 article  by David Chase and Yossi Lev is a nice read defining this data structure.  It&#x27;s used when you have a single producer of values, but multiple threads competing to claim those values.  This is useful when implementing per-CPU schedulers or work queues; each CPU pushes on any items that it has to its own deque, and pops them also, but when it runs out of work, it goes to see if it can steal work from other CPUs.Dynamic Circular Work-Stealing Deq…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1290,8 +1877,8 @@ Read more</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4076397858">
-        <time id="build-timestamp" datetime="2023-02-02T16:12:26.675Z">2023-02-02T16:12:26.675Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4077224935">
+        <time id="build-timestamp" datetime="2023-02-02T17:52:52.578Z">2023-02-02T17:52:52.578Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

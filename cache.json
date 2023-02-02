@@ -312,6 +312,113 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "wingolog",
+      "feedUrl": "https://wingolog.org/feed/atom",
+      "siteUrl": "https://wingolog.org/",
+      "articles": [
+        {
+          "id": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
+          "author": null,
+          "description": "How much memory should a program get?  Tonight, a quick note on sizing\nfor garbage-collected heaps.  There are a few possible answers,\ndepending on what your goals are for the system.\nSometimes you build a system and you want to study it: to identify its\nprincipal components and see how they work together, or to isolate the\neffect of altering a single component.  In that case, what you want is a\nfixed heap size.  You run your program a few times and determine a heap\nsize that is sufficient for your problem, and then in future run the\nprogram with that new fixed heap size.  This allows you to concentrate\non the other components of the system.\nA good approach to choosing the fixed heap size for a program is to\ndetermine the minimum heap size a program can have by bisection, then\nmultiplying …",
+          "link": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
+          "publishedOn": "2023-01-27T21:45:03.000Z",
+          "wordCount": 1161,
+          "title": "three approaches to heap sizing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing",
+          "author": null,
+          "description": "Hello all, and happy new year.  Today's note continues the .series on\nimplementing ephemerons in a garbage\ncollector\nIn our  we\nlooked at a serial algorithm to trace ephemerons.  However, production\ngarbage collectors are parallel: during collection, they trace\nthe object graph using multiple worker threads.  Our problem is to\nextend the ephemeron-tracing algorithm with support for multiple tracing\nthreads, without introducing stalls or serial bottlenecks.last\ndispatch\nRecall that we ended up having to define a table of pending ephemerons:\nThis table holds  ephemerons that have been visited by the\ngraph tracer but whose keys haven't been found yet, as well as a\nsingly-linked list of  ephemerons that are waiting to have\ntheir values traced.  As a global data structure, the pending ephemeron…",
+          "link": "https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing",
+          "publishedOn": "2023-01-24T10:48:49.000Z",
+          "wordCount": 1757,
+          "title": "parallel ephemeron tracing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/12/15/ephemeral-success",
+          "author": null,
+          "description": "Good evening, patient hackers :)  Today finishes off my .series on\nimplementing ephemerons in a garbage\ncollector\nLast time, we had a working solution for ephemerons, but it involved\nrecursively visiting any pending ephemerons from within the \nroutine—the bit of a semi-space collector that is called when\ntraversing the object graph and we see an object that we hadn't seen\nyet.  This recursive visit could itself recurse, and so we could\noverflow the control stack.copy\nThe solution, of course, is \"don't do that\": instead of visiting\nrecursively, enqueue the ephemeron for visiting later.  Iterate, don't\nrecurse.  But here we run into a funny problem: how do we add an\nephemeron to a queue or worklist?  It's such a pedestrian question\n(\"just... enqueue it?\") but I think it illustrates some of t…",
+          "link": "https://wingolog.org/archives/2022/12/15/ephemeral-success",
+          "publishedOn": "2022-12-15T21:21:05.000Z",
+          "wordCount": 1872,
+          "title": "ephemeral success",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited",
+          "author": null,
+          "description": "Good day, hackfolk.  Today's note tries to extend our semi-space\ncollector with support for ephemerons.  Spoiler alert: we fail in a\nsubtle and interesting way.  See if you can spot it before the end :)\nRecall that, as we concluded in ,\na memory manager needs to incorporate ephemerons as a core part of the\ntracing algorithm.  Ephemerons are not macro-expressible in terms of\nobject trace functions.an earlier\narticle\nInstead, to support ephemerons we need to augment our core trace\nroutine.  When we see an ephemeron , we need to check if the key \nis already visited (and therefore live); if so, we trace the value \ndirectly, and we're done.  Otherwise, we add  to a global table of\npending ephemerons , indexed under .  Finally whenever we trace a\nnew object , ephemerons included, we look up  in …",
+          "link": "https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited",
+          "publishedOn": "2022-12-12T14:02:41.000Z",
+          "wordCount": 698,
+          "title": "i'm throwing ephemeron party & you're invited",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse",
+          "author": null,
+          "description": "Sometimes when you see an elegant algorithm, you think \"looks great, I\njust need it to also do X\".  Perhaps you are able to build X directly\nout of what the algorithm gives you; fantastic.  Or, perhaps you can\nalter the algorithm a bit, and it works just as well while also doing X.\nSometimes, though, you alter the algorithm and things go pear-shaped.\nTonight's little note builds on \nand discusses an worse alternative to the Cheney scanning algorithm.yesterday's semi-space collector\narticle\nTo recall, we had this  function that takes a edge in the\nobject graph, as the address of a field in memory containing a .  If the edge points to an object that was already copied,\n updates it to the forwarded address.  Otherwise it copies the object,\nthus computing the new address, and then updates the …",
+          "link": "https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse",
+          "publishedOn": "2022-12-11T21:19:20.000Z",
+          "wordCount": 1050,
+          "title": "we iterate so that you can recurse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector",
+          "author": null,
+          "description": "Good day, hackfolk.  Today's article is about semi-space collectors.\nMany of you know what these are, but perhaps not so many have\nseen an annotated implementation, so let's do that.\nJust to recap, the big picture here is that a semi-space collector\ndivides a chunk of memory into two equal halves or spaces, called the\n and the .  Allocation proceeds linearly across\ntospace, from one end to the other.  When the tospace is full, we \nthe spaces: the tospace becomes the fromspace, and the fromspace becomes\nthe tospace.  The collector copies out all live data  the\nfromspace  the tospace (hence the names), starting from some set of\nroot objects.  Once the copy is done, allocation then proceeds in the\nnew tospace.fromspacetospaceflipfromto\nIn practice when you build a GC, it's parameterized in a …",
+          "link": "https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector",
+          "publishedOn": "2022-12-10T20:50:28.000Z",
+          "wordCount": 1206,
+          "title": "a simple semi-space collector",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive",
+          "author": null,
+          "description": "Good evening :)  A quick note, tonight: I've long thought that\n\nare primitive and can't be implemented with mark functions and/or\nfinalizers, but today I think I have a counterexample.ephemerons\nFor context, one of the goals of the  is to replace\n's current use of the .  Of course, changing a\ngarbage collector for a production language runtime is risky, and for Guile one of the mitigation\nstrategies for this work is that the new collector is behind an abstract API\nwhose implementation can be chosen at compile-time, without requiring\nchanges to user code.  That way we can first switch to\nBDW-implementing-the-new-GC-API, then switch the implementation behind\nthat API to something else.GC implementation I have been\nworking on onGuileBoehm-Demers-Weiser (BDW) conservative\ncollector\nAbstracting…",
+          "link": "https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive",
+          "publishedOn": "2022-11-28T21:11:30.000Z",
+          "wordCount": 1307,
+          "title": "are ephemerons primitive?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers",
+          "author": null,
+          "description": "Good day, hackfolk.  Today we continue the series on garbage collection\nwith some notes on ephemerons and finalizers.\nconjunctions and disjunctions\nFirst described in a , which\nattributes the invention to George Bosworth, ephemerons are a kind of\nweak key-value association.1997 paper by Barry\nHayes\nThinking about the problem abstractly, consider that the garbage\ncollector's job is to keep live objects and recycle memory for dead\nobjects, making that memory available for future allocations.  Formally\nspeaking, we can say:\nThis circular definition uses the word , indicating a disjunction:\na single incoming reference from a live object is sufficient to mark a\nreferent object as live.any\nEphemerons augment this definition with a conjunction: \nThis is a more annoying property for a garbage coll…",
+          "link": "https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers",
+          "publishedOn": "2022-10-31T12:21:23.000Z",
+          "wordCount": 1683,
+          "title": "ephemerons and finalizers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm",
+          "author": null,
+          "description": "Good day, hackfolk!\nA funny post today; I gave an internal presentation at work recently\ndescribing the so-called \"sticky mark bit\" algorithm.  I figured I might\nas well post it here, as a gift to you from your local garbage human.\nBefore diving in though, we start with some broad context about\n.  The term mostly means \"garbage\ncollection\" these days, but really it describes a component of a system\nthat provides fresh memory for new objects and  reclaims memory for objects that won't be needed in the program's future.  This stands in\ncontrast to , which relies on the programmer\nto  their objects.automatic memory managementautomaticallymanual memory managementfree\nOf course, automatic memory management ensures some valuable system-wide\nproperties, like lack of .  But also by\nenlarging the s…",
+          "link": "https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm",
+          "publishedOn": "2022-10-22T08:42:07.000Z",
+          "wordCount": 2336,
+          "title": "the sticky mark-bit algorithm",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models",
+          "author": null,
+          "description": "Hello all, a quick post today.  Inspired by  by Yi Lin et al, a few months ago I had a look to see how the basic Rust concurrency facilities that they used were implemented.Rust as a Language for High Performance GC Implementation\nOne of the key components that Lin et al used was a Chase-Lev work-stealing double-ended queue (deque).  The 2005 article  by David Chase and Yossi Lev is a nice read defining this data structure.  It's used when you have a single producer of values, but multiple threads competing to claim those values.  This is useful when implementing per-CPU schedulers or work queues; each CPU pushes on any items that it has to its own deque, and pops them also, but when it runs out of work, it goes to see if it can steal work from other CPUs.Dynamic Circular Work-Stealing Deq…",
+          "link": "https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models",
+          "publishedOn": "2022-10-03T08:24:17.000Z",
+          "wordCount": 695,
+          "title": "on \"correct and efficient work-stealing for weak memory models\"",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

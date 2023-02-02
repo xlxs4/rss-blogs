@@ -1,10 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-02T16:12:26.707Z</id>
+    <id>urn:2023-02-02T17:52:52.601Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-02-02T16:12:26.708Z</updated>
+    <updated>2023-02-02T17:52:52.601Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[three approaches to heap sizing]]></title>
+        <id>https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing</id>
+        <link href="https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing"/>
+        <updated>2023-01-27T21:45:03.000Z</updated>
+        <summary type="html"><![CDATA[How much memory should a program get?  Tonight, a quick note on sizing
+for garbage-collected heaps.  There are a few possible answers,
+depending on what your goals are for the system.
+Sometimes you build a system and you want to study it: to identify its
+principal components and see how they work together, or to isolate the
+effect of altering a single component.  In that case, what you want is a
+fixed heap size.  You run your program a few times and determine a heap
+size that is sufficient for your problem, and then in future run the
+program with that new fixed heap size.  This allows you to concentrate
+on the other components of the system.
+A good approach to choosing the fixed heap size for a program is to
+determine the minimum heap size a program can have by bisection, then
+multiplying …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[parallel ephemeron tracing]]></title>
+        <id>https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing</id>
+        <link href="https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing"/>
+        <updated>2023-01-24T10:48:49.000Z</updated>
+        <summary type="html"><![CDATA[Hello all, and happy new year.  Today's note continues the .series on
+implementing ephemerons in a garbage
+collector
+In our  we
+looked at a serial algorithm to trace ephemerons.  However, production
+garbage collectors are parallel: during collection, they trace
+the object graph using multiple worker threads.  Our problem is to
+extend the ephemeron-tracing algorithm with support for multiple tracing
+threads, without introducing stalls or serial bottlenecks.last
+dispatch
+Recall that we ended up having to define a table of pending ephemerons:
+This table holds  ephemerons that have been visited by the
+graph tracer but whose keys haven't been found yet, as well as a
+singly-linked list of  ephemerons that are waiting to have
+their values traced.  As a global data structure, the pending ephemeron…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ephemeral success]]></title>
+        <id>https://wingolog.org/archives/2022/12/15/ephemeral-success</id>
+        <link href="https://wingolog.org/archives/2022/12/15/ephemeral-success"/>
+        <updated>2022-12-15T21:21:05.000Z</updated>
+        <summary type="html"><![CDATA[Good evening, patient hackers :)  Today finishes off my .series on
+implementing ephemerons in a garbage
+collector
+Last time, we had a working solution for ephemerons, but it involved
+recursively visiting any pending ephemerons from within the 
+routine—the bit of a semi-space collector that is called when
+traversing the object graph and we see an object that we hadn't seen
+yet.  This recursive visit could itself recurse, and so we could
+overflow the control stack.copy
+The solution, of course, is "don't do that": instead of visiting
+recursively, enqueue the ephemeron for visiting later.  Iterate, don't
+recurse.  But here we run into a funny problem: how do we add an
+ephemeron to a queue or worklist?  It's such a pedestrian question
+("just... enqueue it?") but I think it illustrates some of t…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[i'm throwing ephemeron party & you're invited]]></title>
+        <id>https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited</id>
+        <link href="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited"/>
+        <updated>2022-12-12T14:02:41.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackfolk.  Today's note tries to extend our semi-space
+collector with support for ephemerons.  Spoiler alert: we fail in a
+subtle and interesting way.  See if you can spot it before the end :)
+Recall that, as we concluded in ,
+a memory manager needs to incorporate ephemerons as a core part of the
+tracing algorithm.  Ephemerons are not macro-expressible in terms of
+object trace functions.an earlier
+article
+Instead, to support ephemerons we need to augment our core trace
+routine.  When we see an ephemeron , we need to check if the key 
+is already visited (and therefore live); if so, we trace the value 
+directly, and we're done.  Otherwise, we add  to a global table of
+pending ephemerons , indexed under .  Finally whenever we trace a
+new object , ephemerons included, we look up  in …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[we iterate so that you can recurse]]></title>
+        <id>https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse</id>
+        <link href="https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse"/>
+        <updated>2022-12-11T21:19:20.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes when you see an elegant algorithm, you think "looks great, I
+just need it to also do X".  Perhaps you are able to build X directly
+out of what the algorithm gives you; fantastic.  Or, perhaps you can
+alter the algorithm a bit, and it works just as well while also doing X.
+Sometimes, though, you alter the algorithm and things go pear-shaped.
+Tonight's little note builds on 
+and discusses an worse alternative to the Cheney scanning algorithm.yesterday's semi-space collector
+article
+To recall, we had this  function that takes a edge in the
+object graph, as the address of a field in memory containing a .  If the edge points to an object that was already copied,
+ updates it to the forwarded address.  Otherwise it copies the object,
+thus computing the new address, and then updates the …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[a simple semi-space collector]]></title>
+        <id>https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector</id>
+        <link href="https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector"/>
+        <updated>2022-12-10T20:50:28.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackfolk.  Today's article is about semi-space collectors.
+Many of you know what these are, but perhaps not so many have
+seen an annotated implementation, so let's do that.
+Just to recap, the big picture here is that a semi-space collector
+divides a chunk of memory into two equal halves or spaces, called the
+ and the .  Allocation proceeds linearly across
+tospace, from one end to the other.  When the tospace is full, we 
+the spaces: the tospace becomes the fromspace, and the fromspace becomes
+the tospace.  The collector copies out all live data  the
+fromspace  the tospace (hence the names), starting from some set of
+root objects.  Once the copy is done, allocation then proceeds in the
+new tospace.fromspacetospaceflipfromto
+In practice when you build a GC, it's parameterized in a …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[are ephemerons primitive?]]></title>
+        <id>https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive</id>
+        <link href="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive"/>
+        <updated>2022-11-28T21:11:30.000Z</updated>
+        <summary type="html"><![CDATA[Good evening :)  A quick note, tonight: I've long thought that
+
+are primitive and can't be implemented with mark functions and/or
+finalizers, but today I think I have a counterexample.ephemerons
+For context, one of the goals of the  is to replace
+'s current use of the .  Of course, changing a
+garbage collector for a production language runtime is risky, and for Guile one of the mitigation
+strategies for this work is that the new collector is behind an abstract API
+whose implementation can be chosen at compile-time, without requiring
+changes to user code.  That way we can first switch to
+BDW-implementing-the-new-GC-API, then switch the implementation behind
+that API to something else.GC implementation I have been
+working on onGuileBoehm-Demers-Weiser (BDW) conservative
+collector
+Abstracting…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Integrating equation solvers with probabilistic programming through differentiable programming]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1705</id>
@@ -37,6 +196,31 @@ Older entries
 Tags: sundry]]></summary>
         <author>
             <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ephemerons and finalizers]]></title>
+        <id>https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers</id>
+        <link href="https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers"/>
+        <updated>2022-10-31T12:21:23.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackfolk.  Today we continue the series on garbage collection
+with some notes on ephemerons and finalizers.
+conjunctions and disjunctions
+First described in a , which
+attributes the invention to George Bosworth, ephemerons are a kind of
+weak key-value association.1997 paper by Barry
+Hayes
+Thinking about the problem abstractly, consider that the garbage
+collector's job is to keep live objects and recycle memory for dead
+objects, making that memory available for future allocations.  Formally
+speaking, we can say:
+This circular definition uses the word , indicating a disjunction:
+a single incoming reference from a live object is sufficient to mark a
+referent object as live.any
+Ephemerons augment this definition with a conjunction: 
+This is a more annoying property for a garbage coll…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -91,6 +275,28 @@ Tags: books]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[the sticky mark-bit algorithm]]></title>
+        <id>https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm</id>
+        <link href="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm"/>
+        <updated>2022-10-22T08:42:07.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackfolk!
+A funny post today; I gave an internal presentation at work recently
+describing the so-called "sticky mark bit" algorithm.  I figured I might
+as well post it here, as a gift to you from your local garbage human.
+Before diving in though, we start with some broad context about
+.  The term mostly means "garbage
+collection" these days, but really it describes a component of a system
+that provides fresh memory for new objects and  reclaims memory for objects that won't be needed in the program's future.  This stands in
+contrast to , which relies on the programmer
+to  their objects.automatic memory managementautomaticallymanual memory managementfree
+Of course, automatic memory management ensures some valuable system-wide
+properties, like lack of .  But also by
+enlarging the s…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better?]]></title>
         <id>http://www.stochasticlifestyle.com/?p=1681</id>
         <link href="http://www.stochasticlifestyle.com/direct-automatic-differentiation-of-solvers-vs-analytical-adjoints-which-is-better/"/>
@@ -116,6 +322,17 @@ This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[on "correct and efficient work-stealing for weak memory models"]]></title>
+        <id>https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models</id>
+        <link href="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models"/>
+        <updated>2022-10-03T08:24:17.000Z</updated>
+        <summary type="html"><![CDATA[Hello all, a quick post today.  Inspired by  by Yi Lin et al, a few months ago I had a look to see how the basic Rust concurrency facilities that they used were implemented.Rust as a Language for High Performance GC Implementation
+One of the key components that Lin et al used was a Chase-Lev work-stealing double-ended queue (deque).  The 2005 article  by David Chase and Yossi Lev is a nice read defining this data structure.  It's used when you have a single producer of values, but multiple threads competing to claim those values.  This is useful when implementing per-CPU schedulers or work queues; each CPU pushes on any items that it has to its own deque, and pops them also, but when it runs out of work, it goes to see if it can steal work from other CPUs.Dynamic Circular Work-Stealing Deq…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
