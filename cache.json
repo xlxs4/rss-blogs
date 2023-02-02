@@ -128,18 +128,7 @@
       "title": "Tom Kwong's Infinite Loop",
       "feedUrl": "https://ahsmart.com/feed.xml",
       "siteUrl": "https://ahsmart.com/",
-      "articles": [
-        {
-          "id": "https://ahsmart.com/pub/hiring-talents/index.html",
-          "author": null,
-          "description": "Hiring talents is not the same as finding someone with specific experience\nRead more",
-          "link": "https://ahsmart.com/pub/hiring-talents/index.html",
-          "publishedOn": "2022-04-09T00:00:00.000Z",
-          "wordCount": 883,
-          "title": "Hiring talents is not the same as finding someone with specific experience",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "JuliaLang - The Julia programming language",
@@ -206,6 +195,123 @@
       "feedUrl": "https://twobithistory.org/feed.xml",
       "siteUrl": "https://twobithistory.org/",
       "articles": []
+    },
+    {
+      "title": "programming (and other) musings",
+      "feedUrl": "https://jao.io/blog/rss.xml",
+      "siteUrl": "https://jao.io/blog/",
+      "articles": [
+        {
+          "id": "https://jao.io/blog/in-no-particular-order.html",
+          "author": null,
+          "description": "Interesting bits elsewhere:\n\n\n\nThe influence of Self\n10 quick Mastodon tips\nWriting with LaTeX\nTrying out Mathstodon\nOlder entries\n\n\n\nTags: sundry",
+          "link": "https://jao.io/blog/in-no-particular-order.html",
+          "publishedOn": "2022-11-21T05:05:00.000Z",
+          "wordCount": 61,
+          "title": "in no particular order",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/the-cambridge-centenary-ulysess.html",
+          "author": null,
+          "description": "Physically, this book is obnoxious: huge, wasted margins frame a reproduction\nof the original text that painstakingly tries to look as shabby as it was,\nincluding faded letters and all its typos, and its size and weight border on\nthe unmanageable.  Ah, but the contents is really good: on the one hand\nthere's of course Joyce's text itself (after twenty years since the last time,\nmy English, with the help of the annotations, was closer to be up to the task,\nand enjoy it even when it wasn't), and next to it the essays introducing every\nchapter, which i found (with an exception or two) very informative and,\nsometimes, even illuminating.  I was also delighted to confirm that the\nparallels with Homer's work are a strecht to say the least: i quickly read The\nOdyssey in preparation and found it, again, boring at best and disheartening\nin its depiction of the society of the time (not that Joyce's Dublin was\nwithout its blemishes, but you hopefully get my point).\n\n\n\nSo, just get an electronic version and enjoy!\n\nTags: books",
+          "link": "https://jao.io/blog/the-cambridge-centenary-ulysess.html",
+          "publishedOn": "2022-10-30T01:50:00.000Z",
+          "wordCount": 219,
+          "title": "the cambridge centenary ulysess",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/visual-differential-geometry-and-forms.html",
+          "author": null,
+          "description": "This is a beautiful book.  Crystal-clear and insightful explanations, with the\nright amount of historical background and quite original outlook (without\ngoing overboard).  I can only echo what other quoted reviewers have said: i\nwish i had had this book when i was studying these matters in earnest, i'm\npretty sure i've understood some fine points for the first time only now!  I'd\nalso perhaps make an exception on the last part (or act, as Needham calls\nthem) on differential forms, which feels at times a bit rushed and in need of\nsome editing, and it'd had been wonderful if the manufacture of the book were\nup to its contents: most images and photographs look really, really cheap, and\nthere are more typos than granted, which is a pity (as to other figures,\nthey're decent, although it must be said that Needham is not Penrose, but then\nwho is?).\n\nTags: books",
+          "link": "https://jao.io/blog/visual-differential-geometry-and-forms.html",
+          "publishedOn": "2022-10-30T00:30:00.000Z",
+          "wordCount": 193,
+          "title": "visual differential geometry and forms",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html",
+          "author": null,
+          "description": "I've just released a new version of consult-recoll, which implements a couple\nof features that i am really liking, namely, grouping of search results by\nmime type:\n\n\n\n\n\n\n\n\n\nand inline snippets:\n\n\n\n\n\n\n\n\n\nHappy searches!\n\n\n\nTags: emacs programming",
+          "link": "https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html",
+          "publishedOn": "2022-08-04T17:29:00.000Z",
+          "wordCount": 79,
+          "title": "inline snippets and grouping in consult-recoll",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/parisian-lives.html",
+          "author": null,
+          "description": "A very interesting view of how a biographer started her career in the\nseventies, with two heavy-weights, Beckett and de Beauvoir.  Bair calls the\nbook a bio-memoir, and it's indeed quite deserving of a name of its own for\nits genre.  One learns of the struggle it was not only to be a biographer of\nfamous writers still living (and her fascinating relationship with them) but\nalso to be a successful woman in the seventies.  And there are lots of\ninteresting details about her writing process, and its all too human side.\nVery well written all around, it really whets your appetite: i've already\nordered her Beckett bio!\n\nTags: books",
+          "link": "https://jao.io/blog/parisian-lives.html",
+          "publishedOn": "2022-07-31T03:42:00.000Z",
+          "wordCount": 146,
+          "title": "parisian lives",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/consult-recoll-with-live-preview.html",
+          "author": null,
+          "description": "Lately, i've gravitated towards recoll as a unified search engine for all my\nlocal data, including org and text notes, documents in PDF or similar formats,\nHTML files, and local email. As a result, my little consult-recoll package has\ngone up a few notches up in my list.  i've just released version 0.5,\nfeaturing live previews.\n\n\n\n\n\n\n\n\n\n\n\n\nRecoll is a local search engine that knows how to index a wide variety of file\nformats.  It also offers a sophisticated query language, and, for some\ndocument kinds, snippets of the text of the document that actually match your\nquery: that's always been one of my favourite features, and wanted to bring it\nto emacs.\n\n\n\ni found consult's live previews a very nice venue to bring snippets into\nemacs, via a new version of consult-recoll, and there you go, jus…",
+          "link": "https://jao.io/blog/consult-recoll-with-live-preview.html",
+          "publishedOn": "2022-07-22T18:08:00.000Z",
+          "wordCount": 378,
+          "title": "consult recoll with live preview",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/klara-and-the-sun.html",
+          "author": null,
+          "description": "A nicely written (as always with Ishiguro) history of Stevens turned into an\nartificially intelligent being, in a near future reminiscent of Never let me\ngo.  In other words, i found this novel heavily inspired in previous works of\nthe author, which i admittedly find better than this one, but that doesn't\nmean the book doesn't throw at you a bunch of provocative musings or lacks a\ntranquil beauty that makes it absolutely worth reading.\n\nTags: books",
+          "link": "https://jao.io/blog/klara-and-the-sun.html",
+          "publishedOn": "2022-06-19T17:36:00.000Z",
+          "wordCount": 117,
+          "title": "klara and the sun",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/simple-note-taking.html",
+          "author": null,
+          "description": "I was just watching Prot's explanation of his new package denote, a very\nelegant note-taking system with a stress on simplicity and, as the author puts\nit, low-tech requirements.  Now, those are excellent qualities in my book, and\ni think i'd quickly become a denote user if it weren't for the fact that i\nalready have a homegrown set of utilities following a similar philosophy.\nInevitably, they differ in some details, as is to be expected from software\nthat has grown with me, as Prot's with him, during more than a decade, but\nthey are similar in important ways.\n\n\n\nI've had in mind writing a brief note on my notes utilities for a while, so i\nguess this is a good time for it: i can, after showing you mine, point you to\na polished package following a similar philosophy and sidestep any temptat…",
+          "link": "https://jao.io/blog/simple-note-taking.html",
+          "publishedOn": "2022-06-19T03:36:00.000Z",
+          "wordCount": 1312,
+          "title": "simple note taking",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/slimmer-emacs-with-kitty.html",
+          "author": null,
+          "description": "A problem of using Emacs as my operating system is that any otherwise\nminor friction with its interface quickly becomes an irritant, and i\nthus find myself needed a truly smooth emacs-human interaction; or, to\nbe more precise emacs-jao interaction: my must needs are going to be,\nsometimes, triffles to you, and the other way round.\n\n\n\nDuring the last year, a perceived sluggishness in Emacs's X11 display\nperformance, together with a very noticeably increased RAM consumption\nhave become one of those irritants, and i decided that enough is\nenough, and moved (for the time being at least) from exwm to,\nessentially, using xmonad and kitty as my Emacs's display engine.\n\n\n\n\n\n\n\n\n\n\n\nFor several years now, i've been using exwm as my main desktop, and\nbeen quite happy with it.  One of the reasons is th…",
+          "link": "https://jao.io/blog/slimmer-emacs-with-kitty.html",
+          "publishedOn": "2022-06-08T17:53:00.000Z",
+          "wordCount": 1147,
+          "title": "slimmer emacs with kitty",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/el-infinito-en-un-junco.html",
+          "author": null,
+          "description": "If you can read Spanish, i wouldn't miss the opportunity to read this\nbeautfiul essay in the original: Irene Vallejo's prose is clear,\nelegant and very beautiful.  It's a delight (and a relief) to read.\nAnd, if you can't read Spanish but have a translation handy, i\nwouldn't miss the opportunity to read it either, for a very\nentertaining account of the history of ancient books sprinkled with\nlots of interesting (to me, at least!) bits about the Greek and Roman\nworlds.  The book is morever wrapped in a subdued and sober optimism\nthat i've found reinvigorating and sorely needed in these times, when\none often feels like running on empty.  Heartily recommended!\n\nTags: books",
+          "link": "https://jao.io/blog/el-infinito-en-un-junco.html",
+          "publishedOn": "2022-05-28T23:39:00.000Z",
+          "wordCount": 157,
+          "title": "el infinito en un junco",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/lets-talk-lisp.html",
+          "author": null,
+          "description": "I just got a second-hand copy of this classic.  Sometimes, used books\nare more charming than new ones:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTags: books programming",
+          "link": "https://jao.io/blog/lets-talk-lisp.html",
+          "publishedOn": "2022-04-16T19:41:00.000Z",
+          "wordCount": 59,
+          "title": "let's talk lisp",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

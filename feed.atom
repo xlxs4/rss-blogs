@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-02T00:31:40.991Z</id>
+    <id>urn:2023-02-02T16:12:26.707Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-02-02T00:31:40.991Z</updated>
+    <updated>2023-02-02T16:12:26.708Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -15,6 +15,79 @@ Abstract: Many probabilistic programming languages (PPLs) attempt to integrate w
 The post Integrating equation solvers with probabilistic programming through differentiable programming appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[in no particular order]]></title>
+        <id>https://jao.io/blog/in-no-particular-order.html</id>
+        <link href="https://jao.io/blog/in-no-particular-order.html"/>
+        <updated>2022-11-21T05:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Interesting bits elsewhere:
+
+
+
+The influence of Self
+10 quick Mastodon tips
+Writing with LaTeX
+Trying out Mathstodon
+Older entries
+
+
+
+Tags: sundry]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[the cambridge centenary ulysess]]></title>
+        <id>https://jao.io/blog/the-cambridge-centenary-ulysess.html</id>
+        <link href="https://jao.io/blog/the-cambridge-centenary-ulysess.html"/>
+        <updated>2022-10-30T01:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Physically, this book is obnoxious: huge, wasted margins frame a reproduction
+of the original text that painstakingly tries to look as shabby as it was,
+including faded letters and all its typos, and its size and weight border on
+the unmanageable.  Ah, but the contents is really good: on the one hand
+there's of course Joyce's text itself (after twenty years since the last time,
+my English, with the help of the annotations, was closer to be up to the task,
+and enjoy it even when it wasn't), and next to it the essays introducing every
+chapter, which i found (with an exception or two) very informative and,
+sometimes, even illuminating.  I was also delighted to confirm that the
+parallels with Homer's work are a strecht to say the least: i quickly read The
+Odyssey in preparation and found it, again, boring at best and disheartening
+in its depiction of the society of the time (not that Joyce's Dublin was
+without its blemishes, but you hopefully get my point).
+
+
+
+So, just get an electronic version and enjoy!
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[visual differential geometry and forms]]></title>
+        <id>https://jao.io/blog/visual-differential-geometry-and-forms.html</id>
+        <link href="https://jao.io/blog/visual-differential-geometry-and-forms.html"/>
+        <updated>2022-10-30T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a beautiful book.  Crystal-clear and insightful explanations, with the
+right amount of historical background and quite original outlook (without
+going overboard).  I can only echo what other quoted reviewers have said: i
+wish i had had this book when i was studying these matters in earnest, i'm
+pretty sure i've understood some fine points for the first time only now!  I'd
+also perhaps make an exception on the last part (or act, as Needham calls
+them) on differential forms, which feels at times a bit rushed and in need of
+some editing, and it'd had been wonderful if the manufacture of the book were
+up to its contents: most images and photographs look really, really cheap, and
+there are more typos than granted, which is a pity (as to other figures,
+they're decent, although it must be said that Needham is not Penrose, but then
+who is?).
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
         </author>
     </entry>
     <entry>
@@ -68,6 +141,62 @@ Read more]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[inline snippets and grouping in consult-recoll]]></title>
+        <id>https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html</id>
+        <link href="https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html"/>
+        <updated>2022-08-04T17:29:00.000Z</updated>
+        <summary type="html"><![CDATA[I've just released a new version of consult-recoll, which implements a couple
+of features that i am really liking, namely, grouping of search results by
+mime type:
+
+
+
+
+
+
+
+
+
+and inline snippets:
+
+
+
+
+
+
+
+
+
+Happy searches!
+
+
+
+Tags: emacs programming]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[parisian lives]]></title>
+        <id>https://jao.io/blog/parisian-lives.html</id>
+        <link href="https://jao.io/blog/parisian-lives.html"/>
+        <updated>2022-07-31T03:42:00.000Z</updated>
+        <summary type="html"><![CDATA[A very interesting view of how a biographer started her career in the
+seventies, with two heavy-weights, Beckett and de Beauvoir.  Bair calls the
+book a bio-memoir, and it's indeed quite deserving of a name of its own for
+its genre.  One learns of the struggle it was not only to be a biographer of
+famous writers still living (and her fascinating relationship with them) but
+also to be a successful woman in the seventies.  And there are lots of
+interesting details about her writing process, and its all too human side.
+Very well written all around, it really whets your appetite: i've already
+ordered her Beckett bio!
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Quick intro to the new effect analysis of Julia compiler]]></title>
         <id>https://aviatesk.github.io/posts/effects-analysis/index.html</id>
         <link href="https://aviatesk.github.io/posts/effects-analysis/index.html"/>
@@ -75,6 +204,42 @@ Read more]]></summary>
         <summary type="html"><![CDATA[Quick intro to the new effect analysis of Julia compiler]]></summary>
         <author>
             <name>Shuhei Kadowaki&amp;#39;s homepage</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[consult recoll with live preview]]></title>
+        <id>https://jao.io/blog/consult-recoll-with-live-preview.html</id>
+        <link href="https://jao.io/blog/consult-recoll-with-live-preview.html"/>
+        <updated>2022-07-22T18:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Lately, i've gravitated towards recoll as a unified search engine for all my
+local data, including org and text notes, documents in PDF or similar formats,
+HTML files, and local email. As a result, my little consult-recoll package has
+gone up a few notches up in my list.  i've just released version 0.5,
+featuring live previews.
+
+
+
+
+
+
+
+
+
+
+
+
+Recoll is a local search engine that knows how to index a wide variety of file
+formats.  It also offers a sophisticated query language, and, for some
+document kinds, snippets of the text of the document that actually match your
+query: that's always been one of my favourite features, and wanted to bring it
+to emacs.
+
+
+
+i found consult's live previews a very nice venue to bring snippets into
+emacs, via a new version of consult-recoll, and there you go, jus…]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
         </author>
     </entry>
     <entry>
@@ -123,6 +288,46 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[klara and the sun]]></title>
+        <id>https://jao.io/blog/klara-and-the-sun.html</id>
+        <link href="https://jao.io/blog/klara-and-the-sun.html"/>
+        <updated>2022-06-19T17:36:00.000Z</updated>
+        <summary type="html"><![CDATA[A nicely written (as always with Ishiguro) history of Stevens turned into an
+artificially intelligent being, in a near future reminiscent of Never let me
+go.  In other words, i found this novel heavily inspired in previous works of
+the author, which i admittedly find better than this one, but that doesn't
+mean the book doesn't throw at you a bunch of provocative musings or lacks a
+tranquil beauty that makes it absolutely worth reading.
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[simple note taking]]></title>
+        <id>https://jao.io/blog/simple-note-taking.html</id>
+        <link href="https://jao.io/blog/simple-note-taking.html"/>
+        <updated>2022-06-19T03:36:00.000Z</updated>
+        <summary type="html"><![CDATA[I was just watching Prot's explanation of his new package denote, a very
+elegant note-taking system with a stress on simplicity and, as the author puts
+it, low-tech requirements.  Now, those are excellent qualities in my book, and
+i think i'd quickly become a denote user if it weren't for the fact that i
+already have a homegrown set of utilities following a similar philosophy.
+Inevitably, they differ in some details, as is to be expected from software
+that has grown with me, as Prot's with him, during more than a decade, but
+they are similar in important ways.
+
+
+
+I've had in mind writing a brief note on my notes utilities for a while, so i
+guess this is a good time for it: i can, after showing you mine, point you to
+a polished package following a similar philosophy and sidestep any temptat…]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[My first macro in Julia]]></title>
         <id>http://giordano.github.io/blog/2022-06-18-first-macro/</id>
         <link href="http://giordano.github.io/blog/2022-06-18-first-macro/"/>
@@ -143,6 +348,93 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[slimmer emacs with kitty]]></title>
+        <id>https://jao.io/blog/slimmer-emacs-with-kitty.html</id>
+        <link href="https://jao.io/blog/slimmer-emacs-with-kitty.html"/>
+        <updated>2022-06-08T17:53:00.000Z</updated>
+        <summary type="html"><![CDATA[A problem of using Emacs as my operating system is that any otherwise
+minor friction with its interface quickly becomes an irritant, and i
+thus find myself needed a truly smooth emacs-human interaction; or, to
+be more precise emacs-jao interaction: my must needs are going to be,
+sometimes, triffles to you, and the other way round.
+
+
+
+During the last year, a perceived sluggishness in Emacs's X11 display
+performance, together with a very noticeably increased RAM consumption
+have become one of those irritants, and i decided that enough is
+enough, and moved (for the time being at least) from exwm to,
+essentially, using xmonad and kitty as my Emacs's display engine.
+
+
+
+
+
+
+
+
+
+
+
+For several years now, i've been using exwm as my main desktop, and
+been quite happy with it.  One of the reasons is th…]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[el infinito en un junco]]></title>
+        <id>https://jao.io/blog/el-infinito-en-un-junco.html</id>
+        <link href="https://jao.io/blog/el-infinito-en-un-junco.html"/>
+        <updated>2022-05-28T23:39:00.000Z</updated>
+        <summary type="html"><![CDATA[If you can read Spanish, i wouldn't miss the opportunity to read this
+beautfiul essay in the original: Irene Vallejo's prose is clear,
+elegant and very beautiful.  It's a delight (and a relief) to read.
+And, if you can't read Spanish but have a translation handy, i
+wouldn't miss the opportunity to read it either, for a very
+entertaining account of the history of ancient books sprinkled with
+lots of interesting (to me, at least!) bits about the Greek and Roman
+worlds.  The book is morever wrapped in a subdued and sober optimism
+that i've found reinvigorating and sorely needed in these times, when
+one often feels like running on empty.  Heartily recommended!
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[let's talk lisp]]></title>
+        <id>https://jao.io/blog/lets-talk-lisp.html</id>
+        <link href="https://jao.io/blog/lets-talk-lisp.html"/>
+        <updated>2022-04-16T19:41:00.000Z</updated>
+        <summary type="html"><![CDATA[I just got a second-hand copy of this classic.  Sometimes, used books
+are more charming than new ones:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tags: books programming]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Doing small network scientific machine learning in Julia 5x faster than PyTorch]]></title>
         <id>https://julialang.org/blog/2022/04/simple-chains/</id>
         <link href="https://julialang.org/blog/2022/04/simple-chains/"/>
@@ -151,17 +443,6 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
 Read more]]></summary>
         <author>
             <name>JuliaLang - The Julia programming language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hiring talents is not the same as finding someone with specific experience]]></title>
-        <id>https://ahsmart.com/pub/hiring-talents/index.html</id>
-        <link href="https://ahsmart.com/pub/hiring-talents/index.html"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hiring talents is not the same as finding someone with specific experience
-Read more]]></summary>
-        <author>
-            <name>Tom Kwong's Infinite Loop</name>
         </author>
     </entry>
 </feed>
