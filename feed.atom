@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-07T00:30:57.384Z</id>
+    <id>urn:2023-02-08T00:29:18.205Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-02-07T00:30:57.384Z</updated>
+    <updated>2023-02-08T00:29:18.205Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[whippet: towards a new local maximum]]></title>
+        <id>https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum</id>
+        <link href="https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum"/>
+        <updated>2023-02-07T13:14:37.000Z</updated>
+        <summary type="html"><![CDATA[Friends, you might have noted, but over the last year or so I really
+caught the GC bug.  Today's post sums up that year, in the form of a
+talk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you
+can have a look instead to the .at the FOSDEM event
+page
+So the context for the whole effort is that Guile has this part of its
+implementation which is in C.  It also exposes a lot of that
+implementation to users as an API.
+So what contraints does this kind of API impose on the garbage
+collector?
+Let's start by considering the simple  call above.  In a
+garbage-collected environment, the GC is responsible for reclaiming
+unused memory.  How does the GC know that the result of a 
+call is in use?consscm_cons
+Generally speaking there are two main strategies for automatic memory
+management.…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[three approaches to heap sizing]]></title>
         <id>https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing</id>
@@ -325,17 +350,6 @@ The post Is Differentiable Programming Actually Necessary? Can’t you just trai
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[on "correct and efficient work-stealing for weak memory models"]]></title>
-        <id>https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models</id>
-        <link href="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models"/>
-        <updated>2022-10-03T08:24:17.000Z</updated>
-        <summary type="html"><![CDATA[Hello all, a quick post today.  Inspired by  by Yi Lin et al, a few months ago I had a look to see how the basic Rust concurrency facilities that they used were implemented.Rust as a Language for High Performance GC Implementation
-One of the key components that Lin et al used was a Chase-Lev work-stealing double-ended queue (deque).  The 2005 article  by David Chase and Yossi Lev is a nice read defining this data structure.  It's used when you have a single producer of values, but multiple threads competing to claim those values.  This is useful when implementing per-CPU schedulers or work queues; each CPU pushes on any items that it has to its own deque, and pops them also, but when it runs out of work, it goes to see if it can steal work from other CPUs.Dynamic Circular Work-Stealing Deq…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Julia 1.8 Highlights]]></title>
         <id>https://julialang.org/blog/2022/08/julia-1.8-highlights/</id>
         <link href="https://julialang.org/blog/2022/08/julia-1.8-highlights/"/>
@@ -649,17 +663,6 @@ are more charming than new ones:
 Tags: books programming]]></summary>
         <author>
             <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Doing small network scientific machine learning in Julia 5x faster than PyTorch]]></title>
-        <id>https://julialang.org/blog/2022/04/simple-chains/</id>
-        <link href="https://julialang.org/blog/2022/04/simple-chains/"/>
-        <updated>2022-04-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Doing small network scientific machine learning in Julia 5x faster than PyTorch ...
-Read more]]></summary>
-        <author>
-            <name>JuliaLang - The Julia programming language</name>
         </author>
     </entry>
 </feed>

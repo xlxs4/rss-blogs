@@ -22,6 +22,68 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-07 datetime="2023-02-07T13:14:37.000Z">2023-02-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-07 datetime="2023-02-07T13:14:37.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum"
+                        open
+                      >
+                        <summary class="article-expander__title">whippet: towards a new local maximum</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Friends, you might have noted, but over the last year or so I really
+caught the GC bug.  Today&#x27;s post sums up that year, in the form of a
+talk I gave yesterday at FOSDEM.  It&#x27;s long!  If you prefer video, you
+can have a look instead to the .at the FOSDEM event
+page
+So the context for the whole effort is that Guile has this part of its
+implementation which is in C.  It also exposes a lot of that
+implementation to users as an API.
+So what contraints does this kind of API impose on the garbage
+collector?
+Let&#x27;s start by considering the simple  call above.  In a
+garbage-collected environment, the GC is responsible for reclaiming
+unused memory.  How does the GC know that the result of a 
+call is in use?consscm_cons
+Generally speaking there are two main strategies for automatic memory
+management.…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-27 datetime="2023-01-27T21:45:03.000Z">2023-01-27</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-27 datetime="2023-01-27T21:45:03.000Z"></time>
           </button>
@@ -453,7 +515,7 @@ Abstracting…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -778,7 +840,7 @@ enlarging the s…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -830,7 +892,7 @@ The post Direct Automatic Differentiation of (Differential Equation) Solvers vs 
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -851,54 +913,6 @@ The goal of this project is to understand temperature mixing in large eddy simul
 This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-03 datetime="2022-10-03T08:24:17.000Z">2022-10-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-03 datetime="2022-10-03T08:24:17.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models"
-                        open
-                      >
-                        <summary class="article-expander__title">on &quot;correct and efficient work-stealing for weak memory models&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/03/on-correct-and-efficient-work-stealing-for-weak-memory-models">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hello all, a quick post today.  Inspired by  by Yi Lin et al, a few months ago I had a look to see how the basic Rust concurrency facilities that they used were implemented.Rust as a Language for High Performance GC Implementation
-One of the key components that Lin et al used was a Chase-Lev work-stealing double-ended queue (deque).  The 2005 article  by David Chase and Yossi Lev is a nice read defining this data structure.  It&#x27;s used when you have a single producer of values, but multiple threads competing to claim those values.  This is useful when implementing per-CPU schedulers or work queues; each CPU pushes on any items that it has to its own deque, and pops them also, but when it runs out of work, it goes to see if it can steal work from other CPUs.Dynamic Circular Work-Stealing Deq…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1275,7 +1289,7 @@ emacs, via a new version of consult-recoll, and there you go, jus…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1372,7 +1386,7 @@ The post Accurate and Efficient Physics-Informed Learning Through Differentiable
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1826,59 +1840,10 @@ Tags: books programming</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-14 datetime="2022-04-14T00:00:00.000Z">2022-04-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-14 datetime="2022-04-14T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >JuliaLang - The Julia programming language</button>
-                  <a class="source-heading__link" href="https://julialang.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://julialang.org/blog/2022/04/simple-chains/"
-                        open
-                      >
-                        <summary class="article-expander__title">Doing small network scientific machine learning in Julia 5x faster than PyTorch</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://julialang.org/blog/2022/04/simple-chains/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="/assets/images/julia-open-graph.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Doing small network scientific machine learning in Julia 5x faster than PyTorch ...
-Read more</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4109252626">
-        <time id="build-timestamp" datetime="2023-02-07T00:30:57.362Z">2023-02-07T00:30:57.362Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4119540336">
+        <time id="build-timestamp" datetime="2023-02-08T00:29:18.183Z">2023-02-08T00:29:18.183Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
