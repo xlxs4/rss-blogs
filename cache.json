@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -324,7 +324,7 @@
           "description": "Hello all, and happy new year.  Today's note continues the .series on\nimplementing ephemerons in a garbage\ncollector\nIn our  we\nlooked at a serial algorithm to trace ephemerons.  However, production\ngarbage collectors are parallel: during collection, they trace\nthe object graph using multiple worker threads.  Our problem is to\nextend the ephemeron-tracing algorithm with support for multiple tracing\nthreads, without introducing stalls or serial bottlenecks.last\ndispatch\nRecall that we ended up having to define a table of pending ephemerons:\nThis table holds  ephemerons that have been visited by the\ngraph tracer but whose keys haven't been found yet, as well as a\nsingly-linked list of  ephemerons that are waiting to have\ntheir values traced.  As a global data structure, the pending ephemeron…",
           "link": "https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing",
           "publishedOn": "2023-01-24T10:48:49.000Z",
-          "wordCount": 1761,
+          "wordCount": 1746,
           "title": "parallel ephemeron tracing",
           "imageUrl": null
         },
