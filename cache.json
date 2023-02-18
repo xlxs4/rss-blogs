@@ -314,7 +314,7 @@
           "description": "How much memory should a program get?  Tonight, a quick note on sizing\nfor garbage-collected heaps.  There are a few possible answers,\ndepending on what your goals are for the system.\nSometimes you build a system and you want to study it: to identify its\nprincipal components and see how they work together, or to isolate the\neffect of altering a single component.  In that case, what you want is a\nfixed heap size.  You run your program a few times and determine a heap\nsize that is sufficient for your problem, and then in future run the\nprogram with that new fixed heap size.  This allows you to concentrate\non the other components of the system.\nA good approach to choosing the fixed heap size for a program is to\ndetermine the minimum heap size a program can have by bisection, then\nmultiplying …",
           "link": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
           "publishedOn": "2023-01-27T21:45:03.000Z",
-          "wordCount": 1165,
+          "wordCount": 1150,
           "title": "three approaches to heap sizing",
           "imageUrl": null
         },
