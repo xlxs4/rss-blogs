@@ -103,12 +103,22 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "https://mikeinnes.io/2023/02/18/bing.html",
+          "author": null,
+          "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The major milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (once dubbed “artificial artificial intelligence” by Jeff Bezos) also pays its human labourers a few cents per question-response task.",
+          "link": "https://mikeinnes.io/2023/02/18/bing.html",
+          "publishedOn": "2023-02-18T00:00:00.000Z",
+          "wordCount": 1299,
+          "title": "Deus Ex Bing",
+          "imageUrl": null
+        },
+        {
           "id": "https://mikeinnes.io/2022/06/29/clocktower.html",
           "author": null,
           "description": "Three years and two months after it launched on Kickstarter, copies of social deduction game Blood on the Clocktower are finally arriving in the UK. During the long wait eager players have been able to backstab each other using print-and-play copies and the online helper (particularly welcome during lockdowns). But it’s nice to have the real thing in our hands. I’m here to commemorate the occassion with statistics, and in particular to show the ranking system I’m using to see how well my players are doing – just for fun, of course.",
           "link": "https://mikeinnes.io/2022/06/29/clocktower.html",
           "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 1434,
+          "wordCount": 1437,
           "title": "Clocktower IQ",
           "imageUrl": null
         },

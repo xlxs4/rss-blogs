@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-18T00:31:52.819Z</id>
+    <id>urn:2023-02-19T00:30:54.078Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-02-18T00:31:52.819Z</updated>
+    <updated>2023-02-19T00:30:54.078Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Deus Ex Bing]]></title>
+        <id>https://mikeinnes.io/2023/02/18/bing.html</id>
+        <link href="https://mikeinnes.io/2023/02/18/bing.html"/>
+        <updated>2023-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The major milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (once dubbed “artificial artificial intelligence” by Jeff Bezos) also pays its human labourers a few cents per question-response task.]]></summary>
+        <author>
+            <name>Mike Innes’s Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[whippet: towards a new local maximum]]></title>
         <id>https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum</id>
