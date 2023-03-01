@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -314,7 +314,7 @@
           "description": "Friends, you might have noted, but over the last year or so I really\ncaught the GC bug.  Today's post sums up that year, in the form of a\ntalk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you\ncan have a look instead to the .at the FOSDEM event\npage\nSo the context for the whole effort is that Guile has this part of its\nimplementation which is in C.  It also exposes a lot of that\nimplementation to users as an API.\nSo what contraints does this kind of API impose on the garbage\ncollector?\nLet's start by considering the simple  call above.  In a\ngarbage-collected environment, the GC is responsible for reclaiming\nunused memory.  How does the GC know that the result of a \ncall is in use?consscm_cons\nGenerally speaking there are two main strategies for automatic memory\nmanagement.…",
           "link": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
           "publishedOn": "2023-02-07T13:14:37.000Z",
-          "wordCount": 6735,
+          "wordCount": 6720,
           "title": "whippet: towards a new local maximum",
           "imageUrl": null
         },
