@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-10T00:32:05.991Z</id>
+    <id>urn:2023-03-11T00:27:06.972Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-03-10T00:32:05.992Z</updated>
+    <updated>2023-03-11T00:27:06.972Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[pre-initialization of garbage-collected webassembly heaps]]></title>
+        <id>https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps</id>
+        <link href="https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps"/>
+        <updated>2023-03-10T09:20:33.000Z</updated>
+        <summary type="html"><![CDATA[Hey comrades, I just had an idea that I won't be able to work on in the
+next couple months and wanted to release it into the wild.  They say if
+you love your ideas, you should let them go and see if they come back to
+you, right?  In that spirit I abandon this idea to the woods.
+Basically the idea is , but for modules
+that store their data on the GC-managed heap instead of just in linear
+memory.Wizer-like pre-initialization of WebAssembly
+modules
+Say you have a WebAssembly module with .
+It might look like this:GC
+types
+You define some struct and array types, there are some global variables,
+and some functions to actually do the work.  (There are probably also
+tables and other things but I am simplifying.)
+If you consider the object graph of an instantiated module, you will
+have some set of …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deus Ex Bing]]></title>
         <id>https://mikeinnes.io/2023/02/18/bing.html</id>
@@ -307,28 +332,6 @@ who is?).
 Tags: books]]></summary>
         <author>
             <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the sticky mark-bit algorithm]]></title>
-        <id>https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm</id>
-        <link href="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm"/>
-        <updated>2022-10-22T08:42:07.000Z</updated>
-        <summary type="html"><![CDATA[Good day, hackfolk!
-A funny post today; I gave an internal presentation at work recently
-describing the so-called "sticky mark bit" algorithm.  I figured I might
-as well post it here, as a gift to you from your local garbage human.
-Before diving in though, we start with some broad context about
-.  The term mostly means "garbage
-collection" these days, but really it describes a component of a system
-that provides fresh memory for new objects and  reclaims memory for objects that won't be needed in the program's future.  This stands in
-contrast to , which relies on the programmer
-to  their objects.automatic memory managementautomaticallymanual memory managementfree
-Of course, automatic memory management ensures some valuable system-wide
-properties, like lack of .  But also by
-enlarging the s…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>

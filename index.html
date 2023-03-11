@@ -22,6 +22,68 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T09:20:33.000Z">2023-03-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T09:20:33.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps"
+                        open
+                      >
+                        <summary class="article-expander__title">pre-initialization of garbage-collected webassembly heaps</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hey comrades, I just had an idea that I won&#x27;t be able to work on in the
+next couple months and wanted to release it into the wild.  They say if
+you love your ideas, you should let them go and see if they come back to
+you, right?  In that spirit I abandon this idea to the woods.
+Basically the idea is , but for modules
+that store their data on the GC-managed heap instead of just in linear
+memory.Wizer-like pre-initialization of WebAssembly
+modules
+Say you have a WebAssembly module with .
+It might look like this:GC
+types
+You define some struct and array types, there are some global variables,
+and some functions to actually do the work.  (There are probably also
+tables and other things but I am simplifying.)
+If you consider the object graph of an instantiated module, you will
+have some set of …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-18 datetime="2023-02-18T00:00:00.000Z">2023-02-18</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-18 datetime="2023-02-18T00:00:00.000Z"></time>
           </button>
@@ -797,65 +859,6 @@ who is?).
 
 Tags: books</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-22 datetime="2022-10-22T08:42:07.000Z">2022-10-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-22 datetime="2022-10-22T08:42:07.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm"
-                        open
-                      >
-                        <summary class="article-expander__title">the sticky mark-bit algorithm</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Good day, hackfolk!
-A funny post today; I gave an internal presentation at work recently
-describing the so-called &quot;sticky mark bit&quot; algorithm.  I figured I might
-as well post it here, as a gift to you from your local garbage human.
-Before diving in though, we start with some broad context about
-.  The term mostly means &quot;garbage
-collection&quot; these days, but really it describes a component of a system
-that provides fresh memory for new objects and  reclaims memory for objects that won&#x27;t be needed in the program&#x27;s future.  This stands in
-contrast to , which relies on the programmer
-to  their objects.automatic memory managementautomaticallymanual memory managementfree
-Of course, automatic memory management ensures some valuable system-wide
-properties, like lack of .  But also by
-enlarging the s…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1823,8 +1826,8 @@ Tags: books</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4380100676">
-        <time id="build-timestamp" datetime="2023-03-10T00:32:05.969Z">2023-03-10T00:32:05.969Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4389596433">
+        <time id="build-timestamp" datetime="2023-03-11T00:27:06.949Z">2023-03-11T00:27:06.949Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

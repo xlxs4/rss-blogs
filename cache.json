@@ -309,6 +309,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
+          "author": null,
+          "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
+          "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
+          "publishedOn": "2023-03-10T09:20:33.000Z",
+          "wordCount": 1431,
+          "title": "pre-initialization of garbage-collected webassembly heaps",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
           "author": null,
           "description": "Friends, you might have noted, but over the last year or so I really\ncaught the GC bug.  Today's post sums up that year, in the form of a\ntalk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you\ncan have a look instead to the .at the FOSDEM event\npage\nSo the context for the whole effort is that Guile has this part of its\nimplementation which is in C.  It also exposes a lot of that\nimplementation to users as an API.\nSo what contraints does this kind of API impose on the garbage\ncollector?\nLet's start by considering the simple  call above.  In a\ngarbage-collected environment, the GC is responsible for reclaiming\nunused memory.  How does the GC know that the result of a \ncall is in use?consscm_cons\nGenerally speaking there are two main strategies for automatic memory\nmanagement.…",
@@ -396,16 +406,6 @@
           "publishedOn": "2022-10-31T12:21:23.000Z",
           "wordCount": 1686,
           "title": "ephemerons and finalizers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm",
-          "author": null,
-          "description": "Good day, hackfolk!\nA funny post today; I gave an internal presentation at work recently\ndescribing the so-called \"sticky mark bit\" algorithm.  I figured I might\nas well post it here, as a gift to you from your local garbage human.\nBefore diving in though, we start with some broad context about\n.  The term mostly means \"garbage\ncollection\" these days, but really it describes a component of a system\nthat provides fresh memory for new objects and  reclaims memory for objects that won't be needed in the program's future.  This stands in\ncontrast to , which relies on the programmer\nto  their objects.automatic memory managementautomaticallymanual memory managementfree\nOf course, automatic memory management ensures some valuable system-wide\nproperties, like lack of .  But also by\nenlarging the s…",
-          "link": "https://wingolog.org/archives/2022/10/22/the-sticky-mark-bit-algorithm",
-          "publishedOn": "2022-10-22T08:42:07.000Z",
-          "wordCount": 2336,
-          "title": "the sticky mark-bit algorithm",
           "imageUrl": null
         }
       ]
