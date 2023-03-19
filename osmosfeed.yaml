@@ -17,6 +17,7 @@ sources:
   - href: https://twobithistory.org/feed.xml # Sinclair Target
   - href: https://jao.io/blog/rss.xml # jao
   - href: https://wingolog.org/feed/atom # Andy Wingo
+  - href: http://planet.lisp.org/rss20.xml # Planet Lisp
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
