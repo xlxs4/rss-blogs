@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-19T00:33:00.067Z</id>
+    <id>urn:2023-03-19T12:16:19.048Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-03-19T00:33:00.067Z</updated>
+    <updated>2023-03-19T12:16:19.048Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Martyanoff: Counting lines with Common Lisp]]></title>
+        <id>https://www.n16f.net/blog/counting-lines-with-common-lisp/</id>
+        <link href="https://www.n16f.net/blog/counting-lines-with-common-lisp/"/>
+        <updated>2023-03-17T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A good line counting program has two features: it only counts non-empty lines
+to get a fair estimate of the size of a project, and it groups line counts by
+file type to help see immediately which languages are used.
+A long time ago I got frustrated with two well known line counters.
+Sloccount spits out multiple strange Perl
+warnings about locales, and most of the output is a copyright notice and some
+absurd cost estimations. Cloc has fourteen
+Perl packages as dependencies. Writing a simple line counter is an interesting
+exercise; at the time I was discovering Common Lisp, so I wrote my own
+version.
+I made a few changes years after years, but most of the code stayed the same.
+I thought it would be interesting to revisit this program and present it part
+by part as a demonstration of how you …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pre-initialization of garbage-collected webassembly heaps]]></title>
         <id>https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps</id>
@@ -28,6 +50,210 @@ If you consider the object graph of an instantiated module, you will
 have some set of …]]></summary>
         <author>
             <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marco Antoniotti: The LETV and LETV* Macros]]></title>
+        <id>http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html</id>
+        <link href="http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html"/>
+        <updated>2023-03-09T20:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello,
+It has been a long time since I posted something here.  I have been busy with my day job and bogged down in a major rewrite of something (more on this hopefully very soon now (tm)) that is full of rabbit's holes.
+I was able to get out of one of these rabbit's holes with this little hack I cooked up that allows you to, possibly, write more concise code.
+This little hack introduces two handy Common Lisp
+macros, LETV and LETV* that allow you to mix
+regular LET and MULTIPLE-VALUE-BIND forms in
+a less verbose way.  The amount of indentation needed is also reduced.
+ 
+
+The syntax of LETV (or LETV*) is very
+"loopy", with a nod to SML/OCaml/F#/Haskell/Julia.  The current syntax
+  is the following:
+    letv     ::= 'LETV' [vars] [IN [body]]
+    letvstar ::= 'LETV*' [vars] [IN [body]]
+
+    var…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Hafner: Level Editor Update is Live!]]></title>
+        <id>https://reader.tymoon.eu/article/425</id>
+        <link href="https://reader.tymoon.eu/article/425"/>
+        <updated>2023-03-08T13:47:42.000Z</updated>
+        <summary type="html"><![CDATA[The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!
+Level Editor
+The level editor received a big overhaul and is now a lot more accessible. There's also official documentation now to help get you started and explain all the tools and shortcuts available. If you want to dig in, just update your game and navigate to Mod Manager > Create Mod, which should place you directly into the editor in a new world of your own!
+Sharing Mods
+You can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager > Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.
+We've provided …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Hafner: Next Kandria Update on March 8th!]]></title>
+        <id>https://reader.tymoon.eu/article/424</id>
+        <link href="https://reader.tymoon.eu/article/424"/>
+        <updated>2023-03-01T13:56:17.000Z</updated>
+        <summary type="html"><![CDATA[Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!
+Level Editing
+The biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!
+
+I've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!
+And yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!
+Partial Modding Support
+But, the editor itself is …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Two tiny Lisp evaluators]]></title>
+        <id>https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-02-27T14:19:38.000Z</updated>
+        <summary type="html"><![CDATA[Everyone who has written Lisp has written tiny Lisp evaluators in Lisp: here are two more.
+Following two recent articles I wrote on scope and extent in Common Lisp, I thought I would finish with two very tiny evaluators for dynamically and lexically bound variants on a tiny Lisp.
+The language
+The tiny Lisp these evaluators interpret is not minimal: it has constructs other than lambda, and even has assignment. But it is pretty small. Other than the binding rules the languages are identical.
+λ & lambda are synonyms and construct procedures, which can take any number of arguments;
+quote quotes its argument;
+if is conditional expression (the else part is optional);
+set! is assignment and mutates a binding.
+
+
+That is all that exists.
+Both evaluators understand primitives, which are usually just…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Dynamic binding without special in Common Lisp]]></title>
+        <id>https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-02-27T09:53:27.000Z</updated>
+        <summary type="html"><![CDATA[In Common Lisp, dynamic bindings and lexical bindings live in the same namespace. They don’t have to.
+Common Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.
+These are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Martyanoff: Custom Font Lock configuration in Emacs]]></title>
+        <id>https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/</id>
+        <link href="https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/"/>
+        <updated>2023-02-24T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Font
+Lock
+is the builtin Emacs minor mode used to highlight textual elements in buffers.
+Major modes usually configure it to detect various syntaxic constructions and
+attach
+faces
+to them.
+The reason I ended up deep into Font Lock is because I was not satisfied with
+the way it is configured for lisp-mode, the major mode used for both Common
+Lisp and Emacs Lisp code. This forced me to get acquainted with various
+aspects of Font Lock in order to change its configuration. If you want to
+change highlighting for your favourite major mode, you will find this article
+useful.
+Common Lisp highlighting done wrong
+The core issue of Common Lisp highlighting in Emacs is that a lot of it is
+arbitrary and inconsistent:
+The mode highlights what it calls “definers” and “keywords”, but it does not
+really ma…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ABCL Dev: ABCL 1.9.1 "never use a dot oh"]]></title>
+        <id>http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html</id>
+        <link href="http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html"/>
+        <updated>2023-02-23T12:26:00.000Z</updated>
+        <summary type="html"><![CDATA[If one has been hesitating about using the latest ABCL because one "never uses a dot oh release", we have now sloughed off abcl-1.9.1 for  your appraisal from the depths of a Bear's long winter nap.  Now one can use the somewhat less buggy version of the Tenth Edition of Armed Bear Common Lisp, available, as usual, at <https://abcl.org/releases/1.9.1/> or (shortly) via Maven <https://search.maven.org/artifact/org.abcl/abcl/1.9.1/jar>.
+
+Please note that when running on openjdk17 and later runtimes, there is quite a bit of necessary fiddling with command line arguments to"open" various modules to the Bear's introspective gaze. For example, see <https://abcl.org/svn/tags/1.9.1/ci/create-abcl-properties.bash> for the switches necessary to use CFFI to successfully run the CL+SSL test suite.
+
+
+A…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Martyanoff: Common Lisp implementations in 2023]]></title>
+        <id>https://www.n16f.net/blog/common-lisp-implementations-in-2023/</id>
+        <link href="https://www.n16f.net/blog/common-lisp-implementations-in-2023/"/>
+        <updated>2023-02-22T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Much has been written on Common Lisp; there is rarely one year without someone
+proclaming the death of the language and how nobody uses it anymore. And yet
+it is still here, so something must have been done right.
+Common Lisp is not a software, it is a language described by the ANSI INCITS
+226-1994 standard; there are multiple implementations available, something
+often used as argument for how alive and thriving the language is.
+Let us see what the 2023 situation is.
+General information
+Implementation
+License
+Target
+Last release
+
+
+
+
+SBCL
+Public domain
+Native
+2023/01 (2.3.1)
+
+
+CCL
+Apache 2.0
+Native
+2021/05 (1.12.1)
+
+
+ECL
+LGPL 2.1
+Native (C translation)
+2021/02 (21.2.1)
+
+
+ABCL
+GPL2
+Java bytecode
+2023/02 (1.9.1)
+
+
+CLASP
+LGPL 2.1
+Native (LLVM)
+2023/01 (2.1.0)
+
+
+CMUCL
+Public domain
+Native
+2017/…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: How to understand closures in Common Lisp]]></title>
+        <id>https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-02-22T13:51:07.000Z</updated>
+        <summary type="html"><![CDATA[The first rule of understanding closures is that you do not talk about closures. The second rule of understanding closures in Common Lisp is that you do not talk about closures. These are all the rules.
+There is a lot of elaborate bowing and scraping about closures in the Lisp community. But despite that a closure isn’t actually a thing: the thing people call a closure is just a function which obeys the language’s rules about the scope and extent of bindings. Implementors need to care about closures: users just need to understand the rules for bindings. So rather than obsessing about this magic invisible thing which doesn’t actually exist in the language, I suggest that it is far better simply to think about the rules which cover bindings.
+Angels and pinheads
+It’s easy to see why this has …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
