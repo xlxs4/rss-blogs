@@ -22,6 +22,66 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-20 datetime="2023-03-20T09:06:42.000Z">2023-03-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-20 datetime="2023-03-20T09:06:42.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us"
+                        open
+                      >
+                        <summary class="article-expander__title">a world to win: webassembly for the rest of us</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good day, comrades!
+Today I&#x27;d like to share the good news that WebAssembly is finally coming
+for the rest of us weirdos.
+This is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of
+people that are using &quot;technologies beyond the mainstream&quot; to get things
+done: Haskell, Clojure, Elixir, and so on.  PDF slides , and I&#x27;ll link the video too when it becomes available.BOB
+2023here
+WebAssembly: what even is it?  Not a programming language that
+you would write software in, but rather a compilation target: a sort of
+assembly language, if you will.
+If you look at what the characteristics of WebAssembly are as an
+abstract machine, to me there are two main areas in which it is an
+advance over the alternatives.
+Firstly it&#x27;s &quot;close to the metal&quot; -- if you compile for example…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-17 datetime="2023-03-17T18:00:00.000Z">2023-03-17</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-17 datetime="2023-03-17T18:00:00.000Z"></time>
           </button>
@@ -1263,68 +1323,6 @@ Tags: sundry</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-31 datetime="2022-10-31T12:21:23.000Z">2022-10-31</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-31 datetime="2022-10-31T12:21:23.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers"
-                        open
-                      >
-                        <summary class="article-expander__title">ephemerons and finalizers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Good day, hackfolk.  Today we continue the series on garbage collection
-with some notes on ephemerons and finalizers.
-conjunctions and disjunctions
-First described in a , which
-attributes the invention to George Bosworth, ephemerons are a kind of
-weak key-value association.1997 paper by Barry
-Hayes
-Thinking about the problem abstractly, consider that the garbage
-collector&#x27;s job is to keep live objects and recycle memory for dead
-objects, making that memory available for future allocations.  Formally
-speaking, we can say:
-This circular definition uses the word , indicating a disjunction:
-a single incoming reference from a live object is sufficient to mark a
-referent object as live.any
-Ephemerons augment this definition with a conjunction: 
-This is a more annoying property for a garbage coll…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-30 datetime="2022-10-30T01:50:00.000Z">2022-10-30</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-30 datetime="2022-10-30T01:50:00.000Z"></time>
           </button>
@@ -2371,8 +2369,8 @@ Tags: books</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4463505392">
-        <time id="build-timestamp" datetime="2023-03-20T00:31:59.029Z">2023-03-20T00:31:59.029Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4474252737">
+        <time id="build-timestamp" datetime="2023-03-21T00:28:48.651Z">2023-03-21T00:28:48.651Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

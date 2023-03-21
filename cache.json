@@ -309,12 +309,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
+          "author": null,
+          "description": "Good day, comrades!\nToday I'd like to share the good news that WebAssembly is finally coming\nfor the rest of us weirdos.\nThis is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of\npeople that are using \"technologies beyond the mainstream\" to get things\ndone: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB\n2023here\nWebAssembly: what even is it?  Not a programming language that\nyou would write software in, but rather a compilation target: a sort of\nassembly language, if you will.\nIf you look at what the characteristics of WebAssembly are as an\nabstract machine, to me there are two main areas in which it is an\nadvance over the alternatives.\nFirstly it's \"close to the metal\" -- if you compile for example…",
+          "link": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
+          "publishedOn": "2023-03-20T09:06:42.000Z",
+          "wordCount": 5414,
+          "title": "a world to win: webassembly for the rest of us",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
           "author": null,
           "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
           "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
           "publishedOn": "2023-03-10T09:20:33.000Z",
-          "wordCount": 1431,
+          "wordCount": 1437,
           "title": "pre-initialization of garbage-collected webassembly heaps",
           "imageUrl": null
         },
@@ -334,7 +344,7 @@
           "description": "How much memory should a program get?  Tonight, a quick note on sizing\nfor garbage-collected heaps.  There are a few possible answers,\ndepending on what your goals are for the system.\nSometimes you build a system and you want to study it: to identify its\nprincipal components and see how they work together, or to isolate the\neffect of altering a single component.  In that case, what you want is a\nfixed heap size.  You run your program a few times and determine a heap\nsize that is sufficient for your problem, and then in future run the\nprogram with that new fixed heap size.  This allows you to concentrate\non the other components of the system.\nA good approach to choosing the fixed heap size for a program is to\ndetermine the minimum heap size a program can have by bisection, then\nmultiplying …",
           "link": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
           "publishedOn": "2023-01-27T21:45:03.000Z",
-          "wordCount": 1150,
+          "wordCount": 1157,
           "title": "three approaches to heap sizing",
           "imageUrl": null
         },
@@ -394,18 +404,8 @@
           "description": "Good evening :)  A quick note, tonight: I've long thought that\n\nare primitive and can't be implemented with mark functions and/or\nfinalizers, but today I think I have a counterexample.ephemerons\nFor context, one of the goals of the  is to replace\n's current use of the .  Of course, changing a\ngarbage collector for a production language runtime is risky, and for Guile one of the mitigation\nstrategies for this work is that the new collector is behind an abstract API\nwhose implementation can be chosen at compile-time, without requiring\nchanges to user code.  That way we can first switch to\nBDW-implementing-the-new-GC-API, then switch the implementation behind\nthat API to something else.GC implementation I have been\nworking on onGuileBoehm-Demers-Weiser (BDW) conservative\ncollector\nAbstracting…",
           "link": "https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive",
           "publishedOn": "2022-11-28T21:11:30.000Z",
-          "wordCount": 1310,
+          "wordCount": 1315,
           "title": "are ephemerons primitive?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers",
-          "author": null,
-          "description": "Good day, hackfolk.  Today we continue the series on garbage collection\nwith some notes on ephemerons and finalizers.\nconjunctions and disjunctions\nFirst described in a , which\nattributes the invention to George Bosworth, ephemerons are a kind of\nweak key-value association.1997 paper by Barry\nHayes\nThinking about the problem abstractly, consider that the garbage\ncollector's job is to keep live objects and recycle memory for dead\nobjects, making that memory available for future allocations.  Formally\nspeaking, we can say:\nThis circular definition uses the word , indicating a disjunction:\na single incoming reference from a live object is sufficient to mark a\nreferent object as live.any\nEphemerons augment this definition with a conjunction: \nThis is a more annoying property for a garbage coll…",
-          "link": "https://wingolog.org/archives/2022/10/31/ephemerons-and-finalizers",
-          "publishedOn": "2022-10-31T12:21:23.000Z",
-          "wordCount": 1686,
-          "title": "ephemerons and finalizers",
           "imageUrl": null
         }
       ]
