@@ -406,6 +406,26 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.\nWhat we measured\nThe code we used is here1. We measured four variations of each of two functions.\nList flattening\nAll these functions use collecting to build their results forwards. They live in flatten-variants.lisp.\nflatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.\nflatten/explicit-stack uses an explicit stack (called agenda in the code) repr…",
+          "link": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-03-26T09:25:50.000Z",
+          "wordCount": 1529,
+          "title": "Tim Bradshaw: Measuring some tree-traversing functions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "Very often people regard the stack as a scarce, expensive resource, while the heap is plentiful and very cheap. This is absurd: the stack is memory, the heap is also memory. Deforming programs so they are ‘iterative’ in order that they do not run out of the stack we imagine to be so costly is ridiculous: if you have a program which is inherently recursive, let it be recursive.\nIn a previous article my friend Zyni wrote some variations on a list-flattening function1, some of which were ‘recursive’ and some of which ‘iterative’. Of course, the ones which claim to be iterative are, in fact, recursive: any procedure which traverses a recursively-defined data structure such as a tree of conses is necessarily recursive. The ‘iterative’ versions just use an explicitly-maintained stack rather than…",
+          "link": "https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-03-25T10:57:19.000Z",
+          "wordCount": 523,
+          "title": "Tim Bradshaw: The absurdity of stacks",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.n16f.net/blog/counting-lines-with-common-lisp/",
           "author": null,
           "description": "A good line counting program has two features: it only counts non-empty lines\nto get a fair estimate of the size of a project, and it groups line counts by\nfile type to help see immediately which languages are used.\nA long time ago I got frustrated with two well known line counters.\nSloccount spits out multiple strange Perl\nwarnings about locales, and most of the output is a copyright notice and some\nabsurd cost estimations. Cloc has fourteen\nPerl packages as dependencies. Writing a simple line counter is an interesting\nexercise; at the time I was discovering Common Lisp, so I wrote my own\nversion.\nI made a few changes years after years, but most of the code stayed the same.\nI thought it would be interesting to revisit this program and present it part\nby part as a demonstration of how you …",
@@ -413,6 +433,16 @@
           "publishedOn": "2023-03-17T18:00:00.000Z",
           "wordCount": 1707,
           "title": "Nicolas Martyanoff: Counting lines with Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.tfeb.org/fragments/2023/03/13/variations-on-a-theme/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "My friend Zyni wrote a comment to a thread on reddit with some variations on a list-flattening function. We’ve since spent some time thinking about things related to this, which is written up in a following article. Here is her comment so the following article can refer to it. Other than notes at the end the following text is Zyni’s, not mine.\nThe reddit comment by Zyni\nFirst of all we all know that CL does not promise to optimize tail recursion: means that tail recursive program may generate recursive not iterative process. So recursive program in CL even if tail recursive is not safe on data of unknown size, assuming stack is limited.\nBut let us assume as good implementations do that tail recursion is optimized in implementation (no need for general tail calls here but is obvious nice th…",
+          "link": "https://www.tfeb.org/fragments/2023/03/13/variations-on-a-theme/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-03-13T12:36:33.000Z",
+          "wordCount": 1102,
+          "title": "Tim Bradshaw: Variations on a theme",
           "imageUrl": null
         },
         {
@@ -451,7 +481,7 @@
           "description": "Everyone who has written Lisp has written tiny Lisp evaluators in Lisp: here are two more.\nFollowing two recent articles I wrote on scope and extent in Common Lisp, I thought I would finish with two very tiny evaluators for dynamically and lexically bound variants on a tiny Lisp.\nThe language\nThe tiny Lisp these evaluators interpret is not minimal: it has constructs other than lambda, and even has assignment. But it is pretty small. Other than the binding rules the languages are identical.\nλ & lambda are synonyms and construct procedures, which can take any number of arguments;\nquote quotes its argument;\nif is conditional expression (the else part is optional);\nset! is assignment and mutates a binding.\n\n\nThat is all that exists.\nBoth evaluators understand primitives, which are usually just…",
           "link": "https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2023-02-27T14:19:38.000Z",
-          "wordCount": 1244,
+          "wordCount": 1249,
           "title": "Tim Bradshaw: Two tiny Lisp evaluators",
           "imageUrl": null
         },
@@ -473,36 +503,6 @@
           "publishedOn": "2023-02-24T18:00:00.000Z",
           "wordCount": 1516,
           "title": "Nicolas Martyanoff: Custom Font Lock configuration in Emacs",
-          "imageUrl": null
-        },
-        {
-          "id": "http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html",
-          "author": null,
-          "description": "If one has been hesitating about using the latest ABCL because one \"never uses a dot oh release\", we have now sloughed off abcl-1.9.1 for  your appraisal from the depths of a Bear's long winter nap.  Now one can use the somewhat less buggy version of the Tenth Edition of Armed Bear Common Lisp, available, as usual, at <https://abcl.org/releases/1.9.1/> or (shortly) via Maven <https://search.maven.org/artifact/org.abcl/abcl/1.9.1/jar>.\n\nPlease note that when running on openjdk17 and later runtimes, there is quite a bit of necessary fiddling with command line arguments to\"open\" various modules to the Bear's introspective gaze. For example, see <https://abcl.org/svn/tags/1.9.1/ci/create-abcl-properties.bash> for the switches necessary to use CFFI to successfully run the CL+SSL test suite.\n\n\nA…",
-          "link": "http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html",
-          "publishedOn": "2023-02-23T12:26:00.000Z",
-          "wordCount": 2441,
-          "title": "ABCL Dev: ABCL 1.9.1 \"never use a dot oh\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.n16f.net/blog/common-lisp-implementations-in-2023/",
-          "author": null,
-          "description": "Much has been written on Common Lisp; there is rarely one year without someone\nproclaming the death of the language and how nobody uses it anymore. And yet\nit is still here, so something must have been done right.\nCommon Lisp is not a software, it is a language described by the ANSI INCITS\n226-1994 standard; there are multiple implementations available, something\noften used as argument for how alive and thriving the language is.\nLet us see what the 2023 situation is.\nGeneral information\nImplementation\nLicense\nTarget\nLast release\n\n\n\n\nSBCL\nPublic domain\nNative\n2023/01 (2.3.1)\n\n\nCCL\nApache 2.0\nNative\n2021/05 (1.12.1)\n\n\nECL\nLGPL 2.1\nNative (C translation)\n2021/02 (21.2.1)\n\n\nABCL\nGPL2\nJava bytecode\n2023/02 (1.9.1)\n\n\nCLASP\nLGPL 2.1\nNative (LLVM)\n2023/01 (2.1.0)\n\n\nCMUCL\nPublic domain\nNative\n2017/…",
-          "link": "https://www.n16f.net/blog/common-lisp-implementations-in-2023/",
-          "publishedOn": "2023-02-22T18:00:00.000Z",
-          "wordCount": 1374,
-          "title": "Nicolas Martyanoff: Common Lisp implementations in 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "The first rule of understanding closures is that you do not talk about closures. The second rule of understanding closures in Common Lisp is that you do not talk about closures. These are all the rules.\nThere is a lot of elaborate bowing and scraping about closures in the Lisp community. But despite that a closure isn’t actually a thing: the thing people call a closure is just a function which obeys the language’s rules about the scope and extent of bindings. Implementors need to care about closures: users just need to understand the rules for bindings. So rather than obsessing about this magic invisible thing which doesn’t actually exist in the language, I suggest that it is far better simply to think about the rules which cover bindings.\nAngels and pinheads\nIt’s easy to see why this has …",
-          "link": "https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-02-22T13:51:07.000Z",
-          "wordCount": 4183,
-          "title": "Tim Bradshaw: How to understand closures in Common Lisp",
           "imageUrl": null
         }
       ]

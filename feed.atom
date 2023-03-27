@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-26T00:01:51.208Z</id>
+    <id>urn:2023-03-27T00:01:52.811Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-03-26T00:01:51.208Z</updated>
+    <updated>2023-03-27T00:01:52.811Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Measuring some tree-traversing functions]]></title>
+        <id>https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-03-26T09:25:50.000Z</updated>
+        <summary type="html"><![CDATA[In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.
+What we measured
+The code we used is here1. We measured four variations of each of two functions.
+List flattening
+All these functions use collecting to build their results forwards. They live in flatten-variants.lisp.
+flatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.
+flatten/explicit-stack uses an explicit stack (called agenda in the code) repr…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: The absurdity of stacks]]></title>
+        <id>https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-03-25T10:57:19.000Z</updated>
+        <summary type="html"><![CDATA[Very often people regard the stack as a scarce, expensive resource, while the heap is plentiful and very cheap. This is absurd: the stack is memory, the heap is also memory. Deforming programs so they are ‘iterative’ in order that they do not run out of the stack we imagine to be so costly is ridiculous: if you have a program which is inherently recursive, let it be recursive.
+In a previous article my friend Zyni wrote some variations on a list-flattening function1, some of which were ‘recursive’ and some of which ‘iterative’. Of course, the ones which claim to be iterative are, in fact, recursive: any procedure which traverses a recursively-defined data structure such as a tree of conses is necessarily recursive. The ‘iterative’ versions just use an explicitly-maintained stack rather than…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[a world to win: webassembly for the rest of us]]></title>
         <id>https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us</id>
@@ -46,6 +73,19 @@ version.
 I made a few changes years after years, but most of the code stayed the same.
 I thought it would be interesting to revisit this program and present it part
 by part as a demonstration of how you …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Variations on a theme]]></title>
+        <id>https://www.tfeb.org/fragments/2023/03/13/variations-on-a-theme/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/03/13/variations-on-a-theme/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-03-13T12:36:33.000Z</updated>
+        <summary type="html"><![CDATA[My friend Zyni wrote a comment to a thread on reddit with some variations on a list-flattening function. We’ve since spent some time thinking about things related to this, which is written up in a following article. Here is her comment so the following article can refer to it. Other than notes at the end the following text is Zyni’s, not mine.
+The reddit comment by Zyni
+First of all we all know that CL does not promise to optimize tail recursion: means that tail recursive program may generate recursive not iterative process. So recursive program in CL even if tail recursive is not safe on data of unknown size, assuming stack is limited.
+But let us assume as good implementations do that tail recursion is optimized in implementation (no need for general tail calls here but is obvious nice th…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -188,93 +228,6 @@ The core issue of Common Lisp highlighting in Emacs is that a lot of it is
 arbitrary and inconsistent:
 The mode highlights what it calls “definers” and “keywords”, but it does not
 really ma…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ABCL Dev: ABCL 1.9.1 "never use a dot oh"]]></title>
-        <id>http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html</id>
-        <link href="http://abcl-dev.blogspot.com/2023/02/abcl-191-never-use-dot-oh.html"/>
-        <updated>2023-02-23T12:26:00.000Z</updated>
-        <summary type="html"><![CDATA[If one has been hesitating about using the latest ABCL because one "never uses a dot oh release", we have now sloughed off abcl-1.9.1 for  your appraisal from the depths of a Bear's long winter nap.  Now one can use the somewhat less buggy version of the Tenth Edition of Armed Bear Common Lisp, available, as usual, at <https://abcl.org/releases/1.9.1/> or (shortly) via Maven <https://search.maven.org/artifact/org.abcl/abcl/1.9.1/jar>.
-
-Please note that when running on openjdk17 and later runtimes, there is quite a bit of necessary fiddling with command line arguments to"open" various modules to the Bear's introspective gaze. For example, see <https://abcl.org/svn/tags/1.9.1/ci/create-abcl-properties.bash> for the switches necessary to use CFFI to successfully run the CL+SSL test suite.
-
-
-A…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nicolas Martyanoff: Common Lisp implementations in 2023]]></title>
-        <id>https://www.n16f.net/blog/common-lisp-implementations-in-2023/</id>
-        <link href="https://www.n16f.net/blog/common-lisp-implementations-in-2023/"/>
-        <updated>2023-02-22T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Much has been written on Common Lisp; there is rarely one year without someone
-proclaming the death of the language and how nobody uses it anymore. And yet
-it is still here, so something must have been done right.
-Common Lisp is not a software, it is a language described by the ANSI INCITS
-226-1994 standard; there are multiple implementations available, something
-often used as argument for how alive and thriving the language is.
-Let us see what the 2023 situation is.
-General information
-Implementation
-License
-Target
-Last release
-
-
-
-
-SBCL
-Public domain
-Native
-2023/01 (2.3.1)
-
-
-CCL
-Apache 2.0
-Native
-2021/05 (1.12.1)
-
-
-ECL
-LGPL 2.1
-Native (C translation)
-2021/02 (21.2.1)
-
-
-ABCL
-GPL2
-Java bytecode
-2023/02 (1.9.1)
-
-
-CLASP
-LGPL 2.1
-Native (LLVM)
-2023/01 (2.1.0)
-
-
-CMUCL
-Public domain
-Native
-2017/…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: How to understand closures in Common Lisp]]></title>
-        <id>https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2023/02/22/how-to-understand-closures-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2023-02-22T13:51:07.000Z</updated>
-        <summary type="html"><![CDATA[The first rule of understanding closures is that you do not talk about closures. The second rule of understanding closures in Common Lisp is that you do not talk about closures. These are all the rules.
-There is a lot of elaborate bowing and scraping about closures in the Lisp community. But despite that a closure isn’t actually a thing: the thing people call a closure is just a function which obeys the language’s rules about the scope and extent of bindings. Implementors need to care about closures: users just need to understand the rules for bindings. So rather than obsessing about this magic invisible thing which doesn’t actually exist in the language, I suggest that it is far better simply to think about the rules which cover bindings.
-Angels and pinheads
-It’s easy to see why this has …]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
