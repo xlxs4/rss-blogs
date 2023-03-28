@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -108,7 +108,7 @@
           "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (which Jeff Bezos called “artificial artificial intelligence”) also pays its human labourers a few cents per question-response task.",
           "link": "https://mikeinnes.io/2023/02/18/bing.html",
           "publishedOn": "2023-02-18T00:00:00.000Z",
-          "wordCount": 1303,
+          "wordCount": 1301,
           "title": "Deus Ex Bing",
           "imageUrl": null
         },
