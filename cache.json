@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -314,7 +314,7 @@
           "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
           "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
           "publishedOn": "2023-03-10T09:20:33.000Z",
-          "wordCount": 1437,
+          "wordCount": 1422,
           "title": "pre-initialization of garbage-collected webassembly heaps",
           "imageUrl": null
         },
