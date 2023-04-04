@@ -406,6 +406,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/427",
+          "author": null,
+          "description": "Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!\nYou may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.\n\nI'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!\nOther news\nWith the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.\nHowever, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!\nIn the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!\nThat's it for now\nA rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.",
+          "link": "https://reader.tymoon.eu/article/427",
+          "publishedOn": "2023-04-03T10:48:00.000Z",
+          "wordCount": 345,
+          "title": "Nicolas Hafner: &#27425;&#12399;...&#20309;&#65311; - April Kandria Update",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZM09BPT0="
+        },
+        {
           "id": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
           "author": null,
           "description": "In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.\nWhat we measured\nThe code we used is here1. We measured four variations of each of two functions.\nList flattening\nAll these functions use collecting to build their results forwards. They live in flatten-variants.lisp.\nflatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.\nflatten/explicit-stack uses an explicit stack (called agenda in the code) repr…",
@@ -461,9 +471,9 @@
           "description": "The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!\nLevel Editor\nThe level editor received a big overhaul and is now a lot more accessible. There's also official documentation now to help get you started and explain all the tools and shortcuts available. If you want to dig in, just update your game and navigate to Mod Manager > Create Mod, which should place you directly into the editor in a new world of your own!\nSharing Mods\nYou can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager > Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.\nWe've provided …",
           "link": "https://reader.tymoon.eu/article/425",
           "publishedOn": "2023-03-08T13:47:42.000Z",
-          "wordCount": null,
+          "wordCount": 539,
           "title": "Nicolas Hafner: Level Editor Update is Live!",
-          "imageUrl": null
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2379"
         },
         {
           "id": "https://reader.tymoon.eu/article/424",
@@ -471,9 +481,9 @@
           "description": "Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!\nLevel Editing\nThe biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!\n\nI've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!\nAnd yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!\nPartial Modding Support\nBut, the editor itself is …",
           "link": "https://reader.tymoon.eu/article/424",
           "publishedOn": "2023-03-01T13:56:17.000Z",
-          "wordCount": null,
+          "wordCount": 565,
           "title": "Nicolas Hafner: Next Kandria Update on March 8th!",
-          "imageUrl": null
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZMk1nPT0="
         },
         {
           "id": "https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&utm_medium=RSS",
@@ -493,16 +503,6 @@
           "publishedOn": "2023-02-27T09:53:27.000Z",
           "wordCount": 784,
           "title": "Tim Bradshaw: Dynamic binding without special in Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/",
-          "author": null,
-          "description": "Font\nLock\nis the builtin Emacs minor mode used to highlight textual elements in buffers.\nMajor modes usually configure it to detect various syntaxic constructions and\nattach\nfaces\nto them.\nThe reason I ended up deep into Font Lock is because I was not satisfied with\nthe way it is configured for lisp-mode, the major mode used for both Common\nLisp and Emacs Lisp code. This forced me to get acquainted with various\naspects of Font Lock in order to change its configuration. If you want to\nchange highlighting for your favourite major mode, you will find this article\nuseful.\nCommon Lisp highlighting done wrong\nThe core issue of Common Lisp highlighting in Emacs is that a lot of it is\narbitrary and inconsistent:\nThe mode highlights what it calls “definers” and “keywords”, but it does not\nreally ma…",
-          "link": "https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/",
-          "publishedOn": "2023-02-24T18:00:00.000Z",
-          "wordCount": 1516,
-          "title": "Nicolas Martyanoff: Custom Font Lock configuration in Emacs",
           "imageUrl": null
         }
       ]

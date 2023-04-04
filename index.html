@@ -22,6 +22,63 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-03 datetime="2023-04-03T10:48:00.000Z">2023-04-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-03 datetime="2023-04-03T10:48:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Lisp</button>
+                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://reader.tymoon.eu/article/427"
+                        open
+                      >
+                        <summary class="article-expander__title">Nicolas Hafner: 次は...何？ - April Kandria Update</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://reader.tymoon.eu/article/427">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://filebox.tymoon.eu//file/TWpZM09BPT0&#x3D;" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Another month gone by. There&#x27;s no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!
+You may have guessed from the title, but we&#x27;re adding Japanese localisation to the game! It&#x27;ll release on Wednesday, 12th of April. As someone that&#x27;s been trying to learn Japanese for a long time, this is another step in the development that I&#x27;ve been looking forward to very much.
+
+I&#x27;m also really glad that we can release this already, so it&#x27;ll be well out by the time I visit Tokyo Game Show in September!
+Other news
+With the level editor and the beginning of the modding support already in place, I&#x27;ve taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that&#x27;s been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.
+However, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don&#x27;t have a release date for that yet, so I hope you remain patient!
+In the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you&#x27;re interested in Common Lisp, it might be worth a read. And if you&#x27;re going to be in Amsterdam, let me know. I&#x27;d be happy to chat!
+That&#x27;s it for now
+A rather short update this month, but if you&#x27;re interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We&#x27;re discussing all the improvements to Trial there.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-26 datetime="2023-03-26T09:25:50.000Z">2023-03-26</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-26 datetime="2023-03-26T09:25:50.000Z"></time>
           </button>
@@ -442,6 +499,7 @@ The syntax of LETV (or LETV*) is very
                         <summary class="article-expander__title">Nicolas Hafner: Level Editor Update is Live!</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://reader.tymoon.eu/article/425">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://studio.tymoon.eu/api/studio/file?id&#x3D;2379" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!
 Level Editor
@@ -449,6 +507,8 @@ The level editor received a big overhaul and is now a lot more accessible. There
 Sharing Mods
 You can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager &gt; Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.
 We&#x27;ve provided …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -492,6 +552,7 @@ We&#x27;ve provided …</span>
                         <summary class="article-expander__title">Nicolas Hafner: Next Kandria Update on March 8th!</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://reader.tymoon.eu/article/424">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://filebox.tymoon.eu//file/TWpZMk1nPT0&#x3D;" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Let&#x27;s get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!
 Level Editing
@@ -501,6 +562,8 @@ I&#x27;ve also included documentation to make it much easier for you to get a ha
 And yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!
 Partial Modding Support
 But, the editor itself is …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -579,70 +642,6 @@ Both evaluators understand primitives, which are usually just…</span>
 Common Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.
 These are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-24 datetime="2023-02-24T18:00:00.000Z">2023-02-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-24 datetime="2023-02-24T18:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Lisp</button>
-                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/"
-                        open
-                      >
-                        <summary class="article-expander__title">Nicolas Martyanoff: Custom Font Lock configuration in Emacs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Font
-Lock
-is the builtin Emacs minor mode used to highlight textual elements in buffers.
-Major modes usually configure it to detect various syntaxic constructions and
-attach
-faces
-to them.
-The reason I ended up deep into Font Lock is because I was not satisfied with
-the way it is configured for lisp-mode, the major mode used for both Common
-Lisp and Emacs Lisp code. This forced me to get acquainted with various
-aspects of Font Lock in order to change its configuration. If you want to
-change highlighting for your favourite major mode, you will find this article
-useful.
-Common Lisp highlighting done wrong
-The core issue of Common Lisp highlighting in Emacs is that a lot of it is
-arbitrary and inconsistent:
-The mode highlights what it calls “definers” and “keywords”, but it does not
-really ma…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2255,8 +2254,8 @@ been quite happy with it.  One of the reasons is th…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4591493054">
-        <time id="build-timestamp" datetime="2023-04-03T00:01:28.977Z">2023-04-03T00:01:28.977Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4602451279">
+        <time id="build-timestamp" datetime="2023-04-04T00:01:29.314Z">2023-04-04T00:01:29.314Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

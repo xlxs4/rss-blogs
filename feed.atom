@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-03T00:01:29.001Z</id>
+    <id>urn:2023-04-04T00:01:29.338Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-03T00:01:29.001Z</updated>
+    <updated>2023-04-04T00:01:29.338Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Hafner: &#27425;&#12399;...&#20309;&#65311; - April Kandria Update]]></title>
+        <id>https://reader.tymoon.eu/article/427</id>
+        <link href="https://reader.tymoon.eu/article/427"/>
+        <updated>2023-04-03T10:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!
+You may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.
+
+I'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!
+Other news
+With the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.
+However, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!
+In the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!
+That's it for now
+A rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tim Bradshaw: Measuring some tree-traversing functions]]></title>
         <id>https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&amp;utm_medium=RSS</id>
@@ -201,33 +220,6 @@ Both evaluators understand primitives, which are usually just…]]></summary>
         <summary type="html"><![CDATA[In Common Lisp, dynamic bindings and lexical bindings live in the same namespace. They don’t have to.
 Common Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.
 These are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nicolas Martyanoff: Custom Font Lock configuration in Emacs]]></title>
-        <id>https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/</id>
-        <link href="https://www.n16f.net/blog/custom-font-lock-configuration-in-emacs/"/>
-        <updated>2023-02-24T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Font
-Lock
-is the builtin Emacs minor mode used to highlight textual elements in buffers.
-Major modes usually configure it to detect various syntaxic constructions and
-attach
-faces
-to them.
-The reason I ended up deep into Font Lock is because I was not satisfied with
-the way it is configured for lisp-mode, the major mode used for both Common
-Lisp and Emacs Lisp code. This forced me to get acquainted with various
-aspects of Font Lock in order to change its configuration. If you want to
-change highlighting for your favourite major mode, you will find this article
-useful.
-Common Lisp highlighting done wrong
-The core issue of Common Lisp highlighting in Emacs is that a lot of it is
-arbitrary and inconsistent:
-The mode highlights what it calls “definers” and “keywords”, but it does not
-really ma…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
