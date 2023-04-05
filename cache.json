@@ -280,16 +280,6 @@
           "wordCount": 1312,
           "title": "simple note taking",
           "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/slimmer-emacs-with-kitty.html",
-          "author": null,
-          "description": "A problem of using Emacs as my operating system is that any otherwise\nminor friction with its interface quickly becomes an irritant, and i\nthus find myself needed a truly smooth emacs-human interaction; or, to\nbe more precise emacs-jao interaction: my must needs are going to be,\nsometimes, triffles to you, and the other way round.\n\n\n\nDuring the last year, a perceived sluggishness in Emacs's X11 display\nperformance, together with a very noticeably increased RAM consumption\nhave become one of those irritants, and i decided that enough is\nenough, and moved (for the time being at least) from exwm to,\nessentially, using xmonad and kitty as my Emacs's display engine.\n\n\n\n\n\n\n\n\n\n\n\nFor several years now, i've been using exwm as my main desktop, and\nbeen quite happy with it.  One of the reasons is th…",
-          "link": "https://jao.io/blog/slimmer-emacs-with-kitty.html",
-          "publishedOn": "2022-06-08T17:53:00.000Z",
-          "wordCount": 1147,
-          "title": "slimmer emacs with kitty",
-          "imageUrl": null
         }
       ]
     },
