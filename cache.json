@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -294,7 +294,7 @@
           "description": "Good day, comrades!\nToday I'd like to share the good news that WebAssembly is finally coming\nfor the rest of us weirdos.\nThis is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of\npeople that are using \"technologies beyond the mainstream\" to get things\ndone: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB\n2023here\nWebAssembly: what even is it?  Not a programming language that\nyou would write software in, but rather a compilation target: a sort of\nassembly language, if you will.\nIf you look at what the characteristics of WebAssembly are as an\nabstract machine, to me there are two main areas in which it is an\nadvance over the alternatives.\nFirstly it's \"close to the metal\" -- if you compile for example…",
           "link": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
           "publishedOn": "2023-03-20T09:06:42.000Z",
-          "wordCount": 5441,
+          "wordCount": 5427,
           "title": "a world to win: webassembly for the rest of us",
           "imageUrl": null
         },
