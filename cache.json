@@ -431,7 +431,7 @@
           "description": "A good line counting program has two features: it only counts non-empty lines\nto get a fair estimate of the size of a project, and it groups line counts by\nfile type to help see immediately which languages are used.\nA long time ago I got frustrated with two well known line counters.\nSloccount spits out multiple strange Perl\nwarnings about locales, and most of the output is a copyright notice and some\nabsurd cost estimations. Cloc has fourteen\nPerl packages as dependencies. Writing a simple line counter is an interesting\nexercise; at the time I was discovering Common Lisp, so I wrote my own\nversion.\nI made a few changes years after years, but most of the code stayed the same.\nI thought it would be interesting to revisit this program and present it part\nby part as a demonstration of how you …",
           "link": "https://www.n16f.net/blog/counting-lines-with-common-lisp/",
           "publishedOn": "2023-03-17T18:00:00.000Z",
-          "wordCount": 1707,
+          "wordCount": 1709,
           "title": "Nicolas Martyanoff: Counting lines with Common Lisp",
           "imageUrl": null
         },
