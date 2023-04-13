@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -177,18 +177,7 @@
       "title": "Invenia Blog",
       "feedUrl": "https://invenia.github.io/blog/feed.xml",
       "siteUrl": "https://invenia.github.io/blog/",
-      "articles": [
-        {
-          "id": "https://invenia.github.io/blog/2022/06/17/deprecating-in-julia/",
-          "author": null,
-          "description": "In software development, the term “deprecated” refers to functionality that is still usable, but is obsolete and about to be replaced or removed in a future version of the software. This blog post will explain why deprecating functionality is a good idea, and will discuss available mechanisms for deprecating functionality in the Julia language.",
-          "link": "https://invenia.github.io/blog/2022/06/17/deprecating-in-julia/",
-          "publishedOn": "2022-06-17T00:00:00.000Z",
-          "wordCount": 1440,
-          "title": "Deprecating in Julia",
-          "imageUrl": "https://invenia.github.io/blog/public/InveniaLogo.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Two-Bit History",
@@ -401,7 +390,7 @@
           "description": "Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!\nYou may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.\n\nI'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!\nOther news\nWith the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.\nHowever, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!\nIn the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!\nThat's it for now\nA rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.",
           "link": "https://reader.tymoon.eu/article/427",
           "publishedOn": "2023-04-03T10:48:00.000Z",
-          "wordCount": 345,
+          "wordCount": 347,
           "title": "Nicolas Hafner: &#27425;&#12399;...&#20309;&#65311; - April Kandria Update",
           "imageUrl": "https://filebox.tymoon.eu//file/TWpZM09BPT0="
         },
