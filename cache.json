@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -67,18 +67,7 @@
       "title": "Mosè Giordano",
       "feedUrl": "https://giordano.github.io/blog/feed.xml",
       "siteUrl": "http://giordano.github.io",
-      "articles": [
-        {
-          "id": "http://giordano.github.io/blog/2022-06-18-first-macro/",
-          "author": null,
-          "description": "This post isn’t about the first macro I wrote in the Julia programming language, but it can be about your first macro. Frequently Asked Questions Question: What are macros in Julia? Answer: Macros are sort of functions which take as input unevaluated expressions (Expr) and return as output another expression,...",
-          "link": "http://giordano.github.io/blog/2022-06-18-first-macro/",
-          "publishedOn": "2022-06-17T23:00:00.000Z",
-          "wordCount": 3067,
-          "title": "My first macro in Julia",
-          "imageUrl": "http://giordano.github.io/img/avatar.jpeg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Shuhei Kadowaki&#39;s homepage",

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-13T00:01:28.720Z</id>
+    <id>urn:2023-04-14T00:01:43.368Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-13T00:01:28.720Z</updated>
+    <updated>2023-04-14T00:01:43.368Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -738,16 +738,6 @@ guess this is a good time for it: i can, after showing you mine, point you to
 a polished package following a similar philosophy and sidestep any temptat…]]></summary>
         <author>
             <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My first macro in Julia]]></title>
-        <id>http://giordano.github.io/blog/2022-06-18-first-macro/</id>
-        <link href="http://giordano.github.io/blog/2022-06-18-first-macro/"/>
-        <updated>2022-06-17T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post isn’t about the first macro I wrote in the Julia programming language, but it can be about your first macro. Frequently Asked Questions Question: What are macros in Julia? Answer: Macros are sort of functions which take as input unevaluated expressions (Expr) and return as output another expression,...]]></summary>
-        <author>
-            <name>Mosè Giordano</name>
         </author>
     </entry>
 </feed>
