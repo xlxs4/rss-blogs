@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-14T00:01:43.368Z</id>
+    <id>urn:2023-04-15T00:01:39.194Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-14T00:01:43.368Z</updated>
+    <updated>2023-04-15T00:01:39.194Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -713,29 +713,6 @@ mean the book doesn't throw at you a bunch of provocative musings or lacks a
 tranquil beauty that makes it absolutely worth reading.
 
 Tags: books]]></summary>
-        <author>
-            <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[simple note taking]]></title>
-        <id>https://jao.io/blog/simple-note-taking.html</id>
-        <link href="https://jao.io/blog/simple-note-taking.html"/>
-        <updated>2022-06-19T03:36:00.000Z</updated>
-        <summary type="html"><![CDATA[I was just watching Prot's explanation of his new package denote, a very
-elegant note-taking system with a stress on simplicity and, as the author puts
-it, low-tech requirements.  Now, those are excellent qualities in my book, and
-i think i'd quickly become a denote user if it weren't for the fact that i
-already have a homegrown set of utilities following a similar philosophy.
-Inevitably, they differ in some details, as is to be expected from software
-that has grown with me, as Prot's with him, during more than a decade, but
-they are similar in important ways.
-
-
-
-I've had in mind writing a brief note on my notes utilities for a while, so i
-guess this is a good time for it: i can, after showing you mine, point you to
-a polished package following a similar philosophy and sidestep any temptat…]]></summary>
         <author>
             <name>programming (and other) musings</name>
         </author>

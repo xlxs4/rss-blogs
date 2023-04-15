@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -247,16 +247,6 @@
           "publishedOn": "2022-06-19T17:36:00.000Z",
           "wordCount": 117,
           "title": "klara and the sun",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/simple-note-taking.html",
-          "author": null,
-          "description": "I was just watching Prot's explanation of his new package denote, a very\nelegant note-taking system with a stress on simplicity and, as the author puts\nit, low-tech requirements.  Now, those are excellent qualities in my book, and\ni think i'd quickly become a denote user if it weren't for the fact that i\nalready have a homegrown set of utilities following a similar philosophy.\nInevitably, they differ in some details, as is to be expected from software\nthat has grown with me, as Prot's with him, during more than a decade, but\nthey are similar in important ways.\n\n\n\nI've had in mind writing a brief note on my notes utilities for a while, so i\nguess this is a good time for it: i can, after showing you mine, point you to\na polished package following a similar philosophy and sidestep any temptat…",
-          "link": "https://jao.io/blog/simple-note-taking.html",
-          "publishedOn": "2022-06-19T03:36:00.000Z",
-          "wordCount": 1312,
-          "title": "simple note taking",
           "imageUrl": null
         }
       ]
