@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-15T00:01:39.194Z</id>
+    <id>urn:2023-04-16T00:01:33.639Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-15T00:01:39.194Z</updated>
+    <updated>2023-04-16T00:01:33.639Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -698,23 +698,6 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
         <summary type="html"><![CDATA[I just put up a draft paper with a proposal for mixing imperative and functional styles of programming. The gist of it is that we can write code like this:]]></summary>
         <author>
             <name>Mike Innes’s Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[klara and the sun]]></title>
-        <id>https://jao.io/blog/klara-and-the-sun.html</id>
-        <link href="https://jao.io/blog/klara-and-the-sun.html"/>
-        <updated>2022-06-19T17:36:00.000Z</updated>
-        <summary type="html"><![CDATA[A nicely written (as always with Ishiguro) history of Stevens turned into an
-artificially intelligent being, in a near future reminiscent of Never let me
-go.  In other words, i found this novel heavily inspired in previous works of
-the author, which i admittedly find better than this one, but that doesn't
-mean the book doesn't throw at you a bunch of provocative musings or lacks a
-tranquil beauty that makes it absolutely worth reading.
-
-Tags: books]]></summary>
-        <author>
-            <name>programming (and other) musings</name>
         </author>
     </entry>
 </feed>

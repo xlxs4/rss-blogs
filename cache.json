@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -237,16 +237,6 @@
           "publishedOn": "2022-07-22T18:08:00.000Z",
           "wordCount": 378,
           "title": "consult recoll with live preview",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/klara-and-the-sun.html",
-          "author": null,
-          "description": "A nicely written (as always with Ishiguro) history of Stevens turned into an\nartificially intelligent being, in a near future reminiscent of Never let me\ngo.  In other words, i found this novel heavily inspired in previous works of\nthe author, which i admittedly find better than this one, but that doesn't\nmean the book doesn't throw at you a bunch of provocative musings or lacks a\ntranquil beauty that makes it absolutely worth reading.\n\nTags: books",
-          "link": "https://jao.io/blog/klara-and-the-sun.html",
-          "publishedOn": "2022-06-19T17:36:00.000Z",
-          "wordCount": 117,
-          "title": "klara and the sun",
           "imageUrl": null
         }
       ]
