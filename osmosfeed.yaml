@@ -18,6 +18,7 @@ sources:
   - href: https://jao.io/blog/rss.xml # jao
   - href: https://wingolog.org/feed/atom # Andy Wingo
   - href: http://planet.lisp.org/rss20.xml # Planet Lisp
+  - href: https://hypirion.com/rss/all # Jean Niklas L' Orange
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
