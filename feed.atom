@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-17T00:01:48.011Z</id>
+    <id>urn:2023-04-17T12:26:54.411Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-17T00:01:48.011Z</updated>
+    <updated>2023-04-17T12:26:54.411Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -306,6 +306,16 @@ their values traced.  As a global data structure, the pending ephemeron…]]></s
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[On Expectations and Fun]]></title>
+        <id>https://hypirion.com/musings/on-expectations-and-fun</id>
+        <link href="https://hypirion.com/musings/on-expectations-and-fun"/>
+        <updated>2022-12-26T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?]]></summary>
+        <author>
+            <name>Polymatheia</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ephemeral success]]></title>
         <id>https://wingolog.org/archives/2022/12/15/ephemeral-success</id>
         <link href="https://wingolog.org/archives/2022/12/15/ephemeral-success"/>
@@ -501,6 +511,16 @@ who is?).
 Tags: books]]></summary>
         <author>
             <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teaching DucKey to Quack 🦆]]></title>
+        <id>https://hypirion.com/musings/duckey</id>
+        <link href="https://hypirion.com/musings/duckey"/>
+        <updated>2022-10-27T20:50:00.000Z</updated>
+        <summary type="html"><![CDATA[I've wanted to get my Moonlander keyboard's duck key to print the duck emoji for a long time. Here's how I did it!]]></summary>
+        <author>
+            <name>Polymatheia</name>
         </author>
     </entry>
     <entry>

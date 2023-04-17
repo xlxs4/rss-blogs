@@ -454,6 +454,33 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "Polymatheia",
+      "feedUrl": "https://hypirion.com/rss/all",
+      "siteUrl": "https://hypirion.com",
+      "articles": [
+        {
+          "id": "https://hypirion.com/musings/on-expectations-and-fun",
+          "author": null,
+          "description": "A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?",
+          "link": "https://hypirion.com/musings/on-expectations-and-fun",
+          "publishedOn": "2022-12-26T14:30:00.000Z",
+          "wordCount": 1287,
+          "title": "On Expectations and Fun",
+          "imageUrl": null
+        },
+        {
+          "id": "https://hypirion.com/musings/duckey",
+          "author": null,
+          "description": "I've wanted to get my Moonlander keyboard's duck key to print the duck emoji for a long time. Here's how I did it!",
+          "link": "https://hypirion.com/musings/duckey",
+          "publishedOn": "2022-10-27T20:50:00.000Z",
+          "wordCount": 2359,
+          "title": "Teaching DucKey to Quack 🦆",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
