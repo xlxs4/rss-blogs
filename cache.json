@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -247,6 +247,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/04/18/sticking-point",
+          "author": null,
+          "description": "Good evening, gentle readers.  A brief note tonight, on a sticky place.\nSee, I have too many projects right now.\nIn and of itself this is not so much of a problem as a condition. I know\nmy limits; I keep myself from burning out by shedding load, and there is\na kind of priority list of which projects keep adequate service levels.\nFirst come the tiny humans that are in my care who need their butts\nwiped and bodies translated to and from school or daycare and who --\nwell you know the old Hegelian trope, that the dialectic crank of\nhistory doesn't turn itself, that it takes actions from people to\nsynthesize the thesis and the antithesis, and that even History itself\nisn't always monotonic; in the same way, bedtime is a reality,\nthere are the material conditions of sleepiness and\nyou're-gonna-b…",
+          "link": "https://wingolog.org/archives/2023/04/18/sticking-point",
+          "publishedOn": "2023-04-18T20:23:49.000Z",
+          "wordCount": 766,
+          "title": "sticking point",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
           "author": null,
           "description": "Good day, comrades!\nToday I'd like to share the good news that WebAssembly is finally coming\nfor the rest of us weirdos.\nThis is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of\npeople that are using \"technologies beyond the mainstream\" to get things\ndone: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB\n2023here\nWebAssembly: what even is it?  Not a programming language that\nyou would write software in, but rather a compilation target: a sort of\nassembly language, if you will.\nIf you look at what the characteristics of WebAssembly are as an\nabstract machine, to me there are two main areas in which it is an\nadvance over the alternatives.\nFirstly it's \"close to the metal\" -- if you compile for example…",
@@ -335,16 +345,6 @@
           "wordCount": 1211,
           "title": "a simple semi-space collector",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive",
-          "author": null,
-          "description": "Good evening :)  A quick note, tonight: I've long thought that\n\nare primitive and can't be implemented with mark functions and/or\nfinalizers, but today I think I have a counterexample.ephemerons\nFor context, one of the goals of the  is to replace\n's current use of the .  Of course, changing a\ngarbage collector for a production language runtime is risky, and for Guile one of the mitigation\nstrategies for this work is that the new collector is behind an abstract API\nwhose implementation can be chosen at compile-time, without requiring\nchanges to user code.  That way we can first switch to\nBDW-implementing-the-new-GC-API, then switch the implementation behind\nthat API to something else.GC implementation I have been\nworking on onGuileBoehm-Demers-Weiser (BDW) conservative\ncollector\nAbstracting…",
-          "link": "https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive",
-          "publishedOn": "2022-11-28T21:11:30.000Z",
-          "wordCount": 1315,
-          "title": "are ephemerons primitive?",
-          "imageUrl": null
         }
       ]
     },
@@ -353,6 +353,16 @@
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.\nBound and free declarations\nDeclarations in Common Lisp can be either bound or free:\na bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;\na free declaration is any declaration which is not bound.\n\n\nThere are declarations which do not apply to bindings, such as optimize: these are always free.\nExamples of bound and free declarations\nIn the form\n(let ((x 1))\n  (declare (type integer x))\n  ...)\nthe declaration is bound and applies to the binding of x. In the form\n(let ((/x/ 1))\n  (declare (special /x/)\n           (optimize (speed 3)))\n  ...)\nthe special declaration is bound and appli…",
+          "link": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-04-18T09:53:46.000Z",
+          "wordCount": 844,
+          "title": "Tim Bradshaw: Something unclear in the Common Lisp standard",
+          "imageUrl": null
+        },
         {
           "id": "https://reader.tymoon.eu/article/427",
           "author": null,
@@ -369,7 +379,7 @@
           "description": "In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.\nWhat we measured\nThe code we used is here1. We measured four variations of each of two functions.\nList flattening\nAll these functions use collecting to build their results forwards. They live in flatten-variants.lisp.\nflatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.\nflatten/explicit-stack uses an explicit stack (called agenda in the code) repr…",
           "link": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2023-03-26T09:25:50.000Z",
-          "wordCount": 1529,
+          "wordCount": 1537,
           "title": "Tim Bradshaw: Measuring some tree-traversing functions",
           "imageUrl": null
         },
@@ -389,7 +399,7 @@
           "description": "A good line counting program has two features: it only counts non-empty lines\nto get a fair estimate of the size of a project, and it groups line counts by\nfile type to help see immediately which languages are used.\nA long time ago I got frustrated with two well known line counters.\nSloccount spits out multiple strange Perl\nwarnings about locales, and most of the output is a copyright notice and some\nabsurd cost estimations. Cloc has fourteen\nPerl packages as dependencies. Writing a simple line counter is an interesting\nexercise; at the time I was discovering Common Lisp, so I wrote my own\nversion.\nI made a few changes years after years, but most of the code stayed the same.\nI thought it would be interesting to revisit this program and present it part\nby part as a demonstration of how you …",
           "link": "https://www.n16f.net/blog/counting-lines-with-common-lisp/",
           "publishedOn": "2023-03-17T18:00:00.000Z",
-          "wordCount": 1709,
+          "wordCount": 1712,
           "title": "Nicolas Martyanoff: Counting lines with Common Lisp",
           "imageUrl": null
         },
@@ -441,16 +451,6 @@
           "publishedOn": "2023-02-27T14:19:38.000Z",
           "wordCount": 1249,
           "title": "Tim Bradshaw: Two tiny Lisp evaluators",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "In Common Lisp, dynamic bindings and lexical bindings live in the same namespace. They don’t have to.\nCommon Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.\nThese are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …",
-          "link": "https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-02-27T09:53:27.000Z",
-          "wordCount": 784,
-          "title": "Tim Bradshaw: Dynamic binding without special in Common Lisp",
           "imageUrl": null
         }
       ]

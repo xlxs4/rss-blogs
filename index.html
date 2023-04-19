@@ -22,6 +22,116 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-18 datetime="2023-04-18T20:23:49.000Z">2023-04-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-18 datetime="2023-04-18T20:23:49.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/04/18/sticking-point"
+                        open
+                      >
+                        <summary class="article-expander__title">sticking point</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/04/18/sticking-point">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Good evening, gentle readers.  A brief note tonight, on a sticky place.
+See, I have too many projects right now.
+In and of itself this is not so much of a problem as a condition. I know
+my limits; I keep myself from burning out by shedding load, and there is
+a kind of priority list of which projects keep adequate service levels.
+First come the tiny humans that are in my care who need their butts
+wiped and bodies translated to and from school or daycare and who --
+well you know the old Hegelian trope, that the dialectic crank of
+history doesn&#x27;t turn itself, that it takes actions from people to
+synthesize the thesis and the antithesis, and that even History itself
+isn&#x27;t always monotonic; in the same way, bedtime is a reality,
+there are the material conditions of sleepiness and
+you&#x27;re-gonna-b…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Lisp</button>
+                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS"
+                        open
+                      >
+                        <summary class="article-expander__title">Tim Bradshaw: Something unclear in the Common Lisp standard</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.
+Bound and free declarations
+Declarations in Common Lisp can be either bound or free:
+a bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;
+a free declaration is any declaration which is not bound.
+
+
+There are declarations which do not apply to bindings, such as optimize: these are always free.
+Examples of bound and free declarations
+In the form
+(let ((x 1))
+  (declare (type integer x))
+  ...)
+the declaration is bound and applies to the binding of x. In the form
+(let ((/x/ 1))
+  (declare (special /x/)
+           (optimize (speed 3)))
+  ...)
+the special declaration is bound and appli…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-03 datetime="2023-04-03T10:48:00.000Z">2023-04-03</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-03 datetime="2023-04-03T10:48:00.000Z"></time>
           </button>
@@ -627,27 +737,6 @@ Both evaluators understand primitives, which are usually just…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS"
-                        open
-                      >
-                        <summary class="article-expander__title">Tim Bradshaw: Dynamic binding without special in Common Lisp</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In Common Lisp, dynamic bindings and lexical bindings live in the same namespace. They don’t have to.
-Common Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.
-These are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1145,67 +1234,6 @@ In practice when you build a GC, it&#x27;s parameterized in a …</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-29 datetime="2022-11-28T21:11:30.000Z">2022-11-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-29 datetime="2022-11-28T21:11:30.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive"
-                        open
-                      >
-                        <summary class="article-expander__title">are ephemerons primitive?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Good evening :)  A quick note, tonight: I&#x27;ve long thought that
-
-are primitive and can&#x27;t be implemented with mark functions and/or
-finalizers, but today I think I have a counterexample.ephemerons
-For context, one of the goals of the  is to replace
-&#x27;s current use of the .  Of course, changing a
-garbage collector for a production language runtime is risky, and for Guile one of the mitigation
-strategies for this work is that the new collector is behind an abstract API
-whose implementation can be chosen at compile-time, without requiring
-changes to user code.  That way we can first switch to
-BDW-implementing-the-new-GC-API, then switch the implementation behind
-that API to something else.GC implementation I have been
-working on onGuileBoehm-Demers-Weiser (BDW) conservative
-collector
-Abstracting…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-24 datetime="2022-11-24T01:04:59.000Z">2022-11-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-24 datetime="2022-11-24T01:04:59.000Z"></time>
           </button>
@@ -1219,7 +1247,7 @@ Abstracting…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1470,7 +1498,7 @@ Tags: books</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1522,7 +1550,7 @@ The post Direct Automatic Differentiation of (Differential Equation) Solvers vs 
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -1919,7 +1947,7 @@ emacs, via a new version of consult-recoll, and there you go, jus…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2016,7 +2044,7 @@ The post Accurate and Efficient Physics-Informed Learning Through Differentiable
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2096,8 +2124,8 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4727022591">
-        <time id="build-timestamp" datetime="2023-04-18T00:01:37.477Z">2023-04-18T00:01:37.477Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4738047129">
+        <time id="build-timestamp" datetime="2023-04-19T00:01:34.802Z">2023-04-19T00:01:34.802Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

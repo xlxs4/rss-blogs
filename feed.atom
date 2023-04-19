@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-18T00:01:37.501Z</id>
+    <id>urn:2023-04-19T00:01:34.825Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-18T00:01:37.501Z</updated>
+    <updated>2023-04-19T00:01:34.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[sticking point]]></title>
+        <id>https://wingolog.org/archives/2023/04/18/sticking-point</id>
+        <link href="https://wingolog.org/archives/2023/04/18/sticking-point"/>
+        <updated>2023-04-18T20:23:49.000Z</updated>
+        <summary type="html"><![CDATA[Good evening, gentle readers.  A brief note tonight, on a sticky place.
+See, I have too many projects right now.
+In and of itself this is not so much of a problem as a condition. I know
+my limits; I keep myself from burning out by shedding load, and there is
+a kind of priority list of which projects keep adequate service levels.
+First come the tiny humans that are in my care who need their butts
+wiped and bodies translated to and from school or daycare and who --
+well you know the old Hegelian trope, that the dialectic crank of
+history doesn't turn itself, that it takes actions from people to
+synthesize the thesis and the antithesis, and that even History itself
+isn't always monotonic; in the same way, bedtime is a reality,
+there are the material conditions of sleepiness and
+you're-gonna-b…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Something unclear in the Common Lisp standard]]></title>
+        <id>https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-04-18T09:53:46.000Z</updated>
+        <summary type="html"><![CDATA[There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.
+Bound and free declarations
+Declarations in Common Lisp can be either bound or free:
+a bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;
+a free declaration is any declaration which is not bound.
+
+
+There are declarations which do not apply to bindings, such as optimize: these are always free.
+Examples of bound and free declarations
+In the form
+(let ((x 1))
+  (declare (type integer x))
+  ...)
+the declaration is bound and applies to the binding of x. In the form
+(let ((/x/ 1))
+  (declare (special /x/)
+           (optimize (speed 3)))
+  ...)
+the special declaration is bound and appli…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nicolas Hafner: &#27425;&#12399;...&#20309;&#65311; - April Kandria Update]]></title>
         <id>https://reader.tymoon.eu/article/427</id>
@@ -213,18 +263,6 @@ Both evaluators understand primitives, which are usually just…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: Dynamic binding without special in Common Lisp]]></title>
-        <id>https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2023/02/27/dynamic-binding-without-special-in-common-lisp/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2023-02-27T09:53:27.000Z</updated>
-        <summary type="html"><![CDATA[In Common Lisp, dynamic bindings and lexical bindings live in the same namespace. They don’t have to.
-Common Lisp has two sorts of bindings for variables: lexical binding and dynamic binding. Lexical binding has lexical scope — the binding is available where it is visible in source code — and indefinite extent — the binding is available as long as any code might reference it. Dynamic binding has indefinite scope — the binding is available to any code which runs between when the binding is established and when control leaves the form which established it — and dynamic extent — the binding ceases to exist when control leaves the binding form.
-These are really two very different things. However CL places both of these kinds of bindings into the same namespace, relying on special declarations …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Deus Ex Bing]]></title>
         <id>https://mikeinnes.io/2023/02/18/bing.html</id>
         <link href="https://mikeinnes.io/2023/02/18/bing.html"/>
@@ -400,30 +438,6 @@ fromspace  the tospace (hence the names), starting from some set of
 root objects.  Once the copy is done, allocation then proceeds in the
 new tospace.fromspacetospaceflipfromto
 In practice when you build a GC, it's parameterized in a …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[are ephemerons primitive?]]></title>
-        <id>https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive</id>
-        <link href="https://wingolog.org/archives/2022/11/28/are-ephemerons-primitive"/>
-        <updated>2022-11-28T21:11:30.000Z</updated>
-        <summary type="html"><![CDATA[Good evening :)  A quick note, tonight: I've long thought that
-
-are primitive and can't be implemented with mark functions and/or
-finalizers, but today I think I have a counterexample.ephemerons
-For context, one of the goals of the  is to replace
-'s current use of the .  Of course, changing a
-garbage collector for a production language runtime is risky, and for Guile one of the mitigation
-strategies for this work is that the new collector is behind an abstract API
-whose implementation can be chosen at compile-time, without requiring
-changes to user code.  That way we can first switch to
-BDW-implementing-the-new-GC-API, then switch the implementation behind
-that API to something else.GC implementation I have been
-working on onGuileBoehm-Demers-Weiser (BDW) conservative
-collector
-Abstracting…]]></summary>
         <author>
             <name>wingolog</name>
         </author>
