@@ -22,6 +22,59 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-19 datetime="2023-04-19T09:44:56.000Z">2023-04-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-19 datetime="2023-04-19T09:44:56.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Lisp</button>
+                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/"
+                        open
+                      >
+                        <summary class="article-expander__title">vindarel: How to parse command line arguments in Common Lisp (bis)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="/images/default.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.
+But since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.
+You might give adopt a look, or maybe defmain though I felt a little something was missing.
+So I updated the guide to use Clingon. Let’s go.
+&#x3D;&gt; This article is best read on the Common Lisp Cookbook where it will receive updates.
+As a reminder to this often-asked question, my SBCL standalon…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-18 datetime="2023-04-18T20:23:49.000Z">2023-04-18</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-18 datetime="2023-04-18T20:23:49.000Z"></time>
           </button>
@@ -673,64 +726,6 @@ And yes, the entire Kandria world was created in this editor, so it is fully cap
 Partial Modding Support
 But, the editor itself is …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-27 datetime="2023-02-27T14:19:38.000Z">2023-02-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-27 datetime="2023-02-27T14:19:38.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Lisp</button>
-                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS"
-                        open
-                      >
-                        <summary class="article-expander__title">Tim Bradshaw: Two tiny Lisp evaluators</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Everyone who has written Lisp has written tiny Lisp evaluators in Lisp: here are two more.
-Following two recent articles I wrote on scope and extent in Common Lisp, I thought I would finish with two very tiny evaluators for dynamically and lexically bound variants on a tiny Lisp.
-The language
-The tiny Lisp these evaluators interpret is not minimal: it has constructs other than lambda, and even has assignment. But it is pretty small. Other than the binding rules the languages are identical.
-λ &amp; lambda are synonyms and construct procedures, which can take any number of arguments;
-quote quotes its argument;
-if is conditional expression (the else part is optional);
-set! is assignment and mutates a binding.
-
-
-That is all that exists.
-Both evaluators understand primitives, which are usually just…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2075,57 +2070,10 @@ The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica C
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-24 datetime="2022-06-24T00:00:00.000Z">2022-06-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-24 datetime="2022-06-24T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Mike Innes’s Blog</button>
-                  <a class="source-heading__link" href="/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mikeinnes.io/2022/06/24/swap.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Imperative Syntax, Functional Semantics</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mikeinnes.io/2022/06/24/swap.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I just put up a draft paper with a proposal for mixing imperative and functional styles of programming. The gist of it is that we can write code like this:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4738047129">
-        <time id="build-timestamp" datetime="2023-04-19T00:01:34.802Z">2023-04-19T00:01:34.802Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4749004392">
+        <time id="build-timestamp" datetime="2023-04-20T00:01:39.796Z">2023-04-20T00:01:39.796Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

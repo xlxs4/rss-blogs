@@ -110,16 +110,6 @@
           "wordCount": 1437,
           "title": "Clocktower IQ",
           "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/2022/06/24/swap.html",
-          "author": null,
-          "description": "I just put up a draft paper with a proposal for mixing imperative and functional styles of programming. The gist of it is that we can write code like this:",
-          "link": "https://mikeinnes.io/2022/06/24/swap.html",
-          "publishedOn": "2022-06-24T00:00:00.000Z",
-          "wordCount": 330,
-          "title": "Imperative Syntax, Functional Semantics",
-          "imageUrl": null
         }
       ]
     },
@@ -354,6 +344,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
+          "author": null,
+          "description": "In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.\nBut since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.\nYou might give adopt a look, or maybe defmain though I felt a little something was missing.\nSo I updated the guide to use Clingon. Let’s go.\n=> This article is best read on the Common Lisp Cookbook where it will receive updates.\nAs a reminder to this often-asked question, my SBCL standalon…",
+          "link": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
+          "publishedOn": "2023-04-19T09:44:56.000Z",
+          "wordCount": 2002,
+          "title": "vindarel: How to parse command line arguments in Common Lisp (bis)",
+          "imageUrl": "/images/default.png"
+        },
+        {
           "id": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
           "author": null,
           "description": "There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.\nBound and free declarations\nDeclarations in Common Lisp can be either bound or free:\na bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;\na free declaration is any declaration which is not bound.\n\n\nThere are declarations which do not apply to bindings, such as optimize: these are always free.\nExamples of bound and free declarations\nIn the form\n(let ((x 1))\n  (declare (type integer x))\n  ...)\nthe declaration is bound and applies to the binding of x. In the form\n(let ((/x/ 1))\n  (declare (special /x/)\n           (optimize (speed 3)))\n  ...)\nthe special declaration is bound and appli…",
@@ -442,16 +442,6 @@
           "wordCount": 565,
           "title": "Nicolas Hafner: Next Kandria Update on March 8th!",
           "imageUrl": "https://filebox.tymoon.eu//file/TWpZMk1nPT0="
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "Everyone who has written Lisp has written tiny Lisp evaluators in Lisp: here are two more.\nFollowing two recent articles I wrote on scope and extent in Common Lisp, I thought I would finish with two very tiny evaluators for dynamically and lexically bound variants on a tiny Lisp.\nThe language\nThe tiny Lisp these evaluators interpret is not minimal: it has constructs other than lambda, and even has assignment. But it is pretty small. Other than the binding rules the languages are identical.\nλ & lambda are synonyms and construct procedures, which can take any number of arguments;\nquote quotes its argument;\nif is conditional expression (the else part is optional);\nset! is assignment and mutates a binding.\n\n\nThat is all that exists.\nBoth evaluators understand primitives, which are usually just…",
-          "link": "https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-02-27T14:19:38.000Z",
-          "wordCount": 1249,
-          "title": "Tim Bradshaw: Two tiny Lisp evaluators",
-          "imageUrl": null
         }
       ]
     },

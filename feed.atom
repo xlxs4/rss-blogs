@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-19T00:01:34.825Z</id>
+    <id>urn:2023-04-20T00:01:39.818Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-19T00:01:34.825Z</updated>
+    <updated>2023-04-20T00:01:39.818Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[vindarel: How to parse command line arguments in Common Lisp (bis)]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/"/>
+        <updated>2023-04-19T09:44:56.000Z</updated>
+        <summary type="html"><![CDATA[In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.
+But since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.
+You might give adopt a look, or maybe defmain though I felt a little something was missing.
+So I updated the guide to use Clingon. Let’s go.
+=> This article is best read on the Common Lisp Cookbook where it will receive updates.
+As a reminder to this often-asked question, my SBCL standalon…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[sticking point]]></title>
         <id>https://wingolog.org/archives/2023/04/18/sticking-point</id>
@@ -237,27 +252,6 @@ I've also included documentation to make it much easier for you to get a handle 
 And yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!
 Partial Modding Support
 But, the editor itself is …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: Two tiny Lisp evaluators]]></title>
-        <id>https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2023/02/27/two-tiny-lisp-evaluators/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2023-02-27T14:19:38.000Z</updated>
-        <summary type="html"><![CDATA[Everyone who has written Lisp has written tiny Lisp evaluators in Lisp: here are two more.
-Following two recent articles I wrote on scope and extent in Common Lisp, I thought I would finish with two very tiny evaluators for dynamically and lexically bound variants on a tiny Lisp.
-The language
-The tiny Lisp these evaluators interpret is not minimal: it has constructs other than lambda, and even has assignment. But it is pretty small. Other than the binding rules the languages are identical.
-λ & lambda are synonyms and construct procedures, which can take any number of arguments;
-quote quotes its argument;
-if is conditional expression (the else part is optional);
-set! is assignment and mutates a binding.
-
-
-That is all that exists.
-Both evaluators understand primitives, which are usually just…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -722,16 +716,6 @@ Abstract: As modeling has become more ubiquitous, our models keep growing. The t
 The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021) appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Imperative Syntax, Functional Semantics]]></title>
-        <id>https://mikeinnes.io/2022/06/24/swap.html</id>
-        <link href="https://mikeinnes.io/2022/06/24/swap.html"/>
-        <updated>2022-06-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I just put up a draft paper with a proposal for mixing imperative and functional styles of programming. The gist of it is that we can write code like this:]]></summary>
-        <author>
-            <name>Mike Innes’s Blog</name>
         </author>
     </entry>
 </feed>
