@@ -622,6 +622,63 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "Eval / Apply is pure magic",
+      "feedUrl": "https://www.evalapply.org/index.xml",
+      "siteUrl": "https://www.evalapply.org/",
+      "articles": [
+        {
+          "id": "https://www.evalapply.org/posts/cold-restart-total-outage/",
+          "author": null,
+          "description": "\"What are folks’ views on systems so large where cold-starting the whole system is almost impossible?\"... — M'colleague In A Slackroom Next Door.",
+          "link": "https://www.evalapply.org/posts/cold-restart-total-outage/index.html",
+          "publishedOn": "2023-04-07T00:00:00.000Z",
+          "wordCount": 1155,
+          "title": "Cold restart whole system after total outage",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.evalapply.org/posts/bad-matrix/",
+          "author": null,
+          "description": "A while ago, someone in the Recurse Center nerdiverse decided we needed a \"Bad Print\". They made one. Things escalated. Bad Matrix happened.",
+          "link": "https://www.evalapply.org/posts/bad-matrix/index.html",
+          "publishedOn": "2023-02-14T00:00:00.000Z",
+          "wordCount": 770,
+          "title": "Bad Matrix",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.evalapply.org/posts/tools-for-thought/",
+          "author": null,
+          "description": "Trying out a classification for \"Tools for Thought\" as a means of augmenting the human intellect, hot on the heels of recent community conversations about ChatGPT, CoPilot, Stable Diffusion etc...",
+          "link": "https://www.evalapply.org/posts/tools-for-thought/index.html",
+          "publishedOn": "2023-01-19T00:00:00.000Z",
+          "wordCount": 1124,
+          "title": "Riff: Classifying Tools for Thought",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.evalapply.org/posts/animate-text-art-javascript/",
+          "author": null,
+          "description": "It is with no small thanks to MDN, StackOverflow, Firefox's support for countless open tabs, JavaScript's support for first-class functions, and first-class supportive colleagues, I learned it is possible for a web front end novice to program \"text art animations\". Whatever that is even. Because I thoroughly enjoyed doing just that for Hanukkah of Data 2022. Here's how it went down.",
+          "link": "https://www.evalapply.org/posts/animate-text-art-javascript/index.html",
+          "publishedOn": "2023-01-16T00:00:00.000Z",
+          "wordCount": 3578,
+          "title": "Animating Text Art in JavaScript",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.evalapply.org/posts/clojure-mars-rover/",
+          "author": null,
+          "description": "Here I illustrate how Clojurists (including Yours Truly) like to solve problems and model things using hammocks, pure functions, and the \"it's just data\" ideology. Also, while the *problem* focuses on \"design in the small\" of application logic, many ideas in the *solution* can—and do—scale all the way to \"design in the large\" of whole systems.",
+          "link": "https://www.evalapply.org/posts/clojure-mars-rover/index.html",
+          "publishedOn": "2022-10-19T00:00:00.000Z",
+          "wordCount": 3428,
+          "title": "A Clojure view of \"Mars Rover\"",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
