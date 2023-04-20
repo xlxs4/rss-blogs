@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-20T00:01:39.818Z</id>
+    <id>urn:2023-04-20T16:43:07.140Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-20T00:01:39.818Z</updated>
+    <updated>2023-04-20T16:43:07.140Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Learning OCaml: Quoted String Literals]]></title>
+        <id>https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/</id>
+        <link href="https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/"/>
+        <updated>2023-04-20T13:23:00.000Z</updated>
+        <summary type="html"><![CDATA[While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[structure and interpretation of capacitor programs]]></title>
+        <id>https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs</id>
+        <link href="https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs"/>
+        <updated>2023-04-20T10:20:32.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackers!  Today's note is a bit of a departure from compilers
+internals.  A client at work recently asked me to look into
+cross-platform mobile application development and is happy for the
+results to be shared publically.  This, then, is the first in a series
+of articles.
+I'll be starting by taking a look at
+/,
+,
+,
+/, and then a
+mystery guest.  This article will set the stage and then look into
+Ionic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart
+The angle I am taking is, if you were designing a new mobile operating
+system that uses JavaScript as its native application development
+language, what would it mean to adopt one of these as your primary app
+development toolkit?  It's a broad question but I hope we can come up
+with some useful conclusions.
+I'm going to appro…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vindarel: How to parse command line arguments in Common Lisp (bis)]]></title>
         <id>https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/</id>
@@ -68,6 +105,36 @@ the declaration is bound and applies to the binding of x. In the form
 the special declaration is bound and appli…]]></summary>
         <author>
             <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Foundations]]></title>
+        <id>urn:uuid:f9aaf15d-37c1-4a8e-bab7-9ccd0b60d12c</id>
+        <link href="https://www.lambdasierra.com/2023/building/"/>
+        <updated>2023-04-13T22:00:42.000Z</updated>
+        <summary type="html"><![CDATA[On starting a new blog, abandoning the stability of WordPress for the creative freedom of do-it-yourself.]]></summary>
+        <author>
+            <name>Lambda/Sierra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updating the Bundler Version Specified in Gemfile.lock]]></title>
+        <id>https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/</id>
+        <link href="https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/"/>
+        <updated>2023-04-09T16:29:00.000Z</updated>
+        <summary type="html"><![CDATA[You might have noticed one change introduced with Bundler 2.3 - it now requires you to run the version of Bundler that’s specified in your Gemfile.lock.1 This means that occasionally you might see something like this: https://bundler.io/blog/2022/01/23/bundler-v2-3.html &#8617;]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog Comments are Back]]></title>
+        <id>https://batsov.com/articles/2023/04/09/blog-comments-are-back/</id>
+        <link href="https://batsov.com/articles/2023/04/09/blog-comments-are-back/"/>
+        <updated>2023-04-09T15:57:00.000Z</updated>
+        <summary type="html"><![CDATA[This is going to be one super short post.]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -140,6 +207,16 @@ Firstly it's "close to the metal" -- if you compile for example…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How are OCaml Programmers Called?]]></title>
+        <id>https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/</id>
+        <link href="https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/"/>
+        <updated>2023-03-20T08:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Ruby programmers are commonly called Rubyists. Python programmers are often called Pythonistas. Lisp programmers are widely known as Lispers. Clojure programmers are sometimes called Clojurians.]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Nicolas Martyanoff: Counting lines with Common Lisp]]></title>
         <id>https://www.n16f.net/blog/counting-lines-with-common-lisp/</id>
         <link href="https://www.n16f.net/blog/counting-lines-with-common-lisp/"/>
@@ -172,6 +249,16 @@ First of all we all know that CL does not promise to optimize tail recursion: me
 But let us assume as good implementations do that tail recursion is optimized in implementation (no need for general tail calls here but is obvious nice th…]]></summary>
         <author>
             <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS API in Org Mode with Clojure]]></title>
+        <id>urn:uuid:5960d9ab-f082-4b72-b3a0-7753d56d2008</id>
+        <link href="https://www.lambdasierra.com/2023/aws-org/"/>
+        <updated>2023-03-12T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[AWS API docs from the Cognitect AWS Client library as Emacs Org Mode]]></summary>
+        <author>
+            <name>Lambda/Sierra</name>
         </author>
     </entry>
     <entry>
@@ -338,6 +425,31 @@ their values traced.  As a global data structure, the pending ephemeron…]]></s
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2022: The Year in Review]]></title>
+        <id>https://batsov.com/articles/2023/01/08/2022-the-year-in-review/</id>
+        <link href="https://batsov.com/articles/2023/01/08/2022-the-year-in-review/"/>
+        <updated>2023-01-08T14:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Another year is behind us and it’s time for the obligatory “year in review” blog post. I’ve been feeling a bit lazy, that’s why I’m getting to writing it a bit of a delay, but you’ll forgive me.]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vector Symbolic Architectures in Clojure]]></title>
+        <id>http://gigasquid.github.io/blog/2022/12/31/vector-symbolic-architectures-in-clojure/</id>
+        <link href="http://gigasquid.github.io/blog/2022/12/31/vector-symbolic-architectures-in-clojure/"/>
+        <updated>2022-12-31T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[generated with Stable Diffusion
+Before diving into the details of what Vector Symbolic Architectures are and what it means to implement Clojure data structures in them, I’d like to start with some of my motivation in this space.
+Small AI for More Personal Enjoyment
+Over the last few years, I’ve spent time learning, exploring, and contributing to open source deep learning. It continues to amaze me with its rapid movement and achievements at scale. However, the scale is really too big and too slow for me to enjoy it anymore.
+Between work and family, I don’t have a lot of free time. When I do get a few precious hours to do some coding just for me, I want it it to be small enough for me to fire up and play with it in a REPL on my local laptop and get a result back in under two minutes.
+I also …]]></summary>
+        <author>
+            <name>Squid's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[On Expectations and Fun]]></title>
         <id>https://hypirion.com/musings/on-expectations-and-fun</id>
         <link href="https://hypirion.com/musings/on-expectations-and-fun"/>
@@ -345,6 +457,16 @@ their values traced.  As a global data structure, the pending ephemeron…]]></s
         <summary type="html"><![CDATA[A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?]]></summary>
         <author>
             <name>Polymatheia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bozhidar is on Mastodon]]></title>
+        <id>https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/</id>
+        <link href="https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/"/>
+        <updated>2022-12-20T18:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Twitter these days is all about drama related to… Twitter (Elon Musk). That really pains me, given that as long as it has existed Twitter has been the only social network that I’ve truly enjoyed using.]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -368,6 +490,26 @@ ephemeron to a queue or worklist?  It's such a pedestrian question
 ("just... enqueue it?") but I think it illustrates some of t…]]></summary>
         <author>
             <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Topic-specific RSS Feeds]]></title>
+        <id>https://batsov.com/articles/2022/12/15/topic-specific-rss-feeds/</id>
+        <link href="https://batsov.com/articles/2022/12/15/topic-specific-rss-feeds/"/>
+        <updated>2022-12-15T10:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Someone complained earlier today that my Pixel 6A article was picked up by Planet Emacslife. While I wasn’t involved in adding my blog there and I never promised to write exclusively about Emacs, this is a good opportunity to remind people my blog has several topic-specific RSS feeds about:]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back to Android: My Take on the Pixel 6A]]></title>
+        <id>https://batsov.com/articles/2022/12/15/back-to-android-my-take-on-the-pixel-6a/</id>
+        <link href="https://batsov.com/articles/2022/12/15/back-to-android-my-take-on-the-pixel-6a/"/>
+        <updated>2022-12-15T07:42:00.000Z</updated>
+        <summary type="html"><![CDATA[A couple of weeks ago I made a spectacular and quite unexpected return to Android, after a long period of being exclusively in Apple’s mobile devices ecosystem. My last Android phone was the Sony Xperia Arc, which I bought way back in 2011. Afterwards I got an iPhone 5(S?) in 2012/2013 and never looked back.]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -415,25 +557,23 @@ thus computing the new address, and then updates the …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[a simple semi-space collector]]></title>
-        <id>https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector</id>
-        <link href="https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector"/>
-        <updated>2022-12-10T20:50:28.000Z</updated>
-        <summary type="html"><![CDATA[Good day, hackfolk.  Today's article is about semi-space collectors.
-Many of you know what these are, but perhaps not so many have
-seen an annotated implementation, so let's do that.
-Just to recap, the big picture here is that a semi-space collector
-divides a chunk of memory into two equal halves or spaces, called the
- and the .  Allocation proceeds linearly across
-tospace, from one end to the other.  When the tospace is full, we 
-the spaces: the tospace becomes the fromspace, and the fromspace becomes
-the tospace.  The collector copies out all live data  the
-fromspace  the tospace (hence the names), starting from some set of
-root objects.  Once the copy is done, allocation then proceeds in the
-new tospace.fromspacetospaceflipfromto
-In practice when you build a GC, it's parameterized in a …]]></summary>
+        <title type="html"><![CDATA[Git Tip: Find the Top Contributors]]></title>
+        <id>https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/</id>
+        <link href="https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/"/>
+        <updated>2022-12-11T17:38:00.000Z</updated>
+        <summary type="html"><![CDATA[From time to time it’s useful to know who are main authors of some piece of a project. Admittedly most of the time I want to check who are the top contributors to some Git repository I’d use a web interface for this (e.g. GitHub). Probably because I never bothered to remember the magic incantations to do this with the git command-line interface and probably because statistics often look better when you have a have richer UI toolkit to render them. That being said, today I was reminded how easy it is to cover the basics with the command-line. If we want a list of the top 10 contributors (in terms of commits) we can get it like this:1 All examples use CIDER’s repository. &#8617;]]></summary>
         <author>
-            <name>wingolog</name>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s the Term for a Filename Without Its Extension?]]></title>
+        <id>https://batsov.com/articles/2022/12/08/what-s-the-term-for-a-filename-without-its-extension/</id>
+        <link href="https://batsov.com/articles/2022/12/08/what-s-the-term-for-a-filename-without-its-extension/"/>
+        <updated>2022-12-08T14:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Today someone asked in OCaml’s Discord “How do you call a variable that refers to a filename without its extension?”. I always thought there was no specific term for this and I always named such variables filename-sans-extension (or similar), but it turns out I was wrong. It’s never too late to learning something new! But first a bit of (subjective) terminology:]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>

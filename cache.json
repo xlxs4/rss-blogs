@@ -237,6 +237,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
+          "author": null,
+          "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
+          "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
+          "publishedOn": "2023-04-20T10:20:32.000Z",
+          "wordCount": 2508,
+          "title": "structure and interpretation of capacitor programs",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/04/18/sticking-point",
           "author": null,
           "description": "Good evening, gentle readers.  A brief note tonight, on a sticky place.\nSee, I have too many projects right now.\nIn and of itself this is not so much of a problem as a condition. I know\nmy limits; I keep myself from burning out by shedding load, and there is\na kind of priority list of which projects keep adequate service levels.\nFirst come the tiny humans that are in my care who need their butts\nwiped and bodies translated to and from school or daycare and who --\nwell you know the old Hegelian trope, that the dialectic crank of\nhistory doesn't turn itself, that it takes actions from people to\nsynthesize the thesis and the antithesis, and that even History itself\nisn't always monotonic; in the same way, bedtime is a reality,\nthere are the material conditions of sleepiness and\nyou're-gonna-b…",
@@ -324,16 +334,6 @@
           "publishedOn": "2022-12-11T21:19:20.000Z",
           "wordCount": 1055,
           "title": "we iterate so that you can recurse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector",
-          "author": null,
-          "description": "Good day, hackfolk.  Today's article is about semi-space collectors.\nMany of you know what these are, but perhaps not so many have\nseen an annotated implementation, so let's do that.\nJust to recap, the big picture here is that a semi-space collector\ndivides a chunk of memory into two equal halves or spaces, called the\n and the .  Allocation proceeds linearly across\ntospace, from one end to the other.  When the tospace is full, we \nthe spaces: the tospace becomes the fromspace, and the fromspace becomes\nthe tospace.  The collector copies out all live data  the\nfromspace  the tospace (hence the names), starting from some set of\nroot objects.  Once the copy is done, allocation then proceeds in the\nnew tospace.fromspacetospaceflipfromto\nIn practice when you build a GC, it's parameterized in a …",
-          "link": "https://wingolog.org/archives/2022/12/10/a-simple-semi-space-collector",
-          "publishedOn": "2022-12-10T20:50:28.000Z",
-          "wordCount": 1211,
-          "title": "a simple semi-space collector",
           "imageUrl": null
         }
       ]
@@ -468,6 +468,157 @@
           "publishedOn": "2022-10-27T20:50:00.000Z",
           "wordCount": 2359,
           "title": "Teaching DucKey to Quack 🦆",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "(think)",
+      "feedUrl": "https://batsov.com/atom.xml",
+      "siteUrl": "https://batsov.com/",
+      "articles": [
+        {
+          "id": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
+          "author": null,
+          "description": "While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):",
+          "link": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
+          "publishedOn": "2023-04-20T13:23:00.000Z",
+          "wordCount": 811,
+          "title": "Learning OCaml: Quoted String Literals",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/",
+          "author": null,
+          "description": "You might have noticed one change introduced with Bundler 2.3 - it now requires you to run the version of Bundler that’s specified in your Gemfile.lock.1 This means that occasionally you might see something like this: https://bundler.io/blog/2022/01/23/bundler-v2-3.html &#8617;",
+          "link": "https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/",
+          "publishedOn": "2023-04-09T16:29:00.000Z",
+          "wordCount": 474,
+          "title": "Updating the Bundler Version Specified in Gemfile.lock",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2023/04/09/blog-comments-are-back/",
+          "author": null,
+          "description": "This is going to be one super short post.",
+          "link": "https://batsov.com/articles/2023/04/09/blog-comments-are-back/",
+          "publishedOn": "2023-04-09T15:57:00.000Z",
+          "wordCount": 435,
+          "title": "Blog Comments are Back",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/",
+          "author": null,
+          "description": "Ruby programmers are commonly called Rubyists. Python programmers are often called Pythonistas. Lisp programmers are widely known as Lispers. Clojure programmers are sometimes called Clojurians.",
+          "link": "https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/",
+          "publishedOn": "2023-03-20T08:02:00.000Z",
+          "wordCount": 584,
+          "title": "How are OCaml Programmers Called?",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2023/01/08/2022-the-year-in-review/",
+          "author": null,
+          "description": "Another year is behind us and it’s time for the obligatory “year in review” blog post. I’ve been feeling a bit lazy, that’s why I’m getting to writing it a bit of a delay, but you’ll forgive me.",
+          "link": "https://batsov.com/articles/2023/01/08/2022-the-year-in-review/",
+          "publishedOn": "2023-01-08T14:21:00.000Z",
+          "wordCount": 1256,
+          "title": "2022: The Year in Review",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/",
+          "author": null,
+          "description": "Twitter these days is all about drama related to… Twitter (Elon Musk). That really pains me, given that as long as it has existed Twitter has been the only social network that I’ve truly enjoyed using.",
+          "link": "https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/",
+          "publishedOn": "2022-12-20T18:21:00.000Z",
+          "wordCount": 603,
+          "title": "Bozhidar is on Mastodon",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2022/12/15/topic-specific-rss-feeds/",
+          "author": null,
+          "description": "Someone complained earlier today that my Pixel 6A article was picked up by Planet Emacslife. While I wasn’t involved in adding my blog there and I never promised to write exclusively about Emacs, this is a good opportunity to remind people my blog has several topic-specific RSS feeds about:",
+          "link": "https://batsov.com/articles/2022/12/15/topic-specific-rss-feeds/",
+          "publishedOn": "2022-12-15T10:48:00.000Z",
+          "wordCount": 402,
+          "title": "Topic-specific RSS Feeds",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2022/12/15/back-to-android-my-take-on-the-pixel-6a/",
+          "author": null,
+          "description": "A couple of weeks ago I made a spectacular and quite unexpected return to Android, after a long period of being exclusively in Apple’s mobile devices ecosystem. My last Android phone was the Sony Xperia Arc, which I bought way back in 2011. Afterwards I got an iPhone 5(S?) in 2012/2013 and never looked back.",
+          "link": "https://batsov.com/articles/2022/12/15/back-to-android-my-take-on-the-pixel-6a/",
+          "publishedOn": "2022-12-15T07:42:00.000Z",
+          "wordCount": 1911,
+          "title": "Back to Android: My Take on the Pixel 6A",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/",
+          "author": null,
+          "description": "From time to time it’s useful to know who are main authors of some piece of a project. Admittedly most of the time I want to check who are the top contributors to some Git repository I’d use a web interface for this (e.g. GitHub). Probably because I never bothered to remember the magic incantations to do this with the git command-line interface and probably because statistics often look better when you have a have richer UI toolkit to render them. That being said, today I was reminded how easy it is to cover the basics with the command-line. If we want a list of the top 10 contributors (in terms of commits) we can get it like this:1 All examples use CIDER’s repository. &#8617;",
+          "link": "https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/",
+          "publishedOn": "2022-12-11T17:38:00.000Z",
+          "wordCount": 676,
+          "title": "Git Tip: Find the Top Contributors",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2022/12/08/what-s-the-term-for-a-filename-without-its-extension/",
+          "author": null,
+          "description": "Today someone asked in OCaml’s Discord “How do you call a variable that refers to a filename without its extension?”. I always thought there was no specific term for this and I always named such variables filename-sans-extension (or similar), but it turns out I was wrong. It’s never too late to learning something new! But first a bit of (subjective) terminology:",
+          "link": "https://batsov.com/articles/2022/12/08/what-s-the-term-for-a-filename-without-its-extension/",
+          "publishedOn": "2022-12-08T14:40:00.000Z",
+          "wordCount": 562,
+          "title": "What’s the Term for a Filename Without Its Extension?",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Lambda/Sierra",
+      "feedUrl": "https://www.lambdasierra.com/feed.xml",
+      "siteUrl": "https://www.lambdasierra.com/",
+      "articles": [
+        {
+          "id": "urn:uuid:f9aaf15d-37c1-4a8e-bab7-9ccd0b60d12c",
+          "author": null,
+          "description": "On starting a new blog, abandoning the stability of WordPress for the creative freedom of do-it-yourself.",
+          "link": "https://www.lambdasierra.com/2023/building/",
+          "publishedOn": "2023-04-13T22:00:42.000Z",
+          "wordCount": 722,
+          "title": "Building Foundations",
+          "imageUrl": null
+        },
+        {
+          "id": "urn:uuid:5960d9ab-f082-4b72-b3a0-7753d56d2008",
+          "author": null,
+          "description": "AWS API docs from the Cognitect AWS Client library as Emacs Org Mode",
+          "link": "https://www.lambdasierra.com/2023/aws-org/",
+          "publishedOn": "2023-03-12T22:30:00.000Z",
+          "wordCount": 619,
+          "title": "AWS API in Org Mode with Clojure",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Squid's Blog",
+      "feedUrl": "http://gigasquidsoftware.com/atom.xml",
+      "siteUrl": "http://gigasquid.github.io/atom.xml",
+      "articles": [
+        {
+          "id": "http://gigasquid.github.io/blog/2022/12/31/vector-symbolic-architectures-in-clojure/",
+          "author": null,
+          "description": "generated with Stable Diffusion\nBefore diving into the details of what Vector Symbolic Architectures are and what it means to implement Clojure data structures in them, I’d like to start with some of my motivation in this space.\nSmall AI for More Personal Enjoyment\nOver the last few years, I’ve spent time learning, exploring, and contributing to open source deep learning. It continues to amaze me with its rapid movement and achievements at scale. However, the scale is really too big and too slow for me to enjoy it anymore.\nBetween work and family, I don’t have a lot of free time. When I do get a few precious hours to do some coding just for me, I want it it to be small enough for me to fire up and play with it in a REPL on my local laptop and get a result back in under two minutes.\nI also …",
+          "link": "http://gigasquid.github.io/blog/2022/12/31/vector-symbolic-architectures-in-clojure/",
+          "publishedOn": "2022-12-31T20:41:00.000Z",
+          "wordCount": 2097,
+          "title": "Vector Symbolic Architectures in Clojure",
           "imageUrl": null
         }
       ]
