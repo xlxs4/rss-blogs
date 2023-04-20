@@ -19,6 +19,10 @@ sources:
   - href: https://wingolog.org/feed/atom # Andy Wingo
   - href: http://planet.lisp.org/rss20.xml # Planet Lisp
   - href: https://hypirion.com/rss/all # Jean Niklas L' Orange
+  - href: https://batsov.com/atom.xml # Bozhidar Batsov
+  - href: https://www.lambdasierra.com/feed.xml # Alessandra Sierra
+  - href: http://gigasquidsoftware.com/atom.xml # Carin Meier
+  - href: http://swannodette.github.com/atom.xml # David Nolen
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
