@@ -23,6 +23,7 @@ sources:
   - href: https://www.lambdasierra.com/feed.xml # Alessandra Sierra
   - href: http://gigasquidsoftware.com/atom.xml # Carin Meier
   - href: http://swannodette.github.com/atom.xml # David Nolen
+  - href: https://www.evalapply.org/index.xml
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
