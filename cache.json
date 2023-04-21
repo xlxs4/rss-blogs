@@ -44,16 +44,6 @@
           "wordCount": 1317,
           "title": "Accurate and Efficient Physics-Informed Learning Through Differentiable Simulation (ASA Seminar Talk)",
           "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
-        },
-        {
-          "id": "https://www.stochasticlifestyle.com/?p=1655",
-          "author": "Christopher Rackauckas",
-          "description": "Keynote Address: New Horizons in Modeling and Simulation in Julia\nPresenters: Viral Shah (Julia Computing, CEO and Co-Founder), Chris Rackauckas (Julia Computing, Director of Modeling and Simulation and Christopher Laughman (Mitsubishi Electric Research Laboratories, Principal Member Research Staff)\nAbstract: As modeling has become more ubiquitous, our models keep growing. The time to build models, verify their behavior, and simulate them is increasing exponentially as we seek more precise predictions. How will our tools change to accommodate the future? Julia’s language design has led to new opportunities. The combination of multiple dispatch, staged compilation, and Julia’s composable libraries have made it possible to build a next generation symbolic-numeric framework. Julia’s abstract interpretation framework enables capabilities such as automatic differentiation, automatic surrogate generation, symbolic tracing, uncertainty propagation, and automatic  ... READ MORE\nThe post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021) appeared first on Stochastic Lifestyle.",
-          "link": "http://www.stochasticlifestyle.com/keynote-new-horizons-in-modeling-and-simulation-with-julia-modelica-conference-2021/",
-          "publishedOn": "2022-06-25T18:11:28.000Z",
-          "wordCount": 1221,
-          "title": "Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021)",
-          "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
         }
       ]
     },
@@ -237,12 +227,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
+          "author": null,
+          "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
+          "link": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
+          "publishedOn": "2023-04-21T08:20:17.000Z",
+          "wordCount": 2932,
+          "title": "structure and interpretation of react native",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
           "author": null,
           "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
           "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
           "publishedOn": "2023-04-20T10:20:32.000Z",
-          "wordCount": 2508,
+          "wordCount": 2509,
           "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
         },
@@ -324,16 +324,6 @@
           "publishedOn": "2022-12-12T14:02:41.000Z",
           "wordCount": 698,
           "title": "i'm throwing ephemeron party & you're invited",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse",
-          "author": null,
-          "description": "Sometimes when you see an elegant algorithm, you think \"looks great, I\njust need it to also do X\".  Perhaps you are able to build X directly\nout of what the algorithm gives you; fantastic.  Or, perhaps you can\nalter the algorithm a bit, and it works just as well while also doing X.\nSometimes, though, you alter the algorithm and things go pear-shaped.\nTonight's little note builds on \nand discusses an worse alternative to the Cheney scanning algorithm.yesterday's semi-space collector\narticle\nTo recall, we had this  function that takes a edge in the\nobject graph, as the address of a field in memory containing a .  If the edge points to an object that was already copied,\n updates it to the forwarded address.  Otherwise it copies the object,\nthus computing the new address, and then updates the …",
-          "link": "https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse",
-          "publishedOn": "2022-12-11T21:19:20.000Z",
-          "wordCount": 1055,
-          "title": "we iterate so that you can recurse",
           "imageUrl": null
         }
       ]
@@ -677,6 +667,53 @@
           "wordCount": 3428,
           "title": "A Clojure view of \"Mars Rover\"",
           "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Ian Henry",
+      "feedUrl": "https://ianthehenry.com/feed.xml",
+      "siteUrl": "https://ianthehenry.com/",
+      "articles": [
+        {
+          "id": "https://ianthehenry.com/posts/generalized-macros/",
+          "author": null,
+          "description": "I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.\nJanet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.\nSo people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.\nBut as far as I know, no one has approached macro systems f…",
+          "link": "https://ianthehenry.com/posts/generalized-macros/",
+          "publishedOn": "2023-04-18T00:00:00.000Z",
+          "wordCount": 4904,
+          "title": "Generalized Macros",
+          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+        },
+        {
+          "id": "https://ianthehenry.com/posts/why-janet/",
+          "author": null,
+          "description": "I never thought it could happen to me. I mean, parentheses? In this day and age? But for the past couple years, my go-to programming language for fun side projects has been a little Lisp dialect called Janet.\n(print \"hey janet\")\n\nI like Janet so much that I wrote an entire book about it, and put it on The Internet for free, in the hopes of attracting more Janetors to the language.\nI think you should read it, but I know that you don’t believe me, so I’m going to try to convince you. Here’s my attempt at a sales pitch: here is why you – you of all people – should give Janet a chance.\nJanet is simple\nJanet is an imperative language with first-class functions, a single namespace for identifiers, and lexical block scoping. The core of the language is very small, consisting of only eight instruc…",
+          "link": "https://ianthehenry.com/posts/why-janet/",
+          "publishedOn": "2023-04-12T00:00:00.000Z",
+          "wordCount": 1631,
+          "title": "Why Janet?",
+          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+        },
+        {
+          "id": "https://ianthehenry.com/posts/janet-for-mortals/",
+          "author": null,
+          "description": "I wrote a book.\nIt’s called Janet for Mortals, and it’s free, and it’s on the internet, and you can read it right now.\nAnd you should read it right now, instead of reading this blog post, because this blog post is not very interesting if you haven’t read the book. Heck, this blog post is not very interesting even if you have read the book. This blog post is a thinly-veiled promotion for my book to slip into my newsletter and RSS feed, with just enough additional content to pad it out to the length of a real post.\nThe book is about Janet, a programming language that I have written about before. I’ve been using Janet a lot lately, and I’ve been having a lot of fun with it, and I think that more people should know about it so that they can have fun with it too. People like you.\nI’m not really…",
+          "link": "https://ianthehenry.com/posts/janet-for-mortals/",
+          "publishedOn": "2023-04-04T00:00:00.000Z",
+          "wordCount": 3432,
+          "title": "Janet for Mortals",
+          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+        },
+        {
+          "id": "https://ianthehenry.com/posts/delaunay/",
+          "author": null,
+          "description": "Take a look at this:\n\n\n\nThis is a triangulation of a set of random points, such that all the points are connected to one another, all of the faces are triangles, and the edges include the convex hull of the points.\nI would like to claim that this is not a very “good” triangulation. This algorithm tends to produce lots of long, slivery triangles, and a really uneven distribution of edge counts across different vertices – some vertices have way more edges than they need to.\nHere’s a different triangulation. These are the exact same points, but I triangulated them smarter:\n\nIsn’t that better? (Click to compare!)\nDepending on your dice rolls you might still have a few slivers, usually around the outer perimeter, but I’m willing to bet that it’s a noticeable improvement over the first attempt.\n…",
+          "link": "https://ianthehenry.com/posts/delaunay/",
+          "publishedOn": "2022-07-11T00:00:00.000Z",
+          "wordCount": 8686,
+          "title": "Visualizing Delaunay Triangulation",
+          "imageUrl": "https://ianthehenry.com/posts/delaunay/hero.png"
         }
       ]
     }

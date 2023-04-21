@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-21T00:01:24.785Z</id>
+    <id>urn:2023-04-21T10:40:43.733Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-21T00:01:24.785Z</updated>
+    <updated>2023-04-21T10:40:43.733Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[structure and interpretation of react native]]></title>
+        <id>https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native</id>
+        <link href="https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native"/>
+        <updated>2023-04-21T08:20:17.000Z</updated>
+        <summary type="html"><![CDATA[Hey hey!  Today's missive continues exploring the space of JavaScript
+and mobile application development.
+Yesterday we looked into , giving a brief
+structural overview of what Capacitor apps look like under the hood and
+how this translates to three aspects of performance: startup latency, jank,
+and peak performance.  Today we'll apply that same approach to another
+popular development framework, .Ionic / CapacitorReact Native
+I don't know about you, but I find that there is so much marketing smoke
+and lights around the whole phenomenon that is React and React Native
+that sometimes it's hard to see what's actually there.  This is
+compounded by the fact that the programming paradigm espoused by React
+(and its "native" cousin that we are looking at here) is so effective at
+enabling JavaScript …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Learning OCaml: Quoted String Literals]]></title>
         <id>https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/</id>
@@ -108,6 +130,19 @@ the special declaration is bound and appli…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Generalized Macros]]></title>
+        <id>https://ianthehenry.com/posts/generalized-macros/</id>
+        <link href="https://ianthehenry.com/posts/generalized-macros/"/>
+        <updated>2023-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.
+Janet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.
+So people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.
+But as far as I know, no one has approached macro systems f…]]></summary>
+        <author>
+            <name>Ian Henry</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Building Foundations]]></title>
         <id>urn:uuid:f9aaf15d-37c1-4a8e-bab7-9ccd0b60d12c</id>
         <link href="https://www.lambdasierra.com/2023/building/"/>
@@ -115,6 +150,22 @@ the special declaration is bound and appli…]]></summary>
         <summary type="html"><![CDATA[On starting a new blog, abandoning the stability of WordPress for the creative freedom of do-it-yourself.]]></summary>
         <author>
             <name>Lambda/Sierra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Janet?]]></title>
+        <id>https://ianthehenry.com/posts/why-janet/</id>
+        <link href="https://ianthehenry.com/posts/why-janet/"/>
+        <updated>2023-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I never thought it could happen to me. I mean, parentheses? In this day and age? But for the past couple years, my go-to programming language for fun side projects has been a little Lisp dialect called Janet.
+(print "hey janet")
+
+I like Janet so much that I wrote an entire book about it, and put it on The Internet for free, in the hopes of attracting more Janetors to the language.
+I think you should read it, but I know that you don’t believe me, so I’m going to try to convince you. Here’s my attempt at a sales pitch: here is why you – you of all people – should give Janet a chance.
+Janet is simple
+Janet is an imperative language with first-class functions, a single namespace for identifiers, and lexical block scoping. The core of the language is very small, consisting of only eight instruc…]]></summary>
+        <author>
+            <name>Ian Henry</name>
         </author>
     </entry>
     <entry>
@@ -145,6 +196,20 @@ the special declaration is bound and appli…]]></summary>
         <summary type="html"><![CDATA["What are folks’ views on systems so large where cold-starting the whole system is almost impossible?"... — M'colleague In A Slackroom Next Door.]]></summary>
         <author>
             <name>Eval / Apply is pure magic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Janet for Mortals]]></title>
+        <id>https://ianthehenry.com/posts/janet-for-mortals/</id>
+        <link href="https://ianthehenry.com/posts/janet-for-mortals/"/>
+        <updated>2023-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I wrote a book.
+It’s called Janet for Mortals, and it’s free, and it’s on the internet, and you can read it right now.
+And you should read it right now, instead of reading this blog post, because this blog post is not very interesting if you haven’t read the book. Heck, this blog post is not very interesting even if you have read the book. This blog post is a thinly-veiled promotion for my book to slip into my newsletter and RSS feed, with just enough additional content to pad it out to the length of a real post.
+The book is about Janet, a programming language that I have written about before. I’ve been using Janet a lot lately, and I’ve been having a lot of fun with it, and I think that more people should know about it so that they can have fun with it too. People like you.
+I’m not really…]]></summary>
+        <author>
+            <name>Ian Henry</name>
         </author>
     </entry>
     <entry>
@@ -576,27 +641,6 @@ new object , ephemerons included, we look up  in …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[we iterate so that you can recurse]]></title>
-        <id>https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse</id>
-        <link href="https://wingolog.org/archives/2022/12/11/we-iterate-so-that-you-can-recurse"/>
-        <updated>2022-12-11T21:19:20.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes when you see an elegant algorithm, you think "looks great, I
-just need it to also do X".  Perhaps you are able to build X directly
-out of what the algorithm gives you; fantastic.  Or, perhaps you can
-alter the algorithm a bit, and it works just as well while also doing X.
-Sometimes, though, you alter the algorithm and things go pear-shaped.
-Tonight's little note builds on 
-and discusses an worse alternative to the Cheney scanning algorithm.yesterday's semi-space collector
-article
-To recall, we had this  function that takes a edge in the
-object graph, as the address of a field in memory containing a .  If the edge points to an object that was already copied,
- updates it to the forwarded address.  Otherwise it copies the object,
-thus computing the new address, and then updates the …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Git Tip: Find the Top Contributors]]></title>
         <id>https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/</id>
         <link href="https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/"/>
@@ -886,6 +930,26 @@ The post Accurate and Efficient Physics-Informed Learning Through Differentiable
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Visualizing Delaunay Triangulation]]></title>
+        <id>https://ianthehenry.com/posts/delaunay/</id>
+        <link href="https://ianthehenry.com/posts/delaunay/"/>
+        <updated>2022-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Take a look at this:
+
+
+
+This is a triangulation of a set of random points, such that all the points are connected to one another, all of the faces are triangles, and the edges include the convex hull of the points.
+I would like to claim that this is not a very “good” triangulation. This algorithm tends to produce lots of long, slivery triangles, and a really uneven distribution of edge counts across different vertices – some vertices have way more edges than they need to.
+Here’s a different triangulation. These are the exact same points, but I triangulated them smarter:
+
+Isn’t that better? (Click to compare!)
+Depending on your dice rolls you might still have a few slivers, usually around the outer perimeter, but I’m willing to bet that it’s a noticeable improvement over the first attempt.
+…]]></summary>
+        <author>
+            <name>Ian Henry</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Clocktower IQ]]></title>
         <id>https://mikeinnes.io/2022/06/29/clocktower.html</id>
         <link href="https://mikeinnes.io/2022/06/29/clocktower.html"/>
@@ -893,19 +957,6 @@ The post Accurate and Efficient Physics-Informed Learning Through Differentiable
         <summary type="html"><![CDATA[Three years and two months after it launched on Kickstarter, copies of social deduction game Blood on the Clocktower are finally arriving in the UK. During the long wait eager players have been able to backstab each other using print-and-play copies and the online helper (particularly welcome during lockdowns). But it’s nice to have the real thing in our hands. I’m here to commemorate the occassion with statistics, and in particular to show the ranking system I’m using to see how well my players are doing – just for fun, of course.]]></summary>
         <author>
             <name>Mike Innes’s Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021)]]></title>
-        <id>https://www.stochasticlifestyle.com/?p=1655</id>
-        <link href="http://www.stochasticlifestyle.com/keynote-new-horizons-in-modeling-and-simulation-with-julia-modelica-conference-2021/"/>
-        <updated>2022-06-25T18:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Keynote Address: New Horizons in Modeling and Simulation in Julia
-Presenters: Viral Shah (Julia Computing, CEO and Co-Founder), Chris Rackauckas (Julia Computing, Director of Modeling and Simulation and Christopher Laughman (Mitsubishi Electric Research Laboratories, Principal Member Research Staff)
-Abstract: As modeling has become more ubiquitous, our models keep growing. The time to build models, verify their behavior, and simulate them is increasing exponentially as we seek more precise predictions. How will our tools change to accommodate the future? Julia’s language design has led to new opportunities. The combination of multiple dispatch, staged compilation, and Julia’s composable libraries have made it possible to build a next generation symbolic-numeric framework. Julia’s abstract interpretation framework enables capabilities such as automatic differentiation, automatic surrogate generation, symbolic tracing, uncertainty propagation, and automatic  ... READ MORE
-The post Keynote: New Horizons in Modeling and Simulation with Julia (Modelica Conference 2021) appeared first on Stochastic Lifestyle.]]></summary>
-        <author>
-            <name>Christopher Rackauckas</name>
         </author>
     </entry>
 </feed>
