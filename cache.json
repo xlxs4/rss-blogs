@@ -473,7 +473,7 @@
           "description": "While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):",
           "link": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
           "publishedOn": "2023-04-20T13:23:00.000Z",
-          "wordCount": 811,
+          "wordCount": 1042,
           "title": "Learning OCaml: Quoted String Literals",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
