@@ -22,6 +22,65 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-24 datetime="2023-04-24T09:10:58.000Z">2023-04-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-24 datetime="2023-04-24T09:10:58.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript"
+                        open
+                      >
+                        <summary class="article-expander__title">structure and interpretation of nativescript</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Greetings, hackers tall and hackers small!
+We&#x27;re only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at 
+,
+which defines its user interface in terms of the web platform, and only
+calls out to iOS or Android native features as needed.  We proceeded
+on to ,
+which moves closer to native by rendering to platform-provided UI
+widgets, layering a cross-platform development interface on top.Ionic /
+CapacitorReact
+Native
+Today&#x27;s article takes an in-depth look at , whose point in the design space is further on the road towards
+the platform, unabashedly embracing the specificities of the API
+available on iOS and Android, exposing these interfaces directly to …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-21 datetime="2023-04-21T08:20:17.000Z">2023-04-21</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-21 datetime="2023-04-21T08:20:17.000Z"></time>
           </button>
@@ -1966,66 +2025,6 @@ ephemeron to a queue or worklist?  It&#x27;s such a pedestrian question
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-12 datetime="2022-12-12T14:02:41.000Z">2022-12-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-12 datetime="2022-12-12T14:02:41.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited"
-                        open
-                      >
-                        <summary class="article-expander__title">i&#x27;m throwing ephemeron party &amp; you&#x27;re invited</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Good day, hackfolk.  Today&#x27;s note tries to extend our semi-space
-collector with support for ephemerons.  Spoiler alert: we fail in a
-subtle and interesting way.  See if you can spot it before the end :)
-Recall that, as we concluded in ,
-a memory manager needs to incorporate ephemerons as a core part of the
-tracing algorithm.  Ephemerons are not macro-expressible in terms of
-object trace functions.an earlier
-article
-Instead, to support ephemerons we need to augment our core trace
-routine.  When we see an ephemeron , we need to check if the key 
-is already visited (and therefore live); if so, we trace the value 
-directly, and we&#x27;re done.  Otherwise, we add  to a global table of
-pending ephemerons , indexed under .  Finally whenever we trace a
-new object , ephemerons included, we look up  in …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-11 datetime="2022-12-11T17:38:00.000Z">2022-12-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-11 datetime="2022-12-11T17:38:00.000Z"></time>
           </button>
@@ -2135,7 +2134,7 @@ new object , ephemerons included, we look up  in …</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2433,7 +2432,7 @@ Tags: books</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2485,7 +2484,7 @@ The post Direct Automatic Differentiation of (Differential Equation) Solvers vs 
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2882,7 +2881,7 @@ emacs, via a new version of consult-recoll, and there you go, jus…</span>
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >Stochastic Lifestyle</button>
-                  <a class="source-heading__link" href="https://www.stochasticlifestyle.com/">Open</a>
+                  <a class="source-heading__link" href="http://www.stochasticlifestyle.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
@@ -2970,57 +2969,10 @@ Depending on your dice rolls you might still have a few slivers, usually around 
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-29 datetime="2022-06-29T00:00:00.000Z">2022-06-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-29 datetime="2022-06-29T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Mike Innes’s Blog</button>
-                  <a class="source-heading__link" href="/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mikeinnes.io/2022/06/29/clocktower.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Clocktower IQ</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mikeinnes.io/2022/06/29/clocktower.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Three years and two months after it launched on Kickstarter, copies of social deduction game Blood on the Clocktower are finally arriving in the UK. During the long wait eager players have been able to backstab each other using print-and-play copies and the online helper (particularly welcome during lockdowns). But it’s nice to have the real thing in our hands. I’m here to commemorate the occassion with statistics, and in particular to show the ranking system I’m using to see how well my players are doing – just for fun, of course.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4781080632">
-        <time id="build-timestamp" datetime="2023-04-24T00:01:32.691Z">2023-04-24T00:01:32.691Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/4792178275">
+        <time id="build-timestamp" datetime="2023-04-25T00:01:30.487Z">2023-04-25T00:01:30.487Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

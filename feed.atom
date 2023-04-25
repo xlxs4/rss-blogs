@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-24T00:01:32.715Z</id>
+    <id>urn:2023-04-25T00:01:30.511Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-24T00:01:32.715Z</updated>
+    <updated>2023-04-25T00:01:30.511Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[structure and interpretation of nativescript]]></title>
+        <id>https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript</id>
+        <link href="https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript"/>
+        <updated>2023-04-24T09:10:58.000Z</updated>
+        <summary type="html"><![CDATA[Greetings, hackers tall and hackers small!
+We're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at 
+,
+which defines its user interface in terms of the web platform, and only
+calls out to iOS or Android native features as needed.  We proceeded
+on to ,
+which moves closer to native by rendering to platform-provided UI
+widgets, layering a cross-platform development interface on top.Ionic /
+CapacitorReact
+Native
+Today's article takes an in-depth look at , whose point in the design space is further on the road towards
+the platform, unabashedly embracing the specificities of the API
+available on iOS and Android, exposing these interfaces directly to …]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[structure and interpretation of react native]]></title>
         <id>https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native</id>
@@ -618,29 +640,6 @@ ephemeron to a queue or worklist?  It's such a pedestrian question
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[i'm throwing ephemeron party & you're invited]]></title>
-        <id>https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited</id>
-        <link href="https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited"/>
-        <updated>2022-12-12T14:02:41.000Z</updated>
-        <summary type="html"><![CDATA[Good day, hackfolk.  Today's note tries to extend our semi-space
-collector with support for ephemerons.  Spoiler alert: we fail in a
-subtle and interesting way.  See if you can spot it before the end :)
-Recall that, as we concluded in ,
-a memory manager needs to incorporate ephemerons as a core part of the
-tracing algorithm.  Ephemerons are not macro-expressible in terms of
-object trace functions.an earlier
-article
-Instead, to support ephemerons we need to augment our core trace
-routine.  When we see an ephemeron , we need to check if the key 
-is already visited (and therefore live); if so, we trace the value 
-directly, and we're done.  Otherwise, we add  to a global table of
-pending ephemerons , indexed under .  Finally whenever we trace a
-new object , ephemerons included, we look up  in …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Git Tip: Find the Top Contributors]]></title>
         <id>https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/</id>
         <link href="https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/"/>
@@ -947,16 +946,6 @@ Depending on your dice rolls you might still have a few slivers, usually around 
 …]]></summary>
         <author>
             <name>Ian Henry</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clocktower IQ]]></title>
-        <id>https://mikeinnes.io/2022/06/29/clocktower.html</id>
-        <link href="https://mikeinnes.io/2022/06/29/clocktower.html"/>
-        <updated>2022-06-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Three years and two months after it launched on Kickstarter, copies of social deduction game Blood on the Clocktower are finally arriving in the UK. During the long wait eager players have been able to backstab each other using print-and-play copies and the online helper (particularly welcome during lockdowns). But it’s nice to have the real thing in our hands. I’m here to commemorate the occassion with statistics, and in particular to show the ranking system I’m using to see how well my players are doing – just for fun, of course.]]></summary>
-        <author>
-            <name>Mike Innes’s Blog</name>
         </author>
     </entry>
 </feed>

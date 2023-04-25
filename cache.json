@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -89,16 +89,6 @@
           "publishedOn": "2023-02-18T00:00:00.000Z",
           "wordCount": 1301,
           "title": "Deus Ex Bing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/2022/06/29/clocktower.html",
-          "author": null,
-          "description": "Three years and two months after it launched on Kickstarter, copies of social deduction game Blood on the Clocktower are finally arriving in the UK. During the long wait eager players have been able to backstab each other using print-and-play copies and the online helper (particularly welcome during lockdowns). But it’s nice to have the real thing in our hands. I’m here to commemorate the occassion with statistics, and in particular to show the ranking system I’m using to see how well my players are doing – just for fun, of course.",
-          "link": "https://mikeinnes.io/2022/06/29/clocktower.html",
-          "publishedOn": "2022-06-29T00:00:00.000Z",
-          "wordCount": 1437,
-          "title": "Clocktower IQ",
           "imageUrl": null
         }
       ]
@@ -227,6 +217,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
+          "author": null,
+          "description": "Greetings, hackers tall and hackers small!\nWe're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at \n,\nwhich defines its user interface in terms of the web platform, and only\ncalls out to iOS or Android native features as needed.  We proceeded\non to ,\nwhich moves closer to native by rendering to platform-provided UI\nwidgets, layering a cross-platform development interface on top.Ionic /\nCapacitorReact\nNative\nToday's article takes an in-depth look at , whose point in the design space is further on the road towards\nthe platform, unabashedly embracing the specificities of the API\navailable on iOS and Android, exposing these interfaces directly to …",
+          "link": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
+          "publishedOn": "2023-04-24T09:10:58.000Z",
+          "wordCount": 2640,
+          "title": "structure and interpretation of nativescript",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
           "author": null,
           "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
@@ -314,16 +314,6 @@
           "publishedOn": "2022-12-15T21:21:05.000Z",
           "wordCount": 1872,
           "title": "ephemeral success",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited",
-          "author": null,
-          "description": "Good day, hackfolk.  Today's note tries to extend our semi-space\ncollector with support for ephemerons.  Spoiler alert: we fail in a\nsubtle and interesting way.  See if you can spot it before the end :)\nRecall that, as we concluded in ,\na memory manager needs to incorporate ephemerons as a core part of the\ntracing algorithm.  Ephemerons are not macro-expressible in terms of\nobject trace functions.an earlier\narticle\nInstead, to support ephemerons we need to augment our core trace\nroutine.  When we see an ephemeron , we need to check if the key \nis already visited (and therefore live); if so, we trace the value \ndirectly, and we're done.  Otherwise, we add  to a global table of\npending ephemerons , indexed under .  Finally whenever we trace a\nnew object , ephemerons included, we look up  in …",
-          "link": "https://wingolog.org/archives/2022/12/12/im-throwing-ephemeron-party-youre-invited",
-          "publishedOn": "2022-12-12T14:02:41.000Z",
-          "wordCount": 698,
-          "title": "i'm throwing ephemeron party & you're invited",
           "imageUrl": null
         }
       ]
