@@ -671,7 +671,7 @@
           "description": "I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.\nJanet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.\nSo people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.\nBut as far as I know, no one has approached macro systems f…",
           "link": "https://ianthehenry.com/posts/generalized-macros/",
           "publishedOn": "2023-04-18T00:00:00.000Z",
-          "wordCount": 4904,
+          "wordCount": 4902,
           "title": "Generalized Macros",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
         },
@@ -704,6 +704,73 @@
           "wordCount": 8686,
           "title": "Visualizing Delaunay Triangulation",
           "imageUrl": "https://ianthehenry.com/posts/delaunay/hero.png"
+        }
+      ]
+    },
+    {
+      "title": "Applied Language musings",
+      "feedUrl": "https://applied-langua.ge/posts/feed.rss",
+      "siteUrl": "https://applied-langua.ge/posts/",
+      "articles": [
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-04-25T11:38:27.002Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-04-25T11:38:26.989Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-04-25T11:38:26.903Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-04-25T11:38:26.884Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-04-25T11:38:26.864Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-04-25T11:38:26.853Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
         }
       ]
     }
