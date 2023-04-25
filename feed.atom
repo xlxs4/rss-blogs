@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-25T11:38:28.386Z</id>
+    <id>urn:2023-04-25T21:30:31.542Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-25T11:38:28.386Z</updated>
+    <updated>2023-04-25T21:30:31.542Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-04-25T21:30:29.882Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-04-25T21:30:29.837Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-04-25T11:38:27.002Z</updated>
+        <updated>2023-04-25T21:30:29.831Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,7 +39,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-04-25T11:38:26.989Z</updated>
+        <updated>2023-04-25T21:30:29.824Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,18 +49,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-04-25T11:38:26.903Z</updated>
+        <updated>2023-04-25T21:30:29.806Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-04-25T11:38:26.884Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,18 +59,8 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-04-25T11:38:26.864Z</updated>
+        <updated>2023-04-25T21:30:29.783Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-04-25T11:38:26.853Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -147,6 +147,19 @@ I'm going to appro…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Art of Multiple Dispatch]]></title>
+        <id>https://scientificcoder.com/the-art-of-multiple-dispatch</id>
+        <link href="https://scientificcoder.com/the-art-of-multiple-dispatch"/>
+        <updated>2023-04-20T09:01:49.000Z</updated>
+        <summary type="html"><![CDATA[I love thinking visually by drawing doodles and schematics for my work. It's one of my favorite things to do, next to coding. When working with the Julia language, one visualization I enjoy is seeing the type space of a method that you are dispatching on. Normally I do this in my mind's eye, but let me clarify this by drawing some actual figures.
+To start with the basics; Julia has functions and methods. A function is simply the name, like push! or read . Methods are specific definitions of a function, for certain types of arguments. Take for example push!(s::Set, x) or read(io::IO) . From an object-oriented perspective you could say that methods are instances of functions.
+
+For any given method you can consider the dispatching as slicing a part of the entire possible type space of that gi…]]></summary>
+        <author>
+            <name>Matthijs Cox</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[vindarel: How to parse command line arguments in Common Lisp (bis)]]></title>
         <id>https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/</id>
         <link href="https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/"/>
@@ -181,6 +194,21 @@ there are the material conditions of sleepiness and
 you're-gonna-b…]]></summary>
         <author>
             <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Target Audience]]></title>
+        <id>https://scientificcoder.com/my-target-audience</id>
+        <link href="https://scientificcoder.com/my-target-audience"/>
+        <updated>2023-04-18T11:46:15.000Z</updated>
+        <summary type="html"><![CDATA[What kind of people do I have in mind while writing this blog? People who share my professional mission of course! What is that mission you ask? Let me elaborate.
+From Research to Engineering
+I am a scientist who danced with startups and moved into industry. I've spend years doing research, and years doing software product development. During those years I have gotten slightly frustrated with the process of moving ideas from research to production, primarily in my favorite field of scientific computing.
+The typical problem is that the time from research to production can be long, often spanning multiple years per project, and the process can be error prone. Some common smaller issues I see arising in many of our projects:
+Unreproducible, unexplainable scripts or notebooks in research
+Effor…]]></summary>
+        <author>
+            <name>Matthijs Cox</name>
         </author>
     </entry>
     <entry>
@@ -222,6 +250,18 @@ So people have spent a lot of time thinking about ways to write macros more safe
 But as far as I know, no one has approached macro systems f…]]></summary>
         <author>
             <name>Ian Henry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why this blog?]]></title>
+        <id>https://scientificcoder.com/why-this-blog</id>
+        <link href="https://scientificcoder.com/why-this-blog"/>
+        <updated>2023-04-16T17:27:18.000Z</updated>
+        <summary type="html"><![CDATA[My goal in life is to follow my curiosity and help others with the knowledge I uncover. A solid way to help people is to reflect on the last years and think about what would have helped your past self. In my case, I have been busy trying to develop and deploy numerical computing applications with the Julia language. One thing that I found lacking was good material on how to do numerical computing professionally in the industry, something I learned is sometimes called "scientific software engineering". A book or blog about large-scale development and deployment into production systems would have helped me tremendously. I had to learn most things the hard way through trial and error.
+Since what I need doesn't exist, we will have to make it exist! That's this blog!
+I have been blogging about …]]></summary>
+        <author>
+            <name>Matthijs Cox</name>
         </author>
     </entry>
     <entry>

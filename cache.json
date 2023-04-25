@@ -713,11 +713,31 @@
       "siteUrl": "https://applied-langua.ge/posts/",
       "articles": [
         {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-04-25T21:30:29.882Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-04-25T21:30:29.837Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
           "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-04-25T11:38:27.002Z",
+          "publishedOn": "2023-04-25T21:30:29.831Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -727,7 +747,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-04-25T11:38:26.989Z",
+          "publishedOn": "2023-04-25T21:30:29.824Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -737,19 +757,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-04-25T11:38:26.903Z",
+          "publishedOn": "2023-04-25T21:30:29.806Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-04-25T11:38:26.884Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -757,20 +767,47 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-04-25T11:38:26.864Z",
+          "publishedOn": "2023-04-25T21:30:29.783Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "The Scientific Coder",
+      "feedUrl": "https://scientificcoder.com/rss.xml",
+      "siteUrl": "https://scientificcoder.com",
+      "articles": [
+        {
+          "id": "https://scientificcoder.com/the-art-of-multiple-dispatch",
+          "author": "Matthijs Cox",
+          "description": "I love thinking visually by drawing doodles and schematics for my work. It's one of my favorite things to do, next to coding. When working with the Julia language, one visualization I enjoy is seeing the type space of a method that you are dispatching on. Normally I do this in my mind's eye, but let me clarify this by drawing some actual figures.\nTo start with the basics; Julia has functions and methods. A function is simply the name, like push! or read . Methods are specific definitions of a function, for certain types of arguments. Take for example push!(s::Set, x) or read(io::IO) . From an object-oriented perspective you could say that methods are instances of functions.\n\nFor any given method you can consider the dispatching as slicing a part of the entire possible type space of that gi…",
+          "link": "https://scientificcoder.com/the-art-of-multiple-dispatch",
+          "publishedOn": "2023-04-20T09:01:49.000Z",
+          "wordCount": 7461,
+          "title": "The Art of Multiple Dispatch",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681976569505%2Fe92f2398-d079-449e-ac6a-4b194fe226ac.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-04-25T11:38:26.853Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
+          "id": "https://scientificcoder.com/my-target-audience",
+          "author": "Matthijs Cox",
+          "description": "What kind of people do I have in mind while writing this blog? People who share my professional mission of course! What is that mission you ask? Let me elaborate.\nFrom Research to Engineering\nI am a scientist who danced with startups and moved into industry. I've spend years doing research, and years doing software product development. During those years I have gotten slightly frustrated with the process of moving ideas from research to production, primarily in my favorite field of scientific computing.\nThe typical problem is that the time from research to production can be long, often spanning multiple years per project, and the process can be error prone. Some common smaller issues I see arising in many of our projects:\nUnreproducible, unexplainable scripts or notebooks in research\nEffor…",
+          "link": "https://scientificcoder.com/my-target-audience",
+          "publishedOn": "2023-04-18T11:46:15.000Z",
+          "wordCount": 7623,
+          "title": "My Target Audience",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681818346405%2Fb3103eb1-9008-42ce-a071-5c9a927b4ce0.png%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
+        {
+          "id": "https://scientificcoder.com/why-this-blog",
+          "author": "Matthijs Cox",
+          "description": "My goal in life is to follow my curiosity and help others with the knowledge I uncover. A solid way to help people is to reflect on the last years and think about what would have helped your past self. In my case, I have been busy trying to develop and deploy numerical computing applications with the Julia language. One thing that I found lacking was good material on how to do numerical computing professionally in the industry, something I learned is sometimes called \"scientific software engineering\". A book or blog about large-scale development and deployment into production systems would have helped me tremendously. I had to learn most things the hard way through trial and error.\nSince what I need doesn't exist, we will have to make it exist! That's this blog!\nI have been blogging about …",
+          "link": "https://scientificcoder.com/why-this-blog",
+          "publishedOn": "2023-04-16T17:27:18.000Z",
+          "wordCount": 5861,
+          "title": "Why this blog?",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681655524424%2F8208e14f-0765-4eb2-a301-4d9470f26e45.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     }
