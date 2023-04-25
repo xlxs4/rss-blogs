@@ -25,6 +25,7 @@ sources:
   - href: http://swannodette.github.com/atom.xml # David Nolen
   - href: https://www.evalapply.org/index.xml
   - href: https://ianthehenry.com/feed.xml # Ian Henry
+  - href: https://applied-langua.ge/posts/feed.rss # Applied Language
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
