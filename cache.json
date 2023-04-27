@@ -217,12 +217,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
+          "author": null,
+          "description": "Good day, gentle hackfolk.  Like an\n fiddler I would\nappear to be deep in the groove, playing endless variations on a theme,\nin this case mobile application frameworks.  But one can only recognize\nnovelty in relation to the familiar, and today's note is a departure: we\nare going to look at , a UI toolkit based\nnot on JavaScript but on the  language.old-timeFlutterDart\nWhere to start, even?  The problem is big enough that I'll\napproach it from three different angles: from the past, from the top,\nand from the bottom.\nWith the other frameworks we looked at, we didn't have to say much about\ntheir use of JavaScript.  JavaScript is an obvious choice, in 2023 at\nleast: it is ubiquitous, has high quality implementations, and as a\nlanguage it is quite OK and progressively getting better.  Up to now…",
+          "link": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
+          "publishedOn": "2023-04-26T13:50:01.000Z",
+          "wordCount": 3123,
+          "title": "structure and interpretation of flutter",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
           "author": null,
           "description": "Greetings, hackers tall and hackers small!\nWe're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at \n,\nwhich defines its user interface in terms of the web platform, and only\ncalls out to iOS or Android native features as needed.  We proceeded\non to ,\nwhich moves closer to native by rendering to platform-provided UI\nwidgets, layering a cross-platform development interface on top.Ionic /\nCapacitorReact\nNative\nToday's article takes an in-depth look at , whose point in the design space is further on the road towards\nthe platform, unabashedly embracing the specificities of the API\navailable on iOS and Android, exposing these interfaces directly to …",
           "link": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
           "publishedOn": "2023-04-24T09:10:58.000Z",
-          "wordCount": 2640,
+          "wordCount": 2642,
           "title": "structure and interpretation of nativescript",
           "imageUrl": null
         },
@@ -232,7 +242,7 @@
           "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
           "link": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
           "publishedOn": "2023-04-21T08:20:17.000Z",
-          "wordCount": 2932,
+          "wordCount": 2934,
           "title": "structure and interpretation of react native",
           "imageUrl": null
         },
@@ -242,7 +252,7 @@
           "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
           "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
           "publishedOn": "2023-04-20T10:20:32.000Z",
-          "wordCount": 2509,
+          "wordCount": 2511,
           "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
         },
@@ -304,16 +314,6 @@
           "publishedOn": "2023-01-24T10:48:49.000Z",
           "wordCount": 1746,
           "title": "parallel ephemeron tracing",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2022/12/15/ephemeral-success",
-          "author": null,
-          "description": "Good evening, patient hackers :)  Today finishes off my .series on\nimplementing ephemerons in a garbage\ncollector\nLast time, we had a working solution for ephemerons, but it involved\nrecursively visiting any pending ephemerons from within the \nroutine—the bit of a semi-space collector that is called when\ntraversing the object graph and we see an object that we hadn't seen\nyet.  This recursive visit could itself recurse, and so we could\noverflow the control stack.copy\nThe solution, of course, is \"don't do that\": instead of visiting\nrecursively, enqueue the ephemeron for visiting later.  Iterate, don't\nrecurse.  But here we run into a funny problem: how do we add an\nephemeron to a queue or worklist?  It's such a pedestrian question\n(\"just... enqueue it?\") but I think it illustrates some of t…",
-          "link": "https://wingolog.org/archives/2022/12/15/ephemeral-success",
-          "publishedOn": "2022-12-15T21:21:05.000Z",
-          "wordCount": 1872,
-          "title": "ephemeral success",
           "imageUrl": null
         }
       ]
@@ -713,23 +713,13 @@
       "siteUrl": "https://applied-langua.ge/posts/",
       "articles": [
         {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-04-26T00:28:39.754Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-04-26T00:28:39.616Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-04-27T00:30:24.126Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -737,9 +727,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-04-26T00:28:39.609Z",
+          "publishedOn": "2023-04-27T00:30:24.026Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-04-27T00:30:24.020Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-04-27T00:30:24.014Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -747,19 +757,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-04-26T00:28:39.166Z",
+          "publishedOn": "2023-04-27T00:30:24.000Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-04-26T00:28:39.081Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -767,7 +767,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-04-26T00:28:39.071Z",
+          "publishedOn": "2023-04-27T00:30:23.980Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -779,6 +779,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/automate-your-code-quality-in-julia",
+          "author": "Matthijs Cox",
+          "description": "Code quality is a topic in Julia that I believe deserves more attention from both users and developers. The Julia language originated in academia and focused heavily on helping scientists write better code, which is going great and deserves much praise! However, to onboard more software engineers and professional organizations we're going to have to invest even further into code quality and automated code quality tools and other methods such as used in the field of \"quality assurance\". In this article I'll explore the current state in the Julia ecosystem.\nAt our workplace we have investigated the following tools and practices. I'll start from generic practices and then move on to more advanced tools.\nPackage structure\nUnit testing with Pkg.jl\nAutomated testing and Continuous Integration (C…",
+          "link": "https://scientificcoder.com/automate-your-code-quality-in-julia",
+          "publishedOn": "2023-04-26T07:47:00.000Z",
+          "wordCount": 14269,
+          "title": "Automate Your Code Quality In Julia",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682430557530%2F69f045a8-635c-4ec6-b836-dbdcf7f0dd23.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/the-art-of-multiple-dispatch",
           "author": "Matthijs Cox",
