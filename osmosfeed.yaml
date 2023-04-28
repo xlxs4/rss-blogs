@@ -27,6 +27,7 @@ sources:
   - href: https://ianthehenry.com/feed.xml # Ian Henry
   - href: https://applied-langua.ge/posts/feed.rss # Applied Language
   - href: https://scientificcoder.com/rss.xml # Matthijs Cox
+  - href: https://tymoon.eu/api/reader/atom # Nicolas Hafner
 
 # `siteTitle`: Title to use in the browser tab and the machine readable feed output. (optional)
 siteTitle: "A curated list of ramblings"
