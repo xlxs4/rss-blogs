@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-28T00:29:07.443Z</id>
+    <id>urn:2023-04-28T16:01:47.286Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-04-28T00:29:07.443Z</updated>
+    <updated>2023-04-28T16:01:47.286Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-04-28T00:29:04.848Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-04-28T16:01:44.527Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-04-28T00:29:04.742Z</updated>
+        <updated>2023-04-28T16:01:44.524Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-04-28T00:29:04.714Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-04-28T00:29:04.690Z</updated>
+        <updated>2023-04-28T16:01:44.506Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-04-28T16:01:44.503Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-04-28T00:29:04.685Z</updated>
+        <updated>2023-04-28T16:01:44.495Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-04-28T00:29:04.680Z</updated>
+        <updated>2023-04-28T16:01:44.491Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -312,6 +312,19 @@ I have been blogging about …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Kandriaの日本語アップデートはリリースです！]]></title>
+        <id>https://reader.tymoon.eu/article/428</id>
+        <link href="https://reader.tymoon.eu/article/428"/>
+        <updated>2023-04-12T12:55:57.000Z</updated>
+        <summary type="html"><![CDATA[Kandriaの日本語アップデートはリリースです！
+(私の日本語はまだまだですから、すみません)
+私のゲームは日本語でリリースのは夢ですからうれしい！Mimirin(@mioda833)さんはKandriaの日本語バーシオンを作ってありがとう。素晴らしい仕事をできた。
+今からSteamとItch.ioとKandria.comでアップデーとをダウンロードできる。]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why Janet?]]></title>
         <id>https://ianthehenry.com/posts/why-janet/</id>
         <link href="https://ianthehenry.com/posts/why-janet/"/>
@@ -388,6 +401,25 @@ That's it for now
 A rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.]]></summary>
         <author>
             <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[次は…何？ - April Kandria Update]]></title>
+        <id>https://reader.tymoon.eu/article/427</id>
+        <link href="https://reader.tymoon.eu/article/427"/>
+        <updated>2023-04-03T10:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!
+You may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.
+
+I'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!
+Other news
+With the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.
+However, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!
+In the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!
+That's it for now
+A rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -561,6 +593,21 @@ We've provided …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Level Editor Update is Live!]]></title>
+        <id>https://reader.tymoon.eu/article/425</id>
+        <link href="https://reader.tymoon.eu/article/425"/>
+        <updated>2023-03-08T13:47:42.000Z</updated>
+        <summary type="html"><![CDATA[The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!
+Level Editor
+The level editor received a big overhaul and is now a lot more accessible. There's also official documentation now to help get you started and explain all the tools and shortcuts available. If you want to dig in, just update your game and navigate to Mod Manager > Create Mod, which should place you directly into the editor in a new world of your own!
+Sharing Mods
+You can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager > Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.
+We've provided …]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Nicolas Hafner: Next Kandria Update on March 8th!]]></title>
         <id>https://reader.tymoon.eu/article/424</id>
         <link href="https://reader.tymoon.eu/article/424"/>
@@ -575,6 +622,23 @@ Partial Modding Support
 But, the editor itself is …]]></summary>
         <author>
             <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next Kandria Update on March 8th!]]></title>
+        <id>https://reader.tymoon.eu/article/424</id>
+        <link href="https://reader.tymoon.eu/article/424"/>
+        <updated>2023-03-01T13:56:17.000Z</updated>
+        <summary type="html"><![CDATA[Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!
+Level Editing
+The biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!
+
+I've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!
+And yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!
+Partial Modding Support
+But, the editor itself is …]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -620,6 +684,22 @@ Generally speaking there are two main strategies for automatic memory
 management.…]]></summary>
         <author>
             <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the Future - February Kandria Update]]></title>
+        <id>https://reader.tymoon.eu/article/423</id>
+        <link href="https://reader.tymoon.eu/article/423"/>
+        <updated>2023-02-07T12:35:49.000Z</updated>
+        <summary type="html"><![CDATA[It's already been a month since Kandria released! Woah, time sure flies these days, huh?
+Kandria Launch
+Well, in case you missed the launch, the game is now officially available on Steam, Itch, and directly on our Website.
+The reviews we've gotten have been very positive, both from press, on Steam, and on the streams I've caught! I'm really happy that people have been enjoying the game, and am very thankful for all of the support and well wishes.
+The first two weeks after launch were spent furiously fixing things, with a patch being released almost every day. Things have calmed down a lot since, and while there's a few polish things left over that we know about, overall the game is now very stable, and even got the official Steam Deck Verified rating!
+But, the work isn't done yet.
+Upcoming…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -689,6 +769,38 @@ their values traced.  As a global data structure, the pending ephemeron…]]></s
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Kandria is now out!]]></title>
+        <id>https://reader.tymoon.eu/article/422</id>
+        <link href="https://reader.tymoon.eu/article/422"/>
+        <updated>2023-01-11T14:02:43.000Z</updated>
+        <summary type="html"><![CDATA[Kandria is now finally available for purchase and play!
+I recommend buying it on Steam, as the algorithm there will help us bring the game in front of more people, as well. However, if that isn't a possibility for you, there's also options on Itch.io and through Xsolla on our webpage:
+
+Steam
+
+Itch.io
+
+Xsolla
+
+I am also live on Steam, Twitch, and YouTube right now, to celebrate the launch! Come on and hang out in the chat: https://stream.shinmera.com
+I hope you all enjoy the game, and thank you very much for sticking with us for all this time!]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kandria launches tomorrow!]]></title>
+        <id>https://reader.tymoon.eu/article/421</id>
+        <link href="https://reader.tymoon.eu/article/421"/>
+        <updated>2023-01-10T13:08:18.000Z</updated>
+        <summary type="html"><![CDATA[​Kandria launches tomorrow, on Wednesday the 11th, at 15:00 CET / 9:00 EST!
+There'll be a launch stream for the occasion as well. It'll be live on Twitch! I'll be happy to answer any questions you may have about the game, and hope to see you there!​
+Last opportunity to wishlist the game, too: https://kandria.com/steam]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2022: The Year in Review]]></title>
         <id>https://batsov.com/articles/2023/01/08/2022-the-year-in-review/</id>
         <link href="https://batsov.com/articles/2023/01/08/2022-the-year-in-review/"/>
@@ -696,6 +808,17 @@ their values traced.  As a global data structure, the pending ephemeron…]]></s
         <summary type="html"><![CDATA[Another year is behind us and it’s time for the obligatory “year in review” blog post. I’ve been feeling a bit lazy, that’s why I’m getting to writing it a bit of a delay, but you’ll forgive me.]]></summary>
         <author>
             <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kandria releases in one week on January 11!]]></title>
+        <id>https://reader.tymoon.eu/article/420</id>
+        <link href="https://reader.tymoon.eu/article/420"/>
+        <updated>2023-01-04T13:30:21.000Z</updated>
+        <summary type="html"><![CDATA[In case you missed the yearly update last week: Kandria will release in one week from today, on January 11th, 15:00 CET / 09:00 EST. I hope you're as excited to play it as we are to finally get it into your hands!
+Please remember to wishlist it on Steam to make sure you don't miss it!]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -711,6 +834,19 @@ Between work and family, I don’t have a lot of free time. When I do get a few 
 I also …]]></summary>
         <author>
             <name>Squid's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 for Kandria in Review]]></title>
+        <id>https://reader.tymoon.eu/article/419</id>
+        <link href="https://reader.tymoon.eu/article/419"/>
+        <updated>2022-12-30T21:14:23.000Z</updated>
+        <summary type="html"><![CDATA[It's that time of the year again! The end of it. And what a year it's been for Kandria. We're now less than two weeks away from the release. Yikes! Or should I say, woah! Well, let's take a moment and look at some of all of the things that happened, before we look at what the future may possibly hold in store for us. At least, if I have anything to say about it.
+Honestly, so many things happened that I barely remember most of them. I had to go back through the monthly reviews to remember all of it. But then again, I've always been rather terrible at remembering things that far back in any chronologically complete manner. I won't be going over stuff in chronological order, either, but instead will touch on a bunch of individual topics. Let's start out with
+Conferences
+In 2022 we were presen…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -771,6 +907,20 @@ I also …]]></summary>
         <summary type="html"><![CDATA[Today someone asked in OCaml’s Discord “How do you call a variable that refers to a filename without its extension?”. I always thought there was no specific term for this and I always named such variables filename-sans-extension (or similar), but it turns out I was wrong. It’s never too late to learning something new! But first a bit of (subjective) terminology:]]></summary>
         <author>
             <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rounding Up - December Kandria Update]]></title>
+        <id>https://reader.tymoon.eu/article/418</id>
+        <link href="https://reader.tymoon.eu/article/418"/>
+        <updated>2022-12-05T13:58:03.000Z</updated>
+        <summary type="html"><![CDATA[This is a shorter update, as this month was primarily spent on translation and bugfixing, neither of which we can really tell you much about. If you missed last month's though, please be aware that the game will release on January 11th!
+Various Things
+The translation is going slow, as I'm doing it myself and am not used to a good workflow for that. I expect I'll get the hang of it yet though and I've already made pretty significant progress on it.
+Other than that, the achievement icons are done, thanks to Blob! I'm really happy with how they turned out, and it's nice to have some of his high-res art associated with the game.
+Finally, I took two days to develop a new webservice for key distribution, which will allow you to buy the game DRM-free directly on our website once it releases. This…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>

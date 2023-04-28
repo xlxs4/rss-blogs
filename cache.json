@@ -713,13 +713,13 @@
       "siteUrl": "https://applied-langua.ge/posts/",
       "articles": [
         {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-04-28T00:29:04.848Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-04-28T16:01:44.527Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -727,19 +727,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-04-28T00:29:04.742Z",
+          "publishedOn": "2023-04-28T16:01:44.524Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-04-28T00:29:04.714Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -747,9 +737,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-04-28T00:29:04.690Z",
+          "publishedOn": "2023-04-28T16:01:44.506Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-04-28T16:01:44.503Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -757,7 +757,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-04-28T00:29:04.685Z",
+          "publishedOn": "2023-04-28T16:01:44.495Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -767,7 +767,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-04-28T00:29:04.680Z",
+          "publishedOn": "2023-04-28T16:01:44.491Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -818,6 +818,113 @@
           "wordCount": 5861,
           "title": "Why this blog?",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681655524424%2F8208e14f-0765-4eb2-a301-4d9470f26e45.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        }
+      ]
+    },
+    {
+      "title": "妖怪世捨て人",
+      "feedUrl": "https://tymoon.eu/api/reader/atom",
+      "siteUrl": "https://reader.tymoon.eu/",
+      "articles": [
+        {
+          "id": "https://reader.tymoon.eu/article/428",
+          "author": null,
+          "description": "Kandriaの日本語アップデートはリリースです！\n(私の日本語はまだまだですから、すみません)\n私のゲームは日本語でリリースのは夢ですからうれしい！Mimirin(@mioda833)さんはKandriaの日本語バーシオンを作ってありがとう。素晴らしい仕事をできた。\n今からSteamとItch.ioとKandria.comでアップデーとをダウンロードできる。",
+          "link": "https://reader.tymoon.eu/article/428",
+          "publishedOn": "2023-04-12T12:55:57.000Z",
+          "wordCount": 41,
+          "title": "Kandriaの日本語アップデートはリリースです！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/427",
+          "author": null,
+          "description": "Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!\nYou may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.\n\nI'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!\nOther news\nWith the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.\nHowever, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!\nIn the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!\nThat's it for now\nA rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.",
+          "link": "https://reader.tymoon.eu/article/427",
+          "publishedOn": "2023-04-03T10:48:00.000Z",
+          "wordCount": 347,
+          "title": "次は…何？ - April Kandria Update",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZM09BPT0="
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/425",
+          "author": null,
+          "description": "The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!\nLevel Editor\nThe level editor received a big overhaul and is now a lot more accessible. There's also official documentation now to help get you started and explain all the tools and shortcuts available. If you want to dig in, just update your game and navigate to Mod Manager > Create Mod, which should place you directly into the editor in a new world of your own!\nSharing Mods\nYou can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager > Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.\nWe've provided …",
+          "link": "https://reader.tymoon.eu/article/425",
+          "publishedOn": "2023-03-08T13:47:42.000Z",
+          "wordCount": 539,
+          "title": "Level Editor Update is Live!",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2379"
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/424",
+          "author": null,
+          "description": "Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!\nLevel Editing\nThe biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!\n\nI've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!\nAnd yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!\nPartial Modding Support\nBut, the editor itself is …",
+          "link": "https://reader.tymoon.eu/article/424",
+          "publishedOn": "2023-03-01T13:56:17.000Z",
+          "wordCount": 565,
+          "title": "Next Kandria Update on March 8th!",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZMk1nPT0="
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/423",
+          "author": null,
+          "description": "It's already been a month since Kandria released! Woah, time sure flies these days, huh?\nKandria Launch\nWell, in case you missed the launch, the game is now officially available on Steam, Itch, and directly on our Website.\nThe reviews we've gotten have been very positive, both from press, on Steam, and on the streams I've caught! I'm really happy that people have been enjoying the game, and am very thankful for all of the support and well wishes.\nThe first two weeks after launch were spent furiously fixing things, with a patch being released almost every day. Things have calmed down a lot since, and while there's a few polish things left over that we know about, overall the game is now very stable, and even got the official Steam Deck Verified rating!\nBut, the work isn't done yet.\nUpcoming…",
+          "link": "https://reader.tymoon.eu/article/423",
+          "publishedOn": "2023-02-07T12:35:49.000Z",
+          "wordCount": 515,
+          "title": "Building the Future - February Kandria Update",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2293"
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/422",
+          "author": null,
+          "description": "Kandria is now finally available for purchase and play!\nI recommend buying it on Steam, as the algorithm there will help us bring the game in front of more people, as well. However, if that isn't a possibility for you, there's also options on Itch.io and through Xsolla on our webpage:\n\nSteam\n\nItch.io\n\nXsolla\n\nI am also live on Steam, Twitch, and YouTube right now, to celebrate the launch! Come on and hang out in the chat: https://stream.shinmera.com\nI hope you all enjoy the game, and thank you very much for sticking with us for all this time!",
+          "link": "https://reader.tymoon.eu/article/422",
+          "publishedOn": "2023-01-11T14:02:43.000Z",
+          "wordCount": 149,
+          "title": "Kandria is now out!",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZME1RPT0="
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/421",
+          "author": null,
+          "description": "​Kandria launches tomorrow, on Wednesday the 11th, at 15:00 CET / 9:00 EST!\nThere'll be a launch stream for the occasion as well. It'll be live on Twitch! I'll be happy to answer any questions you may have about the game, and hope to see you there!​\nLast opportunity to wishlist the game, too: https://kandria.com/steam",
+          "link": "https://reader.tymoon.eu/article/421",
+          "publishedOn": "2023-01-10T13:08:18.000Z",
+          "wordCount": 112,
+          "title": "Kandria launches tomorrow!",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZek9BPT0="
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/420",
+          "author": null,
+          "description": "In case you missed the yearly update last week: Kandria will release in one week from today, on January 11th, 15:00 CET / 09:00 EST. I hope you're as excited to play it as we are to finally get it into your hands!\nPlease remember to wishlist it on Steam to make sure you don't miss it!",
+          "link": "https://reader.tymoon.eu/article/420",
+          "publishedOn": "2023-01-04T13:30:21.000Z",
+          "wordCount": 117,
+          "title": "Kandria releases in one week on January 11!",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZek5RPT0="
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/419",
+          "author": null,
+          "description": "It's that time of the year again! The end of it. And what a year it's been for Kandria. We're now less than two weeks away from the release. Yikes! Or should I say, woah! Well, let's take a moment and look at some of all of the things that happened, before we look at what the future may possibly hold in store for us. At least, if I have anything to say about it.\nHonestly, so many things happened that I barely remember most of them. I had to go back through the monthly reviews to remember all of it. But then again, I've always been rather terrible at remembering things that far back in any chronologically complete manner. I won't be going over stuff in chronological order, either, but instead will touch on a bunch of individual topics. Let's start out with\nConferences\nIn 2022 we were presen…",
+          "link": "https://reader.tymoon.eu/article/419",
+          "publishedOn": "2022-12-30T21:14:23.000Z",
+          "wordCount": 1858,
+          "title": "2022 for Kandria in Review",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2327"
+        },
+        {
+          "id": "https://reader.tymoon.eu/article/418",
+          "author": null,
+          "description": "This is a shorter update, as this month was primarily spent on translation and bugfixing, neither of which we can really tell you much about. If you missed last month's though, please be aware that the game will release on January 11th!\nVarious Things\nThe translation is going slow, as I'm doing it myself and am not used to a good workflow for that. I expect I'll get the hang of it yet though and I've already made pretty significant progress on it.\nOther than that, the achievement icons are done, thanks to Blob! I'm really happy with how they turned out, and it's nice to have some of his high-res art associated with the game.\nFinally, I took two days to develop a new webservice for key distribution, which will allow you to buy the game DRM-free directly on our website once it releases. This…",
+          "link": "https://reader.tymoon.eu/article/418",
+          "publishedOn": "2022-12-05T13:58:03.000Z",
+          "wordCount": 457,
+          "title": "Rounding Up - December Kandria Update",
+          "imageUrl": "https://filebox.tymoon.eu//file/TWpZeU1RPT0="
         }
       ]
     }
