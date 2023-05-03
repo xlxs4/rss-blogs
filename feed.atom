@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-02T00:27:23.483Z</id>
+    <id>urn:2023-05-03T00:01:37.703Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-05-02T00:27:23.483Z</updated>
+    <updated>2023-05-03T00:01:37.703Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-05-02T00:27:22.707Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-05-03T00:01:36.661Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-05-02T00:27:22.687Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-05-03T00:01:36.656Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +29,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-05-02T00:27:22.663Z</updated>
+        <updated>2023-05-03T00:01:36.644Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,7 +39,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-05-02T00:27:22.648Z</updated>
+        <updated>2023-05-03T00:01:36.592Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-05-02T00:27:22.576Z</updated>
+        <updated>2023-05-03T00:01:36.558Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,10 +59,51 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-05-02T00:27:22.554Z</updated>
+        <updated>2023-05-03T00:01:36.549Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Nirvana]]></title>
+        <id>https://www.tfeb.org/fragments/2023/05/02/nirvana/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/05/02/nirvana/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-05-02T13:16:58.000Z</updated>
+        <summary type="html"><![CDATA[An article constructed from several emails from my friend Zyni, reproduced with her permission. Note that Zyni’s first language is not English.
+Many people have tried to answer what is so special about Lisp by talking about many things.
+Such as interactive development, a thing common now to many languages of course, and if you use Racket with DrRacket not in fact how development usually works there at all. Are we to cast Racket into the outer darkness?1
+Such as CLOS, a thing specific to Common Lisp: can you not achieve Lisp enlightenment unless you program in Common Lisp? Was Lisp enlightmenent impossible before CLOS existed? What stupid ideas. Could you implement CLOS in a language which was not Lisp? Certainly you could.
+Such as the CL condition system: a thing also specific to Common Li…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[structure and interpretation of ark]]></title>
+        <id>https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark</id>
+        <link href="https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark"/>
+        <updated>2023-05-02T09:13:41.000Z</updated>
+        <summary type="html"><![CDATA[Hello, dear readers!  Today's article describes Ark, a new
+JavaScript-based mobile development platform.  If you haven't read them
+yet, you might want to start by having a look at my past articles on
+,
+,
+,
+and
+;
+having a common understanding of the design space will help us
+understand where Ark is similar and where it differs.CapacitorReact
+NativeNativeScriptFlutter
+If I had to bet, I would guess that you have not heard of Ark.  (I
+certainly hadn't either, when commissioned to do this research series.)
+To a first approximation, Ark—or rather, what I am calling Ark; I don't
+actually know the name for the whole architecture—is a loosely
+Flutter-like UI library implemented on top of a dialect of JavaScript,
+with build-time compilation to bytecode (like Hermes) but also with
+support for just-i…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -608,23 +649,6 @@ We've provided …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nicolas Hafner: Next Kandria Update on March 8th!]]></title>
-        <id>https://reader.tymoon.eu/article/424</id>
-        <link href="https://reader.tymoon.eu/article/424"/>
-        <updated>2023-03-01T13:56:17.000Z</updated>
-        <summary type="html"><![CDATA[Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!
-Level Editing
-The biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!
-
-I've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!
-And yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!
-Partial Modding Support
-But, the editor itself is …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Next Kandria Update on March 8th!]]></title>
         <id>https://reader.tymoon.eu/article/424</id>
         <link href="https://reader.tymoon.eu/article/424"/>
@@ -720,30 +744,6 @@ on the other components of the system.
 A good approach to choosing the fixed heap size for a program is to
 determine the minimum heap size a program can have by bisection, then
 multiplying …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[parallel ephemeron tracing]]></title>
-        <id>https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing</id>
-        <link href="https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing"/>
-        <updated>2023-01-24T10:48:49.000Z</updated>
-        <summary type="html"><![CDATA[Hello all, and happy new year.  Today's note continues the .series on
-implementing ephemerons in a garbage
-collector
-In our  we
-looked at a serial algorithm to trace ephemerons.  However, production
-garbage collectors are parallel: during collection, they trace
-the object graph using multiple worker threads.  Our problem is to
-extend the ephemeron-tracing algorithm with support for multiple tracing
-threads, without introducing stalls or serial bottlenecks.last
-dispatch
-Recall that we ended up having to define a table of pending ephemerons:
-This table holds  ephemerons that have been visited by the
-graph tracer but whose keys haven't been found yet, as well as a
-singly-linked list of  ephemerons that are waiting to have
-their values traced.  As a global data structure, the pending ephemeron…]]></summary>
         <author>
             <name>wingolog</name>
         </author>

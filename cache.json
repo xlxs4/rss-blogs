@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -217,6 +217,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
+          "author": null,
+          "description": "Hello, dear readers!  Today's article describes Ark, a new\nJavaScript-based mobile development platform.  If you haven't read them\nyet, you might want to start by having a look at my past articles on\n,\n,\n,\nand\n;\nhaving a common understanding of the design space will help us\nunderstand where Ark is similar and where it differs.CapacitorReact\nNativeNativeScriptFlutter\nIf I had to bet, I would guess that you have not heard of Ark.  (I\ncertainly hadn't either, when commissioned to do this research series.)\nTo a first approximation, Ark—or rather, what I am calling Ark; I don't\nactually know the name for the whole architecture—is a loosely\nFlutter-like UI library implemented on top of a dialect of JavaScript,\nwith build-time compilation to bytecode (like Hermes) but also with\nsupport for just-i…",
+          "link": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
+          "publishedOn": "2023-05-02T09:13:41.000Z",
+          "wordCount": 4145,
+          "title": "structure and interpretation of ark",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
           "author": null,
           "description": "Good day, gentle hackfolk.  Like an\n fiddler I would\nappear to be deep in the groove, playing endless variations on a theme,\nin this case mobile application frameworks.  But one can only recognize\nnovelty in relation to the familiar, and today's note is a departure: we\nare going to look at , a UI toolkit based\nnot on JavaScript but on the  language.old-timeFlutterDart\nWhere to start, even?  The problem is big enough that I'll\napproach it from three different angles: from the past, from the top,\nand from the bottom.\nWith the other frameworks we looked at, we didn't have to say much about\ntheir use of JavaScript.  JavaScript is an obvious choice, in 2023 at\nleast: it is ubiquitous, has high quality implementations, and as a\nlanguage it is quite OK and progressively getting better.  Up to now…",
@@ -305,16 +315,6 @@
           "wordCount": 1157,
           "title": "three approaches to heap sizing",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing",
-          "author": null,
-          "description": "Hello all, and happy new year.  Today's note continues the .series on\nimplementing ephemerons in a garbage\ncollector\nIn our  we\nlooked at a serial algorithm to trace ephemerons.  However, production\ngarbage collectors are parallel: during collection, they trace\nthe object graph using multiple worker threads.  Our problem is to\nextend the ephemeron-tracing algorithm with support for multiple tracing\nthreads, without introducing stalls or serial bottlenecks.last\ndispatch\nRecall that we ended up having to define a table of pending ephemerons:\nThis table holds  ephemerons that have been visited by the\ngraph tracer but whose keys haven't been found yet, as well as a\nsingly-linked list of  ephemerons that are waiting to have\ntheir values traced.  As a global data structure, the pending ephemeron…",
-          "link": "https://wingolog.org/archives/2023/01/24/parallel-ephemeron-tracing",
-          "publishedOn": "2023-01-24T10:48:49.000Z",
-          "wordCount": 1746,
-          "title": "parallel ephemeron tracing",
-          "imageUrl": null
         }
       ]
     },
@@ -323,6 +323,16 @@
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "https://www.tfeb.org/fragments/2023/05/02/nirvana/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "An article constructed from several emails from my friend Zyni, reproduced with her permission. Note that Zyni’s first language is not English.\nMany people have tried to answer what is so special about Lisp by talking about many things.\nSuch as interactive development, a thing common now to many languages of course, and if you use Racket with DrRacket not in fact how development usually works there at all. Are we to cast Racket into the outer darkness?1\nSuch as CLOS, a thing specific to Common Lisp: can you not achieve Lisp enlightenment unless you program in Common Lisp? Was Lisp enlightmenent impossible before CLOS existed? What stupid ideas. Could you implement CLOS in a language which was not Lisp? Certainly you could.\nSuch as the CL condition system: a thing also specific to Common Li…",
+          "link": "https://www.tfeb.org/fragments/2023/05/02/nirvana/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-05-02T13:16:58.000Z",
+          "wordCount": 1371,
+          "title": "Tim Bradshaw: Nirvana",
+          "imageUrl": null
+        },
         {
           "id": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
           "author": null,
@@ -339,7 +349,7 @@
           "description": "There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.\nBound and free declarations\nDeclarations in Common Lisp can be either bound or free:\na bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;\na free declaration is any declaration which is not bound.\n\n\nThere are declarations which do not apply to bindings, such as optimize: these are always free.\nExamples of bound and free declarations\nIn the form\n(let ((x 1))\n  (declare (type integer x))\n  ...)\nthe declaration is bound and applies to the binding of x. In the form\n(let ((/x/ 1))\n  (declare (special /x/)\n           (optimize (speed 3)))\n  ...)\nthe special declaration is bound and appli…",
           "link": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2023-04-18T09:53:46.000Z",
-          "wordCount": 844,
+          "wordCount": 846,
           "title": "Tim Bradshaw: Something unclear in the Common Lisp standard",
           "imageUrl": null
         },
@@ -412,16 +422,6 @@
           "wordCount": 539,
           "title": "Nicolas Hafner: Level Editor Update is Live!",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2379"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/424",
-          "author": null,
-          "description": "Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!\nLevel Editing\nThe biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!\n\nI've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!\nAnd yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!\nPartial Modding Support\nBut, the editor itself is …",
-          "link": "https://reader.tymoon.eu/article/424",
-          "publishedOn": "2023-03-01T13:56:17.000Z",
-          "wordCount": 565,
-          "title": "Nicolas Hafner: Next Kandria Update on March 8th!",
-          "imageUrl": "https://filebox.tymoon.eu//file/TWpZMk1nPT0="
         }
       ]
     },
@@ -713,23 +713,23 @@
       "siteUrl": "https://applied-langua.ge/posts/",
       "articles": [
         {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-02T00:27:22.707Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
           "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-02T00:27:22.687Z",
+          "publishedOn": "2023-05-03T00:01:36.661Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-05-03T00:01:36.656Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -737,7 +737,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-02T00:27:22.663Z",
+          "publishedOn": "2023-05-03T00:01:36.644Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -747,7 +747,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-02T00:27:22.648Z",
+          "publishedOn": "2023-05-03T00:01:36.592Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -757,7 +757,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-02T00:27:22.576Z",
+          "publishedOn": "2023-05-03T00:01:36.558Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -767,7 +767,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-02T00:27:22.554Z",
+          "publishedOn": "2023-05-03T00:01:36.549Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
