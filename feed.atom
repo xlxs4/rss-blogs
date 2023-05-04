@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-03T00:01:37.703Z</id>
+    <id>urn:2023-05-04T00:01:35.739Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-05-03T00:01:37.703Z</updated>
+    <updated>2023-05-04T00:01:35.739Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-05-04T00:01:29.138Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-05-03T00:01:36.661Z</updated>
+        <updated>2023-05-04T00:01:29.129Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +29,8 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-05-03T00:01:36.656Z</updated>
+        <updated>2023-05-04T00:01:29.125Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-05-03T00:01:36.644Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +39,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-05-03T00:01:36.592Z</updated>
+        <updated>2023-05-04T00:01:29.106Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-05-03T00:01:36.558Z</updated>
+        <updated>2023-05-04T00:01:29.012Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,10 +59,23 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-05-03T00:01:36.549Z</updated>
+        <updated>2023-05-04T00:01:29.009Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tim Bradshaw: Two sides to hygiene]]></title>
+        <id>https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&amp;utm_medium=RSS</id>
+        <link href="https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&amp;utm_medium=RSS"/>
+        <updated>2023-05-03T11:28:09.000Z</updated>
+        <summary type="html"><![CDATA[It’s tempting to think that by being sufficiently careful about names bound by traditional Lisp macros you can write macros which are hygienic. This is not true: it’s much harder than that.
+Hygienic macros
+I do not fully understand all the problems which Scheme-style hygienic macros try to solve, and the implementation of the solutions is usually sufficiently difficult to understand that I have always been put off doing so, especially as the details of the implementation in Racket, the Scheme-related language I use most, seems to change every few years. I’m happy enough that I am mostly competent to write the macros I need in Racket, without understanding the details of the implementation.
+Traditional Lisp macros are, to me, far more appealing because they work in such an explicit and simp…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -80,56 +93,6 @@ Such as the CL condition system: a thing also specific to Common Li…]]></summa
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[structure and interpretation of ark]]></title>
-        <id>https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark</id>
-        <link href="https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark"/>
-        <updated>2023-05-02T09:13:41.000Z</updated>
-        <summary type="html"><![CDATA[Hello, dear readers!  Today's article describes Ark, a new
-JavaScript-based mobile development platform.  If you haven't read them
-yet, you might want to start by having a look at my past articles on
-,
-,
-,
-and
-;
-having a common understanding of the design space will help us
-understand where Ark is similar and where it differs.CapacitorReact
-NativeNativeScriptFlutter
-If I had to bet, I would guess that you have not heard of Ark.  (I
-certainly hadn't either, when commissioned to do this research series.)
-To a first approximation, Ark—or rather, what I am calling Ark; I don't
-actually know the name for the whole architecture—is a loosely
-Flutter-like UI library implemented on top of a dialect of JavaScript,
-with build-time compilation to bytecode (like Hermes) but also with
-support for just-i…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[structure and interpretation of flutter]]></title>
-        <id>https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter</id>
-        <link href="https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter"/>
-        <updated>2023-04-26T13:50:01.000Z</updated>
-        <summary type="html"><![CDATA[Good day, gentle hackfolk.  Like an
- fiddler I would
-appear to be deep in the groove, playing endless variations on a theme,
-in this case mobile application frameworks.  But one can only recognize
-novelty in relation to the familiar, and today's note is a departure: we
-are going to look at , a UI toolkit based
-not on JavaScript but on the  language.old-timeFlutterDart
-Where to start, even?  The problem is big enough that I'll
-approach it from three different angles: from the past, from the top,
-and from the bottom.
-With the other frameworks we looked at, we didn't have to say much about
-their use of JavaScript.  JavaScript is an obvious choice, in 2023 at
-least: it is ubiquitous, has high quality implementations, and as a
-language it is quite OK and progressively getting better.  Up to now…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Automate Your Code Quality In Julia]]></title>
         <id>https://scientificcoder.com/automate-your-code-quality-in-julia</id>
         <link href="https://scientificcoder.com/automate-your-code-quality-in-julia"/>
@@ -144,50 +107,6 @@ Automated testing and Continuous Integration (C…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[structure and interpretation of nativescript]]></title>
-        <id>https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript</id>
-        <link href="https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript"/>
-        <updated>2023-04-24T09:10:58.000Z</updated>
-        <summary type="html"><![CDATA[Greetings, hackers tall and hackers small!
-We're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at 
-,
-which defines its user interface in terms of the web platform, and only
-calls out to iOS or Android native features as needed.  We proceeded
-on to ,
-which moves closer to native by rendering to platform-provided UI
-widgets, layering a cross-platform development interface on top.Ionic /
-CapacitorReact
-Native
-Today's article takes an in-depth look at , whose point in the design space is further on the road towards
-the platform, unabashedly embracing the specificities of the API
-available on iOS and Android, exposing these interfaces directly to …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[structure and interpretation of react native]]></title>
-        <id>https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native</id>
-        <link href="https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native"/>
-        <updated>2023-04-21T08:20:17.000Z</updated>
-        <summary type="html"><![CDATA[Hey hey!  Today's missive continues exploring the space of JavaScript
-and mobile application development.
-Yesterday we looked into , giving a brief
-structural overview of what Capacitor apps look like under the hood and
-how this translates to three aspects of performance: startup latency, jank,
-and peak performance.  Today we'll apply that same approach to another
-popular development framework, .Ionic / CapacitorReact Native
-I don't know about you, but I find that there is so much marketing smoke
-and lights around the whole phenomenon that is React and React Native
-that sometimes it's hard to see what's actually there.  This is
-compounded by the fact that the programming paradigm espoused by React
-(and its "native" cousin that we are looking at here) is so effective at
-enabling JavaScript …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Learning OCaml: Quoted String Literals]]></title>
         <id>https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/</id>
         <link href="https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/"/>
@@ -195,33 +114,6 @@ enabling JavaScript …]]></summary>
         <summary type="html"><![CDATA[While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[structure and interpretation of capacitor programs]]></title>
-        <id>https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs</id>
-        <link href="https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs"/>
-        <updated>2023-04-20T10:20:32.000Z</updated>
-        <summary type="html"><![CDATA[Good day, hackers!  Today's note is a bit of a departure from compilers
-internals.  A client at work recently asked me to look into
-cross-platform mobile application development and is happy for the
-results to be shared publically.  This, then, is the first in a series
-of articles.
-I'll be starting by taking a look at
-/,
-,
-,
-/, and then a
-mystery guest.  This article will set the stage and then look into
-Ionic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart
-The angle I am taking is, if you were designing a new mobile operating
-system that uses JavaScript as its native application development
-language, what would it mean to adopt one of these as your primary app
-development toolkit?  It's a broad question but I hope we can come up
-with some useful conclusions.
-I'm going to appro…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -250,28 +142,6 @@ So I updated the guide to use Clingon. Let’s go.
 As a reminder to this often-asked question, my SBCL standalon…]]></summary>
         <author>
             <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sticking point]]></title>
-        <id>https://wingolog.org/archives/2023/04/18/sticking-point</id>
-        <link href="https://wingolog.org/archives/2023/04/18/sticking-point"/>
-        <updated>2023-04-18T20:23:49.000Z</updated>
-        <summary type="html"><![CDATA[Good evening, gentle readers.  A brief note tonight, on a sticky place.
-See, I have too many projects right now.
-In and of itself this is not so much of a problem as a condition. I know
-my limits; I keep myself from burning out by shedding load, and there is
-a kind of priority list of which projects keep adequate service levels.
-First come the tiny humans that are in my care who need their butts
-wiped and bodies translated to and from school or daycare and who --
-well you know the old Hegelian trope, that the dialectic crank of
-history doesn't turn itself, that it takes actions from people to
-synthesize the thesis and the antithesis, and that even History itself
-isn't always monotonic; in the same way, bedtime is a reality,
-there are the material conditions of sleepiness and
-you're-gonna-b…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -491,29 +361,6 @@ In a previous article my friend Zyni wrote some variations on a list-flattening 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[a world to win: webassembly for the rest of us]]></title>
-        <id>https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us</id>
-        <link href="https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us"/>
-        <updated>2023-03-20T09:06:42.000Z</updated>
-        <summary type="html"><![CDATA[Good day, comrades!
-Today I'd like to share the good news that WebAssembly is finally coming
-for the rest of us weirdos.
-This is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of
-people that are using "technologies beyond the mainstream" to get things
-done: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB
-2023here
-WebAssembly: what even is it?  Not a programming language that
-you would write software in, but rather a compilation target: a sort of
-assembly language, if you will.
-If you look at what the characteristics of WebAssembly are as an
-abstract machine, to me there are two main areas in which it is an
-advance over the alternatives.
-Firstly it's "close to the metal" -- if you compile for example…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How are OCaml Programmers Called?]]></title>
         <id>https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/</id>
         <link href="https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/"/>
@@ -569,31 +416,6 @@ But let us assume as good implementations do that tail recursion is optimized in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[pre-initialization of garbage-collected webassembly heaps]]></title>
-        <id>https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps</id>
-        <link href="https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps"/>
-        <updated>2023-03-10T09:20:33.000Z</updated>
-        <summary type="html"><![CDATA[Hey comrades, I just had an idea that I won't be able to work on in the
-next couple months and wanted to release it into the wild.  They say if
-you love your ideas, you should let them go and see if they come back to
-you, right?  In that spirit I abandon this idea to the woods.
-Basically the idea is , but for modules
-that store their data on the GC-managed heap instead of just in linear
-memory.Wizer-like pre-initialization of WebAssembly
-modules
-Say you have a WebAssembly module with .
-It might look like this:GC
-types
-You define some struct and array types, there are some global variables,
-and some functions to actually do the work.  (There are probably also
-tables and other things but I am simplifying.)
-If you consider the object graph of an instantiated module, you will
-have some set of …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Marco Antoniotti: The LETV and LETV* Macros]]></title>
         <id>http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html</id>
         <link href="http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html"/>
@@ -614,21 +436,6 @@ The syntax of LETV (or LETV*) is very
     letvstar ::= 'LETV*' [vars] [IN [body]]
 
     var…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nicolas Hafner: Level Editor Update is Live!]]></title>
-        <id>https://reader.tymoon.eu/article/425</id>
-        <link href="https://reader.tymoon.eu/article/425"/>
-        <updated>2023-03-08T13:47:42.000Z</updated>
-        <summary type="html"><![CDATA[The first major update for Kandria is now live on all platforms! It includes the level editor, a modding system, some new sample levels, and bugfixes!
-Level Editor
-The level editor received a big overhaul and is now a lot more accessible. There's also official documentation now to help get you started and explain all the tools and shortcuts available. If you want to dig in, just update your game and navigate to Mod Manager > Create Mod, which should place you directly into the editor in a new world of your own!
-Sharing Mods
-You can play levels made by others and download them directly from within the game. To browse existing levels, simply go to Mod Manager > Discover. From there you can select and install mods. Once installed, you can play their world under the Worlds tab.
-We've provided …]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -686,31 +493,6 @@ But, the editor itself is …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[whippet: towards a new local maximum]]></title>
-        <id>https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum</id>
-        <link href="https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum"/>
-        <updated>2023-02-07T13:14:37.000Z</updated>
-        <summary type="html"><![CDATA[Friends, you might have noted, but over the last year or so I really
-caught the GC bug.  Today's post sums up that year, in the form of a
-talk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you
-can have a look instead to the .at the FOSDEM event
-page
-So the context for the whole effort is that Guile has this part of its
-implementation which is in C.  It also exposes a lot of that
-implementation to users as an API.
-So what contraints does this kind of API impose on the garbage
-collector?
-Let's start by considering the simple  call above.  In a
-garbage-collected environment, the GC is responsible for reclaiming
-unused memory.  How does the GC know that the result of a 
-call is in use?consscm_cons
-Generally speaking there are two main strategies for automatic memory
-management.…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Building the Future - February Kandria Update]]></title>
         <id>https://reader.tymoon.eu/article/423</id>
         <link href="https://reader.tymoon.eu/article/423"/>
@@ -724,28 +506,6 @@ But, the work isn't done yet.
 Upcoming…]]></summary>
         <author>
             <name>妖怪世捨て人</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[three approaches to heap sizing]]></title>
-        <id>https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing</id>
-        <link href="https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing"/>
-        <updated>2023-01-27T21:45:03.000Z</updated>
-        <summary type="html"><![CDATA[How much memory should a program get?  Tonight, a quick note on sizing
-for garbage-collected heaps.  There are a few possible answers,
-depending on what your goals are for the system.
-Sometimes you build a system and you want to study it: to identify its
-principal components and see how they work together, or to isolate the
-effect of altering a single component.  In that case, what you want is a
-fixed heap size.  You run your program a few times and determine a heap
-size that is sufficient for your problem, and then in future run the
-program with that new fixed heap size.  This allows you to concentrate
-on the other components of the system.
-A good approach to choosing the fixed heap size for a program is to
-determine the minimum heap size a program can have by bisection, then
-multiplying …]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
