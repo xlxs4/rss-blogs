@@ -212,17 +212,134 @@
       ]
     },
     {
+      "title": "wingolog",
+      "feedUrl": "https://wingolog.org/feed/atom",
+      "siteUrl": "https://wingolog.org/",
+      "articles": [
+        {
+          "id": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
+          "author": null,
+          "description": "Hello, dear readers!  Today's article describes Ark, a new\nJavaScript-based mobile development platform.  If you haven't read them\nyet, you might want to start by having a look at my past articles on\n,\n,\n,\nand\n;\nhaving a common understanding of the design space will help us\nunderstand where Ark is similar and where it differs.CapacitorReact\nNativeNativeScriptFlutter\nIf I had to bet, I would guess that you have not heard of Ark.  (I\ncertainly hadn't either, when commissioned to do this research series.)\nTo a first approximation, Ark—or rather, what I am calling Ark; I don't\nactually know the name for the whole architecture—is a loosely\nFlutter-like UI library implemented on top of a dialect of JavaScript,\nwith build-time compilation to bytecode (like Hermes) but also with\nsupport for just-i…",
+          "link": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
+          "publishedOn": "2023-05-02T09:13:41.000Z",
+          "wordCount": 4145,
+          "title": "structure and interpretation of ark",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
+          "author": null,
+          "description": "Good day, gentle hackfolk.  Like an\n fiddler I would\nappear to be deep in the groove, playing endless variations on a theme,\nin this case mobile application frameworks.  But one can only recognize\nnovelty in relation to the familiar, and today's note is a departure: we\nare going to look at , a UI toolkit based\nnot on JavaScript but on the  language.old-timeFlutterDart\nWhere to start, even?  The problem is big enough that I'll\napproach it from three different angles: from the past, from the top,\nand from the bottom.\nWith the other frameworks we looked at, we didn't have to say much about\ntheir use of JavaScript.  JavaScript is an obvious choice, in 2023 at\nleast: it is ubiquitous, has high quality implementations, and as a\nlanguage it is quite OK and progressively getting better.  Up to now…",
+          "link": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
+          "publishedOn": "2023-04-26T13:50:01.000Z",
+          "wordCount": 3123,
+          "title": "structure and interpretation of flutter",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
+          "author": null,
+          "description": "Greetings, hackers tall and hackers small!\nWe're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at \n,\nwhich defines its user interface in terms of the web platform, and only\ncalls out to iOS or Android native features as needed.  We proceeded\non to ,\nwhich moves closer to native by rendering to platform-provided UI\nwidgets, layering a cross-platform development interface on top.Ionic /\nCapacitorReact\nNative\nToday's article takes an in-depth look at , whose point in the design space is further on the road towards\nthe platform, unabashedly embracing the specificities of the API\navailable on iOS and Android, exposing these interfaces directly to …",
+          "link": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
+          "publishedOn": "2023-04-24T09:10:58.000Z",
+          "wordCount": 2642,
+          "title": "structure and interpretation of nativescript",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
+          "author": null,
+          "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
+          "link": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
+          "publishedOn": "2023-04-21T08:20:17.000Z",
+          "wordCount": 2934,
+          "title": "structure and interpretation of react native",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
+          "author": null,
+          "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
+          "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
+          "publishedOn": "2023-04-20T10:20:32.000Z",
+          "wordCount": 2511,
+          "title": "structure and interpretation of capacitor programs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/04/18/sticking-point",
+          "author": null,
+          "description": "Good evening, gentle readers.  A brief note tonight, on a sticky place.\nSee, I have too many projects right now.\nIn and of itself this is not so much of a problem as a condition. I know\nmy limits; I keep myself from burning out by shedding load, and there is\na kind of priority list of which projects keep adequate service levels.\nFirst come the tiny humans that are in my care who need their butts\nwiped and bodies translated to and from school or daycare and who --\nwell you know the old Hegelian trope, that the dialectic crank of\nhistory doesn't turn itself, that it takes actions from people to\nsynthesize the thesis and the antithesis, and that even History itself\nisn't always monotonic; in the same way, bedtime is a reality,\nthere are the material conditions of sleepiness and\nyou're-gonna-b…",
+          "link": "https://wingolog.org/archives/2023/04/18/sticking-point",
+          "publishedOn": "2023-04-18T20:23:49.000Z",
+          "wordCount": 766,
+          "title": "sticking point",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
+          "author": null,
+          "description": "Good day, comrades!\nToday I'd like to share the good news that WebAssembly is finally coming\nfor the rest of us weirdos.\nThis is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of\npeople that are using \"technologies beyond the mainstream\" to get things\ndone: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB\n2023here\nWebAssembly: what even is it?  Not a programming language that\nyou would write software in, but rather a compilation target: a sort of\nassembly language, if you will.\nIf you look at what the characteristics of WebAssembly are as an\nabstract machine, to me there are two main areas in which it is an\nadvance over the alternatives.\nFirstly it's \"close to the metal\" -- if you compile for example…",
+          "link": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
+          "publishedOn": "2023-03-20T09:06:42.000Z",
+          "wordCount": 5427,
+          "title": "a world to win: webassembly for the rest of us",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
+          "author": null,
+          "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
+          "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
+          "publishedOn": "2023-03-10T09:20:33.000Z",
+          "wordCount": 1422,
+          "title": "pre-initialization of garbage-collected webassembly heaps",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
+          "author": null,
+          "description": "Friends, you might have noted, but over the last year or so I really\ncaught the GC bug.  Today's post sums up that year, in the form of a\ntalk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you\ncan have a look instead to the .at the FOSDEM event\npage\nSo the context for the whole effort is that Guile has this part of its\nimplementation which is in C.  It also exposes a lot of that\nimplementation to users as an API.\nSo what contraints does this kind of API impose on the garbage\ncollector?\nLet's start by considering the simple  call above.  In a\ngarbage-collected environment, the GC is responsible for reclaiming\nunused memory.  How does the GC know that the result of a \ncall is in use?consscm_cons\nGenerally speaking there are two main strategies for automatic memory\nmanagement.…",
+          "link": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
+          "publishedOn": "2023-02-07T13:14:37.000Z",
+          "wordCount": 6720,
+          "title": "whippet: towards a new local maximum",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
+          "author": null,
+          "description": "How much memory should a program get?  Tonight, a quick note on sizing\nfor garbage-collected heaps.  There are a few possible answers,\ndepending on what your goals are for the system.\nSometimes you build a system and you want to study it: to identify its\nprincipal components and see how they work together, or to isolate the\neffect of altering a single component.  In that case, what you want is a\nfixed heap size.  You run your program a few times and determine a heap\nsize that is sufficient for your problem, and then in future run the\nprogram with that new fixed heap size.  This allows you to concentrate\non the other components of the system.\nA good approach to choosing the fixed heap size for a program is to\ndetermine the minimum heap size a program can have by bisection, then\nmultiplying …",
+          "link": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
+          "publishedOn": "2023-01-27T21:45:03.000Z",
+          "wordCount": 1157,
+          "title": "three approaches to heap sizing",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "Planet Lisp",
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "Yesterday I wrote an article describing one of the ways traditional Lisp macros can be unhygienic even when they appear to be hygienic. Here’s a horrible solution to that.\nThe problem I described is that the expansion of a macro can refer to the values (usually the function values) of names, which the user of the macro can bind, causing the macro to fail. So, given a function\n(defun call-with-foo (thunk)\n  ...\n  (funcall thunk))\nThen the macro layer on top of it\n(defmacro with-foo (&body forms)\n  `(call-with-foo (lambda () ,@forms)))\nis not hygienic so long as local functions named call-with-foo are allowed:\n(flet ((call-with-foo (...) ...))\n  (with-foo ...))\nThe sensible solution to this is to say, just as the standard does about symbols in the CL package that you are not allowed to do that.\nHere’s another solution:\n(defmacro with-foo (&body forms)\n  `(funcall (symbol-function 'call-with-foo) (lambda () ,@forms)))\nThis is robust against anything short of top-level redefinition of call-with-foo. And you can be mostly robust even against that:\n(defmacro with-foo (&body forms)\n  `(funcall (load-time-value (symbol-function 'call-with-foo))\n            (lambda () ,@forms)))\nThis still isn’t safe against really malignant users, since the load time of the macro’s definition and its uses are not the same. But it’s probably fairly good.\nI hope I never feel I have to use techniques like this.",
+          "link": "https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-05-04T11:33:41.000Z",
+          "wordCount": 244,
+          "title": "Tim Bradshaw: A horrible solution",
+          "imageUrl": null
+        },
         {
           "id": "https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&utm_medium=RSS",
           "author": null,
           "description": "It’s tempting to think that by being sufficiently careful about names bound by traditional Lisp macros you can write macros which are hygienic. This is not true: it’s much harder than that.\nHygienic macros\nI do not fully understand all the problems which Scheme-style hygienic macros try to solve, and the implementation of the solutions is usually sufficiently difficult to understand that I have always been put off doing so, especially as the details of the implementation in Racket, the Scheme-related language I use most, seems to change every few years. I’m happy enough that I am mostly competent to write the macros I need in Racket, without understanding the details of the implementation.\nTraditional Lisp macros are, to me, far more appealing because they work in such an explicit and simp…",
           "link": "https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2023-05-03T11:28:09.000Z",
-          "wordCount": 1790,
+          "wordCount": 1815,
           "title": "Tim Bradshaw: Two sides to hygiene",
           "imageUrl": null
         },
@@ -304,16 +421,6 @@
           "publishedOn": "2023-03-13T12:36:33.000Z",
           "wordCount": 1102,
           "title": "Tim Bradshaw: Variations on a theme",
-          "imageUrl": null
-        },
-        {
-          "id": "http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html",
-          "author": null,
-          "description": "Hello,\nIt has been a long time since I posted something here.  I have been busy with my day job and bogged down in a major rewrite of something (more on this hopefully very soon now (tm)) that is full of rabbit's holes.\nI was able to get out of one of these rabbit's holes with this little hack I cooked up that allows you to, possibly, write more concise code.\nThis little hack introduces two handy Common Lisp\nmacros, LETV and LETV* that allow you to mix\nregular LET and MULTIPLE-VALUE-BIND forms in\na less verbose way.  The amount of indentation needed is also reduced.\n \n\nThe syntax of LETV (or LETV*) is very\n\"loopy\", with a nod to SML/OCaml/F#/Haskell/Julia.  The current syntax\n  is the following:\n    letv     ::= 'LETV' [vars] [IN [body]]\n    letvstar ::= 'LETV*' [vars] [IN [body]]\n\n    var…",
-          "link": "http://within-parens.blogspot.com/2023/03/the-letv-and-letv-macros.html",
-          "publishedOn": "2023-03-09T20:11:00.000Z",
-          "wordCount": 3004,
-          "title": "Marco Antoniotti: The LETV and LETV* Macros",
           "imageUrl": null
         }
       ]
@@ -610,29 +717,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-04T00:01:29.138Z",
+          "publishedOn": "2023-05-05T00:01:27.942Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-04T00:01:29.129Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-04T00:01:29.125Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -640,19 +727,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-04T00:01:29.106Z",
+          "publishedOn": "2023-05-05T00:01:27.866Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-04T00:01:29.012Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-05-05T00:01:27.862Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -660,9 +747,29 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-04T00:01:29.009Z",
+          "publishedOn": "2023-05-05T00:01:27.856Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-05-05T00:01:27.841Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-05-05T00:01:27.817Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]
@@ -672,6 +779,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned",
+          "author": "Matthijs Cox",
+          "description": "How do you become a great scientific coder? To understand this, I want to ask others about their journey and share their lessons with you. This post is a collaboration with Keith Myerscough, a mathematical consultant and senior engineer, who helped me with setting up our internal Julia language ecosystem.\nMatthijs asked me to write a guest post about what skills are needed to become a great scientific coder. He asked me because I assisted a team of scientists in adopting Julia for their research and development work. I am keen to help: I empathize with people who come up with great ideas but have a hard time wrapping these up into something that can be turned into a product. Even under the assumption that code will be extensively improved upon by others with more software knowledge, that f…",
+          "link": "https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned",
+          "publishedOn": "2023-05-04T09:43:36.000Z",
+          "wordCount": 8341,
+          "title": "Production-ready code for scientists:  3 lessons learned",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683010031069%2Fa33212ab-1534-4842-92cd-a94b4e89785c.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/automate-your-code-quality-in-julia",
           "author": "Matthijs Cox",
