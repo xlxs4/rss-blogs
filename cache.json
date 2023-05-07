@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -694,16 +694,6 @@
           "wordCount": 3432,
           "title": "Janet for Mortals",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
-        },
-        {
-          "id": "https://ianthehenry.com/posts/delaunay/",
-          "author": null,
-          "description": "Take a look at this:\n\n\n\nThis is a triangulation of a set of random points, such that all the points are connected to one another, all of the faces are triangles, and the edges include the convex hull of the points.\nI would like to claim that this is not a very “good” triangulation. This algorithm tends to produce lots of long, slivery triangles, and a really uneven distribution of edge counts across different vertices – some vertices have way more edges than they need to.\nHere’s a different triangulation. These are the exact same points, but I triangulated them smarter:\n\nIsn’t that better? (Click to compare!)\nDepending on your dice rolls you might still have a few slivers, usually around the outer perimeter, but I’m willing to bet that it’s a noticeable improvement over the first attempt.\n…",
-          "link": "https://ianthehenry.com/posts/delaunay/",
-          "publishedOn": "2022-07-11T00:00:00.000Z",
-          "wordCount": 8686,
-          "title": "Visualizing Delaunay Triangulation",
-          "imageUrl": "https://ianthehenry.com/posts/delaunay/hero.png"
         }
       ]
     },
@@ -713,43 +703,13 @@
       "siteUrl": "https://applied-langua.ge/posts/",
       "articles": [
         {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "id": "https://zenodo.org/record/7816398",
           "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-06T00:01:24.936Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-06T00:01:24.925Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-06T00:01:24.872Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-06T00:01:24.804Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
+          "link": "https://zenodo.org/record/7816398",
+          "publishedOn": "2023-05-07T00:01:30.709Z",
+          "wordCount": 702,
+          "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
         {
@@ -757,9 +717,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-06T00:01:24.791Z",
+          "publishedOn": "2023-05-07T00:01:29.663Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-05-07T00:01:29.568Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -767,9 +737,39 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-06T00:01:24.769Z",
+          "publishedOn": "2023-05-07T00:01:29.563Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-05-07T00:01:29.558Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-05-07T00:01:29.547Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-05-07T00:01:29.535Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
@@ -785,7 +785,7 @@
           "description": "How do you become a great scientific coder? To understand this, I want to ask others about their journey and share their lessons with you. This post is a collaboration with Keith Myerscough, a mathematical consultant and senior engineer, who helped me with setting up our internal Julia language ecosystem.\nMatthijs asked me to write a guest post about what skills are needed to become a great scientific coder. He asked me because I assisted a team of scientists in adopting Julia for their research and development work. I am keen to help: I empathize with people who come up with great ideas but have a hard time wrapping these up into something that can be turned into a product. Even under the assumption that code will be extensively improved upon by others with more software knowledge, that f…",
           "link": "https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned",
           "publishedOn": "2023-05-04T09:43:36.000Z",
-          "wordCount": 8341,
+          "wordCount": 8394,
           "title": "Production-ready code for scientists:  3 lessons learned",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683010031069%2Fa33212ab-1534-4842-92cd-a94b4e89785c.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
