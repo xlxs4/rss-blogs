@@ -252,7 +252,7 @@
           "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
           "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
           "publishedOn": "2023-04-20T10:20:32.000Z",
-          "wordCount": 2511,
+          "wordCount": 2496,
           "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
         },
@@ -697,9 +697,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-05-11T00:01:52.422Z",
+          "publishedOn": "2023-05-12T00:01:46.222Z",
           "wordCount": 713,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-05-12T00:01:44.956Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -707,7 +717,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-11T00:01:51.042Z",
+          "publishedOn": "2023-05-12T00:01:44.951Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -717,7 +727,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-11T00:01:51.037Z",
+          "publishedOn": "2023-05-12T00:01:44.833Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -727,19 +737,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-11T00:01:51.031Z",
+          "publishedOn": "2023-05-12T00:01:44.800Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-11T00:01:51.015Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -747,7 +747,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-11T00:01:50.852Z",
+          "publishedOn": "2023-05-12T00:01:44.634Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -757,7 +757,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-11T00:01:50.849Z",
+          "publishedOn": "2023-05-12T00:01:44.425Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -769,6 +769,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/extreme-multi-threading-c-and-julia-19-integration",
+          "author": "Matthijs Cox",
+          "description": "In this tutorial we demonstrate how to call Julia libraries with multiple threads from C++. With the introduction of Julia 1.9 in May 2023, the runtime can dynamically \"adopt\" external threads, enabling the integration of Julia libraries into multi-threaded codebases written in other languages, such as C++. This article is written in collaboration with Evangelos Paradas, the maestro of algorithm deployment at ASML. Evangelos has been responsible for heavily testing and debugging this multi-threading feature. I humbly repeated the final results after his many trial-and-error attempts and summarized everything for you in this article.\nJulia in production\nJulia is a general-purpose language designed for scientific and numerical computing, striking a balance between speed and simplicity. The a…",
+          "link": "https://scientificcoder.com/extreme-multi-threading-c-and-julia-19-integration",
+          "publishedOn": "2023-05-11T14:10:09.000Z",
+          "wordCount": 12146,
+          "title": "Extreme Multi-Threading: C++ and Julia 1.9 Integration",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683635341431%2F5562e663-f9ea-4cec-a0a8-e6c9da7578ef.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/mastering-scientific-programming-practical-tips-and-tricks",
           "author": "Matthijs Cox",
