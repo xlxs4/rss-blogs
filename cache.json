@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/05/20/approaching-cps-soup",
+          "author": null,
+          "description": "Good evening, hackers.  Today's missive is more of a massive, in the\nsense that it's another presentation transcript-alike; these things always\ntranslate to many vertical pixels.\nIn my defense, I hardly ever give a\npresentation twice, so not only do I miss out on the usual\nper-presentation cost amortization and on the incremental improvements\nof repetition, the more dire error is that whatever message I might have\ncan only ever reach a subset of those that it might interest; here at\nleast I can be more or less sure that if the presentation would interest\nsomeone, that they will find it.\nSo for the time being I will try to\nshare presentations here, in the spirit of, well, why the hell not.\nLast week I gave a training talk to  collaborators on the intermediate\nrepresentation used by 's compi…",
+          "link": "https://wingolog.org/archives/2023/05/20/approaching-cps-soup",
+          "publishedOn": "2023-05-20T07:10:03.000Z",
+          "wordCount": 4976,
+          "title": "approaching cps soup",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
           "author": null,
           "description": "Hello, dear readers!  Today's article describes Ark, a new\nJavaScript-based mobile development platform.  If you haven't read them\nyet, you might want to start by having a look at my past articles on\n,\n,\n,\nand\n;\nhaving a common understanding of the design space will help us\nunderstand where Ark is similar and where it differs.CapacitorReact\nNativeNativeScriptFlutter\nIf I had to bet, I would guess that you have not heard of Ark.  (I\ncertainly hadn't either, when commissioned to do this research series.)\nTo a first approximation, Ark—or rather, what I am calling Ark; I don't\nactually know the name for the whole architecture—is a loosely\nFlutter-like UI library implemented on top of a dialect of JavaScript,\nwith build-time compilation to bytecode (like Hermes) but also with\nsupport for just-i…",
@@ -283,16 +293,6 @@
           "publishedOn": "2023-02-07T13:14:37.000Z",
           "wordCount": 6720,
           "title": "whippet: towards a new local maximum",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
-          "author": null,
-          "description": "How much memory should a program get?  Tonight, a quick note on sizing\nfor garbage-collected heaps.  There are a few possible answers,\ndepending on what your goals are for the system.\nSometimes you build a system and you want to study it: to identify its\nprincipal components and see how they work together, or to isolate the\neffect of altering a single component.  In that case, what you want is a\nfixed heap size.  You run your program a few times and determine a heap\nsize that is sufficient for your problem, and then in future run the\nprogram with that new fixed heap size.  This allows you to concentrate\non the other components of the system.\nA good approach to choosing the fixed heap size for a program is to\ndetermine the minimum heap size a program can have by bisection, then\nmultiplying …",
-          "link": "https://wingolog.org/archives/2023/01/27/three-approaches-to-heap-sizing",
-          "publishedOn": "2023-01-27T21:45:03.000Z",
-          "wordCount": 1157,
-          "title": "three approaches to heap sizing",
           "imageUrl": null
         }
       ]
@@ -544,12 +544,22 @@
       "siteUrl": "https://www.lambdasierra.com/",
       "articles": [
         {
+          "id": "urn:uuid:417d13a1-0e74-48b4-93da-715fbe03736e",
+          "author": null,
+          "description": "Social media killed comments. What's a lonely blogger to do?",
+          "link": "https://www.lambdasierra.com/2023/building/comments",
+          "publishedOn": "2023-05-20T20:00:00.000Z",
+          "wordCount": 392,
+          "title": "One-Way Comments?",
+          "imageUrl": "https://www.lambdasierra/2023/building/img/stephen-phillips-hostreviews-co-uk--zRNvl3EUdw-unsplash.jpg"
+        },
+        {
           "id": "urn:uuid:ba04a467-ff41-43b3-907d-2810c12af8bb",
           "author": null,
           "description": "My experience as a backend programmer trying to write my own CSS by hand",
           "link": "https://www.lambdasierra.com/2023/building/css",
           "publishedOn": "2023-05-16T22:00:00.000Z",
-          "wordCount": 534,
+          "wordCount": 537,
           "title": "(Re-)Learning CSS as a Backend Dev",
           "imageUrl": "https://www.lambdasierra.com/2023/building/img/csstoot.png"
         },
@@ -696,7 +706,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-05-20T00:01:42.630Z",
+          "publishedOn": "2023-05-21T00:01:27.353Z",
           "wordCount": 713,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -706,7 +716,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-20T00:01:41.627Z",
+          "publishedOn": "2023-05-21T00:01:26.564Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -716,7 +726,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-20T00:01:41.621Z",
+          "publishedOn": "2023-05-21T00:01:26.363Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -726,7 +736,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-20T00:01:41.608Z",
+          "publishedOn": "2023-05-21T00:01:26.344Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -736,7 +746,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-20T00:01:41.467Z",
+          "publishedOn": "2023-05-21T00:01:26.326Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -746,7 +756,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-20T00:01:41.294Z",
+          "publishedOn": "2023-05-21T00:01:26.286Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -756,7 +766,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-20T00:01:41.139Z",
+          "publishedOn": "2023-05-21T00:01:26.097Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
