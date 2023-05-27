@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-26T00:28:56.108Z</id>
+    <id>urn:2023-05-27T00:30:17.010Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-05-26T00:28:56.108Z</updated>
+    <updated>2023-05-27T00:30:17.010Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-05-26T00:28:55.590Z</updated>
+        <updated>2023-05-27T00:30:16.983Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-05-26T00:28:54.537Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-05-26T00:28:54.515Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-05-26T00:28:54.510Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-05-26T00:28:54.501Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +19,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-05-26T00:28:54.492Z</updated>
+        <updated>2023-05-27T00:30:14.206Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,10 +29,109 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-05-26T00:28:54.487Z</updated>
+        <updated>2023-05-27T00:30:14.202Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-05-27T00:30:14.124Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-05-27T00:30:14.115Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-05-27T00:30:14.097Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-05-27T00:30:14.080Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vindarel: Pretty GUI in Common Lisp with nodgui's Tk themes]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/"/>
+        <updated>2023-05-26T22:22:04.000Z</updated>
+        <summary type="html"><![CDATA[Do you think Tcl/Tk GUIs are doomed to look outdated?
+
+Fear not!
+
+
+
+
+
+
+
+
+A treeview widget:
+
+
+The official example of Forest Light:
+
+The ttkthemes gallery
+Plus, Tk itself has a little choice of built-in themes:
+
+We can use these themes with nodgui, the Ltk fork.
+In June of 2020, @cage added a little function to load a .tcl file:
+(defun eval-tcl-file (file-path)
+  "This function will feed the TCL interpreter with the contents
+   of the file `path'.
+   Please, as this function will load  and execute a script, ensure to
+   load files only from trusted sources otherwise severe security problem
+   may arise."
+  (assert (stringp file-path))
+  (format-wish "source {~a}" file-path))
+
+As a consequence, we can load a .tcl script that defines a theme, and use it. Themes generally consist of a .tcl script and a directory of png or gif images (when images are not defined in-line).
+Considering we cloned the ttkthemes repo locally:
+  (with-nodgui ()
+    (eval-tcl-file "ttkthemes/ttkthemes/png/yaru/yaru.tcl")
+    (use-theme "yaru")
+
+and that’s all there is to it.
+For now, some themes are not supported. Scalable themes are not
+supported, the .gif based themes of ttkthemes won’t load (the “scid”
+and “smog” themes in ttkthemes, the Sun Valley
+theme didn’t
+work). This could change when tksvg lands in Debian (or maybe, if
+you install it yourself? I didn’t try), or with the next release of
+Tcl/Tk that will include SVG support (read
+#13).
+Frankly, that was a great news of the day. Yes, I think some themes
+are pleasant to the eyes! This makes me want to use little Tk UIs here
+and there.
+Here’s the code for the little media player of the screenshots. It is based on Peter Lane’s extensive examples.
+Kuddos to @cage o/]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -728,28 +787,6 @@ Firstly it's "close to the metal" -- if you compile for example…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nicolas Martyanoff: Counting lines with Common Lisp]]></title>
-        <id>https://www.n16f.net/blog/counting-lines-with-common-lisp/</id>
-        <link href="https://www.n16f.net/blog/counting-lines-with-common-lisp/"/>
-        <updated>2023-03-17T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A good line counting program has two features: it only counts non-empty lines
-to get a fair estimate of the size of a project, and it groups line counts by
-file type to help see immediately which languages are used.
-A long time ago I got frustrated with two well known line counters.
-Sloccount spits out multiple strange Perl
-warnings about locales, and most of the output is a copyright notice and some
-absurd cost estimations. Cloc has fourteen
-Perl packages as dependencies. Writing a simple line counter is an interesting
-exercise; at the time I was discovering Common Lisp, so I wrote my own
-version.
-I made a few changes years after years, but most of the code stayed the same.
-I thought it would be interesting to revisit this program and present it part
-by part as a demonstration of how you …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS API in Org Mode with Clojure]]></title>
         <id>urn:uuid:5960d9ab-f082-4b72-b3a0-7753d56d2008</id>
         <link href="https://www.lambdasierra.com/2023/aws-org/"/>
@@ -1239,26 +1276,6 @@ Happy searches!
 
 
 Tags: emacs programming]]></summary>
-        <author>
-            <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[parisian lives]]></title>
-        <id>https://jao.io/blog/parisian-lives.html</id>
-        <link href="https://jao.io/blog/parisian-lives.html"/>
-        <updated>2022-07-31T03:42:00.000Z</updated>
-        <summary type="html"><![CDATA[A very interesting view of how a biographer started her career in the
-seventies, with two heavy-weights, Beckett and de Beauvoir.  Bair calls the
-book a bio-memoir, and it's indeed quite deserving of a name of its own for
-its genre.  One learns of the struggle it was not only to be a biographer of
-famous writers still living (and her fascinating relationship with them) but
-also to be a successful woman in the seventies.  And there are lots of
-interesting details about her writing process, and its all too human side.
-Very well written all around, it really whets your appetite: i've already
-ordered her Beckett bio!
-
-Tags: books]]></summary>
         <author>
             <name>programming (and other) musings</name>
         </author>

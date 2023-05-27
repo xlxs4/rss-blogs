@@ -177,16 +177,6 @@
           "wordCount": 79,
           "title": "inline snippets and grouping in consult-recoll",
           "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/parisian-lives.html",
-          "author": null,
-          "description": "A very interesting view of how a biographer started her career in the\nseventies, with two heavy-weights, Beckett and de Beauvoir.  Bair calls the\nbook a bio-memoir, and it's indeed quite deserving of a name of its own for\nits genre.  One learns of the struggle it was not only to be a biographer of\nfamous writers still living (and her fascinating relationship with them) but\nalso to be a successful woman in the seventies.  And there are lots of\ninteresting details about her writing process, and its all too human side.\nVery well written all around, it really whets your appetite: i've already\nordered her Beckett bio!\n\nTags: books",
-          "link": "https://jao.io/blog/parisian-lives.html",
-          "publishedOn": "2022-07-31T03:42:00.000Z",
-          "wordCount": 146,
-          "title": "parisian lives",
-          "imageUrl": null
         }
       ]
     },
@@ -303,12 +293,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/",
+          "author": null,
+          "description": "Do you think Tcl/Tk GUIs are doomed to look outdated?\n\nFear not!\n\n\n\n\n\n\n\n\nA treeview widget:\n\n\nThe official example of Forest Light:\n\nThe ttkthemes gallery\nPlus, Tk itself has a little choice of built-in themes:\n\nWe can use these themes with nodgui, the Ltk fork.\nIn June of 2020, @cage added a little function to load a .tcl file:\n(defun eval-tcl-file (file-path)\n  \"This function will feed the TCL interpreter with the contents\n   of the file `path'.\n   Please, as this function will load  and execute a script, ensure to\n   load files only from trusted sources otherwise severe security problem\n   may arise.\"\n  (assert (stringp file-path))\n  (format-wish \"source {~a}\" file-path))\n\nAs a consequence, we can load a .tcl script that defines a theme, and use it. Themes generally consist of a .tcl script and a directory of png or gif images (when images are not defined in-line).\nConsidering we cloned the ttkthemes repo locally:\n  (with-nodgui ()\n    (eval-tcl-file \"ttkthemes/ttkthemes/png/yaru/yaru.tcl\")\n    (use-theme \"yaru\")\n\nand that’s all there is to it.\nFor now, some themes are not supported. Scalable themes are not\nsupported, the .gif based themes of ttkthemes won’t load (the “scid”\nand “smog” themes in ttkthemes, the Sun Valley\ntheme didn’t\nwork). This could change when tksvg lands in Debian (or maybe, if\nyou install it yourself? I didn’t try), or with the next release of\nTcl/Tk that will include SVG support (read\n#13).\nFrankly, that was a great news of the day. Yes, I think some themes\nare pleasant to the eyes! This makes me want to use little Tk UIs here\nand there.\nHere’s the code for the little media player of the screenshots. It is based on Peter Lane’s extensive examples.\nKuddos to @cage o/",
+          "link": "https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/",
+          "publishedOn": "2023-05-26T22:22:04.000Z",
+          "wordCount": 732,
+          "title": "vindarel: Pretty GUI in Common Lisp with nodgui's Tk themes",
+          "imageUrl": "/images/default.png"
+        },
+        {
           "id": "https://lisp-journey.gitlab.io/blog/i18n-in-my-lisp-web-app-with-djula-templates-and-gettext/",
           "author": null,
           "description": "I finally added translations to my Lisp web app \\o/\n\nI wanted to do it with gettext and Djula templates. There seemed to\nbe some support for this, but it turned out... not\nstraightforward. After two failed attempts, I decided to offer a\nlittle 90 USD bounty for the task (I announced it on the project’s\nissues and on Discord, watch them out for future bounties ;) ).\n@fstamour took the challenge and is\nthe person I’ll be eternally grateful for :D He kindly set up\neverything, answered my questions and traced down annoying bugs. BTW,\nI recommend you have a look at his ongoing\nbreeze project (towards refactoring tools for CL) and\nlocal-gitlab.\nMany thanks go as usual to @mmontone for incorporating changes to Djula after our feedback. Here’s Djula documentation:\nhttps://mmontone.github.io/djula/…",
           "link": "https://lisp-journey.gitlab.io/blog/i18n-in-my-lisp-web-app-with-djula-templates-and-gettext/",
           "publishedOn": "2023-05-08T12:01:34.000Z",
-          "wordCount": 2315,
+          "wordCount": 2311,
           "title": "vindarel: i18n in my Lisp web app with Djula templates and gettext",
           "imageUrl": "/images/default.png"
         },
@@ -348,7 +348,7 @@
           "description": "In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.\nBut since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.\nYou might give adopt a look, or maybe defmain though I felt a little something was missing.\nSo I updated the guide to use Clingon. Let’s go.\n=> This article is best read on the Common Lisp Cookbook where it will receive updates.\nAs a reminder to this often-asked question, my SBCL standalon…",
           "link": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
           "publishedOn": "2023-04-19T09:44:56.000Z",
-          "wordCount": 2006,
+          "wordCount": 2002,
           "title": "vindarel: How to parse command line arguments in Common Lisp (bis)",
           "imageUrl": "/images/default.png"
         },
@@ -390,16 +390,6 @@
           "publishedOn": "2023-03-25T10:57:19.000Z",
           "wordCount": 523,
           "title": "Tim Bradshaw: The absurdity of stacks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.n16f.net/blog/counting-lines-with-common-lisp/",
-          "author": null,
-          "description": "A good line counting program has two features: it only counts non-empty lines\nto get a fair estimate of the size of a project, and it groups line counts by\nfile type to help see immediately which languages are used.\nA long time ago I got frustrated with two well known line counters.\nSloccount spits out multiple strange Perl\nwarnings about locales, and most of the output is a copyright notice and some\nabsurd cost estimations. Cloc has fourteen\nPerl packages as dependencies. Writing a simple line counter is an interesting\nexercise; at the time I was discovering Common Lisp, so I wrote my own\nversion.\nI made a few changes years after years, but most of the code stayed the same.\nI thought it would be interesting to revisit this program and present it part\nby part as a demonstration of how you …",
-          "link": "https://www.n16f.net/blog/counting-lines-with-common-lisp/",
-          "publishedOn": "2023-03-17T18:00:00.000Z",
-          "wordCount": 1712,
-          "title": "Nicolas Martyanoff: Counting lines with Common Lisp",
           "imageUrl": null
         }
       ]
@@ -706,49 +696,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-05-26T00:28:55.590Z",
+          "publishedOn": "2023-05-27T00:30:16.983Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-26T00:28:54.537Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-26T00:28:54.515Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-26T00:28:54.510Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-26T00:28:54.501Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -756,7 +706,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-26T00:28:54.492Z",
+          "publishedOn": "2023-05-27T00:30:14.206Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -766,9 +716,49 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-26T00:28:54.487Z",
+          "publishedOn": "2023-05-27T00:30:14.202Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-05-27T00:30:14.124Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-05-27T00:30:14.115Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-05-27T00:30:14.097Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-05-27T00:30:14.080Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
