@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-05-30T00:30:50.721Z</id>
+    <id>urn:2023-05-31T00:31:52.035Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-05-30T00:30:50.721Z</updated>
+    <updated>2023-05-31T00:31:52.035Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-05-30T00:30:50.500Z</updated>
+        <updated>2023-05-31T00:31:51.888Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-05-31T00:31:50.633Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,7 +29,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-05-30T00:30:48.879Z</updated>
+        <updated>2023-05-31T00:31:50.570Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,7 +39,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-05-30T00:30:48.819Z</updated>
+        <updated>2023-05-31T00:31:50.566Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,28 +49,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-05-30T00:30:48.659Z</updated>
+        <updated>2023-05-31T00:31:50.564Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-05-30T00:30:48.653Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-05-30T00:30:48.619Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,10 +59,44 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-05-30T00:30:48.364Z</updated>
+        <updated>2023-05-31T00:31:50.552Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-05-31T00:31:50.534Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Raymarching in Lisp]]></title>
+        <id>http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html</id>
+        <link href="http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html"/>
+        <updated>2023-05-30T12:26:00.000Z</updated>
+        <summary type="html"><![CDATA[It turns out there’s a nice functional variation of
+  raytracing called raymarching.  The algorithms involved are simple
+  and elegant.  The learning curve is shallow and you can generate
+  great looking images without hairy trig or linear algebra.
+ 
+
+We’ll follow the example of Georges Seurat and simply compute
+  the color independently for each of myriads of pixels.  This is efficiently done
+  in parallel in real time on a GPU, but then you have to use shader
+  language and I want to use Lisp.  It is insanely inefficient to do
+  this serially on the CPU in Lisp, but still fast enough to render an
+  image in a couple of seconds.
+Imagine you have some scene you want to render.  There is a volume
+  of 3-dimensional space the scene occupies.  Now imagine we know for
+  every point in 3-dimens…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -748,17 +772,6 @@ List flattening
 All these functions use collecting to build their results forwards. They live in flatten-variants.lisp.
 flatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.
 flatten/explicit-stack uses an explicit stack (called agenda in the code) repr…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: The absurdity of stacks]]></title>
-        <id>https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2023/03/25/the-absurdity-of-stacks/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2023-03-25T10:57:19.000Z</updated>
-        <summary type="html"><![CDATA[Very often people regard the stack as a scarce, expensive resource, while the heap is plentiful and very cheap. This is absurd: the stack is memory, the heap is also memory. Deforming programs so they are ‘iterative’ in order that they do not run out of the stack we imagine to be so costly is ridiculous: if you have a program which is inherently recursive, let it be recursive.
-In a previous article my friend Zyni wrote some variations on a list-flattening function1, some of which were ‘recursive’ and some of which ‘iterative’. Of course, the ones which claim to be iterative are, in fact, recursive: any procedure which traverses a recursively-defined data structure such as a tree of conses is necessarily recursive. The ‘iterative’ versions just use an explicitly-maintained stack rather than…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
