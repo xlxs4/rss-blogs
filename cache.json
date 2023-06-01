@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -61,12 +61,22 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "https://mikeinnes.io/2023/05/30/data.html",
+          "author": null,
+          "description": "Most programming languages conflate the building of data structures and the modelling of information.",
+          "link": "https://mikeinnes.io/2023/05/30/data.html",
+          "publishedOn": "2023-05-30T00:00:00.000Z",
+          "wordCount": 570,
+          "title": "Data Structures, Data Modelling",
+          "imageUrl": null
+        },
+        {
           "id": "https://mikeinnes.io/2023/02/18/bing.html",
           "author": null,
           "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (which Jeff Bezos called “artificial artificial intelligence”) also pays its human labourers a few cents per question-response task.",
           "link": "https://mikeinnes.io/2023/02/18/bing.html",
           "publishedOn": "2023-02-18T00:00:00.000Z",
-          "wordCount": 1301,
+          "wordCount": 1305,
           "title": "Deus Ex Bing",
           "imageUrl": null
         }
@@ -166,16 +176,6 @@
           "publishedOn": "2022-10-30T00:30:00.000Z",
           "wordCount": 193,
           "title": "visual differential geometry and forms",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html",
-          "author": null,
-          "description": "I've just released a new version of consult-recoll, which implements a couple\nof features that i am really liking, namely, grouping of search results by\nmime type:\n\n\n\n\n\n\n\n\n\nand inline snippets:\n\n\n\n\n\n\n\n\n\nHappy searches!\n\n\n\nTags: emacs programming",
-          "link": "https://jao.io/blog/inline-snippets-and-grouping-in-consult-recoll.html",
-          "publishedOn": "2022-08-04T17:29:00.000Z",
-          "wordCount": 79,
-          "title": "inline snippets and grouping in consult-recoll",
           "imageUrl": null
         }
       ]
@@ -706,7 +706,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-05-31T00:31:51.888Z",
+          "publishedOn": "2023-06-01T00:40:48.949Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -716,7 +716,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-05-31T00:31:50.633Z",
+          "publishedOn": "2023-06-01T00:40:47.887Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -726,19 +726,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-05-31T00:31:50.570Z",
+          "publishedOn": "2023-06-01T00:40:47.842Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-05-31T00:31:50.566Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -746,7 +736,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-05-31T00:31:50.564Z",
+          "publishedOn": "2023-06-01T00:40:47.838Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -756,9 +746,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-05-31T00:31:50.552Z",
+          "publishedOn": "2023-06-01T00:40:47.831Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-01T00:40:47.589Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -766,7 +766,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-05-31T00:31:50.534Z",
+          "publishedOn": "2023-06-01T00:40:47.586Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -778,6 +778,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/scientific-software-institutes",
+          "author": "Matthijs Cox",
+          "description": "Have you ever gone through life completely oblivious to something? I recently experienced that sensation when I stumbled upon an entire ecosystem of institutions, only learning about them after starting this blog. These organizations are dedicated to promoting better scientific software, which aligns with the mission of my blog. I wanted to know what's going on, so let's have a look at what's out there.\nI noticed the names of the fields of \"scientific software\" vary a little, but I consider all of these roughly equivalent:\nScientific Software\nResearch Software Engineering (RSE)\nScientific Computing\nNumerical Computing\nYes, there are differences between them, but all of them involve turning scientific knowledge into algorithms and software, and writing software to do scientific research or …",
+          "link": "https://scientificcoder.com/scientific-software-institutes",
+          "publishedOn": "2023-05-31T12:34:28.000Z",
+          "wordCount": 7001,
+          "title": "Scientific Software Institutes",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682844193827%2F1b0a1c9d-fb03-4a75-9ca0-d3cbcb52d52b.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments",
           "author": "Matthijs Cox",
