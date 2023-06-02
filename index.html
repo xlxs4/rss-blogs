@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-01 datetime="2023-06-01T00:40:48.949Z">2023-06-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-01 datetime="2023-06-01T00:40:48.949Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-02 datetime="2023-06-02T00:32:14.081Z">2023-06-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-02 datetime="2023-06-02T00:32:14.081Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -165,6 +165,83 @@
                             <span class="media-object__text">
                               <span>Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-01 datetime="2023-06-01T17:03:35.000Z">2023-06-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-01 datetime="2023-06-01T17:03:35.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Lisp</button>
+                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/"
+                        open
+                      >
+                        <summary class="article-expander__title">vindarel: Pretty GUIs now: nodgui comes with a pre-installed nice looking theme</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="/images/default.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Being able to load a custom theme is great, but it would be even
+better if we didn’t have to manually install one.
+Well, recent changes in nodgui from
+yesterday and today just dramatically improved the GUI situation for
+Common Lisp[0].
+nodgui now ships the yaru theme
+@cage commited the Yaru theme from ttkthemes in nodgui’s repository, and we added QoL improvements. To use it, now you can simply do:
+(with-nodgui ()
+  (use-theme &quot;yaru&quot;)
+  ...)
+
+or
+(with-nodgui (:theme &quot;yaru&quot;)
+  ...)
+
+or
+(setf nodgui:*default-theme* &quot;yaru&quot;)
+(with-nodgui ()
+  ...)
+
+Yaru looks like this:
+
+
+
+No, it isn’t native, but it doesn’t look like the 50s either.
+See my previous post for more themes and screenshots. Forest Light is nice too!
+Try the demos
+Try the demos with this theme:
+(setf nodgui:*default-theme* &quot;yaru&quot;)
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2247,59 +2324,6 @@ A rather short update this month, but if you&#x27;re interested in the details o
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-26 datetime="2023-03-26T09:25:50.000Z">2023-03-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-26 datetime="2023-03-26T09:25:50.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Lisp</button>
-                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS"
-                        open
-                      >
-                        <summary class="article-expander__title">Tim Bradshaw: Measuring some tree-traversing functions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source&#x3D;lisp&amp;utm_medium&#x3D;RSS">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.
-What we measured
-The code we used is here1. We measured four variations of each of two functions.
-List flattening
-All these functions use collecting to build their results forwards. They live in flatten-variants.lisp.
-flatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.
-flatten/explicit-stack uses an explicit stack (called agenda in the code) repr…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-20 datetime="2023-03-20T09:06:42.000Z">2023-03-20</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-20 datetime="2023-03-20T09:06:42.000Z"></time>
           </button>
@@ -3995,8 +4019,8 @@ Read more</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/5139041996">
-        <time id="build-timestamp" datetime="2023-06-01T00:40:48.961Z">2023-06-01T00:40:48.961Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/5150569605">
+        <time id="build-timestamp" datetime="2023-06-02T00:32:15.844Z">2023-06-02T00:32:15.844Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

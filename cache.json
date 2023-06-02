@@ -293,6 +293,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/",
+          "author": null,
+          "description": "Being able to load a custom theme is great, but it would be even\nbetter if we didn’t have to manually install one.\nWell, recent changes in nodgui from\nyesterday and today just dramatically improved the GUI situation for\nCommon Lisp[0].\nnodgui now ships the yaru theme\n@cage commited the Yaru theme from ttkthemes in nodgui’s repository, and we added QoL improvements. To use it, now you can simply do:\n(with-nodgui ()\n  (use-theme \"yaru\")\n  ...)\n\nor\n(with-nodgui (:theme \"yaru\")\n  ...)\n\nor\n(setf nodgui:*default-theme* \"yaru\")\n(with-nodgui ()\n  ...)\n\nYaru looks like this:\n\n\n\nNo, it isn’t native, but it doesn’t look like the 50s either.\nSee my previous post for more themes and screenshots. Forest Light is nice too!\nTry the demos\nTry the demos with this theme:\n(setf nodgui:*default-theme* \"yaru\")\n…",
+          "link": "https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/",
+          "publishedOn": "2023-06-01T17:03:35.000Z",
+          "wordCount": 780,
+          "title": "vindarel: Pretty GUIs now: nodgui comes with a pre-installed nice looking theme",
+          "imageUrl": "/images/default.png"
+        },
+        {
           "id": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
           "author": null,
           "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
@@ -308,7 +318,7 @@
           "description": "Do you think Tcl/Tk GUIs are doomed to look outdated?\n\nFear not!\n\n\n\n\n\n\n\n\nA treeview widget:\n\n\nThe official example of Forest Light:\n\nThe ttkthemes gallery\nPlus, Tk itself has a little choice of built-in themes:\n\nWe can use these themes with nodgui, the Ltk fork.\nIn June of 2020, @cage added a little function to load a .tcl file:\n(defun eval-tcl-file (file-path)\n  \"This function will feed the TCL interpreter with the contents\n   of the file `path'.\n   Please, as this function will load  and execute a script, ensure to\n   load files only from trusted sources otherwise severe security problem\n   may arise.\"\n  (assert (stringp file-path))\n  (format-wish \"source {~a}\" file-path))\n\nAs a consequence, we can load a .tcl script that defines a theme, and use it. Themes generally consist of a .tcl script and a directory of png or gif images (when images are not defined in-line).\nConsidering we cloned the ttkthemes repo locally:\n  (with-nodgui ()\n    (eval-tcl-file \"ttkthemes/ttkthemes/png/yaru/yaru.tcl\")\n    (use-theme \"yaru\")\n\nand that’s all there is to it.\nFor now, some themes are not supported. Scalable themes are not\nsupported, the .gif based themes of ttkthemes won’t load (the “scid”\nand “smog” themes in ttkthemes, the Sun Valley\ntheme didn’t\nwork). This could change when tksvg lands in Debian (or maybe, if\nyou install it yourself? I didn’t try), or with the next release of\nTcl/Tk that will include SVG support (read\n#13).\nFrankly, that was a great news of the day. Yes, I think some themes\nare pleasant to the eyes! This makes me want to use little Tk UIs here\nand there.\nHere’s the code for the little media player of the screenshots. It is based on Peter Lane’s extensive examples.\nKuddos to @cage o/",
           "link": "https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/",
           "publishedOn": "2023-05-26T22:22:04.000Z",
-          "wordCount": 732,
+          "wordCount": 727,
           "title": "vindarel: Pretty GUI in Common Lisp with nodgui's Tk themes",
           "imageUrl": "/images/default.png"
         },
@@ -318,7 +328,7 @@
           "description": "I finally added translations to my Lisp web app \\o/\n\nI wanted to do it with gettext and Djula templates. There seemed to\nbe some support for this, but it turned out... not\nstraightforward. After two failed attempts, I decided to offer a\nlittle 90 USD bounty for the task (I announced it on the project’s\nissues and on Discord, watch them out for future bounties ;) ).\n@fstamour took the challenge and is\nthe person I’ll be eternally grateful for :D He kindly set up\neverything, answered my questions and traced down annoying bugs. BTW,\nI recommend you have a look at his ongoing\nbreeze project (towards refactoring tools for CL) and\nlocal-gitlab.\nMany thanks go as usual to @mmontone for incorporating changes to Djula after our feedback. Here’s Djula documentation:\nhttps://mmontone.github.io/djula/…",
           "link": "https://lisp-journey.gitlab.io/blog/i18n-in-my-lisp-web-app-with-djula-templates-and-gettext/",
           "publishedOn": "2023-05-08T12:01:34.000Z",
-          "wordCount": 2311,
+          "wordCount": 2306,
           "title": "vindarel: i18n in my Lisp web app with Djula templates and gettext",
           "imageUrl": "/images/default.png"
         },
@@ -358,7 +368,7 @@
           "description": "In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.\nBut since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.\nYou might give adopt a look, or maybe defmain though I felt a little something was missing.\nSo I updated the guide to use Clingon. Let’s go.\n=> This article is best read on the Common Lisp Cookbook where it will receive updates.\nAs a reminder to this often-asked question, my SBCL standalon…",
           "link": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
           "publishedOn": "2023-04-19T09:44:56.000Z",
-          "wordCount": 2002,
+          "wordCount": 1997,
           "title": "vindarel: How to parse command line arguments in Common Lisp (bis)",
           "imageUrl": "/images/default.png"
         },
@@ -381,16 +391,6 @@
           "wordCount": 347,
           "title": "Nicolas Hafner: &#27425;&#12399;...&#20309;&#65311; - April Kandria Update",
           "imageUrl": "https://filebox.tymoon.eu//file/TWpZM09BPT0="
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "In a previous article my friend Zyni wrote some variations on a list-flattening function, some of which were ‘recursive’ and some of which ‘iterative’, managing the stack explicitly. We thought it would be interesting to see what the performance differences were, both for this function and a more useful variant which searches a tree rather than flattening it.\nWhat we measured\nThe code we used is here1. We measured four variations of each of two functions.\nList flattening\nAll these functions use collecting to build their results forwards. They live in flatten-variants.lisp.\nflatten/implicit-stack works in the obvious recursive way, with an implicit stack. This uses iterate to express the local recursive function.\nflatten/explicit-stack uses an explicit stack (called agenda in the code) repr…",
-          "link": "https://www.tfeb.org/fragments/2023/03/26/measuring-some-tree-traversing-functions/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-03-26T09:25:50.000Z",
-          "wordCount": 1537,
-          "title": "Tim Bradshaw: Measuring some tree-traversing functions",
-          "imageUrl": null
         }
       ]
     },
@@ -706,7 +706,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-01T00:40:48.949Z",
+          "publishedOn": "2023-06-02T00:32:14.081Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -716,7 +716,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-01T00:40:47.887Z",
+          "publishedOn": "2023-06-02T00:32:12.809Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -726,7 +726,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-01T00:40:47.842Z",
+          "publishedOn": "2023-06-02T00:32:12.603Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -736,7 +736,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-01T00:40:47.838Z",
+          "publishedOn": "2023-06-02T00:32:12.567Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -746,7 +746,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-01T00:40:47.831Z",
+          "publishedOn": "2023-06-02T00:32:12.439Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -756,7 +756,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-01T00:40:47.589Z",
+          "publishedOn": "2023-06-02T00:32:12.423Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -766,7 +766,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-01T00:40:47.586Z",
+          "publishedOn": "2023-06-02T00:32:12.410Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
