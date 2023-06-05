@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -298,7 +298,7 @@
           "description": "Introduction\nIf you have already used functional languages, you are probably familiar with\nfold, a high order function used to iterate on a collection of values to\ncombine them and return a result. You may be surprised that Common Lisp does\nnot have a fold function, but provides REDUCE which works a bit differently.\nLet us see how they differ.\nUnderstanding REDUCE\nIn its simplest form, REDUCE accepts a function and a sequence (meaning\neither a list or a vector). It then applies the function to successive pairs\nof sequence elements.\nYou can easily check what happens by tracing the function:\nCL-USER> (trace +)\nCL-USER> (reduce #'+ '(1 2 3 4 5))\n  0: (+ 1 2)\n  0: + returned 3\n  0: (+ 3 3)\n  0: + returned 6\n  0: (+ 6 4)\n  0: + returned 10\n  0: (+ 10 5)\n  0: + returned 15\n15\n\nIn this example, t…",
           "link": "https://www.n16f.net/blog/reduce-vs-fold-in-common-lisp/",
           "publishedOn": "2023-06-02T18:00:00.000Z",
-          "wordCount": 916,
+          "wordCount": 915,
           "title": "Nicolas Martyanoff: Reduce vs fold in Common Lisp",
           "imageUrl": null
         },
@@ -716,9 +716,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-04T00:37:19.849Z",
+          "publishedOn": "2023-06-05T00:32:54.428Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-06-05T00:32:53.156Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -726,7 +736,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-04T00:37:18.243Z",
+          "publishedOn": "2023-06-05T00:32:53.070Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -736,19 +746,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-04T00:37:18.166Z",
+          "publishedOn": "2023-06-05T00:32:53.049Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-04T00:37:18.059Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -756,7 +756,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-04T00:37:18.049Z",
+          "publishedOn": "2023-06-05T00:32:53.037Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -766,7 +766,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-04T00:37:17.945Z",
+          "publishedOn": "2023-06-05T00:32:53.034Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-04T00:37:17.762Z",
+          "publishedOn": "2023-06-05T00:32:53.031Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
