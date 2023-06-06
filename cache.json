@@ -112,16 +112,6 @@
           "wordCount": 2763,
           "title": "Julia 1.8 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
-        },
-        {
-          "id": "https://julialang.org/blog/2022/08/juliacon-highlights-2022/",
-          "author": null,
-          "description": "JuliaCon 2022 Highlights\nRead more",
-          "link": "https://julialang.org/blog/2022/08/juliacon-highlights-2022/",
-          "publishedOn": "2022-08-10T00:00:00.000Z",
-          "wordCount": 1104,
-          "title": "JuliaCon 2022 Highlights",
-          "imageUrl": "https://user-images.githubusercontent.com/35577566/183544010-09691b83-9fc6-4b49-b835-d9a8e691e112.png"
         }
       ]
     },
@@ -318,8 +308,18 @@
           "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
           "link": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
           "publishedOn": "2023-05-30T12:26:00.000Z",
-          "wordCount": 4280,
+          "wordCount": 4282,
           "title": "Joe Marshall: Raymarching in Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.cddr.org/posts/2023-05-27-bordeaux-threads-apiv2/",
+          "author": null,
+          "description": "From APIv1 to v2 Sometime last year I took a look at the bug reports and feature requests that had accumulated on Bordeaux-Threads and I decided it was time to bring the code back into shape. The code had insufficient test coverage, which had allowed bugs to make their way into releases, with some egregious examples like with-lock-held having incongruent signatures on some implementations.\nThat wasn’t the only case though: join-thread was inconsistently implemented, in some cases not returning the thread function’s return values at all, or returning only the first value.",
+          "link": "https://blog.cddr.org/posts/2023-05-27-bordeaux-threads-apiv2/",
+          "publishedOn": "2023-05-27T17:19:24.000Z",
+          "wordCount": 608,
+          "title": "Stelian Ionescu: Bordeaux Threads APIv2",
           "imageUrl": null
         },
         {
@@ -381,16 +381,6 @@
           "wordCount": 1997,
           "title": "vindarel: How to parse command line arguments in Common Lisp (bis)",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "There is what I think is a confusion as to bound declarations in the Common Lisp standard. I may be wrong about this, but I think I’m correct.\nBound and free declarations\nDeclarations in Common Lisp can be either bound or free:\na bound declaration appears at the head of a binding form and applies to a variable or function binding made by that form;\na free declaration is any declaration which is not bound.\n\n\nThere are declarations which do not apply to bindings, such as optimize: these are always free.\nExamples of bound and free declarations\nIn the form\n(let ((x 1))\n  (declare (type integer x))\n  ...)\nthe declaration is bound and applies to the binding of x. In the form\n(let ((/x/ 1))\n  (declare (special /x/)\n           (optimize (speed 3)))\n  ...)\nthe special declaration is bound and appli…",
-          "link": "https://www.tfeb.org/fragments/2023/04/18/something-unclear-in-the-common-lisp-standard/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-04-18T09:53:46.000Z",
-          "wordCount": 846,
-          "title": "Tim Bradshaw: Something unclear in the Common Lisp standard",
-          "imageUrl": null
         }
       ]
     },
@@ -716,19 +706,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-05T00:32:54.428Z",
+          "publishedOn": "2023-06-06T00:33:03.670Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-05T00:32:53.156Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -736,7 +716,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-05T00:32:53.070Z",
+          "publishedOn": "2023-06-06T00:33:02.806Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -746,7 +726,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-05T00:32:53.049Z",
+          "publishedOn": "2023-06-06T00:33:02.603Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -756,9 +736,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-05T00:32:53.037Z",
+          "publishedOn": "2023-06-06T00:33:02.592Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-06-06T00:33:02.522Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -766,7 +756,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-05T00:32:53.034Z",
+          "publishedOn": "2023-06-06T00:33:02.463Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -776,7 +766,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-05T00:32:53.031Z",
+          "publishedOn": "2023-06-06T00:33:02.440Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
