@@ -66,7 +66,7 @@
           "description": "Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]",
           "link": "https://mikeinnes.io/2023/06/06/mojo.html",
           "publishedOn": "2023-06-06T00:00:00.000Z",
-          "wordCount": 2179,
+          "wordCount": 2172,
           "title": "Finding Your Mojo",
           "imageUrl": null
         },
@@ -109,7 +109,7 @@
           "description": "Highlights of the Julia 1.9 release.\nRead more",
           "link": "https://julialang.org/blog/2023/04/julia-1.9-highlights/",
           "publishedOn": "2023-05-19T00:00:00.000Z",
-          "wordCount": 3447,
+          "wordCount": 3574,
           "title": "Julia 1.9 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -318,7 +318,7 @@
           "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
           "link": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
           "publishedOn": "2023-05-30T12:26:00.000Z",
-          "wordCount": 4280,
+          "wordCount": 4282,
           "title": "Joe Marshall: Raymarching in Lisp",
           "imageUrl": null
         },
@@ -716,39 +716,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-07T00:34:00.401Z",
+          "publishedOn": "2023-06-08T00:33:18.106Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-07T00:33:59.458Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-07T00:33:59.350Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-07T00:33:59.344Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -756,9 +726,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-07T00:33:59.329Z",
+          "publishedOn": "2023-06-08T00:33:16.068Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-08T00:33:16.047Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -766,9 +746,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-07T00:33:59.247Z",
+          "publishedOn": "2023-06-08T00:33:16.043Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-06-08T00:33:16.027Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-06-08T00:33:16.006Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-07T00:33:59.234Z",
+          "publishedOn": "2023-06-08T00:33:15.988Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
