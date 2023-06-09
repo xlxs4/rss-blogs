@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -66,7 +66,7 @@
           "description": "Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]",
           "link": "https://mikeinnes.io/2023/06/06/mojo.html",
           "publishedOn": "2023-06-06T00:00:00.000Z",
-          "wordCount": 2172,
+          "wordCount": 2169,
           "title": "Finding Your Mojo",
           "imageUrl": null
         },
@@ -76,7 +76,7 @@
           "description": "Most programming languages conflate the building of data structures and the modelling of information.",
           "link": "https://mikeinnes.io/2023/05/30/data.html",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 573,
+          "wordCount": 568,
           "title": "Data Structures, Data Modelling",
           "imageUrl": null
         },
@@ -86,7 +86,7 @@
           "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (which Jeff Bezos called “artificial artificial intelligence”) also pays its human labourers a few cents per question-response task.",
           "link": "https://mikeinnes.io/2023/02/18/bing.html",
           "publishedOn": "2023-02-18T00:00:00.000Z",
-          "wordCount": 1305,
+          "wordCount": 1300,
           "title": "Deus Ex Bing",
           "imageUrl": null
         }
@@ -293,6 +293,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html",
+          "author": null,
+          "description": "Here’s a weird little success story involving Lisp.  The code\n  doesn’t rely on anything specific to Lisp.  It could be rewritten in\n  any language.  Yet it wouldn’t have been written in the first place\n  if it weren’t for Lisp.\n \n\nI like to keep a Lisp REPL open in my Emacs for tinkering around\n  with programming ideas.  It only takes a moment to hook up a REST\n  API or scrape some subprocess output, so I have a library of\n  primitives that can talk to our internal build tools and other\n  auxiliary tools such as GitHub or CircleCI. This comes in handy for\n  random ad hoc scripting.\nI found out that CircleCI is written in Clojure, and if you connect\n  to your local CircleCI server, you can start a REPL and run\n  queries on the internal CircleCI database.  Naturally, I\n  hooked up my local …",
+          "link": "http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html",
+          "publishedOn": "2023-06-08T19:42:00.000Z",
+          "wordCount": 3909,
+          "title": "Joe Marshall: Lisp Essential, But Not Required",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.n16f.net/blog/reduce-vs-fold-in-common-lisp/",
           "author": null,
           "description": "Introduction\nIf you have already used functional languages, you are probably familiar with\nfold, a high order function used to iterate on a collection of values to\ncombine them and return a result. You may be surprised that Common Lisp does\nnot have a fold function, but provides REDUCE which works a bit differently.\nLet us see how they differ.\nUnderstanding REDUCE\nIn its simplest form, REDUCE accepts a function and a sequence (meaning\neither a list or a vector). It then applies the function to successive pairs\nof sequence elements.\nYou can easily check what happens by tracing the function:\nCL-USER> (trace +)\nCL-USER> (reduce #'+ '(1 2 3 4 5))\n  0: (+ 1 2)\n  0: + returned 3\n  0: (+ 3 3)\n  0: + returned 6\n  0: (+ 6 4)\n  0: + returned 10\n  0: (+ 10 5)\n  0: + returned 15\n15\n\nIn this example, t…",
@@ -318,7 +328,7 @@
           "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
           "link": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
           "publishedOn": "2023-05-30T12:26:00.000Z",
-          "wordCount": 4282,
+          "wordCount": 4289,
           "title": "Joe Marshall: Raymarching in Lisp",
           "imageUrl": null
         },
@@ -381,16 +391,6 @@
           "wordCount": 1376,
           "title": "Tim Bradshaw: Nirvana",
           "imageUrl": null
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
-          "author": null,
-          "description": "In 2018, I wrote a blog post and the Cookbook page on how to build Common Lisp binaries, and how to parse command-line arguments with the unix-opts library.\nBut since then, new libraries were created an they are pretty good! They are simpler to use, and have much more features. I had a good experience with Clingon: its usage is clear, its documentation is very good, it is very flexible (it has hooks and generic functions waiting to have an :around method) and @dnaeon is not at his first great CL project.\nYou might give adopt a look, or maybe defmain though I felt a little something was missing.\nSo I updated the guide to use Clingon. Let’s go.\n=> This article is best read on the Common Lisp Cookbook where it will receive updates.\nAs a reminder to this often-asked question, my SBCL standalon…",
-          "link": "https://lisp-journey.gitlab.io/blog/how-to-parse-command-line-arguments-in-common-lisp/",
-          "publishedOn": "2023-04-19T09:44:56.000Z",
-          "wordCount": 1997,
-          "title": "vindarel: How to parse command line arguments in Common Lisp (bis)",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -716,39 +716,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-08T00:33:18.106Z",
+          "publishedOn": "2023-06-09T00:35:09.176Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-08T00:33:16.068Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-08T00:33:16.047Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-08T00:33:16.043Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -756,7 +726,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-08T00:33:16.027Z",
+          "publishedOn": "2023-06-09T00:35:08.260Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -766,9 +736,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-08T00:33:16.006Z",
+          "publishedOn": "2023-06-09T00:35:08.255Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-06-09T00:35:08.147Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,9 +756,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-08T00:33:15.988Z",
+          "publishedOn": "2023-06-09T00:35:08.117Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-09T00:35:07.963Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-06-09T00:35:07.950Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
