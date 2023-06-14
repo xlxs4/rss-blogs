@@ -112,16 +112,6 @@
           "wordCount": 3574,
           "title": "Julia 1.9 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
-        },
-        {
-          "id": "https://julialang.org/blog/2022/08/julia-1.8-highlights/",
-          "author": null,
-          "description": "Highlights of the Julia 1.8 release.\nRead more",
-          "link": "https://julialang.org/blog/2022/08/julia-1.8-highlights/",
-          "publishedOn": "2022-08-18T00:00:00.000Z",
-          "wordCount": 2763,
-          "title": "Julia 1.8 Highlights",
-          "imageUrl": "/assets/images/julia-open-graph.png"
         }
       ]
     },
@@ -618,12 +608,22 @@
       "siteUrl": "https://www.evalapply.org/",
       "articles": [
         {
+          "id": "https://www.evalapply.org/posts/software-demos/",
+          "author": null,
+          "description": "Making a software demo is a form of deliberate, serious play. An act that feeds our curiosity, inventiveness, and drive. It enlivens. It enriches. It entertains. And as we asymptotically approach the A.G.I. that's just around the corner, the capacity for deliberate, serious play will remain distinctively, deeply, deliciously human. Career software people like yours truly may please take note!",
+          "link": "https://www.evalapply.org/posts/software-demos/index.html",
+          "publishedOn": "2023-06-04T00:00:00.000Z",
+          "wordCount": 1574,
+          "title": "Software demos as deliberate acts of serious play",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.evalapply.org/posts/cold-restart-total-outage/",
           "author": null,
           "description": "\"What are folks’ views on systems so large where cold-starting the whole system is almost impossible?\"... — M'colleague In A Slackroom Next Door.",
           "link": "https://www.evalapply.org/posts/cold-restart-total-outage/index.html",
           "publishedOn": "2023-04-07T00:00:00.000Z",
-          "wordCount": 1155,
+          "wordCount": 1157,
           "title": "Cold restart whole system after total outage",
           "imageUrl": null
         },
@@ -633,7 +633,7 @@
           "description": "A while ago, someone in the Recurse Center nerdiverse decided we needed a \"Bad Print\". They made one. Things escalated. Bad Matrix happened.",
           "link": "https://www.evalapply.org/posts/bad-matrix/index.html",
           "publishedOn": "2023-02-14T00:00:00.000Z",
-          "wordCount": 770,
+          "wordCount": 772,
           "title": "Bad Matrix",
           "imageUrl": null
         },
@@ -643,7 +643,7 @@
           "description": "Trying out a classification for \"Tools for Thought\" as a means of augmenting the human intellect, hot on the heels of recent community conversations about ChatGPT, CoPilot, Stable Diffusion etc...",
           "link": "https://www.evalapply.org/posts/tools-for-thought/index.html",
           "publishedOn": "2023-01-19T00:00:00.000Z",
-          "wordCount": 1124,
+          "wordCount": 1126,
           "title": "Riff: Classifying Tools for Thought",
           "imageUrl": null
         },
@@ -653,7 +653,7 @@
           "description": "It is with no small thanks to MDN, StackOverflow, Firefox's support for countless open tabs, JavaScript's support for first-class functions, and first-class supportive colleagues, I learned it is possible for a web front end novice to program \"text art animations\". Whatever that is even. Because I thoroughly enjoyed doing just that for Hanukkah of Data 2022. Here's how it went down.",
           "link": "https://www.evalapply.org/posts/animate-text-art-javascript/index.html",
           "publishedOn": "2023-01-16T00:00:00.000Z",
-          "wordCount": 3578,
+          "wordCount": 3580,
           "title": "Animating Text Art in JavaScript",
           "imageUrl": null
         },
@@ -663,7 +663,7 @@
           "description": "Here I illustrate how Clojurists (including Yours Truly) like to solve problems and model things using hammocks, pure functions, and the \"it's just data\" ideology. Also, while the *problem* focuses on \"design in the small\" of application logic, many ideas in the *solution* can—and do—scale all the way to \"design in the large\" of whole systems.",
           "link": "https://www.evalapply.org/posts/clojure-mars-rover/index.html",
           "publishedOn": "2022-10-19T00:00:00.000Z",
-          "wordCount": 3428,
+          "wordCount": 3430,
           "title": "A Clojure view of \"Mars Rover\"",
           "imageUrl": null
         }
@@ -716,7 +716,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-13T00:32:52.592Z",
+          "publishedOn": "2023-06-14T00:30:46.417Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -726,9 +726,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-13T00:32:50.910Z",
+          "publishedOn": "2023-06-14T00:30:45.200Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-06-14T00:30:45.121Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -736,9 +746,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-13T00:32:50.849Z",
+          "publishedOn": "2023-06-14T00:30:45.117Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-14T00:30:45.034Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -746,7 +766,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-13T00:32:50.817Z",
+          "publishedOn": "2023-06-14T00:30:45.011Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -756,29 +776,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-13T00:32:50.775Z",
+          "publishedOn": "2023-06-14T00:30:44.945Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-13T00:32:50.770Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-13T00:32:50.765Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         }
       ]
@@ -926,12 +926,22 @@
       "siteUrl": "https://reader.tymoon.eu/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/429",
+          "author": null,
+          "description": "Hello everyone. It's been a while since the last update. I apologise for the silence, things have slipped out of habit a little bit, and besides there's just been a lot of work on things that aren't easy to talk about. I'm still stuck in the R&D phase for the next game, and probably will continue to be there for a few more months before I can properly enter pre-production.\nI've really needed some space away from Kandria for a while, too. I did still release patches in the meantime to fix some egregious problems and bring the source back up to date with the latest changes in the Trial engine. The final DLC update with official modding support is still in the works, but given how little response there's been to the level editor update I'm not making it a big priority.\nThe financials for Kand…",
+          "link": "https://reader.tymoon.eu/article/429",
+          "publishedOn": "2023-06-13T15:23:27.000Z",
+          "wordCount": 638,
+          "title": "A status update on Kandria, Shirakumo, and me",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2438"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/428",
           "author": null,
           "description": "Kandriaの日本語アップデートはリリースです！\n(私の日本語はまだまだですから、すみません)\n私のゲームは日本語でリリースのは夢ですからうれしい！Mimirin(@mioda833)さんはKandriaの日本語バーシオンを作ってありがとう。素晴らしい仕事をできた。\n今からSteamとItch.ioとKandria.comでアップデーとをダウンロードできる。",
           "link": "https://reader.tymoon.eu/article/428",
           "publishedOn": "2023-04-12T12:55:57.000Z",
-          "wordCount": 41,
+          "wordCount": 57,
           "title": "Kandriaの日本語アップデートはリリースです！",
           "imageUrl": null
         },
@@ -1014,16 +1024,6 @@
           "wordCount": 1858,
           "title": "2022 for Kandria in Review",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2327"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/418",
-          "author": null,
-          "description": "This is a shorter update, as this month was primarily spent on translation and bugfixing, neither of which we can really tell you much about. If you missed last month's though, please be aware that the game will release on January 11th!\nVarious Things\nThe translation is going slow, as I'm doing it myself and am not used to a good workflow for that. I expect I'll get the hang of it yet though and I've already made pretty significant progress on it.\nOther than that, the achievement icons are done, thanks to Blob! I'm really happy with how they turned out, and it's nice to have some of his high-res art associated with the game.\nFinally, I took two days to develop a new webservice for key distribution, which will allow you to buy the game DRM-free directly on our website once it releases. This…",
-          "link": "https://reader.tymoon.eu/article/418",
-          "publishedOn": "2022-12-05T13:58:03.000Z",
-          "wordCount": 457,
-          "title": "Rounding Up - December Kandria Update",
-          "imageUrl": "https://filebox.tymoon.eu//file/TWpZeU1RPT0="
         }
       ]
     }

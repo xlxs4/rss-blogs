@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-13T00:32:52.619Z</id>
+    <id>urn:2023-06-14T00:30:48.577Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-06-13T00:32:52.619Z</updated>
+    <updated>2023-06-14T00:30:48.577Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-06-13T00:32:52.592Z</updated>
+        <updated>2023-06-14T00:30:46.417Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,8 +19,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-06-13T00:32:50.910Z</updated>
+        <updated>2023-06-14T00:30:45.200Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-06-14T00:30:45.121Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,8 +39,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-06-13T00:32:50.849Z</updated>
+        <updated>2023-06-14T00:30:45.117Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-06-14T00:30:45.034Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +59,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-06-13T00:32:50.817Z</updated>
+        <updated>2023-06-14T00:30:45.011Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,30 +69,22 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-06-13T00:32:50.775Z</updated>
+        <updated>2023-06-14T00:30:44.945Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-06-13T00:32:50.770Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <title type="html"><![CDATA[A status update on Kandria, Shirakumo, and me]]></title>
+        <id>https://reader.tymoon.eu/article/429</id>
+        <link href="https://reader.tymoon.eu/article/429"/>
+        <updated>2023-06-13T15:23:27.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone. It's been a while since the last update. I apologise for the silence, things have slipped out of habit a little bit, and besides there's just been a lot of work on things that aren't easy to talk about. I'm still stuck in the R&D phase for the next game, and probably will continue to be there for a few more months before I can properly enter pre-production.
+I've really needed some space away from Kandria for a while, too. I did still release patches in the meantime to fix some egregious problems and bring the source back up to date with the latest changes in the Trial engine. The final DLC update with official modding support is still in the works, but given how little response there's been to the level editor update I'm not making it a big priority.
+The financials for Kand…]]></summary>
         <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-06-13T00:32:50.765Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -134,6 +146,16 @@ I found out that CircleCI is written in Clojure, and if you connect
         <summary type="html"><![CDATA[Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]]]></summary>
         <author>
             <name>Mike Innes’s Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software demos as deliberate acts of serious play]]></title>
+        <id>https://www.evalapply.org/posts/software-demos/</id>
+        <link href="https://www.evalapply.org/posts/software-demos/index.html"/>
+        <updated>2023-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Making a software demo is a form of deliberate, serious play. An act that feeds our curiosity, inventiveness, and drive. It enlivens. It enriches. It entertains. And as we asymptotically approach the A.G.I. that's just around the corner, the capacity for deliberate, serious play will remain distinctively, deeply, deliciously human. Career software people like yours truly may please take note!]]></summary>
+        <author>
+            <name>Eval / Apply is pure magic</name>
         </author>
     </entry>
     <entry>
@@ -1198,20 +1220,6 @@ In 2022 we were presen…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rounding Up - December Kandria Update]]></title>
-        <id>https://reader.tymoon.eu/article/418</id>
-        <link href="https://reader.tymoon.eu/article/418"/>
-        <updated>2022-12-05T13:58:03.000Z</updated>
-        <summary type="html"><![CDATA[This is a shorter update, as this month was primarily spent on translation and bugfixing, neither of which we can really tell you much about. If you missed last month's though, please be aware that the game will release on January 11th!
-Various Things
-The translation is going slow, as I'm doing it myself and am not used to a good workflow for that. I expect I'll get the hang of it yet though and I've already made pretty significant progress on it.
-Other than that, the achievement icons are done, thanks to Blob! I'm really happy with how they turned out, and it's nice to have some of his high-res art associated with the game.
-Finally, I took two days to develop a new webservice for key distribution, which will allow you to buy the game DRM-free directly on our website once it releases. This…]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Integrating equation solvers with probabilistic programming through differentiable programming]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1705</id>
         <link href="http://www.stochasticlifestyle.com/integrating-equation-solvers-with-probabilistic-programming-through-differentiable-programming/"/>
@@ -1342,17 +1350,6 @@ This isn’t a new problem: climate scientists  ... READ MORE
 The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia 1.8 Highlights]]></title>
-        <id>https://julialang.org/blog/2022/08/julia-1.8-highlights/</id>
-        <link href="https://julialang.org/blog/2022/08/julia-1.8-highlights/"/>
-        <updated>2022-08-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Highlights of the Julia 1.8 release.
-Read more]]></summary>
-        <author>
-            <name>JuliaLang - The Julia programming language</name>
         </author>
     </entry>
 </feed>
