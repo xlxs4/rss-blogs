@@ -66,7 +66,7 @@
           "description": "Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]",
           "link": "https://mikeinnes.io/2023/06/06/mojo.html",
           "publishedOn": "2023-06-06T00:00:00.000Z",
-          "wordCount": 2169,
+          "wordCount": 2201,
           "title": "Finding Your Mojo",
           "imageUrl": null
         },
@@ -328,7 +328,7 @@
           "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
           "link": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
           "publishedOn": "2023-05-30T12:26:00.000Z",
-          "wordCount": 4287,
+          "wordCount": 4289,
           "title": "Joe Marshall: Raymarching in Lisp",
           "imageUrl": null
         },
@@ -716,7 +716,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-14T00:30:46.417Z",
+          "publishedOn": "2023-06-15T00:32:03.590Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -726,19 +726,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-14T00:30:45.200Z",
+          "publishedOn": "2023-06-15T00:32:02.078Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-14T00:30:45.121Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -746,19 +736,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-14T00:30:45.117Z",
+          "publishedOn": "2023-06-15T00:32:02.043Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-14T00:30:45.034Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-06-15T00:32:02.023Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -766,9 +756,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-14T00:30:45.011Z",
+          "publishedOn": "2023-06-15T00:32:02.018Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-15T00:32:01.930Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-14T00:30:44.945Z",
+          "publishedOn": "2023-06-15T00:32:01.918Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -794,7 +794,7 @@
           "description": "I am currently reading the book \"Software Engineering for Science.\" It is one giant complaint about how scientists are terrible at writing maintainable code for themselves. I won't go into all the pain, but I do recognize that pain deeply and have written about it elsewhere. Right now I am reading this book hoping to find solutions. So, what's the proposed solution? The book doesn't provide a simple answer, but one recurring topic is \"testing, testing, TESTING!\" So, let's talk about testing!\nWhy don't scientists test their code? Well, it turns out that most scientists do not have a software engineering background, yet they find themselves writing code and software for their work. Alternatively, they may collaborate heavily with software engineers, either in academia or in the industry. If …",
           "link": "https://scientificcoder.com/software-testing-for-scientists",
           "publishedOn": "2023-06-11T12:35:26.000Z",
-          "wordCount": 13146,
+          "wordCount": 13162,
           "title": "Software Testing for Scientists",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1685970744744%2F3005ed53-27a0-4856-92d6-26ece2b8fe52.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -804,7 +804,7 @@
           "description": "There is a concept in meta-rationality called nebulosity. I will look up the definition later, but in my own words nebulosity means the following:\nNebulosity: a concept or problem is ill-defined. You cannot describe it perfectly. The boundaries of the concept are unclear.\nNebulosity drives rational people crazy, its worse than NP-hard. Rational people need well defined problems. Even if you can prove that the problem cannot be solved, at least the problem itself should be known. But is this always possible?\nYou may have a problem that you can barely describe to yourself. You may feel some shape of it, intuitively in your mind, but you cannot explain it perfectly. You notice that it is especially difficult to explain the problem to people unknown to the domain around the problem. There is o…",
           "link": "https://scientificcoder.com/the-nebulous-mysteries-of-scientific-coding",
           "publishedOn": "2023-06-03T11:56:48.000Z",
-          "wordCount": 9567,
+          "wordCount": 9583,
           "title": "The Nebulous Mysteries of Scientific Coding",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1685191473723%2F77306972-8aa3-41d0-85f4-9efef520f341.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -814,7 +814,7 @@
           "description": "Have you ever gone through life completely oblivious to something? I recently experienced that sensation when I stumbled upon an entire ecosystem of institutions, only learning about them after starting this blog. These organizations are dedicated to promoting better scientific software, which aligns with the mission of my blog. I wanted to know what's going on, so let's have a look at what's out there.\nI noticed the names of the fields of \"scientific software\" vary a little, but I consider all of these roughly equivalent:\nScientific Software\nResearch Software Engineering (RSE)\nScientific Computing\nNumerical Computing\nYes, there are differences between them, but all of them involve turning scientific knowledge into algorithms and software, and writing software to do scientific research or …",
           "link": "https://scientificcoder.com/scientific-software-institutes",
           "publishedOn": "2023-05-31T12:34:28.000Z",
-          "wordCount": 7000,
+          "wordCount": 7016,
           "title": "Scientific Software Institutes",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682844193827%2F1b0a1c9d-fb03-4a75-9ca0-d3cbcb52d52b.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -824,7 +824,7 @@
           "description": "Author commentary: I am starting a \"clean code\" blog series with simple tips that you can integrate into your workflow. I often write long, complicated articles that try to teach a lot at once. This is an attempt to chop things up in bite-sized chunks. Note that the Clean Code books by Robert Martin are great, you should read them if you have time! If not, you can follow these short articles :)\nIf you've written a lot of scripts and shared some of those scripts with colleagues or others, then you probably encountered the problem that the code doesn't always work on their device, or produces different results. When this happens, people may quickly lose trust in your results and begin to ignore your work entirely. So making code reproducible is extremely important! Even if you are a scientis…",
           "link": "https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments",
           "publishedOn": "2023-05-24T12:03:44.000Z",
-          "wordCount": 7981,
+          "wordCount": 7997,
           "title": "Clean Code Tips for Scientists #1 - Reproducible Environments",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1684413997401%2F753bc424-1698-4e8a-a951-cc7727a09e68.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -834,7 +834,7 @@
           "description": "Three years ago, we decided to embrace the Julia programming language to solve the two language problem at our organization. We want our scientists to join forces with software engineers so that they can work on the same problems together. In our journey, I could have used more books or blogs to guide us on the following topics:\nHow to build and deploy software products with the Julia language?\nHow to create the seeds for an effective scientific software ecosystem?\nThis article is here to help you with the second topic, but I warn you that we had to figure out 1 and 2 at the same time. I intend to write more blog posts about the Julia productization aspects. Yet in the long term, I am betting on the ecosystem to radically improve our organization, so I consider that more important to blog …",
           "link": "https://scientificcoder.com/building-a-scalable-inner-source-ecosystem-for-collaborative-development",
           "publishedOn": "2023-05-17T12:29:08.000Z",
-          "wordCount": 17218,
+          "wordCount": 17234,
           "title": "Building a Scalable Inner-Source Ecosystem For Collaborative Development",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1684239844476%2F70964039-8d34-410b-8507-79bfd01dcbc0.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -844,7 +844,7 @@
           "description": "In this tutorial we demonstrate how to call Julia libraries with multiple threads from C++. With the introduction of Julia 1.9 in May 2023, the runtime can dynamically \"adopt\" external threads, enabling the integration of Julia libraries into multi-threaded codebases written in other languages, such as C++. This article is written in collaboration with Evangelos Paradas, the maestro of algorithm deployment at ASML. Evangelos has been responsible for heavily testing and debugging this multi-threading feature. I humbly repeated the final results after his many trial-and-error attempts and summarized everything for you in this article.\nJulia in production\nJulia is a general-purpose language designed for scientific and numerical computing, striking a balance between speed and simplicity. The a…",
           "link": "https://scientificcoder.com/extreme-multi-threading-c-and-julia-19-integration",
           "publishedOn": "2023-05-11T14:10:09.000Z",
-          "wordCount": 12165,
+          "wordCount": 12181,
           "title": "Extreme Multi-Threading: C++ and Julia 1.9 Integration",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683635341431%2F5562e663-f9ea-4cec-a0a8-e6c9da7578ef.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -854,7 +854,7 @@
           "description": "Scientific programming involves writing code to solve scientific problems. This can range from simulating complex physical phenomena to analyzing large datasets. While such software is incredibly important, it can be challenging for scientists to learn all the required software development skills. However, by gradually adding specific tricks into your workflow, you can enhance your coding efficiency and effectiveness.\nSoftware skills are important for everyone these days, including scientists. I see certain common risks if you do not spend effort on your code quality:\nIncorrect code leads to incorrect results, which means you may have to redo work or even risk damaging your reputation.\nUnreproducible code means others, including your future self, cannot verify your work, nor built on top o…",
           "link": "https://scientificcoder.com/mastering-scientific-programming-practical-tips-and-tricks",
           "publishedOn": "2023-05-10T09:46:17.000Z",
-          "wordCount": 6958,
+          "wordCount": 6974,
           "title": "Mastering Scientific Programming: Practical Tips and Tricks",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683568993032%2Ff57416c5-3a85-4420-9074-0559b752625b.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -864,7 +864,7 @@
           "description": "My professional obsession is solving the Two Culture Problem. How can scientists optimally join forces with software engineers and their principles, so that we can work on the same problems together? How to accelerate the cycle from idea to product? The Two Culture Problem requires a solution to the related Two Language Problem, which has a technical nature. A solution to the technical problem does not guarantee a solution to the organizational problem, but when it comes to engineering cultures you first need to prove the technical solution before you can even begin to tackle the social implications. I have a strong opinion on the best technical solution, but let's review all our options.\n\nAs far as I can tell, we have the following alternatives:\nAccept the status quo: use a slow and a fas…",
           "link": "https://scientificcoder.com/how-to-solve-the-two-language-problem",
           "publishedOn": "2023-05-08T07:41:53.000Z",
-          "wordCount": 19988,
+          "wordCount": 20004,
           "title": "How to solve the two language problem?",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683112298365%2Fe6ad9ad6-a363-45cc-a04f-a6f38510bf2f.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -874,7 +874,7 @@
           "description": "How do you become a great scientific coder? To understand this, I want to ask others about their journey and share their lessons with you. This post is a collaboration with Keith Myerscough, a mathematical consultant and senior engineer, who helped me with setting up our internal Julia language ecosystem.\nMatthijs asked me to write a guest post about what skills are needed to become a great scientific coder. He asked me because I assisted a team of scientists in adopting Julia for their research and development work. I am keen to help: I empathize with people who come up with great ideas but have a hard time wrapping these up into something that can be turned into a product. Even under the assumption that code will be extensively improved upon by others with more software knowledge, that f…",
           "link": "https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned",
           "publishedOn": "2023-05-04T09:43:36.000Z",
-          "wordCount": 8428,
+          "wordCount": 8444,
           "title": "Production-ready code for scientists:  3 lessons learned",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683010031069%2Fa33212ab-1534-4842-92cd-a94b4e89785c.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -884,7 +884,7 @@
           "description": "Code quality is a topic in Julia that I believe deserves more attention from both users and developers. The Julia language originated in academia and focused heavily on helping scientists write better code, which is going great and deserves much praise! However, to onboard more software engineers and professional organizations we're going to have to invest even further into code quality and automated code quality tools and other methods such as used in the field of \"quality assurance\". In this article I'll explore the current state in the Julia ecosystem.\nAt our workplace we have investigated the following tools and practices. I'll start from generic practices and then move on to more advanced tools.\nPackage structure\nUnit testing with Pkg.jl\nAutomated testing and Continuous Integration (C…",
           "link": "https://scientificcoder.com/automate-your-code-quality-in-julia",
           "publishedOn": "2023-04-26T07:47:00.000Z",
-          "wordCount": 14305,
+          "wordCount": 14321,
           "title": "Automate Your Code Quality In Julia",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682430557530%2F69f045a8-635c-4ec6-b836-dbdcf7f0dd23.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -894,7 +894,7 @@
           "description": "I love thinking visually by drawing doodles and schematics for my work. It's one of my favorite things to do, next to coding. When working with the Julia language, one visualization I enjoy is seeing the type space of a method that you are dispatching on. Normally I do this in my mind's eye, but let me clarify this by drawing some actual figures.\nTo start with the basics; Julia has functions and methods. A function is simply the name, like push! or read . Methods are specific definitions of a function, for certain types of arguments. Take for example push!(s::Set, x) or read(io::IO) . From an object-oriented perspective you could say that methods are instances of functions.\n\nFor any given method you can consider the dispatching as slicing a part of the entire possible type space of that gi…",
           "link": "https://scientificcoder.com/the-art-of-multiple-dispatch",
           "publishedOn": "2023-04-20T09:01:49.000Z",
-          "wordCount": 7495,
+          "wordCount": 7511,
           "title": "The Art of Multiple Dispatch",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681976569505%2Fe92f2398-d079-449e-ac6a-4b194fe226ac.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -904,7 +904,7 @@
           "description": "What kind of people do I have in mind while writing this blog? People who share my professional mission of course! What is that mission you ask? Let me elaborate.\nFrom Research to Engineering\nI am a scientist who danced with startups and moved into industry. I've spend years doing research, and years doing software product development. During those years I have gotten slightly frustrated with the process of moving ideas from research to production, primarily in my favorite field of scientific computing.\nThe typical problem is that the time from research to production can be long, often spanning multiple years per project, and the process can be error prone. Some common smaller issues I see arising in many of our projects:\nUnreproducible, unexplainable scripts or notebooks in research\nEffor…",
           "link": "https://scientificcoder.com/my-target-audience",
           "publishedOn": "2023-04-18T11:46:15.000Z",
-          "wordCount": 7659,
+          "wordCount": 7675,
           "title": "My Target Audience",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681818346405%2Fb3103eb1-9008-42ce-a071-5c9a927b4ce0.png%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -914,7 +914,7 @@
           "description": "My goal in life is to follow my curiosity and help others with the knowledge I uncover. A solid way to help people is to reflect on the last years and think about what would have helped your past self. In my case, I have been busy trying to develop and deploy numerical computing applications with the Julia language. One thing that I found lacking was good material on how to do numerical computing professionally in the industry, something I learned is sometimes called \"scientific software engineering\". A book or blog about large-scale development and deployment into production systems would have helped me tremendously. I had to learn most things the hard way through trial and error.\nSince what I need doesn't exist, we will have to make it exist! That's this blog!\nI have been blogging about …",
           "link": "https://scientificcoder.com/why-this-blog",
           "publishedOn": "2023-04-16T17:27:18.000Z",
-          "wordCount": 5866,
+          "wordCount": 5882,
           "title": "Why this blog?",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681655524424%2F8208e14f-0765-4eb2-a301-4d9470f26e45.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
