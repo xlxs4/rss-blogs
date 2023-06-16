@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1705",
@@ -176,6 +176,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
+          "author": null,
+          "description": "Good morning, hackers.  Today I'd like to pick up my series on mobile\napplication development.  To recap, we looked at:\nTaking a step back, with the exception of Ark which has a special\nrelationship to HarmonyOS and Huawei, these frameworks are all layers on\ntop of what is provided by Android or iOS.  Why would you do that?\nPresumably there are benefits to these interstitial layers; what are\nthey?\nProbably the most basic answer is that an app framework layer offers the\npromise of abstracting over the different platforms.  This way you can\njust have one mobile application development team instead of two or\nmore.  In practice you still need to test on iOS and Android at least,\nbut this is cheaper than having fully separate Android and iOS teams.\nGiven that we are abstracting over platforms, …",
+          "link": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
+          "publishedOn": "2023-06-15T14:02:16.000Z",
+          "wordCount": 4156,
+          "title": "parallel futures in mobile application development",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/05/20/approaching-cps-soup",
           "author": null,
           "description": "Good evening, hackers.  Today's missive is more of a massive, in the\nsense that it's another presentation transcript-alike; these things always\ntranslate to many vertical pixels.\nIn my defense, I hardly ever give a\npresentation twice, so not only do I miss out on the usual\nper-presentation cost amortization and on the incremental improvements\nof repetition, the more dire error is that whatever message I might have\ncan only ever reach a subset of those that it might interest; here at\nleast I can be more or less sure that if the presentation would interest\nsomeone, that they will find it.\nSo for the time being I will try to\nshare presentations here, in the spirit of, well, why the hell not.\nLast week I gave a training talk to  collaborators on the intermediate\nrepresentation used by 's compi…",
@@ -191,7 +201,7 @@
           "description": "Hello, dear readers!  Today's article describes Ark, a new\nJavaScript-based mobile development platform.  If you haven't read them\nyet, you might want to start by having a look at my past articles on\n,\n,\n,\nand\n;\nhaving a common understanding of the design space will help us\nunderstand where Ark is similar and where it differs.CapacitorReact\nNativeNativeScriptFlutter\nIf I had to bet, I would guess that you have not heard of Ark.  (I\ncertainly hadn't either, when commissioned to do this research series.)\nTo a first approximation, Ark—or rather, what I am calling Ark; I don't\nactually know the name for the whole architecture—is a loosely\nFlutter-like UI library implemented on top of a dialect of JavaScript,\nwith build-time compilation to bytecode (like Hermes) but also with\nsupport for just-i…",
           "link": "https://wingolog.org/archives/2023/05/02/structure-and-interpretation-of-ark",
           "publishedOn": "2023-05-02T09:13:41.000Z",
-          "wordCount": 4130,
+          "wordCount": 4129,
           "title": "structure and interpretation of ark",
           "imageUrl": null
         },
@@ -201,7 +211,7 @@
           "description": "Good day, gentle hackfolk.  Like an\n fiddler I would\nappear to be deep in the groove, playing endless variations on a theme,\nin this case mobile application frameworks.  But one can only recognize\nnovelty in relation to the familiar, and today's note is a departure: we\nare going to look at , a UI toolkit based\nnot on JavaScript but on the  language.old-timeFlutterDart\nWhere to start, even?  The problem is big enough that I'll\napproach it from three different angles: from the past, from the top,\nand from the bottom.\nWith the other frameworks we looked at, we didn't have to say much about\ntheir use of JavaScript.  JavaScript is an obvious choice, in 2023 at\nleast: it is ubiquitous, has high quality implementations, and as a\nlanguage it is quite OK and progressively getting better.  Up to now…",
           "link": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
           "publishedOn": "2023-04-26T13:50:01.000Z",
-          "wordCount": 3108,
+          "wordCount": 3107,
           "title": "structure and interpretation of flutter",
           "imageUrl": null
         },
@@ -211,7 +221,7 @@
           "description": "Greetings, hackers tall and hackers small!\nWe're only a few articles in to this series on mobile application development frameworks, but I feel like we are already well into our journey.  We started our trip through the design space with a look at \n,\nwhich defines its user interface in terms of the web platform, and only\ncalls out to iOS or Android native features as needed.  We proceeded\non to ,\nwhich moves closer to native by rendering to platform-provided UI\nwidgets, layering a cross-platform development interface on top.Ionic /\nCapacitorReact\nNative\nToday's article takes an in-depth look at , whose point in the design space is further on the road towards\nthe platform, unabashedly embracing the specificities of the API\navailable on iOS and Android, exposing these interfaces directly to …",
           "link": "https://wingolog.org/archives/2023/04/24/structure-and-interpretation-of-nativescript",
           "publishedOn": "2023-04-24T09:10:58.000Z",
-          "wordCount": 2627,
+          "wordCount": 2626,
           "title": "structure and interpretation of nativescript",
           "imageUrl": null
         },
@@ -221,7 +231,7 @@
           "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
           "link": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
           "publishedOn": "2023-04-21T08:20:17.000Z",
-          "wordCount": 2919,
+          "wordCount": 2918,
           "title": "structure and interpretation of react native",
           "imageUrl": null
         },
@@ -231,7 +241,7 @@
           "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
           "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
           "publishedOn": "2023-04-20T10:20:32.000Z",
-          "wordCount": 2496,
+          "wordCount": 2495,
           "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
         },
@@ -251,7 +261,7 @@
           "description": "Good day, comrades!\nToday I'd like to share the good news that WebAssembly is finally coming\nfor the rest of us weirdos.\nThis is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of\npeople that are using \"technologies beyond the mainstream\" to get things\ndone: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB\n2023here\nWebAssembly: what even is it?  Not a programming language that\nyou would write software in, but rather a compilation target: a sort of\nassembly language, if you will.\nIf you look at what the characteristics of WebAssembly are as an\nabstract machine, to me there are two main areas in which it is an\nadvance over the alternatives.\nFirstly it's \"close to the metal\" -- if you compile for example…",
           "link": "https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us",
           "publishedOn": "2023-03-20T09:06:42.000Z",
-          "wordCount": 5427,
+          "wordCount": 5426,
           "title": "a world to win: webassembly for the rest of us",
           "imageUrl": null
         },
@@ -261,18 +271,8 @@
           "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
           "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
           "publishedOn": "2023-03-10T09:20:33.000Z",
-          "wordCount": 1422,
+          "wordCount": 1421,
           "title": "pre-initialization of garbage-collected webassembly heaps",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
-          "author": null,
-          "description": "Friends, you might have noted, but over the last year or so I really\ncaught the GC bug.  Today's post sums up that year, in the form of a\ntalk I gave yesterday at FOSDEM.  It's long!  If you prefer video, you\ncan have a look instead to the .at the FOSDEM event\npage\nSo the context for the whole effort is that Guile has this part of its\nimplementation which is in C.  It also exposes a lot of that\nimplementation to users as an API.\nSo what contraints does this kind of API impose on the garbage\ncollector?\nLet's start by considering the simple  call above.  In a\ngarbage-collected environment, the GC is responsible for reclaiming\nunused memory.  How does the GC know that the result of a \ncall is in use?consscm_cons\nGenerally speaking there are two main strategies for automatic memory\nmanagement.…",
-          "link": "https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum",
-          "publishedOn": "2023-02-07T13:14:37.000Z",
-          "wordCount": 6720,
-          "title": "whippet: towards a new local maximum",
           "imageUrl": null
         }
       ]
@@ -298,7 +298,7 @@
           "description": "Here’s a weird little success story involving Lisp.  The code\n  doesn’t rely on anything specific to Lisp.  It could be rewritten in\n  any language.  Yet it wouldn’t have been written in the first place\n  if it weren’t for Lisp.\n \n\nI like to keep a Lisp REPL open in my Emacs for tinkering around\n  with programming ideas.  It only takes a moment to hook up a REST\n  API or scrape some subprocess output, so I have a library of\n  primitives that can talk to our internal build tools and other\n  auxiliary tools such as GitHub or CircleCI. This comes in handy for\n  random ad hoc scripting.\nI found out that CircleCI is written in Clojure, and if you connect\n  to your local CircleCI server, you can start a REPL and run\n  queries on the internal CircleCI database.  Naturally, I\n  hooked up my local …",
           "link": "http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html",
           "publishedOn": "2023-06-08T19:42:00.000Z",
-          "wordCount": 3907,
+          "wordCount": 3909,
           "title": "Joe Marshall: Lisp Essential, But Not Required",
           "imageUrl": null
         },
@@ -716,7 +716,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-15T00:32:03.590Z",
+          "publishedOn": "2023-06-16T00:33:27.646Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -726,7 +726,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-15T00:32:02.078Z",
+          "publishedOn": "2023-06-16T00:33:26.553Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -736,19 +736,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-15T00:32:02.043Z",
+          "publishedOn": "2023-06-16T00:33:26.549Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-15T00:32:02.023Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -756,9 +746,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-15T00:32:02.018Z",
+          "publishedOn": "2023-06-16T00:33:26.503Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-06-16T00:33:26.490Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -766,7 +766,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-15T00:32:01.930Z",
+          "publishedOn": "2023-06-16T00:33:26.481Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-15T00:32:01.918Z",
+          "publishedOn": "2023-06-16T00:33:26.478Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
