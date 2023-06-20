@@ -293,6 +293,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://blog.quicklisp.org/2023/06/june-2023-quicklisp-dist-update-now.html",
+          "author": null,
+          "description": "New projects: \n\n3d-spaces — A library implementing spatial query structures — zlib\n40ants-slynk — Utilities to start SLYNK if needed and to track active connections. — Unlicense\nbinary-structures — A library for reading, writing, and representing structures from binary representations — zlib\ncl-atelier — An atelier for Lisp developers — MIT License\ncl-bmp — A library for dealing with Windows bitmaps (BMP, DIB, ICO, CUR) — zlib\ncl-def-properties — Common Lisp definitions instropection library — MIT\ncl-fast-ecs — Blazingly fast Entity-Component-System microframework. — MIT\ncl-fbx — Bindings to ufbx, a simple and free FBX model decoding library — zlib\ncl-id3 — A Common Lisp implementation of the ID3 machine learning algorithm by R. Quinlan. — BSD-2-Clause\ncl-jschema — Common Lisp implementati…",
+          "link": "http://blog.quicklisp.org/2023/06/june-2023-quicklisp-dist-update-now.html",
+          "publishedOn": "2023-06-19T18:13:00.000Z",
+          "wordCount": 2976,
+          "title": "Quicklisp news: June 2023 Quicklisp dist update now available",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.fitzsim.org/blog/?p=681",
           "author": null,
           "description": "Read-Evaluate-Print Loops are great for doing quick experiments.  I recently released two new REPL packages for Emacs to GNU ELPA.  This is the second in a two part series.  Here is part 1.\nFor microcontroller projects, uLisp is a great option.  It provides a Lisp REPL on top of the Arduino libraries.  It implements a subset of Common Lisp and adds microprocessor-specific functions.\nI previously built  and blogged about a handheld computer designed by uLisp’s creator.  I also ported uLisp to the SMART Response XE.\nuLisp is controlled by a serial port.  People on the uLisp forum have posted various ways to do this, including some Emacs methods.  They required external software though, and I wanted something that would run in Emacs with no external dependencies.  Emacs has make-serial-process and serial-term built-in, so I wondered if I could make a REPL using those.  The result is ulisp-repl which I published to GNU ELPA.  Here is an asciinema screencast of installing and using it.  You can pause the video and copy text out of it to try in your Emacs session.\nThis inline player uses only free and open source JavaScript.  Or you can download ulisp-repl-1.cast and play it with the asciinema command line player.\nIt has syntax highlighting on the current line.  It might be cool to also implement a SLIME server in Emacs itself (and have SLIME connect to the current Emacs process instead of an external one) but uLisp programs are usually small, so it’s easy enough to copy-n-paste Lisp snippets into the REPL.",
@@ -380,16 +390,6 @@
           "publishedOn": "2023-05-04T11:33:41.000Z",
           "wordCount": 244,
           "title": "Tim Bradshaw: A horrible solution",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "It’s tempting to think that by being sufficiently careful about names bound by traditional Lisp macros you can write macros which are hygienic. This is not true: it’s much harder than that.\nHygienic macros\nI do not fully understand all the problems which Scheme-style hygienic macros try to solve, and the implementation of the solutions is usually sufficiently difficult to understand that I have always been put off doing so, especially as the details of the implementation in Racket, the Scheme-related language I use most, seems to change every few years. I’m happy enough that I am mostly competent to write the macros I need in Racket, without understanding the details of the implementation.\nTraditional Lisp macros are, to me, far more appealing because they work in such an explicit and simp…",
-          "link": "https://www.tfeb.org/fragments/2023/05/03/two-sides-to-hygiene/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-05-03T11:28:09.000Z",
-          "wordCount": 1815,
-          "title": "Tim Bradshaw: Two sides to hygiene",
           "imageUrl": null
         }
       ]
@@ -736,29 +736,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-19T00:32:15.147Z",
+          "publishedOn": "2023-06-20T00:30:22.601Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-19T00:32:14.148Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-19T00:32:14.143Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -766,7 +746,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-19T00:32:14.119Z",
+          "publishedOn": "2023-06-20T00:30:21.461Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -776,19 +756,29 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-19T00:32:14.103Z",
+          "publishedOn": "2023-06-20T00:30:21.441Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-19T00:32:14.099Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-06-20T00:30:21.435Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-06-20T00:30:21.426Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -796,9 +786,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-19T00:32:14.096Z",
+          "publishedOn": "2023-06-20T00:30:21.414Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-06-20T00:30:21.410Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]
