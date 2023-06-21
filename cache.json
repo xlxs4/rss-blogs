@@ -303,6 +303,16 @@
           "imageUrl": null
         },
         {
+          "id": "http://quotenil.com/pax-browser.html",
+          "author": null,
+          "description": "PAX got a live documentation\nbrowser to make documentation generation a\nmore interactive experience. A great thing about Lisp development is\nchanging a single function and quickly seeing how it behaves without\nthe delay of a full recompile. Previously, editing a docstring\nrequired regenerating the full documentation to see how the changes\nturned out. The live documentation browser does away with this step,\nwhich tightens the edit/document loop.\nPAX also got an apropos browser. It could always\ngenerate documentation for stuff not written with PAX in mind, so\nwith the live browser already implemented, this was a just a small\nadd-on.\nThe trouble with interactivity is, of course, that it's difficult to\nget the point across in text, so I made two short videos that\ndemonstrate the basics.\nLive browsing with w3m\n\n\nLive browsing with other browsers",
+          "link": "http://quotenil.com/pax-browser.html",
+          "publishedOn": "2023-06-10T00:00:00.000Z",
+          "wordCount": 189,
+          "title": "Gábor Melis: PAX Live Documentation Browser",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.fitzsim.org/blog/?p=681",
           "author": null,
           "description": "Read-Evaluate-Print Loops are great for doing quick experiments.  I recently released two new REPL packages for Emacs to GNU ELPA.  This is the second in a two part series.  Here is part 1.\nFor microcontroller projects, uLisp is a great option.  It provides a Lisp REPL on top of the Arduino libraries.  It implements a subset of Common Lisp and adds microprocessor-specific functions.\nI previously built  and blogged about a handheld computer designed by uLisp’s creator.  I also ported uLisp to the SMART Response XE.\nuLisp is controlled by a serial port.  People on the uLisp forum have posted various ways to do this, including some Emacs methods.  They required external software though, and I wanted something that would run in Emacs with no external dependencies.  Emacs has make-serial-process and serial-term built-in, so I wondered if I could make a REPL using those.  The result is ulisp-repl which I published to GNU ELPA.  Here is an asciinema screencast of installing and using it.  You can pause the video and copy text out of it to try in your Emacs session.\nThis inline player uses only free and open source JavaScript.  Or you can download ulisp-repl-1.cast and play it with the asciinema command line player.\nIt has syntax highlighting on the current line.  It might be cool to also implement a SLIME server in Emacs itself (and have SLIME connect to the current Emacs process instead of an external one) but uLisp programs are usually small, so it’s easy enough to copy-n-paste Lisp snippets into the REPL.",
@@ -381,16 +391,6 @@
           "wordCount": 2306,
           "title": "vindarel: i18n in my Lisp web app with Djula templates and gettext",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "Yesterday I wrote an article describing one of the ways traditional Lisp macros can be unhygienic even when they appear to be hygienic. Here’s a horrible solution to that.\nThe problem I described is that the expansion of a macro can refer to the values (usually the function values) of names, which the user of the macro can bind, causing the macro to fail. So, given a function\n(defun call-with-foo (thunk)\n  ...\n  (funcall thunk))\nThen the macro layer on top of it\n(defmacro with-foo (&body forms)\n  `(call-with-foo (lambda () ,@forms)))\nis not hygienic so long as local functions named call-with-foo are allowed:\n(flet ((call-with-foo (...) ...))\n  (with-foo ...))\nThe sensible solution to this is to say, just as the standard does about symbols in the CL package that you are not allowed to do that.\nHere’s another solution:\n(defmacro with-foo (&body forms)\n  `(funcall (symbol-function 'call-with-foo) (lambda () ,@forms)))\nThis is robust against anything short of top-level redefinition of call-with-foo. And you can be mostly robust even against that:\n(defmacro with-foo (&body forms)\n  `(funcall (load-time-value (symbol-function 'call-with-foo))\n            (lambda () ,@forms)))\nThis still isn’t safe against really malignant users, since the load time of the macro’s definition and its uses are not the same. But it’s probably fairly good.\nI hope I never feel I have to use techniques like this.",
-          "link": "https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2023-05-04T11:33:41.000Z",
-          "wordCount": 244,
-          "title": "Tim Bradshaw: A horrible solution",
-          "imageUrl": null
         }
       ]
     },
@@ -736,49 +736,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-20T00:30:22.601Z",
+          "publishedOn": "2023-06-21T00:31:59.548Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-20T00:30:21.461Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-20T00:30:21.441Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-20T00:30:21.435Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-20T00:30:21.426Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,9 +746,39 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-20T00:30:21.414Z",
+          "publishedOn": "2023-06-21T00:31:57.691Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-06-21T00:31:57.513Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-06-21T00:31:57.485Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-06-21T00:31:57.473Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -796,9 +786,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-20T00:30:21.410Z",
+          "publishedOn": "2023-06-21T00:31:57.462Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-06-21T00:31:57.445Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]

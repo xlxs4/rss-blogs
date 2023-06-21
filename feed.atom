@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-20T00:30:22.640Z</id>
+    <id>urn:2023-06-21T00:31:59.580Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-06-20T00:30:22.640Z</updated>
+    <updated>2023-06-21T00:31:59.580Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-06-20T00:30:22.601Z</updated>
+        <updated>2023-06-21T00:31:59.548Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-06-20T00:30:21.461Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-06-20T00:30:21.441Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-06-20T00:30:21.435Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-06-20T00:30:21.426Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +19,38 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-06-20T00:30:21.414Z</updated>
+        <updated>2023-06-21T00:31:57.691Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-06-21T00:31:57.513Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-06-21T00:31:57.485Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-06-21T00:31:57.473Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +59,18 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-06-20T00:30:21.410Z</updated>
+        <updated>2023-06-21T00:31:57.462Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-06-21T00:31:57.445Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -165,6 +165,34 @@ The financials for Kand…]]></summary>
 Why don't scientists test their code? Well, it turns out that most scientists do not have a software engineering background, yet they find themselves writing code and software for their work. Alternatively, they may collaborate heavily with software engineers, either in academia or in the industry. If …]]></summary>
         <author>
             <name>Matthijs Cox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gábor Melis: PAX Live Documentation Browser]]></title>
+        <id>http://quotenil.com/pax-browser.html</id>
+        <link href="http://quotenil.com/pax-browser.html"/>
+        <updated>2023-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PAX got a live documentation
+browser to make documentation generation a
+more interactive experience. A great thing about Lisp development is
+changing a single function and quickly seeing how it behaves without
+the delay of a full recompile. Previously, editing a docstring
+required regenerating the full documentation to see how the changes
+turned out. The live documentation browser does away with this step,
+which tightens the edit/document loop.
+PAX also got an apropos browser. It could always
+generate documentation for stuff not written with PAX in mind, so
+with the live browser already implemented, this was a just a small
+add-on.
+The trouble with interactivity is, of course, that it's difficult to
+get the point across in text, so I made two short videos that
+demonstrate the basics.
+Live browsing with w3m
+
+
+Live browsing with other browsers]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -588,36 +616,6 @@ As far as I can tell, we have the following alternatives:
 Accept the status quo: use a slow and a fas…]]></summary>
         <author>
             <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: A horrible solution]]></title>
-        <id>https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2023/05/04/a-horrible-solution/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2023-05-04T11:33:41.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday I wrote an article describing one of the ways traditional Lisp macros can be unhygienic even when they appear to be hygienic. Here’s a horrible solution to that.
-The problem I described is that the expansion of a macro can refer to the values (usually the function values) of names, which the user of the macro can bind, causing the macro to fail. So, given a function
-(defun call-with-foo (thunk)
-  ...
-  (funcall thunk))
-Then the macro layer on top of it
-(defmacro with-foo (&body forms)
-  `(call-with-foo (lambda () ,@forms)))
-is not hygienic so long as local functions named call-with-foo are allowed:
-(flet ((call-with-foo (...) ...))
-  (with-foo ...))
-The sensible solution to this is to say, just as the standard does about symbols in the CL package that you are not allowed to do that.
-Here’s another solution:
-(defmacro with-foo (&body forms)
-  `(funcall (symbol-function 'call-with-foo) (lambda () ,@forms)))
-This is robust against anything short of top-level redefinition of call-with-foo. And you can be mostly robust even against that:
-(defmacro with-foo (&body forms)
-  `(funcall (load-time-value (symbol-function 'call-with-foo))
-            (lambda () ,@forms)))
-This still isn’t safe against really malignant users, since the load time of the macro’s definition and its uses are not the same. But it’s probably fairly good.
-I hope I never feel I have to use techniques like this.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
