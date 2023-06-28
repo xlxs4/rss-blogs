@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -293,6 +293,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
+          "author": null,
+          "description": "Many years ago I worked on a language called REBOL.  REBOL was\n  notable in that it used a variation of Polish notation.  Function\n  names came first, followed by the arguments in left to right order.\n  Parentheses were generally not needed as the subexpression\n  boundaries could be deduced from the arguments.  It’s a bit\n  complicated to explain, but pretty easy to code up.\nAn interpreter environment will be a lists of frames, and each frame\n  is an association list of variable bindings.\n(defun lookup (environment symbol)\n  (cond ((consp environment)\n         (let ((probe (assoc symbol (car environment))))\n           (if probe\n               (cdr probe)\n               (lookup (cdr environment) symbol))))\n        ((null environment) (error \"Unbound variable.\"))\n        (t (error \"Bogus env…",
+          "link": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
+          "publishedOn": "2023-06-27T22:06:00.000Z",
+          "wordCount": 4807,
+          "title": "Joe Marshall: Tail recursion in REBOL",
+          "imageUrl": null
+        },
+        {
           "id": "http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html",
           "author": null,
           "description": "On the threshold of the Northern Hemisphere's Midsummer's Eve, we unveil the second revision of the Tenth Edition of the Armed Bear Common Lisp implementation, viz. abcl-1.9.2.\n\n\nMost notably, we are pleased to present the fruits of Alejandro Zamora Fonseca's labors on an interpreted implementation of CL:STEP with the first release of the ABCL-STEPPER contrib.  See <https://abcl.org/svn/tags/1.9.2/contrib/abcl-stepper/README.markdown> for more details.  This implementation was the subject of his demonstration <https://zenodo.org/record/7815887> as this year's European Lisp Symposium.\n\n\nThe POSIX-SYSCALLS contrib now provides the ability to set environment variables under UNIX systems <https://abcl.org/trac/changeset/15700>, as well as providing an example of how best to add abstract additional functionality to the core implementation.\n\n\nThis release also features a substantially re-worked Gray Stream implementation which fixes enough our implementation to be a first class citizen of SLIME's usage.  With the next release of SLIME, one will have to use abcl-1.9.2 in order to use the slime-repl.  See <https://github.com/slime/slime/pull/765> for more details.\n\n\nThe ASDF-JAR contrib has been restored to a usable functionality, which includes re-packaging of ASDF systems from within jar files as well as better abstraction for finding non-source artifacts.  Please refer to <https://gitlab.common-lisp.net/abcl/abcl/-/blob/master/contrib/asdf-jar/README.markdown> for a refresher on what facilities ASDF-JAR provides for the aspiring ASDF packager.\n\n\nA complete list of changes may be viewed at <https://abcl.org/svn/tags/1.9.2/CHANGES>.\n\n\nThe release itself is available at <https://abcl.org/releases/1.9.2/>.\n\n\nThanks to everyone who continue to support the Bear.  Enjoy yer evening...",
@@ -338,7 +348,7 @@
           "description": "Here’s a weird little success story involving Lisp.  The code\n  doesn’t rely on anything specific to Lisp.  It could be rewritten in\n  any language.  Yet it wouldn’t have been written in the first place\n  if it weren’t for Lisp.\n \n\nI like to keep a Lisp REPL open in my Emacs for tinkering around\n  with programming ideas.  It only takes a moment to hook up a REST\n  API or scrape some subprocess output, so I have a library of\n  primitives that can talk to our internal build tools and other\n  auxiliary tools such as GitHub or CircleCI. This comes in handy for\n  random ad hoc scripting.\nI found out that CircleCI is written in Clojure, and if you connect\n  to your local CircleCI server, you can start a REPL and run\n  queries on the internal CircleCI database.  Naturally, I\n  hooked up my local …",
           "link": "http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html",
           "publishedOn": "2023-06-08T19:42:00.000Z",
-          "wordCount": 3948,
+          "wordCount": 3954,
           "title": "Joe Marshall: Lisp Essential, But Not Required",
           "imageUrl": null
         },
@@ -381,16 +391,6 @@
           "wordCount": 608,
           "title": "Stelian Ionescu: Bordeaux Threads APIv2",
           "imageUrl": null
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/",
-          "author": null,
-          "description": "Do you think Tcl/Tk GUIs are doomed to look outdated?\n\nFear not!\n\n\n\n\n\n\n\n\nA treeview widget:\n\n\nThe official example of Forest Light:\n\nThe ttkthemes gallery\nPlus, Tk itself has a little choice of built-in themes:\n\nWe can use these themes with nodgui, the Ltk fork.\nIn June of 2020, @cage added a little function to load a .tcl file:\n(defun eval-tcl-file (file-path)\n  \"This function will feed the TCL interpreter with the contents\n   of the file `path'.\n   Please, as this function will load  and execute a script, ensure to\n   load files only from trusted sources otherwise severe security problem\n   may arise.\"\n  (assert (stringp file-path))\n  (format-wish \"source {~a}\" file-path))\n\nAs a consequence, we can load a .tcl script that defines a theme, and use it. Themes generally consist of a .tcl script and a directory of png or gif images (when images are not defined in-line).\nConsidering we cloned the ttkthemes repo locally:\n  (with-nodgui ()\n    (eval-tcl-file \"ttkthemes/ttkthemes/png/yaru/yaru.tcl\")\n    (use-theme \"yaru\")\n\nand that’s all there is to it.\nFor now, some themes are not supported. Scalable themes are not\nsupported, the .gif based themes of ttkthemes won’t load (the “scid”\nand “smog” themes in ttkthemes, the Sun Valley\ntheme didn’t\nwork). This could change when tksvg lands in Debian (or maybe, if\nyou install it yourself? I didn’t try), or with the next release of\nTcl/Tk that will include SVG support (read\n#13).\nFrankly, that was a great news of the day. Yes, I think some themes\nare pleasant to the eyes! This makes me want to use little Tk UIs here\nand there.\nHere’s the code for the little media player of the screenshots. It is based on Peter Lane’s extensive examples.\nKuddos to @cage o/",
-          "link": "https://lisp-journey.gitlab.io/blog/pretty-gui-in-common-lisp-with-nodgui-tk-themes/",
-          "publishedOn": "2023-05-26T22:22:04.000Z",
-          "wordCount": 727,
-          "title": "vindarel: Pretty GUI in Common Lisp with nodgui's Tk themes",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -746,19 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-06-27T00:36:00.881Z",
+          "publishedOn": "2023-06-28T00:35:54.736Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-06-27T00:36:00.066Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -766,9 +756,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-06-27T00:36:00.056Z",
+          "publishedOn": "2023-06-28T00:35:53.901Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-06-28T00:35:53.896Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-06-28T00:35:53.887Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -776,7 +786,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-06-27T00:36:00.051Z",
+          "publishedOn": "2023-06-28T00:35:53.876Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -786,19 +796,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-06-27T00:36:00.032Z",
+          "publishedOn": "2023-06-28T00:35:53.849Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-06-27T00:36:00.030Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-06-27T00:36:00.026Z",
+          "publishedOn": "2023-06-28T00:35:53.846Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
