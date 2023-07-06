@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -569,7 +569,7 @@
           "description": "Social media killed comments. What's a lonely blogger to do?",
           "link": "https://www.lambdasierra.com/2023/building/comments",
           "publishedOn": "2023-05-20T20:00:00.000Z",
-          "wordCount": 392,
+          "wordCount": 395,
           "title": "One-Way Comments?",
           "imageUrl": "https://www.lambdasierra/2023/building/img/stephen-phillips-hostreviews-co-uk--zRNvl3EUdw-unsplash.jpg"
         },
@@ -589,9 +589,9 @@
           "description": "On starting a new blog, abandoning the stability of WordPress for the creative freedom of do-it-yourself.",
           "link": "https://www.lambdasierra.com/2023/building/",
           "publishedOn": "2023-04-13T22:00:42.000Z",
-          "wordCount": 722,
+          "wordCount": 742,
           "title": "Building Foundations",
-          "imageUrl": null
+          "imageUrl": "https://www.lambdasierra.com/2023/building/img/digitalme.gif"
         },
         {
           "id": "urn:uuid:5960d9ab-f082-4b72-b3a0-7753d56d2008",
@@ -735,12 +735,22 @@
       "siteUrl": "https://ianthehenry.com/",
       "articles": [
         {
+          "id": "https://ianthehenry.com/posts/my-kind-of-repl/",
+          "author": null,
+          "description": "I want to tell you about an idea called that has had a huge influence on the way that I write software. And I mean that in the literal sense: it’s changed the way that I write software; it’s re-shaped my development workflow.\nThe idea is this: you can write programs that modify themselves.\nAnd I don’t mean macros or metaprogramming or anything fancy like that. I mean that you can write programs that edit their own source code. Like, the files themselves. The actual text files on disk that have your source code in them.\nThat’s not the whole idea, though. There’s more to it: you write programs that can edit themselves, and then you use that as your REPL.\nInstead of typing something into a prompt and hitting enter and seeing the output on stdout, you type something into a file and hit some ed…",
+          "link": "https://ianthehenry.com/posts/my-kind-of-repl/",
+          "publishedOn": "2023-07-05T00:00:00.000Z",
+          "wordCount": 5522,
+          "title": "My Kind of REPL",
+          "imageUrl": "https://ianthehenry.com/posts/my-kind-of-repl/hero.png"
+        },
+        {
           "id": "https://ianthehenry.com/posts/generalized-macros/",
           "author": null,
           "description": "I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.\nJanet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.\nSo people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.\nBut as far as I know, no one has approached macro systems f…",
           "link": "https://ianthehenry.com/posts/generalized-macros/",
           "publishedOn": "2023-04-18T00:00:00.000Z",
-          "wordCount": 4902,
+          "wordCount": 4908,
           "title": "Generalized Macros",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
         },
@@ -776,7 +786,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-05T00:36:59.816Z",
+          "publishedOn": "2023-07-06T00:37:35.885Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -786,39 +796,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-05T00:36:58.857Z",
+          "publishedOn": "2023-07-06T00:37:35.165Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-05T00:36:58.852Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-05T00:36:58.770Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-05T00:36:58.753Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -826,9 +806,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-05T00:36:58.747Z",
+          "publishedOn": "2023-07-06T00:37:35.152Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-07-06T00:37:35.136Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-07-06T00:37:35.022Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -836,9 +836,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-05T00:36:58.725Z",
+          "publishedOn": "2023-07-06T00:37:35.014Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-06T00:37:35.008Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         }
       ]
