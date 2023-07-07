@@ -114,6 +114,16 @@
       "siteUrl": "https://julialang.org/",
       "articles": [
         {
+          "id": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
+          "author": null,
+          "description": "PSA: Thread-local state is no longer recommended; Common misconceptions about threadid() and nthreads()\nRead more",
+          "link": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
+          "publishedOn": "2023-07-06T00:00:00.000Z",
+          "wordCount": 2079,
+          "title": "PSA: Thread-local state is no longer recommended",
+          "imageUrl": "/assets/images/julia-open-graph.png"
+        },
+        {
           "id": "https://julialang.org/blog/2023/04/julia-1.9-highlights/",
           "author": null,
           "description": "Highlights of the Julia 1.9 release.\nRead more",
@@ -191,7 +201,7 @@
           "description": "Good morning, hackers.  Today I'd like to pick up my series on mobile\napplication development.  To recap, we looked at:\nTaking a step back, with the exception of Ark which has a special\nrelationship to HarmonyOS and Huawei, these frameworks are all layers on\ntop of what is provided by Android or iOS.  Why would you do that?\nPresumably there are benefits to these interstitial layers; what are\nthey?\nProbably the most basic answer is that an app framework layer offers the\npromise of abstracting over the different platforms.  This way you can\njust have one mobile application development team instead of two or\nmore.  In practice you still need to test on iOS and Android at least,\nbut this is cheaper than having fully separate Android and iOS teams.\nGiven that we are abstracting over platforms, …",
           "link": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
           "publishedOn": "2023-06-15T14:02:16.000Z",
-          "wordCount": 4156,
+          "wordCount": 4142,
           "title": "parallel futures in mobile application development",
           "imageUrl": null
         },
@@ -308,7 +318,7 @@
           "description": "Many years ago I worked on a language called REBOL.  REBOL was\n  notable in that it used a variation of Polish notation.  Function\n  names came first, followed by the arguments in left to right order.\n  Parentheses were generally not needed as the subexpression\n  boundaries could be deduced from the arguments.  It’s a bit\n  complicated to explain, but pretty easy to code up.\nAn interpreter environment will be a lists of frames, and each frame\n  is an association list of variable bindings.\n(defun lookup (environment symbol)\n  (cond ((consp environment)\n         (let ((probe (assoc symbol (car environment))))\n           (if probe\n               (cdr probe)\n               (lookup (cdr environment) symbol))))\n        ((null environment) (error \"Unbound variable.\"))\n        (t (error \"Bogus env…",
           "link": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
           "publishedOn": "2023-06-27T22:06:00.000Z",
-          "wordCount": 4830,
+          "wordCount": 4893,
           "title": "Joe Marshall: Tail recursion in REBOL",
           "imageUrl": null
         },
@@ -740,7 +750,7 @@
           "description": "I want to tell you about an idea called that has had a huge influence on the way that I write software. And I mean that in the literal sense: it’s changed the way that I write software; it’s re-shaped my development workflow.\nThe idea is this: you can write programs that modify themselves.\nAnd I don’t mean macros or metaprogramming or anything fancy like that. I mean that you can write programs that edit their own source code. Like, the files themselves. The actual text files on disk that have your source code in them.\nThat’s not the whole idea, though. There’s more to it: you write programs that can edit themselves, and then you use that as your REPL.\nInstead of typing something into a prompt and hitting enter and seeing the output on stdout, you type something into a file and hit some ed…",
           "link": "https://ianthehenry.com/posts/my-kind-of-repl/",
           "publishedOn": "2023-07-05T00:00:00.000Z",
-          "wordCount": 5522,
+          "wordCount": 5531,
           "title": "My Kind of REPL",
           "imageUrl": "https://ianthehenry.com/posts/my-kind-of-repl/hero.png"
         },
@@ -786,9 +796,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-06T00:37:35.885Z",
+          "publishedOn": "2023-07-07T00:36:34.478Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-07T00:36:33.676Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -796,9 +816,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-06T00:37:35.165Z",
+          "publishedOn": "2023-07-07T00:36:33.666Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-07-07T00:36:32.833Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -806,7 +836,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-06T00:37:35.152Z",
+          "publishedOn": "2023-07-07T00:36:32.822Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -816,19 +846,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-06T00:37:35.136Z",
+          "publishedOn": "2023-07-07T00:36:32.605Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-06T00:37:35.022Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -836,19 +856,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-06T00:37:35.014Z",
+          "publishedOn": "2023-07-07T00:36:32.215Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-06T00:37:35.008Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         }
       ]
