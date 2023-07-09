@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
+          "author": null,
+          "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
+          "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
+          "publishedOn": "2023-07-08T17:21:00.000Z",
+          "wordCount": 3731,
+          "title": "Joe Marshall: Playing with AI",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
           "author": null,
           "description": "Here’s a function that fails a static type check, but has no runtime type error:\n(defun foo ()\n  (sqrt (if (static-type-check? #’foo)\n        \"bogus\"\n        2.0))\nI suspect most people that favor static types will argue that this sort of program doesn’t count for some reason or other.  I think this is more an example (albeit contrived) of the limitations of static type checking.",
           "link": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
           "publishedOn": "2023-06-28T19:09:00.000Z",
-          "wordCount": 3658,
+          "wordCount": 3663,
           "title": "Joe Marshall: Fails Static Type Check, but Runs Anyway",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "Many years ago I worked on a language called REBOL.  REBOL was\n  notable in that it used a variation of Polish notation.  Function\n  names came first, followed by the arguments in left to right order.\n  Parentheses were generally not needed as the subexpression\n  boundaries could be deduced from the arguments.  It’s a bit\n  complicated to explain, but pretty easy to code up.\nAn interpreter environment will be a lists of frames, and each frame\n  is an association list of variable bindings.\n(defun lookup (environment symbol)\n  (cond ((consp environment)\n         (let ((probe (assoc symbol (car environment))))\n           (if probe\n               (cdr probe)\n               (lookup (cdr environment) symbol))))\n        ((null environment) (error \"Unbound variable.\"))\n        (t (error \"Bogus env…",
           "link": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
           "publishedOn": "2023-06-27T22:06:00.000Z",
-          "wordCount": 4893,
+          "wordCount": 4896,
           "title": "Joe Marshall: Tail recursion in REBOL",
           "imageUrl": null
         },
@@ -368,7 +378,7 @@
           "description": "Here’s a weird little success story involving Lisp.  The code\n  doesn’t rely on anything specific to Lisp.  It could be rewritten in\n  any language.  Yet it wouldn’t have been written in the first place\n  if it weren’t for Lisp.\n \n\nI like to keep a Lisp REPL open in my Emacs for tinkering around\n  with programming ideas.  It only takes a moment to hook up a REST\n  API or scrape some subprocess output, so I have a library of\n  primitives that can talk to our internal build tools and other\n  auxiliary tools such as GitHub or CircleCI. This comes in handy for\n  random ad hoc scripting.\nI found out that CircleCI is written in Clojure, and if you connect\n  to your local CircleCI server, you can start a REPL and run\n  queries on the internal CircleCI database.  Naturally, I\n  hooked up my local …",
           "link": "http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html",
           "publishedOn": "2023-06-08T19:42:00.000Z",
-          "wordCount": 3961,
+          "wordCount": 3964,
           "title": "Joe Marshall: Lisp Essential, But Not Required",
           "imageUrl": null
         },
@@ -391,16 +401,6 @@
           "wordCount": 788,
           "title": "vindarel: Pretty GUIs now: nodgui comes with a pre-installed nice looking theme",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
-          "author": null,
-          "description": "It turns out there’s a nice functional variation of\n  raytracing called raymarching.  The algorithms involved are simple\n  and elegant.  The learning curve is shallow and you can generate\n  great looking images without hairy trig or linear algebra.\n \n\nWe’ll follow the example of Georges Seurat and simply compute\n  the color independently for each of myriads of pixels.  This is efficiently done\n  in parallel in real time on a GPU, but then you have to use shader\n  language and I want to use Lisp.  It is insanely inefficient to do\n  this serially on the CPU in Lisp, but still fast enough to render an\n  image in a couple of seconds.\nImagine you have some scene you want to render.  There is a volume\n  of 3-dimensional space the scene occupies.  Now imagine we know for\n  every point in 3-dimens…",
-          "link": "http://funcall.blogspot.com/2023/05/raymarching-in-lisp.html",
-          "publishedOn": "2023-05-30T12:26:00.000Z",
-          "wordCount": 4289,
-          "title": "Joe Marshall: Raymarching in Lisp",
-          "imageUrl": null
         }
       ]
     },
@@ -796,29 +796,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-08T00:35:01.150Z",
+          "publishedOn": "2023-07-09T00:41:10.339Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-08T00:34:59.823Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-08T00:34:59.676Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,19 +806,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-08T00:34:59.571Z",
+          "publishedOn": "2023-07-09T00:41:09.534Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-08T00:34:59.560Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-07-09T00:41:09.166Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -846,9 +826,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-08T00:34:59.449Z",
+          "publishedOn": "2023-07-09T00:41:09.143Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-07-09T00:41:09.139Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-09T00:41:09.075Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -856,7 +856,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-08T00:34:59.430Z",
+          "publishedOn": "2023-07-09T00:41:08.625Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
