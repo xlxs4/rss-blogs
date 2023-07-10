@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -308,7 +308,7 @@
           "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
           "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "publishedOn": "2023-07-08T17:21:00.000Z",
-          "wordCount": 3731,
+          "wordCount": 3848,
           "title": "Joe Marshall: Playing with AI",
           "imageUrl": null
         },
@@ -796,19 +796,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-09T00:41:10.339Z",
+          "publishedOn": "2023-07-10T00:36:47.234Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-09T00:41:09.534Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-07-10T00:36:46.044Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-09T00:41:09.166Z",
+          "publishedOn": "2023-07-10T00:36:46.041Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -826,19 +826,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-09T00:41:09.143Z",
+          "publishedOn": "2023-07-10T00:36:45.992Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-09T00:41:09.139Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -846,9 +836,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-09T00:41:09.075Z",
+          "publishedOn": "2023-07-10T00:36:45.987Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-07-10T00:36:45.980Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -856,7 +856,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-09T00:41:08.625Z",
+          "publishedOn": "2023-07-10T00:36:45.970Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -868,6 +868,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/how-to-deploy-algorithms-anywhere",
+          "author": "Matthijs Cox",
+          "description": "Let's say you are an incredible scientific programmer. You've got some pretty math, machine learning model or scientific computing code. And you want to give it to other users. Maybe even turn it into a real product and make a profit from your work. How do you \"deploy\" that piece of code? Most scientists do not think much about this problem at all, but it can have a great influence on how you should develop your code.\nBasically, we need to take what you developed, turn it into something which can be given to the user, so they can install and use it in their computing environment. What to provide depends entirely on the environment of the user. So you'll first need to understand that: the so called \"production environment\", the environment in which your \"product\" or service will operate.\n\nT…",
+          "link": "https://scientificcoder.com/how-to-deploy-algorithms-anywhere",
+          "publishedOn": "2023-07-09T12:41:35.000Z",
+          "wordCount": 13778,
+          "title": "How to deploy algorithms anywhere?",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1688895403637%2Fca806aa8-49ad-41dd-ab25-b3ba2db8ffe6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/fruity-composable-design-patterns-in-julia",
           "author": "Matthijs Cox",
