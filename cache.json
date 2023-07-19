@@ -806,19 +806,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-18T00:55:56.434Z",
+          "publishedOn": "2023-07-19T00:57:43.034Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-18T00:55:55.440Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,7 +816,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-18T00:55:55.436Z",
+          "publishedOn": "2023-07-19T00:57:42.429Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -836,19 +826,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-18T00:55:55.428Z",
+          "publishedOn": "2023-07-19T00:57:42.425Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-18T00:55:55.406Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -856,9 +836,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-18T00:55:55.403Z",
+          "publishedOn": "2023-07-19T00:57:41.975Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-07-19T00:57:41.804Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-07-19T00:57:41.787Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -866,7 +866,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-18T00:55:55.323Z",
+          "publishedOn": "2023-07-19T00:57:41.715Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -878,6 +878,16 @@
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
       "articles": [
+        {
+          "id": "https://scientificcoder.com/user-defined-show-method-in-julia",
+          "author": "Matthijs Cox",
+          "description": "I often find myself looking for a way to write custom display methods for Julia types on the REPL. Time to write it down in a short pragmatic blog post, for you and my future self.\nWhat's the issue? When exploring on the Julia REPL or in notebooks, you display your own custom type, then it doesn't look always look the most informative. Let's say you have some type:\nstruct MyType\n    some_number::Float64\n    some_dict::Dict\nend\n\nYou can quickly make an object and display it.\njulia> obj = MyType(4.0, Dict(:x => 5))\nMyType(4.0, Dict(:x => 5))\n\nOkay... Julia basically shows the constructor of the object. I would like to see the field names, or maybe other information. Sometimes I want to see statistical properties for example, instead of the raw data.\nAs an alternative, to quickly see the fiel…",
+          "link": "https://scientificcoder.com/user-defined-show-method-in-julia",
+          "publishedOn": "2023-07-18T13:24:13.000Z",
+          "wordCount": 5761,
+          "title": "User-defined Show Method in Julia",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689686215391%2F469dd124-564a-4ccf-a118-c1c9f885f6b6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
         {
           "id": "https://scientificcoder.com/juliacon-local-eindhoven-2023",
           "author": "Matthijs Cox",
