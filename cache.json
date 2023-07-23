@@ -806,19 +806,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-22T00:32:21.436Z",
+          "publishedOn": "2023-07-23T00:34:30.735Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-22T00:32:20.330Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -826,7 +816,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-22T00:32:20.308Z",
+          "publishedOn": "2023-07-23T00:34:29.673Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -836,9 +826,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-22T00:32:20.291Z",
+          "publishedOn": "2023-07-23T00:34:29.528Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-23T00:34:29.482Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -846,7 +846,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-22T00:32:20.216Z",
+          "publishedOn": "2023-07-23T00:34:29.398Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -856,7 +856,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-22T00:32:20.079Z",
+          "publishedOn": "2023-07-23T00:34:29.348Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -866,7 +866,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-22T00:32:19.961Z",
+          "publishedOn": "2023-07-23T00:34:29.204Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -1056,6 +1056,16 @@
       "siteUrl": "https://reader.tymoon.eu/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/430",
+          "author": null,
+          "description": "I don't like sleeping. I like the idea of sleep, but the practise of it seems all too often fraught with issues for me. I do consider myself fortunate that I don't suffer from any major sleeping disabilities like insomnia, but my quality of sleep is nevertheless far from ideal, despite adhering to a rather strict and regular sleeping schedule.\nI frequently grind my teeth during sleep, and so have started wearing a denture during the night. The denture makes things permanently uncomfortable, and I honestly don't know if it's the major cause of me grinding my teeth at this point. I definitely wouldn't be surprised at all if it exacerbates the problem. I don't know why I grind my teeth, though I figure that since most of the time I can't remember my dreams at all, and when I do, they're usual…",
+          "link": "https://reader.tymoon.eu/article/430",
+          "publishedOn": "2023-07-22T08:59:01.000Z",
+          "wordCount": 2083,
+          "title": "Die Toteninsel - Confession 91",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2537"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/429",
           "author": null,
           "description": "Hello everyone. It's been a while since the last update. I apologise for the silence, things have slipped out of habit a little bit, and besides there's just been a lot of work on things that aren't easy to talk about. I'm still stuck in the R&D phase for the next game, and probably will continue to be there for a few more months before I can properly enter pre-production.\nI've really needed some space away from Kandria for a while, too. I did still release patches in the meantime to fix some egregious problems and bring the source back up to date with the latest changes in the Trial engine. The final DLC update with official modding support is still in the works, but given how little response there's been to the level editor update I'm not making it a big priority.\nThe financials for Kand…",
@@ -1144,16 +1154,6 @@
           "wordCount": 117,
           "title": "Kandria releases in one week on January 11!",
           "imageUrl": "https://filebox.tymoon.eu//file/TWpZek5RPT0="
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/419",
-          "author": null,
-          "description": "It's that time of the year again! The end of it. And what a year it's been for Kandria. We're now less than two weeks away from the release. Yikes! Or should I say, woah! Well, let's take a moment and look at some of all of the things that happened, before we look at what the future may possibly hold in store for us. At least, if I have anything to say about it.\nHonestly, so many things happened that I barely remember most of them. I had to go back through the monthly reviews to remember all of it. But then again, I've always been rather terrible at remembering things that far back in any chronologically complete manner. I won't be going over stuff in chronological order, either, but instead will touch on a bunch of individual topics. Let's start out with\nConferences\nIn 2022 we were presen…",
-          "link": "https://reader.tymoon.eu/article/419",
-          "publishedOn": "2022-12-30T21:14:23.000Z",
-          "wordCount": 1858,
-          "title": "2022 for Kandria in Review",
-          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2327"
         }
       ]
     }

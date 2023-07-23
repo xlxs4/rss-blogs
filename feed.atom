@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-22T00:32:23.551Z</id>
+    <id>urn:2023-07-23T00:34:30.763Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-07-22T00:32:23.551Z</updated>
+    <updated>2023-07-23T00:34:30.763Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-07-22T00:32:21.436Z</updated>
+        <updated>2023-07-23T00:34:30.735Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-07-22T00:32:20.330Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +19,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-07-22T00:32:20.308Z</updated>
+        <updated>2023-07-23T00:34:29.673Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-07-22T00:32:20.291Z</updated>
+        <updated>2023-07-23T00:34:29.528Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-07-23T00:34:29.482Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-07-22T00:32:20.216Z</updated>
+        <updated>2023-07-23T00:34:29.398Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-07-22T00:32:20.079Z</updated>
+        <updated>2023-07-23T00:34:29.348Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,10 +69,21 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-07-22T00:32:19.961Z</updated>
+        <updated>2023-07-23T00:34:29.204Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Die Toteninsel - Confession 91]]></title>
+        <id>https://reader.tymoon.eu/article/430</id>
+        <link href="https://reader.tymoon.eu/article/430"/>
+        <updated>2023-07-22T08:59:01.000Z</updated>
+        <summary type="html"><![CDATA[I don't like sleeping. I like the idea of sleep, but the practise of it seems all too often fraught with issues for me. I do consider myself fortunate that I don't suffer from any major sleeping disabilities like insomnia, but my quality of sleep is nevertheless far from ideal, despite adhering to a rather strict and regular sleeping schedule.
+I frequently grind my teeth during sleep, and so have started wearing a denture during the night. The denture makes things permanently uncomfortable, and I honestly don't know if it's the major cause of me grinding my teeth at this point. I definitely wouldn't be surprised at all if it exacerbates the problem. I don't know why I grind my teeth, though I figure that since most of the time I can't remember my dreams at all, and when I do, they're usual…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -1317,19 +1328,6 @@ Between work and family, I don’t have a lot of free time. When I do get a few 
 I also …]]></summary>
         <author>
             <name>Squid's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022 for Kandria in Review]]></title>
-        <id>https://reader.tymoon.eu/article/419</id>
-        <link href="https://reader.tymoon.eu/article/419"/>
-        <updated>2022-12-30T21:14:23.000Z</updated>
-        <summary type="html"><![CDATA[It's that time of the year again! The end of it. And what a year it's been for Kandria. We're now less than two weeks away from the release. Yikes! Or should I say, woah! Well, let's take a moment and look at some of all of the things that happened, before we look at what the future may possibly hold in store for us. At least, if I have anything to say about it.
-Honestly, so many things happened that I barely remember most of them. I had to go back through the monthly reviews to remember all of it. But then again, I've always been rather terrible at remembering things that far back in any chronologically complete manner. I won't be going over stuff in chronological order, either, but instead will touch on a bunch of individual topics. Let's start out with
-Conferences
-In 2022 we were presen…]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
