@@ -410,6 +410,16 @@
       "siteUrl": "https://hypirion.com",
       "articles": [
         {
+          "id": "https://hypirion.com/musings/go-stly-access-rights",
+          "author": null,
+          "description": "With phantom types, we can make a static access control system in Go that will detect errors and act as easy-to-read documentation. Here's how you do it.",
+          "link": "https://hypirion.com/musings/go-stly-access-rights",
+          "publishedOn": "2023-07-23T14:00:00.000Z",
+          "wordCount": 2148,
+          "title": "Go-stly Access Rights",
+          "imageUrl": "https://hypirion.com/thumbnails/screampher.jpg"
+        },
+        {
           "id": "https://hypirion.com/musings/spectral-contexts-in-go",
           "author": null,
           "description": "Go has phantom types, and we can use them to attach singletons to contexts. Here is a short post on how to do just that.",
@@ -569,7 +579,7 @@
           "description": "A plea to technical writers: Please stop inventing abbreviations and acronyms without defining them.",
           "link": "https://www.lambdasierra.com/2023/abbreviating/",
           "publishedOn": "2023-06-03T18:30:00.000Z",
-          "wordCount": 747,
+          "wordCount": 800,
           "title": "Stop Abbreviating!",
           "imageUrl": "https://www.lambdasierra/2023/img/flowchart.svg"
         },
@@ -648,6 +658,16 @@
       "siteUrl": "https://www.evalapply.org/",
       "articles": [
         {
+          "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-midway-refactor/",
+          "author": null,
+          "description": "Or the one in which we confront our elisp n00bishness and try to be better at using it. And we learn new habits to understand our Emacs better. Better late than never.",
+          "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-midway-refactor/index.html",
+          "publishedOn": "2023-07-23T00:00:00.000Z",
+          "wordCount": 1762,
+          "title": "Emerging from dotemacs bankruptcy the hard way: the midway refactor",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-packages/",
           "author": null,
           "description": "Elpa, Melpa, git repo. Vendor package straight from source. It compiled? Fetch some more! Elpa, Melpa, git repo. In more adult terms, we learn to use use-package to fetch, install, initialise, configure useful packages that enhance our Emacs experience.",
@@ -700,10 +720,10 @@
         {
           "id": "https://www.evalapply.org/posts/cold-restart-total-outage/",
           "author": null,
-          "description": "\"What are folks’ views on systems so large where cold-starting the whole system is almost impossible?\"... — M'colleague In A Slackroom Next Door.",
+          "description": "\"What are folks’ views on systems so large where cold-starting the whole system is almost impossible?\"... — M'colleague, Shivam, In A Slackroom Next Door.",
           "link": "https://www.evalapply.org/posts/cold-restart-total-outage/index.html",
           "publishedOn": "2023-04-07T00:00:00.000Z",
-          "wordCount": 1157,
+          "wordCount": 1171,
           "title": "Cold restart whole system after total outage",
           "imageUrl": null
         },
@@ -806,9 +826,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-23T00:34:30.735Z",
+          "publishedOn": "2023-07-24T00:32:19.404Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-24T00:32:18.436Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -816,7 +846,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-23T00:34:29.673Z",
+          "publishedOn": "2023-07-24T00:32:18.423Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -826,19 +856,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-23T00:34:29.528Z",
+          "publishedOn": "2023-07-24T00:32:18.412Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-23T00:34:29.482Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -846,19 +866,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-23T00:34:29.398Z",
+          "publishedOn": "2023-07-24T00:32:18.409Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-23T00:34:29.348Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -866,9 +876,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-23T00:34:29.204Z",
+          "publishedOn": "2023-07-24T00:32:18.399Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-07-24T00:32:18.386Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]
