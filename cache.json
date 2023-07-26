@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/07/25/on-the-ministry-for-the-future",
+          "author": null,
+          "description": "Good evening, comrades.  This evening, words on reading.\nSince the pandemic, or maybe a bit before, I picked up a new habit: if I hear of a book which is liked by someone I find interesting, I buy a copy.\nGetting to this point required some mental changes.  When I was younger, buying lots of books wasn’t really thinkable; as a student I was well-served by libraries in my mother tongue, and never picked up the habit of allocating my meager disposable income to books.  I did like bookstores, especially used bookstores, but since leaving university I emigrated to countries that spoke different languages; the crate-digging avenue was less accessible to me.\nI also had to make peace with capitalism, or as the comic says it, “participating in society”.  We all know that Amazon imposes a dialectic…",
+          "link": "https://wingolog.org/archives/2023/07/25/on-the-ministry-for-the-future",
+          "publishedOn": "2023-07-25T19:49:27.000Z",
+          "wordCount": 758,
+          "title": "on « the ministry for the future »",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
           "author": null,
           "description": "Good morning, hackers.  Today I'd like to pick up my series on mobile\napplication development.  To recap, we looked at:\nTaking a step back, with the exception of Ark which has a special\nrelationship to HarmonyOS and Huawei, these frameworks are all layers on\ntop of what is provided by Android or iOS.  Why would you do that?\nPresumably there are benefits to these interstitial layers; what are\nthey?\nProbably the most basic answer is that an app framework layer offers the\npromise of abstracting over the different platforms.  This way you can\njust have one mobile application development team instead of two or\nmore.  In practice you still need to test on iOS and Android at least,\nbut this is cheaper than having fully separate Android and iOS teams.\nGiven that we are abstracting over platforms, …",
@@ -283,16 +293,6 @@
           "publishedOn": "2023-03-20T09:06:42.000Z",
           "wordCount": 5426,
           "title": "a world to win: webassembly for the rest of us",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
-          "author": null,
-          "description": "Hey comrades, I just had an idea that I won't be able to work on in the\nnext couple months and wanted to release it into the wild.  They say if\nyou love your ideas, you should let them go and see if they come back to\nyou, right?  In that spirit I abandon this idea to the woods.\nBasically the idea is , but for modules\nthat store their data on the GC-managed heap instead of just in linear\nmemory.Wizer-like pre-initialization of WebAssembly\nmodules\nSay you have a WebAssembly module with .\nIt might look like this:GC\ntypes\nYou define some struct and array types, there are some global variables,\nand some functions to actually do the work.  (There are probably also\ntables and other things but I am simplifying.)\nIf you consider the object graph of an instantiated module, you will\nhave some set of …",
-          "link": "https://wingolog.org/archives/2023/03/10/pre-initialization-of-garbage-collected-webassembly-heaps",
-          "publishedOn": "2023-03-10T09:20:33.000Z",
-          "wordCount": 1421,
-          "title": "pre-initialization of garbage-collected webassembly heaps",
           "imageUrl": null
         }
       ]
@@ -826,7 +826,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-25T00:32:53.719Z",
+          "publishedOn": "2023-07-26T00:30:57.276Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -836,29 +836,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-25T00:32:52.933Z",
+          "publishedOn": "2023-07-26T00:30:56.162Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-25T00:32:52.929Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-25T00:32:52.885Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -866,7 +846,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-25T00:32:52.829Z",
+          "publishedOn": "2023-07-26T00:30:56.001Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -876,9 +856,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-25T00:32:52.790Z",
+          "publishedOn": "2023-07-26T00:30:55.990Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-26T00:30:55.932Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-07-26T00:30:55.909Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -886,7 +886,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-25T00:32:52.754Z",
+          "publishedOn": "2023-07-26T00:30:55.891Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
