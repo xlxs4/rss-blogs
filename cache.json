@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -303,12 +303,32 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
+          "author": null,
+          "description": "Follow me along this garden path (based on true events).\nWe have a nifty program and we want it to be flexible, so it has a\n  config file.  We make up some sort of syntax that indicates\n  key/value pairs.  Maybe we’re hipsters and use YAML.  Life is good.\nBut we find that we to configure something dynamically, say based\n  on the value of an environment variable.  So we add some escape\n  syntax to the config file to indicate that a value is a variable\n  rather than a literal.  But sometimes the string needs a little work\n  done to it, so we add some string manipulation features to the\n  escape syntax.\nAnd when we deploy the program, we find that we’ve want to\n  conditionalize part of the configuration based on the deployment, so\n  we add a conditional syntax to our config language.  But\n  conditionals are predicated on boolean values, so we add booleans to\n  our config syntax.  Or maybe we make strings do double duty.  Of\n  course we need the basic boolean operators, too.\nBut there’s a lot of duplication across our configurations, so we\n  add the ability to indirectly refer to other config files.  That\n  helps to some extent, but there’s a lot of stuff that is almost\n  duplicated, except for a little variation.  So we add a way to make\n  a configuration template.  Templating needs variables and quoting,\n  so we invent a syntax for those as well.\nWe’re building a computer language by accident, and without a clear\n  plan it is going to go poorly.  Are there data types (aside from\n  strings)?  Is there a coherent type system?  Are the variables\n  lexically scoped?  Is it call-by-name or call-by-value?  Is it\n  recursive?  Does it have first class (or even second class)\n  procedures?  Did we get nested escaping right?  How about quoted\n  nested escaping?  And good grief our config language is in YAML!\nIf we had some forethought, we would have realized that we were\n  designing a language and we would have put the effort into making it\n  a good one.  If we’re lazy, we’d just pick an existing good\n  language.  Like Lisp.",
+          "link": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
+          "publishedOn": "2023-07-26T18:13:00.000Z",
+          "wordCount": 3813,
+          "title": "Joe Marshall: The Garden Path",
+          "imageUrl": null
+        },
+        {
+          "id": "http://quotenil.com/dref.html",
+          "author": null,
+          "description": "DEFSECTION needs to refer to definitions that do not create a\nfirst-class object (e.g. stuff like (*DOCUMENT-LINK-TO-HYPERSPEC*\nVARIABLE)), and since its original release in 2014, a substantial\npart of\nPAX dealt\nwith locatives and references, which reify definitions. This release\nfinally factors that code out into a library called\nDRef,\nallowing PAX to focus on documentation. Being very young, DRef lives\nunder adult supervision, in a\nsubdirectory\nof the PAX repository.\nDREF> (definitions 'pax:document-object*)\n(#<DREF DOCUMENT-OBJECT* GENERIC-FUNCTION>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX-BLOG::CATEGORY T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (UNKNOWN-DREF T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX::CLHS-DREF T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX::INCLUDE-DR…",
+          "link": "http://quotenil.com/dref.html",
+          "publishedOn": "2023-07-26T00:00:00.000Z",
+          "wordCount": 484,
+          "title": "Gábor Melis: DRef and PAX v0.3",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "author": null,
           "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
           "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "publishedOn": "2023-07-08T17:21:00.000Z",
-          "wordCount": 3848,
+          "wordCount": 3853,
           "title": "Joe Marshall: Playing with AI",
           "imageUrl": null
         },
@@ -381,26 +401,6 @@
           "wordCount": 3964,
           "title": "Joe Marshall: Lisp Essential, But Not Required",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.n16f.net/blog/reduce-vs-fold-in-common-lisp/",
-          "author": null,
-          "description": "Introduction\nIf you have already used functional languages, you are probably familiar with\nfold, a high order function used to iterate on a collection of values to\ncombine them and return a result. You may be surprised that Common Lisp does\nnot have a fold function, but provides REDUCE which works a bit differently.\nLet us see how they differ.\nUnderstanding REDUCE\nIn its simplest form, REDUCE accepts a function and a sequence (meaning\neither a list or a vector). It then applies the function to successive pairs\nof sequence elements.\nYou can easily check what happens by tracing the function:\nCL-USER> (trace +)\nCL-USER> (reduce #'+ '(1 2 3 4 5))\n  0: (+ 1 2)\n  0: + returned 3\n  0: (+ 3 3)\n  0: + returned 6\n  0: (+ 6 4)\n  0: + returned 10\n  0: (+ 10 5)\n  0: + returned 15\n15\n\nIn this example, t…",
-          "link": "https://www.n16f.net/blog/reduce-vs-fold-in-common-lisp/",
-          "publishedOn": "2023-06-02T18:00:00.000Z",
-          "wordCount": 915,
-          "title": "Nicolas Martyanoff: Reduce vs fold in Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/",
-          "author": null,
-          "description": "Being able to load a custom theme is great, but it would be even\nbetter if we didn’t have to manually install one.\nWell, recent changes in nodgui from\nyesterday and today just dramatically improved the GUI situation for\nCommon Lisp[0].\nnodgui now ships the yaru theme\n@cage commited the Yaru theme from ttkthemes in nodgui’s repository, and we added QoL improvements. To use it, now you can simply do:\n(with-nodgui ()\n  (use-theme \"yaru\")\n  ...)\n\nor\n(with-nodgui (:theme \"yaru\")\n  ...)\n\nor\n(setf nodgui:*default-theme* \"yaru\")\n(with-nodgui ()\n  ...)\n\nYaru looks like this:\n\n\n\nNo, it isn’t native, but it doesn’t look like the 50s either.\nSee my previous post for more themes, screenshots and instructions to load a third-party theme. Forest Light is nice too!\nTry the demos\nTry the demos with this th…",
-          "link": "https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/",
-          "publishedOn": "2023-06-01T17:03:35.000Z",
-          "wordCount": 788,
-          "title": "vindarel: Pretty GUIs now: nodgui comes with a pre-installed nice looking theme",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -826,7 +826,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-26T00:30:57.276Z",
+          "publishedOn": "2023-07-27T00:30:33.213Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -836,39 +836,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-26T00:30:56.162Z",
+          "publishedOn": "2023-07-27T00:30:32.520Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-26T00:30:56.001Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-26T00:30:55.990Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-26T00:30:55.932Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -876,9 +846,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-26T00:30:55.909Z",
+          "publishedOn": "2023-07-27T00:30:32.347Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-07-27T00:30:32.218Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -886,9 +866,29 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-26T00:30:55.891Z",
+          "publishedOn": "2023-07-27T00:30:32.199Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-07-27T00:30:32.190Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-07-27T00:30:32.098Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]
