@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -308,7 +308,7 @@
           "description": "Follow me along this garden path (based on true events).\nWe have a nifty program and we want it to be flexible, so it has a\n  config file.  We make up some sort of syntax that indicates\n  key/value pairs.  Maybe we’re hipsters and use YAML.  Life is good.\nBut we find that we to configure something dynamically, say based\n  on the value of an environment variable.  So we add some escape\n  syntax to the config file to indicate that a value is a variable\n  rather than a literal.  But sometimes the string needs a little work\n  done to it, so we add some string manipulation features to the\n  escape syntax.\nAnd when we deploy the program, we find that we’ve want to\n  conditionalize part of the configuration based on the deployment, so\n  we add a conditional syntax to our config language.  But\n  conditionals are predicated on boolean values, so we add booleans to\n  our config syntax.  Or maybe we make strings do double duty.  Of\n  course we need the basic boolean operators, too.\nBut there’s a lot of duplication across our configurations, so we\n  add the ability to indirectly refer to other config files.  That\n  helps to some extent, but there’s a lot of stuff that is almost\n  duplicated, except for a little variation.  So we add a way to make\n  a configuration template.  Templating needs variables and quoting,\n  so we invent a syntax for those as well.\nWe’re building a computer language by accident, and without a clear\n  plan it is going to go poorly.  Are there data types (aside from\n  strings)?  Is there a coherent type system?  Are the variables\n  lexically scoped?  Is it call-by-name or call-by-value?  Is it\n  recursive?  Does it have first class (or even second class)\n  procedures?  Did we get nested escaping right?  How about quoted\n  nested escaping?  And good grief our config language is in YAML!\nIf we had some forethought, we would have realized that we were\n  designing a language and we would have put the effort into making it\n  a good one.  If we’re lazy, we’d just pick an existing good\n  language.  Like Lisp.",
           "link": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
           "publishedOn": "2023-07-26T18:13:00.000Z",
-          "wordCount": 3813,
+          "wordCount": 3851,
           "title": "Joe Marshall: The Garden Path",
           "imageUrl": null
         },
@@ -826,39 +826,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-07-27T00:30:33.213Z",
+          "publishedOn": "2023-07-28T00:30:49.740Z",
           "wordCount": 702,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-07-27T00:30:32.520Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-07-27T00:30:32.347Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-07-27T00:30:32.218Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -866,9 +836,29 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-07-27T00:30:32.199Z",
+          "publishedOn": "2023-07-28T00:30:48.635Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-07-28T00:30:48.243Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-07-28T00:30:48.239Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -876,7 +866,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-07-27T00:30:32.190Z",
+          "publishedOn": "2023-07-28T00:30:48.233Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -886,9 +876,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-07-27T00:30:32.098Z",
+          "publishedOn": "2023-07-28T00:30:48.217Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-07-28T00:30:48.204Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         }
       ]
