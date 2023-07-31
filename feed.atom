@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-30T00:34:01.049Z</id>
+    <id>urn:2023-07-31T00:31:22.397Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-07-30T00:34:01.049Z</updated>
+    <updated>2023-07-31T00:31:22.397Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-07-30T00:34:00.995Z</updated>
+        <updated>2023-07-31T00:31:20.398Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-07-31T00:31:19.532Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-07-31T00:31:19.530Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-07-31T00:31:19.472Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,7 +49,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-07-30T00:33:59.897Z</updated>
+        <updated>2023-07-31T00:31:19.448Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,38 +59,8 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-07-30T00:33:59.885Z</updated>
+        <updated>2023-07-31T00:31:19.444Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-07-30T00:33:59.805Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-07-30T00:33:59.618Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-07-30T00:33:59.613Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,10 +69,26 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-07-30T00:33:59.599Z</updated>
+        <updated>2023-07-31T00:31:19.347Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fibonacci Matrix]]></title>
+        <id>https://ianthehenry.com/posts/fibonacci/</id>
+        <link href="https://ianthehenry.com/posts/fibonacci/"/>
+        <updated>2023-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When you think about the Fibonacci sequence, you probably imagine a swirling vortex of oscillating points stretching outwards to infinity:
+
+
+
+Okay, no, obviously you don’t. Yet.
+When you think about the Fibonacci sequence, you probably flush with a latent rage when you remember that it is, more often than not, the way that we introduce the concept of “recursive functions” to new programmers, in some sort of cruel hazing intended to make it harder for them to ever appreciate how recursion can help them write better programs. Sometimes we even add memoization, and call it “dynamic programming,” in order to impress upon them that even the most trivial problems deserve complex, inefficient solutions.
+Er, okay, you probably don’t think about the Fibonacci sequence much at all. It doesn’t, you k…]]></summary>
+        <author>
+            <name>Ian Henry</name>
         </author>
     </entry>
     <entry>
@@ -1512,20 +1528,6 @@ I’ll give a brief summary of all my materials here below.
 Continuous vs Discrete Differentiation of Solvers
 AD of a solver can be done in essentially two different ways: either directly performing automatic  ... READ MORE
 The post Direct Automatic Differentiation of (Differential Equation) Solvers vs Analytical Adjoints: Which is Better? appeared first on Stochastic Lifestyle.]]></summary>
-        <author>
-            <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately?]]></title>
-        <id>https://www.stochasticlifestyle.com/?p=1670</id>
-        <link href="http://www.stochasticlifestyle.com/is-differentiable-programming-actually-necessary-cant-you-just-train-separately/"/>
-        <updated>2022-10-04T07:38:56.000Z</updated>
-        <summary type="html"><![CDATA[Is differentiable programming actually necessary, or can you just train the neural network in isolation against data and then stick the trained neural network into the simulation? We looked at this problem in detail in our new manuscript titled Capturing missing physics in climate model parameterizations using neural differential equations.
-The goal of this project is to understand temperature mixing in large eddy simulations, essentially columns of water in the ocean. I.e., can we take a “true” 3D Navier-Stokes and use that to build very quick and accurate models for how heat flows up and down in the water?
-
-This isn’t a new problem: climate scientists  ... READ MORE
-The post Is Differentiable Programming Actually Necessary? Can’t you just train the neural networks separately? appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
         </author>
