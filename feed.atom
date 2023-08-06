@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-05T00:30:31.670Z</id>
+    <id>urn:2023-08-06T00:28:18.575Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-08-05T00:30:31.670Z</updated>
+    <updated>2023-08-06T00:28:18.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-08-05T00:30:27.607Z</updated>
+        <updated>2023-08-06T00:28:18.443Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,28 +19,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-08-05T00:30:26.888Z</updated>
+        <updated>2023-08-06T00:28:17.452Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-08-05T00:30:26.879Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-08-05T00:30:26.875Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +29,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-08-05T00:30:26.872Z</updated>
+        <updated>2023-08-06T00:28:17.440Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,8 +39,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-08-05T00:30:26.868Z</updated>
+        <updated>2023-08-06T00:28:17.435Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-08-06T00:28:17.385Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,10 +59,61 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-08-05T00:30:26.847Z</updated>
+        <updated>2023-08-06T00:28:17.353Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-08-06T00:28:17.350Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Off-sides Penalty]]></title>
+        <id>http://funcall.blogspot.com/2023/08/off-sides-penalty.html</id>
+        <link href="http://funcall.blogspot.com/2023/08/off-sides-penalty.html"/>
+        <updated>2023-08-05T18:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Many years ago I was under the delusion that if Lisp were more
+  “normal looking” it would be adopted more readily.  I
+  thought that maybe inferring the block structure from the
+  indentation (the “off-sides rule”) would make Lisp
+  easier to read.  It does, sort of.  It seems to make smaller
+  functions easier to read, but it seems to make it harder to read
+  large functions — it's too easy to forget how far you are
+  indented if there is a lot of vertical distance.
+ I was
+  feeling pretty good about this idea until I tried to write a macro.
+  A macro’s implementation function has block structure, but so does
+  the macro’s replacement text.  It becomes ambiguous whether the
+  indentation is indicating block boundaries in the macro body or in
+  it’s expansion.
+A decent macro needs a templating system.  Lisp has backquote (aka
+  quasiquote).  But notice that unquoting comes in both a splicing and
+  non-splicing form.  A macro that used the off-sides rule would need
+  templating that also had indenting and non-indenting unquoting
+  forms.  Trying to figure out the right combination of unquoting
+  would be a nightmare.
+The off-sides rule doesn’t work for macros that have non-standard
+  indentation.  Consider if you wanted to write a macro similar
+  to unwind-protect or try…finally.
+  Or if you want to have a macro that expands into just
+  the finally clause.
+It became clear to me that there were going to be no simple rules.
+  It would be hard to design, hard to understand, and hard to use.
+  Even if you find parenthesis annoying, they are relatively simple to
+  understand and simple to use, even in complicated situations. This
+  isn’t to say that you couldn’t cobble together a macro
+  system that used the off-sides rule, it would just be much more
+  complicated and klunkier than Lisp’s.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -597,31 +638,6 @@ I previously built  and blogged about a handheld computer designed by uLisp’s 
 uLisp is controlled by a serial port.  People on the uLisp forum have posted various ways to do this, including some Emacs methods.  They required external software though, and I wanted something that would run in Emacs with no external dependencies.  Emacs has make-serial-process and serial-term built-in, so I wondered if I could make a REPL using those.  The result is ulisp-repl which I published to GNU ELPA.  Here is an asciinema screencast of installing and using it.  You can pause the video and copy text out of it to try in your Emacs session.
 This inline player uses only free and open source JavaScript.  Or you can download ulisp-repl-1.cast and play it with the asciinema command line player.
 It has syntax highlighting on the current line.  It might be cool to also implement a SLIME server in Emacs itself (and have SLIME connect to the current Emacs process instead of an external one) but uLisp programs are usually small, so it’s easy enough to copy-n-paste Lisp snippets into the REPL.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Lisp Essential, But Not Required]]></title>
-        <id>http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html</id>
-        <link href="http://funcall.blogspot.com/2023/06/lisp-essential-but-not-required.html"/>
-        <updated>2023-06-08T19:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Here’s a weird little success story involving Lisp.  The code
-  doesn’t rely on anything specific to Lisp.  It could be rewritten in
-  any language.  Yet it wouldn’t have been written in the first place
-  if it weren’t for Lisp.
- 
-
-I like to keep a Lisp REPL open in my Emacs for tinkering around
-  with programming ideas.  It only takes a moment to hook up a REST
-  API or scrape some subprocess output, so I have a library of
-  primitives that can talk to our internal build tools and other
-  auxiliary tools such as GitHub or CircleCI. This comes in handy for
-  random ad hoc scripting.
-I found out that CircleCI is written in Clojure, and if you connect
-  to your local CircleCI server, you can start a REPL and run
-  queries on the internal CircleCI database.  Naturally, I
-  hooked up my local …]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
