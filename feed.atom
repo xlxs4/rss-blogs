@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-08T00:30:19.278Z</id>
+    <id>urn:2023-08-09T00:31:42.281Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-08-08T00:30:19.278Z</updated>
+    <updated>2023-08-09T00:31:42.281Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-08-08T00:30:19.245Z</updated>
+        <updated>2023-08-09T00:31:42.247Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-08-08T00:30:17.958Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,28 +19,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-08-08T00:30:17.935Z</updated>
+        <updated>2023-08-09T00:31:41.338Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-08-08T00:30:17.922Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-08-08T00:30:17.911Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-08-09T00:31:41.332Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +39,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-08-08T00:30:17.880Z</updated>
+        <updated>2023-08-09T00:31:41.319Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-08-09T00:31:41.268Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,10 +59,54 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-08-08T00:30:17.628Z</updated>
+        <updated>2023-08-09T00:31:41.220Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-08-09T00:31:41.183Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Selbstsamkeit - Confession 92]]></title>
+        <id>https://reader.tymoon.eu/article/431</id>
+        <link href="https://reader.tymoon.eu/article/431"/>
+        <updated>2023-08-08T21:11:52.000Z</updated>
+        <summary type="html"><![CDATA[If you've read any of my preceding entries I would expect it to come as no surprise to you to see me write "accepting who you are is really difficult." Though today I want to write about a few different facets of that than just the one you may be thinking about right now.
+Naturally, for only recently coming out as trans, accepting that I am a woman is a large part of what's been coursing through my brain. I know with absolute certainty by now that I'm not wrong on this, and yet it's still not easy to fully come to terms with it and not just know it, but also understand it completely. I know that coming out as trans did not change me, but rather let me be who I've always been, even more so. Despite that it's still not obvious even to me which of the many fragments of my personality that wer…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[a negative result]]></title>
+        <id>https://wingolog.org/archives/2023/08/08/a-negative-result</id>
+        <link href="https://wingolog.org/archives/2023/08/08/a-negative-result"/>
+        <updated>2023-08-08T09:03:25.000Z</updated>
+        <summary type="html"><![CDATA[Update: I am delighted to have been wrong!  See the end.
+Briefly, an interesting negative result: consider benchmarks , ,
+ and so on, with associated  and  files.  Consider libraries
+ and , with their  and  files.  You want to run each
+benchmark against each library.b1b2b3.c.hpq.c.h
+P and Q implement the same API, but they have different ABI: you need to
+separately compile each benchmark for each library.  You also need to
+separate compile each library for each benchmark, because  also
+uses an abstract API implemented by , , and so on.p.cb1.hb2.h
+The problem: can you implement a short GNU  that produces
+executables , , , , and so on?Makefileb1.pb1.qb2.pb2.q
+The answer would appear to be "no".
+You might think that with  and all the other functions available
+to you, that surely this could be…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -1191,29 +1225,6 @@ A rather short update this month, but if you're interested in the details of the
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[a world to win: webassembly for the rest of us]]></title>
-        <id>https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us</id>
-        <link href="https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us"/>
-        <updated>2023-03-20T09:06:42.000Z</updated>
-        <summary type="html"><![CDATA[Good day, comrades!
-Today I'd like to share the good news that WebAssembly is finally coming
-for the rest of us weirdos.
-This is a transcript-alike of a talk that I gave last week at , a gathering in Berlin of
-people that are using "technologies beyond the mainstream" to get things
-done: Haskell, Clojure, Elixir, and so on.  PDF slides , and I'll link the video too when it becomes available.BOB
-2023here
-WebAssembly: what even is it?  Not a programming language that
-you would write software in, but rather a compilation target: a sort of
-assembly language, if you will.
-If you look at what the characteristics of WebAssembly are as an
-abstract machine, to me there are two main areas in which it is an
-advance over the alternatives.
-Firstly it's "close to the metal" -- if you compile for example…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How are OCaml Programmers Called?]]></title>
         <id>https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/</id>
         <link href="https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/"/>
@@ -1361,17 +1372,6 @@ Last opportunity to wishlist the game, too: https://kandria.com/steam]]></summar
         <summary type="html"><![CDATA[Another year is behind us and it’s time for the obligatory “year in review” blog post. I’ve been feeling a bit lazy, that’s why I’m getting to writing it a bit of a delay, but you’ll forgive me.]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kandria releases in one week on January 11!]]></title>
-        <id>https://reader.tymoon.eu/article/420</id>
-        <link href="https://reader.tymoon.eu/article/420"/>
-        <updated>2023-01-04T13:30:21.000Z</updated>
-        <summary type="html"><![CDATA[In case you missed the yearly update last week: Kandria will release in one week from today, on January 11th, 15:00 CET / 09:00 EST. I hope you're as excited to play it as we are to finally get it into your hands!
-Please remember to wishlist it on Steam to make sure you don't miss it!]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
