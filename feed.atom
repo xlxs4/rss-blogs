@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-12T00:23:39.821Z</id>
+    <id>urn:2023-08-13T00:26:12.274Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-08-12T00:23:39.821Z</updated>
+    <updated>2023-08-13T00:26:12.274Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-08-12T00:23:39.262Z</updated>
+        <updated>2023-08-13T00:26:11.577Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-08-12T00:23:38.364Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-08-12T00:23:38.271Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +19,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-08-12T00:23:38.267Z</updated>
+        <updated>2023-08-13T00:26:10.723Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,8 +29,28 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-08-12T00:23:38.199Z</updated>
+        <updated>2023-08-13T00:26:10.688Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-08-13T00:26:10.647Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-08-13T00:26:10.625Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-08-12T00:23:38.028Z</updated>
+        <updated>2023-08-13T00:26:10.547Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-08-12T00:23:37.860Z</updated>
+        <updated>2023-08-13T00:26:10.442Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -116,7 +116,7 @@ to you, that surely this could be…]]></summary>
         <updated>2023-08-06T18:43:00.000Z</updated>
         <summary type="html"><![CDATA[Phantom types won't revolutionise your Go debugging experience, but it can make it slightly better! Here's one way they can help out.]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>
@@ -275,7 +275,7 @@ I also had to make peace with capitalism, or as the comic says it, “participat
         <updated>2023-07-23T14:00:00.000Z</updated>
         <summary type="html"><![CDATA[With phantom types, we can make a static access control system in Go that will detect errors and act as easy-to-read documentation. Here's how you do it.]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>
@@ -589,7 +589,7 @@ cl-jschema — Common Lisp implementati…]]></summary>
         <updated>2023-06-18T17:00:00.000Z</updated>
         <summary type="html"><![CDATA[Go has phantom types, and we can use them to attach singletons to contexts. Here is a short post on how to do just that.]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>
@@ -772,7 +772,7 @@ Yes, there are differences between them, but all of them involve turning scienti
         <updated>2023-05-28T15:45:00.000Z</updated>
         <summary type="html"><![CDATA[Like Go, GraphQL isn't at the forefront of type theory. Let's look at what I miss and whether it would be sensible to add them to the specification.]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>
@@ -1396,7 +1396,7 @@ I also …]]></summary>
         <updated>2022-12-26T14:30:00.000Z</updated>
         <summary type="html"><![CDATA[A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>
@@ -1541,7 +1541,7 @@ Tags: books]]></summary>
         <updated>2022-10-27T20:50:00.000Z</updated>
         <summary type="html"><![CDATA[I've wanted to get my Moonlander keyboard's duck key to print the duck emoji for a long time. Here's how I did it!]]></summary>
         <author>
-            <name>Polymatheia</name>
+            <name>hyPiRion</name>
         </author>
     </entry>
     <entry>

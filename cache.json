@@ -385,7 +385,7 @@
       ]
     },
     {
-      "title": "Polymatheia",
+      "title": "hyPiRion",
       "feedUrl": "https://hypirion.com/rss/all",
       "siteUrl": "https://hypirion.com",
       "articles": [
@@ -395,7 +395,7 @@
           "description": "Phantom types won't revolutionise your Go debugging experience, but it can make it slightly better! Here's one way they can help out.",
           "link": "https://hypirion.com/musings/haunting-down-errors-in-go",
           "publishedOn": "2023-08-06T18:43:00.000Z",
-          "wordCount": 1203,
+          "wordCount": 1202,
           "title": "Haunting Down Errors in Go",
           "imageUrl": "https://hypirion.com/thumbnails/this-is-fine-errnorows.png"
         },
@@ -405,7 +405,7 @@
           "description": "With phantom types, we can make a static access control system in Go that will detect errors and act as easy-to-read documentation. Here's how you do it.",
           "link": "https://hypirion.com/musings/go-stly-access-rights",
           "publishedOn": "2023-07-23T14:00:00.000Z",
-          "wordCount": 2148,
+          "wordCount": 2147,
           "title": "Go-stly Access Rights",
           "imageUrl": "https://hypirion.com/thumbnails/screampher.jpg"
         },
@@ -415,7 +415,7 @@
           "description": "Go has phantom types, and we can use them to attach singletons to contexts. Here is a short post on how to do just that.",
           "link": "https://hypirion.com/musings/spectral-contexts-in-go",
           "publishedOn": "2023-06-18T17:00:00.000Z",
-          "wordCount": 694,
+          "wordCount": 693,
           "title": "Spectral Contexts in Go",
           "imageUrl": "https://hypirion.com/thumbnails/phantom-types-in-go.jpg"
         },
@@ -425,7 +425,7 @@
           "description": "Like Go, GraphQL isn't at the forefront of type theory. Let's look at what I miss and whether it would be sensible to add them to the specification.",
           "link": "https://hypirion.com/musings/graphql-and-type-systems",
           "publishedOn": "2023-05-28T15:45:00.000Z",
-          "wordCount": 2152,
+          "wordCount": 2151,
           "title": "GraphQL and Type Systems",
           "imageUrl": null
         },
@@ -435,7 +435,7 @@
           "description": "A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?",
           "link": "https://hypirion.com/musings/on-expectations-and-fun",
           "publishedOn": "2022-12-26T14:30:00.000Z",
-          "wordCount": 1287,
+          "wordCount": 1286,
           "title": "On Expectations and Fun",
           "imageUrl": null
         },
@@ -445,7 +445,7 @@
           "description": "I've wanted to get my Moonlander keyboard's duck key to print the duck emoji for a long time. Here's how I did it!",
           "link": "https://hypirion.com/musings/duckey",
           "publishedOn": "2022-10-27T20:50:00.000Z",
-          "wordCount": 2359,
+          "wordCount": 2358,
           "title": "Teaching DucKey to Quack 🦆",
           "imageUrl": null
         }
@@ -836,29 +836,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-08-12T00:23:39.262Z",
+          "publishedOn": "2023-08-13T00:26:11.577Z",
           "wordCount": 705,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-08-12T00:23:38.364Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-08-12T00:23:38.271Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -866,7 +846,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-08-12T00:23:38.267Z",
+          "publishedOn": "2023-08-13T00:26:10.723Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -876,9 +856,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-08-12T00:23:38.199Z",
+          "publishedOn": "2023-08-13T00:26:10.688Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-08-13T00:26:10.647Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-08-13T00:26:10.625Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -886,7 +886,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-08-12T00:23:38.028Z",
+          "publishedOn": "2023-08-13T00:26:10.547Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -896,7 +896,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-08-12T00:23:37.860Z",
+          "publishedOn": "2023-08-13T00:26:10.442Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
