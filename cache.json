@@ -191,7 +191,7 @@
           "description": "Good evening, comrades.  This evening, words on reading.\nSince the pandemic, or maybe a bit before, I picked up a new habit: if I hear of a book which is liked by someone I find interesting, I buy a copy.\nGetting to this point required some mental changes.  When I was younger, buying lots of books wasn’t really thinkable; as a student I was well-served by libraries in my mother tongue, and never picked up the habit of allocating my meager disposable income to books.  I did like bookstores, especially used bookstores, but since leaving university I emigrated to countries that spoke different languages; the crate-digging avenue was less accessible to me.\nI also had to make peace with capitalism, or as the comic says it, “participating in society”.  We all know that Amazon imposes a dialectic…",
           "link": "https://wingolog.org/archives/2023/07/25/on-the-ministry-for-the-future",
           "publishedOn": "2023-07-25T19:49:27.000Z",
-          "wordCount": 833,
+          "wordCount": 819,
           "title": "on « the ministry for the future »",
           "imageUrl": null
         },
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://quotenil.com/try-in-emacs.html",
+          "author": null,
+          "description": "Try, my test anti-framework,\nhas just got light Emacs integration. Consider the following test:\n(deftest test-foo ()\n  (is (equal \"xxx\" 5))\n  (is (equal 7 7))\n  (with-failure-expected (t)\n    (is (same-set-p '(1) '(2)))))\nThe test can be run from Lisp with (test-foo) (interactive\ndebugging) or (try 'test-foo) (non-interactive), but now there is\na third option: run it from Emacs and get a couple of conveniences\nin return. In particular, with M-x mgl-try then entering\ntest-foo, a new buffer pops up with the test output, which is\nfont-locked based on the type of the outcome. The buffer also has\noutline minor mode, which matches the hierarchical structure of the\noutput.\n The buffer's major mode is\nLisp, so M-. and all the usual key bindings work. In additition,\na couple of keys bound to navigation commands are available. See the\ndocumentation\nfor the details. Note that Quicklisp has an older version of Try\nthat does not have Emacs integration, so you'll need to use\nhttps://github.com/melisgl/try\nuntil the next Quicklisp release.",
+          "link": "http://quotenil.com/try-in-emacs.html",
+          "publishedOn": "2023-08-14T00:00:00.000Z",
+          "wordCount": 216,
+          "title": "Gábor Melis: Try in Emacs",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2023/08/off-sides-penalty.html",
           "author": null,
           "description": "Many years ago I was under the delusion that if Lisp were more\n  “normal looking” it would be adopted more readily.  I\n  thought that maybe inferring the block structure from the\n  indentation (the “off-sides rule”) would make Lisp\n  easier to read.  It does, sort of.  It seems to make smaller\n  functions easier to read, but it seems to make it harder to read\n  large functions — it's too easy to forget how far you are\n  indented if there is a lot of vertical distance.\n I was\n  feeling pretty good about this idea until I tried to write a macro.\n  A macro’s implementation function has block structure, but so does\n  the macro’s replacement text.  It becomes ambiguous whether the\n  indentation is indicating block boundaries in the macro body or in\n  it’s expansion.\nA decent macro needs a templating system.  Lisp has backquote (aka\n  quasiquote).  But notice that unquoting comes in both a splicing and\n  non-splicing form.  A macro that used the off-sides rule would need\n  templating that also had indenting and non-indenting unquoting\n  forms.  Trying to figure out the right combination of unquoting\n  would be a nightmare.\nThe off-sides rule doesn’t work for macros that have non-standard\n  indentation.  Consider if you wanted to write a macro similar\n  to unwind-protect or try…finally.\n  Or if you want to have a macro that expands into just\n  the finally clause.\nIt became clear to me that there were going to be no simple rules.\n  It would be hard to design, hard to understand, and hard to use.\n  Even if you find parenthesis annoying, they are relatively simple to\n  understand and simple to use, even in complicated situations. This\n  isn’t to say that you couldn’t cobble together a macro\n  system that used the off-sides rule, it would just be much more\n  complicated and klunkier than Lisp’s.",
@@ -298,7 +308,7 @@
           "description": "Follow me along this garden path (based on true events).\nWe have a nifty program and we want it to be flexible, so it has a\n  config file.  We make up some sort of syntax that indicates\n  key/value pairs.  Maybe we’re hipsters and use YAML.  Life is good.\nBut we find that we to configure something dynamically, say based\n  on the value of an environment variable.  So we add some escape\n  syntax to the config file to indicate that a value is a variable\n  rather than a literal.  But sometimes the string needs a little work\n  done to it, so we add some string manipulation features to the\n  escape syntax.\nAnd when we deploy the program, we find that we’ve want to\n  conditionalize part of the configuration based on the deployment, so\n  we add a conditional syntax to our config language.  But\n  conditionals are predicated on boolean values, so we add booleans to\n  our config syntax.  Or maybe we make strings do double duty.  Of\n  course we need the basic boolean operators, too.\nBut there’s a lot of duplication across our configurations, so we\n  add the ability to indirectly refer to other config files.  That\n  helps to some extent, but there’s a lot of stuff that is almost\n  duplicated, except for a little variation.  So we add a way to make\n  a configuration template.  Templating needs variables and quoting,\n  so we invent a syntax for those as well.\nWe’re building a computer language by accident, and without a clear\n  plan it is going to go poorly.  Are there data types (aside from\n  strings)?  Is there a coherent type system?  Are the variables\n  lexically scoped?  Is it call-by-name or call-by-value?  Is it\n  recursive?  Does it have first class (or even second class)\n  procedures?  Did we get nested escaping right?  How about quoted\n  nested escaping?  And good grief our config language is in YAML!\nIf we had some forethought, we would have realized that we were\n  designing a language and we would have put the effort into making it\n  a good one.  If we’re lazy, we’d just pick an existing good\n  language.  Like Lisp.",
           "link": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
           "publishedOn": "2023-07-26T18:13:00.000Z",
-          "wordCount": 4014,
+          "wordCount": 4012,
           "title": "Joe Marshall: The Garden Path",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
           "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "publishedOn": "2023-07-08T17:21:00.000Z",
-          "wordCount": 3856,
+          "wordCount": 3854,
           "title": "Joe Marshall: Playing with AI",
           "imageUrl": null
         },
@@ -328,7 +338,7 @@
           "description": "Here’s a function that fails a static type check, but has no runtime type error:\n(defun foo ()\n  (sqrt (if (static-type-check? #’foo)\n        \"bogus\"\n        2.0))\nI suspect most people that favor static types will argue that this sort of program doesn’t count for some reason or other.  I think this is more an example (albeit contrived) of the limitations of static type checking.",
           "link": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
           "publishedOn": "2023-06-28T19:09:00.000Z",
-          "wordCount": 3777,
+          "wordCount": 3775,
           "title": "Joe Marshall: Fails Static Type Check, but Runs Anyway",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "On the threshold of the Northern Hemisphere's Midsummer's Eve, we unveil the second revision of the Tenth Edition of the Armed Bear Common Lisp implementation, viz. abcl-1.9.2.\n\n\nMost notably, we are pleased to present the fruits of Alejandro Zamora Fonseca's labors on an interpreted implementation of CL:STEP with the first release of the ABCL-STEPPER contrib.  See <https://abcl.org/svn/tags/1.9.2/contrib/abcl-stepper/README.markdown> for more details.  This implementation was the subject of his demonstration <https://zenodo.org/record/7815887> as this year's European Lisp Symposium.\n\n\nThe POSIX-SYSCALLS contrib now provides the ability to set environment variables under UNIX systems <https://abcl.org/trac/changeset/15700>, as well as providing an example of how best to add abstract additional functionality to the core implementation.\n\n\nThis release also features a substantially re-worked Gray Stream implementation which fixes enough our implementation to be a first class citizen of SLIME's usage.  With the next release of SLIME, one will have to use abcl-1.9.2 in order to use the slime-repl.  See <https://github.com/slime/slime/pull/765> for more details.\n\n\nThe ASDF-JAR contrib has been restored to a usable functionality, which includes re-packaging of ASDF systems from within jar files as well as better abstraction for finding non-source artifacts.  Please refer to <https://gitlab.common-lisp.net/abcl/abcl/-/blob/master/contrib/asdf-jar/README.markdown> for a refresher on what facilities ASDF-JAR provides for the aspiring ASDF packager.\n\n\nA complete list of changes may be viewed at <https://abcl.org/svn/tags/1.9.2/CHANGES>.\n\n\nThe release itself is available at <https://abcl.org/releases/1.9.2/>.\n\n\nThanks to everyone who continue to support the Bear.  Enjoy yer evening...",
           "link": "http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html",
           "publishedOn": "2023-06-21T10:39:00.000Z",
-          "wordCount": 2224,
+          "wordCount": 2222,
           "title": "ABCL Dev: A Midsummer's Eve with ABCL 1.9.2",
           "imageUrl": null
         },
@@ -370,16 +380,6 @@
           "publishedOn": "2023-06-10T00:00:00.000Z",
           "wordCount": 189,
           "title": "Gábor Melis: PAX Live Documentation Browser",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.fitzsim.org/blog/?p=681",
-          "author": null,
-          "description": "Read-Evaluate-Print Loops are great for doing quick experiments.  I recently released two new REPL packages for Emacs to GNU ELPA.  This is the second in a two part series.  Here is part 1.\nFor microcontroller projects, uLisp is a great option.  It provides a Lisp REPL on top of the Arduino libraries.  It implements a subset of Common Lisp and adds microprocessor-specific functions.\nI previously built  and blogged about a handheld computer designed by uLisp’s creator.  I also ported uLisp to the SMART Response XE.\nuLisp is controlled by a serial port.  People on the uLisp forum have posted various ways to do this, including some Emacs methods.  They required external software though, and I wanted something that would run in Emacs with no external dependencies.  Emacs has make-serial-process and serial-term built-in, so I wondered if I could make a REPL using those.  The result is ulisp-repl which I published to GNU ELPA.  Here is an asciinema screencast of installing and using it.  You can pause the video and copy text out of it to try in your Emacs session.\nThis inline player uses only free and open source JavaScript.  Or you can download ulisp-repl-1.cast and play it with the asciinema command line player.\nIt has syntax highlighting on the current line.  It might be cool to also implement a SLIME server in Emacs itself (and have SLIME connect to the current Emacs process instead of an external one) but uLisp programs are usually small, so it’s easy enough to copy-n-paste Lisp snippets into the REPL.",
-          "link": "https://www.fitzsim.org/blog/?p=681",
-          "publishedOn": "2023-06-09T16:06:44.000Z",
-          "wordCount": 437,
-          "title": "Thomas Fitzsimmons: ulisp-repl",
           "imageUrl": null
         }
       ]
@@ -826,19 +826,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-08-15T00:24:49.375Z",
+          "publishedOn": "2023-08-16T00:24:27.036Z",
           "wordCount": 705,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-08-15T00:24:48.508Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -846,29 +836,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-08-15T00:24:48.503Z",
+          "publishedOn": "2023-08-16T00:24:26.178Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-08-15T00:24:48.470Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-08-15T00:24:48.255Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-08-16T00:24:26.152Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -876,9 +856,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-08-15T00:24:48.250Z",
+          "publishedOn": "2023-08-16T00:24:26.148Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-08-16T00:24:26.143Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-08-16T00:24:26.105Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -886,7 +886,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-08-15T00:24:48.230Z",
+          "publishedOn": "2023-08-16T00:24:26.102Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null

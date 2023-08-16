@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-15T00:24:53.396Z</id>
+    <id>urn:2023-08-16T00:24:27.727Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-08-15T00:24:53.396Z</updated>
+    <updated>2023-08-16T00:24:27.727Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-08-15T00:24:49.375Z</updated>
+        <updated>2023-08-16T00:24:27.036Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-08-15T00:24:48.508Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,28 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-08-15T00:24:48.503Z</updated>
+        <updated>2023-08-16T00:24:26.178Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-08-15T00:24:48.470Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-08-15T00:24:48.255Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-08-16T00:24:26.152Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +39,28 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-08-15T00:24:48.250Z</updated>
+        <updated>2023-08-16T00:24:26.148Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-08-16T00:24:26.143Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2023-08-16T00:24:26.105Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,10 +69,42 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-08-15T00:24:48.230Z</updated>
+        <updated>2023-08-16T00:24:26.102Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gábor Melis: Try in Emacs]]></title>
+        <id>http://quotenil.com/try-in-emacs.html</id>
+        <link href="http://quotenil.com/try-in-emacs.html"/>
+        <updated>2023-08-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Try, my test anti-framework,
+has just got light Emacs integration. Consider the following test:
+(deftest test-foo ()
+  (is (equal "xxx" 5))
+  (is (equal 7 7))
+  (with-failure-expected (t)
+    (is (same-set-p '(1) '(2)))))
+The test can be run from Lisp with (test-foo) (interactive
+debugging) or (try 'test-foo) (non-interactive), but now there is
+a third option: run it from Emacs and get a couple of conveniences
+in return. In particular, with M-x mgl-try then entering
+test-foo, a new buffer pops up with the test output, which is
+font-locked based on the type of the outcome. The buffer also has
+outline minor mode, which matches the hierarchical structure of the
+output.
+ The buffer's major mode is
+Lisp, so M-. and all the usual key bindings work. In additition,
+a couple of keys bound to navigation commands are available. See the
+documentation
+for the details. Note that Quicklisp has an older version of Try
+that does not have Emacs integration, so you'll need to use
+https://github.com/melisgl/try
+until the next Quicklisp release.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -677,21 +709,6 @@ Live browsing with w3m
 
 
 Live browsing with other browsers]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thomas Fitzsimmons: ulisp-repl]]></title>
-        <id>https://www.fitzsim.org/blog/?p=681</id>
-        <link href="https://www.fitzsim.org/blog/?p=681"/>
-        <updated>2023-06-09T16:06:44.000Z</updated>
-        <summary type="html"><![CDATA[Read-Evaluate-Print Loops are great for doing quick experiments.  I recently released two new REPL packages for Emacs to GNU ELPA.  This is the second in a two part series.  Here is part 1.
-For microcontroller projects, uLisp is a great option.  It provides a Lisp REPL on top of the Arduino libraries.  It implements a subset of Common Lisp and adds microprocessor-specific functions.
-I previously built  and blogged about a handheld computer designed by uLisp’s creator.  I also ported uLisp to the SMART Response XE.
-uLisp is controlled by a serial port.  People on the uLisp forum have posted various ways to do this, including some Emacs methods.  They required external software though, and I wanted something that would run in Emacs with no external dependencies.  Emacs has make-serial-process and serial-term built-in, so I wondered if I could make a REPL using those.  The result is ulisp-repl which I published to GNU ELPA.  Here is an asciinema screencast of installing and using it.  You can pause the video and copy text out of it to try in your Emacs session.
-This inline player uses only free and open source JavaScript.  Or you can download ulisp-repl-1.cast and play it with the asciinema command line player.
-It has syntax highlighting on the current line.  It might be cool to also implement a SLIME server in Emacs itself (and have SLIME connect to the current Emacs process instead of an external one) but uLisp programs are usually small, so it’s easy enough to copy-n-paste Lisp snippets into the REPL.]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
