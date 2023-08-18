@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://quotenil.com/multifaceted-development.html",
+          "author": null,
+          "description": "Catchy title, innit? I came up with it while trying to\nname the development style PAX\nenables. I wanted something vaguely self-explanatory in a straight\nout of a marketing department kind of way, with tendrils right into\nyour unconscious. Documentation-driven development sounded just the\nthing, but it's already taken. Luckily, I came to realize that\nneither documentation nor any other single thing should drive\ndevelopment. Less luckily for the philosophically disinclined, this\nepiphany unleashed my inner Richard P.\nGabriel. I reckon\nif there is a point to what follows, it's abstract enough to make it\nhard to tell.\nIn programming, there is always a formalization step involved: we\nmust go from idea to code. Very rarely, we have a formal definition\nof the problem, but apart from purely theore…",
+          "link": "http://quotenil.com/multifaceted-development.html",
+          "publishedOn": "2023-08-17T00:00:00.000Z",
+          "wordCount": 703,
+          "title": "Gábor Melis: On Multifaceted Development and the Role of Documentation",
+          "imageUrl": null
+        },
+        {
           "id": "http://within-parens.blogspot.com/2023/08/documentingdebugging-he.html",
           "author": null,
           "description": "Hello\njust a quick summer update about some documentation cleanup and some checks on debugging HEΛP.\nHave a look at the (small) changes and keep sending feedback.\n\nCheers",
@@ -318,7 +328,7 @@
           "description": "Follow me along this garden path (based on true events).\nWe have a nifty program and we want it to be flexible, so it has a\n  config file.  We make up some sort of syntax that indicates\n  key/value pairs.  Maybe we’re hipsters and use YAML.  Life is good.\nBut we find that we to configure something dynamically, say based\n  on the value of an environment variable.  So we add some escape\n  syntax to the config file to indicate that a value is a variable\n  rather than a literal.  But sometimes the string needs a little work\n  done to it, so we add some string manipulation features to the\n  escape syntax.\nAnd when we deploy the program, we find that we’ve want to\n  conditionalize part of the configuration based on the deployment, so\n  we add a conditional syntax to our config language.  But\n  conditionals are predicated on boolean values, so we add booleans to\n  our config syntax.  Or maybe we make strings do double duty.  Of\n  course we need the basic boolean operators, too.\nBut there’s a lot of duplication across our configurations, so we\n  add the ability to indirectly refer to other config files.  That\n  helps to some extent, but there’s a lot of stuff that is almost\n  duplicated, except for a little variation.  So we add a way to make\n  a configuration template.  Templating needs variables and quoting,\n  so we invent a syntax for those as well.\nWe’re building a computer language by accident, and without a clear\n  plan it is going to go poorly.  Are there data types (aside from\n  strings)?  Is there a coherent type system?  Are the variables\n  lexically scoped?  Is it call-by-name or call-by-value?  Is it\n  recursive?  Does it have first class (or even second class)\n  procedures?  Did we get nested escaping right?  How about quoted\n  nested escaping?  And good grief our config language is in YAML!\nIf we had some forethought, we would have realized that we were\n  designing a language and we would have put the effort into making it\n  a good one.  If we’re lazy, we’d just pick an existing good\n  language.  Like Lisp.",
           "link": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
           "publishedOn": "2023-07-26T18:13:00.000Z",
-          "wordCount": 4014,
+          "wordCount": 4012,
           "title": "Joe Marshall: The Garden Path",
           "imageUrl": null
         },
@@ -338,7 +348,7 @@
           "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
           "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "publishedOn": "2023-07-08T17:21:00.000Z",
-          "wordCount": 3856,
+          "wordCount": 3854,
           "title": "Joe Marshall: Playing with AI",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "Here’s a function that fails a static type check, but has no runtime type error:\n(defun foo ()\n  (sqrt (if (static-type-check? #’foo)\n        \"bogus\"\n        2.0))\nI suspect most people that favor static types will argue that this sort of program doesn’t count for some reason or other.  I think this is more an example (albeit contrived) of the limitations of static type checking.",
           "link": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
           "publishedOn": "2023-06-28T19:09:00.000Z",
-          "wordCount": 3777,
+          "wordCount": 3775,
           "title": "Joe Marshall: Fails Static Type Check, but Runs Anyway",
           "imageUrl": null
         },
@@ -368,18 +378,8 @@
           "description": "On the threshold of the Northern Hemisphere's Midsummer's Eve, we unveil the second revision of the Tenth Edition of the Armed Bear Common Lisp implementation, viz. abcl-1.9.2.\n\n\nMost notably, we are pleased to present the fruits of Alejandro Zamora Fonseca's labors on an interpreted implementation of CL:STEP with the first release of the ABCL-STEPPER contrib.  See <https://abcl.org/svn/tags/1.9.2/contrib/abcl-stepper/README.markdown> for more details.  This implementation was the subject of his demonstration <https://zenodo.org/record/7815887> as this year's European Lisp Symposium.\n\n\nThe POSIX-SYSCALLS contrib now provides the ability to set environment variables under UNIX systems <https://abcl.org/trac/changeset/15700>, as well as providing an example of how best to add abstract additional functionality to the core implementation.\n\n\nThis release also features a substantially re-worked Gray Stream implementation which fixes enough our implementation to be a first class citizen of SLIME's usage.  With the next release of SLIME, one will have to use abcl-1.9.2 in order to use the slime-repl.  See <https://github.com/slime/slime/pull/765> for more details.\n\n\nThe ASDF-JAR contrib has been restored to a usable functionality, which includes re-packaging of ASDF systems from within jar files as well as better abstraction for finding non-source artifacts.  Please refer to <https://gitlab.common-lisp.net/abcl/abcl/-/blob/master/contrib/asdf-jar/README.markdown> for a refresher on what facilities ASDF-JAR provides for the aspiring ASDF packager.\n\n\nA complete list of changes may be viewed at <https://abcl.org/svn/tags/1.9.2/CHANGES>.\n\n\nThe release itself is available at <https://abcl.org/releases/1.9.2/>.\n\n\nThanks to everyone who continue to support the Bear.  Enjoy yer evening...",
           "link": "http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html",
           "publishedOn": "2023-06-21T10:39:00.000Z",
-          "wordCount": 2224,
+          "wordCount": 2222,
           "title": "ABCL Dev: A Midsummer's Eve with ABCL 1.9.2",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.quicklisp.org/2023/06/june-2023-quicklisp-dist-update-now.html",
-          "author": null,
-          "description": "New projects: \n\n3d-spaces — A library implementing spatial query structures — zlib\n40ants-slynk — Utilities to start SLYNK if needed and to track active connections. — Unlicense\nbinary-structures — A library for reading, writing, and representing structures from binary representations — zlib\ncl-atelier — An atelier for Lisp developers — MIT License\ncl-bmp — A library for dealing with Windows bitmaps (BMP, DIB, ICO, CUR) — zlib\ncl-def-properties — Common Lisp definitions instropection library — MIT\ncl-fast-ecs — Blazingly fast Entity-Component-System microframework. — MIT\ncl-fbx — Bindings to ufbx, a simple and free FBX model decoding library — zlib\ncl-id3 — A Common Lisp implementation of the ID3 machine learning algorithm by R. Quinlan. — BSD-2-Clause\ncl-jschema — Common Lisp implementati…",
-          "link": "http://blog.quicklisp.org/2023/06/june-2023-quicklisp-dist-update-now.html",
-          "publishedOn": "2023-06-19T18:13:00.000Z",
-          "wordCount": 3577,
-          "title": "Quicklisp news: June 2023 Quicklisp dist update now available",
           "imageUrl": null
         }
       ]
@@ -826,19 +826,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-08-17T00:24:23.156Z",
+          "publishedOn": "2023-08-18T00:24:35.597Z",
           "wordCount": 705,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-08-17T00:24:22.190Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -846,9 +836,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-08-17T00:24:22.183Z",
+          "publishedOn": "2023-08-18T00:24:34.709Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-08-18T00:24:34.668Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -856,19 +856,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-08-17T00:24:22.169Z",
+          "publishedOn": "2023-08-18T00:24:34.653Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-08-17T00:24:22.144Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -876,9 +866,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-08-17T00:24:22.141Z",
+          "publishedOn": "2023-08-18T00:24:34.643Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-08-18T00:24:34.614Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -886,7 +886,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-08-17T00:24:20.850Z",
+          "publishedOn": "2023-08-18T00:24:34.595Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
