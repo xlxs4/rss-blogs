@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-25T00:01:35.227Z</id>
+    <id>urn:2023-08-26T00:01:30.450Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-08-25T00:01:35.227Z</updated>
+    <updated>2023-08-26T00:01:30.450Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-08-25T00:01:34.718Z</updated>
+        <updated>2023-08-26T00:01:30.229Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-08-25T00:01:33.232Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-08-25T00:01:33.220Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +19,28 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-08-25T00:01:33.208Z</updated>
+        <updated>2023-08-26T00:01:28.311Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-08-26T00:01:28.267Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-08-26T00:01:28.257Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-08-25T00:01:33.196Z</updated>
+        <updated>2023-08-26T00:01:28.249Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-08-25T00:01:33.093Z</updated>
+        <updated>2023-08-26T00:01:28.196Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,10 +69,36 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-08-25T00:01:33.090Z</updated>
+        <updated>2023-08-26T00:01:28.078Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nicolas Hafner: I've opened up a Patreon - Confession 93]]></title>
+        <id>https://reader.tymoon.eu/article/432</id>
+        <link href="https://reader.tymoon.eu/article/432"/>
+        <updated>2023-08-25T12:45:54.000Z</updated>
+        <summary type="html"><![CDATA[I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!
+Why make a Patreon now?
+I've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.
+Since the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I've opened up a Patreon - Confession 93]]></title>
+        <id>https://reader.tymoon.eu/article/432</id>
+        <link href="https://reader.tymoon.eu/article/432"/>
+        <updated>2023-08-25T12:45:54.000Z</updated>
+        <summary type="html"><![CDATA[I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!
+Why make a Patreon now?
+I've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.
+Since the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…]]></summary>
+        <author>
+            <name>妖怪世捨て人</name>
         </author>
     </entry>
     <entry>
@@ -588,37 +614,6 @@ An interpreter environment will be a lists of frames, and each frame
 The Julia community has a special standing on design patterns: people don't really like them. In general the Julia community believes that design…]]></summary>
         <author>
             <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ABCL Dev: A Midsummer's Eve with ABCL 1.9.2]]></title>
-        <id>http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html</id>
-        <link href="http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html"/>
-        <updated>2023-06-21T10:39:00.000Z</updated>
-        <summary type="html"><![CDATA[On the threshold of the Northern Hemisphere's Midsummer's Eve, we unveil the second revision of the Tenth Edition of the Armed Bear Common Lisp implementation, viz. abcl-1.9.2.
-
-
-Most notably, we are pleased to present the fruits of Alejandro Zamora Fonseca's labors on an interpreted implementation of CL:STEP with the first release of the ABCL-STEPPER contrib.  See <https://abcl.org/svn/tags/1.9.2/contrib/abcl-stepper/README.markdown> for more details.  This implementation was the subject of his demonstration <https://zenodo.org/record/7815887> as this year's European Lisp Symposium.
-
-
-The POSIX-SYSCALLS contrib now provides the ability to set environment variables under UNIX systems <https://abcl.org/trac/changeset/15700>, as well as providing an example of how best to add abstract additional functionality to the core implementation.
-
-
-This release also features a substantially re-worked Gray Stream implementation which fixes enough our implementation to be a first class citizen of SLIME's usage.  With the next release of SLIME, one will have to use abcl-1.9.2 in order to use the slime-repl.  See <https://github.com/slime/slime/pull/765> for more details.
-
-
-The ASDF-JAR contrib has been restored to a usable functionality, which includes re-packaging of ASDF systems from within jar files as well as better abstraction for finding non-source artifacts.  Please refer to <https://gitlab.common-lisp.net/abcl/abcl/-/blob/master/contrib/asdf-jar/README.markdown> for a refresher on what facilities ASDF-JAR provides for the aspiring ASDF packager.
-
-
-A complete list of changes may be viewed at <https://abcl.org/svn/tags/1.9.2/CHANGES>.
-
-
-The release itself is available at <https://abcl.org/releases/1.9.2/>.
-
-
-Thanks to everyone who continue to support the Bear.  Enjoy yer evening...]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -1359,18 +1354,6 @@ I hope you all enjoy the game, and thank you very much for sticking with us for 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kandria launches tomorrow!]]></title>
-        <id>https://reader.tymoon.eu/article/421</id>
-        <link href="https://reader.tymoon.eu/article/421"/>
-        <updated>2023-01-10T13:08:18.000Z</updated>
-        <summary type="html"><![CDATA[​Kandria launches tomorrow, on Wednesday the 11th, at 15:00 CET / 9:00 EST!
-There'll be a launch stream for the occasion as well. It'll be live on Twitch! I'll be happy to answer any questions you may have about the game, and hope to see you there!​
-Last opportunity to wishlist the game, too: https://kandria.com/steam]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[2022: The Year in Review]]></title>
         <id>https://batsov.com/articles/2023/01/08/2022-the-year-in-review/</id>
         <link href="https://batsov.com/articles/2023/01/08/2022-the-year-in-review/"/>
@@ -1485,57 +1468,6 @@ Older entries
 
 
 Tags: sundry]]></summary>
-        <author>
-            <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the cambridge centenary ulysess]]></title>
-        <id>https://jao.io/blog/the-cambridge-centenary-ulysess.html</id>
-        <link href="https://jao.io/blog/the-cambridge-centenary-ulysess.html"/>
-        <updated>2022-10-30T01:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Physically, this book is obnoxious: huge, wasted margins frame a reproduction
-of the original text that painstakingly tries to look as shabby as it was,
-including faded letters and all its typos, and its size and weight border on
-the unmanageable.  Ah, but the contents is really good: on the one hand
-there's of course Joyce's text itself (after twenty years since the last time,
-my English, with the help of the annotations, was closer to be up to the task,
-and enjoy it even when it wasn't), and next to it the essays introducing every
-chapter, which i found (with an exception or two) very informative and,
-sometimes, even illuminating.  I was also delighted to confirm that the
-parallels with Homer's work are a strecht to say the least: i quickly read The
-Odyssey in preparation and found it, again, boring at best and disheartening
-in its depiction of the society of the time (not that Joyce's Dublin was
-without its blemishes, but you hopefully get my point).
-
-
-
-So, just get an electronic version and enjoy!
-
-Tags: books]]></summary>
-        <author>
-            <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[visual differential geometry and forms]]></title>
-        <id>https://jao.io/blog/visual-differential-geometry-and-forms.html</id>
-        <link href="https://jao.io/blog/visual-differential-geometry-and-forms.html"/>
-        <updated>2022-10-30T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a beautiful book.  Crystal-clear and insightful explanations, with the
-right amount of historical background and quite original outlook (without
-going overboard).  I can only echo what other quoted reviewers have said: i
-wish i had had this book when i was studying these matters in earnest, i'm
-pretty sure i've understood some fine points for the first time only now!  I'd
-also perhaps make an exception on the last part (or act, as Needham calls
-them) on differential forms, which feels at times a bit rushed and in need of
-some editing, and it'd had been wonderful if the manufacture of the book were
-up to its contents: most images and photographs look really, really cheap, and
-there are more typos than granted, which is a pity (as to other figures,
-they're decent, although it must be said that Needham is not Penrose, but then
-who is?).
-
-Tags: books]]></summary>
         <author>
             <name>programming (and other) musings</name>
         </author>

@@ -147,26 +147,6 @@
           "wordCount": 61,
           "title": "in no particular order",
           "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/the-cambridge-centenary-ulysess.html",
-          "author": null,
-          "description": "Physically, this book is obnoxious: huge, wasted margins frame a reproduction\nof the original text that painstakingly tries to look as shabby as it was,\nincluding faded letters and all its typos, and its size and weight border on\nthe unmanageable.  Ah, but the contents is really good: on the one hand\nthere's of course Joyce's text itself (after twenty years since the last time,\nmy English, with the help of the annotations, was closer to be up to the task,\nand enjoy it even when it wasn't), and next to it the essays introducing every\nchapter, which i found (with an exception or two) very informative and,\nsometimes, even illuminating.  I was also delighted to confirm that the\nparallels with Homer's work are a strecht to say the least: i quickly read The\nOdyssey in preparation and found it, again, boring at best and disheartening\nin its depiction of the society of the time (not that Joyce's Dublin was\nwithout its blemishes, but you hopefully get my point).\n\n\n\nSo, just get an electronic version and enjoy!\n\nTags: books",
-          "link": "https://jao.io/blog/the-cambridge-centenary-ulysess.html",
-          "publishedOn": "2022-10-30T01:50:00.000Z",
-          "wordCount": 219,
-          "title": "the cambridge centenary ulysess",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/visual-differential-geometry-and-forms.html",
-          "author": null,
-          "description": "This is a beautiful book.  Crystal-clear and insightful explanations, with the\nright amount of historical background and quite original outlook (without\ngoing overboard).  I can only echo what other quoted reviewers have said: i\nwish i had had this book when i was studying these matters in earnest, i'm\npretty sure i've understood some fine points for the first time only now!  I'd\nalso perhaps make an exception on the last part (or act, as Needham calls\nthem) on differential forms, which feels at times a bit rushed and in need of\nsome editing, and it'd had been wonderful if the manufacture of the book were\nup to its contents: most images and photographs look really, really cheap, and\nthere are more typos than granted, which is a pity (as to other figures,\nthey're decent, although it must be said that Needham is not Penrose, but then\nwho is?).\n\nTags: books",
-          "link": "https://jao.io/blog/visual-differential-geometry-and-forms.html",
-          "publishedOn": "2022-10-30T00:30:00.000Z",
-          "wordCount": 193,
-          "title": "visual differential geometry and forms",
-          "imageUrl": null
         }
       ]
     },
@@ -283,6 +263,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/432",
+          "author": null,
+          "description": "I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!\nWhy make a Patreon now?\nI've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.\nSince the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…",
+          "link": "https://reader.tymoon.eu/article/432",
+          "publishedOn": "2023-08-25T12:45:54.000Z",
+          "wordCount": 552,
+          "title": "Nicolas Hafner: I've opened up a Patreon - Confession 93",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2570"
+        },
+        {
           "id": "http://quotenil.com/multifaceted-development.html",
           "author": null,
           "description": "Catchy title, innit? I came up with it while trying to\nname the development style PAX\nenables. I wanted something vaguely self-explanatory in a straight\nout of a marketing department kind of way, with tendrils right into\nyour unconscious. Documentation-driven development sounded just the\nthing, but it's already taken. Luckily, I came to realize that\nneither documentation nor any other single thing should drive\ndevelopment. Less luckily for the philosophically disinclined, this\nepiphany unleashed my inner Richard P.\nGabriel. I reckon\nif there is a point to what follows, it's abstract enough to make it\nhard to tell.\nIn programming, there is always a formalization step involved: we\nmust go from idea to code. Very rarely, we have a formal definition\nof the problem, but apart from purely theore…",
@@ -370,16 +360,6 @@
           "publishedOn": "2023-06-27T22:06:00.000Z",
           "wordCount": 4897,
           "title": "Joe Marshall: Tail recursion in REBOL",
-          "imageUrl": null
-        },
-        {
-          "id": "http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html",
-          "author": null,
-          "description": "On the threshold of the Northern Hemisphere's Midsummer's Eve, we unveil the second revision of the Tenth Edition of the Armed Bear Common Lisp implementation, viz. abcl-1.9.2.\n\n\nMost notably, we are pleased to present the fruits of Alejandro Zamora Fonseca's labors on an interpreted implementation of CL:STEP with the first release of the ABCL-STEPPER contrib.  See <https://abcl.org/svn/tags/1.9.2/contrib/abcl-stepper/README.markdown> for more details.  This implementation was the subject of his demonstration <https://zenodo.org/record/7815887> as this year's European Lisp Symposium.\n\n\nThe POSIX-SYSCALLS contrib now provides the ability to set environment variables under UNIX systems <https://abcl.org/trac/changeset/15700>, as well as providing an example of how best to add abstract additional functionality to the core implementation.\n\n\nThis release also features a substantially re-worked Gray Stream implementation which fixes enough our implementation to be a first class citizen of SLIME's usage.  With the next release of SLIME, one will have to use abcl-1.9.2 in order to use the slime-repl.  See <https://github.com/slime/slime/pull/765> for more details.\n\n\nThe ASDF-JAR contrib has been restored to a usable functionality, which includes re-packaging of ASDF systems from within jar files as well as better abstraction for finding non-source artifacts.  Please refer to <https://gitlab.common-lisp.net/abcl/abcl/-/blob/master/contrib/asdf-jar/README.markdown> for a refresher on what facilities ASDF-JAR provides for the aspiring ASDF packager.\n\n\nA complete list of changes may be viewed at <https://abcl.org/svn/tags/1.9.2/CHANGES>.\n\n\nThe release itself is available at <https://abcl.org/releases/1.9.2/>.\n\n\nThanks to everyone who continue to support the Bear.  Enjoy yer evening...",
-          "link": "http://abcl-dev.blogspot.com/2023/06/a-midsummers-eve-with-abcl-192.html",
-          "publishedOn": "2023-06-21T10:39:00.000Z",
-          "wordCount": 2222,
-          "title": "ABCL Dev: A Midsummer's Eve with ABCL 1.9.2",
           "imageUrl": null
         }
       ]
@@ -816,29 +796,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-08-25T00:01:34.718Z",
+          "publishedOn": "2023-08-26T00:01:30.229Z",
           "wordCount": 705,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-08-25T00:01:33.232Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-08-25T00:01:33.220Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -846,9 +806,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-08-25T00:01:33.208Z",
+          "publishedOn": "2023-08-26T00:01:28.311Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-08-26T00:01:28.267Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-08-26T00:01:28.257Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -856,7 +836,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-08-25T00:01:33.196Z",
+          "publishedOn": "2023-08-26T00:01:28.249Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -866,7 +846,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-08-25T00:01:33.093Z",
+          "publishedOn": "2023-08-26T00:01:28.196Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -876,7 +856,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-08-25T00:01:33.090Z",
+          "publishedOn": "2023-08-26T00:01:28.078Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -1066,12 +1046,22 @@
       "siteUrl": "https://reader.tymoon.eu/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/432",
+          "author": null,
+          "description": "I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!\nWhy make a Patreon now?\nI've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.\nSince the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…",
+          "link": "https://reader.tymoon.eu/article/432",
+          "publishedOn": "2023-08-25T12:45:54.000Z",
+          "wordCount": 552,
+          "title": "I've opened up a Patreon - Confession 93",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2570"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/431",
           "author": null,
           "description": "If you've read any of my preceding entries I would expect it to come as no surprise to you to see me write \"accepting who you are is really difficult.\" Though today I want to write about a few different facets of that than just the one you may be thinking about right now.\nNaturally, for only recently coming out as trans, accepting that I am a woman is a large part of what's been coursing through my brain. I know with absolute certainty by now that I'm not wrong on this, and yet it's still not easy to fully come to terms with it and not just know it, but also understand it completely. I know that coming out as trans did not change me, but rather let me be who I've always been, even more so. Despite that it's still not obvious even to me which of the many fragments of my personality that wer…",
           "link": "https://reader.tymoon.eu/article/431",
           "publishedOn": "2023-08-08T21:11:52.000Z",
-          "wordCount": 1877,
+          "wordCount": 1893,
           "title": "Selbstsamkeit - Confession 92",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2518"
         },
@@ -1091,7 +1081,7 @@
           "description": "Hello everyone. It's been a while since the last update. I apologise for the silence, things have slipped out of habit a little bit, and besides there's just been a lot of work on things that aren't easy to talk about. I'm still stuck in the R&D phase for the next game, and probably will continue to be there for a few more months before I can properly enter pre-production.\nI've really needed some space away from Kandria for a while, too. I did still release patches in the meantime to fix some egregious problems and bring the source back up to date with the latest changes in the Trial engine. The final DLC update with official modding support is still in the works, but given how little response there's been to the level editor update I'm not making it a big priority.\nThe financials for Kand…",
           "link": "https://reader.tymoon.eu/article/429",
           "publishedOn": "2023-06-13T15:23:27.000Z",
-          "wordCount": 638,
+          "wordCount": 651,
           "title": "A status update on Kandria, Shirakumo, and me",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2438"
         },
@@ -1154,16 +1144,6 @@
           "wordCount": 149,
           "title": "Kandria is now out!",
           "imageUrl": "https://filebox.tymoon.eu//file/TWpZME1RPT0="
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/421",
-          "author": null,
-          "description": "​Kandria launches tomorrow, on Wednesday the 11th, at 15:00 CET / 9:00 EST!\nThere'll be a launch stream for the occasion as well. It'll be live on Twitch! I'll be happy to answer any questions you may have about the game, and hope to see you there!​\nLast opportunity to wishlist the game, too: https://kandria.com/steam",
-          "link": "https://reader.tymoon.eu/article/421",
-          "publishedOn": "2023-01-10T13:08:18.000Z",
-          "wordCount": 112,
-          "title": "Kandria launches tomorrow!",
-          "imageUrl": "https://filebox.tymoon.eu//file/TWpZek9BPT0="
         }
       ]
     }
