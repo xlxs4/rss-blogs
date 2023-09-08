@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -618,12 +618,22 @@
       "siteUrl": "https://www.evalapply.org/",
       "articles": [
         {
+          "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/",
+          "author": null,
+          "description": "The one in which we design a rich Integrated Development Environment (IDE) experience, using Clojure as our muse. Featuring Language Server Protocol (lsp-mode + clojure-lsp), clojure-mode, cider, and more! Buckle up and get a coffee.",
+          "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/index.html",
+          "publishedOn": "2023-09-07T00:00:00.000Z",
+          "wordCount": 4234,
+          "title": "Emerging from dotemacs bankruptcy the hard way: integrating the IDE (feat. Clojure(Script))",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-getting-about/",
           "author": null,
           "description": "We want to maximize our ability to \"stay in The Zone\". So the aim is to create the fastest, smoothest, tightly integrated, and unobtrusive mechanism to get things done using the keyboard alone.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-getting-about/index.html",
           "publishedOn": "2023-08-02T00:00:00.000Z",
-          "wordCount": 2859,
+          "wordCount": 2862,
           "title": "Emerging from dotemacs bankruptcy the hard way: getting about",
           "imageUrl": null
         },
@@ -633,7 +643,7 @@
           "description": "Or the one in which we confront our elisp n00bishness and try to be better at using it. And we learn new habits to understand our Emacs better. Better late than never.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-midway-refactor/index.html",
           "publishedOn": "2023-07-23T00:00:00.000Z",
-          "wordCount": 1778,
+          "wordCount": 1781,
           "title": "Emerging from dotemacs bankruptcy the hard way: the midway refactor",
           "imageUrl": null
         },
@@ -643,7 +653,7 @@
           "description": "Elpa, Melpa, git repo. Vendor package straight from source. It compiled? Fetch some more! Elpa, Melpa, git repo. In more adult terms, we learn to use use-package to fetch, install, initialise, configure useful packages that enhance our Emacs experience.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-packages/index.html",
           "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 1554,
+          "wordCount": 1557,
           "title": "Emerging from dotemacs bankruptcy the hard way: package management",
           "imageUrl": null
         },
@@ -653,17 +663,17 @@
           "description": "The first action must, of course, be to colour the bikeshed and set some decent defaults.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-init-begins/index.html",
           "publishedOn": "2023-07-04T00:00:00.000Z",
-          "wordCount": 727,
+          "wordCount": 730,
           "title": "Emerging from dotemacs bankruptcy the hard way: init begins",
           "imageUrl": null
         },
         {
           "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy/",
           "author": null,
-          "description": "Or, finally biting the bullet to redesigning my developerly and writerly experience, from the ground up, with Emacs.",
+          "description": "Or, finally biting the bullet to redesigning my developerly and writerly experience, from the ground up, with Emacs. Or, finally biting the bullet to redesigning my developerly and writerly experience, from the ground up, with Emacs.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy/index.html",
           "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 566,
+          "wordCount": 587,
           "title": "Emerging from dotemacs bankruptcy the hard way: Prelude",
           "imageUrl": null
         },
@@ -796,7 +806,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-09-07T00:01:33.459Z",
+          "publishedOn": "2023-09-08T00:01:37.709Z",
           "wordCount": 720,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -806,19 +816,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-09-07T00:01:32.270Z",
+          "publishedOn": "2023-09-08T00:01:36.044Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-09-07T00:01:32.266Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -826,9 +826,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-09-07T00:01:32.238Z",
+          "publishedOn": "2023-09-08T00:01:36.024Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-09-08T00:01:36.011Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-09-08T00:01:36.005Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -836,7 +856,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-09-07T00:01:32.235Z",
+          "publishedOn": "2023-09-08T00:01:35.986Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -846,19 +866,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-09-07T00:01:32.198Z",
+          "publishedOn": "2023-09-08T00:01:35.976Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-09-07T00:01:32.182Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -866,7 +876,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-09-07T00:01:32.152Z",
+          "publishedOn": "2023-09-08T00:01:35.800Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
