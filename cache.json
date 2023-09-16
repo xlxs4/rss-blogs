@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -263,6 +263,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/",
+          "author": null,
+          "description": "For those who don’t know and who didn’t see the banner :D I am creating a Common Lisp course on the Udemy platform (with complementary videos on Youtube). I wanted to do something different and complementary than writing on the Cookbook.\nI worked on new videos this summer and I just finished editing the subtitles. I have added 17 videos (worth 1h30+ of code-driven content) about Common Lisp macros!\nWe cover a lot of content: quote, backquote and comma, “,@”, comparison with C macros, comparison with functions, GENSYM and variable capture, useful patterns (call-with...), compile-time computing, read-time evaluation... (full summary below)\n\nfind the course here: https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER (various videos are free to watch, so you can judg…",
+          "link": "https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/",
+          "publishedOn": "2023-09-15T15:07:23.000Z",
+          "wordCount": 1784,
+          "title": "vindarel: I published 17 videos about Common Lisp macros - learn Lisp with a code-first tutorial",
+          "imageUrl": "/images/default.png"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/432",
           "author": null,
           "description": "I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!\nWhy make a Patreon now?\nI've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.\nSince the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…",
@@ -350,16 +360,6 @@
           "publishedOn": "2023-06-28T19:09:00.000Z",
           "wordCount": 3775,
           "title": "Joe Marshall: Fails Static Type Check, but Runs Anyway",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
-          "author": null,
-          "description": "Many years ago I worked on a language called REBOL.  REBOL was\n  notable in that it used a variation of Polish notation.  Function\n  names came first, followed by the arguments in left to right order.\n  Parentheses were generally not needed as the subexpression\n  boundaries could be deduced from the arguments.  It’s a bit\n  complicated to explain, but pretty easy to code up.\nAn interpreter environment will be a lists of frames, and each frame\n  is an association list of variable bindings.\n(defun lookup (environment symbol)\n  (cond ((consp environment)\n         (let ((probe (assoc symbol (car environment))))\n           (if probe\n               (cdr probe)\n               (lookup (cdr environment) symbol))))\n        ((null environment) (error \"Unbound variable.\"))\n        (t (error \"Bogus env…",
-          "link": "http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html",
-          "publishedOn": "2023-06-27T22:06:00.000Z",
-          "wordCount": 4897,
-          "title": "Joe Marshall: Tail recursion in REBOL",
           "imageUrl": null
         }
       ]
@@ -806,19 +806,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-09-15T00:01:36.674Z",
+          "publishedOn": "2023-09-16T00:01:24.994Z",
           "wordCount": 720,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-09-15T00:01:35.218Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-09-16T00:01:24.263Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-09-15T00:01:35.214Z",
+          "publishedOn": "2023-09-16T00:01:24.182Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -836,19 +836,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-09-15T00:01:35.199Z",
+          "publishedOn": "2023-09-16T00:01:24.173Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-09-15T00:01:35.094Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-09-16T00:01:24.164Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-09-16T00:01:24.084Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -856,7 +866,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-09-15T00:01:34.999Z",
+          "publishedOn": "2023-09-16T00:01:24.079Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -866,19 +876,9 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-09-15T00:01:34.982Z",
+          "publishedOn": "2023-09-16T00:01:24.048Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-09-15T00:01:34.928Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]

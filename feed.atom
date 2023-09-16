@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-15T00:01:36.885Z</id>
+    <id>urn:2023-09-16T00:01:27.036Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-09-15T00:01:36.885Z</updated>
+    <updated>2023-09-16T00:01:27.036Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-09-15T00:01:36.674Z</updated>
+        <updated>2023-09-16T00:01:24.994Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-09-15T00:01:35.218Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-09-16T00:01:24.263Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +29,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-09-15T00:01:35.214Z</updated>
+        <updated>2023-09-16T00:01:24.182Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,18 +39,28 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-09-15T00:01:35.199Z</updated>
+        <updated>2023-09-16T00:01:24.173Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-09-15T00:01:35.094Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-09-16T00:01:24.164Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-09-16T00:01:24.084Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +69,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-09-15T00:01:34.999Z</updated>
+        <updated>2023-09-16T00:01:24.079Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,20 +79,24 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-09-15T00:01:34.982Z</updated>
+        <updated>2023-09-16T00:01:24.048Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-09-15T00:01:34.928Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <title type="html"><![CDATA[vindarel: I published 17 videos about Common Lisp macros - learn Lisp with a code-first tutorial]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/"/>
+        <updated>2023-09-15T15:07:23.000Z</updated>
+        <summary type="html"><![CDATA[For those who don’t know and who didn’t see the banner :D I am creating a Common Lisp course on the Udemy platform (with complementary videos on Youtube). I wanted to do something different and complementary than writing on the Cookbook.
+I worked on new videos this summer and I just finished editing the subtitles. I have added 17 videos (worth 1h30+ of code-driven content) about Common Lisp macros!
+We cover a lot of content: quote, backquote and comma, “,@”, comparison with C macros, comparison with functions, GENSYM and variable capture, useful patterns (call-with...), compile-time computing, read-time evaluation... (full summary below)
+
+find the course here: https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER (various videos are free to watch, so you can judg…]]></summary>
         <author>
-            <name>Applied Language musings</name>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -596,31 +610,6 @@ Usually, we would develop a dictionary/ cleanup memory of randomly chosen hyperd
         "bogus"
         2.0))
 I suspect most people that favor static types will argue that this sort of program doesn’t count for some reason or other.  I think this is more an example (albeit contrived) of the limitations of static type checking.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Tail recursion in REBOL]]></title>
-        <id>http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html</id>
-        <link href="http://funcall.blogspot.com/2023/06/tail-recursion-in-rebol.html"/>
-        <updated>2023-06-27T22:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Many years ago I worked on a language called REBOL.  REBOL was
-  notable in that it used a variation of Polish notation.  Function
-  names came first, followed by the arguments in left to right order.
-  Parentheses were generally not needed as the subexpression
-  boundaries could be deduced from the arguments.  It’s a bit
-  complicated to explain, but pretty easy to code up.
-An interpreter environment will be a lists of frames, and each frame
-  is an association list of variable bindings.
-(defun lookup (environment symbol)
-  (cond ((consp environment)
-         (let ((probe (assoc symbol (car environment))))
-           (if probe
-               (cdr probe)
-               (lookup (cdr environment) symbol))))
-        ((null environment) (error "Unbound variable."))
-        (t (error "Bogus env…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
