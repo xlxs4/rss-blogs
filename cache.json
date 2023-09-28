@@ -242,6 +242,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2023/09/greenspuns-tenth-rule-of-programming.html",
+          "author": null,
+          "description": "Greenspun's tenth rule of programming states\n  \nAny sufficiently complicated C or Fortran program\n  contains an ad hoc, informally-specified, bug ridden, slow\n    implementation of half of Common Lisp.\nIn fact, most popular computer languages can be thought of as a\n  poorly implemented Common Lisp.  There is a reason for this.\n  Church's lambda calculus is a great foundation for reasoning about\n  programming language semantics.  Lisp can be seen as a realization of a\n  lambda calculus interpreter.  By reasoning about a language's\n  semantics in Lisp, we're essentially reasoning about the semantics\n  in a variation of lambda calculus.",
+          "link": "http://funcall.blogspot.com/2023/09/greenspuns-tenth-rule-of-programming.html",
+          "publishedOn": "2023-09-27T16:31:00.000Z",
+          "wordCount": 3558,
+          "title": "Joe Marshall",
+          "imageUrl": null
+        },
+        {
           "id": "https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/",
           "author": null,
           "description": "For those who don’t know and who didn’t see the banner :D I am creating a Common Lisp course on the Udemy platform (with complementary videos on Youtube). I wanted to do something different and complementary than writing on the Cookbook.\nI worked on new videos this summer and I just finished editing the subtitles. I have added 17 videos (worth 1h30+ of code-driven content) about Common Lisp macros!\nWe cover a lot of content: quote, backquote and comma, “,@”, comparison with C macros, comparison with functions, GENSYM and variable capture, useful patterns (call-with...), compile-time computing, read-time evaluation... (full summary below)\n\nfind the course here: https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER (various videos are free to watch, so you can judg…",
@@ -297,7 +307,7 @@
           "description": "Many years ago I was under the delusion that if Lisp were more\n  “normal looking” it would be adopted more readily.  I\n  thought that maybe inferring the block structure from the\n  indentation (the “off-sides rule”) would make Lisp\n  easier to read.  It does, sort of.  It seems to make smaller\n  functions easier to read, but it seems to make it harder to read\n  large functions — it's too easy to forget how far you are\n  indented if there is a lot of vertical distance.\n I was\n  feeling pretty good about this idea until I tried to write a macro.\n  A macro’s implementation function has block structure, but so does\n  the macro’s replacement text.  It becomes ambiguous whether the\n  indentation is indicating block boundaries in the macro body or in\n  it’s expansion.\nA decent macro needs a templating system.  Lisp has backquote (aka\n  quasiquote).  But notice that unquoting comes in both a splicing and\n  non-splicing form.  A macro that used the off-sides rule would need\n  templating that also had indenting and non-indenting unquoting\n  forms.  Trying to figure out the right combination of unquoting\n  would be a nightmare.\nThe off-sides rule doesn’t work for macros that have non-standard\n  indentation.  Consider if you wanted to write a macro similar\n  to unwind-protect or try…finally.\n  Or if you want to have a macro that expands into just\n  the finally clause.\nIt became clear to me that there were going to be no simple rules.\n  It would be hard to design, hard to understand, and hard to use.\n  Even if you find parenthesis annoying, they are relatively simple to\n  understand and simple to use, even in complicated situations. This\n  isn’t to say that you couldn’t cobble together a macro\n  system that used the off-sides rule, it would just be much more\n  complicated and klunkier than Lisp’s.",
           "link": "http://funcall.blogspot.com/2023/08/off-sides-penalty.html",
           "publishedOn": "2023-08-05T18:46:00.000Z",
-          "wordCount": 4140,
+          "wordCount": 4145,
           "title": "Joe Marshall: Off-sides Penalty",
           "imageUrl": null
         },
@@ -307,7 +317,7 @@
           "description": "Follow me along this garden path (based on true events).\nWe have a nifty program and we want it to be flexible, so it has a\n  config file.  We make up some sort of syntax that indicates\n  key/value pairs.  Maybe we’re hipsters and use YAML.  Life is good.\nBut we find that we to configure something dynamically, say based\n  on the value of an environment variable.  So we add some escape\n  syntax to the config file to indicate that a value is a variable\n  rather than a literal.  But sometimes the string needs a little work\n  done to it, so we add some string manipulation features to the\n  escape syntax.\nAnd when we deploy the program, we find that we’ve want to\n  conditionalize part of the configuration based on the deployment, so\n  we add a conditional syntax to our config language.  But\n  conditionals are predicated on boolean values, so we add booleans to\n  our config syntax.  Or maybe we make strings do double duty.  Of\n  course we need the basic boolean operators, too.\nBut there’s a lot of duplication across our configurations, so we\n  add the ability to indirectly refer to other config files.  That\n  helps to some extent, but there’s a lot of stuff that is almost\n  duplicated, except for a little variation.  So we add a way to make\n  a configuration template.  Templating needs variables and quoting,\n  so we invent a syntax for those as well.\nWe’re building a computer language by accident, and without a clear\n  plan it is going to go poorly.  Are there data types (aside from\n  strings)?  Is there a coherent type system?  Are the variables\n  lexically scoped?  Is it call-by-name or call-by-value?  Is it\n  recursive?  Does it have first class (or even second class)\n  procedures?  Did we get nested escaping right?  How about quoted\n  nested escaping?  And good grief our config language is in YAML!\nIf we had some forethought, we would have realized that we were\n  designing a language and we would have put the effort into making it\n  a good one.  If we’re lazy, we’d just pick an existing good\n  language.  Like Lisp.",
           "link": "http://funcall.blogspot.com/2023/07/the-garden-path.html",
           "publishedOn": "2023-07-26T18:13:00.000Z",
-          "wordCount": 4012,
+          "wordCount": 4015,
           "title": "Joe Marshall: The Garden Path",
           "imageUrl": null
         },
@@ -327,18 +337,8 @@
           "description": "Write a polemic about how omitting conditional expressions from a\n  language is lazy and stupid.\nConditional expressions are a fundamental feature of any\n  programming language that claims to be expressive, concise and\n  elegant. They allow programmers to write complex logic in a single\n  line, without the need for verbose and repetitive if-else\n  statements. They also enable functional programming paradigms, such\n  as pattern matching and recursion, that are essential for solving\n  many problems efficiently and elegantly.\n \n\nOmitting conditional expressions from a language is a sign\n  of laziness and stupidity on the part of the language designers. It\n  shows that they do not care about the needs and preferences of their\n  users, who have to write more code, introduce more bugs, and suffer\n  more frustration. It also shows that they do not understand the\n  principles and benefits of functional programming, which have been\n  proven by decades of research and practice. They are stuck in an\n  imperative mindset, where everything has to be done with side\n  effects and mutations.\n \n\nA language without conditional expressions is a crippled\n  language, that forces programmers to use hacks and workarounds to\n  achieve what should be simple and natural. It is a language that\n  discourages creativity, elegance and readability. It is a language\n  that should be avoided by anyone who values their time, sanity and\n  reputation.\nSome examples of programming languages that don't have conditional expressions are:\n  \nCoffeeScript\nGo\nMATLAB\nPascal\nRust\n\nThis isn't bad, but I wanted more vitriol.  I asked and I got a\n  screed that could have come out of comp.lang.functional\n  Unfortunately, it thought better of it and erased its own output\n  before I could snapshot it.",
           "link": "http://funcall.blogspot.com/2023/07/playing-with-ai.html",
           "publishedOn": "2023-07-08T17:21:00.000Z",
-          "wordCount": 3854,
+          "wordCount": 3857,
           "title": "Joe Marshall: Playing with AI",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
-          "author": null,
-          "description": "Here’s a function that fails a static type check, but has no runtime type error:\n(defun foo ()\n  (sqrt (if (static-type-check? #’foo)\n        \"bogus\"\n        2.0))\nI suspect most people that favor static types will argue that this sort of program doesn’t count for some reason or other.  I think this is more an example (albeit contrived) of the limitations of static type checking.",
-          "link": "http://funcall.blogspot.com/2023/06/fails-static-type-check-but-runs-anyway.html",
-          "publishedOn": "2023-06-28T19:09:00.000Z",
-          "wordCount": 3775,
-          "title": "Joe Marshall: Fails Static Type Check, but Runs Anyway",
           "imageUrl": null
         }
       ]
@@ -785,19 +785,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-09-27T00:01:41.535Z",
+          "publishedOn": "2023-09-28T00:01:28.702Z",
           "wordCount": 718,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-09-27T00:01:40.768Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -805,19 +795,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-09-27T00:01:40.752Z",
+          "publishedOn": "2023-09-28T00:01:27.949Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-09-27T00:01:40.725Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-09-28T00:01:27.894Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -825,9 +815,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-09-27T00:01:40.711Z",
+          "publishedOn": "2023-09-28T00:01:27.670Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-09-28T00:01:27.650Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -835,7 +835,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-09-27T00:01:40.521Z",
+          "publishedOn": "2023-09-28T00:01:27.556Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -845,7 +845,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-09-27T00:01:40.444Z",
+          "publishedOn": "2023-09-28T00:01:27.545Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -855,7 +855,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-09-27T00:01:40.318Z",
+          "publishedOn": "2023-09-28T00:01:27.444Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
