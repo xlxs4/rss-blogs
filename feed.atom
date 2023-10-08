@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-07T00:01:39.333Z</id>
+    <id>urn:2023-10-08T00:01:45.152Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-10-07T00:01:39.333Z</updated>
+    <updated>2023-10-08T00:01:45.152Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-10-07T00:01:39.306Z</updated>
+        <updated>2023-10-08T00:01:45.124Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
-        <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
-        <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-10-07T00:01:38.089Z</updated>
-        <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-10-07T00:01:38.086Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-10-07T00:01:38.014Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,28 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-10-07T00:01:38.009Z</updated>
+        <updated>2023-10-08T00:01:43.171Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-10-07T00:01:37.994Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-10-07T00:01:37.984Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-10-08T00:01:43.152Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,8 +39,48 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-10-07T00:01:37.981Z</updated>
+        <updated>2023-10-08T00:01:43.142Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-10-08T00:01:43.139Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-10-08T00:01:43.125Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-10-08T00:01:43.115Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
+        <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
+        <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
+        <updated>2023-10-08T00:01:42.870Z</updated>
+        <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -1401,16 +1401,6 @@ I also …]]></summary>
         <link href="https://batsov.com/articles/2022/12/15/back-to-android-my-take-on-the-pixel-6a/"/>
         <updated>2022-12-15T07:42:00.000Z</updated>
         <summary type="html"><![CDATA[A couple of weeks ago I made a spectacular and quite unexpected return to Android, after a long period of being exclusively in Apple’s mobile devices ecosystem. My last Android phone was the Sony Xperia Arc, which I bought way back in 2011. Afterwards I got an iPhone 5(S?) in 2012/2013 and never looked back.]]></summary>
-        <author>
-            <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git Tip: Find the Top Contributors]]></title>
-        <id>https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/</id>
-        <link href="https://batsov.com/articles/2022/12/11/git-tip-find-the-top-contributors/"/>
-        <updated>2022-12-11T17:38:00.000Z</updated>
-        <summary type="html"><![CDATA[From time to time it’s useful to know who are main authors of some piece of a project. Admittedly most of the time I want to check who are the top contributors to some Git repository I’d use a web interface for this (e.g. GitHub). Probably because I never bothered to remember the magic incantations to do this with the git command-line interface and probably because statistics often look better when you have a have richer UI toolkit to render them. That being said, today I was reminded how easy it is to cover the basics with the command-line. If we want a list of the top 10 contributors (in terms of commits) we can get it like this:1 All examples use CIDER’s repository. &#8617;]]></summary>
         <author>
             <name>(think)</name>
         </author>
