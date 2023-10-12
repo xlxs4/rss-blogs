@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-11T00:01:28.780Z</id>
+    <id>urn:2023-10-12T00:01:37.174Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-10-11T00:01:28.780Z</updated>
+    <updated>2023-10-12T00:01:37.174Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-10-11T00:01:28.739Z</updated>
+        <updated>2023-10-12T00:01:32.801Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,7 +19,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-10-11T00:01:27.084Z</updated>
+        <updated>2023-10-12T00:01:31.864Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,8 +29,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-10-11T00:01:27.080Z</updated>
+        <updated>2023-10-12T00:01:31.860Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-10-12T00:01:31.823Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-10-11T00:01:27.068Z</updated>
+        <updated>2023-10-12T00:01:31.781Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +59,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-10-11T00:01:27.000Z</updated>
+        <updated>2023-10-12T00:01:31.763Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,18 +69,8 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-10-11T00:01:26.989Z</updated>
+        <updated>2023-10-12T00:01:31.753Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-10-11T00:01:26.987Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,55 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-10-11T00:01:26.981Z</updated>
+        <updated>2023-10-12T00:01:31.540Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[poor things]]></title>
+        <id>https://jao.io/blog/poor-things.html</id>
+        <link href="https://jao.io/blog/poor-things.html"/>
+        <updated>2023-10-11T01:28:00.000Z</updated>
+        <summary type="html"><![CDATA[I've read good things about the forthcoming movie, and liked what I saw in the
+promotional video, but I cannot believe it's going to be near as good as this
+novel. The book has too many nuances, literary tricks and wordplay and
+paragraphs one has to read and reread, to be translated to a film. The latter
+might be its own work of art, and that's fine. But if you're curious about the
+movie, I'd definitely recommend to read this book. If you're not, I'd
+definitely recommend to read this book. The writing is fresh and funny, in
+typical Gray fashion, and the real themes of the book are universal and
+exposed in a way that is very entertaining on the surface, but with a subtext
+that gives you food for thought. I don't remember when was the last time that
+I read two hundred pages of a book in a single day, time just flew, as they
+say.
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[in no particular order]]></title>
+        <id>https://jao.io/blog/in-no-particular-order.html</id>
+        <link href="https://jao.io/blog/in-no-particular-order.html"/>
+        <updated>2023-10-11T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interesting bits elsewhere:
+
+
+
+Timeless Advice on Writing: The Collected Wisdom of Great Writers
+Leaving Haskell behind — Infinite Negative Utility
+Knuth: Ancient Babylonian Algorithms annotated/explained version.
+Mastering Bloom Filters: Big Data Processing in Python
+Older entries
+
+
+
+Tags: sundry]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
         </author>
     </entry>
     <entry>
