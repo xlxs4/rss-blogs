@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -263,6 +263,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://www.tfeb.org/fragments/2023/10/12/symbol-nicknames-a-broken-toy/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "Symbol nicknames allows multiple names to refer to the same symbol in supported implementations of Common Lisp. That may or may not be useful.\nPeople often say the Common Lisp package system is deficient. But a lot of the same people write code which is absolutely full of explicit package prefixes in what I can only suppose is an attempt to make programs harder to read. Somehow this is meant to be made better by using package-local nicknames for packages. And let’s not mention the unspeakable idiocy that is thinking that a package name like, say, XML is suitable for any kind of general use at all. So forgive me if I don’t take their concerns too seriously.\nThe CL package system can’t do all the things something like the Racket module system can do. But it’s not clear that, given its job of…",
+          "link": "https://www.tfeb.org/fragments/2023/10/12/symbol-nicknames-a-broken-toy/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2023-10-12T14:08:27.000Z",
+          "wordCount": 492,
+          "title": "Tim Bradshaw: Symbol nicknames: a broken toy",
+          "imageUrl": null
+        },
+        {
           "id": "https://turtleware.eu/posts/Proxy-Generic-Function.html",
           "author": null,
           "description": "It is often hard to refactor software implementing an independent specification.\nThere are already clients of the API so we can't remove operators, and newly\nadded operators must play by the specified rules. There are a few possibilities:\nbreak the user contract and make pre-existing software obsolete, or abandon some\nimprovements. There is also an option that software is written in Common Lisp,\nso you can eat your cake and have it too.\nCLIM has two protocols that have a big overlap: sheets and output records. Both\nabstractions are organized in a similar way and have equivalent operators. In\nthis example let's consider a part of the protocol for managing hierarchies:\n;; Sheet hierarchy (sub-)protocol with an example implementation.\n(defclass sheet () ()) ; protocol class\n(defclass example-…",
@@ -350,16 +360,6 @@
           "publishedOn": "2023-07-26T18:13:00.000Z",
           "wordCount": 4015,
           "title": "Joe Marshall: The Garden Path",
-          "imageUrl": null
-        },
-        {
-          "id": "http://quotenil.com/dref.html",
-          "author": null,
-          "description": "DEFSECTION needs to refer to definitions that do not create a\nfirst-class object (e.g. stuff like (*DOCUMENT-LINK-TO-HYPERSPEC*\nVARIABLE)), and since its original release in 2014, a substantial\npart of\nPAX dealt\nwith locatives and references, which reify definitions. This release\nfinally factors that code out into a library called\nDRef,\nallowing PAX to focus on documentation. Being very young, DRef lives\nunder adult supervision, in a\nsubdirectory\nof the PAX repository.\nDREF> (definitions 'pax:document-object*)\n(#<DREF DOCUMENT-OBJECT* GENERIC-FUNCTION>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX-BLOG::CATEGORY T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (UNKNOWN-DREF T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX::CLHS-DREF T))>\n #<DREF DOCUMENT-OBJECT* (METHOD NIL (MGL-PAX::INCLUDE-DR…",
-          "link": "http://quotenil.com/dref.html",
-          "publishedOn": "2023-07-26T00:00:00.000Z",
-          "wordCount": 484,
-          "title": "Gábor Melis: DRef and PAX v0.3",
           "imageUrl": null
         }
       ]
@@ -766,8 +766,8 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-12T00:01:32.801Z",
-          "wordCount": 728,
+          "publishedOn": "2023-10-13T00:01:36.455Z",
+          "wordCount": 757,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-12T00:01:31.864Z",
+          "publishedOn": "2023-10-13T00:01:34.836Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -786,9 +786,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-12T00:01:31.860Z",
+          "publishedOn": "2023-10-13T00:01:34.762Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-10-13T00:01:34.651Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -796,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-12T00:01:31.823Z",
+          "publishedOn": "2023-10-13T00:01:34.612Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -806,19 +816,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-12T00:01:31.781Z",
+          "publishedOn": "2023-10-13T00:01:34.594Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-12T00:01:31.763Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-12T00:01:31.753Z",
+          "publishedOn": "2023-10-13T00:01:34.590Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-12T00:01:31.540Z",
+          "publishedOn": "2023-10-13T00:01:34.518Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
