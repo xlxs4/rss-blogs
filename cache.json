@@ -265,10 +265,10 @@
         {
           "id": "https://lisp-journey.gitlab.io/blog/common-lisp-on-the-web-enrich-your-stacktrace-with-request-and-session-data/",
           "author": null,
-          "description": "A short post to show the usefulness of Hunchentoot-errors and to thank Mariano again.\nThis library adds the current request and session data to your stacktrace, either in the REPL (base case) or in the browser.\nTLDR;\nUse it like this:\n;; (ql:quickload \"hunchentoot-errors)\n\n(defclass acceptor (easy-routes:easy-routes-acceptor hunchentoot-errors:errors-acceptor)\n  ()\n  (:documentation \"Our Hunchentoot acceptor that uses easy-routes and hunchentoot-errors, for easier route definition and enhanced stacktraces with request and session data.\"))\n\nthen (make-instance 'acceptor :port 4242).\nBase case\nImagine you have a bug in your route:\n(defroute route-card-page (\"/card/:slug\" :method :GET :decorators ((@check-roles admin-role)))\n    (&get debug)\n  (error \"oh no\"))\n\nWhen you access localhost:4242/…",
+          "description": "A short post to show the usefulness of Hunchentoot-errors and to thank Mariano again.\nThis library adds the current request and session data to your stacktrace, either in the REPL (base case) or in the browser.\nTLDR;\nUse it like this:\n;; (ql:quickload \"hunchentoot-errors)\n;;\n;; We also use easy-routes: (ql:quickload \"easy-routes\")\n\n(defclass acceptor (easy-routes:easy-routes-acceptor hunchentoot-errors:errors-acceptor)\n  ()\n  (:documentation \"Our Hunchentoot acceptor that uses easy-routes and hunchentoot-errors, for easier route definition and enhanced stacktraces with request and session data.\"))\n\nthen (make-instance 'acceptor :port 4242).\nBase case\nImagine you have a bug in your route:\n(easy-routes:defroute route-card-page (\"/card/:slug\" :method :GET :decorators ((@check-roles admin-role…",
           "link": "https://lisp-journey.gitlab.io/blog/common-lisp-on-the-web-enrich-your-stacktrace-with-request-and-session-data/",
           "publishedOn": "2023-10-13T14:51:07.000Z",
-          "wordCount": 908,
+          "wordCount": 924,
           "title": "vindarel: Common Lisp on the web: enrich your stacktrace with request and session data",
           "imageUrl": "/images/default.png"
         },
@@ -766,8 +766,8 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-14T00:01:49.526Z",
-          "wordCount": 631,
+          "publishedOn": "2023-10-15T00:01:39.161Z",
+          "wordCount": 620,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
@@ -776,39 +776,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-14T00:01:44.485Z",
+          "publishedOn": "2023-10-15T00:01:33.318Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-14T00:01:44.471Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-14T00:01:44.464Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-14T00:01:44.440Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -816,9 +786,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-14T00:01:44.434Z",
+          "publishedOn": "2023-10-15T00:01:33.224Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-10-15T00:01:33.213Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-10-15T00:01:33.201Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,9 +816,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-14T00:01:44.421Z",
+          "publishedOn": "2023-10-15T00:01:33.197Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-10-15T00:01:33.186Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-14T00:01:44.372Z",
+          "publishedOn": "2023-10-15T00:01:33.168Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
