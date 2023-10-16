@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-15T00:01:39.205Z</id>
+    <id>urn:2023-10-16T00:01:43.337Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-10-15T00:01:39.205Z</updated>
+    <updated>2023-10-16T00:01:43.337Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-10-15T00:01:39.161Z</updated>
+        <updated>2023-10-16T00:01:43.310Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-10-15T00:01:33.318Z</updated>
+        <updated>2023-10-16T00:01:37.297Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-10-15T00:01:33.224Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-10-15T00:01:33.213Z</updated>
+        <updated>2023-10-16T00:01:37.289Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-10-16T00:01:37.283Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-10-15T00:01:33.201Z</updated>
+        <updated>2023-10-16T00:01:37.252Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-10-15T00:01:33.197Z</updated>
+        <updated>2023-10-16T00:01:37.142Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-10-15T00:01:33.186Z</updated>
+        <updated>2023-10-16T00:01:37.137Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-10-15T00:01:33.168Z</updated>
+        <updated>2023-10-16T00:01:33.427Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -221,6 +221,20 @@ In fact, most popular computer languages can be thought of as a
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Paolo Amoroso: Exploring Medley as a Common Lisp development environment]]></title>
+        <id>https://journal.paoloamoroso.com/exploring-medley-as-a-common-lisp-development-environment?pk_campaign=rss-feed</id>
+        <link href="https://journal.paoloamoroso.com/exploring-medley-as-a-common-lisp-development-environment?pk_campaign=rss-feed"/>
+        <updated>2023-09-25T09:38:50.000Z</updated>
+        <summary type="html"><![CDATA[Since encountering Medley I gained considerable experience with Interlisp. Medley Interlisp is a project for preserving, reviving, and modernizing the Interlisp-D software development environment of the Lisp Machines Xerox created at PARC.
+Nine months later I know enough to find my way around and confidently use most of the major system tools and features.
+I read all the available documentation, books, and publications, so I know where to look for information. And I undertook Interlisp programming projects such as Stringscope, Braincons, Sysrama, and Femtounit.
+Now I'm ready to explore Medley as a Common Lisp development environment.
+Although most of the system, facilities, and tools are written in and designed around Interlisp, the companies that maintained and marketed Medley over time p…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[vindarel: I published 17 videos about Common Lisp macros - learn Lisp with a code-first tutorial &#127909; &#11088;]]></title>
         <id>https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/</id>
         <link href="https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/"/>
@@ -304,38 +318,6 @@ just a quick summer update about some documentation cleanup and some checks on d
 Have a look at the (small) changes and keep sending feedback.
 
 Cheers]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gábor Melis: Try in Emacs]]></title>
-        <id>http://quotenil.com/try-in-emacs.html</id>
-        <link href="http://quotenil.com/try-in-emacs.html"/>
-        <updated>2023-08-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Try, my test anti-framework,
-has just got light Emacs integration. Consider the following test:
-(deftest test-foo ()
-  (is (equal "xxx" 5))
-  (is (equal 7 7))
-  (with-failure-expected (t)
-    (is (same-set-p '(1) '(2)))))
-The test can be run from Lisp with (test-foo) (interactive
-debugging) or (try 'test-foo) (non-interactive), but now there is
-a third option: run it from Emacs and get a couple of conveniences
-in return. In particular, with M-x mgl-try then entering
-test-foo, a new buffer pops up with the test output, which is
-font-locked based on the type of the outcome. The buffer also has
-outline minor mode, which matches the hierarchical structure of the
-output.
- The buffer's major mode is
-Lisp, so M-. and all the usual key bindings work. In additition,
-a couple of keys bound to navigation commands are available. See the
-documentation
-for the details. Note that Quicklisp has an older version of Try
-that does not have Emacs integration, so you'll need to use
-https://github.com/melisgl/try
-until the next Quicklisp release.]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
