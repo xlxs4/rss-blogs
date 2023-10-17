@@ -156,12 +156,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/10/16/on-safepoints",
+          "author": null,
+          "description": "Hello all, a brief note today.  For context, my big project over the\nlast year and a half or so is\n, a new garbage collector\nimplementation.  If everything goes right, Whippet will finding a better\npoint on the space/time tradeoff curve than\n's current garbage collector,\n, and will make it into Guile,\nwell, sometime.WhippetGuileBDW-GC\nBut, testing a garbage collector is... hard.  Methodologically it's very\ntricky, though there has been some .\nIdeally of course you test against a real application, and barring that,\nagainst a macrobenchmark extracted from a real application.  But garbage\ncollectors are deeply intertwined with language run-times; to maximize\nthe insight into GC performance, you need to minimize everything else,\nand to minimize non-collector cost, that means relying on a\nhigh-…",
+          "link": "https://wingolog.org/archives/2023/10/16/on-safepoints",
+          "publishedOn": "2023-10-16T13:46:55.000Z",
+          "wordCount": 1876,
+          "title": "on safepoints",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/08/08/a-negative-result",
           "author": null,
           "description": "Update: I am delighted to have been wrong!  See the end.\nBriefly, an interesting negative result: consider benchmarks , ,\n and so on, with associated  and  files.  Consider libraries\n and , with their  and  files.  You want to run each\nbenchmark against each library.b1b2b3.c.hpq.c.h\nP and Q implement the same API, but they have different ABI: you need to\nseparately compile each benchmark for each library.  You also need to\nseparate compile each library for each benchmark, because  also\nuses an abstract API implemented by , , and so on.p.cb1.hb2.h\nThe problem: can you implement a short GNU  that produces\nexecutables , , , , and so on?Makefileb1.pb1.qb2.pb2.q\nThe answer would appear to be \"no\".\nYou might think that with  and all the other functions available\nto you, that surely this could be…",
           "link": "https://wingolog.org/archives/2023/08/08/a-negative-result",
           "publishedOn": "2023-08-08T09:03:25.000Z",
-          "wordCount": 1056,
+          "wordCount": 1055,
           "title": "a negative result",
           "imageUrl": null
         },
@@ -244,16 +254,6 @@
           "wordCount": 2495,
           "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/04/18/sticking-point",
-          "author": null,
-          "description": "Good evening, gentle readers.  A brief note tonight, on a sticky place.\nSee, I have too many projects right now.\nIn and of itself this is not so much of a problem as a condition. I know\nmy limits; I keep myself from burning out by shedding load, and there is\na kind of priority list of which projects keep adequate service levels.\nFirst come the tiny humans that are in my care who need their butts\nwiped and bodies translated to and from school or daycare and who --\nwell you know the old Hegelian trope, that the dialectic crank of\nhistory doesn't turn itself, that it takes actions from people to\nsynthesize the thesis and the antithesis, and that even History itself\nisn't always monotonic; in the same way, bedtime is a reality,\nthere are the material conditions of sleepiness and\nyou're-gonna-b…",
-          "link": "https://wingolog.org/archives/2023/04/18/sticking-point",
-          "publishedOn": "2023-04-18T20:23:49.000Z",
-          "wordCount": 751,
-          "title": "sticking point",
-          "imageUrl": null
         }
       ]
     },
@@ -278,7 +278,7 @@
           "description": "I recently had an inquiry about the copyright status of my JRM’s Syntax Rules Primer for the Merely Eccentric.\nI don’t want to put it into public domain as that would allow anyone to rewrite it at will and leave that title.  Instead, I'd like to release it on an MIT style license: feel free to copy it and distribute it, correct any errors, but please retain the general gist of the article and the title and the authorship.",
           "link": "http://funcall.blogspot.com/2023/10/syntax-rules-primer.html",
           "publishedOn": "2023-10-13T09:17:00.000Z",
-          "wordCount": 3564,
+          "wordCount": 3592,
           "title": "Joe Marshall: Syntax-rules Primer",
           "imageUrl": null
         },
@@ -474,16 +474,6 @@
           "publishedOn": "2023-01-08T14:21:00.000Z",
           "wordCount": 1256,
           "title": "2022: The Year in Review",
-          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
-        },
-        {
-          "id": "https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/",
-          "author": null,
-          "description": "Twitter these days is all about drama related to… Twitter (Elon Musk). That really pains me, given that as long as it has existed Twitter has been the only social network that I’ve truly enjoyed using.",
-          "link": "https://batsov.com/articles/2022/12/20/bozhidar-is-on-mastodon/",
-          "publishedOn": "2022-12-20T18:21:00.000Z",
-          "wordCount": 603,
-          "title": "Bozhidar is on Mastodon",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
       ]
@@ -766,9 +756,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-16T00:01:43.310Z",
-          "wordCount": 620,
+          "publishedOn": "2023-10-17T00:01:39.289Z",
+          "wordCount": 618,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-10-17T00:01:35.588Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -776,7 +776,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-16T00:01:37.297Z",
+          "publishedOn": "2023-10-17T00:01:35.584Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -786,7 +786,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-16T00:01:37.289Z",
+          "publishedOn": "2023-10-17T00:01:35.481Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -796,39 +796,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-16T00:01:37.283Z",
+          "publishedOn": "2023-10-17T00:01:35.446Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-16T00:01:37.252Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-16T00:01:37.142Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-16T00:01:37.137Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -836,9 +806,29 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-16T00:01:33.427Z",
+          "publishedOn": "2023-10-17T00:01:35.427Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-10-17T00:01:35.405Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-10-17T00:01:35.387Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
