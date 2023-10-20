@@ -156,6 +156,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
+          "author": null,
+          "description": "Good day, comrades.  Today's missive is about strings!\nImagine you want to compile a program to WebAssembly, with the new .\nYour WebAssembly program will run on web browsers and render its\ncontents using the DOM API:\n,\n,\nand so on.  It will also use DOM interfaces to read parts of the page\nand read input from the user.GC\nsupport for\nWebAssemblyDocument.createElementDocument.createTextNode\nHow do you go about representing your program in WebAssembly?  The GC\nsupport gives you the ability to define a number of different kinds of\n:\nstructs (records), arrays, and functions-as-values.  Earlier versions of\nWebAssembly gave you 32- and 64-bit integers, floating-point numbers,\nand opaque references to host values ().  This is what you\nhave in your toolbox.  But what about strings?aggregate data\nty…",
+          "link": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
+          "publishedOn": "2023-10-19T10:33:58.000Z",
+          "wordCount": 4135,
+          "title": "requiem for a stringref",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/10/16/on-safepoints",
           "author": null,
           "description": "Hello all, a brief note today.  For context, my big project over the\nlast year and a half or so is\n, a new garbage collector\nimplementation.  If everything goes right, Whippet will finding a better\npoint on the space/time tradeoff curve than\n's current garbage collector,\n, and will make it into Guile,\nwell, sometime.WhippetGuileBDW-GC\nBut, testing a garbage collector is... hard.  Methodologically it's very\ntricky, though there has been some .\nIdeally of course you test against a real application, and barring that,\nagainst a macrobenchmark extracted from a real application.  But garbage\ncollectors are deeply intertwined with language run-times; to maximize\nthe insight into GC performance, you need to minimize everything else,\nand to minimize non-collector cost, that means relying on a\nhigh-…",
@@ -191,7 +201,7 @@
           "description": "Good morning, hackers.  Today I'd like to pick up my series on mobile\napplication development.  To recap, we looked at:\nTaking a step back, with the exception of Ark which has a special\nrelationship to HarmonyOS and Huawei, these frameworks are all layers on\ntop of what is provided by Android or iOS.  Why would you do that?\nPresumably there are benefits to these interstitial layers; what are\nthey?\nProbably the most basic answer is that an app framework layer offers the\npromise of abstracting over the different platforms.  This way you can\njust have one mobile application development team instead of two or\nmore.  In practice you still need to test on iOS and Android at least,\nbut this is cheaper than having fully separate Android and iOS teams.\nGiven that we are abstracting over platforms, …",
           "link": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
           "publishedOn": "2023-06-15T14:02:16.000Z",
-          "wordCount": 4142,
+          "wordCount": 4136,
           "title": "parallel futures in mobile application development",
           "imageUrl": null
         },
@@ -243,16 +253,6 @@
           "publishedOn": "2023-04-21T08:20:17.000Z",
           "wordCount": 2918,
           "title": "structure and interpretation of react native",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
-          "author": null,
-          "description": "Good day, hackers!  Today's note is a bit of a departure from compilers\ninternals.  A client at work recently asked me to look into\ncross-platform mobile application development and is happy for the\nresults to be shared publically.  This, then, is the first in a series\nof articles.\nI'll be starting by taking a look at\n/,\n,\n,\n/, and then a\nmystery guest.  This article will set the stage and then look into\nIonic/Capacitor.IonicCapacitorReact NativeNativeScriptFlutterDart\nThe angle I am taking is, if you were designing a new mobile operating\nsystem that uses JavaScript as its native application development\nlanguage, what would it mean to adopt one of these as your primary app\ndevelopment toolkit?  It's a broad question but I hope we can come up\nwith some useful conclusions.\nI'm going to appro…",
-          "link": "https://wingolog.org/archives/2023/04/20/structure-and-interpretation-of-capacitor-programs",
-          "publishedOn": "2023-04-20T10:20:32.000Z",
-          "wordCount": 2495,
-          "title": "structure and interpretation of capacitor programs",
           "imageUrl": null
         }
       ]
@@ -766,29 +766,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-19T00:01:32.135Z",
-          "wordCount": 618,
+          "publishedOn": "2023-10-20T00:01:30.644Z",
+          "wordCount": 614,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-19T00:01:30.109Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-19T00:01:30.104Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -796,19 +776,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-19T00:01:30.094Z",
+          "publishedOn": "2023-10-20T00:01:28.426Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-19T00:01:30.080Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -816,19 +786,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-19T00:01:30.065Z",
+          "publishedOn": "2023-10-20T00:01:27.884Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-19T00:01:30.061Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-10-20T00:01:27.880Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -836,9 +806,39 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-19T00:01:30.058Z",
+          "publishedOn": "2023-10-20T00:01:27.871Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-10-20T00:01:27.868Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-10-20T00:01:27.838Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-10-20T00:01:27.834Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
