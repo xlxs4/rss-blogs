@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -263,6 +263,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://blog.funcall.org//lisp/2023/10/22/also-alsa/",
+          "author": null,
+          "description": "Also ALSA now has a simple ALSA Mixer API support. See set-mixer-element-volume for sample use.\nAvailable in the latest Quicklisp.",
+          "link": "http://blog.funcall.org//lisp/2023/10/22/also-alsa/",
+          "publishedOn": "2023-10-21T15:00:00.000Z",
+          "wordCount": 52,
+          "title": "Eugene Zaikonnikov: Also ALSA gets Mixer API",
+          "imageUrl": null
+        },
+        {
           "id": "https://lisp-journey.gitlab.io/blog/common-lisp-on-the-web-enrich-your-stacktrace-with-request-and-session-data/",
           "author": null,
           "description": "A short post to show the usefulness of Hunchentoot-errors and to thank Mariano again.\nThis library adds the current request and session data to your stacktrace, either in the REPL (base case) or in the browser.\nTLDR;\nUse it like this:\n;; (ql:quickload \"hunchentoot-errors)\n;;\n;; We also use easy-routes: (ql:quickload \"easy-routes\")\n\n(defclass acceptor (easy-routes:easy-routes-acceptor hunchentoot-errors:errors-acceptor)\n  ()\n  (:documentation \"Our Hunchentoot acceptor that uses easy-routes and hunchentoot-errors, for easier route definition and enhanced stacktraces with request and session data.\"))\n\nthen (make-instance 'acceptor :port 4242).\nBase case\nImagine you have a bug in your route:\n(easy-routes:defroute route-card-page (\"/card/:slug\" :method :GET :decorators ((@check-roles admin-role…",
@@ -351,16 +361,6 @@
           "wordCount": 703,
           "title": "Gábor Melis: On Multifaceted Development and the Role of Documentation",
           "imageUrl": null
-        },
-        {
-          "id": "http://within-parens.blogspot.com/2023/08/documentingdebugging-he.html",
-          "author": null,
-          "description": "Hello\njust a quick summer update about some documentation cleanup and some checks on debugging HEΛP.\nHave a look at the (small) changes and keep sending feedback.\n\nCheers",
-          "link": "http://within-parens.blogspot.com/2023/08/documentingdebugging-he.html",
-          "publishedOn": "2023-08-16T12:36:00.000Z",
-          "wordCount": 1775,
-          "title": "Marco Antoniotti: Documenting/debugging HE&#923;P",
-          "imageUrl": null
         }
       ]
     },
@@ -407,16 +407,6 @@
           "publishedOn": "2023-05-28T15:45:00.000Z",
           "wordCount": 2151,
           "title": "GraphQL and Type Systems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://hypirion.com/musings/on-expectations-and-fun",
-          "author": null,
-          "description": "A blog usually has its style and shape, and your visitors expects that to continue on. But what do you do if you both want to keep that expectation while also making posts in a completely diferent style?",
-          "link": "https://hypirion.com/musings/on-expectations-and-fun",
-          "publishedOn": "2022-12-26T14:30:00.000Z",
-          "wordCount": 1286,
-          "title": "On Expectations and Fun",
           "imageUrl": null
         }
       ]
@@ -766,7 +756,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-22T00:01:41.699Z",
+          "publishedOn": "2023-10-23T00:01:27.909Z",
           "wordCount": 614,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -776,7 +766,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-22T00:01:39.022Z",
+          "publishedOn": "2023-10-23T00:01:24.203Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -786,19 +776,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-22T00:01:39.017Z",
+          "publishedOn": "2023-10-23T00:01:24.198Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-22T00:01:38.992Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -806,7 +786,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-22T00:01:38.989Z",
+          "publishedOn": "2023-10-23T00:01:24.183Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -816,9 +796,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-22T00:01:38.981Z",
+          "publishedOn": "2023-10-23T00:01:24.168Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-10-23T00:01:24.164Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -826,7 +816,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-22T00:01:38.976Z",
+          "publishedOn": "2023-10-23T00:01:24.150Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -836,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-22T00:01:38.960Z",
+          "publishedOn": "2023-10-23T00:01:24.144Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
