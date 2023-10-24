@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1723",
@@ -263,6 +263,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://blog.funcall.org//lisp/2023/10/23/deptree/",
+          "author": null,
+          "description": "Deptree is a tool to list and archive dependency snapshots of (ASDF-defined) projects. We at Norphonic use it in the product build pipeline, but it can be useful for integration workflows as well. The task sounds common enough so there's little doubt am reinventing the wheel with this. Alas, I couldn't find any readily available solutions nor good folks at #commonlisp could recall of any, so there.\nAvailable in the latest Quicklisp.",
+          "link": "http://blog.funcall.org//lisp/2023/10/23/deptree/",
+          "publishedOn": "2023-10-22T15:00:00.000Z",
+          "wordCount": 98,
+          "title": "Eugene Zaikonnikov: Announcing deptree",
+          "imageUrl": null
+        },
+        {
           "id": "http://blog.funcall.org//lisp/2023/10/22/also-alsa/",
           "author": null,
           "description": "Also ALSA now has a simple ALSA Mixer API support. See set-mixer-element-volume for sample use.\nAvailable in the latest Quicklisp.",
@@ -351,16 +361,6 @@
           "wordCount": 552,
           "title": "Nicolas Hafner: I've opened up a Patreon - Confession 93",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2570"
-        },
-        {
-          "id": "http://quotenil.com/multifaceted-development.html",
-          "author": null,
-          "description": "Catchy title, innit? I came up with it while trying to\nname the development style PAX\nenables. I wanted something vaguely self-explanatory in a straight\nout of a marketing department kind of way, with tendrils right into\nyour unconscious. Documentation-driven development sounded just the\nthing, but it's already taken. Luckily, I came to realize that\nneither documentation nor any other single thing should drive\ndevelopment. Less luckily for the philosophically disinclined, this\nepiphany unleashed my inner Richard P.\nGabriel. I reckon\nif there is a point to what follows, it's abstract enough to make it\nhard to tell.\nIn programming, there is always a formalization step involved: we\nmust go from idea to code. Very rarely, we have a formal definition\nof the problem, but apart from purely theore…",
-          "link": "http://quotenil.com/multifaceted-development.html",
-          "publishedOn": "2023-08-17T00:00:00.000Z",
-          "wordCount": 703,
-          "title": "Gábor Melis: On Multifaceted Development and the Role of Documentation",
-          "imageUrl": null
         }
       ]
     },
@@ -756,19 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-10-23T00:01:27.909Z",
+          "publishedOn": "2023-10-24T00:01:36.936Z",
           "wordCount": 614,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-10-23T00:01:24.203Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,9 +766,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-10-23T00:01:24.198Z",
+          "publishedOn": "2023-10-24T00:01:33.506Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-10-24T00:01:33.487Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -786,19 +786,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-10-23T00:01:24.183Z",
+          "publishedOn": "2023-10-24T00:01:33.471Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-10-23T00:01:24.168Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,19 +796,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-10-23T00:01:24.164Z",
+          "publishedOn": "2023-10-24T00:01:33.457Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-10-23T00:01:24.150Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-10-24T00:01:33.443Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,9 +816,19 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-10-23T00:01:24.144Z",
+          "publishedOn": "2023-10-24T00:01:33.439Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-10-24T00:01:33.436Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
