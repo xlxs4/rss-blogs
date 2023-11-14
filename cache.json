@@ -166,12 +166,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme",
+          "author": null,
+          "description": "Good evening, dear hackfriends.  Tonight's missive is an apology: not\nquite in the sense of expiation, though not quite\n that, either; rather, apology in the sense of explanation, of\nexegesis: apologia.  See, I accidentally made a Scheme.  I know I have\nenough Scheme implementations already, but I went and made another one.\nIt's for a maybe good reason, though!not\nI feel like we should make this the decade of leaning into your problems,\nand I have a Scheme problem, so here we are.  See, I co-maintain\n, and have been noodling on a new\ngarbage collector (GC) for Guile,\n.  Whippet is designed to be\nembedded in the project that uses it, so one day I hope it will be just\ncopied into Guile's source tree, replacing the venerable\n that we currently use.GuileWhippetBDW-GC\nThe thing is, though, that…",
+          "link": "https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme",
+          "publishedOn": "2023-11-13T21:36:08.000Z",
+          "wordCount": 702,
+          "title": "i accidentally a scheme",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
           "author": null,
           "description": "Good day, comrades.  Today's missive is about strings!\nImagine you want to compile a program to WebAssembly, with the new .\nYour WebAssembly program will run on web browsers and render its\ncontents using the DOM API:\n,\n,\nand so on.  It will also use DOM interfaces to read parts of the page\nand read input from the user.GC\nsupport for\nWebAssemblyDocument.createElementDocument.createTextNode\nHow do you go about representing your program in WebAssembly?  The GC\nsupport gives you the ability to define a number of different kinds of\n:\nstructs (records), arrays, and functions-as-values.  Earlier versions of\nWebAssembly gave you 32- and 64-bit integers, floating-point numbers,\nand opaque references to host values ().  This is what you\nhave in your toolbox.  But what about strings?aggregate data\nty…",
           "link": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
           "publishedOn": "2023-10-19T10:33:58.000Z",
-          "wordCount": 4121,
+          "wordCount": 4123,
           "title": "requiem for a stringref",
           "imageUrl": null
         },
@@ -181,7 +191,7 @@
           "description": "Hello all, a brief note today.  For context, my big project over the\nlast year and a half or so is\n, a new garbage collector\nimplementation.  If everything goes right, Whippet will finding a better\npoint on the space/time tradeoff curve than\n's current garbage collector,\n, and will make it into Guile,\nwell, sometime.WhippetGuileBDW-GC\nBut, testing a garbage collector is... hard.  Methodologically it's very\ntricky, though there has been some .\nIdeally of course you test against a real application, and barring that,\nagainst a macrobenchmark extracted from a real application.  But garbage\ncollectors are deeply intertwined with language run-times; to maximize\nthe insight into GC performance, you need to minimize everything else,\nand to minimize non-collector cost, that means relying on a\nhigh-…",
           "link": "https://wingolog.org/archives/2023/10/16/on-safepoints",
           "publishedOn": "2023-10-16T13:46:55.000Z",
-          "wordCount": 1861,
+          "wordCount": 1862,
           "title": "on safepoints",
           "imageUrl": null
         },
@@ -253,16 +263,6 @@
           "publishedOn": "2023-04-24T09:10:58.000Z",
           "wordCount": 2626,
           "title": "structure and interpretation of nativescript",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
-          "author": null,
-          "description": "Hey hey!  Today's missive continues exploring the space of JavaScript\nand mobile application development.\nYesterday we looked into , giving a brief\nstructural overview of what Capacitor apps look like under the hood and\nhow this translates to three aspects of performance: startup latency, jank,\nand peak performance.  Today we'll apply that same approach to another\npopular development framework, .Ionic / CapacitorReact Native\nI don't know about you, but I find that there is so much marketing smoke\nand lights around the whole phenomenon that is React and React Native\nthat sometimes it's hard to see what's actually there.  This is\ncompounded by the fact that the programming paradigm espoused by React\n(and its \"native\" cousin that we are looking at here) is so effective at\nenabling JavaScript …",
-          "link": "https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native",
-          "publishedOn": "2023-04-21T08:20:17.000Z",
-          "wordCount": 2918,
-          "title": "structure and interpretation of react native",
           "imageUrl": null
         }
       ]
@@ -746,19 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-11-13T00:01:36.978Z",
+          "publishedOn": "2023-11-14T00:01:29.785Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-11-13T00:01:32.679Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -766,39 +756,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-11-13T00:01:32.677Z",
+          "publishedOn": "2023-11-14T00:01:25.170Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-11-13T00:01:32.589Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-11-13T00:01:32.547Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-11-13T00:01:32.533Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-11-14T00:01:25.158Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -806,9 +776,39 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-11-13T00:01:32.520Z",
+          "publishedOn": "2023-11-14T00:01:25.062Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-11-14T00:01:25.060Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-11-14T00:01:25.058Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-11-14T00:01:25.048Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-11-13T00:01:32.427Z",
+          "publishedOn": "2023-11-14T00:01:24.984Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

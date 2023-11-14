@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-13T00:01:38.044Z</id>
+    <id>urn:2023-11-14T00:01:29.806Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-11-13T00:01:38.044Z</updated>
+    <updated>2023-11-14T00:01:29.806Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-11-13T00:01:36.978Z</updated>
+        <updated>2023-11-14T00:01:29.785Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-11-13T00:01:32.679Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,38 +19,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-11-13T00:01:32.677Z</updated>
+        <updated>2023-11-14T00:01:25.170Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-11-13T00:01:32.589Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-11-13T00:01:32.547Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-11-13T00:01:32.533Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-11-14T00:01:25.158Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +39,38 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-11-13T00:01:32.520Z</updated>
+        <updated>2023-11-14T00:01:25.062Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-11-14T00:01:25.060Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-11-14T00:01:25.058Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-11-14T00:01:25.048Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,34 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-11-13T00:01:32.427Z</updated>
+        <updated>2023-11-14T00:01:24.984Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[i accidentally a scheme]]></title>
+        <id>https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme</id>
+        <link href="https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme"/>
+        <updated>2023-11-13T21:36:08.000Z</updated>
+        <summary type="html"><![CDATA[Good evening, dear hackfriends.  Tonight's missive is an apology: not
+quite in the sense of expiation, though not quite
+ that, either; rather, apology in the sense of explanation, of
+exegesis: apologia.  See, I accidentally made a Scheme.  I know I have
+enough Scheme implementations already, but I went and made another one.
+It's for a maybe good reason, though!not
+I feel like we should make this the decade of leaning into your problems,
+and I have a Scheme problem, so here we are.  See, I co-maintain
+, and have been noodling on a new
+garbage collector (GC) for Guile,
+.  Whippet is designed to be
+embedded in the project that uses it, so one day I hope it will be just
+copied into Guile's source tree, replacing the venerable
+ that we currently use.GuileWhippetBDW-GC
+The thing is, though, that…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -1014,28 +1038,6 @@ Native
 Today's article takes an in-depth look at , whose point in the design space is further on the road towards
 the platform, unabashedly embracing the specificities of the API
 available on iOS and Android, exposing these interfaces directly to …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[structure and interpretation of react native]]></title>
-        <id>https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native</id>
-        <link href="https://wingolog.org/archives/2023/04/21/structure-and-interpretation-of-react-native"/>
-        <updated>2023-04-21T08:20:17.000Z</updated>
-        <summary type="html"><![CDATA[Hey hey!  Today's missive continues exploring the space of JavaScript
-and mobile application development.
-Yesterday we looked into , giving a brief
-structural overview of what Capacitor apps look like under the hood and
-how this translates to three aspects of performance: startup latency, jank,
-and peak performance.  Today we'll apply that same approach to another
-popular development framework, .Ionic / CapacitorReact Native
-I don't know about you, but I find that there is so much marketing smoke
-and lights around the whole phenomenon that is React and React Native
-that sometimes it's hard to see what's actually there.  This is
-compounded by the fact that the programming paradigm espoused by React
-(and its "native" cousin that we are looking at here) is so effective at
-enabling JavaScript …]]></summary>
         <author>
             <name>wingolog</name>
         </author>
