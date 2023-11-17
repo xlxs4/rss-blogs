@@ -166,12 +166,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/11/16/a-whiff-of-whiffle",
+          "author": null,
+          "description": "A couple nights ago I \nand promised to move on from sheepishly justifying my egregious behavior in\nmy next note, and finally mention some results from this experiment.\nWell, no: I am back on my bullshit.  Tonight I write about a couple of\nimplementation details that discerning readers may find of interest:\nvalue representation, the tail call issue, and the standard library.wrote about a superfluous Scheme\nimplementation\nAs a Lisp, Scheme is one of the early \"dynamically typed\" languages.\nThese days when you say \"type\", people immediately think ,\nmechanized proof of program properties, and so on.  But \"type\"\nhas another denotation which is all about values and almost not at all\nabout terms: one might say that\n has a type, but\nit's not part of a proof; it's just that if you try to  a\npair in…",
+          "link": "https://wingolog.org/archives/2023/11/16/a-whiff-of-whiffle",
+          "publishedOn": "2023-11-16T21:11:43.000Z",
+          "wordCount": 979,
+          "title": "a whiff of whiffle",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/11/14/whiffle-a-purpose-built-scheme",
           "author": null,
           "description": "Yesterday I \nbut didn't actually get past the admission of guilt.  Today the\ndefendant takes the stand, in the hope that an awkward\ncross-examination will persuade the jury to take pity on a poor\nmisguided soul.promised an\napology\nWhich is to say, let's talk about\n: what it actually is, what it is\ndoing for me, and why on earth it is that [I tell myself that] writing a\nnew programming language implementation is somehow preferable than\nre-using an existing one.Whiffle\nWhiffle is purpose-built to test the\n garbage collection library.Whippet\nWhiffle lets me create Whippet test cases in C, without actually writing\nC.  C is fine and all, but the problem with it and garbage collection is\nthat you have to track all stack roots manually, and this is an\nerror-prone process.  Generating C means that…",
           "link": "https://wingolog.org/archives/2023/11/14/whiffle-a-purpose-built-scheme",
           "publishedOn": "2023-11-14T22:10:58.000Z",
-          "wordCount": 915,
+          "wordCount": 912,
           "title": "whiffle, a purpose-built scheme",
           "imageUrl": null
         },
@@ -181,7 +191,7 @@
           "description": "Good evening, dear hackfriends.  Tonight's missive is an apology: not\nquite in the sense of expiation, though not quite\n that, either; rather, apology in the sense of explanation, of\nexegesis: apologia.  See, I accidentally made a Scheme.  I know I have\nenough Scheme implementations already, but I went and made another one.\nIt's for a maybe good reason, though!not\nI feel like we should make this the decade of leaning into your problems,\nand I have a Scheme problem, so here we are.  See, I co-maintain\n, and have been noodling on a new\ngarbage collector (GC) for Guile,\n.  Whippet is designed to be\nembedded in the project that uses it, so one day I hope it will be just\ncopied into Guile's source tree, replacing the venerable\n that we currently use.GuileWhippetBDW-GC\nThe thing is, though, that…",
           "link": "https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme",
           "publishedOn": "2023-11-13T21:36:08.000Z",
-          "wordCount": 764,
+          "wordCount": 761,
           "title": "i accidentally a scheme",
           "imageUrl": null
         },
@@ -191,7 +201,7 @@
           "description": "Good day, comrades.  Today's missive is about strings!\nImagine you want to compile a program to WebAssembly, with the new .\nYour WebAssembly program will run on web browsers and render its\ncontents using the DOM API:\n,\n,\nand so on.  It will also use DOM interfaces to read parts of the page\nand read input from the user.GC\nsupport for\nWebAssemblyDocument.createElementDocument.createTextNode\nHow do you go about representing your program in WebAssembly?  The GC\nsupport gives you the ability to define a number of different kinds of\n:\nstructs (records), arrays, and functions-as-values.  Earlier versions of\nWebAssembly gave you 32- and 64-bit integers, floating-point numbers,\nand opaque references to host values ().  This is what you\nhave in your toolbox.  But what about strings?aggregate data\nty…",
           "link": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
           "publishedOn": "2023-10-19T10:33:58.000Z",
-          "wordCount": 4124,
+          "wordCount": 4123,
           "title": "requiem for a stringref",
           "imageUrl": null
         },
@@ -201,7 +211,7 @@
           "description": "Hello all, a brief note today.  For context, my big project over the\nlast year and a half or so is\n, a new garbage collector\nimplementation.  If everything goes right, Whippet will finding a better\npoint on the space/time tradeoff curve than\n's current garbage collector,\n, and will make it into Guile,\nwell, sometime.WhippetGuileBDW-GC\nBut, testing a garbage collector is... hard.  Methodologically it's very\ntricky, though there has been some .\nIdeally of course you test against a real application, and barring that,\nagainst a macrobenchmark extracted from a real application.  But garbage\ncollectors are deeply intertwined with language run-times; to maximize\nthe insight into GC performance, you need to minimize everything else,\nand to minimize non-collector cost, that means relying on a\nhigh-…",
           "link": "https://wingolog.org/archives/2023/10/16/on-safepoints",
           "publishedOn": "2023-10-16T13:46:55.000Z",
-          "wordCount": 1862,
+          "wordCount": 1863,
           "title": "on safepoints",
           "imageUrl": null
         },
@@ -211,7 +221,7 @@
           "description": "Update: I am delighted to have been wrong!  See the end.\nBriefly, an interesting negative result: consider benchmarks , ,\n and so on, with associated  and  files.  Consider libraries\n and , with their  and  files.  You want to run each\nbenchmark against each library.b1b2b3.c.hpq.c.h\nP and Q implement the same API, but they have different ABI: you need to\nseparately compile each benchmark for each library.  You also need to\nseparate compile each library for each benchmark, because  also\nuses an abstract API implemented by , , and so on.p.cb1.hb2.h\nThe problem: can you implement a short GNU  that produces\nexecutables , , , , and so on?Makefileb1.pb1.qb2.pb2.q\nThe answer would appear to be \"no\".\nYou might think that with  and all the other functions available\nto you, that surely this could be…",
           "link": "https://wingolog.org/archives/2023/08/08/a-negative-result",
           "publishedOn": "2023-08-08T09:03:25.000Z",
-          "wordCount": 1052,
+          "wordCount": 1049,
           "title": "a negative result",
           "imageUrl": null
         },
@@ -253,16 +263,6 @@
           "publishedOn": "2023-05-02T09:13:41.000Z",
           "wordCount": 4129,
           "title": "structure and interpretation of ark",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
-          "author": null,
-          "description": "Good day, gentle hackfolk.  Like an\n fiddler I would\nappear to be deep in the groove, playing endless variations on a theme,\nin this case mobile application frameworks.  But one can only recognize\nnovelty in relation to the familiar, and today's note is a departure: we\nare going to look at , a UI toolkit based\nnot on JavaScript but on the  language.old-timeFlutterDart\nWhere to start, even?  The problem is big enough that I'll\napproach it from three different angles: from the past, from the top,\nand from the bottom.\nWith the other frameworks we looked at, we didn't have to say much about\ntheir use of JavaScript.  JavaScript is an obvious choice, in 2023 at\nleast: it is ubiquitous, has high quality implementations, and as a\nlanguage it is quite OK and progressively getting better.  Up to now…",
-          "link": "https://wingolog.org/archives/2023/04/26/structure-and-interpretation-of-flutter",
-          "publishedOn": "2023-04-26T13:50:01.000Z",
-          "wordCount": 3107,
-          "title": "structure and interpretation of flutter",
           "imageUrl": null
         }
       ]
@@ -736,29 +736,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-11-16T00:01:32.073Z",
+          "publishedOn": "2023-11-17T00:01:34.840Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-11-16T00:01:29.912Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-11-16T00:01:29.909Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -766,9 +746,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-11-16T00:01:29.835Z",
+          "publishedOn": "2023-11-17T00:01:31.492Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-11-17T00:01:31.487Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-11-17T00:01:31.484Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,7 +776,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-11-16T00:01:29.721Z",
+          "publishedOn": "2023-11-17T00:01:31.471Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -786,7 +786,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-11-16T00:01:29.713Z",
+          "publishedOn": "2023-11-17T00:01:31.453Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -796,7 +796,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-11-16T00:01:29.712Z",
+          "publishedOn": "2023-11-17T00:01:31.451Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -806,7 +806,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-11-16T00:01:29.487Z",
+          "publishedOn": "2023-11-17T00:01:31.388Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
