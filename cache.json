@@ -6,9 +6,19 @@
       "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
+          "id": "https://www.stochasticlifestyle.com/?p=1732",
+          "author": "Christopher Rackauckas",
+          "description": "Machine learning is all about examples. The more data you have, the better it should perform, right? With the rise of ChatGPT and Large Language Models (LLMs) as a code helping tool, it was thus just an assumption that the most popular languages like Python would likely be the best for LLMs. But because of the increased productivity, I tend to use a lot of Julia, a language with  an estimated user-base of around a million programmers. For this reason, people have often asked me how it fairs with ChatGPT, Github Copilot, etc., and so I checked out those pieces and… was stunned. It’s really good. It seemed better than Python actually?\nThe data is in: Julia does well with ChatGPT\nThis question was recently put to the test by a researcher named Alessio Buscemi in A Comparative Study  ... READ MORE\nThe post ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why? appeared first on Stochastic Lifestyle.",
+          "link": "http://www.stochasticlifestyle.com/chatgpt-performs-better-on-julia-than-python-and-r-for-large-language-model-llm-code-generation-why/",
+          "publishedOn": "2023-11-19T15:57:36.000Z",
+          "wordCount": 3115,
+          "title": "ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why?",
+          "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
+        },
+        {
           "id": "https://www.stochasticlifestyle.com/?p=1729",
           "author": "Christopher Rackauckas",
-          "description": "I’m pleased to share a talk I gave in the DDPS seminar series!\n\nData-driven Physical Simulations (DDPS) Seminar Series\nAbstract: The combination of scientific models into deep learning structures, commonly referred to as scientific machine learning (SciML), has made great strides in the last few years in incorporating models such as ODEs and PDEs into deep learning through differentiable simulation. However, the vast space of scientific simulation also includes models like jump diffusions, agent-based models, and more. Is SciML constrained to the simple continuous cases or is there a way to generalize to more advanced model forms? This talk will dive into the mathematical aspects of generalizing differentiable simulation to discuss cases like chaotic simulations, differentiating stochastic simulations like particle filters and agent-based models, and solving inverse  ... READ MORE\nThe post DDPS Seminar Talk: Generalizing Scientific Machine Learning and Differentiable Simulation Beyond Continuous models appeared first on Stochastic Lifestyle.",
+          "description": "I’m pleased to share a talk I gave in the DDPS seminar series!\n\nData-driven Physical Simulations (DDPS) Seminar Series\nAbstract: The combination of scientific models into deep learning structures, commonly referred to as scientific machine learning (SciML), has made great strides in the last few years in incorporating models such as ODEs and PDEs into deep learning through differentiable simulation. However, the vast space of scientific simulation also includes models like jump diffusions, agent-based models, and more. Is SciML constrained to the simple continuous cases or is there a way to generalize to more advanced model forms? This talk will dive into the mathematical aspects of generalizing differentiable simulation to discuss cases like chaotic simulations, differentiating stochastic simulations like particle filters and agent-based models, and solving  ... READ MORE\nThe post DDPS Seminar Talk: Generalizing Scientific Machine Learning and Differentiable Simulation Beyond Continuous models appeared first on Stochastic Lifestyle.",
           "link": "http://www.stochasticlifestyle.com/ddps-seminar-talk-generalizing-scientific-machine-learning-and-differentiable-simulation-beyond-continuous-models/",
           "publishedOn": "2023-11-12T11:54:03.000Z",
           "wordCount": 1576,
@@ -273,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://www.n16f.net/blog/interactive-common-lisp-development/",
+          "author": null,
+          "description": "Common Lisp programming is often presented as “interactive”. In most\nlanguages, modifications to your program are applied either by recompiling it\nand restarting it. In contrast, Common Lisp lets you incrementally modify your\nprogram while it is running.\nWhile this approach is convenient, especially for exploratory programming, it\nalso means that the state of your program during execution does not always\nreflect the source code. You do not just define new constructs: you look them\nup, inspect them, modify them or delete them. I had to learn a lot of\nsubtleties the hard way. This article is a compendium of information related\nto the interactive nature of Common Lisp.\nVariables\nIn Common Lisp variables are identified by symbols. Evaluating (SETQ A 42)\ncreates or updates a variable with the i…",
+          "link": "https://www.n16f.net/blog/interactive-common-lisp-development/",
+          "publishedOn": "2023-11-19T18:00:00.000Z",
+          "wordCount": 2518,
+          "title": "Nicolas Martyanoff: Interactive Common Lisp development",
+          "imageUrl": null
+        },
+        {
           "id": "http://blog.quicklisp.org/2023/10/october-2023-quicklisp-dist-update-now.html",
           "author": null,
           "description": "New projects: \n\n3d-math — A library implementing the necessary linear algebra math for 2D and 3D computations — zlib\nansi-test-harness — A testing harness that fetches ansi-test and allows subsets and extrinsic systems — MIT\nbabylon — Jürgen Walther's modular, configurable, hybrid knowledge engineering systems framework for Common Lisp, restored from the CMU AI Repository. — MIT\ncalm — CALM - Canvas Aided Lisp Magic — GNU General Public License, version 2\ncffi-object — A Common Lisp library that enables fast and convenient interoperation with foreign objects. — Apache-2.0\ncffi-ops — A library that helps write concise CFFI-related code. — Apache-2.0\ncl-brewer — Provides CI settings for cl-brewer. — Unlicense\ncl-jwk — Common Lisp system for decoding public JSON Web Keys (JWK) — BSD 2-Clause\n…",
@@ -361,16 +381,6 @@
           "wordCount": 1135,
           "title": "Paolo Amoroso: Exploring Medley as a Common Lisp development environment",
           "imageUrl": "https://i.snap.as/68i8povn.jpg"
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/",
-          "author": null,
-          "description": "For those who don’t know and who didn’t see the banner :D I am creating a Common Lisp course on the Udemy platform (with complementary videos on Youtube). I wanted to do something different and complementary than writing on the Cookbook.\nI worked on new videos this summer and I just finished editing the subtitles. I have added 17 videos (worth 1h30+ of code-driven content) about Common Lisp macros!\nWe cover a lot of content: quote, backquote and comma, “,@”, comparison with C macros, comparison with functions, GENSYM and variable capture, useful patterns (call-with...), compile-time computing, read-time evaluation... (full summary below)\n\nfind the course here: https://www.udemy.com/course/common-lisp-programming/?couponCode=LISPMACROSPOWER (various videos are free to watch, so you can judg…",
-          "link": "https://lisp-journey.gitlab.io/blog/17-new-videos-on-common-lisp-macros/",
-          "publishedOn": "2023-09-15T15:07:23.000Z",
-          "wordCount": 1797,
-          "title": "vindarel: I published 17 videos about Common Lisp macros - learn Lisp with a code-first tutorial &#127909; &#11088;",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -736,49 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-11-19T00:01:37.779Z",
+          "publishedOn": "2023-11-20T00:01:38.572Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-11-19T00:01:34.970Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-11-19T00:01:34.933Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-11-19T00:01:34.918Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-11-19T00:01:34.900Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         },
         {
@@ -786,9 +756,39 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-11-19T00:01:34.897Z",
+          "publishedOn": "2023-11-20T00:01:35.857Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-11-20T00:01:35.854Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-11-20T00:01:35.849Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-11-20T00:01:35.846Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -796,7 +796,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-11-19T00:01:34.879Z",
+          "publishedOn": "2023-11-20T00:01:35.821Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -806,9 +806,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-11-19T00:01:34.866Z",
+          "publishedOn": "2023-11-20T00:01:35.814Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2023-11-20T00:01:35.797Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
