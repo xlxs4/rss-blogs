@@ -66,7 +66,7 @@
           "description": "Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]",
           "link": "https://mikeinnes.io/2023/06/06/mojo.html",
           "publishedOn": "2023-06-06T00:00:00.000Z",
-          "wordCount": 2201,
+          "wordCount": 2202,
           "title": "Finding Your Mojo",
           "imageUrl": null
         },
@@ -76,7 +76,7 @@
           "description": "Most programming languages conflate the building of data structures and the modelling of information.",
           "link": "https://mikeinnes.io/2023/05/30/data.html",
           "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 568,
+          "wordCount": 570,
           "title": "Data Structures, Data Modelling",
           "imageUrl": null
         },
@@ -86,7 +86,7 @@
           "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (which Jeff Bezos called “artificial artificial intelligence”) also pays its human labourers a few cents per question-response task.",
           "link": "https://mikeinnes.io/2023/02/18/bing.html",
           "publishedOn": "2023-02-18T00:00:00.000Z",
-          "wordCount": 1300,
+          "wordCount": 1302,
           "title": "Deus Ex Bing",
           "imageUrl": null
         }
@@ -285,10 +285,10 @@
         {
           "id": "https://www.n16f.net/blog/interactive-common-lisp-development/",
           "author": null,
-          "description": "Common Lisp programming is often presented as “interactive”. In most\nlanguages, modifications to your program are applied either by recompiling it\nand restarting it. In contrast, Common Lisp lets you incrementally modify your\nprogram while it is running.\nWhile this approach is convenient, especially for exploratory programming, it\nalso means that the state of your program during execution does not always\nreflect the source code. You do not just define new constructs: you look them\nup, inspect them, modify them or delete them. I had to learn a lot of\nsubtleties the hard way. This article is a compendium of information related\nto the interactive nature of Common Lisp.\nVariables\nIn Common Lisp variables are identified by symbols. Evaluating (SETQ A 42)\ncreates or updates a variable with the i…",
+          "description": "Common Lisp programming is often presented as “interactive”. In most\nlanguages, modifications to your program are applied by recompiling it and\nrestarting it. In contrast, Common Lisp lets you incrementally modify your\nprogram while it is running.\nWhile this approach is convenient, especially for exploratory programming, it\nalso means that the state of your program during execution does not always\nreflect the source code. You do not just define new constructs: you look them\nup, inspect them, modify them or delete them. I had to learn a lot of\nsubtleties the hard way. This article is a compendium of information related\nto the interactive nature of Common Lisp.\nVariables\nIn Common Lisp variables are identified by symbols. Evaluating (SETQ A 42)\ncreates or updates a variable with the integer …",
           "link": "https://www.n16f.net/blog/interactive-common-lisp-development/",
           "publishedOn": "2023-11-19T18:00:00.000Z",
-          "wordCount": 2518,
+          "wordCount": 2517,
           "title": "Nicolas Martyanoff: Interactive Common Lisp development",
           "imageUrl": null
         },
@@ -746,19 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-11-22T00:02:00.498Z",
+          "publishedOn": "2023-11-23T00:01:37.713Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-11-22T00:01:57.368Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -766,19 +756,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-11-22T00:01:57.359Z",
+          "publishedOn": "2023-11-23T00:01:34.352Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-11-22T00:01:57.355Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,7 +766,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-11-22T00:01:57.336Z",
+          "publishedOn": "2023-11-23T00:01:34.349Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -796,19 +776,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-11-22T00:01:57.332Z",
+          "publishedOn": "2023-11-23T00:01:34.340Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-11-22T00:01:57.309Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-11-23T00:01:34.338Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-11-23T00:01:34.331Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -816,9 +806,19 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-11-22T00:01:57.290Z",
+          "publishedOn": "2023-11-23T00:01:34.319Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-11-23T00:01:34.305Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
