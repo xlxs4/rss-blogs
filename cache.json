@@ -181,7 +181,7 @@
           "description": "Let's talk about tree-shaking!\nBut first, I need to talk about WebAssembly's dirty secret: despite the\nhype, WebAssembly has had limited success on the web.\nThere is\n,\nwhich does appear to be a real success.  5 years ago there was\n, though they don't\ntalk much about Wasm these days.  There are quite a number of little NPM\nlibraries that use Wasm under the hood, usually compiled from C++ or\nRust.  I think\n\nprobably gets used for a few in-house corporate apps, though I could be\nfooled by their marketing.PhotoshopFigmaBlazor\nYou might recall the hyped demos of 3D first-person-shooter\ngames with Unreal engine again from 5 years ago, but that was the previous major release of\nUnreal and was always experimental; the current Unreal 5 does not support targetting\nWebAssembly.\nDon't get me wrong, I …",
           "link": "https://wingolog.org/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm",
           "publishedOn": "2023-11-24T11:41:37.000Z",
-          "wordCount": 2027,
+          "wordCount": 2202,
           "title": "tree-shaking, the horticulturally misguided algorithm",
           "imageUrl": null
         },
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/433",
+          "author": null,
+          "description": "I've been writing libraries for Common Lisp for over a decade now (lord almighty), and for most of that time I've tried to ensure that the libraries would, in the very least, work on all three major operating systems: Windows, Linux, and MacOS.\nUsually doing so isn't hard, as I can rely on the implementation and the language standard, but especially for libraries that deal with foreign code or operating system interfaces, a bit more work is needed. For the longest time I went the extra mile of providing that support myself, despite not being a MacOS user, and despite vehemently disapproving of Apple as a company and their treatment of users and developers.\nAbout two years ago, I stopped. I had had enough of all the extra work the platform put on me, for zero personal gain. Especially I had…",
+          "link": "https://reader.tymoon.eu/article/433",
+          "publishedOn": "2023-11-27T14:04:32.000Z",
+          "wordCount": 411,
+          "title": "Nicolas Hafner: The State of MacOS Support",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2517"
+        },
+        {
           "id": "http://funcall.blogspot.com/2023/11/github-co-pilot-review.html",
           "author": null,
           "description": "I recently tried out GitHub CoPilot.  It is a system that uses\n  generative AI to help you write code.\nThe tool interfaces to your IDE — I used VSCode — and\n  acts as an autocomplete on steroids … or acid.  Suggested\n  comments and code appear as you move the cursor and you can often choose from\n  a couple of different completions.  The way to get it to write code was to\n  simply document what you wanted it to write in a comment.  (There is\n  a chat interface where you can give it more directions, but I did\n  not play with that.)\nI decided to give it my standard interview question: write a simple\n  TicTacToe class, include a method to detect a winner.  The tool spit\n  out a method that checked an array for three in a row horizontally,\n  vertically, and along the two diagonals.  Almost corr…",
@@ -370,16 +380,6 @@
           "publishedOn": "2023-10-03T00:00:00.000Z",
           "wordCount": 2643,
           "title": "TurtleWare: Proxy Generic Function",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2023/09/greenspuns-tenth-rule-of-programming.html",
-          "author": null,
-          "description": "Greenspun's tenth rule of programming states\n  \nAny sufficiently complicated C or Fortran program\n  contains an ad hoc, informally-specified, bug ridden, slow\n    implementation of half of Common Lisp.\nIn fact, most popular computer languages can be thought of as a\n  poorly implemented Common Lisp.  There is a reason for this.\n  Church's lambda calculus is a great foundation for reasoning about\n  programming language semantics.  Lisp can be seen as a realization of a\n  lambda calculus interpreter.  By reasoning about a language's\n  semantics in Lisp, we're essentially reasoning about the semantics\n  in a variation of lambda calculus.",
-          "link": "http://funcall.blogspot.com/2023/09/greenspuns-tenth-rule-of-programming.html",
-          "publishedOn": "2023-09-27T16:31:00.000Z",
-          "wordCount": 3566,
-          "title": "Joe Marshall",
           "imageUrl": null
         }
       ]
@@ -746,29 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-11-27T00:01:30.643Z",
+          "publishedOn": "2023-11-28T00:01:31.903Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-11-27T00:01:27.057Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-11-27T00:01:27.051Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -776,19 +756,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-11-27T00:01:27.043Z",
+          "publishedOn": "2023-11-28T00:01:27.722Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-11-27T00:01:27.032Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-11-28T00:01:27.719Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2023-11-28T00:01:27.575Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -796,9 +786,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-11-27T00:01:27.030Z",
+          "publishedOn": "2023-11-28T00:01:27.540Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-11-28T00:01:27.537Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-11-27T00:01:27.028Z",
+          "publishedOn": "2023-11-28T00:01:27.533Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -816,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-11-27T00:01:26.992Z",
+          "publishedOn": "2023-11-28T00:01:27.344Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -1006,12 +1006,22 @@
       "siteUrl": "https://reader.tymoon.eu/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/433",
+          "author": null,
+          "description": "I've been writing libraries for Common Lisp for over a decade now (lord almighty), and for most of that time I've tried to ensure that the libraries would, in the very least, work on all three major operating systems: Windows, Linux, and MacOS.\nUsually doing so isn't hard, as I can rely on the implementation and the language standard, but especially for libraries that deal with foreign code or operating system interfaces, a bit more work is needed. For the longest time I went the extra mile of providing that support myself, despite not being a MacOS user, and despite vehemently disapproving of Apple as a company and their treatment of users and developers.\nAbout two years ago, I stopped. I had had enough of all the extra work the platform put on me, for zero personal gain. Especially I had…",
+          "link": "https://reader.tymoon.eu/article/433",
+          "publishedOn": "2023-11-27T14:04:32.000Z",
+          "wordCount": 411,
+          "title": "The State of MacOS Support",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2517"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/432",
           "author": null,
           "description": "I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!\nWhy make a Patreon now?\nI've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.\nSince the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…",
           "link": "https://reader.tymoon.eu/article/432",
           "publishedOn": "2023-08-25T12:45:54.000Z",
-          "wordCount": 552,
+          "wordCount": 557,
           "title": "I've opened up a Patreon - Confession 93",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2570"
         },
