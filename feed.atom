@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-05T00:01:31.361Z</id>
+    <id>urn:2023-12-06T00:01:34.173Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-12-05T00:01:31.361Z</updated>
+    <updated>2023-12-06T00:01:34.173Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-12-05T00:01:31.326Z</updated>
+        <updated>2023-12-06T00:01:33.620Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-12-05T00:01:28.628Z</updated>
+        <updated>2023-12-06T00:01:30.477Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-12-05T00:01:28.625Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-12-05T00:01:28.620Z</updated>
+        <updated>2023-12-06T00:01:30.474Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2023-12-06T00:01:30.366Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-12-05T00:01:28.597Z</updated>
+        <updated>2023-12-06T00:01:30.298Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-12-05T00:01:28.572Z</updated>
+        <updated>2023-12-06T00:01:30.221Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-12-05T00:01:28.562Z</updated>
+        <updated>2023-12-06T00:01:30.209Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,39 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-12-05T00:01:28.520Z</updated>
+        <updated>2023-12-06T00:01:29.985Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[colophonwards]]></title>
+        <id>https://wingolog.org/archives/2023/12/05/colophonwards</id>
+        <link href="https://wingolog.org/archives/2023/12/05/colophonwards"/>
+        <updated>2023-12-05T11:36:57.000Z</updated>
+        <summary type="html"><![CDATA[A brief meta-note this morning: for the first time in 20 years, I
+finally got around to updating the web design of
+ recently and wanted to share a bit
+about that.wingolog.org
+Back when I made ,
+I was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had
+just made its first release, smartphones were yet to be invented, and
+everyone used low-resolution CRT screens.  The original design did use CSS instead
+of tables, thankfully, but it was very narrow and left a lot up to the
+user agent (notably font choice and size).the initial wingolog
+designInternet Explorer
+6
+These days you can do much better.  Even HTML has moved on, with
+
+and
+
+and
+
+elements.  CSS is powerful and interoperable, with grid layout and
+media queries and  and  and a…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -957,29 +986,6 @@ If you've written a lot of scripts and shared some of those scripts with colleag
         <summary type="html"><![CDATA[Social media killed comments. What's a lonely blogger to do?]]></summary>
         <author>
             <name>Lambda/Sierra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[approaching cps soup]]></title>
-        <id>https://wingolog.org/archives/2023/05/20/approaching-cps-soup</id>
-        <link href="https://wingolog.org/archives/2023/05/20/approaching-cps-soup"/>
-        <updated>2023-05-20T07:10:03.000Z</updated>
-        <summary type="html"><![CDATA[Good evening, hackers.  Today’s missive is more of a massive, in the
-sense that it’s another presentation transcript-alike; these things always
-translate to many vertical pixels.
-In my defense, I hardly ever give a
-presentation twice, so not only do I miss out on the usual
-per-presentation cost amortization and on the incremental improvements
-of repetition, the more dire error is that whatever message I might have
-can only ever reach a subset of those that it might interest; here at
-least I can be more or less sure that if the presentation would interest
-someone, that they will find it.
-So for the time being I will try to
-share presentations here, in the spirit of, well, why the hell not.
-Last week I gave a training talk to  collaborators on the intermediate
-representation used by ‘s compi…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
