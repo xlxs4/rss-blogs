@@ -176,6 +176,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
+          "author": null,
+          "description": "Captain, status report: I’m down here in a Jeffries tube, poking at V8’s\ngarbage collector.  However, despite working on other areas of the project\nrecently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?\nThe  was in 2019; fine enough, but\ndated.  Now in the evening of 2023 I think it could be useful to revisit\nit and try to summarize the changes since then.  At least, it would have\nbeen useful to me had someone else written this article.last public article on the structure of V8’s garbage\ncollector\nTo my mind, work on V8’s GC has had three main goals over the last 5\nyears: improving interactions between the managed heap and C++,\nimprov…",
+          "link": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
+          "publishedOn": "2023-12-07T12:15:45.000Z",
+          "wordCount": 2039,
+          "title": "the last 5 years of V8's garbage collector",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/12/05/colophonwards",
           "author": null,
           "description": "A brief meta-note this morning: for the first time in 20 years, I\nfinally got around to updating the web design of\n recently and wanted to share a bit\nabout that.wingolog.org\nBack when I made ,\nI was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had\njust made its first release, smartphones were yet to be invented, and\neveryone used low-resolution CRT screens.  The original design did use CSS instead\nof tables, thankfully, but it was very narrow and left a lot up to the\nuser agent (notably font choice and size).the initial wingolog\ndesignInternet Explorer\n6\nThese days you can do much better.  Even HTML has moved on, with\n\nand\n\nand\n\nelements.  CSS is powerful and interoperable, with grid layout and\nmedia queries and  and  and a…",
@@ -201,7 +211,7 @@
           "description": "A couple nights ago I \nand promised to move on from sheepishly justifying my egregious behavior in\nmy next note, and finally mention some results from this experiment.\nWell, no: I am back on my bullshit.  Tonight I write about a couple of\nimplementation details that discerning readers may find of interest:\nvalue representation, the tail call issue, and the standard library.wrote about a superfluous Scheme\nimplementation\nAs a Lisp, Scheme is one of the early “dynamically typed” languages.\nThese days when you say “type”, people immediately think ,\nmechanized proof of program properties, and so on.  But “type”\nhas another denotation which is all about values and almost not at all\nabout terms: one might say that\n has a type, but\nit’s not part of a proof; it’s just that if you try to  a\npair in…",
           "link": "https://wingolog.org/archives/2023/11/16/a-whiff-of-whiffle",
           "publishedOn": "2023-11-16T21:11:43.000Z",
-          "wordCount": 1660,
+          "wordCount": 1646,
           "title": "a whiff of whiffle",
           "imageUrl": null
         },
@@ -263,16 +273,6 @@
           "publishedOn": "2023-07-25T19:49:27.000Z",
           "wordCount": 1511,
           "title": "on « the ministry for the future »",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
-          "author": null,
-          "description": "Good morning, hackers.  Today I’d like to pick up my series on mobile\napplication development.  To recap, we looked at:\nTaking a step back, with the exception of Ark which has a special\nrelationship to HarmonyOS and Huawei, these frameworks are all layers on\ntop of what is provided by Android or iOS.  Why would you do that?\nPresumably there are benefits to these interstitial layers; what are\nthey?\nProbably the most basic answer is that an app framework layer offers the\npromise of abstracting over the different platforms.  This way you can\njust have one mobile application development team instead of two or\nmore.  In practice you still need to test on iOS and Android at least,\nbut this is cheaper than having fully separate Android and iOS teams.\nGiven that we are abstracting over platforms, …",
-          "link": "https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development",
-          "publishedOn": "2023-06-15T14:02:16.000Z",
-          "wordCount": 4783,
-          "title": "parallel futures in mobile application development",
           "imageUrl": null
         }
       ]
@@ -746,29 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-07T00:01:36.314Z",
+          "publishedOn": "2023-12-08T00:01:41.600Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-07T00:01:33.656Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-07T00:01:33.653Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,9 +756,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-07T00:01:33.639Z",
+          "publishedOn": "2023-12-08T00:01:39.334Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-12-08T00:01:39.316Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-12-08T00:01:39.313Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,7 +786,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-07T00:01:33.626Z",
+          "publishedOn": "2023-12-08T00:01:39.294Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -796,7 +796,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-07T00:01:33.616Z",
+          "publishedOn": "2023-12-08T00:01:39.009Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -806,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-07T00:01:33.610Z",
+          "publishedOn": "2023-12-08T00:01:39.007Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -816,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-07T00:01:33.559Z",
+          "publishedOn": "2023-12-08T00:01:38.912Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

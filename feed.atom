@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-07T00:01:36.335Z</id>
+    <id>urn:2023-12-08T00:01:41.621Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-12-07T00:01:36.335Z</updated>
+    <updated>2023-12-08T00:01:41.621Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-12-07T00:01:36.314Z</updated>
+        <updated>2023-12-08T00:01:41.600Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-12-07T00:01:33.656Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-12-07T00:01:33.653Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +19,28 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-12-07T00:01:33.639Z</updated>
+        <updated>2023-12-08T00:01:39.334Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-12-08T00:01:39.316Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2023-12-08T00:01:39.313Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-12-07T00:01:33.626Z</updated>
+        <updated>2023-12-08T00:01:39.294Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-12-07T00:01:33.616Z</updated>
+        <updated>2023-12-08T00:01:39.009Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-12-07T00:01:33.610Z</updated>
+        <updated>2023-12-08T00:01:39.007Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,30 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-12-07T00:01:33.559Z</updated>
+        <updated>2023-12-08T00:01:38.912Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[the last 5 years of V8's garbage collector]]></title>
+        <id>https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector</id>
+        <link href="https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector"/>
+        <updated>2023-12-07T12:15:45.000Z</updated>
+        <summary type="html"><![CDATA[Captain, status report: I’m down here in a Jeffries tube, poking at V8’s
+garbage collector.  However, despite working on other areas of the project
+recently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?
+The  was in 2019; fine enough, but
+dated.  Now in the evening of 2023 I think it could be useful to revisit
+it and try to summarize the changes since then.  At least, it would have
+been useful to me had someone else written this article.last public article on the structure of V8’s garbage
+collector
+To my mind, work on V8’s GC has had three main goals over the last 5
+years: improving interactions between the managed heap and C++,
+improv…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -841,28 +861,6 @@ Pros: Its main draw is that it has a lot of plugins to other packages through it
 The post Summary of Julia Plotting Packages appeared first on Stochastic Lifestyle.]]></summary>
         <author>
             <name>Christopher Rackauckas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[parallel futures in mobile application development]]></title>
-        <id>https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development</id>
-        <link href="https://wingolog.org/archives/2023/06/15/parallel-futures-in-mobile-application-development"/>
-        <updated>2023-06-15T14:02:16.000Z</updated>
-        <summary type="html"><![CDATA[Good morning, hackers.  Today I’d like to pick up my series on mobile
-application development.  To recap, we looked at:
-Taking a step back, with the exception of Ark which has a special
-relationship to HarmonyOS and Huawei, these frameworks are all layers on
-top of what is provided by Android or iOS.  Why would you do that?
-Presumably there are benefits to these interstitial layers; what are
-they?
-Probably the most basic answer is that an app framework layer offers the
-promise of abstracting over the different platforms.  This way you can
-just have one mobile application development team instead of two or
-more.  In practice you still need to test on iOS and Android at least,
-but this is cheaper than having fully separate Android and iOS teams.
-Given that we are abstracting over platforms, …]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
