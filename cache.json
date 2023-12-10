@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -11,7 +11,7 @@
           "description": "Machine learning is all about examples. The more data you have, the better it should perform, right? With the rise of ChatGPT and Large Language Models (LLMs) as a code helping tool, it was thus just an assumption that the most popular languages like Python would likely be the best for LLMs. But because of the increased productivity, I tend to use a lot of Julia, a language with  an estimated user-base of around a million programmers. For this reason, people have often asked me how it fairs with ChatGPT, Github Copilot, etc., and so I checked out those pieces and… was stunned. It’s really good. It seemed better than Python actually?\nThe data is in: Julia does well with ChatGPT\nThis question was recently put to the test by a researcher named Alessio Buscemi in A Comparative Study  ... READ MORE\nThe post ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why? appeared first on Stochastic Lifestyle.",
           "link": "http://www.stochasticlifestyle.com/chatgpt-performs-better-on-julia-than-python-and-r-for-large-language-model-llm-code-generation-why/",
           "publishedOn": "2023-11-19T15:57:36.000Z",
-          "wordCount": 3115,
+          "wordCount": 3156,
           "title": "ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why?",
           "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
         },
@@ -181,7 +181,7 @@
           "description": "Today, a followup to  with some more details on V8’s new\nyoung-generation implementation,  or .yesterday’s noteminor mark-sweepMinorMS\nA\ncaveat again: these observations are just from reading the code; I\nhaven’t run these past the MinorMS authors yet, so any of these details\nmight be misunderstandings.\nThe MinorMS nursery consists of , each of which is 256 kB, unless\nhuge-page mode is on, in which case they are 2 MB.  The total default\nsize of the nursery is 72 MB by default, or 144 MB if  is off.pagespointer\ncompression\nThere can be multiple threads allocating into the nursery, but let’s\nfocus on the ,\nwhich is used on the main thread.  Nursery allocation is bump-pointer,\nwhether in a MinorMS page or scavenger semi-space.  Bump-pointer regions\nare called , and often abbreviated as \nin the…",
           "link": "https://wingolog.org/archives/2023/12/08/v8s-mark-sweep-nursery",
           "publishedOn": "2023-12-08T14:34:03.000Z",
-          "wordCount": 1404,
+          "wordCount": 1476,
           "title": "v8's mark-sweep nursery",
           "imageUrl": null
         },
@@ -191,7 +191,7 @@
           "description": "Captain, status report: I’m down here in a Jeffries tube, poking at V8’s\ngarbage collector.  However, despite working on other areas of the project\nrecently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?\nThe  was in 2019; fine enough, but\ndated.  Now in the evening of 2023 I think it could be useful to revisit\nit and try to summarize the changes since then.  At least, it would have\nbeen useful to me had someone else written this article.last public article on the structure of V8’s garbage\ncollector\nTo my mind, work on V8’s GC has had three main goals over the last 5\nyears: improving interactions between the managed heap and C++,\nimprov…",
           "link": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
           "publishedOn": "2023-12-07T12:15:45.000Z",
-          "wordCount": 2039,
+          "wordCount": 2068,
           "title": "the last 5 years of V8's garbage collector",
           "imageUrl": null
         },
@@ -746,7 +746,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-09T00:01:44.187Z",
+          "publishedOn": "2023-12-10T00:01:35.149Z",
           "wordCount": 605,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -756,7 +756,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-09T00:01:40.971Z",
+          "publishedOn": "2023-12-10T00:01:31.581Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -766,39 +766,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-09T00:01:40.937Z",
+          "publishedOn": "2023-12-10T00:01:31.508Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-09T00:01:40.933Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-09T00:01:40.929Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-09T00:01:40.920Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -806,9 +776,39 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-09T00:01:40.918Z",
+          "publishedOn": "2023-12-10T00:01:31.505Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-12-10T00:01:31.485Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-12-10T00:01:31.472Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-12-10T00:01:31.468Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-09T00:01:40.716Z",
+          "publishedOn": "2023-12-10T00:01:31.397Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
