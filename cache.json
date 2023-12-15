@@ -79,16 +79,6 @@
           "wordCount": 570,
           "title": "Data Structures, Data Modelling",
           "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/2023/02/18/bing.html",
-          "author": null,
-          "description": "Conversations with ChatGPT, a recently released chatbot, reportedly cost its inventors at OpenAI a few cents each. By Internet standards this is shockingly expensive. Though it’s touted as the future of the search engine, any company scaling the technology up to the world’s 10 billion or so daily queries will face suffocating costs. The milestone for Artificial Intelligence may be that it’s now about as expensive as the real thing: Amazon’s mechanical turk service (which Jeff Bezos called “artificial artificial intelligence”) also pays its human labourers a few cents per question-response task.",
-          "link": "https://mikeinnes.io/2023/02/18/bing.html",
-          "publishedOn": "2023-02-18T00:00:00.000Z",
-          "wordCount": 1302,
-          "title": "Deus Ex Bing",
-          "imageUrl": null
         }
       ]
     },
@@ -176,6 +166,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2023/12/14/service-update",
+          "author": null,
+          "description": "Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown\nI had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com",
+          "link": "https://wingolog.org/archives/2023/12/14/service-update",
+          "publishedOn": "2023-12-14T14:28:45.000Z",
+          "wordCount": 862,
+          "title": "service update",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2023/12/12/sir-talks-a-lot",
           "author": null,
           "description": "I know, dear reader: of course you have already seen all my talks this year.  Your attentions are really too kind and I thank you.  But those other people, maybe you share one talk with them, and then they ask you for more, and you have to go stalking back through the archives to slake their nerd-thirst.  This happens all the time, right?\nI was thinking of you this morning and I said to myself, why don’t I put together a post linking to all of my talks in 2023, so that you can just send them a link; here we are.  You are very welcome, it is really my pleasure.\n  Wasm\nstandards group, Munich, 11 Oct 2023.\nScheme + Wasm + GC = MVP: Hoot Scheme-to-Wasm compiler update.slides\n\nWasm GC subgroup, 18 Apr 2023.\nScheme to Wasm: Use and misuse of the GC proposal.slides\n\nBOB, Berlin, 17 Mar 2023.\n\n\nA world to win: WebAssembly for the rest of us.blogslidesyoutube\n\nEOSS, Prague, 27 June 2023.\n\n\n\n\n\n\n\nCross-platform mobile UI: “Compilers, compilers everywhere”.slidesyoutubeblogblogblogblogblogblog\n\nSpritely, remote, 10 May 2023.\n\nCPS Soup: A functional intermediate language.blogslides\n\nFOSDEM, Brussels, 4 Feb 2023.\n\n\nWhippet: A new GC for Guile.blogeventslides\nStill here?  The full  will surely fill your cup.talks archive\n2023 talks\nbut wait, there’s more",
@@ -221,7 +221,7 @@
           "description": "A brief meta-note this morning: for the first time in 20 years, I\nfinally got around to updating the web design of\n recently and wanted to share a bit\nabout that.wingolog.org\nBack when I made ,\nI was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had\njust made its first release, smartphones were yet to be invented, and\neveryone used low-resolution CRT screens.  The original design did use CSS instead\nof tables, thankfully, but it was very narrow and left a lot up to the\nuser agent (notably font choice and size).the initial wingolog\ndesignInternet Explorer\n6\nThese days you can do much better.  Even HTML has moved on, with\n\nand\n\nand\n\nelements.  CSS is powerful and interoperable, with grid layout and\nmedia queries and  and  and a…",
           "link": "https://wingolog.org/archives/2023/12/05/colophonwards",
           "publishedOn": "2023-12-05T11:36:57.000Z",
-          "wordCount": 1530,
+          "wordCount": 1527,
           "title": "colophonwards",
           "imageUrl": null
         },
@@ -263,16 +263,6 @@
           "publishedOn": "2023-11-13T21:36:08.000Z",
           "wordCount": 1421,
           "title": "i accidentally a scheme",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
-          "author": null,
-          "description": "Good day, comrades.  Today’s missive is about strings!\nImagine you want to compile a program to WebAssembly, with the new .\nYour WebAssembly program will run on web browsers and render its\ncontents using the DOM API:\n,\n,\nand so on.  It will also use DOM interfaces to read parts of the page\nand read input from the user.GC\nsupport for\nWebAssemblyDocument.createElementDocument.createTextNode\nHow do you go about representing your program in WebAssembly?  The GC\nsupport gives you the ability to define a number of different kinds of\n:\nstructs (records), arrays, and functions-as-values.  Earlier versions of\nWebAssembly gave you 32- and 64-bit integers, floating-point numbers,\nand opaque references to host values ().  This is what you\nhave in your toolbox.  But what about strings?aggregate data\nty…",
-          "link": "https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref",
-          "publishedOn": "2023-10-19T10:33:58.000Z",
-          "wordCount": 4788,
-          "title": "requiem for a stringref",
           "imageUrl": null
         }
       ]
@@ -736,29 +726,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-14T00:01:31.832Z",
+          "publishedOn": "2023-12-15T00:01:36.245Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-14T00:01:30.367Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-14T00:01:30.364Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -766,9 +736,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-14T00:01:30.286Z",
+          "publishedOn": "2023-12-15T00:01:33.997Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2023-12-15T00:01:33.966Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -776,19 +756,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-14T00:01:30.281Z",
+          "publishedOn": "2023-12-15T00:01:33.959Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-14T00:01:30.278Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-12-15T00:01:33.951Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -796,9 +776,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-14T00:01:30.277Z",
+          "publishedOn": "2023-12-15T00:01:33.943Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-12-15T00:01:33.940Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -806,7 +796,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-14T00:01:29.913Z",
+          "publishedOn": "2023-12-15T00:01:33.901Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
