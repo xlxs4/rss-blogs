@@ -171,7 +171,7 @@
           "description": "Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown\nI had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com",
           "link": "https://wingolog.org/archives/2023/12/14/service-update",
           "publishedOn": "2023-12-14T14:28:45.000Z",
-          "wordCount": 862,
+          "wordCount": 868,
           "title": "service update",
           "imageUrl": null
         },
@@ -181,7 +181,7 @@
           "description": "I know, dear reader: of course you have already seen all my talks this year.  Your attentions are really too kind and I thank you.  But those other people, maybe you share one talk with them, and then they ask you for more, and you have to go stalking back through the archives to slake their nerd-thirst.  This happens all the time, right?\nI was thinking of you this morning and I said to myself, why don’t I put together a post linking to all of my talks in 2023, so that you can just send them a link; here we are.  You are very welcome, it is really my pleasure.\n  Wasm\nstandards group, Munich, 11 Oct 2023.\nScheme + Wasm + GC = MVP: Hoot Scheme-to-Wasm compiler update.slides\n\nWasm GC subgroup, 18 Apr 2023.\nScheme to Wasm: Use and misuse of the GC proposal.slides\n\nBOB, Berlin, 17 Mar 2023.\n\n\nA world to win: WebAssembly for the rest of us.blogslidesyoutube\n\nEOSS, Prague, 27 June 2023.\n\n\n\n\n\n\n\nCross-platform mobile UI: “Compilers, compilers everywhere”.slidesyoutubeblogblogblogblogblogblog\n\nSpritely, remote, 10 May 2023.\n\nCPS Soup: A functional intermediate language.blogslides\n\nFOSDEM, Brussels, 4 Feb 2023.\n\n\nWhippet: A new GC for Guile.blogeventslides\nStill here?  The full  will surely fill your cup.talks archive\n2023 talks\nbut wait, there’s more",
           "link": "https://wingolog.org/archives/2023/12/12/sir-talks-a-lot",
           "publishedOn": "2023-12-12T15:18:14.000Z",
-          "wordCount": 1125,
+          "wordCount": 1131,
           "title": "sir talks-a-lot",
           "imageUrl": null
         },
@@ -191,7 +191,7 @@
           "description": "Good evening!  This evening, a note on high-dynamic-range (HDR)\nhistograms.\nHow should one record garbage collector pause times?\nA few options present themselves: you could just record the total pause\ntime.  Or, also record the total number of collections, which allows you\nto compute the average.  Maximum is easy enough, too.  But then you\nmight also want the median or the p90 or the p99, and these percentile\nvalues are more gnarly: you either need to record all the pause times,\nwhich can itself become a memory leak, or you need to approximate via a\nhistogram.\nLet’s assume that you decide on the histogram approach.  How should you\ncompute the bins?  It would be nice to have microsecond accuracy on the\nsmall end, but if you bin by microsecond you could end up having\nmillions of bins, which …",
           "link": "https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram",
           "publishedOn": "2023-12-10T21:27:59.000Z",
-          "wordCount": 1846,
+          "wordCount": 1852,
           "title": "a simple hdr histogram",
           "imageUrl": null
         },
@@ -201,7 +201,7 @@
           "description": "Today, a followup to  with some more details on V8’s new\nyoung-generation implementation,  or .yesterday’s noteminor mark-sweepMinorMS\nA\ncaveat again: these observations are just from reading the code; I\nhaven’t run these past the MinorMS authors yet, so any of these details\nmight be misunderstandings.\nThe MinorMS nursery consists of , each of which is 256 kB, unless\nhuge-page mode is on, in which case they are 2 MB.  The total default\nsize of the nursery is 72 MB by default, or 144 MB if  is off.pagespointer\ncompression\nThere can be multiple threads allocating into the nursery, but let’s\nfocus on the ,\nwhich is used on the main thread.  Nursery allocation is bump-pointer,\nwhether in a MinorMS page or scavenger semi-space.  Bump-pointer regions\nare called , and often abbreviated as \nin the…",
           "link": "https://wingolog.org/archives/2023/12/08/v8s-mark-sweep-nursery",
           "publishedOn": "2023-12-08T14:34:03.000Z",
-          "wordCount": 1484,
+          "wordCount": 1490,
           "title": "v8's mark-sweep nursery",
           "imageUrl": null
         },
@@ -211,7 +211,7 @@
           "description": "Captain, status report: I’m down here in a Jeffries tube, poking at V8’s\ngarbage collector.  However, despite working on other areas of the project\nrecently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?\nThe  was in 2019; fine enough, but\ndated.  Now in the evening of 2023 I think it could be useful to revisit\nit and try to summarize the changes since then.  At least, it would have\nbeen useful to me had someone else written this article.last public article on the structure of V8’s garbage\ncollector\nTo my mind, work on V8’s GC has had three main goals over the last 5\nyears: improving interactions between the managed heap and C++,\nimprov…",
           "link": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
           "publishedOn": "2023-12-07T12:15:45.000Z",
-          "wordCount": 2076,
+          "wordCount": 2082,
           "title": "the last 5 years of V8's garbage collector",
           "imageUrl": null
         },
@@ -221,7 +221,7 @@
           "description": "A brief meta-note this morning: for the first time in 20 years, I\nfinally got around to updating the web design of\n recently and wanted to share a bit\nabout that.wingolog.org\nBack when I made ,\nI was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had\njust made its first release, smartphones were yet to be invented, and\neveryone used low-resolution CRT screens.  The original design did use CSS instead\nof tables, thankfully, but it was very narrow and left a lot up to the\nuser agent (notably font choice and size).the initial wingolog\ndesignInternet Explorer\n6\nThese days you can do much better.  Even HTML has moved on, with\n\nand\n\nand\n\nelements.  CSS is powerful and interoperable, with grid layout and\nmedia queries and  and  and a…",
           "link": "https://wingolog.org/archives/2023/12/05/colophonwards",
           "publishedOn": "2023-12-05T11:36:57.000Z",
-          "wordCount": 1527,
+          "wordCount": 1533,
           "title": "colophonwards",
           "imageUrl": null
         },
@@ -231,7 +231,7 @@
           "description": "Let’s talk about tree-shaking!\nBut first, I need to talk about WebAssembly’s dirty secret: despite the\nhype, WebAssembly has had limited success on the web.\nThere is\n,\nwhich does appear to be a real success.  5 years ago there was\n, though they don’t\ntalk much about Wasm these days.  There are quite a number of little NPM\nlibraries that use Wasm under the hood, usually compiled from C++ or\nRust.  I think\n\nprobably gets used for a few in-house corporate apps, though I could be\nfooled by their marketing.PhotoshopFigmaBlazor\nYou might recall the hyped demos of 3D first-person-shooter\ngames with Unreal engine again from 5 years ago, but that was the previous major release of\nUnreal and was always experimental; the current Unreal 5 does not support targetting\nWebAssembly.\nDon’t get me wrong, I …",
           "link": "https://wingolog.org/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm",
           "publishedOn": "2023-11-24T11:41:37.000Z",
-          "wordCount": 2863,
+          "wordCount": 2855,
           "title": "tree-shaking, the horticulturally misguided algorithm",
           "imageUrl": null
         },
@@ -241,7 +241,7 @@
           "description": "A couple nights ago I \nand promised to move on from sheepishly justifying my egregious behavior in\nmy next note, and finally mention some results from this experiment.\nWell, no: I am back on my bullshit.  Tonight I write about a couple of\nimplementation details that discerning readers may find of interest:\nvalue representation, the tail call issue, and the standard library.wrote about a superfluous Scheme\nimplementation\nAs a Lisp, Scheme is one of the early “dynamically typed” languages.\nThese days when you say “type”, people immediately think ,\nmechanized proof of program properties, and so on.  But “type”\nhas another denotation which is all about values and almost not at all\nabout terms: one might say that\n has a type, but\nit’s not part of a proof; it’s just that if you try to  a\npair in…",
           "link": "https://wingolog.org/archives/2023/11/16/a-whiff-of-whiffle",
           "publishedOn": "2023-11-16T21:11:43.000Z",
-          "wordCount": 1655,
+          "wordCount": 1661,
           "title": "a whiff of whiffle",
           "imageUrl": null
         },
@@ -251,7 +251,7 @@
           "description": "Yesterday I \nbut didn’t actually get past the admission of guilt.  Today the\ndefendant takes the stand, in the hope that an awkward\ncross-examination will persuade the jury to take pity on a poor\nmisguided soul.promised an\napology\nWhich is to say, let’s talk about\n: what it actually is, what it is\ndoing for me, and why on earth it is that [I tell myself that] writing a\nnew programming language implementation is somehow preferable than\nre-using an existing one.Whiffle\nWhiffle is purpose-built to test the\n garbage collection library.Whippet\nWhiffle lets me create Whippet test cases in C, without actually writing\nC.  C is fine and all, but the problem with it and garbage collection is\nthat you have to track all stack roots manually, and this is an\nerror-prone process.  Generating C means that…",
           "link": "https://wingolog.org/archives/2023/11/14/whiffle-a-purpose-built-scheme",
           "publishedOn": "2023-11-14T22:10:58.000Z",
-          "wordCount": 1560,
+          "wordCount": 1566,
           "title": "whiffle, a purpose-built scheme",
           "imageUrl": null
         },
@@ -261,7 +261,7 @@
           "description": "Good evening, dear hackfriends.  Tonight’s missive is an apology: not\nquite in the sense of expiation, though not quite\n that, either; rather, apology in the sense of explanation, of\nexegesis: apologia.  See, I accidentally made a Scheme.  I know I have\nenough Scheme implementations already, but I went and made another one.\nIt’s for a maybe good reason, though!not\nI feel like we should make this the decade of leaning into your problems,\nand I have a Scheme problem, so here we are.  See, I co-maintain\n, and have been noodling on a new\ngarbage collector (GC) for Guile,\n.  Whippet is designed to be\nembedded in the project that uses it, so one day I hope it will be just\ncopied into Guile’s source tree, replacing the venerable\n that we currently use.GuileWhippetBDW-GC\nThe thing is, though, that…",
           "link": "https://wingolog.org/archives/2023/11/13/i-accidentally-a-scheme",
           "publishedOn": "2023-11-13T21:36:08.000Z",
-          "wordCount": 1421,
+          "wordCount": 1427,
           "title": "i accidentally a scheme",
           "imageUrl": null
         }
@@ -726,9 +726,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-15T00:01:36.245Z",
+          "publishedOn": "2023-12-16T00:01:42.785Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2023-12-16T00:01:41.071Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -736,9 +746,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-15T00:01:33.997Z",
+          "publishedOn": "2023-12-16T00:01:41.067Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-12-16T00:01:41.050Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -746,7 +766,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-15T00:01:33.966Z",
+          "publishedOn": "2023-12-16T00:01:41.047Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -756,19 +776,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-15T00:01:33.959Z",
+          "publishedOn": "2023-12-16T00:01:41.040Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-15T00:01:33.951Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,19 +786,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-15T00:01:33.943Z",
+          "publishedOn": "2023-12-16T00:01:40.825Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-15T00:01:33.940Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -796,7 +796,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-15T00:01:33.901Z",
+          "publishedOn": "2023-12-16T00:01:40.755Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
