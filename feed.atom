@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-22T00:01:26.809Z</id>
+    <id>urn:2023-12-23T00:01:38.629Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2023-12-22T00:01:26.809Z</updated>
+    <updated>2023-12-23T00:01:38.629Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2023-12-22T00:01:26.787Z</updated>
+        <updated>2023-12-23T00:01:38.609Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2023-12-22T00:01:24.563Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2023-12-22T00:01:24.476Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +19,28 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2023-12-22T00:01:24.466Z</updated>
+        <updated>2023-12-23T00:01:33.805Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2023-12-23T00:01:33.802Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2023-12-23T00:01:33.800Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2023-12-22T00:01:24.403Z</updated>
+        <updated>2023-12-23T00:01:33.793Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,18 +59,18 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2023-12-22T00:01:24.359Z</updated>
+        <updated>2023-12-23T00:01:33.775Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2023-12-22T00:01:24.295Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2023-12-23T00:01:33.773Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,46 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2023-12-22T00:01:24.169Z</updated>
+        <updated>2023-12-23T00:01:33.419Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vindarel: Latest string manipulation functions in the STR library]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/"/>
+        <updated>2023-12-22T15:52:51.000Z</updated>
+        <summary type="html"><![CDATA[We just released cl-str
+v0.21. It’s
+been a while since the last release, and many enhancements make it
+more useful than ever. Let’s review the changes, the newest first.
+But first, I want to you thank everyone who contributed, by sending
+pull requests or feedback. Special thanks to
+@kilianmh who suddenly appeared one
+day, helped with new features as well as grunt work, and who is now a
+co-maintainer.
+split by regex
+The latest addition sent by ccQpein is that str:split now accepts a :regex key argument to split by regular expressions. The functions rsplit and split-omit-nulls have it too.
+(str:split "[,|;]" "foo,bar;baz" :regex t)
+;; => ("foo" "bar" "baz")
+
+That’s handy for advent of code ;)
+You can also use ppcre:split, this is the function that str:split
+relies on anyways, except that by …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fastmail: Year Two]]></title>
+        <id>https://batsov.com/articles/2023/12/22/fastmail-year-two/</id>
+        <link href="https://batsov.com/articles/2023/12/22/fastmail-year-two/"/>
+        <updated>2023-12-22T14:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -586,27 +622,6 @@ Older entries
 Tags: sundry]]></summary>
         <author>
             <name>programming (and other) musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TurtleWare: Proxy Generic Function]]></title>
-        <id>https://turtleware.eu/posts/Proxy-Generic-Function.html</id>
-        <link href="https://turtleware.eu/posts/Proxy-Generic-Function.html"/>
-        <updated>2023-10-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It is often hard to refactor software implementing an independent specification.
-There are already clients of the API so we can't remove operators, and newly
-added operators must play by the specified rules. There are a few possibilities:
-break the user contract and make pre-existing software obsolete, or abandon some
-improvements. There is also an option that software is written in Common Lisp,
-so you can eat your cake and have it too.
-CLIM has two protocols that have a big overlap: sheets and output records. Both
-abstractions are organized in a similar way and have equivalent operators. In
-this example let's consider a part of the protocol for managing hierarchies:
-;; Sheet hierarchy (sub-)protocol with an example implementation.
-(defclass sheet () ()) ; protocol class
-(defclass example-…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>

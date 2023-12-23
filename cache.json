@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -273,6 +273,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/",
+          "author": null,
+          "description": "We just released cl-str\nv0.21. It’s\nbeen a while since the last release, and many enhancements make it\nmore useful than ever. Let’s review the changes, the newest first.\nBut first, I want to you thank everyone who contributed, by sending\npull requests or feedback. Special thanks to\n@kilianmh who suddenly appeared one\nday, helped with new features as well as grunt work, and who is now a\nco-maintainer.\nsplit by regex\nThe latest addition sent by ccQpein is that str:split now accepts a :regex key argument to split by regular expressions. The functions rsplit and split-omit-nulls have it too.\n(str:split \"[,|;]\" \"foo,bar;baz\" :regex t)\n;; => (\"foo\" \"bar\" \"baz\")\n\nThat’s handy for advent of code ;)\nYou can also use ppcre:split, this is the function that str:split\nrelies on anyways, except that by …",
+          "link": "https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/",
+          "publishedOn": "2023-12-22T15:52:51.000Z",
+          "wordCount": 1393,
+          "title": "vindarel: Latest string manipulation functions in the STR library",
+          "imageUrl": "/images/default.png"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/433",
           "author": null,
           "description": "I've been writing libraries for Common Lisp for over a decade now (lord almighty), and for most of that time I've tried to ensure that the libraries would, in the very least, work on all three major operating systems: Windows, Linux, and MacOS.\nUsually doing so isn't hard, as I can rely on the implementation and the language standard, but especially for libraries that deal with foreign code or operating system interfaces, a bit more work is needed. For the longest time I went the extra mile of providing that support myself, despite not being a MacOS user, and despite vehemently disapproving of Apple as a company and their treatment of users and developers.\nAbout two years ago, I stopped. I had had enough of all the extra work the platform put on me, for zero personal gain. Especially I had…",
@@ -338,7 +348,7 @@
           "description": "A short post to show the usefulness of Hunchentoot-errors and to thank Mariano again.\nThis library adds the current request and session data to your stacktrace, either in the REPL (base case) or in the browser.\nTLDR;\nUse it like this:\n;; (ql:quickload \"hunchentoot-errors)\n;;\n;; We also use easy-routes: (ql:quickload \"easy-routes\")\n\n(defclass acceptor (easy-routes:easy-routes-acceptor hunchentoot-errors:errors-acceptor)\n  ()\n  (:documentation \"Our Hunchentoot acceptor that uses easy-routes and hunchentoot-errors, for easier route definition and enhanced stacktraces with request and session data.\"))\n\nthen (make-instance 'acceptor :port 4242).\nBase case\nImagine you have a bug in your route:\n(easy-routes:defroute route-card-page (\"/card/:slug\" :method :GET :decorators ((@check-roles admin-role…",
           "link": "https://lisp-journey.gitlab.io/blog/common-lisp-on-the-web-enrich-your-stacktrace-with-request-and-session-data/",
           "publishedOn": "2023-10-13T14:51:07.000Z",
-          "wordCount": 935,
+          "wordCount": 928,
           "title": "vindarel: Common Lisp on the web: enrich your stacktrace with request and session data",
           "imageUrl": "/images/default.png"
         },
@@ -360,16 +370,6 @@
           "publishedOn": "2023-10-12T14:08:27.000Z",
           "wordCount": 497,
           "title": "Tim Bradshaw: Symbol nicknames: a broken toy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://turtleware.eu/posts/Proxy-Generic-Function.html",
-          "author": null,
-          "description": "It is often hard to refactor software implementing an independent specification.\nThere are already clients of the API so we can't remove operators, and newly\nadded operators must play by the specified rules. There are a few possibilities:\nbreak the user contract and make pre-existing software obsolete, or abandon some\nimprovements. There is also an option that software is written in Common Lisp,\nso you can eat your cake and have it too.\nCLIM has two protocols that have a big overlap: sheets and output records. Both\nabstractions are organized in a similar way and have equivalent operators. In\nthis example let's consider a part of the protocol for managing hierarchies:\n;; Sheet hierarchy (sub-)protocol with an example implementation.\n(defclass sheet () ()) ; protocol class\n(defclass example-…",
-          "link": "https://turtleware.eu/posts/Proxy-Generic-Function.html",
-          "publishedOn": "2023-10-03T00:00:00.000Z",
-          "wordCount": 2643,
-          "title": "TurtleWare: Proxy Generic Function",
           "imageUrl": null
         }
       ]
@@ -427,12 +427,22 @@
       "siteUrl": "https://batsov.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2023/12/22/fastmail-year-two/",
+          "author": null,
+          "description": "Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:",
+          "link": "https://batsov.com/articles/2023/12/22/fastmail-year-two/",
+          "publishedOn": "2023-12-22T14:41:00.000Z",
+          "wordCount": 659,
+          "title": "Fastmail: Year Two",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
           "id": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
           "author": null,
           "description": "While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):",
           "link": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
           "publishedOn": "2023-04-20T13:23:00.000Z",
-          "wordCount": 1042,
+          "wordCount": 1038,
           "title": "Learning OCaml: Quoted String Literals",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -442,7 +452,7 @@
           "description": "You might have noticed one change introduced with Bundler 2.3 - it now requires you to run the version of Bundler that’s specified in your Gemfile.lock.1 This means that occasionally you might see something like this: https://bundler.io/blog/2022/01/23/bundler-v2-3.html &#8617;",
           "link": "https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/",
           "publishedOn": "2023-04-09T16:29:00.000Z",
-          "wordCount": 474,
+          "wordCount": 470,
           "title": "Updating the Bundler Version Specified in Gemfile.lock",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -452,7 +462,7 @@
           "description": "This is going to be one super short post.",
           "link": "https://batsov.com/articles/2023/04/09/blog-comments-are-back/",
           "publishedOn": "2023-04-09T15:57:00.000Z",
-          "wordCount": 435,
+          "wordCount": 431,
           "title": "Blog Comments are Back",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -462,7 +472,7 @@
           "description": "Ruby programmers are commonly called Rubyists. Python programmers are often called Pythonistas. Lisp programmers are widely known as Lispers. Clojure programmers are sometimes called Clojurians.",
           "link": "https://batsov.com/articles/2023/03/20/how-are-ocaml-programmers-called/",
           "publishedOn": "2023-03-20T08:02:00.000Z",
-          "wordCount": 584,
+          "wordCount": 580,
           "title": "How are OCaml Programmers Called?",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
@@ -726,29 +736,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-22T00:01:26.787Z",
+          "publishedOn": "2023-12-23T00:01:38.609Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-22T00:01:24.563Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-22T00:01:24.476Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -756,9 +746,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-22T00:01:24.466Z",
+          "publishedOn": "2023-12-23T00:01:33.805Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-12-23T00:01:33.802Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2023-12-23T00:01:33.800Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -766,7 +776,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-22T00:01:24.403Z",
+          "publishedOn": "2023-12-23T00:01:33.793Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -776,19 +786,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-22T00:01:24.359Z",
+          "publishedOn": "2023-12-23T00:01:33.775Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-22T00:01:24.295Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2023-12-23T00:01:33.773Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -796,7 +806,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-22T00:01:24.169Z",
+          "publishedOn": "2023-12-23T00:01:33.419Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
