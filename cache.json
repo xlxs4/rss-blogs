@@ -221,7 +221,7 @@
           "description": "A brief meta-note this morning: for the first time in 20 years, I\nfinally got around to updating the web design of\n recently and wanted to share a bit\nabout that.wingolog.org\nBack when I made ,\nI was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had\njust made its first release, smartphones were yet to be invented, and\neveryone used low-resolution CRT screens.  The original design did use CSS instead\nof tables, thankfully, but it was very narrow and left a lot up to the\nuser agent (notably font choice and size).the initial wingolog\ndesignInternet Explorer\n6\nThese days you can do much better.  Even HTML has moved on, with\n\nand\n\nand\n\nelements.  CSS is powerful and interoperable, with grid layout and\nmedia queries and  and  and a…",
           "link": "https://wingolog.org/archives/2023/12/05/colophonwards",
           "publishedOn": "2023-12-05T11:36:57.000Z",
-          "wordCount": 1548,
+          "wordCount": 1534,
           "title": "colophonwards",
           "imageUrl": null
         },
@@ -746,7 +746,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-26T00:01:23.033Z",
+          "publishedOn": "2023-12-27T00:01:24.453Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -756,9 +756,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-26T00:01:19.603Z",
+          "publishedOn": "2023-12-27T00:01:22.523Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2023-12-27T00:01:22.519Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -766,7 +776,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-26T00:01:19.599Z",
+          "publishedOn": "2023-12-27T00:01:22.514Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -776,29 +786,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-26T00:01:19.452Z",
+          "publishedOn": "2023-12-27T00:01:22.479Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-26T00:01:19.249Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-26T00:01:19.184Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         },
         {
@@ -806,7 +796,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-26T00:01:19.183Z",
+          "publishedOn": "2023-12-27T00:01:22.447Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -816,9 +806,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-26T00:01:19.181Z",
+          "publishedOn": "2023-12-27T00:01:22.441Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2023-12-27T00:01:22.394Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
@@ -1084,16 +1084,6 @@
           "wordCount": 539,
           "title": "Level Editor Update is Live!",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2379"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/424",
-          "author": null,
-          "description": "Let's get the important news out of the way: the next major update for Kandria will launch on Wednesday, March 8th, at 15:00 CET. The update will include a number of improvements, new features, more content, and a community event!\nLevel Editing\nThe biggest part of the update is, no doubt, the polished level editor. The editor has always been a part of Kandria since release, but now it's nicely polished and much easier to use!\n\nI've also included documentation to make it much easier for you to get a handle on how the editor works and how to get started with using it. I'm very excited to see what people can come up with!\nAnd yes, the entire Kandria world was created in this editor, so it is fully capable of creating some very complex levels!\nPartial Modding Support\nBut, the editor itself is …",
-          "link": "https://reader.tymoon.eu/article/424",
-          "publishedOn": "2023-03-01T13:56:17.000Z",
-          "wordCount": 565,
-          "title": "Next Kandria Update on March 8th!",
-          "imageUrl": "https://filebox.tymoon.eu//file/TWpZMk1nPT0="
         }
       ]
     }
