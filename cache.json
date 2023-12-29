@@ -221,7 +221,7 @@
           "description": "Captain, status report: I’m down here in a Jeffries tube, poking at V8’s\ngarbage collector.  However, despite working on other areas of the project\nrecently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?\nThe  was in 2019; fine enough, but\ndated.  Now in the evening of 2023 I think it could be useful to revisit\nit and try to summarize the changes since then.  At least, it would have\nbeen useful to me had someone else written this article.last public article on the structure of V8’s garbage\ncollector\nTo my mind, work on V8’s GC has had three main goals over the last 5\nyears: improving interactions between the managed heap and C++,\nimprov…",
           "link": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
           "publishedOn": "2023-12-07T12:15:45.000Z",
-          "wordCount": 2082,
+          "wordCount": 2068,
           "title": "the last 5 years of V8's garbage collector",
           "imageUrl": null
         },
@@ -756,7 +756,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-28T00:01:31.901Z",
+          "publishedOn": "2023-12-29T00:01:26.663Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -766,7 +766,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-28T00:01:28.769Z",
+          "publishedOn": "2023-12-29T00:01:23.404Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -776,7 +776,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-28T00:01:28.691Z",
+          "publishedOn": "2023-12-29T00:01:23.394Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -786,7 +786,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-28T00:01:28.668Z",
+          "publishedOn": "2023-12-29T00:01:23.338Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -796,7 +796,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-28T00:01:28.659Z",
+          "publishedOn": "2023-12-29T00:01:23.246Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -806,7 +806,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-28T00:01:28.582Z",
+          "publishedOn": "2023-12-29T00:01:23.244Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -816,7 +816,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-28T00:01:28.520Z",
+          "publishedOn": "2023-12-29T00:01:23.241Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -826,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-28T00:01:28.464Z",
+          "publishedOn": "2023-12-29T00:01:22.821Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
