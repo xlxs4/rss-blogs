@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -99,7 +99,7 @@
           "description": "Highlights of the Julia 1.10 release.\nRead more",
           "link": "https://julialang.org/blog/2023/12/julia-1.10-highlights/",
           "publishedOn": "2023-12-27T00:00:00.000Z",
-          "wordCount": 2152,
+          "wordCount": 2153,
           "title": "Julia 1.10 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -109,7 +109,7 @@
           "description": "PSA: Thread-local state is no longer recommended; Common misconceptions about threadid() and nthreads()\nRead more",
           "link": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
           "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 2268,
+          "wordCount": 2269,
           "title": "PSA: Thread-local state is no longer recommended",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -119,7 +119,7 @@
           "description": "Highlights of the Julia 1.9 release.\nRead more",
           "link": "https://julialang.org/blog/2023/04/julia-1.9-highlights/",
           "publishedOn": "2023-05-19T00:00:00.000Z",
-          "wordCount": 3759,
+          "wordCount": 3760,
           "title": "Julia 1.9 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         }
@@ -201,7 +201,7 @@
           "description": "Good evening!  This evening, a note on high-dynamic-range (HDR)\nhistograms.\nHow should one record garbage collector pause times?\nA few options present themselves: you could just record the total pause\ntime.  Or, also record the total number of collections, which allows you\nto compute the average.  Maximum is easy enough, too.  But then you\nmight also want the median or the p90 or the p99, and these percentile\nvalues are more gnarly: you either need to record all the pause times,\nwhich can itself become a memory leak, or you need to approximate via a\nhistogram.\nLet’s assume that you decide on the histogram approach.  How should you\ncompute the bins?  It would be nice to have microsecond accuracy on the\nsmall end, but if you bin by microsecond you could end up having\nmillions of bins, which …",
           "link": "https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram",
           "publishedOn": "2023-12-10T21:27:59.000Z",
-          "wordCount": 1852,
+          "wordCount": 1838,
           "title": "a simple hdr histogram",
           "imageUrl": null
         },
@@ -756,19 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2023-12-31T00:01:41.374Z",
+          "publishedOn": "2024-01-01T00:01:34.206Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2023-12-31T00:01:38.376Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -776,29 +766,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2023-12-31T00:01:38.339Z",
+          "publishedOn": "2024-01-01T00:01:31.095Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2023-12-31T00:01:38.335Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2023-12-31T00:01:38.333Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-01T00:01:31.071Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -806,19 +786,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2023-12-31T00:01:38.322Z",
+          "publishedOn": "2024-01-01T00:01:31.015Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2023-12-31T00:01:38.291Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-01T00:01:31.002Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-01-01T00:01:30.900Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -826,9 +816,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2023-12-31T00:01:38.283Z",
+          "publishedOn": "2024-01-01T00:01:30.868Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-01-01T00:01:30.830Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
