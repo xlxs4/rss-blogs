@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -181,7 +181,7 @@
           "description": "Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown\nI had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com",
           "link": "https://wingolog.org/archives/2023/12/14/service-update",
           "publishedOn": "2023-12-14T14:28:45.000Z",
-          "wordCount": 898,
+          "wordCount": 884,
           "title": "service update",
           "imageUrl": null
         },
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html",
+          "author": null,
+          "description": "It has been a few years that I have spent the New Year Holiday to update my Common Lisp \n  libraries\n  and to think about all the open parentheses that are left unclosed.  This year is no different, only\n  I have had even less time to work on CL.  Therefore, my updates to my libraries on\n  common-lisp.net and\n  Sourceforge all have had some minor repairs and\n  copyright updates.  As usual, I direct you to\n  HEΛP and\n  CLAST; most of my other\n  libraries are support for these two.\n\n\nOne effort, I would like to finalize in the coming year (that is; closing this parenthesis) is the\n  CL-LIA layer/library.\n  Help is wanted for this!  Drop me a line if you want to chip in.  The main issues are API designs\n  around the floating point environment condition handling.\n\n\nApart from that, I have been…",
+          "link": "http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html",
+          "publishedOn": "2024-01-04T16:05:00.000Z",
+          "wordCount": 2253,
+          "title": "Marco Antoniotti: A Parenthetical Year and New Open Parentheses",
+          "imageUrl": null
+        },
+        {
           "id": "https://journal.paoloamoroso.com/my-common-lisp-setup-on-linux?pk_campaign=rss-feed",
           "author": null,
           "description": "Now that I'm back to Lisp I'm actively exploring Interlisp as a Common Lisp environment too.\nBut to code in Common Lisp also on my Crostini Linux system, the Linux container of chromeOS I use on a Chromebox, I'm setting up a suitable development environment. In addition to console programs I want to write GUI applications with McCLIM.\nThe Common Lisp implementation I chose, SBCL, is a no brainer given its features, performance, and active maintenance. As for the development environment I won't go with the default on Linux, Emacs. Although I used Emacs for years and loved it, now it feels overkill and I'd prefer not to re-learn its intricacies.\nInstead I'm using Lem, a great Emacs-like IDE written in Common Lisp with a user interface and keybindings similar to those of Emacs and SLIME. Thus my familiarity with Emacs is enough to get me up to speed. A nice side effect of Lem's implementation language is the IDE can be configured and extended in Common Lisp, which I feel more at home with than Emacs Lisp.\nDespite some initial installation issues Lem works well on Crostini, is fast, and has a nice SDL2 backend. I really like the IDE.\nIf I need to write or run some Common Lisp code on my Raspberry Pi 400 I can easily replicate this setup there.\n#CommonLisp #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
@@ -371,16 +381,6 @@
           "wordCount": 928,
           "title": "vindarel: Common Lisp on the web: enrich your stacktrace with request and session data",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "http://funcall.blogspot.com/2023/10/syntax-rules-primer.html",
-          "author": null,
-          "description": "I recently had an inquiry about the copyright status of my JRM’s Syntax Rules Primer for the Merely Eccentric.\nI don’t want to put it into public domain as that would allow anyone to rewrite it at will and leave that title.  Instead, I'd like to release it on an MIT style license: feel free to copy it and distribute it, correct any errors, but please retain the general gist of the article and the title and the authorship.",
-          "link": "http://funcall.blogspot.com/2023/10/syntax-rules-primer.html",
-          "publishedOn": "2023-10-13T09:17:00.000Z",
-          "wordCount": 3597,
-          "title": "Joe Marshall: Syntax-rules Primer",
-          "imageUrl": null
         }
       ]
     },
@@ -756,7 +756,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-04T00:01:43.464Z",
+          "publishedOn": "2024-01-05T00:01:42.627Z",
           "wordCount": 633,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -766,19 +766,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-04T00:01:41.982Z",
+          "publishedOn": "2024-01-05T00:01:39.495Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-04T00:01:41.978Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -786,9 +776,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-04T00:01:41.969Z",
+          "publishedOn": "2024-01-05T00:01:39.473Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-05T00:01:39.429Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-01-05T00:01:39.423Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -796,7 +806,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-04T00:01:41.936Z",
+          "publishedOn": "2024-01-05T00:01:39.414Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -806,19 +816,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-04T00:01:41.731Z",
+          "publishedOn": "2024-01-05T00:01:39.411Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-04T00:01:41.709Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-04T00:01:41.534Z",
+          "publishedOn": "2024-01-05T00:01:39.232Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
