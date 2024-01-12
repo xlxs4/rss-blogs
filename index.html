@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-11 datetime="2024-01-11T00:01:42.740Z">2024-01-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-11 datetime="2024-01-11T00:01:42.740Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-12 datetime="2024-01-12T00:01:33.988Z">2024-01-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-12 datetime="2024-01-12T00:01:33.988Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -137,25 +137,6 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://applied-langua.ge/posts/zero-feet.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Zero Feet: a proposal for a systems-free Lisp</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://applied-langua.ge/posts/zero-feet.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A systems language is a collection of things that don&#x27;t fit into a modular language. There shouldn&#x27;t be one.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"
                         open
                       >
@@ -175,6 +156,25 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://applied-langua.ge/posts/zero-feet.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Zero Feet: a proposal for a systems-free Lisp</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://applied-langua.ge/posts/zero-feet.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A systems language is a collection of things that don&#x27;t fit into a modular language. There shouldn&#x27;t be one.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://applied-langua.ge/~hayley/pmrgc.html"
                         open
                       >
@@ -183,6 +183,70 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>How to build the new parallel GC for SBCL, and how to tell if it&#x27;s working.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-11 datetime="2024-01-11T14:10:38.000Z">2024-01-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-11 datetime="2024-01-11T14:10:38.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >wingolog</button>
+                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://wingolog.org/archives/2024/01/11/micro-macro-story-time"
+                        open
+                      >
+                        <summary class="article-expander__title">micro macro story time</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2024/01/11/micro-macro-story-time">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Today, a tiny tale:  I was working
+on .
+Guile inherited this code from an early version of Kent Dybvig’s
+.  It
+was... not easy to work with.about 15 years
+agoGuile’s macro
+expanderportable syntax
+expander
+Some difficulties were essential.  Scope is tricky, after all.
+Some difficulties were incidental, but deep.  The expander is ultimately
+a function that translates Scheme-with-macros to Scheme-without-macros.
+However, it is itself written in Scheme-with-macros, so to load it on a
+substrate without macros requires a ,
+whose data representations need to be compatible with any incremental
+change, so that you will be able to use the new expander to produce a
+fresh pre-expansion.  This difficulty could have been avoided by
+.  It
+works once you are used to it, but it’s gnarly.pre-expanded copy o…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -1161,56 +1225,6 @@ I decided to give it my standard interview question: write a simple
   out a method that checked an array for three in a row horizontally,
   vertically, and along the two diagonals.  Almost corr…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wingolog</button>
-                  <a class="source-heading__link" href="https://wingolog.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wingolog.org/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm"
-                        open
-                      >
-                        <summary class="article-expander__title">tree-shaking, the horticulturally misguided algorithm</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wingolog.org/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Let’s talk about tree-shaking!
-But first, I need to talk about WebAssembly’s dirty secret: despite the
-hype, WebAssembly has had limited success on the web.
-There is
-,
-which does appear to be a real success.  5 years ago there was
-, though they don’t
-talk much about Wasm these days.  There are quite a number of little NPM
-libraries that use Wasm under the hood, usually compiled from C++ or
-Rust.  I think
-
-probably gets used for a few in-house corporate apps, though I could be
-fooled by their marketing.PhotoshopFigmaBlazor
-You might recall the hyped demos of 3D first-person-shooter
-games with Unreal engine again from 5 years ago, but that was the previous major release of
-Unreal and was always experimental; the current Unreal 5 does not support targetting
-WebAssembly.
-Don’t get me wrong, I …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4392,8 +4406,8 @@ A rather short update this month, but if you&#x27;re interested in the details o
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/7482253413">
-        <time id="build-timestamp" datetime="2024-01-11T00:01:42.982Z">2024-01-11T00:01:42.982Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/7495975960">
+        <time id="build-timestamp" datetime="2024-01-12T00:01:33.989Z">2024-01-12T00:01:33.989Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
