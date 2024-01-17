@@ -437,12 +437,32 @@
       "siteUrl": "https://batsov.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/",
+          "author": null,
+          "description": "How can you be sure that an OCaml function you wrote is actually tail-recursive? You can certainly compile the code and look at the generated assembly code, but that’d be quite the overkill, given there is a much simpler way to do this.",
+          "link": "https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/",
+          "publishedOn": "2024-01-16T08:52:00.000Z",
+          "wordCount": 603,
+          "title": "Learning OCaml: Verifying tail-recursion with @tailcall",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
+          "id": "https://batsov.com/articles/2024/01/16/2023-the-year-in-review/",
+          "author": null,
+          "description": "Another year is behind us and I guess it’s time to write the obligatory year in review post about it.",
+          "link": "https://batsov.com/articles/2024/01/16/2023-the-year-in-review/",
+          "publishedOn": "2024-01-16T08:43:00.000Z",
+          "wordCount": 1239,
+          "title": "2023: The Year in Review",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
           "id": "https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/",
           "author": null,
           "description": "Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.",
           "link": "https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/",
           "publishedOn": "2023-12-23T06:34:00.000Z",
-          "wordCount": 609,
+          "wordCount": 617,
           "title": "A Bad Year for Blogging",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -452,7 +472,7 @@
           "description": "Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:",
           "link": "https://batsov.com/articles/2023/12/22/fastmail-year-two/",
           "publishedOn": "2023-12-22T14:41:00.000Z",
-          "wordCount": 666,
+          "wordCount": 674,
           "title": "Fastmail: Year Two",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -462,7 +482,7 @@
           "description": "While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):",
           "link": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
           "publishedOn": "2023-04-20T13:23:00.000Z",
-          "wordCount": 1045,
+          "wordCount": 1053,
           "title": "Learning OCaml: Quoted String Literals",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -472,7 +492,7 @@
           "description": "You might have noticed one change introduced with Bundler 2.3 - it now requires you to run the version of Bundler that’s specified in your Gemfile.lock.1 This means that occasionally you might see something like this: https://bundler.io/blog/2022/01/23/bundler-v2-3.html &#8617;",
           "link": "https://batsov.com/articles/2023/04/09/updating-the-bundler-version-specified-in-gemfile-lock/",
           "publishedOn": "2023-04-09T16:29:00.000Z",
-          "wordCount": 477,
+          "wordCount": 489,
           "title": "Updating the Bundler Version Specified in Gemfile.lock",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -482,7 +502,7 @@
           "description": "This is going to be one super short post.",
           "link": "https://batsov.com/articles/2023/04/09/blog-comments-are-back/",
           "publishedOn": "2023-04-09T15:57:00.000Z",
-          "wordCount": 438,
+          "wordCount": 429,
           "title": "Blog Comments are Back",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
@@ -736,39 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-16T00:01:35.543Z",
+          "publishedOn": "2024-01-17T00:01:32.219Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-16T00:01:32.074Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-16T00:01:32.072Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-16T00:01:32.069Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -776,9 +766,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-16T00:01:31.955Z",
+          "publishedOn": "2024-01-17T00:01:29.615Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-01-17T00:01:29.548Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,19 +786,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-16T00:01:31.885Z",
+          "publishedOn": "2024-01-17T00:01:29.543Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-16T00:01:31.845Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-01-17T00:01:29.541Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-17T00:01:29.533Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,9 +816,19 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-16T00:01:31.793Z",
+          "publishedOn": "2024-01-17T00:01:29.433Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-01-17T00:01:29.431Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
