@@ -176,6 +176,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
+          "author": null,
+          "description": "Today, a middle-aged note: when you are young, unless you been\nfailed by The System, you enjoy a radiant confidence: everything you say\nburns with rightness and righteousness, that the world Actually Is This\nWay, You See, and if you think about it, it Actually Should Be This\nOther Specific Way.  This is how you get the fervent young communists\nand Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so\nright that you become an evangelist, a\n,\na truth-speaker; a youtuber, perhaps.prophet\nThen, with luck, you meet the world: you build, you organize, you\ninvest, you double down.  And in that doubling, the ideas waver,\ntremble, resonate, imperceptibly at first, reinforced in some ways,\nimpeded in others.  The world works in specific ways, too, and you don’t\nreally know them in the…",
+          "link": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
+          "publishedOn": "2024-01-18T23:15:58.000Z",
+          "wordCount": 1379,
+          "title": "nombrilliant, actually",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
           "author": null,
           "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
@@ -264,16 +274,6 @@
           "wordCount": 2067,
           "title": "the last 5 years of V8's garbage collector",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/12/05/colophonwards",
-          "author": null,
-          "description": "A brief meta-note this morning: for the first time in 20 years, I\nfinally got around to updating the web design of\n recently and wanted to share a bit\nabout that.wingolog.org\nBack when I made ,\nI was using the then-brand-new Wordpress,  was the most common web browser, CSS wasn’t very good, the Safari browser had\njust made its first release, smartphones were yet to be invented, and\neveryone used low-resolution CRT screens.  The original design did use CSS instead\nof tables, thankfully, but it was very narrow and left a lot up to the\nuser agent (notably font choice and size).the initial wingolog\ndesignInternet Explorer\n6\nThese days you can do much better.  Even HTML has moved on, with\n\nand\n\nand\n\nelements.  CSS is powerful and interoperable, with grid layout and\nmedia queries and  and  and a…",
-          "link": "https://wingolog.org/archives/2023/12/05/colophonwards",
-          "publishedOn": "2023-12-05T11:36:57.000Z",
-          "wordCount": 1534,
-          "title": "colophonwards",
-          "imageUrl": null
         }
       ]
     },
@@ -318,7 +318,7 @@
           "description": "We just released cl-str\nv0.21. It’s\nbeen a while since the last release, and many enhancements make it\nmore useful than ever. Let’s review the changes, the newest first.\nBut first, I want to you thank everyone who contributed, by sending\npull requests or feedback. Special thanks to\n@kilianmh who suddenly appeared one\nday, helped with new features as well as grunt work, and who is now a\nco-maintainer.\nsplit by regex\nThe latest addition sent by ccQpein is that str:split now accepts a :regex key argument to split by regular expressions. The functions rsplit and split-omit-nulls have it too.\n(str:split \"[,|;]\" \"foo,bar;baz\" :regex t)\n;; => (\"foo\" \"bar\" \"baz\")\n\nThat’s handy for advent of code ;)\nYou can also use ppcre:split, this is the function that str:split\nrelies on anyways, except that by …",
           "link": "https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/",
           "publishedOn": "2023-12-22T15:52:51.000Z",
-          "wordCount": 1393,
+          "wordCount": 1408,
           "title": "vindarel: Latest string manipulation functions in the STR library",
           "imageUrl": "/images/default.png"
         },
@@ -756,19 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-18T00:01:33.113Z",
+          "publishedOn": "2024-01-19T00:01:41.678Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-18T00:01:29.345Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -776,39 +766,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-18T00:01:29.340Z",
+          "publishedOn": "2024-01-19T00:01:39.536Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-18T00:01:29.318Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-18T00:01:29.300Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-18T00:01:29.270Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -816,9 +776,49 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-18T00:01:29.268Z",
+          "publishedOn": "2024-01-19T00:01:39.368Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-01-19T00:01:39.365Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-01-19T00:01:39.359Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-19T00:01:39.350Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-19T00:01:39.344Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-18T00:01:29.257Z",
+          "publishedOn": "2024-01-19T00:01:39.177Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
