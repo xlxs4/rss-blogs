@@ -41,7 +41,18 @@
       "title": "Andrej Karpathy blog",
       "feedUrl": "http://karpathy.github.io/feed.xml",
       "siteUrl": "http://karpathy.github.io/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://karpathy.github.io/2024/01/21/selfdriving-agi/",
+          "author": null,
+          "description": "Sparked by progress in Large Language Models (LLMs), there’s a lot of chatter recently about AGI, its timelines, and what it might look like. Some of it is hopeful and optimistic, but a lot of it is fearful and doomy, to put it mildly. Unfortunately, a lot of it is also very abstract, which causes people to speak past each other in circles. Therefore, I’m always on a lookout for concrete analogies and historical precedents that can help explore the topic in more grounded terms. In particular, when I am asked about what I think AGI will look like, I personally like to point to self-driving. In this post, I’d like to explain why. Let’s start with one common definition of AGI:\nAGI: An autonomous system that surpasses human capabilities in the majority of economically valuable work.\nNote that …",
+          "link": "http://karpathy.github.io/2024/01/21/selfdriving-agi/",
+          "publishedOn": "2024-01-21T05:00:00.000Z",
+          "wordCount": 2349,
+          "title": "Self-driving as a case study for AGI",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Mosè Giordano",
@@ -389,6 +400,16 @@
       "feedUrl": "https://hypirion.com/rss/all",
       "siteUrl": "https://hypirion.com",
       "articles": [
+        {
+          "id": "https://hypirion.com/musings/implementing-system-versioned-tables-in-postgres",
+          "author": null,
+          "description": "There's no official support for system-versioned tables in Postgres yet, and the temporal extensions aren't supported on Azure/AWS/GCP. Let's implement it ourselves with 3 triggers and an index.",
+          "link": "https://hypirion.com/musings/implementing-system-versioned-tables-in-postgres",
+          "publishedOn": "2024-01-21T20:20:00.000Z",
+          "wordCount": 3548,
+          "title": "Implementing System-Versioned Tables in Postgres",
+          "imageUrl": "https://hypirion.com/thumbnails/postgres-wormhole.jpg"
+        },
         {
           "id": "https://hypirion.com/musings/haunting-down-errors-in-go",
           "author": null,
@@ -756,7 +777,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-21T00:01:38.872Z",
+          "publishedOn": "2024-01-22T00:01:32.108Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -766,7 +787,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-21T00:01:36.487Z",
+          "publishedOn": "2024-01-22T00:01:28.299Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -776,29 +797,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-21T00:01:36.474Z",
+          "publishedOn": "2024-01-22T00:01:28.291Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-21T00:01:36.472Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-21T00:01:36.464Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -806,7 +807,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-21T00:01:36.445Z",
+          "publishedOn": "2024-01-22T00:01:28.236Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -816,9 +817,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-21T00:01:36.378Z",
+          "publishedOn": "2024-01-22T00:01:28.234Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-01-22T00:01:28.186Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -826,9 +837,19 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-21T00:01:36.228Z",
+          "publishedOn": "2024-01-22T00:01:28.133Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-01-22T00:01:28.131Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         }
       ]
