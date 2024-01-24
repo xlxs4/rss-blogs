@@ -766,19 +766,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-23T00:01:38.708Z",
+          "publishedOn": "2024-01-24T00:01:32.993Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-23T00:01:36.070Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -786,9 +776,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-23T00:01:35.899Z",
+          "publishedOn": "2024-01-24T00:01:29.348Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-01-24T00:01:29.338Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -796,29 +796,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-23T00:01:35.805Z",
+          "publishedOn": "2024-01-24T00:01:29.326Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-23T00:01:35.799Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-23T00:01:35.794Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -826,9 +806,29 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-23T00:01:35.770Z",
+          "publishedOn": "2024-01-24T00:01:29.217Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-01-24T00:01:29.173Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-24T00:01:29.171Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-23T00:01:35.569Z",
+          "publishedOn": "2024-01-24T00:01:28.972Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -1026,6 +1026,16 @@
       "siteUrl": "https://reader.tymoon.eu/",
       "articles": [
         {
+          "id": "https://reader.tymoon.eu/article/434",
+          "author": null,
+          "description": "It happens frequently enough that a conversation in some online chatroom veers over to the question of privacy in the modern world, and especially to the willingness people have to share oodles of their often very personal information with complete strangers online. I certainly appreciate and understand the fears of oversharing, after all there are a lot of very dangerous people out there that, if they decide to do so, can absolutely hugely impact if not ruin your life entirely. Despite this, I somehow can't help myself.\nI suppose I can't help myself in part because I lack the self confidence to even believe that anyone would read what I write, let alone find me to be attractive enough of a target to begin a harassment campaign specifically towards me. I fully realise the naivete of this b…",
+          "link": "https://reader.tymoon.eu/article/434",
+          "publishedOn": "2024-01-23T22:13:53.000Z",
+          "wordCount": 5890,
+          "title": "Reprocessing - Confession 94",
+          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2719"
+        },
+        {
           "id": "https://reader.tymoon.eu/article/433",
           "author": null,
           "description": "I've been writing libraries for Common Lisp for over a decade now (lord almighty), and for most of that time I've tried to ensure that the libraries would, in the very least, work on all three major operating systems: Windows, Linux, and MacOS.\nUsually doing so isn't hard, as I can rely on the implementation and the language standard, but especially for libraries that deal with foreign code or operating system interfaces, a bit more work is needed. For the longest time I went the extra mile of providing that support myself, despite not being a MacOS user, and despite vehemently disapproving of Apple as a company and their treatment of users and developers.\nAbout two years ago, I stopped. I had had enough of all the extra work the platform put on me, for zero personal gain. Especially I had…",
@@ -1041,7 +1051,7 @@
           "description": "I've been debating opening up a Patreon for many years and I've always been hesitant about accepting donations from people, but I think it's finally time to change my mind on that!\nWhy make a Patreon now?\nI've been working full time on Kandria and associated projects since 2020, and continue to do so today. All of the work that I've done as part of that has been released as open source software, including Kandria itself as well as the engine it runs on, Trial.\nSince the release, I've mostly focused on support and the pre-pre-production of my next title, which primarily involves adding new features to Trial that are necessary to create a full-3D game. I can't yet announce much about the game itself, other than that it is a character action game, meaning it features third-person hack and sla…",
           "link": "https://reader.tymoon.eu/article/432",
           "publishedOn": "2023-08-25T12:45:54.000Z",
-          "wordCount": 557,
+          "wordCount": 561,
           "title": "I've opened up a Patreon - Confession 93",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2570"
         },
