@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "http://www.stochasticlifestyle.com/",
+      "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
+          "author": null,
+          "description": "Looking for a fun weekend project?  Allow me to suggest linear fractional transformations.\nA linear fractional transformation (LFT), also known as a Möbius\n  transformation or a homographic function, is a function of\n  the form\n(lambda (x)\n  (/ (+ (* A x) B)\n     (+ (* C x) D)))\n(defun make-lft (A B C D)\n  (lambda (x)\n    (/ (+ (* A x) B)\n       (+ (* C x) D))))\nbut you’ll want access to A,\n  B, C, and D.  If you implement LFTs\n  as funcallable CLOS instances, you can read out the coefficients from slot values.\nConstructor\nThe coefficients A, B, C,\n  and D could in theory be any complex number, but we can\n  restrict them to being integers and retain a lot of the functionality.\n  If we multiply all the coefficients by the same factor, it doesn't\n  change the output of the LFT.  If you have …",
+          "link": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
+          "publishedOn": "2024-01-25T20:02:00.000Z",
+          "wordCount": 4568,
+          "title": "Joe Marshall: Roll Your Own Linear Fractional Transformations",
+          "imageUrl": null
+        },
+        {
           "id": "https://journal.paoloamoroso.com/a-single-package-common-lisp-workflow-for-medley?pk_campaign=rss-feed",
           "author": null,
           "description": "My exploration of Medley as a Common Lisp development environment proceeds with setting up a workflow for writing and saving code.\nThe workflow consists of a series of steps in a specific order using appropriate Lisp REPLs and tools. It supports writing the simplest type of Common Lisp software, i.e. programs or libraries in a single package that exports some symbols. I'll eventually extend the workflow to more complex cases such as programs with more than one package.\nSince the steps are not intuitive, especially for Medley novices, in this post I'll describe the workflow in detail. But first there are a few concepts to introduce.\nWhy do you need a workflow in the first place? Because the differences between Medley and modern environments constrain how and in what order Common Lisp code m…",
@@ -338,7 +348,7 @@
           "description": "I recently tried out GitHub CoPilot.  It is a system that uses\n  generative AI to help you write code.\nThe tool interfaces to your IDE — I used VSCode — and\n  acts as an autocomplete on steroids … or acid.  Suggested\n  comments and code appear as you move the cursor and you can often choose from\n  a couple of different completions.  The way to get it to write code was to\n  simply document what you wanted it to write in a comment.  (There is\n  a chat interface where you can give it more directions, but I did\n  not play with that.)\nI decided to give it my standard interview question: write a simple\n  TicTacToe class, include a method to detect a winner.  The tool spit\n  out a method that checked an array for three in a row horizontally,\n  vertically, and along the two diagonals.  Almost corr…",
           "link": "http://funcall.blogspot.com/2023/11/github-co-pilot-review.html",
           "publishedOn": "2023-11-24T15:50:00.000Z",
-          "wordCount": 4472,
+          "wordCount": 4480,
           "title": "Joe Marshall: GitHub Co-pilot Review",
           "imageUrl": null
         },
@@ -370,16 +380,6 @@
           "publishedOn": "2023-10-22T15:00:00.000Z",
           "wordCount": 98,
           "title": "Eugene Zaikonnikov: Announcing deptree",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.funcall.org//lisp/2023/10/22/also-alsa/",
-          "author": null,
-          "description": "Also ALSA now has a simple ALSA Mixer API support. See set-mixer-element-volume for sample use.\nAvailable in the latest Quicklisp.",
-          "link": "http://blog.funcall.org//lisp/2023/10/22/also-alsa/",
-          "publishedOn": "2023-10-21T15:00:00.000Z",
-          "wordCount": 52,
-          "title": "Eugene Zaikonnikov: Also ALSA gets Mixer API",
           "imageUrl": null
         }
       ]
@@ -766,69 +766,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-25T00:01:29.891Z",
+          "publishedOn": "2024-01-26T00:01:24.667Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-25T00:01:25.313Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-25T00:01:25.269Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-25T00:01:25.252Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-25T00:01:25.250Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-25T00:01:25.238Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-25T00:01:25.231Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -836,9 +776,69 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-25T00:01:25.221Z",
+          "publishedOn": "2024-01-26T00:01:22.974Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-01-26T00:01:22.747Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-26T00:01:22.736Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-01-26T00:01:22.674Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-26T00:01:22.672Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-01-26T00:01:22.655Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-01-26T00:01:22.459Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
