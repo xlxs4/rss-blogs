@@ -99,7 +99,7 @@
           "description": "Highlights of the Julia 1.10 release.\nRead more",
           "link": "https://julialang.org/blog/2023/12/julia-1.10-highlights/",
           "publishedOn": "2023-12-27T00:00:00.000Z",
-          "wordCount": 2153,
+          "wordCount": 2156,
           "title": "Julia 1.10 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -109,7 +109,7 @@
           "description": "PSA: Thread-local state is no longer recommended; Common misconceptions about threadid() and nthreads()\nRead more",
           "link": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
           "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 2269,
+          "wordCount": 2272,
           "title": "PSA: Thread-local state is no longer recommended",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -119,7 +119,7 @@
           "description": "Highlights of the Julia 1.9 release.\nRead more",
           "link": "https://julialang.org/blog/2023/04/julia-1.9-highlights/",
           "publishedOn": "2023-05-19T00:00:00.000Z",
-          "wordCount": 3760,
+          "wordCount": 3763,
           "title": "Julia 1.9 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         }
@@ -211,7 +211,7 @@
           "description": "In a recent dispatch, I explained .\nToday’s note explores what a correct solution might look like.the whole-program compilation\nstrategy used in Whiffle and\nHoot\nConsider a module that exports an increment-this-integer procedure.\nWe’ll use syntax from the :R6RS\nstandard\nIf we then have a program:\nThen the meaning of this program is clear: it reduces to ,\nthen to 43.  Fine enough.  But how do we get there?  How does the\ncompiler compose the program with the modules that it uses\n(transitively), to produce a single output?(+ 42 1)\nIn\n\n(and ), the answer is,\nsloppily.  There is a \nthat initially has a number of bindings from the host compiler,\n.  One of these is , exposed under\nthe name , where the  in this case is just a warning to the reader that this is a weird\nprimitive binding.  Using thi…",
           "link": "https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight",
           "publishedOn": "2024-01-05T20:43:49.000Z",
-          "wordCount": 2474,
+          "wordCount": 2460,
           "title": "scheme modules vs whole-program compilation: fight",
           "imageUrl": null
         },
@@ -221,7 +221,7 @@
           "description": "A  is used by a garbage collector to identify graph\nedges between partitioned sub-spaces of a heap.  The canonical example\nis in generational collection, where you allocate new objects in\n, and eventually promote survivor objects to .  If\nmost objects die young, we can focus GC effort on newspace, to avoid\ntraversing all of oldspace all the time.remembered setnewspaceoldspace\nCollecting a subspace instead of the whole heap is sound if and only if\nwe can identify all live objects in the subspace.  We start with some\nset of  that point into the subspace from outside, and then\ntraverse all links in those objects, but only to other objects within\nthe subspace.roots\nThe roots are, like, global variables, and the stack, and registers; and\nin the case of a partial collection in which we identify …",
           "link": "https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set",
           "publishedOn": "2024-01-05T09:44:21.000Z",
-          "wordCount": 1829,
+          "wordCount": 1814,
           "title": "v8's precise field-logging remembered set",
           "imageUrl": null
         },
@@ -766,9 +766,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-26T00:01:24.667Z",
+          "publishedOn": "2024-01-27T00:01:31.472Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-27T00:01:29.681Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -776,7 +786,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-26T00:01:22.974Z",
+          "publishedOn": "2024-01-27T00:01:29.602Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -786,7 +796,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-26T00:01:22.747Z",
+          "publishedOn": "2024-01-27T00:01:29.588Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -796,29 +806,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-26T00:01:22.736Z",
+          "publishedOn": "2024-01-27T00:01:29.539Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-26T00:01:22.674Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-26T00:01:22.672Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -826,9 +816,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-26T00:01:22.655Z",
+          "publishedOn": "2024-01-27T00:01:29.412Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-01-27T00:01:29.396Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-26T00:01:22.459Z",
+          "publishedOn": "2024-01-27T00:01:29.348Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
