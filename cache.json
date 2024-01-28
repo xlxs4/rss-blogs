@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -705,6 +705,16 @@
       "siteUrl": "https://ianthehenry.com/",
       "articles": [
         {
+          "id": "https://ianthehenry.com/posts/how-to-learn-nix/installing-nix-on-macos/",
+          "author": null,
+          "description": "Note: I wrote the vast majority of this post on August 24, 2022, but I decided that it was a whiny rant that I didn’t want to publish. I came across the draft in January 2024, remembered that this entire series is a whiny rant, and decided to publish it anyway.\nI’ve been a happy Nix user for about 18 months now, and– well, not happy happy, but satisfied… no… not really satisfied either; perhaps it’s more of a resigned disgruntlement; a feeling that despite its many flaws, it’s still better than anything else out there, and I’ve invested so much time into it already that it would be a shame to give up now, so… am I describing Stockholm syndrome?\nI’ve been imprisoned in Nix’s castle for about 18 months now, and I recently came into a new laptop – one of those shiny blue numbers – so naturall…",
+          "link": "https://ianthehenry.com/posts/how-to-learn-nix/installing-nix-on-macos/",
+          "publishedOn": "2024-01-26T00:00:00.000Z",
+          "wordCount": 2223,
+          "title": "How to Learn Nix, Part 48: Installing (single-user) Nix on macOS",
+          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+        },
+        {
           "id": "https://ianthehenry.com/posts/fibonacci/",
           "author": null,
           "description": "When you think about the Fibonacci sequence, you probably imagine a swirling vortex of oscillating points stretching outwards to infinity:\n\n\n\nOkay, no, obviously you don’t. Yet.\nWhen you think about the Fibonacci sequence, you probably flush with a latent rage when you remember that it is, more often than not, the way that we introduce the concept of “recursive functions” to new programmers, in some sort of cruel hazing intended to make it harder for them to ever appreciate how recursion can help them write better programs. Sometimes we even add memoization, and call it “dynamic programming,” in order to impress upon them that even the most trivial problems deserve complex, inefficient solutions.\nEr, okay, you probably don’t think about the Fibonacci sequence much at all. It doesn’t, you k…",
@@ -766,7 +776,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-27T00:01:31.472Z",
+          "publishedOn": "2024-01-28T00:01:32.822Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -776,29 +786,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-27T00:01:29.681Z",
+          "publishedOn": "2024-01-28T00:01:29.720Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-27T00:01:29.602Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-27T00:01:29.588Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -806,19 +796,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-27T00:01:29.539Z",
+          "publishedOn": "2024-01-28T00:01:29.634Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-27T00:01:29.412Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-01-28T00:01:29.631Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-01-28T00:01:29.627Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -826,9 +826,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-27T00:01:29.396Z",
+          "publishedOn": "2024-01-28T00:01:29.619Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-01-28T00:01:29.618Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -836,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-27T00:01:29.348Z",
+          "publishedOn": "2024-01-28T00:01:29.552Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -1094,16 +1104,6 @@
           "wordCount": 57,
           "title": "Kandriaの日本語アップデートはリリースです！",
           "imageUrl": null
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/427",
-          "author": null,
-          "description": "Another month gone by. There's no major updates this month, since we just had the level editor release last month. However, there is a somewhat major update coming out next week!\nYou may have guessed from the title, but we're adding Japanese localisation to the game! It'll release on Wednesday, 12th of April. As someone that's been trying to learn Japanese for a long time, this is another step in the development that I've been looking forward to very much.\n\nI'm also really glad that we can release this already, so it'll be well out by the time I visit Tokyo Game Show in September!\nOther news\nWith the level editor and the beginning of the modding support already in place, I've taken a bit of a step back from Kandria development for a bit, and instead focused on working on a lot of other stuff that's been way overdue, like moving and upgrading our servers, taking care of my mental health, and starting work on pre-pre-production for the next game.\nHowever, Kandria development is not yet done. The second and final major update with an official modding API is still coming. I don't have a release date for that yet, so I hope you remain patient!\nIn the meantime, my paper for the European Lisp Symposium in Amsterdam was accepted, so I will be presenting Kandria there. The paper is quite technical, but if you're interested in Common Lisp, it might be worth a read. And if you're going to be in Amsterdam, let me know. I'd be happy to chat!\nThat's it for now\nA rather short update this month, but if you're interested in the details of the pre-pre-production process, come on hang out in the Shirakumo channel with the rest of us! We're discussing all the improvements to Trial there.",
-          "link": "https://reader.tymoon.eu/article/427",
-          "publishedOn": "2023-04-03T10:48:00.000Z",
-          "wordCount": 347,
-          "title": "次は…何？ - April Kandria Update",
-          "imageUrl": "https://filebox.tymoon.eu//file/TWpZM09BPT0="
         }
       ]
     }
