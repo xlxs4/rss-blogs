@@ -283,12 +283,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/01/exponentiating-functions.html",
+          "author": null,
+          "description": "If we compose a function F(x) with itself, we get F(F(x)) or F∘F.\n  If we compose it again, we get F(F(F(x))) or F∘F∘F.  Rather than\n  writing ‘F’ over and over again, we can abuse\n  exponential notation and write (F∘F∘F) as F3, where the\n  superscript indicates how many times we compose the function.\n  F1 is, naturally, just F.  F0 would be zero\n  applications of F, which would be the function that leaves its\n  argument unchanged, i.e. the identity function.\nThe analogy with exponentiation goes deeper.  We can quickly\n  exponentiate a number with a divide and conquer\n  algorithm:\n(defun my-expt (base exponent)\n  (cond ((zerop exponent) 1)\n        ((evenp exponent) (my-expt (* base base) (/ exponent 2)))\n        (t (* base (my-expt base (- exponent 1))))))\n(defun fexpt (f exponent)\n  (cond…",
+          "link": "http://funcall.blogspot.com/2024/01/exponentiating-functions.html",
+          "publishedOn": "2024-01-28T20:00:00.000Z",
+          "wordCount": 4085,
+          "title": "Joe Marshall: Exponentiating Functions",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
           "author": null,
           "description": "Looking for a fun weekend project?  Allow me to suggest linear fractional transformations.\nA linear fractional transformation (LFT), also known as a Möbius\n  transformation or a homographic function, is a function of\n  the form\n(lambda (x)\n  (/ (+ (* A x) B)\n     (+ (* C x) D)))\n(defun make-lft (A B C D)\n  (lambda (x)\n    (/ (+ (* A x) B)\n       (+ (* C x) D))))\nbut you’ll want access to A,\n  B, C, and D.  If you implement LFTs\n  as funcallable CLOS instances, you can read out the coefficients from slot values.\nConstructor\nThe coefficients A, B, C,\n  and D could in theory be any complex number, but we can\n  restrict them to being integers and retain a lot of the functionality.\n  If we multiply all the coefficients by the same factor, it doesn't\n  change the output of the LFT.  If you have …",
           "link": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
           "publishedOn": "2024-01-25T20:02:00.000Z",
-          "wordCount": 4568,
+          "wordCount": 4572,
           "title": "Joe Marshall: Roll Your Own Linear Fractional Transformations",
           "imageUrl": null
         },
@@ -370,16 +380,6 @@
           "publishedOn": "2023-10-30T00:46:00.000Z",
           "wordCount": 3398,
           "title": "Quicklisp news: October 2023 Quicklisp dist update now available",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.funcall.org//lisp/2023/10/23/deptree/",
-          "author": null,
-          "description": "Deptree is a tool to list and archive dependency snapshots of (ASDF-defined) projects. We at Norphonic use it in the product build pipeline, but it can be useful for integration workflows as well. The task sounds common enough so there's little doubt am reinventing the wheel with this. Alas, I couldn't find any readily available solutions nor good folks at #commonlisp could recall of any, so there.\nAvailable in the latest Quicklisp.",
-          "link": "http://blog.funcall.org//lisp/2023/10/23/deptree/",
-          "publishedOn": "2023-10-22T15:00:00.000Z",
-          "wordCount": 98,
-          "title": "Eugene Zaikonnikov: Announcing deptree",
           "imageUrl": null
         }
       ]
@@ -705,12 +705,22 @@
       "siteUrl": "https://ianthehenry.com/",
       "articles": [
         {
+          "id": "https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/",
+          "author": null,
+          "description": "The reason I discovered an ancient blog post the other day was that I had something new to say about Nix for the first time in over two years.\nThe thing I want to say is this: nix-direnv is great. It fixes roughly every problem that I’ve had with nix-shell, and does so in a much nicer way than my previous ad-hoc solutions.\nThis is important because I mostly just use Nix to document and install per-project native dependencies. I do use it to install “global” tools as well, but that is rarely very interesting, and most of my interaction with Nix these days consists of editing small shell.nix files.\nBut it took a bit of doing to get to the point that I felt good about using Nix for this. For one thing, shells don’t register GC roots, which means that every time you collect garbage you have to…",
+          "link": "https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/",
+          "publishedOn": "2024-01-28T00:00:00.000Z",
+          "wordCount": 1330,
+          "title": "How to Learn Nix, Part 49: nix-direnv is a huge quality of life improvement",
+          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+        },
+        {
           "id": "https://ianthehenry.com/posts/how-to-learn-nix/installing-nix-on-macos/",
           "author": null,
           "description": "Note: I wrote the vast majority of this post on August 24, 2022, but I decided that it was a whiny rant that I didn’t want to publish. I came across the draft in January 2024, remembered that this entire series is a whiny rant, and decided to publish it anyway.\nI’ve been a happy Nix user for about 18 months now, and– well, not happy happy, but satisfied… no… not really satisfied either; perhaps it’s more of a resigned disgruntlement; a feeling that despite its many flaws, it’s still better than anything else out there, and I’ve invested so much time into it already that it would be a shame to give up now, so… am I describing Stockholm syndrome?\nI’ve been imprisoned in Nix’s castle for about 18 months now, and I recently came into a new laptop – one of those shiny blue numbers – so naturall…",
           "link": "https://ianthehenry.com/posts/how-to-learn-nix/installing-nix-on-macos/",
           "publishedOn": "2024-01-26T00:00:00.000Z",
-          "wordCount": 2223,
+          "wordCount": 2241,
           "title": "How to Learn Nix, Part 48: Installing (single-user) Nix on macOS",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
         },
@@ -753,16 +763,6 @@
           "wordCount": 1631,
           "title": "Why Janet?",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
-        },
-        {
-          "id": "https://ianthehenry.com/posts/janet-for-mortals/",
-          "author": null,
-          "description": "I wrote a book.\nIt’s called Janet for Mortals, and it’s free, and it’s on the internet, and you can read it right now.\nAnd you should read it right now, instead of reading this blog post, because this blog post is not very interesting if you haven’t read the book. Heck, this blog post is not very interesting even if you have read the book. This blog post is a thinly-veiled promotion for my book to slip into my newsletter and RSS feed, with just enough additional content to pad it out to the length of a real post.\nThe book is about Janet, a programming language that I have written about before. I’ve been using Janet a lot lately, and I’ve been having a lot of fun with it, and I think that more people should know about it so that they can have fun with it too. People like you.\nI’m not really…",
-          "link": "https://ianthehenry.com/posts/janet-for-mortals/",
-          "publishedOn": "2023-04-04T00:00:00.000Z",
-          "wordCount": 3432,
-          "title": "Janet for Mortals",
-          "imageUrl": "https://ianthehenry.com/checkerboard.png"
         }
       ]
     },
@@ -776,29 +776,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-28T00:01:32.822Z",
+          "publishedOn": "2024-01-29T00:01:37.023Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-28T00:01:29.720Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-28T00:01:29.634Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,7 +786,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-28T00:01:29.631Z",
+          "publishedOn": "2024-01-29T00:01:34.724Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -816,9 +796,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-28T00:01:29.627Z",
+          "publishedOn": "2024-01-29T00:01:34.703Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-29T00:01:34.693Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-01-29T00:01:34.682Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-28T00:01:29.619Z",
+          "publishedOn": "2024-01-29T00:01:34.678Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -836,7 +836,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-28T00:01:29.618Z",
+          "publishedOn": "2024-01-29T00:01:34.676Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -846,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-28T00:01:29.552Z",
+          "publishedOn": "2024-01-29T00:01:34.651Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
