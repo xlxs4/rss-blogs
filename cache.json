@@ -3,7 +3,7 @@
     {
       "title": "Stochastic Lifestyle",
       "feedUrl": "http://www.stochasticlifestyle.com/feed/",
-      "siteUrl": "https://www.stochasticlifestyle.com/",
+      "siteUrl": "http://www.stochasticlifestyle.com/",
       "articles": [
         {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
@@ -283,6 +283,26 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://kvardek-du.kerno.org/2024/01/manuel-simoni-on-cls-control-flow.html",
+          "author": null,
+          "description": "Manuel Simoni dusts his Axis of Eval blog off and writes about Common Lisp's BLOCK / RETURN-FROM and UNWIND-PROTECT. A summary for non-Lispers.",
+          "link": "http://kvardek-du.kerno.org/2024/01/manuel-simoni-on-cls-control-flow.html",
+          "publishedOn": "2024-01-30T14:56:00.000Z",
+          "wordCount": 895,
+          "title": "Luís Oliveira: Manuel Simoni on CL's control flow primitives",
+          "imageUrl": null
+        },
+        {
+          "id": "https://turtleware.eu/posts/Writing-an-ad-hoc-GUI-for-Coleslaw.html",
+          "author": null,
+          "description": "Table of Contents\nPreliminary steps\nEmbracing the chaos\nPresentations\nManaging a blog collection\nManaging a blog instance\nBig ball of mud\nClosing thoughts\nColeslaw is a \"Flexible Lisp Blogware\". It is a program that I'm using to manage\nmy blogs and allows for an offline blog compilation. The functionality of the\nwebsite may be extended with plugins and the visual appearance is defined by\nconfigurable themes.\nIts design is straightforward (if not a bit messy), so it is a good candidate to\nshow how to slap a CLIM interface on top of existing software. The integration\nwill be very shallow to not encroach into Coleslaw responsibilities, yet deep\nenough to provide a convenience utility over the library.\n\nPreliminary steps\nIn this post we will use a few dependencies. Of course one of them is mcc…",
+          "link": "https://turtleware.eu/posts/Writing-an-ad-hoc-GUI-for-Coleslaw.html",
+          "publishedOn": "2024-01-30T00:00:00.000Z",
+          "wordCount": 2923,
+          "title": "TurtleWare: Writing an ad hoc GUI for Coleslaw",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/01/exponentiating-functions.html",
           "author": null,
           "description": "If we compose a function F(x) with itself, we get F(F(x)) or F∘F.\n  If we compose it again, we get F(F(F(x))) or F∘F∘F.  Rather than\n  writing ‘F’ over and over again, we can abuse\n  exponential notation and write (F∘F∘F) as F3, where the\n  superscript indicates how many times we compose the function.\n  F1 is, naturally, just F.  F0 would be zero\n  applications of F, which would be the function that leaves its\n  argument unchanged, i.e. the identity function.\nThe analogy with exponentiation goes deeper.  We can quickly\n  exponentiate a number with a divide and conquer\n  algorithm:\n(defun my-expt (base exponent)\n  (cond ((zerop exponent) 1)\n        ((evenp exponent) (my-expt (* base base) (/ exponent 2)))\n        (t (* base (my-expt base (- exponent 1))))))\n(defun fexpt (f exponent)\n  (cond…",
@@ -360,26 +380,6 @@
           "publishedOn": "2023-11-24T15:50:00.000Z",
           "wordCount": 4480,
           "title": "Joe Marshall: GitHub Co-pilot Review",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.n16f.net/blog/interactive-common-lisp-development/",
-          "author": null,
-          "description": "Common Lisp programming is often presented as “interactive”. In most\nlanguages, modifications to your program are applied by recompiling it and\nrestarting it. In contrast, Common Lisp lets you incrementally modify your\nprogram while it is running.\nWhile this approach is convenient, especially for exploratory programming, it\nalso means that the state of your program during execution does not always\nreflect the source code. You do not just define new constructs: you look them\nup, inspect them, modify them or delete them. I had to learn a lot of\nsubtleties the hard way. This article is a compendium of information related\nto the interactive nature of Common Lisp.\nVariables\nIn Common Lisp variables are identified by symbols. Evaluating (SETQ A 42)\ncreates or updates a variable with the integer …",
-          "link": "https://www.n16f.net/blog/interactive-common-lisp-development/",
-          "publishedOn": "2023-11-19T18:00:00.000Z",
-          "wordCount": 2517,
-          "title": "Nicolas Martyanoff: Interactive Common Lisp development",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.quicklisp.org/2023/10/october-2023-quicklisp-dist-update-now.html",
-          "author": null,
-          "description": "New projects: \n\n3d-math — A library implementing the necessary linear algebra math for 2D and 3D computations — zlib\nansi-test-harness — A testing harness that fetches ansi-test and allows subsets and extrinsic systems — MIT\nbabylon — Jürgen Walther's modular, configurable, hybrid knowledge engineering systems framework for Common Lisp, restored from the CMU AI Repository. — MIT\ncalm — CALM - Canvas Aided Lisp Magic — GNU General Public License, version 2\ncffi-object — A Common Lisp library that enables fast and convenient interoperation with foreign objects. — Apache-2.0\ncffi-ops — A library that helps write concise CFFI-related code. — Apache-2.0\ncl-brewer — Provides CI settings for cl-brewer. — Unlicense\ncl-jwk — Common Lisp system for decoding public JSON Web Keys (JWK) — BSD 2-Clause\n…",
-          "link": "http://blog.quicklisp.org/2023/10/october-2023-quicklisp-dist-update-now.html",
-          "publishedOn": "2023-10-30T00:46:00.000Z",
-          "wordCount": 3398,
-          "title": "Quicklisp news: October 2023 Quicklisp dist update now available",
           "imageUrl": null
         }
       ]
@@ -776,7 +776,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-01-30T00:01:17.895Z",
+          "publishedOn": "2024-01-31T00:01:35.845Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -786,7 +786,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-01-30T00:01:15.727Z",
+          "publishedOn": "2024-01-31T00:01:32.005Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -796,19 +796,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-01-30T00:01:15.564Z",
+          "publishedOn": "2024-01-31T00:01:31.987Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-01-30T00:01:15.562Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -816,9 +806,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-01-30T00:01:15.550Z",
+          "publishedOn": "2024-01-31T00:01:31.984Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-01-31T00:01:31.970Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-01-30T00:01:15.541Z",
+          "publishedOn": "2024-01-31T00:01:31.953Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -836,7 +836,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-01-30T00:01:15.524Z",
+          "publishedOn": "2024-01-31T00:01:31.947Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -846,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-01-30T00:01:15.510Z",
+          "publishedOn": "2024-01-31T00:01:31.877Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
