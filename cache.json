@@ -191,7 +191,7 @@
           "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
           "link": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
           "publishedOn": "2024-01-11T14:10:38.000Z",
-          "wordCount": 1333,
+          "wordCount": 1319,
           "title": "micro macro story time",
           "imageUrl": null
         },
@@ -766,7 +766,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-01T00:01:36.346Z",
+          "publishedOn": "2024-02-02T00:01:32.563Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -776,19 +776,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-01T00:01:32.288Z",
+          "publishedOn": "2024-02-02T00:01:28.988Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-01T00:01:32.112Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -796,7 +786,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-01T00:01:32.104Z",
+          "publishedOn": "2024-02-02T00:01:28.956Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -806,9 +796,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-01T00:01:32.092Z",
+          "publishedOn": "2024-02-02T00:01:28.943Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-02T00:01:28.930Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-01T00:01:32.021Z",
+          "publishedOn": "2024-02-02T00:01:28.819Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -826,7 +826,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-01T00:01:31.972Z",
+          "publishedOn": "2024-02-02T00:01:28.817Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-01T00:01:31.856Z",
+          "publishedOn": "2024-02-02T00:01:28.472Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
