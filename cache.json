@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/02/infinite-composition.html",
+          "author": null,
+          "description": "If you like functional composition, you’ll like linear\n  fractional transformations (LFTs).  They behave very nicely when you\n  compose them (in fact, they are a group under functional\n  composition).  If you compose two LFTs, you get another LFT.  You\n  can keep composing as long as you wish.  Let’s compose an\n  infinite number of LFTs.\nI suppose I should argue that composing an infinite number of LFTs\n  will give you anything at all.  Consider those LFTs with\n  non-negative coefficients.  When given an input in the range [0,∞],\n  they will output a number in the range [A/C, B/D].  The output range\n  is narrower than, and contained within, the input range.  If we compose two such LFTs, the\n  range of output of the outermost LFT will be even narrower.  As we\n  compose more and more of thes…",
+          "link": "http://funcall.blogspot.com/2024/02/infinite-composition.html",
+          "publishedOn": "2024-02-04T17:37:00.000Z",
+          "wordCount": 4926,
+          "title": "Joe Marshall: Infinite Composition",
+          "imageUrl": null
+        },
+        {
           "id": "http://blog.funcall.org//lisp/2024/01/31/slime-xref/",
           "author": null,
           "description": "By the nature of embedded development one spends a lot of time debugging on target devices. SLIME experience for the most part is as smooth as on local host with the exception of cross referencing. Swank backend on target is reporting local paths in xref records which the frontend on your host then tries to open.\nThe canonical workaround from the user manual is using slime-tramp contrib, allowing you to navigate the source tree on remote target over SSH. I however greatly prefer to work on the local copy of the source code, with much lower latency (SSH over VPN over cellular to a remote site is no fun) and ability to stage and commit changes immediately. A somehwoat kludgy workflow that does the trick is using a hacked slime-postprocess-xref below to substitute $HOME in xref records. The s…",
@@ -318,7 +328,7 @@
           "description": "If we compose a function F(x) with itself, we get F(F(x)) or F∘F.\n  If we compose it again, we get F(F(F(x))) or F∘F∘F.  Rather than\n  writing ‘F’ over and over again, we can abuse\n  exponential notation and write (F∘F∘F) as F3, where the\n  superscript indicates how many times we compose the function.\n  F1 is, naturally, just F.  F0 would be zero\n  applications of F, which would be the function that leaves its\n  argument unchanged, i.e. the identity function.\nThe analogy with exponentiation goes deeper.  We can quickly\n  exponentiate a number with a divide and conquer\n  algorithm:\n(defun my-expt (base exponent)\n  (cond ((zerop exponent) 1)\n        ((evenp exponent) (my-expt (* base base) (/ exponent 2)))\n        (t (* base (my-expt base (- exponent 1))))))\n(defun fexpt (f exponent)\n  (cond…",
           "link": "http://funcall.blogspot.com/2024/01/exponentiating-functions.html",
           "publishedOn": "2024-01-28T20:00:00.000Z",
-          "wordCount": 4085,
+          "wordCount": 4090,
           "title": "Joe Marshall: Exponentiating Functions",
           "imageUrl": null
         },
@@ -328,7 +338,7 @@
           "description": "Looking for a fun weekend project?  Allow me to suggest linear fractional transformations.\nA linear fractional transformation (LFT), also known as a Möbius\n  transformation or a homographic function, is a function of\n  the form\n(lambda (x)\n  (/ (+ (* A x) B)\n     (+ (* C x) D)))\n(defun make-lft (A B C D)\n  (lambda (x)\n    (/ (+ (* A x) B)\n       (+ (* C x) D))))\nbut you’ll want access to A,\n  B, C, and D.  If you implement LFTs\n  as funcallable CLOS instances, you can read out the coefficients from slot values.\nConstructor\nThe coefficients A, B, C,\n  and D could in theory be any complex number, but we can\n  restrict them to being integers and retain a lot of the functionality.\n  If we multiply all the coefficients by the same factor, it doesn't\n  change the output of the LFT.  If you have …",
           "link": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
           "publishedOn": "2024-01-25T20:02:00.000Z",
-          "wordCount": 4572,
+          "wordCount": 4575,
           "title": "Joe Marshall: Roll Your Own Linear Fractional Transformations",
           "imageUrl": null
         },
@@ -371,16 +381,6 @@
           "wordCount": 1408,
           "title": "vindarel: Latest string manipulation functions in the STR library",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/433",
-          "author": null,
-          "description": "I've been writing libraries for Common Lisp for over a decade now (lord almighty), and for most of that time I've tried to ensure that the libraries would, in the very least, work on all three major operating systems: Windows, Linux, and MacOS.\nUsually doing so isn't hard, as I can rely on the implementation and the language standard, but especially for libraries that deal with foreign code or operating system interfaces, a bit more work is needed. For the longest time I went the extra mile of providing that support myself, despite not being a MacOS user, and despite vehemently disapproving of Apple as a company and their treatment of users and developers.\nAbout two years ago, I stopped. I had had enough of all the extra work the platform put on me, for zero personal gain. Especially I had…",
-          "link": "https://reader.tymoon.eu/article/433",
-          "publishedOn": "2023-11-27T14:04:32.000Z",
-          "wordCount": 412,
-          "title": "Yukari Hafner: The State of MacOS Support",
-          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2517"
         }
       ]
     },
@@ -746,19 +746,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-04T00:01:37.940Z",
+          "publishedOn": "2024-02-05T00:01:32.572Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-04T00:01:34.426Z",
-          "wordCount": 7301,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -766,19 +756,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-04T00:01:34.362Z",
+          "publishedOn": "2024-02-05T00:01:30.515Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-04T00:01:34.355Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -786,9 +766,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-04T00:01:34.352Z",
+          "publishedOn": "2024-02-05T00:01:30.512Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-02-05T00:01:30.501Z",
+          "wordCount": 7301,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-05T00:01:30.484Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -796,7 +796,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-04T00:01:34.181Z",
+          "publishedOn": "2024-02-05T00:01:30.367Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -806,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-04T00:01:34.179Z",
+          "publishedOn": "2024-02-05T00:01:30.361Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -816,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-04T00:01:33.486Z",
+          "publishedOn": "2024-02-05T00:01:30.251Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
