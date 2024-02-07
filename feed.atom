@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-06T00:01:29.427Z</id>
+    <id>urn:2024-02-07T00:01:23.466Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-06T00:01:29.427Z</updated>
+    <updated>2024-02-07T00:01:23.466Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-06T00:01:28.623Z</updated>
+        <updated>2024-02-07T00:01:21.984Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,28 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-06T00:01:26.598Z</updated>
+        <updated>2024-02-07T00:01:19.799Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-06T00:01:26.586Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-06T00:01:26.575Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,18 +29,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-06T00:01:26.546Z</updated>
+        <updated>2024-02-07T00:01:19.774Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-06T00:01:26.474Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-02-07T00:01:19.762Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +49,28 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-06T00:01:26.448Z</updated>
+        <updated>2024-02-07T00:01:19.750Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-07T00:01:19.748Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-02-07T00:01:19.745Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-06T00:01:26.360Z</updated>
+        <updated>2024-02-07T00:01:19.681Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -695,7 +695,7 @@ The post DDPS Seminar Talk: Generalizing Scientific Machine Learning and Differe
         <updated>2023-10-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In a world of concrete objects, steel frameworks bring sense and order. In a forest of composable tools, libraries and open-ended schemas, it would be the mycelia. A frustrated yet optimistic man muses "Might such a thing come to be?".]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -750,7 +750,7 @@ Tags: sundry]]></summary>
         <updated>2023-09-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The one in which we design a rich Integrated Development Environment (IDE) experience, using Clojure as our muse. Featuring Language Server Protocol (lsp-mode + clojure-lsp), clojure-mode, cider, and more! Buckle up and get a coffee.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -794,7 +794,7 @@ Naturally, for only recently coming out as trans, accepting that I am a woman is
         <updated>2023-08-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We want to maximize our ability to "stay in The Zone". So the aim is to create the fastest, smoothest, tightly integrated, and unobtrusive mechanism to get things done using the keyboard alone.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -830,7 +830,7 @@ Er, okay, you probably don’t think about the Fibonacci sequence much at all. I
         <updated>2023-07-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Or the one in which we confront our elisp n00bishness and try to be better at using it. And we learn new habits to understand our Emacs better. Better late than never.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -904,7 +904,7 @@ Read more]]></summary>
         <updated>2023-07-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Elpa, Melpa, git repo. Vendor package straight from source. It compiled? Fetch some more! Elpa, Melpa, git repo. In more adult terms, we learn to use use-package to fetch, install, initialise, configure useful packages that enhance our Emacs experience.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -928,7 +928,7 @@ Instead of typing something into a prompt and hitting enter and seeing the outpu
         <updated>2023-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The first action must, of course, be to colour the bikeshed and set some decent defaults.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -956,7 +956,7 @@ Usually, we would develop a dictionary/ cleanup memory of randomly chosen hyperd
         <updated>2023-06-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Or, finally biting the bullet to redesigning my developerly and writerly experience, from the ground up, with Emacs.]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -977,7 +977,7 @@ The Julia community has a special standing on design patterns: people don't real
         <updated>2023-06-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Arguably a more interesting, revealing, and kinder question than "What are you curious about?"]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -1046,7 +1046,7 @@ Why don't scientists test their code? Well, it turns out that most scientists do
         <updated>2023-06-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Making a software demo is a form of deliberate, serious play. An act that feeds our curiosity, inventiveness, and drive. It enlivens. It enriches. It entertains. And as we asymptotically approach the A.G.I. that's just around the corner, the capacity for deliberate, serious play will remain distinctively, deeply, deliciously human. Career software people like yours truly may please take note!]]></summary>
         <author>
-            <name>Eval / Apply is pure magic</name>
+            <name>Aditya Athalye writes and works here.</name>
         </author>
     </entry>
     <entry>
@@ -1315,19 +1315,6 @@ I have been blogging about …]]></summary>
         <summary type="html"><![CDATA[On starting a new blog, abandoning the stability of WordPress for the creative freedom of do-it-yourself.]]></summary>
         <author>
             <name>Lambda/Sierra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kandriaの日本語アップデートはリリースです！]]></title>
-        <id>https://reader.tymoon.eu/article/428</id>
-        <link href="https://reader.tymoon.eu/article/428"/>
-        <updated>2023-04-12T12:55:57.000Z</updated>
-        <summary type="html"><![CDATA[Kandriaの日本語アップデートはリリースです！
-(私の日本語はまだまだですから、すみません)
-私のゲームは日本語でリリースのは夢ですからうれしい！Mimirin(@mioda833)さんはKandriaの日本語バーシオンを作ってありがとう。素晴らしい仕事をできた。
-今からSteamとItch.ioとKandria.comでアップデーとをダウンロードできる。]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
         </author>
     </entry>
 </feed>

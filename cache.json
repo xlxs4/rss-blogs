@@ -573,7 +573,7 @@
       ]
     },
     {
-      "title": "Eval / Apply is pure magic",
+      "title": "Aditya Athalye writes and works here.",
       "feedUrl": "https://www.evalapply.org/index.xml",
       "siteUrl": "https://www.evalapply.org/",
       "articles": [
@@ -583,7 +583,7 @@
           "description": "In a world of concrete objects, steel frameworks bring sense and order. In a forest of composable tools, libraries and open-ended schemas, it would be the mycelia. A frustrated yet optimistic man muses \"Might such a thing come to be?\".",
           "link": "https://www.evalapply.org/posts/mycelium-clj/index.html",
           "publishedOn": "2023-10-19T00:00:00.000Z",
-          "wordCount": 1057,
+          "wordCount": 1058,
           "title": "Riff: A \"mycelium-clj\" for the Clojure ecosystem?",
           "imageUrl": null
         },
@@ -593,7 +593,7 @@
           "description": "The one in which we design a rich Integrated Development Environment (IDE) experience, using Clojure as our muse. Featuring Language Server Protocol (lsp-mode + clojure-lsp), clojure-mode, cider, and more! Buckle up and get a coffee.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/index.html",
           "publishedOn": "2023-09-07T00:00:00.000Z",
-          "wordCount": 4579,
+          "wordCount": 4581,
           "title": "Emerging from dotemacs bankruptcy the hard way: integrating the IDE (feat. Clojure(Script))",
           "imageUrl": null
         },
@@ -603,7 +603,7 @@
           "description": "We want to maximize our ability to \"stay in The Zone\". So the aim is to create the fastest, smoothest, tightly integrated, and unobtrusive mechanism to get things done using the keyboard alone.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-getting-about/index.html",
           "publishedOn": "2023-08-02T00:00:00.000Z",
-          "wordCount": 2859,
+          "wordCount": 2861,
           "title": "Emerging from dotemacs bankruptcy the hard way: getting about",
           "imageUrl": null
         },
@@ -613,7 +613,7 @@
           "description": "Or the one in which we confront our elisp n00bishness and try to be better at using it. And we learn new habits to understand our Emacs better. Better late than never.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-midway-refactor/index.html",
           "publishedOn": "2023-07-23T00:00:00.000Z",
-          "wordCount": 1778,
+          "wordCount": 1780,
           "title": "Emerging from dotemacs bankruptcy the hard way: the midway refactor",
           "imageUrl": null
         },
@@ -623,7 +623,7 @@
           "description": "Elpa, Melpa, git repo. Vendor package straight from source. It compiled? Fetch some more! Elpa, Melpa, git repo. In more adult terms, we learn to use use-package to fetch, install, initialise, configure useful packages that enhance our Emacs experience.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-packages/index.html",
           "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 1554,
+          "wordCount": 1556,
           "title": "Emerging from dotemacs bankruptcy the hard way: package management",
           "imageUrl": null
         },
@@ -633,7 +633,7 @@
           "description": "The first action must, of course, be to colour the bikeshed and set some decent defaults.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-init-begins/index.html",
           "publishedOn": "2023-07-04T00:00:00.000Z",
-          "wordCount": 727,
+          "wordCount": 729,
           "title": "Emerging from dotemacs bankruptcy the hard way: init begins",
           "imageUrl": null
         },
@@ -643,7 +643,7 @@
           "description": "Or, finally biting the bullet to redesigning my developerly and writerly experience, from the ground up, with Emacs.",
           "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy/index.html",
           "publishedOn": "2023-06-29T00:00:00.000Z",
-          "wordCount": 566,
+          "wordCount": 568,
           "title": "Emerging from dotemacs bankruptcy the hard way: Prelude",
           "imageUrl": null
         },
@@ -653,7 +653,7 @@
           "description": "Arguably a more interesting, revealing, and kinder question than \"What are you curious about?\"",
           "link": "https://www.evalapply.org/posts/what-have-you-been-curious-about/index.html",
           "publishedOn": "2023-06-21T00:00:00.000Z",
-          "wordCount": 504,
+          "wordCount": 506,
           "title": "What have you been curious about?",
           "imageUrl": null
         },
@@ -663,7 +663,7 @@
           "description": "Making a software demo is a form of deliberate, serious play. An act that feeds our curiosity, inventiveness, and drive. It enlivens. It enriches. It entertains. And as we asymptotically approach the A.G.I. that's just around the corner, the capacity for deliberate, serious play will remain distinctively, deeply, deliciously human. Career software people like yours truly may please take note!",
           "link": "https://www.evalapply.org/posts/software-demos/index.html",
           "publishedOn": "2023-06-04T00:00:00.000Z",
-          "wordCount": 1572,
+          "wordCount": 1574,
           "title": "Software demos as deliberate acts of serious play",
           "imageUrl": null
         }
@@ -736,7 +736,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-06T00:01:28.623Z",
+          "publishedOn": "2024-02-07T00:01:21.984Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -746,29 +746,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-06T00:01:26.598Z",
+          "publishedOn": "2024-02-07T00:01:19.799Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-06T00:01:26.586Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-06T00:01:26.575Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -776,19 +756,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-06T00:01:26.546Z",
+          "publishedOn": "2024-02-07T00:01:19.774Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-06T00:01:26.474Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-02-07T00:01:19.762Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -796,9 +776,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-06T00:01:26.448Z",
+          "publishedOn": "2024-02-07T00:01:19.750Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-07T00:01:19.748Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-02-07T00:01:19.745Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -806,7 +806,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-06T00:01:26.360Z",
+          "publishedOn": "2024-02-07T00:01:19.681Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -1054,16 +1054,6 @@
           "wordCount": 651,
           "title": "A status update on Kandria, Shirakumo, and me",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2438"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/428",
-          "author": null,
-          "description": "Kandriaの日本語アップデートはリリースです！\n(私の日本語はまだまだですから、すみません)\n私のゲームは日本語でリリースのは夢ですからうれしい！Mimirin(@mioda833)さんはKandriaの日本語バーシオンを作ってありがとう。素晴らしい仕事をできた。\n今からSteamとItch.ioとKandria.comでアップデーとをダウンロードできる。",
-          "link": "https://reader.tymoon.eu/article/428",
-          "publishedOn": "2023-04-12T12:55:57.000Z",
-          "wordCount": 57,
-          "title": "Kandriaの日本語アップデートはリリースです！",
-          "imageUrl": null
         }
       ]
     }
