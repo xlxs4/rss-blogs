@@ -181,7 +181,7 @@
           "description": "Today, a middle-aged note: when you are young, unless you been\nfailed by The System, you enjoy a radiant confidence: everything you say\nburns with rightness and righteousness, that the world Actually Is This\nWay, You See, and if you think about it, it Actually Should Be This\nOther Specific Way.  This is how you get the fervent young communists\nand Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so\nright that you become an evangelist, a\n,\na truth-speaker; a youtuber, perhaps.prophet\nThen, with luck, you meet the world: you build, you organize, you\ninvest, you double down.  And in that doubling, the ideas waver,\ntremble, resonate, imperceptibly at first, reinforced in some ways,\nimpeded in others.  The world works in specific ways, too, and you don’t\nreally know them in the…",
           "link": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
           "publishedOn": "2024-01-18T23:15:58.000Z",
-          "wordCount": 1392,
+          "wordCount": 1377,
           "title": "nombrilliant, actually",
           "imageUrl": null
         },
@@ -283,6 +283,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/managing-pure-common-lisp-files-on-medley?pk_campaign=rss-feed",
+          "author": null,
+          "description": "Managing Lisp code in the residential environment of Medley differs from similar tasks in traditional file based Common Lisp systems.\nIn a previous post I explained how the residential environment of Medley works, discussed some of its facilities and tools, and introduced a workflow for managing Common Lisp code under the residential environment. This leverages the way Medley is designed to work and minimizes friction.\nIn this post I explain how to use Medley as a file based environment, albeit with some friction and reduced functionality.\nI show how to edit, organize, and load pure Common Lisp files, i.e. source files not under the control of the File Manager. Pure files are ordinary text files that contain only Common Lisp code, with no metadata or font control commands like the code dat…",
+          "link": "https://journal.paoloamoroso.com/managing-pure-common-lisp-files-on-medley?pk_campaign=rss-feed",
+          "publishedOn": "2024-02-08T11:17:13.000Z",
+          "wordCount": 1554,
+          "title": "Paolo Amoroso: Managing pure Common Lisp files on Medley",
+          "imageUrl": "https://i.snap.as/68i8povn.jpg"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/02/infinite-composition.html",
           "author": null,
           "description": "If you like functional composition, you’ll like linear\n  fractional transformations (LFTs).  They behave very nicely when you\n  compose them (in fact, they are a group under functional\n  composition).  If you compose two LFTs, you get another LFT.  You\n  can keep composing as long as you wish.  Let’s compose an\n  infinite number of LFTs.\nI suppose I should argue that composing an infinite number of LFTs\n  will give you anything at all.  Consider those LFTs with\n  non-negative coefficients.  When given an input in the range [0,∞],\n  they will output a number in the range [A/C, B/D].  The output range\n  is narrower than, and contained within, the input range.  If we compose two such LFTs, the\n  range of output of the outermost LFT will be even narrower.  As we\n  compose more and more of thes…",
@@ -371,16 +381,6 @@
           "wordCount": 741,
           "title": "Paolo Amoroso: My Common Lisp setup on Linux",
           "imageUrl": "https://i.snap.as/68i8povn.jpg"
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/",
-          "author": null,
-          "description": "We just released cl-str\nv0.21. It’s\nbeen a while since the last release, and many enhancements make it\nmore useful than ever. Let’s review the changes, the newest first.\nBut first, I want to you thank everyone who contributed, by sending\npull requests or feedback. Special thanks to\n@kilianmh who suddenly appeared one\nday, helped with new features as well as grunt work, and who is now a\nco-maintainer.\nsplit by regex\nThe latest addition sent by ccQpein is that str:split now accepts a :regex key argument to split by regular expressions. The functions rsplit and split-omit-nulls have it too.\n(str:split \"[,|;]\" \"foo,bar;baz\" :regex t)\n;; => (\"foo\" \"bar\" \"baz\")\n\nThat’s handy for advent of code ;)\nYou can also use ppcre:split, this is the function that str:split\nrelies on anyways, except that by …",
-          "link": "https://lisp-journey.gitlab.io/blog/latest-string-manipulation-functions/",
-          "publishedOn": "2023-12-22T15:52:51.000Z",
-          "wordCount": 1408,
-          "title": "vindarel: Latest string manipulation functions in the STR library",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -726,7 +726,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-08T00:01:22.623Z",
+          "publishedOn": "2024-02-09T00:01:33.577Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -736,19 +736,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-08T00:01:19.578Z",
+          "publishedOn": "2024-02-09T00:01:29.156Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-08T00:01:19.500Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -756,19 +746,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-08T00:01:19.489Z",
+          "publishedOn": "2024-02-09T00:01:29.149Z",
           "wordCount": 7301,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-08T00:01:19.476Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -776,9 +756,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-08T00:01:19.474Z",
+          "publishedOn": "2024-02-09T00:01:29.089Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-02-09T00:01:29.087Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-02-09T00:01:29.085Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,7 +786,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-08T00:01:19.463Z",
+          "publishedOn": "2024-02-09T00:01:28.985Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -796,7 +796,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-08T00:01:19.446Z",
+          "publishedOn": "2024-02-09T00:01:28.914Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
