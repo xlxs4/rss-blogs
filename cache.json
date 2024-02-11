@@ -11,7 +11,7 @@
           "description": "Machine learning is all about examples. The more data you have, the better it should perform, right? With the rise of ChatGPT and Large Language Models (LLMs) as a code helping tool, it was thus just an assumption that the most popular languages like Python would likely be the best for LLMs. But because of the increased productivity, I tend to use a lot of Julia, a language with  an estimated user-base of around a million programmers. For this reason, people have often asked me how it fairs with ChatGPT, Github Copilot, etc., and so I checked out those pieces and… was stunned. It’s really good. It seemed better than Python actually?\nThe data is in: Julia does well with ChatGPT\nThis question was recently put to the test by a researcher named Alessio Buscemi in A Comparative Study  ... READ MORE\nThe post ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why? appeared first on Stochastic Lifestyle.",
           "link": "http://www.stochasticlifestyle.com/chatgpt-performs-better-on-julia-than-python-and-r-for-large-language-model-llm-code-generation-why/",
           "publishedOn": "2023-11-19T15:57:36.000Z",
-          "wordCount": 3156,
+          "wordCount": 3171,
           "title": "ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why?",
           "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
         },
@@ -144,33 +144,6 @@
       "articles": []
     },
     {
-      "title": "programming (and other) musings",
-      "feedUrl": "https://jao.io/blog/rss.xml",
-      "siteUrl": "https://jao.io/blog/",
-      "articles": [
-        {
-          "id": "https://jao.io/blog/poor-things.html",
-          "author": null,
-          "description": "I've read good things about the forthcoming movie, and liked what I saw in the\npromotional video, but I cannot believe it's going to be near as good as this\nnovel. The book has too many nuances, literary tricks and wordplay and\nparagraphs one has to read and reread, to be translated to a film. The latter\nmight be its own work of art, and that's fine. But if you're curious about the\nmovie, I'd definitely recommend to read this book. If you're not, I'd\ndefinitely recommend to read this book. The writing is fresh and funny, in\ntypical Gray fashion, and the real themes of the book are universal and\nexposed in a way that is very entertaining on the surface, but with a subtext\nthat gives you food for thought. I don't remember when was the last time that\nI read two hundred pages of a book in a single day, time just flew, as they\nsay.\n\nTags: books",
-          "link": "https://jao.io/blog/poor-things.html",
-          "publishedOn": "2023-10-11T01:28:00.000Z",
-          "wordCount": 197,
-          "title": "poor things",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jao.io/blog/in-no-particular-order.html",
-          "author": null,
-          "description": "Interesting bits elsewhere:\n\n\n\nTimeless Advice on Writing: The Collected Wisdom of Great Writers\nLeaving Haskell behind — Infinite Negative Utility\nKnuth: Ancient Babylonian Algorithms annotated/explained version.\nMastering Bloom Filters: Big Data Processing in Python\nOlder entries\n\n\n\nTags: sundry",
-          "link": "https://jao.io/blog/in-no-particular-order.html",
-          "publishedOn": "2023-10-11T01:00:00.000Z",
-          "wordCount": 78,
-          "title": "in no particular order",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "wingolog",
       "feedUrl": "https://wingolog.org/feed/atom",
       "siteUrl": "https://wingolog.org/",
@@ -283,6 +256,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html",
+          "author": null,
+          "description": "A bilinear fractional transformation (BiLFT) is a\n  two-argument function of the form\n(lambda (x y)\n  (/ (+ (* A x y) (* B x) (* C y) D)\n     (+ (* E x y) (* F x) (* G y) H)))\nBiLFTs do not form a group\n  under functional composition with LFTs, but they have this\n  interesting property:  if you hold either input to the BiLFT constant,\n  the BiLFT becomes a LFT on the other input.  So if we consider just\n  one of the inputs at a time (or the output), we can apply some\n  group-like operations.\nYou can compose LFTs with BiLFTs in three ways.  First,\n  you can run the output of a BiLFT into the input of a LFT.  Second\n  and third, you can run the output of a LFT into the either the x or\n  y input of a BiLFT.  Composing a LFT with a BiLFT in any of these\n  ways produces another BiLFT, so there …",
+          "link": "http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html",
+          "publishedOn": "2024-02-10T16:40:00.000Z",
+          "wordCount": 4711,
+          "title": "Joe Marshall: Bilinear Fractional Transformations",
+          "imageUrl": null
+        },
+        {
           "id": "https://journal.paoloamoroso.com/managing-pure-common-lisp-files-on-medley?pk_campaign=rss-feed",
           "author": null,
           "description": "Managing Lisp code in the residential environment of Medley differs from similar tasks in traditional file based Common Lisp systems.\nIn a previous post I explained how the residential environment of Medley works, discussed some of its facilities and tools, and introduced a workflow for managing Common Lisp code under the residential environment. This leverages the way Medley is designed to work and minimizes friction.\nIn this post I explain how to use Medley as a file based environment, albeit with some friction and reduced functionality.\nI show how to edit, organize, and load pure Common Lisp files, i.e. source files not under the control of the File Manager. Pure files are ordinary text files that contain only Common Lisp code, with no metadata or font control commands like the code dat…",
@@ -298,7 +281,7 @@
           "description": "If you like functional composition, you’ll like linear\n  fractional transformations (LFTs).  They behave very nicely when you\n  compose them (in fact, they are a group under functional\n  composition).  If you compose two LFTs, you get another LFT.  You\n  can keep composing as long as you wish.  Let’s compose an\n  infinite number of LFTs.\nI suppose I should argue that composing an infinite number of LFTs\n  will give you anything at all.  Consider those LFTs with\n  non-negative coefficients.  When given an input in the range [0,∞],\n  they will output a number in the range [A/C, B/D].  The output range\n  is narrower than, and contained within, the input range.  If we compose two such LFTs, the\n  range of output of the outermost LFT will be even narrower.  As we\n  compose more and more of thes…",
           "link": "http://funcall.blogspot.com/2024/02/infinite-composition.html",
           "publishedOn": "2024-02-04T17:37:00.000Z",
-          "wordCount": 4926,
+          "wordCount": 4931,
           "title": "Joe Marshall: Infinite Composition",
           "imageUrl": null
         },
@@ -371,16 +354,6 @@
           "wordCount": 2253,
           "title": "Marco Antoniotti: A Parenthetical Year and New Open Parentheses",
           "imageUrl": null
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/my-common-lisp-setup-on-linux?pk_campaign=rss-feed",
-          "author": null,
-          "description": "Now that I'm back to Lisp I'm actively exploring Interlisp as a Common Lisp environment too.\nBut to code in Common Lisp also on my Crostini Linux system, the Linux container of chromeOS I use on a Chromebox, I'm setting up a suitable development environment. In addition to console programs I want to write GUI applications with McCLIM.\nThe Common Lisp implementation I chose, SBCL, is a no brainer given its features, performance, and active maintenance. As for the development environment I won't go with the default on Linux, Emacs. Although I used Emacs for years and loved it, now it feels overkill and I'd prefer not to re-learn its intricacies.\nInstead I'm using Lem, a great Emacs-like IDE written in Common Lisp with a user interface and keybindings similar to those of Emacs and SLIME. Thus my familiarity with Emacs is enough to get me up to speed. A nice side effect of Lem's implementation language is the IDE can be configured and extended in Common Lisp, which I feel more at home with than Emacs Lisp.\nDespite some initial installation issues Lem works well on Crostini, is fast, and has a nice SDL2 backend. I really like the IDE.\nIf I need to write or run some Common Lisp code on my Raspberry Pi 400 I can easily replicate this setup there.\n#CommonLisp #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
-          "link": "https://journal.paoloamoroso.com/my-common-lisp-setup-on-linux?pk_campaign=rss-feed",
-          "publishedOn": "2023-12-27T13:30:34.000Z",
-          "wordCount": 741,
-          "title": "Paolo Amoroso: My Common Lisp setup on Linux",
-          "imageUrl": "https://i.snap.as/68i8povn.jpg"
         }
       ]
     },
@@ -880,16 +853,6 @@
           "wordCount": 10380,
           "title": "My Target Audience",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681818346405%2Fb3103eb1-9008-42ce-a071-5c9a927b4ce0.png%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/why-this-blog",
-          "author": "Matthijs Cox",
-          "description": "My goal in life is to follow my curiosity and help others with the knowledge I uncover. A solid way to help people is to reflect on the last years and think about what would have helped your past self. In my case, I have been busy trying to develop and deploy numerical computing applications with the Julia language. One thing that I found lacking was good material on how to do numerical computing professionally in the industry, something I learned is sometimes called \"scientific software engineering\". A book or blog about large-scale development and deployment into production systems would have helped me tremendously. I had to learn most things the hard way through trial and error.\nSince what I need doesn't exist, we will have to make it exist! That's this blog!\nI have been blogging about …",
-          "link": "https://scientificcoder.com/why-this-blog",
-          "publishedOn": "2023-04-16T17:27:18.000Z",
-          "wordCount": 7181,
-          "title": "Why this blog?",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681655524424%2F8208e14f-0765-4eb2-a301-4d9470f26e45.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },
