@@ -6,6 +6,16 @@
       "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
+          "id": "https://www.stochasticlifestyle.com/?p=1751",
+          "author": "Christopher Rackauckas",
+          "description": "Semantic versioning is great. If you don’t know what it is, it’s just a versioning scheme for software that goes MAJOR.MINOR.PATCH, where\nMAJOR version when you make incompatible API changes\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\nThat’s all it is, but it’s a pretty good system. If you see someone has updated their package from v3.2.0 to v3.2.1, then you know that you can just take that update because it’s just a patch, it won’t break your code. You can easily accept patch updates. Meanwhile, if you see they released v3.3.0, then you know that some new features were added, but it’s safe for you to update. This allows you to be compatible with v3.3.0 so that if a different package requires it, great you can both use it!  ... READ MORE\nThe post Semantic Versioning (Semver) is flawed, and Downgrade CI is required to fix it appeared first on Stochastic Lifestyle.",
+          "link": "http://www.stochasticlifestyle.com/semantic-versioning-semver-is-flawed-and-downgrade-ci-is-required-to-fix-it/",
+          "publishedOn": "2024-02-11T12:44:34.000Z",
+          "wordCount": 3390,
+          "title": "Semantic Versioning (Semver) is flawed, and Downgrade CI is required to fix it",
+          "imageUrl": "https://imgs.xkcd.com/comics/workflow.png"
+        },
+        {
           "id": "https://www.stochasticlifestyle.com/?p=1732",
           "author": "Christopher Rackauckas",
           "description": "Machine learning is all about examples. The more data you have, the better it should perform, right? With the rise of ChatGPT and Large Language Models (LLMs) as a code helping tool, it was thus just an assumption that the most popular languages like Python would likely be the best for LLMs. But because of the increased productivity, I tend to use a lot of Julia, a language with  an estimated user-base of around a million programmers. For this reason, people have often asked me how it fairs with ChatGPT, Github Copilot, etc., and so I checked out those pieces and… was stunned. It’s really good. It seemed better than Python actually?\nThe data is in: Julia does well with ChatGPT\nThis question was recently put to the test by a researcher named Alessio Buscemi in A Comparative Study  ... READ MORE\nThe post ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why? appeared first on Stochastic Lifestyle.",
@@ -142,6 +152,33 @@
       "feedUrl": "https://twobithistory.org/feed.xml",
       "siteUrl": "https://twobithistory.org/",
       "articles": []
+    },
+    {
+      "title": "programming (and other) musings",
+      "feedUrl": "https://jao.io/blog/rss.xml",
+      "siteUrl": "https://jao.io/blog/",
+      "articles": [
+        {
+          "id": "https://jao.io/blog/poor-things.html",
+          "author": null,
+          "description": "I've read good things about the forthcoming movie, and liked what I saw in the\npromotional video, but I cannot believe it's going to be near as good as this\nnovel. The book has too many nuances, literary tricks and wordplay and\nparagraphs one has to read and reread, to be translated to a film. The latter\nmight be its own work of art, and that's fine. But if you're curious about the\nmovie, I'd definitely recommend to read this book. If you're not, I'd\ndefinitely recommend to read this book. The writing is fresh and funny, in\ntypical Gray fashion, and the real themes of the book are universal and\nexposed in a way that is very entertaining on the surface, but with a subtext\nthat gives you food for thought. I don't remember when was the last time that\nI read two hundred pages of a book in a single day, time just flew, as they\nsay.\n\nTags: books",
+          "link": "https://jao.io/blog/poor-things.html",
+          "publishedOn": "2023-10-11T01:28:00.000Z",
+          "wordCount": 197,
+          "title": "poor things",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/in-no-particular-order.html",
+          "author": null,
+          "description": "Interesting bits elsewhere:\n\n\n\nTimeless Advice on Writing: The Collected Wisdom of Great Writers\nLeaving Haskell behind — Infinite Negative Utility\nKnuth: Ancient Babylonian Algorithms annotated/explained version.\nMastering Bloom Filters: Big Data Processing in Python\nOlder entries\n\n\n\nTags: sundry",
+          "link": "https://jao.io/blog/in-no-particular-order.html",
+          "publishedOn": "2023-10-11T01:00:00.000Z",
+          "wordCount": 78,
+          "title": "in no particular order",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "wingolog",
@@ -676,16 +713,93 @@
           "wordCount": 5535,
           "title": "My Kind of REPL",
           "imageUrl": "https://ianthehenry.com/posts/my-kind-of-repl/hero.png"
+        }
+      ]
+    },
+    {
+      "title": "Applied Language musings",
+      "feedUrl": "https://applied-langua.ge/posts/feed.rss",
+      "siteUrl": "https://applied-langua.ge/posts/",
+      "articles": [
+        {
+          "id": "https://zenodo.org/record/7816398",
+          "author": null,
+          "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
+          "link": "https://zenodo.org/record/7816398",
+          "publishedOn": "2024-02-12T00:01:31.670Z",
+          "wordCount": 608,
+          "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
         },
         {
-          "id": "https://ianthehenry.com/posts/generalized-macros/",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.\nJanet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.\nSo people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.\nBut as far as I know, no one has approached macro systems f…",
-          "link": "https://ianthehenry.com/posts/generalized-macros/",
-          "publishedOn": "2023-04-18T00:00:00.000Z",
-          "wordCount": 4908,
-          "title": "Generalized Macros",
-          "imageUrl": "https://ianthehenry.com/checkerboard.png"
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-02-12T00:01:28.230Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-02-12T00:01:28.226Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-02-12T00:01:28.219Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-02-12T00:01:28.154Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-12T00:01:28.137Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-02-12T00:01:28.037Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-02-12T00:01:27.974Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
         }
       ]
     },
@@ -843,16 +957,6 @@
           "wordCount": 9965,
           "title": "The Art of Multiple Dispatch",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681976569505%2Fe92f2398-d079-449e-ac6a-4b194fe226ac.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/my-target-audience",
-          "author": "Matthijs Cox",
-          "description": "What kind of people do I have in mind while writing this blog? People who share my professional mission of course! What is that mission you ask? Let me elaborate.\nFrom Research to Engineering\nI am a scientist who danced with startups and moved into industry. I've spend years doing research, and years doing software product development. During those years I have gotten slightly frustrated with the process of moving ideas from research to production, primarily in my favorite field of scientific computing.\nThe typical problem is that the time from research to production can be long, often spanning multiple years per project, and the process can be error prone. Some common smaller issues I see arising in many of our projects:\n\nUnreproducible, unexplainable scripts or notebooks in research\n\nEff…",
-          "link": "https://scientificcoder.com/my-target-audience",
-          "publishedOn": "2023-04-18T11:46:15.000Z",
-          "wordCount": 10380,
-          "title": "My Target Audience",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1681818346405%2Fb3103eb1-9008-42ce-a071-5c9a927b4ce0.png%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },

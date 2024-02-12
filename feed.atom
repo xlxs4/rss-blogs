@@ -1,10 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-11T00:02:13.045Z</id>
+    <id>urn:2024-02-12T00:01:31.704Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-11T00:02:13.045Z</updated>
+    <updated>2024-02-12T00:01:31.704Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
+        <id>https://zenodo.org/record/7816398</id>
+        <link href="https://zenodo.org/record/7816398"/>
+        <updated>2024-02-12T00:01:31.670Z</updated>
+        <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-02-12T00:01:28.230Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-02-12T00:01:28.226Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-02-12T00:01:28.219Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-02-12T00:01:28.154Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-12T00:01:28.137Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-02-12T00:01:28.037Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
+        <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
+        <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
+        <updated>2024-02-12T00:01:27.974Z</updated>
+        <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Semantic Versioning (Semver) is flawed, and Downgrade CI is required to fix it]]></title>
+        <id>https://www.stochasticlifestyle.com/?p=1751</id>
+        <link href="http://www.stochasticlifestyle.com/semantic-versioning-semver-is-flawed-and-downgrade-ci-is-required-to-fix-it/"/>
+        <updated>2024-02-11T12:44:34.000Z</updated>
+        <summary type="html"><![CDATA[Semantic versioning is great. If you don’t know what it is, it’s just a versioning scheme for software that goes MAJOR.MINOR.PATCH, where
+MAJOR version when you make incompatible API changes
+MINOR version when you add functionality in a backward compatible manner
+PATCH version when you make backward compatible bug fixes
+That’s all it is, but it’s a pretty good system. If you see someone has updated their package from v3.2.0 to v3.2.1, then you know that you can just take that update because it’s just a patch, it won’t break your code. You can easily accept patch updates. Meanwhile, if you see they released v3.3.0, then you know that some new features were added, but it’s safe for you to update. This allows you to be compatible with v3.3.0 so that if a different package requires it, great you can both use it!  ... READ MORE
+The post Semantic Versioning (Semver) is flawed, and Downgrade CI is required to fix it appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Joe Marshall: Bilinear Fractional Transformations]]></title>
         <id>http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html</id>
@@ -613,6 +708,51 @@ The post DDPS Seminar Talk: Generalizing Scientific Machine Learning and Differe
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[poor things]]></title>
+        <id>https://jao.io/blog/poor-things.html</id>
+        <link href="https://jao.io/blog/poor-things.html"/>
+        <updated>2023-10-11T01:28:00.000Z</updated>
+        <summary type="html"><![CDATA[I've read good things about the forthcoming movie, and liked what I saw in the
+promotional video, but I cannot believe it's going to be near as good as this
+novel. The book has too many nuances, literary tricks and wordplay and
+paragraphs one has to read and reread, to be translated to a film. The latter
+might be its own work of art, and that's fine. But if you're curious about the
+movie, I'd definitely recommend to read this book. If you're not, I'd
+definitely recommend to read this book. The writing is fresh and funny, in
+typical Gray fashion, and the real themes of the book are universal and
+exposed in a way that is very entertaining on the surface, but with a subtext
+that gives you food for thought. I don't remember when was the last time that
+I read two hundred pages of a book in a single day, time just flew, as they
+say.
+
+Tags: books]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[in no particular order]]></title>
+        <id>https://jao.io/blog/in-no-particular-order.html</id>
+        <link href="https://jao.io/blog/in-no-particular-order.html"/>
+        <updated>2023-10-11T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interesting bits elsewhere:
+
+
+
+Timeless Advice on Writing: The Collected Wisdom of Great Writers
+Leaving Haskell behind — Infinite Negative Utility
+Knuth: Ancient Babylonian Algorithms annotated/explained version.
+Mastering Bloom Filters: Big Data Processing in Python
+Older entries
+
+
+
+Tags: sundry]]></summary>
+        <author>
+            <name>programming (and other) musings</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Emerging from dotemacs bankruptcy the hard way: integrating the IDE (feat. Clojure(Script))]]></title>
         <id>https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/</id>
         <link href="https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/index.html"/>
@@ -1132,36 +1272,6 @@ To start with the basics; Julia has functions and methods. A function is simply 
 For any given method you can consider the dispatching as slicing a part of the entire possible type space of that gi…]]></summary>
         <author>
             <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Target Audience]]></title>
-        <id>https://scientificcoder.com/my-target-audience</id>
-        <link href="https://scientificcoder.com/my-target-audience"/>
-        <updated>2023-04-18T11:46:15.000Z</updated>
-        <summary type="html"><![CDATA[What kind of people do I have in mind while writing this blog? People who share my professional mission of course! What is that mission you ask? Let me elaborate.
-From Research to Engineering
-I am a scientist who danced with startups and moved into industry. I've spend years doing research, and years doing software product development. During those years I have gotten slightly frustrated with the process of moving ideas from research to production, primarily in my favorite field of scientific computing.
-The typical problem is that the time from research to production can be long, often spanning multiple years per project, and the process can be error prone. Some common smaller issues I see arising in many of our projects:
-
-Unreproducible, unexplainable scripts or notebooks in research
-
-Eff…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generalized Macros]]></title>
-        <id>https://ianthehenry.com/posts/generalized-macros/</id>
-        <link href="https://ianthehenry.com/posts/generalized-macros/"/>
-        <updated>2023-04-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been writing a lot of Janet lately, and I’ve been especially enjoying my time with the macro system.
-Janet macros are Common Lisp-flavored unhygienic gensym-style macros. They are extremely powerful, and very easy to write, but they can be pretty tricky to get right. It’s easy to make mistakes that lead to unwanted variable capture, or to write macros that only work if they’re expanded in particular contexts, and it can be pretty difficult to detect these problems ahead of time.
-So people have spent a lot of time thinking about ways to write macros more safely – sometimes at the cost of expressiveness or simplicity – and almost all recent languages use some sort of hygienic macro system that defaults to doing the right thing.
-But as far as I know, no one has approached macro systems f…]]></summary>
-        <author>
-            <name>Ian Henry</name>
         </author>
     </entry>
 </feed>
