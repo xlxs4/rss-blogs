@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-13T00:01:24.649Z</id>
+    <id>urn:2024-02-14T00:01:34.342Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-13T00:01:24.649Z</updated>
+    <updated>2024-02-14T00:01:34.342Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-13T00:01:24.613Z</updated>
+        <updated>2024-02-14T00:01:34.308Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-13T00:01:22.191Z</updated>
+        <updated>2024-02-14T00:01:31.492Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-13T00:01:22.188Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +29,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-13T00:01:22.174Z</updated>
+        <updated>2024-02-14T00:01:31.411Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,8 +39,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-13T00:01:22.160Z</updated>
+        <updated>2024-02-14T00:01:31.400Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-02-14T00:01:31.239Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-13T00:01:22.084Z</updated>
+        <updated>2024-02-14T00:01:31.189Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-13T00:01:21.990Z</updated>
+        <updated>2024-02-14T00:01:31.187Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,22 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-13T00:01:21.888Z</updated>
+        <updated>2024-02-14T00:01:31.065Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Symbolic-Numerics: how compiler smarts can help improve the performance of numerical methods (nonlinear solvers in Julia)]]></title>
+        <id>https://www.stochasticlifestyle.com/?p=1758</id>
+        <link href="http://www.stochasticlifestyle.com/symbolic-numerics-how-compiler-smarts-can-help-improve-the-performance-of-numerical-methods-nonlinear-solvers-in-julia/"/>
+        <updated>2024-02-13T10:06:17.000Z</updated>
+        <summary type="html"><![CDATA[Many problems can be reduced down to solving f(x)=0, maybe even more than you think! Solving a stiff differential equation? Finding out where the ball hits the ground? Solving an inverse problem to find the parameters to fit a model? In this talk we’ll showcase how SciML’s NonlinearSolve.jl is a general system for solving nonlinear equations and demonstrate its ability to efficiently handle these kinds of problems with high stability and performance. We will focus on how compilers are being integrated into the numerical stack so that many of the things that were manual before, such as defining sparsity patterns, Jacobians, and adjoints, are all automated out-of-the-box making it greatly outperform purely numerical codes like SciPy or NLsolve.jl.
+PyData Global 2023
+The post Symbolic-Numerics: how compiler smarts can help improve the performance of numerical methods (nonlinear solvers in Julia) appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
         </author>
     </entry>
     <entry>
@@ -1279,19 +1291,6 @@ Automated testing and Continuous Integration…]]></summary>
         <summary type="html"><![CDATA[While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Art of Multiple Dispatch]]></title>
-        <id>https://scientificcoder.com/the-art-of-multiple-dispatch</id>
-        <link href="https://scientificcoder.com/the-art-of-multiple-dispatch"/>
-        <updated>2023-04-20T09:01:49.000Z</updated>
-        <summary type="html"><![CDATA[I love thinking visually by drawing doodles and schematics for my work. It's one of my favorite things to do, next to coding. When working with the Julia language, one visualization I enjoy is seeing the type space of a method that you are dispatching on. Normally I do this in my mind's eye, but let me clarify this by drawing some actual figures.
-To start with the basics; Julia has functions and methods. A function is simply the name, like push! or read . Methods are specific definitions of a function, for certain types of arguments. Take for example push!(s::Set, x) or read(io::IO) . From an object-oriented perspective you could say that methods are instances of functions.
-
-For any given method you can consider the dispatching as slicing a part of the entire possible type space of that gi…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
         </author>
     </entry>
 </feed>
