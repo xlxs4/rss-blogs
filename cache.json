@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
+          "author": null,
+          "description": "Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.\nSo, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…",
+          "link": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
+          "publishedOn": "2024-02-14T21:49:24.000Z",
+          "wordCount": 1617,
+          "title": "family bike transportation",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
           "author": null,
           "description": "Today, a middle-aged note: when you are young, unless you been\nfailed by The System, you enjoy a radiant confidence: everything you say\nburns with rightness and righteousness, that the world Actually Is This\nWay, You See, and if you think about it, it Actually Should Be This\nOther Specific Way.  This is how you get the fervent young communists\nand Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so\nright that you become an evangelist, a\n,\na truth-speaker; a youtuber, perhaps.prophet\nThen, with luck, you meet the world: you build, you organize, you\ninvest, you double down.  And in that doubling, the ideas waver,\ntremble, resonate, imperceptibly at first, reinforced in some ways,\nimpeded in others.  The world works in specific ways, too, and you don’t\nreally know them in the…",
@@ -284,16 +294,6 @@
           "wordCount": 1470,
           "title": "v8's mark-sweep nursery",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
-          "author": null,
-          "description": "Captain, status report: I’m down here in a Jeffries tube, poking at V8’s\ngarbage collector.  However, despite working on other areas of the project\nrecently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?\nThe  was in 2019; fine enough, but\ndated.  Now in the evening of 2023 I think it could be useful to revisit\nit and try to summarize the changes since then.  At least, it would have\nbeen useful to me had someone else written this article.last public article on the structure of V8’s garbage\ncollector\nTo my mind, work on V8’s GC has had three main goals over the last 5\nyears: improving interactions between the managed heap and C++,\nimprov…",
-          "link": "https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector",
-          "publishedOn": "2023-12-07T12:15:45.000Z",
-          "wordCount": 2067,
-          "title": "the last 5 years of V8's garbage collector",
-          "imageUrl": null
         }
       ]
     },
@@ -302,6 +302,16 @@
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "https://lisp-journey.gitlab.io/blog/celebrating-1001-learners-on-my-common-lisp-course/",
+          "author": null,
+          "description": "I just got 1001 learners on my Common Lisp\ncourse\non Udemy. Thanks everybody for your support, here or elsewhere!\nStarting with CL was honestly not easy. The first thing I did was\nwriting the “data structures” page on the Cookbook, bewildered that it\ndidn’t exist yet. A few years and a few projects later, this course\nallows me to share more, learn more, have fun, and have some rewards\nto keep the motivation up.\n\nI know the course isn’t complete by any means, I want to add many\nchapters, both advanced topics but easier material for newcomers as\nwell (beware, my course isn’t for total beginners in a Lisp\nlanguage). The next one, and soon©, will be all about CLOS. In the\nmeantime, I don’t abandon you, I enhance the Cookbook, I publish some\nvideos on Youtube (last one: web development in Common Lisp, part 1\nand part 2), I work on\nstarter kits or on newcomer-friendly libraries ;)\nThanks again,\ndon’t hesitate to share the link with a friend or a colleague ;)\nHere’s a link with a coupon until March, 13th 2024. (student? Get in touch for a free link)\nmore information on Github",
+          "link": "https://lisp-journey.gitlab.io/blog/celebrating-1001-learners-on-my-common-lisp-course/",
+          "publishedOn": "2024-02-14T16:05:44.000Z",
+          "wordCount": 674,
+          "title": "vindarel: Celebrating 1001 learners on my Common Lisp course &#129395;",
+          "imageUrl": "/images/default.png"
+        },
         {
           "id": "http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html",
           "author": null,
@@ -391,16 +401,6 @@
           "wordCount": 2479,
           "title": "Paolo Amoroso: A single package Common Lisp workflow for Medley",
           "imageUrl": "https://i.snap.as/68i8povn.jpg"
-        },
-        {
-          "id": "http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html",
-          "author": null,
-          "description": "It has been a few years that I have spent the New Year Holiday to update my Common Lisp \n  libraries\n  and to think about all the open parentheses that are left unclosed.  This year is no different, only\n  I have had even less time to work on CL.  Therefore, my updates to my libraries on\n  common-lisp.net and\n  Sourceforge all have had some minor repairs and\n  copyright updates.  As usual, I direct you to\n  HEΛP and\n  CLAST; most of my other\n  libraries are support for these two.\n\n\nOne effort, I would like to finalize in the coming year (that is; closing this parenthesis) is the\n  CL-LIA layer/library.\n  Help is wanted for this!  Drop me a line if you want to chip in.  The main issues are API designs\n  around the floating point environment condition handling.\n\n\nApart from that, I have been…",
-          "link": "http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html",
-          "publishedOn": "2024-01-04T16:05:00.000Z",
-          "wordCount": 2253,
-          "title": "Marco Antoniotti: A Parenthetical Year and New Open Parentheses",
-          "imageUrl": null
         }
       ]
     },
@@ -524,16 +524,6 @@
           "publishedOn": "2023-12-22T14:41:00.000Z",
           "wordCount": 634,
           "title": "Fastmail: Year Two",
-          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
-        },
-        {
-          "id": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
-          "author": null,
-          "description": "While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):",
-          "link": "https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/",
-          "publishedOn": "2023-04-20T13:23:00.000Z",
-          "wordCount": 1013,
-          "title": "Learning OCaml: Quoted String Literals",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
       ]
@@ -756,7 +746,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-14T00:01:34.308Z",
+          "publishedOn": "2024-02-15T00:01:35.873Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -766,29 +756,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-14T00:01:31.492Z",
+          "publishedOn": "2024-02-15T00:01:33.865Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-14T00:01:31.411Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-14T00:01:31.400Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -796,9 +766,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-14T00:01:31.239Z",
+          "publishedOn": "2024-02-15T00:01:33.859Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-15T00:01:33.846Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-02-15T00:01:33.844Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -806,7 +796,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-14T00:01:31.189Z",
+          "publishedOn": "2024-02-15T00:01:33.831Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -816,7 +806,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-14T00:01:31.187Z",
+          "publishedOn": "2024-02-15T00:01:33.826Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -826,7 +816,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-14T00:01:31.065Z",
+          "publishedOn": "2024-02-15T00:01:33.693Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

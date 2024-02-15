@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-14T00:01:34.342Z</id>
+    <id>urn:2024-02-15T00:01:35.893Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-14T00:01:34.342Z</updated>
+    <updated>2024-02-15T00:01:35.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-14T00:01:34.308Z</updated>
+        <updated>2024-02-15T00:01:35.873Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,28 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-14T00:01:31.492Z</updated>
+        <updated>2024-02-15T00:01:33.865Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-14T00:01:31.411Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-14T00:01:31.400Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,8 +29,28 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-14T00:01:31.239Z</updated>
+        <updated>2024-02-15T00:01:33.859Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-15T00:01:33.846Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-02-15T00:01:33.844Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-14T00:01:31.189Z</updated>
+        <updated>2024-02-15T00:01:33.831Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-14T00:01:31.187Z</updated>
+        <updated>2024-02-15T00:01:33.826Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,51 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-14T00:01:31.065Z</updated>
+        <updated>2024-02-15T00:01:33.693Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[family bike transportation]]></title>
+        <id>https://wingolog.org/archives/2024/02/14/family-bike-transportation</id>
+        <link href="https://wingolog.org/archives/2024/02/14/family-bike-transportation"/>
+        <updated>2024-02-14T21:49:24.000Z</updated>
+        <summary type="html"><![CDATA[Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.
+So, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vindarel: Celebrating 1001 learners on my Common Lisp course &#129395;]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/celebrating-1001-learners-on-my-common-lisp-course/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/celebrating-1001-learners-on-my-common-lisp-course/"/>
+        <updated>2024-02-14T16:05:44.000Z</updated>
+        <summary type="html"><![CDATA[I just got 1001 learners on my Common Lisp
+course
+on Udemy. Thanks everybody for your support, here or elsewhere!
+Starting with CL was honestly not easy. The first thing I did was
+writing the “data structures” page on the Cookbook, bewildered that it
+didn’t exist yet. A few years and a few projects later, this course
+allows me to share more, learn more, have fun, and have some rewards
+to keep the motivation up.
+
+I know the course isn’t complete by any means, I want to add many
+chapters, both advanced topics but easier material for newcomers as
+well (beware, my course isn’t for total beginners in a Lisp
+language). The next one, and soon©, will be all about CLOS. In the
+meantime, I don’t abandon you, I enhance the Cookbook, I publish some
+videos on Youtube (last one: web development in Common Lisp, part 1
+and part 2), I work on
+starter kits or on newcomer-friendly libraries ;)
+Thanks again,
+don’t hesitate to share the link with a friend or a colleague ;)
+Here’s a link with a coupon until March, 13th 2024. (student? Get in touch for a free link)
+more information on Github]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -499,34 +540,6 @@ in the case of a partial collection in which we identify …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Marco Antoniotti: A Parenthetical Year and New Open Parentheses]]></title>
-        <id>http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html</id>
-        <link href="http://within-parens.blogspot.com/2024/01/a-parenthetical-year-and-new-open.html"/>
-        <updated>2024-01-04T16:05:00.000Z</updated>
-        <summary type="html"><![CDATA[It has been a few years that I have spent the New Year Holiday to update my Common Lisp 
-  libraries
-  and to think about all the open parentheses that are left unclosed.  This year is no different, only
-  I have had even less time to work on CL.  Therefore, my updates to my libraries on
-  common-lisp.net and
-  Sourceforge all have had some minor repairs and
-  copyright updates.  As usual, I direct you to
-  HEΛP and
-  CLAST; most of my other
-  libraries are support for these two.
-
-
-One effort, I would like to finalize in the coming year (that is; closing this parenthesis) is the
-  CL-LIA layer/library.
-  Help is wanted for this!  Drop me a line if you want to chip in.  The main issues are API designs
-  around the floating point environment condition handling.
-
-
-Apart from that, I have been…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Julia 1.10 Highlights]]></title>
         <id>https://julialang.org/blog/2023/12/julia-1.10-highlights/</id>
         <link href="https://julialang.org/blog/2023/12/julia-1.10-highlights/"/>
@@ -656,26 +669,6 @@ which is used on the main thread.  Nursery allocation is bump-pointer,
 whether in a MinorMS page or scavenger semi-space.  Bump-pointer regions
 are called , and often abbreviated as 
 in the…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the last 5 years of V8's garbage collector]]></title>
-        <id>https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector</id>
-        <link href="https://wingolog.org/archives/2023/12/07/the-last-5-years-of-v8s-garbage-collector"/>
-        <updated>2023-12-07T12:15:45.000Z</updated>
-        <summary type="html"><![CDATA[Captain, status report: I’m down here in a Jeffries tube, poking at V8’s
-garbage collector.  However, despite working on other areas of the project
-recently, V8 is now so large that it’s necessary to ignore whole subsystems when working on any given task.  But now I’m looking at the GC in anger: what is its deal?  What does V8’s GC even look like these days?
-The  was in 2019; fine enough, but
-dated.  Now in the evening of 2023 I think it could be useful to revisit
-it and try to summarize the changes since then.  At least, it would have
-been useful to me had someone else written this article.last public article on the structure of V8’s garbage
-collector
-To my mind, work on V8’s GC has had three main goals over the last 5
-years: improving interactions between the managed heap and C++,
-improv…]]></summary>
         <author>
             <name>wingolog</name>
         </author>
@@ -1281,16 +1274,6 @@ Unit testing with Pkg.jl
 Automated testing and Continuous Integration…]]></summary>
         <author>
             <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning OCaml: Quoted String Literals]]></title>
-        <id>https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/</id>
-        <link href="https://batsov.com/articles/2023/04/20/learning-ocaml-quoted-string-literals/"/>
-        <updated>2023-04-20T13:23:00.000Z</updated>
-        <summary type="html"><![CDATA[While learning OCaml I’ve noticed one curious feature - it has two types of string literals. The first type are the common and quite familiar “double-quoted string literals” (or perhaps simply “string literals”?):]]></summary>
-        <author>
-            <name>(think)</name>
         </author>
     </entry>
 </feed>
