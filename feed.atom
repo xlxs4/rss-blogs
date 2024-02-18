@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-17T00:01:30.584Z</id>
+    <id>urn:2024-02-18T00:01:27.508Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-17T00:01:30.584Z</updated>
+    <updated>2024-02-18T00:01:27.508Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-17T00:01:29.387Z</updated>
+        <updated>2024-02-18T00:01:27.474Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-17T00:01:25.837Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-02-18T00:01:25.891Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +29,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-17T00:01:25.798Z</updated>
+        <updated>2024-02-18T00:01:25.605Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,28 +39,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-17T00:01:25.795Z</updated>
+        <updated>2024-02-18T00:01:25.593Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-17T00:01:25.792Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-17T00:01:25.750Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-02-18T00:01:25.589Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +59,18 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-17T00:01:25.746Z</updated>
+        <updated>2024-02-18T00:01:25.577Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-02-18T00:01:25.573Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-17T00:01:25.565Z</updated>
+        <updated>2024-02-18T00:01:25.376Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -151,7 +151,7 @@ more information on Github]]></summary>
     <entry>
         <title type="html"><![CDATA[Symbolic-Numerics: how compiler smarts can help improve the performance of numerical methods (nonlinear solvers in Julia)]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1758</id>
-        <link href="http://www.stochasticlifestyle.com/symbolic-numerics-how-compiler-smarts-can-help-improve-the-performance-of-numerical-methods-nonlinear-solvers-in-julia/"/>
+        <link href="https://www.stochasticlifestyle.com/symbolic-numerics-how-compiler-smarts-can-help-improve-the-performance-of-numerical-methods-nonlinear-solvers-in-julia/"/>
         <updated>2024-02-13T10:06:17.000Z</updated>
         <summary type="html"><![CDATA[Many problems can be reduced down to solving f(x)=0, maybe even more than you think! Solving a stiff differential equation? Finding out where the ball hits the ground? Solving an inverse problem to find the parameters to fit a model? In this talk we’ll showcase how SciML’s NonlinearSolve.jl is a general system for solving nonlinear equations and demonstrate its ability to efficiently handle these kinds of problems with high stability and performance. We will focus on how compilers are being integrated into the numerical stack so that many of the things that were manual before, such as defining sparsity patterns, Jacobians, and adjoints, are all automated out-of-the-box making it greatly outperform purely numerical codes like SciPy or NLsolve.jl.
 PyData Global 2023
@@ -183,7 +183,7 @@ The post Symbolic-Numerics: how compiler smarts can help improve the performance
     <entry>
         <title type="html"><![CDATA[Semantic Versioning (Semver) is flawed, and Downgrade CI is required to fix it]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1751</id>
-        <link href="http://www.stochasticlifestyle.com/semantic-versioning-semver-is-flawed-and-downgrade-ci-is-required-to-fix-it/"/>
+        <link href="https://www.stochasticlifestyle.com/semantic-versioning-semver-is-flawed-and-downgrade-ci-is-required-to-fix-it/"/>
         <updated>2024-02-11T12:44:34.000Z</updated>
         <summary type="html"><![CDATA[Semantic versioning is great. If you don’t know what it is, it’s just a versioning scheme for software that goes MAJOR.MINOR.PATCH, where
 MAJOR version when you make incompatible API changes
@@ -685,7 +685,7 @@ About two years ago, I stopped. I had had enough of all the extra work the platf
     <entry>
         <title type="html"><![CDATA[ChatGPT performs better on Julia than Python (and R) for Large Language Model (LLM) Code Generation. Why?]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1732</id>
-        <link href="http://www.stochasticlifestyle.com/chatgpt-performs-better-on-julia-than-python-and-r-for-large-language-model-llm-code-generation-why/"/>
+        <link href="https://www.stochasticlifestyle.com/chatgpt-performs-better-on-julia-than-python-and-r-for-large-language-model-llm-code-generation-why/"/>
         <updated>2023-11-19T15:57:36.000Z</updated>
         <summary type="html"><![CDATA[Machine learning is all about examples. The more data you have, the better it should perform, right? With the rise of ChatGPT and Large Language Models (LLMs) as a code helping tool, it was thus just an assumption that the most popular languages like Python would likely be the best for LLMs. But because of the increased productivity, I tend to use a lot of Julia, a language with  an estimated user-base of around a million programmers. For this reason, people have often asked me how it fairs with ChatGPT, Github Copilot, etc., and so I checked out those pieces and… was stunned. It’s really good. It seemed better than Python actually?
 The data is in: Julia does well with ChatGPT
@@ -698,7 +698,7 @@ The post ChatGPT performs better on Julia than Python (and R) for Large Language
     <entry>
         <title type="html"><![CDATA[DDPS Seminar Talk: Generalizing Scientific Machine Learning and Differentiable Simulation Beyond Continuous models]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1729</id>
-        <link href="http://www.stochasticlifestyle.com/ddps-seminar-talk-generalizing-scientific-machine-learning-and-differentiable-simulation-beyond-continuous-models/"/>
+        <link href="https://www.stochasticlifestyle.com/ddps-seminar-talk-generalizing-scientific-machine-learning-and-differentiable-simulation-beyond-continuous-models/"/>
         <updated>2023-11-12T11:54:03.000Z</updated>
         <summary type="html"><![CDATA[I’m pleased to share a talk I gave in the DDPS seminar series!
 
@@ -1024,7 +1024,7 @@ The Julia community has a special standing on design patterns: people don't real
     <entry>
         <title type="html"><![CDATA[Summary of Julia Plotting Packages]]></title>
         <id>https://www.stochasticlifestyle.com/?p=1723</id>
-        <link href="http://www.stochasticlifestyle.com/summary-of-julia-plotting-packages/"/>
+        <link href="https://www.stochasticlifestyle.com/summary-of-julia-plotting-packages/"/>
         <updated>2023-06-17T14:23:29.000Z</updated>
         <summary type="html"><![CDATA[This is a repost of my response on the Julia Discourse on this topic. I was asked to make a blog post so here you go!
 The “Main” Plotting Packages
