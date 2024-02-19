@@ -201,7 +201,7 @@
           "description": "I got a new laptop!  It’s a : 8 cores, 2 threads per core, 64 GB RAM, 3:2 2256×1504 matte screen.  It kicks my 5-year-old Dell XPS 13 in the pants, and I am so relieved to be back to a matte screen.  I just got it up and running with , which though easier than past installation experiences was not without some wrinkles, so here I wanted to share a recipe for what worked for me.Framework 13 AMDGuix\n(I swear this isn’t going to become a product review blog, but when I went to post something like this on the   I got an error saying that new users could only post 2 links.  I understand how we got here but hoo, that is a garbage experience!)Framework forum\nUpstream Guix works on the Framework 13 AMD, but only with software rendering and no wifi, and I wasn’t able to install from upstream media.…",
           "link": "https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd",
           "publishedOn": "2024-02-16T10:23:43.000Z",
-          "wordCount": 2382,
+          "wordCount": 2622,
           "title": "guix on the framework 13 amd",
           "imageUrl": null
         },
@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/importing-common-lisp-files-in-medley-with-textmodules?pk_campaign=rss-feed",
+          "author": null,
+          "description": "Medley is a residential environment for Interlisp and Common Lisp development.\nWith some effort it's possible to use Medley as a traditional file based Common Lisp environment. But in specific cases a better approach is to bring in Medley's residential environment Common Lisp sources created in file based environments.\nIn this post I explain the latter, i.e. how to use TextModules to import Common Lisp files into the residential environment. I go over the steps for converting an example program, the database of CD music tracks in Chapter 3 Practical: A Simple Database of Peter Seibel's book Practical Common Lisp.\nMotivation\nUsing the tools and facilities of the residential environment, such as the File Manager, is the normal way of developing new Lisp programs. To run existing Common Lisp …",
+          "link": "https://journal.paoloamoroso.com/importing-common-lisp-files-in-medley-with-textmodules?pk_campaign=rss-feed",
+          "publishedOn": "2024-02-18T11:44:04.000Z",
+          "wordCount": 1866,
+          "title": "Paolo Amoroso: Importing Common Lisp Files in Medley with TextModules",
+          "imageUrl": "https://i.snap.as/68i8povn.jpg"
+        },
+        {
           "id": "https://lisp-journey.gitlab.io/blog/celebrating-1001-learners-on-my-common-lisp-course/",
           "author": null,
           "description": "I just got 1001 learners on my Common Lisp\ncourse\non Udemy. Thanks everybody for your support, here or elsewhere!\nStarting with CL was honestly not easy. The first thing I did was\nwriting the “data structures” page on the Cookbook, bewildered that it\ndidn’t exist yet. A few years and a few projects later, this course\nallows me to share more, learn more, have fun, and have some rewards\nto keep the motivation up.\n\nI know the course isn’t complete by any means, I want to add many\nchapters, both advanced topics but easier material for newcomers as\nwell (beware, my course isn’t for total beginners in a Lisp\nlanguage). The next one, and soon©, will be all about CLOS. In the\nmeantime, I don’t abandon you, I enhance the Cookbook, I publish some\nvideos on Youtube (last one: web development in Common Lisp, part 1\nand part 2), I work on\nstarter kits or on newcomer-friendly libraries ;)\nThanks again,\ndon’t hesitate to share the link with a friend or a colleague ;)\nHere’s a link with a coupon until March, 13th 2024. (student? Get in touch for a free link)\nmore information on Github",
@@ -391,16 +401,6 @@
           "wordCount": 4575,
           "title": "Joe Marshall: Roll Your Own Linear Fractional Transformations",
           "imageUrl": null
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/a-single-package-common-lisp-workflow-for-medley?pk_campaign=rss-feed",
-          "author": null,
-          "description": "My exploration of Medley as a Common Lisp development environment proceeds with setting up a workflow for writing and saving code.\nThe workflow consists of a series of steps in a specific order using appropriate Lisp REPLs and tools. It supports writing the simplest type of Common Lisp software, i.e. programs or libraries in a single package that exports some symbols. I'll eventually extend the workflow to more complex cases such as programs with more than one package.\nSince the steps are not intuitive, especially for Medley novices, in this post I'll describe the workflow in detail. But first there are a few concepts to introduce.\nWhy do you need a workflow in the first place? Because the differences between Medley and modern environments constrain how and in what order Common Lisp code m…",
-          "link": "https://journal.paoloamoroso.com/a-single-package-common-lisp-workflow-for-medley?pk_campaign=rss-feed",
-          "publishedOn": "2024-01-13T14:00:39.000Z",
-          "wordCount": 2479,
-          "title": "Paolo Amoroso: A single package Common Lisp workflow for Medley",
-          "imageUrl": "https://i.snap.as/68i8povn.jpg"
         }
       ]
     },
@@ -469,12 +469,12 @@
         {
           "id": "https://batsov.com/articles/2024/02/16/revisiting-mastodon/",
           "author": null,
-          "description": "After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Ruby and Clojure communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.",
+          "description": "After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.",
           "link": "https://batsov.com/articles/2024/02/16/revisiting-mastodon/",
           "publishedOn": "2024-02-16T08:15:00.000Z",
-          "wordCount": 338,
+          "wordCount": 630,
           "title": "Revisiting Mastodon",
-          "imageUrl": null
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
         {
           "id": "https://batsov.com/articles/2024/02/12/bluesky/",
@@ -482,7 +482,7 @@
           "description": "Remember me trying out Mastodon a while ago? Well, it didn’t stick. For various reasons.",
           "link": "https://batsov.com/articles/2024/02/12/bluesky/",
           "publishedOn": "2024-02-12T20:33:00.000Z",
-          "wordCount": 537,
+          "wordCount": 538,
           "title": "Bluesky",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -492,7 +492,7 @@
           "description": "In the end, there can be only one. – Highlander",
           "link": "https://batsov.com/articles/2024/02/12/curbing-my-email-mania/",
           "publishedOn": "2024-02-12T20:18:00.000Z",
-          "wordCount": 520,
+          "wordCount": 521,
           "title": "Curbing My Email Mania",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -502,7 +502,7 @@
           "description": "How can you be sure that an OCaml function you wrote is actually tail-recursive? You can certainly compile the code and look at the generated assembly code, but that’d be quite the overkill, given there is a much simpler way to do this.",
           "link": "https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/",
           "publishedOn": "2024-01-16T08:52:00.000Z",
-          "wordCount": 561,
+          "wordCount": 562,
           "title": "Learning OCaml: Verifying tail-recursion with @tailcall",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -512,7 +512,7 @@
           "description": "Life can only be understood backwards; but it must be lived forwards. – Søren Kierkegaard",
           "link": "https://batsov.com/articles/2024/01/16/2023-the-year-in-review/",
           "publishedOn": "2024-01-16T08:43:00.000Z",
-          "wordCount": 1388,
+          "wordCount": 1389,
           "title": "2023: The Year in Review",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -522,7 +522,7 @@
           "description": "Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.",
           "link": "https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/",
           "publishedOn": "2023-12-23T06:34:00.000Z",
-          "wordCount": 588,
+          "wordCount": 589,
           "title": "A Bad Year for Blogging",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -532,7 +532,7 @@
           "description": "Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:",
           "link": "https://batsov.com/articles/2023/12/22/fastmail-year-two/",
           "publishedOn": "2023-12-22T14:41:00.000Z",
-          "wordCount": 644,
+          "wordCount": 645,
           "title": "Fastmail: Year Two",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
@@ -756,7 +756,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-18T00:01:27.474Z",
+          "publishedOn": "2024-02-19T00:01:41.385Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -766,7 +766,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-18T00:01:25.891Z",
+          "publishedOn": "2024-02-19T00:01:39.702Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -776,19 +776,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-18T00:01:25.605Z",
+          "publishedOn": "2024-02-19T00:01:39.697Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-18T00:01:25.593Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -796,19 +786,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-18T00:01:25.589Z",
+          "publishedOn": "2024-02-19T00:01:39.613Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-18T00:01:25.577Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-19T00:01:39.579Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,9 +806,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-18T00:01:25.573Z",
+          "publishedOn": "2024-02-19T00:01:39.473Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-02-19T00:01:39.470Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -826,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-18T00:01:25.376Z",
+          "publishedOn": "2024-02-19T00:01:39.345Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
