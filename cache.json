@@ -756,19 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-19T00:01:41.385Z",
+          "publishedOn": "2024-02-20T00:01:19.498Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-19T00:01:39.702Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,7 +766,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-19T00:01:39.697Z",
+          "publishedOn": "2024-02-20T00:01:17.825Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -786,19 +776,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-19T00:01:39.613Z",
+          "publishedOn": "2024-02-20T00:01:17.821Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-19T00:01:39.579Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,9 +786,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-19T00:01:39.473Z",
+          "publishedOn": "2024-02-20T00:01:17.810Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-02-20T00:01:17.809Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-20T00:01:17.798Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-19T00:01:39.470Z",
+          "publishedOn": "2024-02-20T00:01:17.779Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -826,7 +826,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-19T00:01:39.345Z",
+          "publishedOn": "2024-02-20T00:01:17.767Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -967,16 +967,6 @@
           "wordCount": 11618,
           "title": "Production-ready code for scientists:  3 lessons learned",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683010031069%2Fa33212ab-1534-4842-92cd-a94b4e89785c.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/automate-your-code-quality-in-julia",
-          "author": "Matthijs Cox",
-          "description": "Code quality is a topic in Julia that I believe deserves more attention from both users and developers. The Julia language originated in academia and focused heavily on helping scientists write better code, which is going great and deserves much praise! However, to onboard more software engineers and professional organizations we're going to have to invest even further into code quality and automated code quality tools and other methods such as used in the field of \"quality assurance\". In this article I'll explore the current state in the Julia ecosystem.\nAt our workplace we have investigated the following tools and practices. I'll start from generic practices and then move on to more advanced tools.\n\nPackage structure\n\nUnit testing with Pkg.jl\n\nAutomated testing and Continuous Integration…",
-          "link": "https://scientificcoder.com/automate-your-code-quality-in-julia",
-          "publishedOn": "2023-04-26T07:47:00.000Z",
-          "wordCount": 22321,
-          "title": "Automate Your Code Quality In Julia",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682430557530%2F69f045a8-635c-4ec6-b836-dbdcf7f0dd23.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },

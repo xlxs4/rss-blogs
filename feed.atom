@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-19T00:01:41.423Z</id>
+    <id>urn:2024-02-20T00:01:19.518Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-19T00:01:41.423Z</updated>
+    <updated>2024-02-20T00:01:19.518Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-19T00:01:41.385Z</updated>
+        <updated>2024-02-20T00:01:19.498Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-19T00:01:39.702Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +19,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-19T00:01:39.697Z</updated>
+        <updated>2024-02-20T00:01:17.825Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,18 +29,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-19T00:01:39.613Z</updated>
+        <updated>2024-02-20T00:01:17.821Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-19T00:01:39.579Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +39,28 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-19T00:01:39.473Z</updated>
+        <updated>2024-02-20T00:01:17.810Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-02-20T00:01:17.809Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-20T00:01:17.798Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-19T00:01:39.470Z</updated>
+        <updated>2024-02-20T00:01:17.779Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-19T00:01:39.345Z</updated>
+        <updated>2024-02-20T00:01:17.767Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -1253,23 +1253,6 @@ Accept the status quo: use a slow and a fa…]]></summary>
         <updated>2023-05-04T09:43:36.000Z</updated>
         <summary type="html"><![CDATA[How do you become a great scientific coder? To understand this, I want to ask others about their journey and share their lessons with you. This post is a collaboration with Keith Myerscough, a mathematical consultant and senior engineer, who helped me with setting up our internal Julia language ecosystem.
 Matthijs asked me to write a guest post about what skills are needed to become a great scientific coder. He asked me because I assisted a team of scientists in adopting Julia for their research and development work. I am keen to help: I empathize with people who come up with great ideas but have a hard time wrapping these up into something that can be turned into a product. Even under the assumption that code will be extensively improved upon by others with more software knowledge, that f…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automate Your Code Quality In Julia]]></title>
-        <id>https://scientificcoder.com/automate-your-code-quality-in-julia</id>
-        <link href="https://scientificcoder.com/automate-your-code-quality-in-julia"/>
-        <updated>2023-04-26T07:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Code quality is a topic in Julia that I believe deserves more attention from both users and developers. The Julia language originated in academia and focused heavily on helping scientists write better code, which is going great and deserves much praise! However, to onboard more software engineers and professional organizations we're going to have to invest even further into code quality and automated code quality tools and other methods such as used in the field of "quality assurance". In this article I'll explore the current state in the Julia ecosystem.
-At our workplace we have investigated the following tools and practices. I'll start from generic practices and then move on to more advanced tools.
-
-Package structure
-
-Unit testing with Pkg.jl
-
-Automated testing and Continuous Integration…]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>
