@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/reading-a-programmers-guide-to-common-lisp?pk_campaign=rss-feed",
+          "author": null,
+          "description": "I got a cheap used copy of the book A Programmer's Guide to COMMON LISP by Deborah G. Tatar, Digital Press, 1987.\n\nWhy did I read such an old book, published a few years after CLtL1 and well before ANSI finalized the Common Lisp standard?\nI'm always looking for good Lisp books. Since Medley is my primary Lisp environment, I'm particularly interested in books published when the system was originally developed and used. These works are relevant because they cover a set of features close to the state of the Common Lisp implementation of Medley, and present a programming style typical of Lisp development in those years.\nTwo old reviews got me curious about A Programmer's Guide to COMMON LISP, one by Daniel Weinreb and the other by Richard Caruana.\nBoth reviews point out the book is different from most contemporary introductory Lisp books which focus on AI. Although Tatar's does contain some AI code, such as an interesting and complete toy expert system, the sample code spans a wider range of domains like a text formatter similar to nroff.\nWhat sets A Programmer's Guide to COMMON LISP apart from other Lisp books is its environment independent discussion of the interactive Lisp programming process. Writing code in the editor, evaluating expressions from the editor, interacting with the REPL for testing expressions and exploring, and so on.\nI've never seen the process expressed so clearly in any book, past of present. I'm familiar with it but the material is particulary helpful for complete beginners.\nAlthough the short chapter on macros presents some interesting examples like a simplified version of defstruct, it doesn't discuss gensym and variable capture. This is unusual. But it's only one of a few issues and the book is a valuable addition to my Lisp library.\n#CommonLisp #books #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
+          "link": "https://journal.paoloamoroso.com/reading-a-programmers-guide-to-common-lisp?pk_campaign=rss-feed",
+          "publishedOn": "2024-02-22T11:04:59.000Z",
+          "wordCount": 818,
+          "title": "Paolo Amoroso: Reading A Programmer's Guide to COMMON LISP",
+          "imageUrl": "https://i.snap.as/tqNa1b4B.jpg"
+        },
+        {
           "id": "https://journal.paoloamoroso.com/importing-common-lisp-files-in-medley-with-textmodules?pk_campaign=rss-feed",
           "author": null,
           "description": "Medley is a residential environment for Interlisp and Common Lisp development.\nWith some effort it's possible to use Medley as a traditional file based Common Lisp environment. But in specific cases a better approach is to bring in Medley's residential environment Common Lisp sources created in file based environments.\nIn this post I explain the latter, i.e. how to use TextModules to import Common Lisp files into the residential environment. I go over the steps for converting an example program, the database of CD music tracks in Chapter 3 Practical: A Simple Database of Peter Seibel's book Practical Common Lisp.\nMotivation\nUsing the tools and facilities of the residential environment, such as the File Manager, is the normal way of developing new Lisp programs. To run existing Common Lisp …",
@@ -391,16 +401,6 @@
           "wordCount": 4090,
           "title": "Joe Marshall: Exponentiating Functions",
           "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
-          "author": null,
-          "description": "Looking for a fun weekend project?  Allow me to suggest linear fractional transformations.\nA linear fractional transformation (LFT), also known as a Möbius\n  transformation or a homographic function, is a function of\n  the form\n(lambda (x)\n  (/ (+ (* A x) B)\n     (+ (* C x) D)))\n(defun make-lft (A B C D)\n  (lambda (x)\n    (/ (+ (* A x) B)\n       (+ (* C x) D))))\nbut you’ll want access to A,\n  B, C, and D.  If you implement LFTs\n  as funcallable CLOS instances, you can read out the coefficients from slot values.\nConstructor\nThe coefficients A, B, C,\n  and D could in theory be any complex number, but we can\n  restrict them to being integers and retain a lot of the functionality.\n  If we multiply all the coefficients by the same factor, it doesn't\n  change the output of the LFT.  If you have …",
-          "link": "http://funcall.blogspot.com/2024/01/roll-your-own-linear-fractional.html",
-          "publishedOn": "2024-01-25T20:02:00.000Z",
-          "wordCount": 4575,
-          "title": "Joe Marshall: Roll Your Own Linear Fractional Transformations",
-          "imageUrl": null
         }
       ]
     },
@@ -467,12 +467,22 @@
       "siteUrl": "https://batsov.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2024/02/22/asciidoc-language-specification/",
+          "author": null,
+          "description": "I’m an avid fan of AsciiDoc and I’ve been using it for years to write documentation for some of my OSS projects (e.g. CIDER and Projectile). I try to keep tracking of developments around AsciiDoc, but it seems I’ve missed a few quite notable ones:",
+          "link": "https://batsov.com/articles/2024/02/22/asciidoc-language-specification/",
+          "publishedOn": "2024-02-22T13:14:00.000Z",
+          "wordCount": 924,
+          "title": "AsciiDoc Language Specification",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
           "id": "https://batsov.com/articles/2024/02/16/revisiting-mastodon/",
           "author": null,
           "description": "After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.",
           "link": "https://batsov.com/articles/2024/02/16/revisiting-mastodon/",
           "publishedOn": "2024-02-16T08:15:00.000Z",
-          "wordCount": 630,
+          "wordCount": 644,
           "title": "Revisiting Mastodon",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -482,7 +492,7 @@
           "description": "Remember me trying out Mastodon a while ago? Well, it didn’t stick. For various reasons.",
           "link": "https://batsov.com/articles/2024/02/12/bluesky/",
           "publishedOn": "2024-02-12T20:33:00.000Z",
-          "wordCount": 538,
+          "wordCount": 552,
           "title": "Bluesky",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -492,7 +502,7 @@
           "description": "In the end, there can be only one. – Highlander",
           "link": "https://batsov.com/articles/2024/02/12/curbing-my-email-mania/",
           "publishedOn": "2024-02-12T20:18:00.000Z",
-          "wordCount": 521,
+          "wordCount": 535,
           "title": "Curbing My Email Mania",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -502,7 +512,7 @@
           "description": "How can you be sure that an OCaml function you wrote is actually tail-recursive? You can certainly compile the code and look at the generated assembly code, but that’d be quite the overkill, given there is a much simpler way to do this.",
           "link": "https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/",
           "publishedOn": "2024-01-16T08:52:00.000Z",
-          "wordCount": 562,
+          "wordCount": 576,
           "title": "Learning OCaml: Verifying tail-recursion with @tailcall",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -756,29 +766,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-22T00:01:36.572Z",
+          "publishedOn": "2024-02-23T00:01:18.768Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-22T00:01:34.618Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-22T00:01:34.504Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -786,9 +776,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-22T00:01:34.414Z",
+          "publishedOn": "2024-02-23T00:01:13.645Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-02-23T00:01:13.616Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-02-23T00:01:13.540Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -796,19 +806,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-22T00:01:34.411Z",
+          "publishedOn": "2024-02-23T00:01:13.529Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-22T00:01:34.401Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -816,9 +816,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-22T00:01:34.332Z",
+          "publishedOn": "2024-02-23T00:01:13.515Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-02-23T00:01:13.510Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -826,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-22T00:01:34.244Z",
+          "publishedOn": "2024-02-23T00:01:13.430Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
