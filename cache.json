@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi",
+          "author": null,
+          "description": "While poking the other day at making a Guile binding for\n, I remembered why I don’t much do this\nany more: it is impossible to compose GC with explicit ownership.Harfbuzz\nAllow me to illustrate with an example.  Harfbuzz has a concept of , which are\nrefcounted sequences of bytes.  It uses these in a number of places, for example when loading OpenType fonts.\nYou can get a peek at the blob’s contents back with\n,\nwhich gives you a pointer and a length.blobshb_blob_get_data\nSay you are in LuaJIT.  (To think that for a couple years, I wrote\nLuaJIT all day long; now I can hardly remember.)  You get a blob from\nsomewhere and want to get its data.  You define a wrapper for\n:hb_blob_get_data\nPresumably you then arrange to release LuaJIT’s reference on the blob\nwhen GC collects a Lua wrapper for a b…",
+          "link": "https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi",
+          "publishedOn": "2024-02-26T10:05:43.000Z",
+          "wordCount": 1547,
+          "title": "on the impossibility of composing finalizers and ffi",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd",
           "author": null,
           "description": "I got a new laptop!  It’s a : 8 cores, 2 threads per core, 64 GB RAM, 3:2 2256×1504 matte screen.  It kicks my 5-year-old Dell XPS 13 in the pants, and I am so relieved to be back to a matte screen.  I just got it up and running with , which though easier than past installation experiences was not without some wrinkles, so here I wanted to share a recipe for what worked for me.Framework 13 AMDGuix\n(I swear this isn’t going to become a product review blog, but when I went to post something like this on the   I got an error saying that new users could only post 2 links.  I understand how we got here but hoo, that is a garbage experience!)Framework forum\nUpstream Guix works on the Framework 13 AMD, but only with software rendering and no wifi, and I wasn’t able to install from upstream media.…",
@@ -283,16 +293,6 @@
           "publishedOn": "2023-12-12T15:18:14.000Z",
           "wordCount": 1121,
           "title": "sir talks-a-lot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram",
-          "author": null,
-          "description": "Good evening!  This evening, a note on high-dynamic-range (HDR)\nhistograms.\nHow should one record garbage collector pause times?\nA few options present themselves: you could just record the total pause\ntime.  Or, also record the total number of collections, which allows you\nto compute the average.  Maximum is easy enough, too.  But then you\nmight also want the median or the p90 or the p99, and these percentile\nvalues are more gnarly: you either need to record all the pause times,\nwhich can itself become a memory leak, or you need to approximate via a\nhistogram.\nLet’s assume that you decide on the histogram approach.  How should you\ncompute the bins?  It would be nice to have microsecond accuracy on the\nsmall end, but if you bin by microsecond you could end up having\nmillions of bins, which …",
-          "link": "https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram",
-          "publishedOn": "2023-12-10T21:27:59.000Z",
-          "wordCount": 1838,
-          "title": "a simple hdr histogram",
           "imageUrl": null
         }
       ]
@@ -467,12 +467,22 @@
       "siteUrl": "https://batsov.com/",
       "articles": [
         {
+          "id": "https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/",
+          "author": null,
+          "description": "What is dead cannot die. – A Song of Ice and Fire (a.k.a. Game of Thrones)",
+          "link": "https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/",
+          "publishedOn": "2024-02-26T09:47:00.000Z",
+          "wordCount": 1234,
+          "title": "Emacs: Dead and Loving It",
+          "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
+        },
+        {
           "id": "https://batsov.com/articles/2024/02/23/ocaml-adds-list-take-and-list-drop/",
           "author": null,
           "description": "One of my small issues with OCaml is that the standard library is quite spartan. Sometimes it misses functions that are quite common in other (similar) languages. One such example are functions like drop, drop_while, take and take_while in the List module.1 What’s weird is that the similar Seq module features all those functions since OCaml 4.14. I believe it was Haskell that populirized them. &#8617;",
           "link": "https://batsov.com/articles/2024/02/23/ocaml-adds-list-take-and-list-drop/",
           "publishedOn": "2024-02-23T07:12:00.000Z",
-          "wordCount": 662,
+          "wordCount": 669,
           "title": "OCaml Adds `List.take` and `List.drop`",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -482,7 +492,7 @@
           "description": "I’m an avid fan of AsciiDoc and I’ve been using it for years to write documentation for some of my OSS projects (e.g. CIDER and Projectile). I try to keep tracking of developments around AsciiDoc, but it seems I’ve missed a few quite notable ones:",
           "link": "https://batsov.com/articles/2024/02/22/asciidoc-language-specification/",
           "publishedOn": "2024-02-22T13:14:00.000Z",
-          "wordCount": 922,
+          "wordCount": 929,
           "title": "AsciiDoc Language Specification",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -492,7 +502,7 @@
           "description": "After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.",
           "link": "https://batsov.com/articles/2024/02/16/revisiting-mastodon/",
           "publishedOn": "2024-02-16T08:15:00.000Z",
-          "wordCount": 642,
+          "wordCount": 649,
           "title": "Revisiting Mastodon",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -502,7 +512,7 @@
           "description": "Remember me trying out Mastodon a while ago? Well, it didn’t stick. For various reasons.",
           "link": "https://batsov.com/articles/2024/02/12/bluesky/",
           "publishedOn": "2024-02-12T20:33:00.000Z",
-          "wordCount": 550,
+          "wordCount": 557,
           "title": "Bluesky",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -512,7 +522,7 @@
           "description": "In the end, there can be only one. – Highlander",
           "link": "https://batsov.com/articles/2024/02/12/curbing-my-email-mania/",
           "publishedOn": "2024-02-12T20:18:00.000Z",
-          "wordCount": 533,
+          "wordCount": 538,
           "title": "Curbing My Email Mania",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -522,7 +532,7 @@
           "description": "How can you be sure that an OCaml function you wrote is actually tail-recursive? You can certainly compile the code and look at the generated assembly code, but that’d be quite the overkill, given there is a much simpler way to do this.",
           "link": "https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/",
           "publishedOn": "2024-01-16T08:52:00.000Z",
-          "wordCount": 594,
+          "wordCount": 599,
           "title": "Learning OCaml: Verifying tail-recursion with @tailcall",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -532,7 +542,7 @@
           "description": "Life can only be understood backwards; but it must be lived forwards. – Søren Kierkegaard",
           "link": "https://batsov.com/articles/2024/01/16/2023-the-year-in-review/",
           "publishedOn": "2024-01-16T08:43:00.000Z",
-          "wordCount": 1407,
+          "wordCount": 1412,
           "title": "2023: The Year in Review",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -542,7 +552,7 @@
           "description": "Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.",
           "link": "https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/",
           "publishedOn": "2023-12-23T06:34:00.000Z",
-          "wordCount": 607,
+          "wordCount": 612,
           "title": "A Bad Year for Blogging",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         },
@@ -552,7 +562,7 @@
           "description": "Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:",
           "link": "https://batsov.com/articles/2023/12/22/fastmail-year-two/",
           "publishedOn": "2023-12-22T14:41:00.000Z",
-          "wordCount": 663,
+          "wordCount": 668,
           "title": "Fastmail: Year Two",
           "imageUrl": "https://batsov.com/assets/images/bozhidar_avatar.jpg"
         }
@@ -776,39 +786,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-02-26T00:28:34.785Z",
+          "publishedOn": "2024-02-27T00:27:00.482Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-02-26T00:28:32.260Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-02-26T00:28:32.229Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-02-26T00:28:32.158Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,19 +796,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-02-26T00:28:32.148Z",
+          "publishedOn": "2024-02-27T00:26:56.293Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-02-26T00:28:31.958Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-02-27T00:26:56.269Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -836,9 +816,39 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-02-26T00:28:31.893Z",
+          "publishedOn": "2024-02-27T00:26:56.267Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-02-27T00:26:56.247Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-02-27T00:26:56.245Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-02-27T00:26:56.241Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -846,7 +856,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-02-26T00:28:31.885Z",
+          "publishedOn": "2024-02-27T00:26:55.985Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

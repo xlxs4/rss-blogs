@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-26T00:28:34.821Z</id>
+    <id>urn:2024-02-27T00:27:00.521Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-26T00:28:34.821Z</updated>
+    <updated>2024-02-27T00:27:00.521Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-26T00:28:34.785Z</updated>
+        <updated>2024-02-27T00:27:00.482Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-26T00:28:32.260Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-26T00:28:32.229Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-26T00:28:32.158Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,18 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-26T00:28:32.148Z</updated>
+        <updated>2024-02-27T00:26:56.293Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-26T00:28:31.958Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-27T00:26:56.269Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +39,38 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-26T00:28:31.893Z</updated>
+        <updated>2024-02-27T00:26:56.267Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-02-27T00:26:56.247Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-02-27T00:26:56.245Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-02-27T00:26:56.241Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,43 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-26T00:28:31.885Z</updated>
+        <updated>2024-02-27T00:26:55.985Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[on the impossibility of composing finalizers and ffi]]></title>
+        <id>https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi</id>
+        <link href="https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi"/>
+        <updated>2024-02-26T10:05:43.000Z</updated>
+        <summary type="html"><![CDATA[While poking the other day at making a Guile binding for
+, I remembered why I don’t much do this
+any more: it is impossible to compose GC with explicit ownership.Harfbuzz
+Allow me to illustrate with an example.  Harfbuzz has a concept of , which are
+refcounted sequences of bytes.  It uses these in a number of places, for example when loading OpenType fonts.
+You can get a peek at the blob’s contents back with
+,
+which gives you a pointer and a length.blobshb_blob_get_data
+Say you are in LuaJIT.  (To think that for a couple years, I wrote
+LuaJIT all day long; now I can hardly remember.)  You get a blob from
+somewhere and want to get its data.  You define a wrapper for
+:hb_blob_get_data
+Presumably you then arrange to release LuaJIT’s reference on the blob
+when GC collects a Lua wrapper for a b…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emacs: Dead and Loving It]]></title>
+        <id>https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/</id>
+        <link href="https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/"/>
+        <updated>2024-02-26T09:47:00.000Z</updated>
+        <summary type="html"><![CDATA[What is dead cannot die. – A Song of Ice and Fire (a.k.a. Game of Thrones)]]></summary>
+        <author>
+            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -656,29 +689,6 @@ Whippet: A new GC for Guile.blogeventslides
 Still here?  The full  will surely fill your cup.talks archive
 2023 talks
 but wait, there’s more]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[a simple hdr histogram]]></title>
-        <id>https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram</id>
-        <link href="https://wingolog.org/archives/2023/12/10/a-simple-hdr-histogram"/>
-        <updated>2023-12-10T21:27:59.000Z</updated>
-        <summary type="html"><![CDATA[Good evening!  This evening, a note on high-dynamic-range (HDR)
-histograms.
-How should one record garbage collector pause times?
-A few options present themselves: you could just record the total pause
-time.  Or, also record the total number of collections, which allows you
-to compute the average.  Maximum is easy enough, too.  But then you
-might also want the median or the p90 or the p99, and these percentile
-values are more gnarly: you either need to record all the pause times,
-which can itself become a memory leak, or you need to approximate via a
-histogram.
-Let’s assume that you decide on the histogram approach.  How should you
-compute the bins?  It would be nice to have microsecond accuracy on the
-small end, but if you bin by microsecond you could end up having
-millions of bins, which …]]></summary>
         <author>
             <name>wingolog</name>
         </author>
