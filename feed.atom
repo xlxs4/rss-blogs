@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-27T00:27:00.521Z</id>
+    <id>urn:2024-02-28T00:26:08.806Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-02-27T00:27:00.521Z</updated>
+    <updated>2024-02-28T00:26:08.806Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-02-27T00:27:00.482Z</updated>
+        <updated>2024-02-28T00:26:08.786Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,38 +19,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-02-27T00:26:56.293Z</updated>
+        <updated>2024-02-28T00:26:05.470Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-02-27T00:26:56.269Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-02-27T00:26:56.267Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-02-27T00:26:56.247Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +29,28 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-02-27T00:26:56.245Z</updated>
+        <updated>2024-02-28T00:26:05.405Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-02-28T00:26:05.328Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-02-28T00:26:05.326Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +59,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-02-27T00:26:56.241Z</updated>
+        <updated>2024-02-28T00:26:05.315Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-02-28T00:26:05.306Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,66 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-02-27T00:26:55.985Z</updated>
+        <updated>2024-02-28T00:26:05.243Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[M-x Reloaded: The Second Golden Age of Emacs]]></title>
+        <id>https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/</id>
+        <link href="https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/"/>
+        <updated>2024-02-27T08:08:00.000Z</updated>
+        <summary type="html"><![CDATA[The people who live in a Golden Age usually go around complaining how yellow everything looks. – Randall Jarell]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eugene Zaikonnikov: Deannoyifying SLIME]]></title>
+        <id>http://blog.funcall.org//lisp/2024/02/27/deannoyify-slime/</id>
+        <link href="http://blog.funcall.org//lisp/2024/02/27/deannoyify-slime/"/>
+        <updated>2024-02-26T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over all these years I don't think I ever wanted to close all existing SLIME connections when attaching to a remote host. Similarly, the version mismatch between SWANK and SLIME frontend has never stopped me following through with connection. I did however fumbled with y/n confirmations plenty of times. The snippet below removes these interactive checks.
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+
+(defun slime-check-version (version conn)
+  (or (equal version slime-protocol-version)
+      (equal slime-protocol-version 'ignore)
+      (message
+       (format "Versions differ: %s (slime) vs. %s (swank)."
+               slime-protocol-version version))
+      (slime-net-close conn)
+      (top-level)))
+
+(defun slime-connect (host port &optional _coding-system interactive-p &rest…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -349,7 +405,7 @@ I suppose I should argue that composing an infinite number of LFTs
         <link href="http://blog.funcall.org//lisp/2024/01/31/slime-xref/"/>
         <updated>2024-01-30T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[By the nature of embedded development one spends a lot of time debugging on target devices. SLIME experience for the most part is as smooth as on local host with the exception of cross referencing. Swank backend on target is reporting local paths in xref records which the frontend on your host then tries to open.
-The canonical workaround from the user manual is using slime-tramp contrib, allowing you to navigate the source tree on remote target over SSH. I however greatly prefer to work on the local copy of the source code, with much lower latency (SSH over VPN over cellular to a remote site is no fun) and ability to stage and commit changes immediately. A somehwoat kludgy workflow that does the trick is using a hacked slime-postprocess-xref below to substitute $HOME in xref records. The s…]]></summary>
+The canonical workaround from the user manual is using slime-tramp contrib, allowing you to navigate the source tree on remote target over SSH. I however greatly prefer to work on the local copy of the source code, with much lower latency (SSH over VPN over cellular to a remote site is no fun) and ability to stage and commit changes immediately. A somehwat kludgy workflow that does the trick is using a hacked slime-postprocess-xref below to substitute $HOME in xref records. The so…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -388,32 +444,6 @@ enough to provide a convenience utility over the library.
 
 Preliminary steps
 In this post we will use a few dependencies. Of course one of them is mcc…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Exponentiating Functions]]></title>
-        <id>http://funcall.blogspot.com/2024/01/exponentiating-functions.html</id>
-        <link href="http://funcall.blogspot.com/2024/01/exponentiating-functions.html"/>
-        <updated>2024-01-28T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If we compose a function F(x) with itself, we get F(F(x)) or F∘F.
-  If we compose it again, we get F(F(F(x))) or F∘F∘F.  Rather than
-  writing ‘F’ over and over again, we can abuse
-  exponential notation and write (F∘F∘F) as F3, where the
-  superscript indicates how many times we compose the function.
-  F1 is, naturally, just F.  F0 would be zero
-  applications of F, which would be the function that leaves its
-  argument unchanged, i.e. the identity function.
-The analogy with exponentiation goes deeper.  We can quickly
-  exponentiate a number with a divide and conquer
-  algorithm:
-(defun my-expt (base exponent)
-  (cond ((zerop exponent) 1)
-        ((evenp exponent) (my-expt (* base base) (/ exponent 2)))
-        (t (* base (my-expt base (- exponent 1))))))
-(defun fexpt (f exponent)
-  (cond…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -624,16 +654,6 @@ Read more]]></summary>
         <link href="https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/"/>
         <updated>2023-12-23T06:34:00.000Z</updated>
         <summary type="html"><![CDATA[Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.]]></summary>
-        <author>
-            <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fastmail: Year Two]]></title>
-        <id>https://batsov.com/articles/2023/12/22/fastmail-year-two/</id>
-        <link href="https://batsov.com/articles/2023/12/22/fastmail-year-two/"/>
-        <updated>2023-12-22T14:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Here’s a small follow-up to my usage of Fastmail that started in 2021. In a nutshell - little has changed since my previous update. Fastmail is still my favorite email vendor and I keep using it more and more. Here are a few highlights:]]></summary>
         <author>
             <name>(think)</name>
         </author>
@@ -1264,17 +1284,6 @@ Unreproducible code means others, including your future self, cannot verify your
 As far as I can tell, we have the following alternatives:
 
 Accept the status quo: use a slow and a fa…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Production-ready code for scientists:  3 lessons learned]]></title>
-        <id>https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned</id>
-        <link href="https://scientificcoder.com/production-ready-code-for-scientists-3-lessons-learned"/>
-        <updated>2023-05-04T09:43:36.000Z</updated>
-        <summary type="html"><![CDATA[How do you become a great scientific coder? To understand this, I want to ask others about their journey and share their lessons with you. This post is a collaboration with Keith Myerscough, a mathematical consultant and senior engineer, who helped me with setting up our internal Julia language ecosystem.
-Matthijs asked me to write a guest post about what skills are needed to become a great scientific coder. He asked me because I assisted a team of scientists in adopting Julia for their research and development work. I am keen to help: I empathize with people who come up with great ideas but have a hard time wrapping these up into something that can be turned into a product. Even under the assumption that code will be extensively improved upon by others with more software knowledge, that f…]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>
