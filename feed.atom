@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-02T00:01:33.551Z</id>
+    <id>urn:2024-03-03T00:01:34.127Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-03-02T00:01:33.551Z</updated>
+    <updated>2024-03-03T00:01:34.127Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-03-02T00:01:33.514Z</updated>
+        <updated>2024-03-03T00:01:34.091Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-03-02T00:01:31.014Z</updated>
+        <updated>2024-03-03T00:01:29.868Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-03-02T00:01:31.010Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-03-02T00:01:30.953Z</updated>
+        <updated>2024-03-03T00:01:29.859Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-03-03T00:01:29.857Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-03-02T00:01:30.946Z</updated>
+        <updated>2024-03-03T00:01:29.844Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-03-02T00:01:30.893Z</updated>
+        <updated>2024-03-03T00:01:29.831Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-03-02T00:01:30.886Z</updated>
+        <updated>2024-03-03T00:01:29.797Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,20 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-03-02T00:01:30.851Z</updated>
+        <updated>2024-03-03T00:01:29.581Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Versus]]></title>
+        <id>urn:uuid:6ad33810-d508-4ddc-a102-85513e520e95</id>
+        <link href="https://www.lambdasierra.com/2024/versus"/>
+        <updated>2024-03-02T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The ongoing conflict between DBAs and developers over control of analytical data]]></summary>
+        <author>
+            <name>Lambda/Sierra</name>
         </author>
     </entry>
     <entry>
@@ -1270,20 +1280,6 @@ Software skills are important for everyone these days, including scientists. I s
 Incorrect code leads to incorrect results, which means you may have to redo work or even risk damaging your reputation.
 
 Unreproducible code means others, including your future self, cannot verify your work, nor built on top…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to solve the two language problem?]]></title>
-        <id>https://scientificcoder.com/how-to-solve-the-two-language-problem</id>
-        <link href="https://scientificcoder.com/how-to-solve-the-two-language-problem"/>
-        <updated>2023-05-08T07:41:53.000Z</updated>
-        <summary type="html"><![CDATA[My professional obsession is solving the Two Culture Problem. How can scientists optimally join forces with software engineers and their principles, so that we can work on the same problems together? How to accelerate the cycle from idea to product? The Two Culture Problem requires a solution to the related Two Language Problem, which has a technical nature. A solution to the technical problem does not guarantee a solution to the organizational problem, but when it comes to engineering cultures you first need to prove the technical solution before you can even begin to tackle the social implications. I have a strong opinion on the best technical solution, but let's review all our options.
-
-As far as I can tell, we have the following alternatives:
-
-Accept the status quo: use a slow and a fa…]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>

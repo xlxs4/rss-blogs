@@ -574,6 +574,16 @@
       "siteUrl": "https://www.lambdasierra.com/",
       "articles": [
         {
+          "id": "urn:uuid:6ad33810-d508-4ddc-a102-85513e520e95",
+          "author": null,
+          "description": "The ongoing conflict between DBAs and developers over control of analytical data",
+          "link": "https://www.lambdasierra.com/2024/versus",
+          "publishedOn": "2024-03-02T23:00:00.000Z",
+          "wordCount": 290,
+          "title": "Versus",
+          "imageUrl": null
+        },
+        {
           "id": "urn:uuid:71d51fbc-5910-4253-81fa-56366970fcac",
           "author": null,
           "description": "WordPress.com is offering a 100-year plan. But why?",
@@ -786,7 +796,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-02T00:01:33.514Z",
+          "publishedOn": "2024-03-03T00:01:34.091Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -796,19 +806,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-02T00:01:31.014Z",
+          "publishedOn": "2024-03-03T00:01:29.868Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-02T00:01:31.010Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -816,9 +816,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-02T00:01:30.953Z",
+          "publishedOn": "2024-03-03T00:01:29.859Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-03T00:01:29.857Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -826,7 +836,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-02T00:01:30.946Z",
+          "publishedOn": "2024-03-03T00:01:29.844Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -836,7 +846,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-02T00:01:30.893Z",
+          "publishedOn": "2024-03-03T00:01:29.831Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -846,7 +856,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-02T00:01:30.886Z",
+          "publishedOn": "2024-03-03T00:01:29.797Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -856,7 +866,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-02T00:01:30.851Z",
+          "publishedOn": "2024-03-03T00:01:29.581Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -977,16 +987,6 @@
           "wordCount": 9073,
           "title": "Mastering Scientific Programming: Practical Tips and Tricks",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683568993032%2Ff57416c5-3a85-4420-9074-0559b752625b.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/how-to-solve-the-two-language-problem",
-          "author": "Matthijs Cox",
-          "description": "My professional obsession is solving the Two Culture Problem. How can scientists optimally join forces with software engineers and their principles, so that we can work on the same problems together? How to accelerate the cycle from idea to product? The Two Culture Problem requires a solution to the related Two Language Problem, which has a technical nature. A solution to the technical problem does not guarantee a solution to the organizational problem, but when it comes to engineering cultures you first need to prove the technical solution before you can even begin to tackle the social implications. I have a strong opinion on the best technical solution, but let's review all our options.\n\nAs far as I can tell, we have the following alternatives:\n\nAccept the status quo: use a slow and a fa…",
-          "link": "https://scientificcoder.com/how-to-solve-the-two-language-problem",
-          "publishedOn": "2023-05-08T07:41:53.000Z",
-          "wordCount": 32565,
-          "title": "How to solve the two language problem?",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683112298365%2Fe6ad9ad6-a363-45cc-a04f-a6f38510bf2f.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },
