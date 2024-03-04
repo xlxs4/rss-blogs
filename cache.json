@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://within-parens.blogspot.com/2024/03/a-rant-about-r-and-python-and-anything.html",
+          "author": null,
+          "description": "R and Python come from Lisp (R for sure, Python will deny it). Early Lisp.\n  Even before the first edition of \"AI Programming\" by Charniak, Riesbek and McDermott.\n\n\n\n  At that time, there were a-lists and p-lists. Then Charniak, Riesbeck and\n  McDermott taught us (not only them of course) to create records in\n  Lisp. You know... those things like:\n\n    DECLARE\n      1 STUDENT,\n        2 NAME     CHAR (30),\n        2 SURNAME  CHAR (50),\n        2 ID FIXED DECIMAL (8),\n        2 ADDRESS,\n          3 STREET  CHAR (80),\n          3 NUMBER  FIXED DECIMAL (5),\n          3 CITY    CHAR (80),\n          3 PRST    CHAR (20),\n          3 ZIP     CHAR (10),\n          3 COUNTRY CHAR (80);\n\n\nUsing a-lists the above may become:\n    (defvar student '((name . \"John\")\n                      (surname . \"Bluta…",
+          "link": "http://within-parens.blogspot.com/2024/03/a-rant-about-r-and-python-and-anything.html",
+          "publishedOn": "2024-03-03T13:35:00.000Z",
+          "wordCount": 2319,
+          "title": "Marco Antoniotti: A Rant about R and Python (and anything with a-lists, tuples and \"dictionaries\").",
+          "imageUrl": null
+        },
+        {
           "id": "http://blog.funcall.org//lisp/2024/02/27/deannoyify-slime/",
           "author": null,
           "description": "Over all these years I don't think I ever wanted to close all existing SLIME connections when attaching to a remote host. Similarly, the version mismatch between SWANK and SLIME frontend has never stopped me following through with connection. I did however fumbled with y/n confirmations plenty of times. The snippet below removes these interactive checks.\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n(defun slime-check-version (version conn)\n  (or (equal version slime-protocol-version)\n      (equal slime-protocol-version 'ignore)\n      (message\n       (format \"Versions differ: %s (slime) vs. %s (swank).\"\n               slime-protocol-version version))\n      (slime-net-close conn)\n      (top-level)))\n\n(defun slime-connect (host port &optional _coding-system interactive-p &rest…",
@@ -390,16 +400,6 @@
           "publishedOn": "2024-01-30T14:56:00.000Z",
           "wordCount": 895,
           "title": "Luís Oliveira: Manuel Simoni on CL's control flow primitives",
-          "imageUrl": null
-        },
-        {
-          "id": "https://turtleware.eu/posts/Writing-an-ad-hoc-GUI-for-Coleslaw.html",
-          "author": null,
-          "description": "Table of Contents\nPreliminary steps\nEmbracing the chaos\nPresentations\nManaging a blog collection\nManaging a blog instance\nBig ball of mud\nClosing thoughts\nColeslaw is a \"Flexible Lisp Blogware\". It is a program that I'm using to manage\nmy blogs and allows for an offline blog compilation. The functionality of the\nwebsite may be extended with plugins and the visual appearance is defined by\nconfigurable themes.\nIts design is straightforward (if not a bit messy), so it is a good candidate to\nshow how to slap a CLIM interface on top of existing software. The integration\nwill be very shallow to not encroach into Coleslaw responsibilities, yet deep\nenough to provide a convenience utility over the library.\n\nPreliminary steps\nIn this post we will use a few dependencies. Of course one of them is mcc…",
-          "link": "https://turtleware.eu/posts/Writing-an-ad-hoc-GUI-for-Coleslaw.html",
-          "publishedOn": "2024-01-30T00:00:00.000Z",
-          "wordCount": 2923,
-          "title": "TurtleWare: Writing an ad hoc GUI for Coleslaw",
           "imageUrl": null
         }
       ]
@@ -796,7 +796,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-03T00:01:34.091Z",
+          "publishedOn": "2024-03-04T00:01:35.420Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -806,19 +806,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-03T00:01:29.868Z",
+          "publishedOn": "2024-03-04T00:01:33.743Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-03T00:01:29.859Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,7 +816,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-03T00:01:29.857Z",
+          "publishedOn": "2024-03-04T00:01:33.740Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -836,9 +826,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-03T00:01:29.844Z",
+          "publishedOn": "2024-03-04T00:01:33.580Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-03-04T00:01:33.565Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -846,7 +846,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-03T00:01:29.831Z",
+          "publishedOn": "2024-03-04T00:01:33.403Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -856,7 +856,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-03T00:01:29.797Z",
+          "publishedOn": "2024-03-04T00:01:33.303Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -866,7 +866,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-03T00:01:29.581Z",
+          "publishedOn": "2024-03-04T00:01:33.269Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
