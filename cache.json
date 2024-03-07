@@ -221,7 +221,7 @@
           "description": "Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.\nSo, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…",
           "link": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
           "publishedOn": "2024-02-14T21:49:24.000Z",
-          "wordCount": 1617,
+          "wordCount": 1602,
           "title": "family bike transportation",
           "imageUrl": null
         },
@@ -796,29 +796,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-06T00:01:36.742Z",
+          "publishedOn": "2024-03-07T00:01:39.474Z",
           "wordCount": 608,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-06T00:01:33.474Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-06T00:01:33.465Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -826,9 +806,29 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-06T00:01:33.458Z",
+          "publishedOn": "2024-03-07T00:01:34.166Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-03-07T00:01:34.157Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-07T00:01:34.154Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -836,7 +836,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-06T00:01:33.452Z",
+          "publishedOn": "2024-03-07T00:01:34.142Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -846,7 +846,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-06T00:01:33.350Z",
+          "publishedOn": "2024-03-07T00:01:34.127Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -856,7 +856,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-06T00:01:33.347Z",
+          "publishedOn": "2024-03-07T00:01:34.123Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -866,7 +866,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-06T00:01:33.250Z",
+          "publishedOn": "2024-03-07T00:01:33.923Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -967,16 +967,6 @@
           "wordCount": 27637,
           "title": "Building a Scalable Inner-Source Ecosystem For Collaborative Development",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1684239844476%2F70964039-8d34-410b-8507-79bfd01dcbc0.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/extreme-multi-threading-c-and-julia-19-integration",
-          "author": "Matthijs Cox",
-          "description": "In this tutorial we demonstrate how to call Julia libraries with multiple threads from C++. With the introduction of Julia 1.9 in May 2023, the runtime can dynamically \"adopt\" external threads, enabling the integration of Julia libraries into multi-threaded codebases written in other languages, such as C++. This article is written in collaboration with Evangelos Paradas, the maestro of algorithm deployment at ASML. Evangelos has been responsible for heavily testing and debugging this multi-threading feature. I humbly repeated the final results after his many trial-and-error attempts and summarized everything for you in this article.\nJulia in production\nJulia is a general-purpose language designed for scientific and numerical computing, striking a balance between speed and simplicity. The a…",
-          "link": "https://scientificcoder.com/extreme-multi-threading-c-and-julia-19-integration",
-          "publishedOn": "2023-05-11T14:10:09.000Z",
-          "wordCount": 18439,
-          "title": "Extreme Multi-Threading: C++ and Julia 1.9 Integration",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1683635341431%2F5562e663-f9ea-4cec-a0a8-e6c9da7578ef.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },
