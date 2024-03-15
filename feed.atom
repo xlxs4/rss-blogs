@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-14T00:01:39.943Z</id>
+    <id>urn:2024-03-15T00:01:18.068Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-03-14T00:01:39.943Z</updated>
+    <updated>2024-03-15T00:01:18.068Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-03-14T00:01:39.921Z</updated>
+        <updated>2024-03-15T00:01:18.033Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-03-14T00:01:36.954Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +19,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-03-14T00:01:36.939Z</updated>
+        <updated>2024-03-15T00:01:14.516Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-03-14T00:01:36.891Z</updated>
+        <updated>2024-03-15T00:01:14.488Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-03-15T00:01:14.484Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-03-14T00:01:36.880Z</updated>
+        <updated>2024-03-15T00:01:14.473Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-03-14T00:01:36.877Z</updated>
+        <updated>2024-03-15T00:01:14.445Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-03-14T00:01:36.875Z</updated>
+        <updated>2024-03-15T00:01:14.410Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,33 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-03-14T00:01:36.815Z</updated>
+        <updated>2024-03-15T00:01:14.249Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vindarel: Oh no, I started a Magit-like plugin for the Lem editor]]></title>
+        <id>https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/</id>
+        <link href="https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/"/>
+        <updated>2024-03-14T12:11:34.000Z</updated>
+        <summary type="html"><![CDATA[Lem is an awesome project. It’s an
+editor buit in Common Lisp, ready to use out of the box for Common
+Lisp, that supports more languages and modes (Python, Rust, Elixir,
+Go, JavaScript, TypeScript, Haskell, Java, Nim, Dart, OCaml, Scala,
+Swift, shell, asm, but also markdown, ascii, JSON, HTML and CSS, SQL...)
+thanks to, in part, its built-in LSP support.
+I took the challenge to add an interactive interface for Git, à la
+Magit, because you know, despite all its features (good vim mode,
+project-aware commands, grep, file tree view and directory mode,
+multiple cursors, tabs...), there’s so much an editor should do to be
+useful all day long.
+Now, for a Git project (and to a lower extent, Fossil and
+Mercurial ones) we can see its status, stage changes, commit, push &
+pull, start an interactive …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -197,29 +220,6 @@ Using a-lists the above may become:
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[on the impossibility of composing finalizers and ffi]]></title>
-        <id>https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi</id>
-        <link href="https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi"/>
-        <updated>2024-02-26T10:05:43.000Z</updated>
-        <summary type="html"><![CDATA[While poking the other day at making a Guile binding for
-, I remembered why I don’t much do this
-any more: it is impossible to compose GC with explicit ownership.Harfbuzz
-Allow me to illustrate with an example.  Harfbuzz has a concept of , which are
-refcounted sequences of bytes.  It uses these in a number of places, for example when loading OpenType fonts.
-You can get a peek at the blob’s contents back with
-,
-which gives you a pointer and a length.blobshb_blob_get_data
-Say you are in LuaJIT.  (To think that for a couple years, I wrote
-LuaJIT all day long; now I can hardly remember.)  You get a blob from
-somewhere and want to get its data.  You define a wrapper for
-:hb_blob_get_data
-Presumably you then arrange to release LuaJIT’s reference on the blob
-when GC collects a Lua wrapper for a b…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Emacs: Dead and Loving It]]></title>
         <id>https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/</id>
         <link href="https://batsov.com/articles/2024/02/26/emacs-dead-and-loving-it/"/>
@@ -285,18 +285,6 @@ Using the tools and facilities of the residential environment, such as the File 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[guix on the framework 13 amd]]></title>
-        <id>https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd</id>
-        <link href="https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd"/>
-        <updated>2024-02-16T10:23:43.000Z</updated>
-        <summary type="html"><![CDATA[I got a new laptop!  It’s a : 8 cores, 2 threads per core, 64 GB RAM, 3:2 2256×1504 matte screen.  It kicks my 5-year-old Dell XPS 13 in the pants, and I am so relieved to be back to a matte screen.  I just got it up and running with , which though easier than past installation experiences was not without some wrinkles, so here I wanted to share a recipe for what worked for me.Framework 13 AMDGuix
-(I swear this isn’t going to become a product review blog, but when I went to post something like this on the   I got an error saying that new users could only post 2 links.  I understand how we got here but hoo, that is a garbage experience!)Framework forum
-Upstream Guix works on the Framework 13 AMD, but only with software rendering and no wifi, and I wasn’t able to install from upstream media.…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Revisiting Mastodon]]></title>
         <id>https://batsov.com/articles/2024/02/16/revisiting-mastodon/</id>
         <link href="https://batsov.com/articles/2024/02/16/revisiting-mastodon/"/>
@@ -304,17 +292,6 @@ Upstream Guix works on the Framework 13 AMD, but only with software rendering an
         <summary type="html"><![CDATA[After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[family bike transportation]]></title>
-        <id>https://wingolog.org/archives/2024/02/14/family-bike-transportation</id>
-        <link href="https://wingolog.org/archives/2024/02/14/family-bike-transportation"/>
-        <updated>2024-02-14T21:49:24.000Z</updated>
-        <summary type="html"><![CDATA[Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.
-So, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -466,16 +443,6 @@ The canonical workaround from the user manual is using slime-tramp contrib, allo
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Luís Oliveira: Manuel Simoni on CL's control flow primitives]]></title>
-        <id>http://kvardek-du.kerno.org/2024/01/manuel-simoni-on-cls-control-flow.html</id>
-        <link href="http://kvardek-du.kerno.org/2024/01/manuel-simoni-on-cls-control-flow.html"/>
-        <updated>2024-01-30T14:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Manuel Simoni dusts his Axis of Eval blog off and writes about Common Lisp's BLOCK / RETURN-FROM and UNWIND-PROTECT. A summary for non-Lispers.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Learn Nix, Part 49: nix-direnv is a huge quality of life improvement]]></title>
         <id>https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/</id>
         <link href="https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/"/>
@@ -522,29 +489,6 @@ I suppose I can't help myself in part because I lack the self confidence to even
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[nombrilliant, actually]]></title>
-        <id>https://wingolog.org/archives/2024/01/18/nombrilliant-actually</id>
-        <link href="https://wingolog.org/archives/2024/01/18/nombrilliant-actually"/>
-        <updated>2024-01-18T23:15:58.000Z</updated>
-        <summary type="html"><![CDATA[Today, a middle-aged note: when you are young, unless you been
-failed by The System, you enjoy a radiant confidence: everything you say
-burns with rightness and righteousness, that the world Actually Is This
-Way, You See, and if you think about it, it Actually Should Be This
-Other Specific Way.  This is how you get the fervent young communists
-and Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so
-right that you become an evangelist, a
-,
-a truth-speaker; a youtuber, perhaps.prophet
-Then, with luck, you meet the world: you build, you organize, you
-invest, you double down.  And in that doubling, the ideas waver,
-tremble, resonate, imperceptibly at first, reinforced in some ways,
-impeded in others.  The world works in specific ways, too, and you don’t
-really know them in the…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Learning OCaml: Verifying tail-recursion with @tailcall]]></title>
         <id>https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/</id>
         <link href="https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/"/>
@@ -562,106 +506,6 @@ really know them in the…]]></summary>
         <summary type="html"><![CDATA[Life can only be understood backwards; but it must be lived forwards. – Søren Kierkegaard]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[micro macro story time]]></title>
-        <id>https://wingolog.org/archives/2024/01/11/micro-macro-story-time</id>
-        <link href="https://wingolog.org/archives/2024/01/11/micro-macro-story-time"/>
-        <updated>2024-01-11T14:10:38.000Z</updated>
-        <summary type="html"><![CDATA[Today, a tiny tale:  I was working
-on .
-Guile inherited this code from an early version of Kent Dybvig’s
-.  It
-was... not easy to work with.about 15 years
-agoGuile’s macro
-expanderportable syntax
-expander
-Some difficulties were essential.  Scope is tricky, after all.
-Some difficulties were incidental, but deep.  The expander is ultimately
-a function that translates Scheme-with-macros to Scheme-without-macros.
-However, it is itself written in Scheme-with-macros, so to load it on a
-substrate without macros requires a ,
-whose data representations need to be compatible with any incremental
-change, so that you will be able to use the new expander to produce a
-fresh pre-expansion.  This difficulty could have been avoided by
-.  It
-works once you are used to it, but it’s gnarly.pre-expanded copy o…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[missing the point of webassembly]]></title>
-        <id>https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly</id>
-        <link href="https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly"/>
-        <updated>2024-01-08T11:45:39.000Z</updated>
-        <summary type="html"><![CDATA[I find most descriptions of WebAssembly to be uninspiring: if you
-start with a phrase like “assembly-like language” or a “virtual machine”,
-we have already lost the plot.  That’s not to say that these
-descriptions are incorrect, but it’s like explaining what a dog is by
-starting with its circulatory system.  You’re not wrong, but you should probably lead with the bark.
-I have a different preferred starting point which is less descriptive
-but more operational: .  WebAssembly is a new way of dividing computing systems into
-pieces and of composing systems from parts.WebAssembly is a new fundamental abstraction
-boundary
-This all may sound high-falutin´, but it’s for real: this is the
-actually interesting thing about Wasm.
-It’s probably easiest to explain what I mean by example.  Consider the
-L…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scheme modules vs whole-program compilation: fight]]></title>
-        <id>https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight</id>
-        <link href="https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight"/>
-        <updated>2024-01-05T20:43:49.000Z</updated>
-        <summary type="html"><![CDATA[In a recent dispatch, I explained .
-Today’s note explores what a correct solution might look like.the whole-program compilation
-strategy used in Whiffle and
-Hoot
-Consider a module that exports an increment-this-integer procedure.
-We’ll use syntax from the :R6RS
-standard
-If we then have a program:
-Then the meaning of this program is clear: it reduces to ,
-then to 43.  Fine enough.  But how do we get there?  How does the
-compiler compose the program with the modules that it uses
-(transitively), to produce a single output?(+ 42 1)
-In
-
-(and ), the answer is,
-sloppily.  There is a 
-that initially has a number of bindings from the host compiler,
-.  One of these is , exposed under
-the name , where the  in this case is just a warning to the reader that this is a weird
-primitive binding.  Using thi…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v8's precise field-logging remembered set]]></title>
-        <id>https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set</id>
-        <link href="https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set"/>
-        <updated>2024-01-05T09:44:21.000Z</updated>
-        <summary type="html"><![CDATA[A  is used by a garbage collector to identify graph
-edges between partitioned sub-spaces of a heap.  The canonical example
-is in generational collection, where you allocate new objects in
-, and eventually promote survivor objects to .  If
-most objects die young, we can focus GC effort on newspace, to avoid
-traversing all of oldspace all the time.remembered setnewspaceoldspace
-Collecting a subspace instead of the whole heap is sound if and only if
-we can identify all live objects in the subspace.  We start with some
-set of  that point into the subspace from outside, and then
-traverse all links in those objects, but only to other objects within
-the subspace.roots
-The roots are, like, global variables, and the stack, and registers; and
-in the case of a partial collection in which we identify …]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -683,61 +527,6 @@ Read more]]></summary>
         <summary type="html"><![CDATA[Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[service update]]></title>
-        <id>https://wingolog.org/archives/2023/12/14/service-update</id>
-        <link href="https://wingolog.org/archives/2023/12/14/service-update"/>
-        <updated>2023-12-14T14:28:45.000Z</updated>
-        <summary type="html"><![CDATA[Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown
-I had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sir talks-a-lot]]></title>
-        <id>https://wingolog.org/archives/2023/12/12/sir-talks-a-lot</id>
-        <link href="https://wingolog.org/archives/2023/12/12/sir-talks-a-lot"/>
-        <updated>2023-12-12T15:18:14.000Z</updated>
-        <summary type="html"><![CDATA[I know, dear reader: of course you have already seen all my talks this year.  Your attentions are really too kind and I thank you.  But those other people, maybe you share one talk with them, and then they ask you for more, and you have to go stalking back through the archives to slake their nerd-thirst.  This happens all the time, right?
-I was thinking of you this morning and I said to myself, why don’t I put together a post linking to all of my talks in 2023, so that you can just send them a link; here we are.  You are very welcome, it is really my pleasure.
-  Wasm
-standards group, Munich, 11 Oct 2023.
-Scheme + Wasm + GC = MVP: Hoot Scheme-to-Wasm compiler update.slides
-
-Wasm GC subgroup, 18 Apr 2023.
-Scheme to Wasm: Use and misuse of the GC proposal.slides
-
-BOB, Berlin, 17 Mar 2023.
-
-
-A world to win: WebAssembly for the rest of us.blogslidesyoutube
-
-EOSS, Prague, 27 June 2023.
-
-
-
-
-
-
-
-Cross-platform mobile UI: “Compilers, compilers everywhere”.slidesyoutubeblogblogblogblogblogblog
-
-Spritely, remote, 10 May 2023.
-
-CPS Soup: A functional intermediate language.blogslides
-
-FOSDEM, Brussels, 4 Feb 2023.
-
-
-Whippet: A new GC for Guile.blogeventslides
-Still here?  The full  will surely fill your cup.talks archive
-2023 talks
-but wait, there’s more]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
