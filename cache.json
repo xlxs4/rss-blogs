@@ -181,6 +181,113 @@
       ]
     },
     {
+      "title": "wingolog",
+      "feedUrl": "https://wingolog.org/feed/atom",
+      "siteUrl": "https://wingolog.org/",
+      "articles": [
+        {
+          "id": "https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi",
+          "author": null,
+          "description": "While poking the other day at making a Guile binding for\n, I remembered why I don’t much do this\nany more: it is impossible to compose GC with explicit ownership.Harfbuzz\nAllow me to illustrate with an example.  Harfbuzz has a concept of , which are\nrefcounted sequences of bytes.  It uses these in a number of places, for example when loading OpenType fonts.\nYou can get a peek at the blob’s contents back with\n,\nwhich gives you a pointer and a length.blobshb_blob_get_data\nSay you are in LuaJIT.  (To think that for a couple years, I wrote\nLuaJIT all day long; now I can hardly remember.)  You get a blob from\nsomewhere and want to get its data.  You define a wrapper for\n:hb_blob_get_data\nPresumably you then arrange to release LuaJIT’s reference on the blob\nwhen GC collects a Lua wrapper for a b…",
+          "link": "https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi",
+          "publishedOn": "2024-02-26T10:05:43.000Z",
+          "wordCount": 2656,
+          "title": "on the impossibility of composing finalizers and ffi",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd",
+          "author": null,
+          "description": "I got a new laptop!  It’s a : 8 cores, 2 threads per core, 64 GB RAM, 3:2 2256×1504 matte screen.  It kicks my 5-year-old Dell XPS 13 in the pants, and I am so relieved to be back to a matte screen.  I just got it up and running with , which though easier than past installation experiences was not without some wrinkles, so here I wanted to share a recipe for what worked for me.Framework 13 AMDGuix\n(I swear this isn’t going to become a product review blog, but when I went to post something like this on the   I got an error saying that new users could only post 2 links.  I understand how we got here but hoo, that is a garbage experience!)Framework forum\nUpstream Guix works on the Framework 13 AMD, but only with software rendering and no wifi, and I wasn’t able to install from upstream media.…",
+          "link": "https://wingolog.org/archives/2024/02/16/guix-on-the-framework-13-amd",
+          "publishedOn": "2024-02-16T10:23:43.000Z",
+          "wordCount": 2608,
+          "title": "guix on the framework 13 amd",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
+          "author": null,
+          "description": "Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.\nSo, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…",
+          "link": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
+          "publishedOn": "2024-02-14T21:49:24.000Z",
+          "wordCount": 1602,
+          "title": "family bike transportation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
+          "author": null,
+          "description": "Today, a middle-aged note: when you are young, unless you been\nfailed by The System, you enjoy a radiant confidence: everything you say\nburns with rightness and righteousness, that the world Actually Is This\nWay, You See, and if you think about it, it Actually Should Be This\nOther Specific Way.  This is how you get the fervent young communists\nand Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so\nright that you become an evangelist, a\n,\na truth-speaker; a youtuber, perhaps.prophet\nThen, with luck, you meet the world: you build, you organize, you\ninvest, you double down.  And in that doubling, the ideas waver,\ntremble, resonate, imperceptibly at first, reinforced in some ways,\nimpeded in others.  The world works in specific ways, too, and you don’t\nreally know them in the…",
+          "link": "https://wingolog.org/archives/2024/01/18/nombrilliant-actually",
+          "publishedOn": "2024-01-18T23:15:58.000Z",
+          "wordCount": 1377,
+          "title": "nombrilliant, actually",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
+          "author": null,
+          "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
+          "link": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
+          "publishedOn": "2024-01-11T14:10:38.000Z",
+          "wordCount": 1319,
+          "title": "micro macro story time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly",
+          "author": null,
+          "description": "I find most descriptions of WebAssembly to be uninspiring: if you\nstart with a phrase like “assembly-like language” or a “virtual machine”,\nwe have already lost the plot.  That’s not to say that these\ndescriptions are incorrect, but it’s like explaining what a dog is by\nstarting with its circulatory system.  You’re not wrong, but you should probably lead with the bark.\nI have a different preferred starting point which is less descriptive\nbut more operational: .  WebAssembly is a new way of dividing computing systems into\npieces and of composing systems from parts.WebAssembly is a new fundamental abstraction\nboundary\nThis all may sound high-falutin´, but it’s for real: this is the\nactually interesting thing about Wasm.\nIt’s probably easiest to explain what I mean by example.  Consider the\nL…",
+          "link": "https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly",
+          "publishedOn": "2024-01-08T11:45:39.000Z",
+          "wordCount": 3467,
+          "title": "missing the point of webassembly",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight",
+          "author": null,
+          "description": "In a recent dispatch, I explained .\nToday’s note explores what a correct solution might look like.the whole-program compilation\nstrategy used in Whiffle and\nHoot\nConsider a module that exports an increment-this-integer procedure.\nWe’ll use syntax from the :R6RS\nstandard\nIf we then have a program:\nThen the meaning of this program is clear: it reduces to ,\nthen to 43.  Fine enough.  But how do we get there?  How does the\ncompiler compose the program with the modules that it uses\n(transitively), to produce a single output?(+ 42 1)\nIn\n\n(and ), the answer is,\nsloppily.  There is a \nthat initially has a number of bindings from the host compiler,\n.  One of these is , exposed under\nthe name , where the  in this case is just a warning to the reader that this is a weird\nprimitive binding.  Using thi…",
+          "link": "https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight",
+          "publishedOn": "2024-01-05T20:43:49.000Z",
+          "wordCount": 2460,
+          "title": "scheme modules vs whole-program compilation: fight",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set",
+          "author": null,
+          "description": "A  is used by a garbage collector to identify graph\nedges between partitioned sub-spaces of a heap.  The canonical example\nis in generational collection, where you allocate new objects in\n, and eventually promote survivor objects to .  If\nmost objects die young, we can focus GC effort on newspace, to avoid\ntraversing all of oldspace all the time.remembered setnewspaceoldspace\nCollecting a subspace instead of the whole heap is sound if and only if\nwe can identify all live objects in the subspace.  We start with some\nset of  that point into the subspace from outside, and then\ntraverse all links in those objects, but only to other objects within\nthe subspace.roots\nThe roots are, like, global variables, and the stack, and registers; and\nin the case of a partial collection in which we identify …",
+          "link": "https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set",
+          "publishedOn": "2024-01-05T09:44:21.000Z",
+          "wordCount": 1814,
+          "title": "v8's precise field-logging remembered set",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/12/14/service-update",
+          "author": null,
+          "description": "Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown\nI had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com",
+          "link": "https://wingolog.org/archives/2023/12/14/service-update",
+          "publishedOn": "2023-12-14T14:28:45.000Z",
+          "wordCount": 884,
+          "title": "service update",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wingolog.org/archives/2023/12/12/sir-talks-a-lot",
+          "author": null,
+          "description": "I know, dear reader: of course you have already seen all my talks this year.  Your attentions are really too kind and I thank you.  But those other people, maybe you share one talk with them, and then they ask you for more, and you have to go stalking back through the archives to slake their nerd-thirst.  This happens all the time, right?\nI was thinking of you this morning and I said to myself, why don’t I put together a post linking to all of my talks in 2023, so that you can just send them a link; here we are.  You are very welcome, it is really my pleasure.\n  Wasm\nstandards group, Munich, 11 Oct 2023.\nScheme + Wasm + GC = MVP: Hoot Scheme-to-Wasm compiler update.slides\n\nWasm GC subgroup, 18 Apr 2023.\nScheme to Wasm: Use and misuse of the GC proposal.slides\n\nBOB, Berlin, 17 Mar 2023.\n\n\nA world to win: WebAssembly for the rest of us.blogslidesyoutube\n\nEOSS, Prague, 27 June 2023.\n\n\n\n\n\n\n\nCross-platform mobile UI: “Compilers, compilers everywhere”.slidesyoutubeblogblogblogblogblogblog\n\nSpritely, remote, 10 May 2023.\n\nCPS Soup: A functional intermediate language.blogslides\n\nFOSDEM, Brussels, 4 Feb 2023.\n\n\nWhippet: A new GC for Guile.blogeventslides\nStill here?  The full  will surely fill your cup.talks archive\n2023 talks\nbut wait, there’s more",
+          "link": "https://wingolog.org/archives/2023/12/12/sir-talks-a-lot",
+          "publishedOn": "2023-12-12T15:18:14.000Z",
+          "wordCount": 1121,
+          "title": "sir talks-a-lot",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "Planet Lisp",
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
@@ -485,16 +592,6 @@
           "wordCount": 800,
           "title": "Stop Abbreviating!",
           "imageUrl": "https://www.lambdasierra/2023/img/flowchart.svg"
-        },
-        {
-          "id": "urn:uuid:417d13a1-0e74-48b4-93da-715fbe03736e",
-          "author": null,
-          "description": "Social media killed comments. What's a lonely blogger to do?",
-          "link": "https://www.lambdasierra.com/2023/building/comments",
-          "publishedOn": "2023-05-20T20:00:00.000Z",
-          "wordCount": 395,
-          "title": "One-Way Comments?",
-          "imageUrl": "https://www.lambdasierra/2023/building/img/stephen-phillips-hostreviews-co-uk--zRNvl3EUdw-unsplash.jpg"
         }
       ]
     },
@@ -679,29 +776,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-15T00:01:18.033Z",
-          "wordCount": 636,
+          "publishedOn": "2024-03-16T00:01:40.315Z",
+          "wordCount": 635,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-15T00:01:14.516Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-15T00:01:14.488Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -709,9 +786,39 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-15T00:01:14.484Z",
+          "publishedOn": "2024-03-16T00:01:17.146Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-03-16T00:01:17.143Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-03-16T00:01:17.116Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-16T00:01:17.112Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -719,7 +826,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-15T00:01:14.473Z",
+          "publishedOn": "2024-03-16T00:01:17.104Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -729,19 +836,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-15T00:01:14.445Z",
+          "publishedOn": "2024-03-16T00:01:17.082Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-15T00:01:14.410Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -749,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-15T00:01:14.249Z",
+          "publishedOn": "2024-03-16T00:01:17.043Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
