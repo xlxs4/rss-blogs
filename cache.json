@@ -293,6 +293,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
+          "author": null,
+          "description": "I decided to learn about games, so I followed along with a tutorial\n  by Kaarin Gaming.  His tutorial was written in Java, but of course I\n  used Common Lisp.  I made no attempt to faithfully replicate his\n  design, but I followed it closely in some places, less so in others.\n  The resulting program was more or less a port of the Java program to\n  Common Lisp, so it not very remarkable in and of itself.  Certainly\n  I don’t expect many people to be interested in reading\n  beyond this point.\nIt’s known that Java is wordy language and it shows in the\n  end result.  The tutorial had 3712 lines of Java code in 39 files\n  and the equivalent Common Lisp was 2255 lines in 21 files.  A\n  typical Common Lisp file would contain more code than a typical Java\n  file.  It was often the case that a Comm…",
+          "link": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
+          "publishedOn": "2024-03-19T17:10:00.000Z",
+          "wordCount": 4031,
+          "title": "Joe Marshall: Porting a Game from Java",
+          "imageUrl": null
+        },
+        {
           "id": "https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/",
           "author": null,
           "description": "Lem is an awesome project. It’s an\neditor buit in Common Lisp, ready to use out of the box for Common\nLisp, that supports more languages and modes (Python, Rust, Elixir,\nGo, JavaScript, TypeScript, Haskell, Java, Nim, Dart, OCaml, Scala,\nSwift, shell, asm, but also markdown, ascii, JSON, HTML and CSS, SQL...)\nthanks to, in part, its built-in LSP support.\nI took the challenge to add an interactive interface for Git, à la\nMagit, because you know, despite all its features (good vim mode,\nproject-aware commands, grep, file tree view and directory mode,\nmultiple cursors, tabs...), there’s so much an editor should do to be\nuseful all day long.\nNow, for a Git project (and to a lower extent, Fossil and\nMercurial ones) we can see its status, stage changes, commit, push &\npull, start an interactive …",
@@ -358,7 +368,7 @@
           "description": "A bilinear fractional transformation (BiLFT) is a\n  two-argument function of the form\n(lambda (x y)\n  (/ (+ (* A x y) (* B x) (* C y) D)\n     (+ (* E x y) (* F x) (* G y) H)))\nBiLFTs do not form a group\n  under functional composition with LFTs, but they have this\n  interesting property:  if you hold either input to the BiLFT constant,\n  the BiLFT becomes a LFT on the other input.  So if we consider just\n  one of the inputs at a time (or the output), we can apply some\n  group-like operations.\nYou can compose LFTs with BiLFTs in three ways.  First,\n  you can run the output of a BiLFT into the input of a LFT.  Second\n  and third, you can run the output of a LFT into the either the x or\n  y input of a BiLFT.  Composing a LFT with a BiLFT in any of these\n  ways produces another BiLFT, so there …",
           "link": "http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html",
           "publishedOn": "2024-02-10T16:40:00.000Z",
-          "wordCount": 4711,
+          "wordCount": 4716,
           "title": "Joe Marshall: Bilinear Fractional Transformations",
           "imageUrl": null
         },
@@ -378,18 +388,8 @@
           "description": "If you like functional composition, you’ll like linear\n  fractional transformations (LFTs).  They behave very nicely when you\n  compose them (in fact, they are a group under functional\n  composition).  If you compose two LFTs, you get another LFT.  You\n  can keep composing as long as you wish.  Let’s compose an\n  infinite number of LFTs.\nI suppose I should argue that composing an infinite number of LFTs\n  will give you anything at all.  Consider those LFTs with\n  non-negative coefficients.  When given an input in the range [0,∞],\n  they will output a number in the range [A/C, B/D].  The output range\n  is narrower than, and contained within, the input range.  If we compose two such LFTs, the\n  range of output of the outermost LFT will be even narrower.  As we\n  compose more and more of thes…",
           "link": "http://funcall.blogspot.com/2024/02/infinite-composition.html",
           "publishedOn": "2024-02-04T17:37:00.000Z",
-          "wordCount": 4931,
+          "wordCount": 4934,
           "title": "Joe Marshall: Infinite Composition",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.funcall.org//lisp/2024/01/31/slime-xref/",
-          "author": null,
-          "description": "By the nature of embedded development one spends a lot of time debugging on target devices. SLIME experience for the most part is as smooth as on local host with the exception of cross referencing. Swank backend on target is reporting local paths in xref records which the frontend on your host then tries to open.\nThe canonical workaround from the user manual is using slime-tramp contrib, allowing you to navigate the source tree on remote target over SSH. I however greatly prefer to work on the local copy of the source code, with much lower latency (SSH over VPN over cellular to a remote site is no fun) and ability to stage and commit changes immediately. A somehwat kludgy workflow that does the trick is using a hacked slime-postprocess-xref below to substitute $HOME in xref records. The so…",
-          "link": "http://blog.funcall.org//lisp/2024/01/31/slime-xref/",
-          "publishedOn": "2024-01-30T15:00:00.000Z",
-          "wordCount": 374,
-          "title": "Eugene Zaikonnikov: Tweaking SLIME Xref for Remote Images",
           "imageUrl": null
         }
       ]
@@ -776,9 +776,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-19T00:01:20.977Z",
-          "wordCount": 635,
+          "publishedOn": "2024-03-20T00:01:34.812Z",
+          "wordCount": 751,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-20T00:01:32.066Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -786,7 +796,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-19T00:01:17.825Z",
+          "publishedOn": "2024-03-20T00:01:32.052Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -796,19 +806,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-19T00:01:17.712Z",
+          "publishedOn": "2024-03-20T00:01:31.880Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-19T00:01:17.699Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -816,7 +816,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-19T00:01:17.688Z",
+          "publishedOn": "2024-03-20T00:01:31.842Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -826,7 +826,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-19T00:01:17.665Z",
+          "publishedOn": "2024-03-20T00:01:31.830Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -836,7 +836,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-19T00:01:17.628Z",
+          "publishedOn": "2024-03-20T00:01:31.761Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -846,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-19T00:01:17.605Z",
+          "publishedOn": "2024-03-20T00:01:31.619Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -864,7 +864,7 @@
           "description": "I often find myself looking for a way to write custom display methods for Julia types on the REPL. Time to write it down in a short pragmatic blog post, for you and my future self.\nWhat's the issue? When exploring on the Julia REPL or in notebooks, you display your own custom type, then it doesn't look always look the most informative. Let's say you have some type:\nstruct MyType    some_number::Float64    some_dict::Dictend\nYou can quickly make an object and display it.\njulia> obj = MyType(4.0, Dict(:x => 5))MyType(4.0, Dict(:x => 5))\nOkay... Julia basically shows the constructor of the object. I would like to see the field names, or maybe other information. Sometimes I want to see statistical properties for example, instead of the raw data.\nAs an alternative, to quickly see the field name…",
           "link": "https://scientificcoder.com/user-defined-show-method-in-julia",
           "publishedOn": "2023-07-18T13:24:13.000Z",
-          "wordCount": 7212,
+          "wordCount": 7203,
           "title": "User-defined Show Method in Julia",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689686215391%2F469dd124-564a-4ccf-a118-c1c9f885f6b6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -874,7 +874,7 @@
           "description": "I am very happy to announce that I am an organizer of the first city-level JuliaCon conference. This will be a one-day event in Eindhoven on December 1st, organized together with the PyData Eindhoven conference on November 30th (the day before).\nThe website is live: https://juliacon.org/local/eindhoven2023/. You can submit proposals, book early-bird tickets and consider joining as a volunteer.\nWe named it \"JuliaCon Local\" to avoid any confusion with the yearly Global JuliaCon, which is typically also associated with a city name. The date is also positioned in the winter, to be out of sync with the summer schedule of the Global JuliaCon conferences. People who could not attend the Global JuliaCon now have another opportunity to meet like-minded Julians and computational scientists in the industry and academia.\nMy apologies if I notify you via multiple channels, including my blog, but we are really excited about growing our scientific computing community in the area. Please consider sharing the news with your network. Of course everyone on the planet is welcome to join our conference! Hopefully we are paving the path to more city-level JuliaCon conferences.",
           "link": "https://scientificcoder.com/juliacon-local-eindhoven-2023",
           "publishedOn": "2023-07-11T07:23:12.000Z",
-          "wordCount": 2746,
+          "wordCount": 2737,
           "title": "JuliaCon Local Eindhoven 2023",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689059863447%2Ff5218ac5-7cf2-4036-bbd4-b6f01ff19866.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -884,7 +884,7 @@
           "description": "Let's say you are an incredible scientific programmer. You've got some pretty math, machine learning model or scientific computing code. And you want to give it to other users. Maybe even turn it into a real product and make a profit from your work. How do you \"deploy\" that piece of code? Most scientists do not think much about this problem at all, but it can have a great influence on how you should develop your code.\nBasically, we need to take what you developed, turn it into something which can be given to the user, so they can install and use it in their computing environment. What to provide depends entirely on the environment of the user. So you'll first need to understand that: the so called \"production environment\", the environment in which your \"product\" or service will operate.\n\nT…",
           "link": "https://scientificcoder.com/how-to-deploy-algorithms-anywhere",
           "publishedOn": "2023-07-09T12:41:35.000Z",
-          "wordCount": 21321,
+          "wordCount": 21312,
           "title": "How to deploy algorithms anywhere?",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1688895403637%2Fca806aa8-49ad-41dd-ab25-b3ba2db8ffe6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -894,7 +894,7 @@
           "description": "A design pattern is a repeatable solution to a common coding problem. Design patterns are not something beginner programmers typically think about a lot (that includes most scientists), they are probably focused on making their code work. At least that's what I did when I was a young programmer. At the other extreme such patterns can become a religion for people, where everything has to be a design pattern, or else the code is not considered good enough. However, people who make this mistake are not senior programmers either in my opinion. Senior programmers look for a balance between pure abstraction and simplicity (and many other requirements).\nThe Julia community has a special standing on design patterns: people don't really like them. In general the Julia community believes that design…",
           "link": "https://scientificcoder.com/fruity-composable-design-patterns-in-julia",
           "publishedOn": "2023-06-23T12:18:08.000Z",
-          "wordCount": 15899,
+          "wordCount": 15890,
           "title": "Fruity Composable Design Patterns in Julia",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1687522411556%2Fc781ad27-554c-48bd-b6fc-f42d5f629591.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -904,7 +904,7 @@
           "description": "I am currently reading the book \"Software Engineering for Science.\" It is one giant complaint about how scientists are terrible at writing maintainable code for themselves. I won't go into all the pain, but I do recognize that pain deeply and have written about it elsewhere. Right now I am reading this book hoping to find solutions. So, what's the proposed solution? The book doesn't provide a simple answer, but one recurring topic is \"testing, testing, TESTING!\" So, let's talk about testing!\nWhy don't scientists test their code? Well, it turns out that most scientists do not have a software engineering background, yet they find themselves writing code and software for their work. Alternatively, they may collaborate heavily with software engineers, either in academia or in the industry. If …",
           "link": "https://scientificcoder.com/software-testing-for-scientists",
           "publishedOn": "2023-06-11T12:35:26.000Z",
-          "wordCount": 20268,
+          "wordCount": 20259,
           "title": "Software Testing for Scientists",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1685970744744%2F3005ed53-27a0-4856-92d6-26ece2b8fe52.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -914,7 +914,7 @@
           "description": "There is a concept in meta-rationality called nebulosity. I will look up the definition later, but in my own words nebulosity means the following:\n\nNebulosity: a concept or problem is ill-defined. You cannot describe it perfectly. The boundaries of the concept are unclear.\n\nNebulosity drives rational people crazy, its worse than NP-hard. Rational people need well defined problems. Even if you can prove that the problem cannot be solved, at least the problem itself should be known. But is this always possible?\nYou may have a problem that you can barely describe to yourself. You may feel some shape of it, intuitively in your mind, but you cannot explain it perfectly. You notice that it is especially difficult to explain the problem to people unknown to the domain around the problem. There is…",
           "link": "https://scientificcoder.com/the-nebulous-mysteries-of-scientific-coding",
           "publishedOn": "2023-06-03T11:56:48.000Z",
-          "wordCount": 13821,
+          "wordCount": 13812,
           "title": "The Nebulous Mysteries of Scientific Coding",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1685191473723%2F77306972-8aa3-41d0-85f4-9efef520f341.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         },
@@ -924,19 +924,9 @@
           "description": "Have you ever gone through life completely oblivious to something? I recently experienced that sensation when I stumbled upon an entire ecosystem of institutions, only learning about them after starting this blog. These organizations are dedicated to promoting better scientific software, which aligns with the mission of my blog. I wanted to know what's going on, so let's have a look at what's out there.\nI noticed the names of the fields of \"scientific software\" vary a little, but I consider all of these roughly equivalent:\n\nScientific Software\n\nResearch Software Engineering (RSE)\n\nScientific Computing\n\nNumerical Computing\n\nYes, there are differences between them, but all of them involve turning scientific knowledge into algorithms and software, and writing software to do scientific researc…",
           "link": "https://scientificcoder.com/scientific-software-institutes",
           "publishedOn": "2023-05-31T12:34:28.000Z",
-          "wordCount": 9237,
+          "wordCount": 9228,
           "title": "Scientific Software Institutes",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1682844193827%2F1b0a1c9d-fb03-4a75-9ca0-d3cbcb52d52b.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments",
-          "author": "Matthijs Cox",
-          "description": "Author commentary: I am starting a \"clean code\" blog series with simple tips that you can integrate into your workflow. I often write long, complicated articles that try to teach a lot at once. This is an attempt to chop things up in bite-sized chunks. Note that the Clean Code books by Robert Martin are great, you should read them if you have time! If not, you can follow these short articles :)\nIf you've written a lot of scripts and shared some of those scripts with colleagues or others, then you probably encountered the problem that the code doesn't always work on their device, or produces different results. When this happens, people may quickly lose trust in your results and begin to ignore your work entirely. So making code reproducible is extremely important! Even if you are a scientis…",
-          "link": "https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments",
-          "publishedOn": "2023-05-24T12:03:44.000Z",
-          "wordCount": 10884,
-          "title": "Clean Code Tips for Scientists #1 - Reproducible Environments",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1684413997401%2F753bc424-1698-4e8a-a951-cc7727a09e68.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },

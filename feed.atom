@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-19T00:01:21.010Z</id>
+    <id>urn:2024-03-20T00:01:34.852Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-03-19T00:01:21.010Z</updated>
+    <updated>2024-03-20T00:01:34.852Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-03-19T00:01:20.977Z</updated>
+        <updated>2024-03-20T00:01:34.812Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-03-20T00:01:32.066Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,7 +29,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-03-19T00:01:17.825Z</updated>
+        <updated>2024-03-20T00:01:32.052Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,18 +39,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-03-19T00:01:17.712Z</updated>
+        <updated>2024-03-20T00:01:31.880Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-03-19T00:01:17.699Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-03-19T00:01:17.688Z</updated>
+        <updated>2024-03-20T00:01:31.842Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-03-19T00:01:17.665Z</updated>
+        <updated>2024-03-20T00:01:31.830Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-03-19T00:01:17.628Z</updated>
+        <updated>2024-03-20T00:01:31.761Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,32 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-03-19T00:01:17.605Z</updated>
+        <updated>2024-03-20T00:01:31.619Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Porting a Game from Java]]></title>
+        <id>http://funcall.blogspot.com/2024/03/porting-game-from-java.html</id>
+        <link href="http://funcall.blogspot.com/2024/03/porting-game-from-java.html"/>
+        <updated>2024-03-19T17:10:00.000Z</updated>
+        <summary type="html"><![CDATA[I decided to learn about games, so I followed along with a tutorial
+  by Kaarin Gaming.  His tutorial was written in Java, but of course I
+  used Common Lisp.  I made no attempt to faithfully replicate his
+  design, but I followed it closely in some places, less so in others.
+  The resulting program was more or less a port of the Java program to
+  Common Lisp, so it not very remarkable in and of itself.  Certainly
+  I don’t expect many people to be interested in reading
+  beyond this point.
+It’s known that Java is wordy language and it shows in the
+  end result.  The tutorial had 3712 lines of Java code in 39 files
+  and the equivalent Common Lisp was 2255 lines in 21 files.  A
+  typical Common Lisp file would contain more code than a typical Java
+  file.  It was often the case that a Comm…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -473,17 +495,6 @@ I suppose I should argue that composing an infinite number of LFTs
   is narrower than, and contained within, the input range.  If we compose two such LFTs, the
   range of output of the outermost LFT will be even narrower.  As we
   compose more and more of thes…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eugene Zaikonnikov: Tweaking SLIME Xref for Remote Images]]></title>
-        <id>http://blog.funcall.org//lisp/2024/01/31/slime-xref/</id>
-        <link href="http://blog.funcall.org//lisp/2024/01/31/slime-xref/"/>
-        <updated>2024-01-30T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[By the nature of embedded development one spends a lot of time debugging on target devices. SLIME experience for the most part is as smooth as on local host with the exception of cross referencing. Swank backend on target is reporting local paths in xref records which the frontend on your host then tries to open.
-The canonical workaround from the user manual is using slime-tramp contrib, allowing you to navigate the source tree on remote target over SSH. I however greatly prefer to work on the local copy of the source code, with much lower latency (SSH over VPN over cellular to a remote site is no fun) and ability to stage and commit changes immediately. A somehwat kludgy workflow that does the trick is using a hacked slime-postprocess-xref below to substitute $HOME in xref records. The so…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -1227,17 +1238,6 @@ Yes, there are differences between them, but all of them involve turning scienti
         <summary type="html"><![CDATA[Like Go, GraphQL isn't at the forefront of type theory. Let's look at what I miss and whether it would be sensible to add them to the specification.]]></summary>
         <author>
             <name>hyPiRion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clean Code Tips for Scientists #1 - Reproducible Environments]]></title>
-        <id>https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments</id>
-        <link href="https://scientificcoder.com/clean-code-tips-for-scientists-1-reproducible-environments"/>
-        <updated>2023-05-24T12:03:44.000Z</updated>
-        <summary type="html"><![CDATA[Author commentary: I am starting a "clean code" blog series with simple tips that you can integrate into your workflow. I often write long, complicated articles that try to teach a lot at once. This is an attempt to chop things up in bite-sized chunks. Note that the Clean Code books by Robert Martin are great, you should read them if you have time! If not, you can follow these short articles :)
-If you've written a lot of scripts and shared some of those scripts with colleagues or others, then you probably encountered the problem that the code doesn't always work on their device, or produces different results. When this happens, people may quickly lose trust in your results and begin to ignore your work entirely. So making code reproducible is extremely important! Even if you are a scientis…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
         </author>
     </entry>
 </feed>
