@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-21T00:01:24.564Z</id>
+    <id>urn:2024-03-22T00:01:35.717Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-03-21T00:01:24.564Z</updated>
+    <updated>2024-03-22T00:01:35.717Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-03-21T00:01:24.525Z</updated>
+        <updated>2024-03-22T00:01:35.679Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-03-21T00:01:21.470Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-03-21T00:01:21.464Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-03-21T00:01:21.452Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,18 +19,38 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-03-21T00:01:21.384Z</updated>
+        <updated>2024-03-22T00:01:32.819Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-03-21T00:01:21.369Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-03-22T00:01:32.788Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-03-22T00:01:32.772Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-03-22T00:01:32.761Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +59,18 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-03-21T00:01:21.363Z</updated>
+        <updated>2024-03-22T00:01:32.712Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-03-22T00:01:32.649Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,51 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-03-21T00:01:21.330Z</updated>
+        <updated>2024-03-22T00:01:32.517Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Porting a Game from Java (update)]]></title>
+        <id>http://funcall.blogspot.com/2024/03/porting-game-from-java-update.html</id>
+        <link href="http://funcall.blogspot.com/2024/03/porting-game-from-java-update.html"/>
+        <updated>2024-03-21T17:08:00.000Z</updated>
+        <summary type="html"><![CDATA[I didn’t expect anyone would be interested, so I just pushed the code that I had with little thought about anyone trying to use it.  It turns out that some people actually wanted to run it, so I polished off some of the rough edges and made it easier to get working.  Feel free to email me if you have questions or suggestions.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daniel Craig is my James Bond]]></title>
+        <id>https://batsov.com/articles/2024/03/21/daniel-craig-is-my-james-bond/</id>
+        <link href="https://batsov.com/articles/2024/03/21/daniel-craig-is-my-james-bond/"/>
+        <updated>2024-03-21T10:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Note: This article was originally published on “HEY World” on Oct 25, 2021. I’m moving it to my main blog, as I’ve decided to close my HEY account.]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Story of a Nickname]]></title>
+        <id>https://batsov.com/articles/2024/03/21/the-story-of-a-nickname/</id>
+        <link href="https://batsov.com/articles/2024/03/21/the-story-of-a-nickname/"/>
+        <updated>2024-03-21T07:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Note: This article was originally published on “HEY World” on Sep 30, 2021. I’m moving it to my main blog, as I’ve decided to close my HEY account.]]></summary>
+        <author>
+            <name>(think)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stack Shuffling]]></title>
+        <id>https://mikeinnes.io/posts/stack-shuffling/</id>
+        <link href="https://mikeinnes.io/posts/stack-shuffling/"/>
+        <updated>2024-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebAssembly is an odd compiler target, because of its unusual mix of high- and low-level style. It gives you pointers and a flat array for your heap memory, yet no access to the program stack. It uses jump instructions for control flow, while only allowing the structured kind. It has local variables and even expressions, but instructions take and produce values through a data stack.
+There are well-known ways to deal with most of these peculiarities: you can create a shadow stack to model C-like stack pointers, or turn jump-based control flow back into loops and conditions with the “stackifier” algorithm.]]></summary>
+        <author>
+            <name>Machine Lines</name>
         </author>
     </entry>
     <entry>
@@ -478,28 +519,6 @@ I show how to edit, organize, and load pure Common Lisp files, i.e. source files
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Joe Marshall: Infinite Composition]]></title>
-        <id>http://funcall.blogspot.com/2024/02/infinite-composition.html</id>
-        <link href="http://funcall.blogspot.com/2024/02/infinite-composition.html"/>
-        <updated>2024-02-04T17:37:00.000Z</updated>
-        <summary type="html"><![CDATA[If you like functional composition, you’ll like linear
-  fractional transformations (LFTs).  They behave very nicely when you
-  compose them (in fact, they are a group under functional
-  composition).  If you compose two LFTs, you get another LFT.  You
-  can keep composing as long as you wish.  Let’s compose an
-  infinite number of LFTs.
-I suppose I should argue that composing an infinite number of LFTs
-  will give you anything at all.  Consider those LFTs with
-  non-negative coefficients.  When given an input in the range [0,∞],
-  they will output a number in the range [A/C, B/D].  The output range
-  is narrower than, and contained within, the input range.  If we compose two such LFTs, the
-  range of output of the outermost LFT will be even narrower.  As we
-  compose more and more of thes…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Learn Nix, Part 49: nix-direnv is a huge quality of life improvement]]></title>
         <id>https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/</id>
         <link href="https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/"/>
@@ -574,16 +593,6 @@ really know them in the…]]></summary>
         <link href="https://batsov.com/articles/2024/01/16/learning-ocaml-verifying-tail-recursion-with-tailcall/"/>
         <updated>2024-01-16T08:52:00.000Z</updated>
         <summary type="html"><![CDATA[How can you be sure that an OCaml function you wrote is actually tail-recursive? You can certainly compile the code and look at the generated assembly code, but that’d be quite the overkill, given there is a much simpler way to do this.]]></summary>
-        <author>
-            <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023: The Year in Review]]></title>
-        <id>https://batsov.com/articles/2024/01/16/2023-the-year-in-review/</id>
-        <link href="https://batsov.com/articles/2024/01/16/2023-the-year-in-review/"/>
-        <updated>2024-01-16T08:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Life can only be understood backwards; but it must be lived forwards. – Søren Kierkegaard]]></summary>
         <author>
             <name>(think)</name>
         </author>
@@ -697,16 +706,6 @@ in the case of a partial collection in which we identify …]]></summary>
 Read more]]></summary>
         <author>
             <name>JuliaLang - The Julia programming language</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bad Year for Blogging]]></title>
-        <id>https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/</id>
-        <link href="https://batsov.com/articles/2023/12/23/a-bad-year-for-blogging/"/>
-        <updated>2023-12-23T06:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year (2022) I celebrated a rather unexpected all time blogging record. As it often happens in such cases, however, there was a massive drop in my blogging activity afterwards.]]></summary>
-        <author>
-            <name>(think)</name>
         </author>
     </entry>
     <entry>
@@ -1156,12 +1155,13 @@ Why don't scientists test their code? Well, it turns out that most scientists do
     </entry>
     <entry>
         <title type="html"><![CDATA[Finding Your Mojo]]></title>
-        <id>https://mikeinnes.io/2023/06/06/mojo.html</id>
-        <link href="https://mikeinnes.io/2023/06/06/mojo.html"/>
+        <id>https://mikeinnes.io/posts/mojo/</id>
+        <link href="https://mikeinnes.io/posts/mojo/"/>
         <updated>2023-06-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.[^1]]]></summary>
+        <summary type="html"><![CDATA[Last month a startup called Modular released a new language called Mojo (not to be confused with the existing indigenous one). Based on Python and designed for ML hardware and models, Mojo’s goals (“the usability of Python with the performance of C”) coincide with those of the Julia language, so I’m interested to compare notes.1
+Some throat-clearing to start. I’ve done a bit of work on Julia, particularly on its support for ML hardware and models, though it’s a few years since I’ve been directly affiliated.]]></summary>
         <author>
-            <name>Mike Innes’s Blog</name>
+            <name>Machine Lines</name>
         </author>
     </entry>
     <entry>
@@ -1222,12 +1222,13 @@ Yes, there are differences between them, but all of them involve turning scienti
     </entry>
     <entry>
         <title type="html"><![CDATA[Data Structures, Data Modelling]]></title>
-        <id>https://mikeinnes.io/2023/05/30/data.html</id>
-        <link href="https://mikeinnes.io/2023/05/30/data.html"/>
+        <id>https://mikeinnes.io/posts/data/</id>
+        <link href="https://mikeinnes.io/posts/data/"/>
         <updated>2023-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Most programming languages conflate the building of data structures and the modelling of information.]]></summary>
+        <summary type="html"><![CDATA[Most programming languages conflate the building of data structures and the modelling of information.
+Of course, you need data structures to store information, but there are two different levels of abstraction. On one level are pointers and structs and B-Trees and so on, on another the user models of a dictionary, list or relational table, built on the first. The former uses finicky, low-level tools to create the neat internal logic of the system.]]></summary>
         <author>
-            <name>Mike Innes’s Blog</name>
+            <name>Machine Lines</name>
         </author>
     </entry>
     <entry>
