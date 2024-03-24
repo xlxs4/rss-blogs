@@ -313,6 +313,16 @@
           "imageUrl": null
         },
         {
+          "id": "http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/",
+          "author": null,
+          "description": "When I wrote about EURISKO a few years before there hardly was an expectation of a follow-up. The system was a dusty legend with some cynical minds arguing whether it existed in the first place.\nHowever, Lenat's death in August last year has unlocked his SAILDART archives account. This has led to a thrilling discovery of both AM and EURISKO sources by WhiteFlame. In a further development, seveno4 has managed to adapt EURISKO to run on Medley Interlisp.\nWhile I marveled at the idea of discovery systems before I hadn't even considered ever running EURISKO myself as a possibility. Truly an Indiana Jones finding the Lost Ark moment. Yet this very low probability event has indeed happened, as documented in the video below. Rewind to 8:20 for the Medley run.",
+          "link": "http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/",
+          "publishedOn": "2024-03-21T15:00:00.000Z",
+          "wordCount": 156,
+          "title": "Eugene Zaikonnikov: EURISKO lives",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
           "author": null,
           "description": "I decided to learn about games, so I followed along with a tutorial\n  by Kaarin Gaming.  His tutorial was written in Java, but of course I\n  used Common Lisp.  I made no attempt to faithfully replicate his\n  design, but I followed it closely in some places, less so in others.\n  The resulting program was more or less a port of the Java program to\n  Common Lisp, so it not very remarkable in and of itself.  Certainly\n  I don’t expect many people to be interested in reading\n  beyond this point.\nIt’s known that Java is wordy language and it shows in the\n  end result.  The tutorial had 3712 lines of Java code in 39 files\n  and the equivalent Common Lisp was 2255 lines in 21 files.  A\n  typical Common Lisp file would contain more code than a typical Java\n  file.  It was often the case that a Comm…",
@@ -391,16 +401,6 @@
           "wordCount": 4716,
           "title": "Joe Marshall: Bilinear Fractional Transformations",
           "imageUrl": null
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/managing-pure-common-lisp-files-on-medley?pk_campaign=rss-feed",
-          "author": null,
-          "description": "Managing Lisp code in the residential environment of Medley differs from similar tasks in traditional file based Common Lisp systems.\nIn a previous post I explained how the residential environment of Medley works, discussed some of its facilities and tools, and introduced a workflow for managing Common Lisp code under the residential environment. This leverages the way Medley is designed to work and minimizes friction.\nIn this post I explain how to use Medley as a file based environment, albeit with some friction and reduced functionality.\nI show how to edit, organize, and load pure Common Lisp files, i.e. source files not under the control of the File Manager. Pure files are ordinary text files that contain only Common Lisp code, with no metadata or font control commands like the code dat…",
-          "link": "https://journal.paoloamoroso.com/managing-pure-common-lisp-files-on-medley?pk_campaign=rss-feed",
-          "publishedOn": "2024-02-08T11:17:13.000Z",
-          "wordCount": 1554,
-          "title": "Paolo Amoroso: Managing pure Common Lisp files on Medley",
-          "imageUrl": "https://i.snap.as/68i8povn.jpg"
         }
       ]
     },
@@ -448,16 +448,6 @@
           "wordCount": 693,
           "title": "Spectral Contexts in Go",
           "imageUrl": "https://hypirion.com/thumbnails/phantom-types-in-go.jpg"
-        },
-        {
-          "id": "https://hypirion.com/musings/graphql-and-type-systems",
-          "author": null,
-          "description": "Like Go, GraphQL isn't at the forefront of type theory. Let's look at what I miss and whether it would be sensible to add them to the specification.",
-          "link": "https://hypirion.com/musings/graphql-and-type-systems",
-          "publishedOn": "2023-05-28T15:45:00.000Z",
-          "wordCount": 2151,
-          "title": "GraphQL and Type Systems",
-          "imageUrl": null
         }
       ]
     },
@@ -786,29 +776,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-23T00:01:18.759Z",
+          "publishedOn": "2024-03-24T00:01:19.598Z",
           "wordCount": 773,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-23T00:01:14.800Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-23T00:01:14.790Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -816,9 +786,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-23T00:01:14.787Z",
+          "publishedOn": "2024-03-24T00:01:16.597Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-03-24T00:01:16.593Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,19 +806,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-23T00:01:14.782Z",
+          "publishedOn": "2024-03-24T00:01:16.591Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-23T00:01:14.753Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-03-24T00:01:16.583Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -846,7 +826,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-23T00:01:14.745Z",
+          "publishedOn": "2024-03-24T00:01:16.569Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -856,9 +836,19 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-23T00:01:14.638Z",
+          "publishedOn": "2024-03-24T00:01:16.230Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-03-24T00:01:16.228Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         }
       ]
