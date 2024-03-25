@@ -99,16 +99,6 @@
           "wordCount": 2185,
           "title": "Finding Your Mojo",
           "imageUrl": null
-        },
-        {
-          "id": "https://mikeinnes.io/posts/data/",
-          "author": null,
-          "description": "Most programming languages conflate the building of data structures and the modelling of information.\nOf course, you need data structures to store information, but there are two different levels of abstraction. On one level are pointers and structs and B-Trees and so on, on another the user models of a dictionary, list or relational table, built on the first. The former uses finicky, low-level tools to create the neat internal logic of the system.",
-          "link": "https://mikeinnes.io/posts/data/",
-          "publishedOn": "2023-05-30T00:00:00.000Z",
-          "wordCount": 554,
-          "title": "Data Structures, Data Modelling",
-          "imageUrl": null
         }
       ]
     },
@@ -169,6 +159,26 @@
       "siteUrl": "https://jao.io/blog/",
       "articles": [
         {
+          "id": "https://jao.io/blog/wittgensteins-mistress.html",
+          "author": null,
+          "description": "It took me twenty or thirty pages to really enter in this book, but once I got\nin its mood I had a truly great time. It includes a subliminal tour over\nclassic literature, painting and philosophy all in a truy original narrative\nvoice. Foster Wallace's afterword has also some interesting bits, once you\npardon him his pretentiousness (definitely a much better writer than\ncritic). And remember, the protagonist is not called Helen.\n\nTags: books",
+          "link": "https://jao.io/blog/wittgensteins-mistress.html",
+          "publishedOn": "2024-03-24T21:05:00.000Z",
+          "wordCount": 111,
+          "title": "wittgenstein's mistress",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jao.io/blog/la-casa-verde.html",
+          "author": null,
+          "description": "Vargas Llosa's political view are so obnoxious that I've been putting off\nreading him for decades out of contempt. But one of my teachers insisted I\nshould forget about politics and read this one, or La fiesta del chivo, and I\nfinally took the plunge. And I must say I am happy I did: the way Vargas Llosa\nplays with language in La casa verde is astounding, and he's able to do things\nI would have thought impossible. Reminded me of that scene in the movie\nAmadeus where Mozart explains to the king how three or four people talking at\nonce is just noise, but four voices singing at once is harmony and\nbeauty. Well, Vargas Llosa does the same in writing. He's also able to play\nwith time, interlocking two or three temporal lines in a single narrative and\neven making the whole thing at times loop into itself. The man knew how to\nwrite (I read his latest works are not as good as they used to be) and was\ncreating something I've not seen any other writer do. I read afterwards La\nfiesta del chivo, which is good but not as good. All that in Spanish: I am\nnot sure all those fireworks can be translated, but one would surely need a\ntalented translator for them!\n\nTags: books",
+          "link": "https://jao.io/blog/la-casa-verde.html",
+          "publishedOn": "2024-03-24T20:33:00.000Z",
+          "wordCount": 259,
+          "title": "la casa verde",
+          "imageUrl": null
+        },
+        {
           "id": "https://jao.io/blog/poor-things.html",
           "author": null,
           "description": "I've read good things about the forthcoming movie, and liked what I saw in the\npromotional video, but I cannot believe it's going to be near as good as this\nnovel. The book has too many nuances, literary tricks and wordplay and\nparagraphs one has to read and reread, to be translated to a film. The latter\nmight be its own work of art, and that's fine. But if you're curious about the\nmovie, I'd definitely recommend to read this book. If you're not, I'd\ndefinitely recommend to read this book. The writing is fresh and funny, in\ntypical Gray fashion, and the real themes of the book are universal and\nexposed in a way that is very entertaining on the surface, but with a subtext\nthat gives you food for thought. I don't remember when was the last time that\nI read two hundred pages of a book in a single day, time just flew, as they\nsay.\n\nTags: books",
@@ -181,10 +191,10 @@
         {
           "id": "https://jao.io/blog/in-no-particular-order.html",
           "author": null,
-          "description": "Interesting bits elsewhere:\n\n\n\nTimeless Advice on Writing: The Collected Wisdom of Great Writers\nLeaving Haskell behind — Infinite Negative Utility\nKnuth: Ancient Babylonian Algorithms annotated/explained version.\nMastering Bloom Filters: Big Data Processing in Python\nOlder entries\n\n\n\nTags: sundry",
+          "description": "Interesting bits elsewhere:\n\n\n\nProgramming language semantics: It’s easy as 1,2,3\nNo Silver Bullet - Essence and Accident in Software Engineering\nOlder entries\n\n\n\nTags: sundry",
           "link": "https://jao.io/blog/in-no-particular-order.html",
           "publishedOn": "2023-10-11T01:00:00.000Z",
-          "wordCount": 78,
+          "wordCount": 64,
           "title": "in no particular order",
           "imageUrl": null
         }
@@ -564,12 +574,22 @@
       "siteUrl": "https://www.lambdasierra.com/",
       "articles": [
         {
+          "id": "urn:uuid:636849a0-40c9-47a1-977c-c9ac6de80755",
+          "author": null,
+          "description": "Update: We can't even agree on how to name things.",
+          "link": "https://www.lambdasierra.com/2024/versus#naming",
+          "publishedOn": "2024-03-24T23:00:00.000Z",
+          "wordCount": 415,
+          "title": "Versus (update: Naming)",
+          "imageUrl": null
+        },
+        {
           "id": "urn:uuid:6ad33810-d508-4ddc-a102-85513e520e95",
           "author": null,
           "description": "The ongoing conflict between DBAs and developers over control of analytical data",
           "link": "https://www.lambdasierra.com/2024/versus",
           "publishedOn": "2024-03-02T23:00:00.000Z",
-          "wordCount": 290,
+          "wordCount": 415,
           "title": "Versus",
           "imageUrl": null
         },
@@ -776,39 +796,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-24T00:01:19.598Z",
+          "publishedOn": "2024-03-25T00:01:36.662Z",
           "wordCount": 773,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-24T00:01:16.597Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-24T00:01:16.593Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-24T00:01:16.591Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -816,9 +806,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-24T00:01:16.583Z",
+          "publishedOn": "2024-03-25T00:01:34.160Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-03-25T00:01:34.135Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -826,19 +826,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-24T00:01:16.569Z",
+          "publishedOn": "2024-03-25T00:01:34.132Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-24T00:01:16.230Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         },
         {
@@ -846,9 +836,39 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-24T00:01:16.228Z",
+          "publishedOn": "2024-03-25T00:01:34.130Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-03-25T00:01:34.122Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-25T00:01:34.120Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-03-25T00:01:34.046Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
