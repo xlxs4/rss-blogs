@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-26T00:01:20.429Z</id>
+    <id>urn:2024-03-27T00:01:25.663Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-03-26T00:01:20.429Z</updated>
+    <updated>2024-03-27T00:01:25.663Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-03-26T00:01:20.388Z</updated>
+        <updated>2024-03-27T00:01:25.611Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-03-26T00:01:16.544Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,18 +19,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-03-26T00:01:16.538Z</updated>
+        <updated>2024-03-27T00:01:23.071Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-03-26T00:01:16.454Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-03-27T00:01:23.068Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,8 +39,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-03-26T00:01:16.386Z</updated>
+        <updated>2024-03-27T00:01:23.057Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-03-27T00:01:23.048Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-03-26T00:01:16.310Z</updated>
+        <updated>2024-03-27T00:01:23.021Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-03-26T00:01:16.292Z</updated>
+        <updated>2024-03-27T00:01:23.016Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,67 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-03-26T00:01:16.093Z</updated>
+        <updated>2024-03-27T00:01:22.994Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hacking v8 with guix, bis]]></title>
+        <id>https://wingolog.org/archives/2024/03/26/hacking-v8-with-guix-bis</id>
+        <link href="https://wingolog.org/archives/2024/03/26/hacking-v8-with-guix-bis"/>
+        <updated>2024-03-26T11:51:53.000Z</updated>
+        <summary type="html"><![CDATA[Good day, hackers.  Today, a pragmatic note, on hacking on  from a
+ system.V8Guix
+I’m going to skip a lot of the background because, as it turns out, I
+.
+But following that piece, I mostly gave up on doing V8 hacking from a
+Guix machine—it was more important to just go with the flow of the
+ever-evolving upstream toolchain.  In fact, I ended up installing Ubuntu
+LTS on my main workstations for precisely this reason, which has worked
+fine; I still get Guix in user-space, which is better than nothing.wrote about this already almost a decade
+ago
+Since then, though, Guix has grown to the point that it’s easier to
+create an environment that can run a complicated upstream source
+management project like V8’s.  This is mainly 
+in the  mode.  This article is a step-by-step
+for how to get started wit…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: With- vs. call-with-]]></title>
+        <id>http://funcall.blogspot.com/2024/03/with-vs-call-with.html</id>
+        <link href="http://funcall.blogspot.com/2024/03/with-vs-call-with.html"/>
+        <updated>2024-03-26T11:04:00.000Z</updated>
+        <summary type="html"><![CDATA[In Common Lisp, there are a lot of macros that begin with the word
+  “with-”.  These typically wrap a body of
+  code, and establish a context around the execution of the code.
+In Scheme, they instead have a lot of functions that begin with the
+  words “call-with-”.  They typically take
+  a thunk or receiver as an argument, and establish a
+  context around a call to the thunk or receiver.
+Both of these forms accomplish the same sort of thing: running some
+  user supplied code within a context.  The Scheme way accomplishes
+  this without a macro, but “call-with-”
+  functions are rarely used as arguments to higher order functions.
+  Writing one as a function is slightly easier than writing one as a
+  macro because the compiler takes care of avoiding variable capture.
+  Writing one as a macro leaves it up to the implementor to use
+  appropriate gensyms.  Writing one as a macro avoids a closure and a
+  function call, but so does inlining the function.  The macro
+  form is slightly more concise because it doesn’t have
+  a lambda at every call site.  The function form will
+  likely be easier to debug because it will probably involve a frame
+  on the stack.
+There’s no need to commit to either.  Just write a
+  “with-” macro that expands into a call to
+  an inline “call-with-” function.  This
+  should equally please and irritate everyone.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -547,31 +604,6 @@ The post Semantic Versioning (Semver) is flawed, and Downgrade CI is required to
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Joe Marshall: Bilinear Fractional Transformations]]></title>
-        <id>http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html</id>
-        <link href="http://funcall.blogspot.com/2024/02/bilinear-fractional-transformations.html"/>
-        <updated>2024-02-10T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[A bilinear fractional transformation (BiLFT) is a
-  two-argument function of the form
-(lambda (x y)
-  (/ (+ (* A x y) (* B x) (* C y) D)
-     (+ (* E x y) (* F x) (* G y) H)))
-BiLFTs do not form a group
-  under functional composition with LFTs, but they have this
-  interesting property:  if you hold either input to the BiLFT constant,
-  the BiLFT becomes a LFT on the other input.  So if we consider just
-  one of the inputs at a time (or the output), we can apply some
-  group-like operations.
-You can compose LFTs with BiLFTs in three ways.  First,
-  you can run the output of a BiLFT into the input of a LFT.  Second
-  and third, you can run the output of a LFT into the either the x or
-  y input of a BiLFT.  Composing a LFT with a BiLFT in any of these
-  ways produces another BiLFT, so there …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Learn Nix, Part 49: nix-direnv is a huge quality of life improvement]]></title>
         <id>https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/</id>
         <link href="https://ianthehenry.com/posts/how-to-learn-nix/nix-direnv/"/>
@@ -768,50 +800,6 @@ Read more]]></summary>
         <updated>2023-12-14T14:28:45.000Z</updated>
         <summary type="html"><![CDATA[Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown
 I had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sir talks-a-lot]]></title>
-        <id>https://wingolog.org/archives/2023/12/12/sir-talks-a-lot</id>
-        <link href="https://wingolog.org/archives/2023/12/12/sir-talks-a-lot"/>
-        <updated>2023-12-12T15:18:14.000Z</updated>
-        <summary type="html"><![CDATA[I know, dear reader: of course you have already seen all my talks this year.  Your attentions are really too kind and I thank you.  But those other people, maybe you share one talk with them, and then they ask you for more, and you have to go stalking back through the archives to slake their nerd-thirst.  This happens all the time, right?
-I was thinking of you this morning and I said to myself, why don’t I put together a post linking to all of my talks in 2023, so that you can just send them a link; here we are.  You are very welcome, it is really my pleasure.
-  Wasm
-standards group, Munich, 11 Oct 2023.
-Scheme + Wasm + GC = MVP: Hoot Scheme-to-Wasm compiler update.slides
-
-Wasm GC subgroup, 18 Apr 2023.
-Scheme to Wasm: Use and misuse of the GC proposal.slides
-
-BOB, Berlin, 17 Mar 2023.
-
-
-A world to win: WebAssembly for the rest of us.blogslidesyoutube
-
-EOSS, Prague, 27 June 2023.
-
-
-
-
-
-
-
-Cross-platform mobile UI: “Compilers, compilers everywhere”.slidesyoutubeblogblogblogblogblogblog
-
-Spritely, remote, 10 May 2023.
-
-CPS Soup: A functional intermediate language.blogslides
-
-FOSDEM, Brussels, 4 Feb 2023.
-
-
-Whippet: A new GC for Guile.blogeventslides
-Still here?  The full  will surely fill your cup.talks archive
-2023 talks
-but wait, there’s more]]></summary>
         <author>
             <name>wingolog</name>
         </author>
@@ -1246,27 +1234,6 @@ Nebulosity: a concept or problem is ill-defined. You cannot describe it perfectl
 
 Nebulosity drives rational people crazy, its worse than NP-hard. Rational people need well defined problems. Even if you can prove that the problem cannot be solved, at least the problem itself should be known. But is this always possible?
 You may have a problem that you can barely describe to yourself. You may feel some shape of it, intuitively in your mind, but you cannot explain it perfectly. You notice that it is especially difficult to explain the problem to people unknown to the domain around the problem. There is…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scientific Software Institutes]]></title>
-        <id>https://scientificcoder.com/scientific-software-institutes</id>
-        <link href="https://scientificcoder.com/scientific-software-institutes"/>
-        <updated>2023-05-31T12:34:28.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever gone through life completely oblivious to something? I recently experienced that sensation when I stumbled upon an entire ecosystem of institutions, only learning about them after starting this blog. These organizations are dedicated to promoting better scientific software, which aligns with the mission of my blog. I wanted to know what's going on, so let's have a look at what's out there.
-I noticed the names of the fields of "scientific software" vary a little, but I consider all of these roughly equivalent:
-
-Scientific Software
-
-Research Software Engineering (RSE)
-
-Scientific Computing
-
-Numerical Computing
-
-Yes, there are differences between them, but all of them involve turning scientific knowledge into algorithms and software, and writing software to do scientific researc…]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>
