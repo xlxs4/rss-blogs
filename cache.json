@@ -318,7 +318,7 @@
           "description": "In Common Lisp, there are a lot of macros that begin with the word\n  “with-”.  These typically wrap a body of\n  code, and establish a context around the execution of the code.\nIn Scheme, they instead have a lot of functions that begin with the\n  words “call-with-”.  They typically take\n  a thunk or receiver as an argument, and establish a\n  context around a call to the thunk or receiver.\nBoth of these forms accomplish the same sort of thing: running some\n  user supplied code within a context.  The Scheme way accomplishes\n  this without a macro, but “call-with-”\n  functions are rarely used as arguments to higher order functions.\n  Writing one as a function is slightly easier than writing one as a\n  macro because the compiler takes care of avoiding variable capture.\n  Writing one as a macro leaves it up to the implementor to use\n  appropriate gensyms.  Writing one as a macro avoids a closure and a\n  function call, but so does inlining the function.  The macro\n  form is slightly more concise because it doesn’t have\n  a lambda at every call site.  The function form will\n  likely be easier to debug because it will probably involve a frame\n  on the stack.\nThere’s no need to commit to either.  Just write a\n  “with-” macro that expands into a call to\n  an inline “call-with-” function.  This\n  should equally please and irritate everyone.",
           "link": "http://funcall.blogspot.com/2024/03/with-vs-call-with.html",
           "publishedOn": "2024-03-26T11:04:00.000Z",
-          "wordCount": 3719,
+          "wordCount": 3755,
           "title": "Joe Marshall: With- vs. call-with-",
           "imageUrl": null
         },
@@ -602,16 +602,6 @@
           "wordCount": 861,
           "title": "You Bet Your Life",
           "imageUrl": "https://www.lambdasierra.com/2023/100-year-plan/img/100-year-plan.jpg"
-        },
-        {
-          "id": "urn:uuid:a8d0b690-8938-4743-902a-c6978ba7ef0c",
-          "author": null,
-          "description": "A plea to technical writers: Please stop inventing abbreviations and acronyms without defining them.",
-          "link": "https://www.lambdasierra.com/2023/abbreviating/",
-          "publishedOn": "2023-06-03T18:30:00.000Z",
-          "wordCount": 800,
-          "title": "Stop Abbreviating!",
-          "imageUrl": "https://www.lambdasierra/2023/img/flowchart.svg"
         }
       ]
     },
@@ -726,16 +716,6 @@
           "wordCount": 528,
           "title": "What have you been curious about?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.evalapply.org/posts/software-demos/",
-          "author": null,
-          "description": "Making a software demo is a form of deliberate, serious play. An act that feeds our curiosity, inventiveness, and drive. It enlivens. It enriches. It entertains. And as we asymptotically approach the A.G.I. that's just around the corner, the capacity for deliberate, serious play will remain distinctively, deeply, deliciously human. Career software people like yours truly may please take note!",
-          "link": "https://www.evalapply.org/posts/software-demos/index.html",
-          "publishedOn": "2023-06-04T00:00:00.000Z",
-          "wordCount": 1658,
-          "title": "Software demos as deliberate acts of serious play",
-          "imageUrl": null
         }
       ]
     },
@@ -796,29 +776,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-03-29T00:01:26.249Z",
+          "publishedOn": "2024-03-30T00:01:22.238Z",
           "wordCount": 774,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-03-29T00:01:22.848Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-03-29T00:01:22.844Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -826,9 +786,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-03-29T00:01:22.831Z",
+          "publishedOn": "2024-03-30T00:01:17.626Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-03-30T00:01:17.623Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-03-30T00:01:17.612Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -836,19 +816,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-03-29T00:01:22.824Z",
+          "publishedOn": "2024-03-30T00:01:17.600Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-03-29T00:01:22.726Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -856,9 +826,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-03-29T00:01:22.709Z",
+          "publishedOn": "2024-03-30T00:01:17.597Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-03-30T00:01:17.594Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -866,7 +846,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-03-29T00:01:22.669Z",
+          "publishedOn": "2024-03-30T00:01:17.582Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
