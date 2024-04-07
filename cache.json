@@ -6,6 +6,16 @@
       "siteUrl": "https://www.stochasticlifestyle.com/",
       "articles": [
         {
+          "id": "http://www.stochasticlifestyle.com/?p=1062",
+          "author": "Christopher Rackauckas",
+          "description": "I found these notes from August 2018 and thought they might be useful so I am posting them verbatim. \nA stiff ordinary differential equation is a difficult problem to integrator. However, many of the ODE solver suites offer quite a few different choices for this kind of problem. DifferentialEquations.jl offers almost 200 different choices for example. In this article we will dig into what the differences between these integrators really is so that way you can more easily find which one will be most efficient for your problem.\nQuick Overview (tl;dr)\nA BDF, Rosenbrock, ESDIRK method are standard\nFor small equations, Rosenbrock methods have performance advantages\nFor very stiff systems, Rosenbrock and Rosenbrock-W methods do not require convergence of Newton’s method and thus can take larger steps, being more efficient\nBDF integrators are only L-stable (and A-stable) to order 2, so if the problem is  ... READ MORE\nThe post Differences Between Methods for Solving Stiff ODEs appeared first on Stochastic Lifestyle.",
+          "link": "https://www.stochasticlifestyle.com/differences-between-methods-for-solving-stiff-odes/",
+          "publishedOn": "2024-04-06T20:29:00.000Z",
+          "wordCount": 4190,
+          "title": "Differences Between Methods for Solving Stiff ODEs",
+          "imageUrl": "//www.stochasticlifestyle.com/wp-content/themes/chrisrack/style/faviPic2.PNG"
+        },
+        {
           "id": "https://www.stochasticlifestyle.com/?p=1758",
           "author": "Christopher Rackauckas",
           "description": "Many problems can be reduced down to solving f(x)=0, maybe even more than you think! Solving a stiff differential equation? Finding out where the ball hits the ground? Solving an inverse problem to find the parameters to fit a model? In this talk we’ll showcase how SciML’s NonlinearSolve.jl is a general system for solving nonlinear equations and demonstrate its ability to efficiently handle these kinds of problems with high stability and performance. We will focus on how compilers are being integrated into the numerical stack so that many of the things that were manual before, such as defining sparsity patterns, Jacobians, and adjoints, are all automated out-of-the-box making it greatly outperform purely numerical codes like SciPy or NLsolve.jl.\nPyData Global 2023\nThe post Symbolic-Numerics: how compiler smarts can help improve the performance of numerical methods (nonlinear solvers in Julia) appeared first on Stochastic Lifestyle.",
@@ -776,19 +786,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-04-06T00:01:38.915Z",
+          "publishedOn": "2024-04-07T00:01:45.217Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-04-06T00:01:36.076Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -796,7 +796,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-04-06T00:01:36.041Z",
+          "publishedOn": "2024-04-07T00:01:40.340Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -806,9 +806,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-04-06T00:01:36.038Z",
+          "publishedOn": "2024-04-07T00:01:40.327Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-04-07T00:01:40.315Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -816,7 +826,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-04-06T00:01:36.028Z",
+          "publishedOn": "2024-04-07T00:01:40.301Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -826,7 +836,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-04-06T00:01:36.026Z",
+          "publishedOn": "2024-04-07T00:01:40.259Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -836,7 +846,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-04-06T00:01:35.969Z",
+          "publishedOn": "2024-04-07T00:01:40.183Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -846,7 +856,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-04-06T00:01:35.965Z",
+          "publishedOn": "2024-04-07T00:01:40.147Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -897,16 +907,6 @@
           "wordCount": 15900,
           "title": "Fruity Composable Design Patterns in Julia",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1687522411556%2Fc781ad27-554c-48bd-b6fc-f42d5f629591.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/software-testing-for-scientists",
-          "author": "Matthijs Cox",
-          "description": "I am currently reading the book \"Software Engineering for Science.\" It is one giant complaint about how scientists are terrible at writing maintainable code for themselves. I won't go into all the pain, but I do recognize that pain deeply and have written about it elsewhere. Right now I am reading this book hoping to find solutions. So, what's the proposed solution? The book doesn't provide a simple answer, but one recurring topic is \"testing, testing, TESTING!\" So, let's talk about testing!\nWhy don't scientists test their code? Well, it turns out that most scientists do not have a software engineering background, yet they find themselves writing code and software for their work. Alternatively, they may collaborate heavily with software engineers, either in academia or in the industry. If …",
-          "link": "https://scientificcoder.com/software-testing-for-scientists",
-          "publishedOn": "2023-06-11T12:35:26.000Z",
-          "wordCount": 20269,
-          "title": "Software Testing for Scientists",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1685970744744%2F3005ed53-27a0-4856-92d6-26ece2b8fe52.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },

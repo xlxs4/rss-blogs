@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-06T00:01:38.971Z</id>
+    <id>urn:2024-04-07T00:01:45.257Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-04-06T00:01:38.971Z</updated>
+    <updated>2024-04-07T00:01:45.257Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-04-06T00:01:38.915Z</updated>
+        <updated>2024-04-07T00:01:45.217Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-04-06T00:01:36.076Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,7 +19,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-04-06T00:01:36.041Z</updated>
+        <updated>2024-04-07T00:01:40.340Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-04-06T00:01:36.038Z</updated>
+        <updated>2024-04-07T00:01:40.327Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-04-07T00:01:40.315Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-04-06T00:01:36.028Z</updated>
+        <updated>2024-04-07T00:01:40.301Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-04-06T00:01:36.026Z</updated>
+        <updated>2024-04-07T00:01:40.259Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-04-06T00:01:35.969Z</updated>
+        <updated>2024-04-07T00:01:40.183Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,27 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-04-06T00:01:35.965Z</updated>
+        <updated>2024-04-07T00:01:40.147Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Differences Between Methods for Solving Stiff ODEs]]></title>
+        <id>http://www.stochasticlifestyle.com/?p=1062</id>
+        <link href="https://www.stochasticlifestyle.com/differences-between-methods-for-solving-stiff-odes/"/>
+        <updated>2024-04-06T20:29:00.000Z</updated>
+        <summary type="html"><![CDATA[I found these notes from August 2018 and thought they might be useful so I am posting them verbatim. 
+A stiff ordinary differential equation is a difficult problem to integrator. However, many of the ODE solver suites offer quite a few different choices for this kind of problem. DifferentialEquations.jl offers almost 200 different choices for example. In this article we will dig into what the differences between these integrators really is so that way you can more easily find which one will be most efficient for your problem.
+Quick Overview (tl;dr)
+A BDF, Rosenbrock, ESDIRK method are standard
+For small equations, Rosenbrock methods have performance advantages
+For very stiff systems, Rosenbrock and Rosenbrock-W methods do not require convergence of Newton’s method and thus can take larger steps, being more efficient
+BDF integrators are only L-stable (and A-stable) to order 2, so if the problem is  ... READ MORE
+The post Differences Between Methods for Solving Stiff ODEs appeared first on Stochastic Lifestyle.]]></summary>
+        <author>
+            <name>Christopher Rackauckas</name>
         </author>
     </entry>
     <entry>
@@ -1201,17 +1218,6 @@ I've really needed some space away from Kandria for a while, too. I did still re
 The financials for Kand…]]></summary>
         <author>
             <name>妖怪世捨て人</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Software Testing for Scientists]]></title>
-        <id>https://scientificcoder.com/software-testing-for-scientists</id>
-        <link href="https://scientificcoder.com/software-testing-for-scientists"/>
-        <updated>2023-06-11T12:35:26.000Z</updated>
-        <summary type="html"><![CDATA[I am currently reading the book "Software Engineering for Science." It is one giant complaint about how scientists are terrible at writing maintainable code for themselves. I won't go into all the pain, but I do recognize that pain deeply and have written about it elsewhere. Right now I am reading this book hoping to find solutions. So, what's the proposed solution? The book doesn't provide a simple answer, but one recurring topic is "testing, testing, TESTING!" So, let's talk about testing!
-Why don't scientists test their code? Well, it turns out that most scientists do not have a software engineering background, yet they find themselves writing code and software for their work. Alternatively, they may collaborate heavily with software engineers, either in academia or in the industry. If …]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
         </author>
     </entry>
 </feed>
