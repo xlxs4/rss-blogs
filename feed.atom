@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-12T00:01:38.750Z</id>
+    <id>urn:2024-04-13T00:01:30.444Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-04-12T00:01:38.750Z</updated>
+    <updated>2024-04-13T00:01:30.444Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-04-12T00:01:38.723Z</updated>
+        <updated>2024-04-13T00:01:27.961Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-04-12T00:01:37.138Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-04-12T00:01:37.135Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +19,28 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-04-12T00:01:37.074Z</updated>
+        <updated>2024-04-13T00:01:26.213Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-04-13T00:01:26.181Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-04-13T00:01:26.173Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-04-12T00:01:37.042Z</updated>
+        <updated>2024-04-13T00:01:26.163Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-04-12T00:01:37.009Z</updated>
+        <updated>2024-04-13T00:01:26.027Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-04-12T00:01:36.940Z</updated>
+        <updated>2024-04-13T00:01:26.004Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-04-12T00:01:36.885Z</updated>
+        <updated>2024-04-13T00:01:25.895Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -1190,22 +1190,6 @@ The Julia community has a special standing on design patterns: people don't real
         <summary type="html"><![CDATA[Go has phantom types, and we can use them to attach singletons to contexts. Here is a short post on how to do just that.]]></summary>
         <author>
             <name>hyPiRion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Summary of Julia Plotting Packages]]></title>
-        <id>https://www.stochasticlifestyle.com/?p=1723</id>
-        <link href="https://www.stochasticlifestyle.com/summary-of-julia-plotting-packages/"/>
-        <updated>2023-06-17T14:23:29.000Z</updated>
-        <summary type="html"><![CDATA[This is a repost of my response on the Julia Discourse on this topic. I was asked to make a blog post so here you go!
-The “Main” Plotting Packages
-Here’s a quick summary of the most widely used plotting packages. I may have missed one, but I haven’t missed one that is very widely used.
-Plots.jl is the most used. It’s probably the most documented, used in the most tutorials, and is used in many videos.
-
-Pros: Its main draw is that it has a lot of plugins to other packages through its recipes system, which means that a lot of odd things like `plot(sol::ODESolution)` or showing the sparsity of a `BandedMatrix` just works. With all of these integrations, it’s normally what I would recommend first to newcomers since they will generally get the most done with the least work. It  ... READ MORE
-The post Summary of Julia Plotting Packages appeared first on Stochastic Lifestyle.]]></summary>
-        <author>
-            <name>Christopher Rackauckas</name>
         </author>
     </entry>
 </feed>
