@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/testing-the-practical-common-lisp-code-on-medley?pk_campaign=rss-feed",
+          "author": null,
+          "description": "When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered out in the 1990s, mostly prior to the ANSI standard.\nBack then Medley Common Lisp mostly supported CLtL1 plus CLOS and the condition system. Some patches submitted several years later to bring the language closer to CLtL2 needed review and integration.\nAside from these general areas there was no detailed information on what Medley missed or differed from ANSI Common Lisp.\nIn late 2021 Larry Masinter proposed to evaluate the ANSI compatibility of Medley Common Lisp by running the code of popular Common Lisp books and documenting any divergences. In March of 2024 I set to work to test the code of the book Practical Common Lisp by …",
+          "link": "https://journal.paoloamoroso.com/testing-the-practical-common-lisp-code-on-medley?pk_campaign=rss-feed",
+          "publishedOn": "2024-04-14T10:51:12.000Z",
+          "wordCount": 1265,
+          "title": "Paolo Amoroso: Testing the Practical Common Lisp code on Medley",
+          "imageUrl": "https://i.snap.as/68i8povn.jpg"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html",
           "author": null,
           "description": "I’ve seen this “anti-pattern” a few times in CLOS\n  code.  A superclass ’super will have a\n  subclass ’sub and there will be a primary method\n  specialized to the superclass.\n(defmethod foo ((instance super) arg)\n  (format t \"~&Foo called on ~s.\" arg))\n\n\nThen I’ll see an :around method defined on the\n  subclass:\n(defmethod foo :around ((instance sub) arg)\n  (format t \"~&Start foo...~%\")\n  (call-next-method)\n  (format t \"~&End foo.~%\"))\nBut the :around qualifier is not necessary and\n  probably doesn’t do what is intended.  If we remove\n  the :around qualifier, then the most specific primary\n  method will be the foo method specialized\n  on ’sub.  And the (call-next-method)\n  invokation will chain up to the foo method specialized\n  on ’super.  It will work as was likely intended.\n:around methods are useful when\n  the superclass wants to run a method “around”\n  the subclass.  :around methods are combined from least\n  specific to most specific — the opposite order of primary\n  methods — so that the superclass can wrap the call to the\n  subclass.  An good example of where an :around method\n  would be handy is when you need to sieze a lock around the call to\n  the method.  The superclass would sieze the lock in\n  an :around method that would run before any of the\n  subclass primary methods ran.\nOrdinary chaining of methods doesn’t need\n  the :around qualifier.  Just chain the methods.",
@@ -391,16 +401,6 @@
           "wordCount": 818,
           "title": "Paolo Amoroso: Reading A Programmer's Guide to COMMON LISP",
           "imageUrl": "https://i.snap.as/tqNa1b4B.jpg"
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/importing-common-lisp-files-in-medley-with-textmodules?pk_campaign=rss-feed",
-          "author": null,
-          "description": "Medley is a residential environment for Interlisp and Common Lisp development.\nWith some effort it's possible to use Medley as a traditional file based Common Lisp environment. But in specific cases a better approach is to bring in Medley's residential environment Common Lisp sources created in file based environments.\nIn this post I explain the latter, i.e. how to use TextModules to import Common Lisp files into the residential environment. I go over the steps for converting an example program, the database of CD music tracks in Chapter 3 Practical: A Simple Database of Peter Seibel's book Practical Common Lisp.\nMotivation\nUsing the tools and facilities of the residential environment, such as the File Manager, is the normal way of developing new Lisp programs. To run existing Common Lisp …",
-          "link": "https://journal.paoloamoroso.com/importing-common-lisp-files-in-medley-with-textmodules?pk_campaign=rss-feed",
-          "publishedOn": "2024-02-18T11:44:04.000Z",
-          "wordCount": 1866,
-          "title": "Paolo Amoroso: Importing Common Lisp Files in Medley with TextModules",
-          "imageUrl": "https://i.snap.as/68i8povn.jpg"
         }
       ]
     },
@@ -766,19 +766,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-04-14T00:03:47.284Z",
+          "publishedOn": "2024-04-15T00:16:52.379Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-04-14T00:03:46.235Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -786,19 +776,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-04-14T00:03:46.229Z",
+          "publishedOn": "2024-04-15T00:16:50.821Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-04-14T00:03:46.221Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -806,19 +786,29 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-04-14T00:03:46.218Z",
+          "publishedOn": "2024-04-15T00:16:50.818Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-04-14T00:03:46.177Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-04-15T00:16:50.623Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-04-15T00:16:50.597Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -826,9 +816,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-04-14T00:03:46.174Z",
+          "publishedOn": "2024-04-15T00:16:50.545Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-04-15T00:16:50.512Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -836,7 +836,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-04-14T00:03:46.138Z",
+          "publishedOn": "2024-04-15T00:16:50.454Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
