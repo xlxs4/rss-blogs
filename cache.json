@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
+          "author": null,
+          "description": "I was suprised by the interest in the code I wrote for learning the platformer game.\n  It wasn’t the best Lisp code.  I just uploaded what I had.\nBut enough people were interested that I decided to give it a once over.  At https://github.com/jrm-code-project/PlatformerTutorial I have a rewrite where each\n  chapter of the tutorial has been broken off into a separate git branch.  The code is much cleaner and several kludges\n  and idioticies were removed (and I hope none added).",
+          "link": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
+          "publishedOn": "2024-04-19T21:01:00.000Z",
+          "wordCount": 3570,
+          "title": "Joe Marshall: Plaformer Game Tutorial",
+          "imageUrl": null
+        },
+        {
           "id": "https://journal.paoloamoroso.com/testing-the-practical-common-lisp-code-on-medley?pk_campaign=rss-feed",
           "author": null,
           "description": "When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered out in the 1990s, mostly prior to the ANSI standard.\nBack then Medley Common Lisp mostly supported CLtL1 plus CLOS and the condition system. Some patches submitted several years later to bring the language closer to CLtL2 needed review and integration.\nAside from these general areas there was no detailed information on what Medley missed or differed from ANSI Common Lisp.\nIn late 2021 Larry Masinter proposed to evaluate the ANSI compatibility of Medley Common Lisp by running the code of popular Common Lisp books and documenting any divergences. In March of 2024 I set to work to test the code of the book Practical Common Lisp by …",
@@ -391,16 +401,6 @@
           "wordCount": 285,
           "title": "Eugene Zaikonnikov: Deannoyifying SLIME",
           "imageUrl": null
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/reading-a-programmers-guide-to-common-lisp?pk_campaign=rss-feed",
-          "author": null,
-          "description": "I got a cheap used copy of the book A Programmer's Guide to COMMON LISP by Deborah G. Tatar, Digital Press, 1987.\n\nWhy did I read such an old book, published a few years after CLtL1 and well before ANSI finalized the Common Lisp standard?\nI'm always looking for good Lisp books. Since Medley is my primary Lisp environment, I'm particularly interested in books published when the system was originally developed and used. These works are relevant because they cover a set of features close to the state of the Common Lisp implementation of Medley, and present a programming style typical of Lisp development in those years.\nTwo old reviews got me curious about A Programmer's Guide to COMMON LISP, one by Daniel Weinreb and the other by Richard Caruana.\nBoth reviews point out the book is different from most contemporary introductory Lisp books which focus on AI. Although Tatar's does contain some AI code, such as an interesting and complete toy expert system, the sample code spans a wider range of domains like a text formatter similar to nroff.\nWhat sets A Programmer's Guide to COMMON LISP apart from other Lisp books is its environment independent discussion of the interactive Lisp programming process. Writing code in the editor, evaluating expressions from the editor, interacting with the REPL for testing expressions and exploring, and so on.\nI've never seen the process expressed so clearly in any book, past of present. I'm familiar with it but the material is particulary helpful for complete beginners.\nAlthough the short chapter on macros presents some interesting examples like a simplified version of defstruct, it doesn't discuss gensym and variable capture. This is unusual. But it's only one of a few issues and the book is a valuable addition to my Lisp library.\n#CommonLisp #books #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
-          "link": "https://journal.paoloamoroso.com/reading-a-programmers-guide-to-common-lisp?pk_campaign=rss-feed",
-          "publishedOn": "2024-02-22T11:04:59.000Z",
-          "wordCount": 818,
-          "title": "Paolo Amoroso: Reading A Programmer's Guide to COMMON LISP",
-          "imageUrl": "https://i.snap.as/tqNa1b4B.jpg"
         }
       ]
     },
@@ -756,19 +756,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-04-20T00:01:28.490Z",
+          "publishedOn": "2024-04-21T00:01:41.354Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-04-20T00:01:26.525Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -776,7 +766,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-04-20T00:01:26.501Z",
+          "publishedOn": "2024-04-21T00:01:39.626Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -786,39 +776,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-04-20T00:01:26.487Z",
+          "publishedOn": "2024-04-21T00:01:39.552Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-04-20T00:01:26.412Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-04-20T00:01:26.400Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-04-20T00:01:26.398Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -826,9 +786,49 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-04-20T00:01:26.348Z",
+          "publishedOn": "2024-04-21T00:01:39.409Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-04-21T00:01:39.360Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-04-21T00:01:39.357Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-04-21T00:01:39.355Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-04-21T00:01:39.346Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]
