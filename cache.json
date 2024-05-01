@@ -112,16 +112,6 @@
           "wordCount": 2156,
           "title": "Julia 1.10 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
-        },
-        {
-          "id": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
-          "author": null,
-          "description": "PSA: Thread-local state is no longer recommended; Common misconceptions about threadid() and nthreads()\nRead more",
-          "link": "https://julialang.org/blog/2023/07/PSA-dont-use-threadid/",
-          "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 2272,
-          "title": "PSA: Thread-local state is no longer recommended",
-          "imageUrl": "/assets/images/julia-open-graph.png"
         }
       ]
     },
@@ -303,12 +293,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
+          "author": null,
+          "description": "In some languages, like Lisp and OCaml, every language construct is an\n  expression that returns a value.  Other languages, like Java or\n  Python, have two kinds of language constructs:  expressions, which\n  combine compositionally and which have return values, and\n  statements, which combine sequentially and which have no return\n  values and thus must operate by side effect.  Having statements\n  in your language needlessly makes things more complicated, but\n  language designers seem to want to go much further and add\n  complexity that just seems capricious.\nYou cannot usually use a statement in a context where an\n  expression is expected because there is no return value.  You can\n  use an expression where a statement is expected by simply discarding\n  the return value.  This means there a…",
+          "link": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
+          "publishedOn": "2024-04-30T16:18:00.000Z",
+          "wordCount": 4035,
+          "title": "Joe Marshall: Statements and Expressions",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/04/state-machines.html",
           "author": null,
           "description": "One of the things you do when writing a game is to write little\n  state machines for objects that have non-trivial behaviors.  A game\n  loop runs frequently (dozens to hundreds of times a second) and\n  iterates over all the state machines and advances each of them by\n  one state.  The state machines will appear to run in parallel with\n  each other.  However, there is no guarantee of what order the state\n  machines are advanced, so care must be taken if a machine reads or\n  modifies another machine’s state.\nCLOS provides a particularly elegant way to code up a state\n  machine.  The generic function step! takes a state\n  machine and its current state as arguments.  We represent the state\n  as a keyword.  An eql specialized method\n  for each state is written.\n(defclass my-state-machine ()\n  (…",
           "link": "http://funcall.blogspot.com/2024/04/state-machines.html",
           "publishedOn": "2024-04-25T15:51:00.000Z",
-          "wordCount": 4189,
+          "wordCount": 4194,
           "title": "Joe Marshall: State Machines",
           "imageUrl": null
         },
@@ -318,7 +318,7 @@
           "description": "I was suprised by the interest in the code I wrote for learning the platformer game.\n  It wasn’t the best Lisp code.  I just uploaded what I had.\nBut enough people were interested that I decided to give it a once over.  At https://github.com/jrm-code-project/PlatformerTutorial I have a rewrite where each\n  chapter of the tutorial has been broken off into a separate git branch.  The code is much cleaner and several kludges\n  and idioticies were removed (and I hope none added).",
           "link": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
           "publishedOn": "2024-04-19T21:01:00.000Z",
-          "wordCount": 3574,
+          "wordCount": 3577,
           "title": "Joe Marshall: Plaformer Game Tutorial",
           "imageUrl": null
         },
@@ -338,7 +338,7 @@
           "description": "I’ve seen this “anti-pattern” a few times in CLOS\n  code.  A superclass ’super will have a\n  subclass ’sub and there will be a primary method\n  specialized to the superclass.\n(defmethod foo ((instance super) arg)\n  (format t \"~&Foo called on ~s.\" arg))\n\n\nThen I’ll see an :around method defined on the\n  subclass:\n(defmethod foo :around ((instance sub) arg)\n  (format t \"~&Start foo...~%\")\n  (call-next-method)\n  (format t \"~&End foo.~%\"))\nBut the :around qualifier is not necessary and\n  probably doesn’t do what is intended.  If we remove\n  the :around qualifier, then the most specific primary\n  method will be the foo method specialized\n  on ’sub.  And the (call-next-method)\n  invokation will chain up to the foo method specialized\n  on ’super.  It will work as was likely intended.\n:around methods are useful when\n  the superclass wants to run a method “around”\n  the subclass.  :around methods are combined from least\n  specific to most specific — the opposite order of primary\n  methods — so that the superclass can wrap the call to the\n  subclass.  An good example of where an :around method\n  would be handy is when you need to sieze a lock around the call to\n  the method.  The superclass would sieze the lock in\n  an :around method that would run before any of the\n  subclass primary methods ran.\nOrdinary chaining of methods doesn’t need\n  the :around qualifier.  Just chain the methods.",
           "link": "http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html",
           "publishedOn": "2024-04-02T04:25:00.000Z",
-          "wordCount": 3762,
+          "wordCount": 3765,
           "title": "Joe Marshall: You May Not Need That :around Method",
           "imageUrl": null
         },
@@ -391,16 +391,6 @@
           "wordCount": 2441,
           "title": "vindarel: Oh no, I started a Magit-like plugin for the Lem editor",
           "imageUrl": "/images/default.png"
-        },
-        {
-          "id": "http://within-parens.blogspot.com/2024/03/a-rant-about-r-and-python-and-anything.html",
-          "author": null,
-          "description": "R and Python come from Lisp (R for sure, Python will deny it). Early Lisp.\n  Even before the first edition of \"AI Programming\" by Charniak, Riesbek and McDermott.\n\n\n\n  At that time, there were a-lists and p-lists. Then Charniak, Riesbeck and\n  McDermott taught us (not only them of course) to create records in\n  Lisp. You know... those things like:\n\n    DECLARE\n      1 STUDENT,\n        2 NAME     CHAR (30),\n        2 SURNAME  CHAR (50),\n        2 ID FIXED DECIMAL (8),\n        2 ADDRESS,\n          3 STREET  CHAR (80),\n          3 NUMBER  FIXED DECIMAL (5),\n          3 CITY    CHAR (80),\n          3 PRST    CHAR (20),\n          3 ZIP     CHAR (10),\n          3 COUNTRY CHAR (80);\n\n\nUsing a-lists the above may become:\n    (defvar student '((name . \"John\")\n                      (surname . \"Bluta…",
-          "link": "http://within-parens.blogspot.com/2024/03/a-rant-about-r-and-python-and-anything.html",
-          "publishedOn": "2024-03-03T13:35:00.000Z",
-          "wordCount": 2319,
-          "title": "Marco Antoniotti: A Rant about R and Python (and anything with a-lists, tuples and \"dictionaries\").",
-          "imageUrl": null
         }
       ]
     },
@@ -665,16 +655,6 @@
           "wordCount": 1826,
           "title": "Emerging from dotemacs bankruptcy the hard way: the midway refactor",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-packages/",
-          "author": null,
-          "description": "Elpa, Melpa, git repo. Vendor package straight from source. It compiled? Fetch some more! Elpa, Melpa, git repo. In more adult terms, we learn to use use-package to fetch, install, initialise, configure useful packages that enhance our Emacs experience.",
-          "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-packages/index.html",
-          "publishedOn": "2023-07-06T00:00:00.000Z",
-          "wordCount": 1615,
-          "title": "Emerging from dotemacs bankruptcy the hard way: package management",
-          "imageUrl": null
         }
       ]
     },
@@ -725,7 +705,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-04-30T00:27:55.013Z",
+          "publishedOn": "2024-05-01T00:01:48.357Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -735,7 +715,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-04-30T00:27:53.692Z",
+          "publishedOn": "2024-05-01T00:01:47.305Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -745,7 +725,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-04-30T00:27:53.689Z",
+          "publishedOn": "2024-05-01T00:01:47.298Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -755,7 +735,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-04-30T00:27:53.662Z",
+          "publishedOn": "2024-05-01T00:01:47.134Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -765,7 +745,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-04-30T00:27:53.636Z",
+          "publishedOn": "2024-05-01T00:01:47.104Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -775,7 +755,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-04-30T00:27:53.619Z",
+          "publishedOn": "2024-05-01T00:01:47.062Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -785,7 +765,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-04-30T00:27:53.618Z",
+          "publishedOn": "2024-05-01T00:01:47.060Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -795,7 +775,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-04-30T00:27:53.363Z",
+          "publishedOn": "2024-05-01T00:01:46.934Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
