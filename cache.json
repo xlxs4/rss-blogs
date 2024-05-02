@@ -298,7 +298,7 @@
           "description": "In some languages, like Lisp and OCaml, every language construct is an\n  expression that returns a value.  Other languages, like Java or\n  Python, have two kinds of language constructs:  expressions, which\n  combine compositionally and which have return values, and\n  statements, which combine sequentially and which have no return\n  values and thus must operate by side effect.  Having statements\n  in your language needlessly makes things more complicated, but\n  language designers seem to want to go much further and add\n  complexity that just seems capricious.\nYou cannot usually use a statement in a context where an\n  expression is expected because there is no return value.  You can\n  use an expression where a statement is expected by simply discarding\n  the return value.  This means there a…",
           "link": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
           "publishedOn": "2024-04-30T16:18:00.000Z",
-          "wordCount": 4035,
+          "wordCount": 4239,
           "title": "Joe Marshall: Statements and Expressions",
           "imageUrl": null
         },
@@ -705,7 +705,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-01T00:01:48.357Z",
+          "publishedOn": "2024-05-02T00:01:29.509Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -715,9 +715,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-01T00:01:47.305Z",
+          "publishedOn": "2024-05-02T00:01:27.983Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-05-02T00:01:27.980Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -725,7 +735,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-01T00:01:47.298Z",
+          "publishedOn": "2024-05-02T00:01:27.977Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -735,19 +745,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-01T00:01:47.134Z",
+          "publishedOn": "2024-05-02T00:01:27.789Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-01T00:01:47.104Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -755,7 +755,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-01T00:01:47.062Z",
+          "publishedOn": "2024-05-02T00:01:27.762Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -765,7 +765,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-01T00:01:47.060Z",
+          "publishedOn": "2024-05-02T00:01:27.612Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-01T00:01:46.934Z",
+          "publishedOn": "2024-05-02T00:01:27.584Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
