@@ -104,6 +104,16 @@
       "siteUrl": "https://julialang.org/",
       "articles": [
         {
+          "id": "https://julialang.org/blog/2024/05/gsoc-2024-fellows/",
+          "author": null,
+          "description": "GSoC and JSoC Fellows and Projects announced for 2024.\nRead more",
+          "link": "https://julialang.org/blog/2024/05/gsoc-2024-fellows/",
+          "publishedOn": "2024-05-03T00:00:00.000Z",
+          "wordCount": 904,
+          "title": "2024 GSoC and JSoC Fellows Announced",
+          "imageUrl": "/assets/images/julia-open-graph.png"
+        },
+        {
           "id": "https://julialang.org/blog/2023/12/julia-1.10-highlights/",
           "author": null,
           "description": "Highlights of the Julia 1.10 release.\nRead more",
@@ -298,7 +308,7 @@
           "description": "In some languages, like Lisp and OCaml, every language construct is an\n  expression that returns a value.  Other languages, like Java or\n  Python, have two kinds of language constructs:  expressions, which\n  combine compositionally and which have return values, and\n  statements, which combine sequentially and which have no return\n  values and thus must operate by side effect.  Having statements\n  in your language needlessly makes things more complicated, but\n  language designers seem to want to go much further and add\n  complexity that just seems capricious.\nYou cannot usually use a statement in a context where an\n  expression is expected because there is no return value.  You can\n  use an expression where a statement is expected by simply discarding\n  the return value.  This means there a…",
           "link": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
           "publishedOn": "2024-04-30T16:18:00.000Z",
-          "wordCount": 4239,
+          "wordCount": 4244,
           "title": "Joe Marshall: Statements and Expressions",
           "imageUrl": null
         },
@@ -308,7 +318,7 @@
           "description": "One of the things you do when writing a game is to write little\n  state machines for objects that have non-trivial behaviors.  A game\n  loop runs frequently (dozens to hundreds of times a second) and\n  iterates over all the state machines and advances each of them by\n  one state.  The state machines will appear to run in parallel with\n  each other.  However, there is no guarantee of what order the state\n  machines are advanced, so care must be taken if a machine reads or\n  modifies another machine’s state.\nCLOS provides a particularly elegant way to code up a state\n  machine.  The generic function step! takes a state\n  machine and its current state as arguments.  We represent the state\n  as a keyword.  An eql specialized method\n  for each state is written.\n(defclass my-state-machine ()\n  (…",
           "link": "http://funcall.blogspot.com/2024/04/state-machines.html",
           "publishedOn": "2024-04-25T15:51:00.000Z",
-          "wordCount": 4194,
+          "wordCount": 4197,
           "title": "Joe Marshall: State Machines",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "I was suprised by the interest in the code I wrote for learning the platformer game.\n  It wasn’t the best Lisp code.  I just uploaded what I had.\nBut enough people were interested that I decided to give it a once over.  At https://github.com/jrm-code-project/PlatformerTutorial I have a rewrite where each\n  chapter of the tutorial has been broken off into a separate git branch.  The code is much cleaner and several kludges\n  and idioticies were removed (and I hope none added).",
           "link": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
           "publishedOn": "2024-04-19T21:01:00.000Z",
-          "wordCount": 3577,
+          "wordCount": 3580,
           "title": "Joe Marshall: Plaformer Game Tutorial",
           "imageUrl": null
         },
@@ -338,7 +348,7 @@
           "description": "I’ve seen this “anti-pattern” a few times in CLOS\n  code.  A superclass ’super will have a\n  subclass ’sub and there will be a primary method\n  specialized to the superclass.\n(defmethod foo ((instance super) arg)\n  (format t \"~&Foo called on ~s.\" arg))\n\n\nThen I’ll see an :around method defined on the\n  subclass:\n(defmethod foo :around ((instance sub) arg)\n  (format t \"~&Start foo...~%\")\n  (call-next-method)\n  (format t \"~&End foo.~%\"))\nBut the :around qualifier is not necessary and\n  probably doesn’t do what is intended.  If we remove\n  the :around qualifier, then the most specific primary\n  method will be the foo method specialized\n  on ’sub.  And the (call-next-method)\n  invokation will chain up to the foo method specialized\n  on ’super.  It will work as was likely intended.\n:around methods are useful when\n  the superclass wants to run a method “around”\n  the subclass.  :around methods are combined from least\n  specific to most specific — the opposite order of primary\n  methods — so that the superclass can wrap the call to the\n  subclass.  An good example of where an :around method\n  would be handy is when you need to sieze a lock around the call to\n  the method.  The superclass would sieze the lock in\n  an :around method that would run before any of the\n  subclass primary methods ran.\nOrdinary chaining of methods doesn’t need\n  the :around qualifier.  Just chain the methods.",
           "link": "http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html",
           "publishedOn": "2024-04-02T04:25:00.000Z",
-          "wordCount": 3765,
+          "wordCount": 3768,
           "title": "Joe Marshall: You May Not Need That :around Method",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "In Common Lisp, there are a lot of macros that begin with the word\n  “with-”.  These typically wrap a body of\n  code, and establish a context around the execution of the code.\nIn Scheme, they instead have a lot of functions that begin with the\n  words “call-with-”.  They typically take\n  a thunk or receiver as an argument, and establish a\n  context around a call to the thunk or receiver.\nBoth of these forms accomplish the same sort of thing: running some\n  user supplied code within a context.  The Scheme way accomplishes\n  this without a macro, but “call-with-”\n  functions are rarely used as arguments to higher order functions.\n  Writing one as a function is slightly easier than writing one as a\n  macro because the compiler takes care of avoiding variable capture.\n  Writing one as a macro leaves it up to the implementor to use\n  appropriate gensyms.  Writing one as a macro avoids a closure and a\n  function call, but so does inlining the function.  The macro\n  form is slightly more concise because it doesn’t have\n  a lambda at every call site.  The function form will\n  likely be easier to debug because it will probably involve a frame\n  on the stack.\nThere’s no need to commit to either.  Just write a\n  “with-” macro that expands into a call to\n  an inline “call-with-” function.  This\n  should equally please and irritate everyone.",
           "link": "http://funcall.blogspot.com/2024/03/with-vs-call-with.html",
           "publishedOn": "2024-03-26T11:04:00.000Z",
-          "wordCount": 3760,
+          "wordCount": 3763,
           "title": "Joe Marshall: With- vs. call-with-",
           "imageUrl": null
         },
@@ -358,7 +368,7 @@
           "description": "I didn’t expect anyone would be interested, so I just pushed the code that I had with little thought about anyone trying to use it.  It turns out that some people actually wanted to run it, so I polished off some of the rough edges and made it easier to get working.  Feel free to email me if you have questions or suggestions.",
           "link": "http://funcall.blogspot.com/2024/03/porting-game-from-java-update.html",
           "publishedOn": "2024-03-21T17:08:00.000Z",
-          "wordCount": 3570,
+          "wordCount": 3573,
           "title": "Joe Marshall: Porting a Game from Java (update)",
           "imageUrl": null
         },
@@ -378,7 +388,7 @@
           "description": "I decided to learn about games, so I followed along with a tutorial\n  by Kaarin Gaming.  His tutorial was written in Java, but of course I\n  used Common Lisp.  I made no attempt to faithfully replicate his\n  design, but I followed it closely in some places, less so in others.\n  The resulting program was more or less a port of the Java program to\n  Common Lisp, so it not very remarkable in and of itself.  Certainly\n  I don’t expect many people to be interested in reading\n  beyond this point.\nIt’s known that Java is wordy language and it shows in the\n  end result.  The tutorial had 3712 lines of Java code in 39 files\n  and the equivalent Common Lisp was 2255 lines in 21 files.  A\n  typical Common Lisp file would contain more code than a typical Java\n  file.  It was often the case that a Comm…",
           "link": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
           "publishedOn": "2024-03-19T17:10:00.000Z",
-          "wordCount": 4579,
+          "wordCount": 4582,
           "title": "Joe Marshall: Porting a Game from Java",
           "imageUrl": null
         },
@@ -705,9 +715,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-04T00:01:40.475Z",
+          "publishedOn": "2024-05-05T00:01:34.620Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-05-05T00:01:33.663Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -715,7 +735,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-04T00:01:37.864Z",
+          "publishedOn": "2024-05-05T00:01:33.660Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -725,7 +745,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-04T00:01:37.861Z",
+          "publishedOn": "2024-05-05T00:01:33.583Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -735,7 +755,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-04T00:01:37.850Z",
+          "publishedOn": "2024-05-05T00:01:33.559Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -745,7 +765,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-04T00:01:37.788Z",
+          "publishedOn": "2024-05-05T00:01:33.452Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -755,19 +775,9 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-04T00:01:37.777Z",
+          "publishedOn": "2024-05-05T00:01:33.450Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-04T00:01:37.749Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -775,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-04T00:01:37.706Z",
+          "publishedOn": "2024-05-05T00:01:33.269Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -806,16 +816,6 @@
           "wordCount": 2747,
           "title": "JuliaCon Local Eindhoven 2023",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689059863447%2Ff5218ac5-7cf2-4036-bbd4-b6f01ff19866.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/how-to-deploy-algorithms-anywhere",
-          "author": "Matthijs Cox",
-          "description": "Let's say you are an incredible scientific programmer. You've got some pretty math, machine learning model or scientific computing code. And you want to give it to other users. Maybe even turn it into a real product and make a profit from your work. How do you \"deploy\" that piece of code? Most scientists do not think much about this problem at all, but it can have a great influence on how you should develop your code.\nBasically, we need to take what you developed, turn it into something which can be given to the user, so they can install and use it in their computing environment. What to provide depends entirely on the environment of the user. So you'll first need to understand that: the so called \"production environment\", the environment in which your \"product\" or service will operate.\n\nT…",
-          "link": "https://scientificcoder.com/how-to-deploy-algorithms-anywhere",
-          "publishedOn": "2023-07-09T12:41:35.000Z",
-          "wordCount": 21322,
-          "title": "How to deploy algorithms anywhere?",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1688895403637%2Fca806aa8-49ad-41dd-ab25-b3ba2db8ffe6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },

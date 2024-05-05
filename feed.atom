@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-04T00:01:40.495Z</id>
+    <id>urn:2024-05-05T00:01:34.641Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-04T00:01:40.495Z</updated>
+    <updated>2024-05-05T00:01:34.641Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-04T00:01:40.475Z</updated>
+        <updated>2024-05-05T00:01:34.620Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-05-05T00:01:33.663Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,7 +29,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-04T00:01:37.864Z</updated>
+        <updated>2024-05-05T00:01:33.660Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,7 +39,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-04T00:01:37.861Z</updated>
+        <updated>2024-05-05T00:01:33.583Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -39,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-04T00:01:37.850Z</updated>
+        <updated>2024-05-05T00:01:33.559Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-04T00:01:37.788Z</updated>
+        <updated>2024-05-05T00:01:33.452Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,18 +69,8 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-04T00:01:37.777Z</updated>
+        <updated>2024-05-05T00:01:33.450Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-04T00:01:37.749Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,21 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-04T00:01:37.706Z</updated>
+        <updated>2024-05-05T00:01:33.269Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024 GSoC and JSoC Fellows Announced]]></title>
+        <id>https://julialang.org/blog/2024/05/gsoc-2024-fellows/</id>
+        <link href="https://julialang.org/blog/2024/05/gsoc-2024-fellows/"/>
+        <updated>2024-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GSoC and JSoC Fellows and Projects announced for 2024.
+Read more]]></summary>
+        <author>
+            <name>JuliaLang - The Julia programming language</name>
         </author>
     </entry>
     <entry>
@@ -1038,19 +1049,6 @@ As an alternative, to quickly see the field name…]]></summary>
 The website is live: https://juliacon.org/local/eindhoven2023/. You can submit proposals, book early-bird tickets and consider joining as a volunteer.
 We named it "JuliaCon Local" to avoid any confusion with the yearly Global JuliaCon, which is typically also associated with a city name. The date is also positioned in the winter, to be out of sync with the summer schedule of the Global JuliaCon conferences. People who could not attend the Global JuliaCon now have another opportunity to meet like-minded Julians and computational scientists in the industry and academia.
 My apologies if I notify you via multiple channels, including my blog, but we are really excited about growing our scientific computing community in the area. Please consider sharing the news with your network. Of course everyone on the planet is welcome to join our conference! Hopefully we are paving the path to more city-level JuliaCon conferences.]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to deploy algorithms anywhere?]]></title>
-        <id>https://scientificcoder.com/how-to-deploy-algorithms-anywhere</id>
-        <link href="https://scientificcoder.com/how-to-deploy-algorithms-anywhere"/>
-        <updated>2023-07-09T12:41:35.000Z</updated>
-        <summary type="html"><![CDATA[Let's say you are an incredible scientific programmer. You've got some pretty math, machine learning model or scientific computing code. And you want to give it to other users. Maybe even turn it into a real product and make a profit from your work. How do you "deploy" that piece of code? Most scientists do not think much about this problem at all, but it can have a great influence on how you should develop your code.
-Basically, we need to take what you developed, turn it into something which can be given to the user, so they can install and use it in their computing environment. What to provide depends entirely on the environment of the user. So you'll first need to understand that: the so called "production environment", the environment in which your "product" or service will operate.
-
-T…]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>
