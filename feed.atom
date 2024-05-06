@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-05T00:01:34.641Z</id>
+    <id>urn:2024-05-06T00:01:37.024Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-05T00:01:34.641Z</updated>
+    <updated>2024-05-06T00:01:37.024Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-05T00:01:34.620Z</updated>
+        <updated>2024-05-06T00:01:37.004Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-05T00:01:33.663Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-05T00:01:33.660Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-05T00:01:33.583Z</updated>
+        <updated>2024-05-06T00:01:32.068Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-05-06T00:01:32.007Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,8 +39,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-05T00:01:33.559Z</updated>
+        <updated>2024-05-06T00:01:31.982Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-05-06T00:01:31.973Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-05T00:01:33.452Z</updated>
+        <updated>2024-05-06T00:01:31.784Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-05T00:01:33.450Z</updated>
+        <updated>2024-05-06T00:01:31.782Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,35 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-05T00:01:33.269Z</updated>
+        <updated>2024-05-06T00:01:31.073Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Animation: Two Methods]]></title>
+        <id>http://funcall.blogspot.com/2024/05/animation-two-methods.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/animation-two-methods.html"/>
+        <updated>2024-05-04T23:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Animated sprites are much cooler that static ones and really make
+  your game come to life.  They are pretty easy to implement, but
+  there are a couple of ways to implement them, and I've seen several
+  projects use the less optimal strategy.
+The less optimal strategy is straightforward.  We keep a time counter in
+  the animated entity and increment it every time we update the
+  entity.  When the counter exceeds the amount of time for an animation
+  frame, we advance to the next frame and reset the ticker.
+(defclass entity ()
+  ((animation-ticker :initform 0 :accessor animation-ticker)))
+
+(defun entity-step! (entity dticks)
+  (incf (animation-ticker entity) dticks)
+  (when (> (animation-ticker entity) ticks-per-frame)
+    (advance-to-next-frame! entity)
+    (decf (animation-ticker entity)…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -430,29 +455,6 @@ It’s known that Java is wordy language and it shows in the
   and the equivalent Common Lisp was 2255 lines in 21 files.  A
   typical Common Lisp file would contain more code than a typical Java
   file.  It was often the case that a Comm…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vindarel: Oh no, I started a Magit-like plugin for the Lem editor]]></title>
-        <id>https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/</id>
-        <link href="https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/"/>
-        <updated>2024-03-14T12:11:34.000Z</updated>
-        <summary type="html"><![CDATA[Lem is an awesome project. It’s an
-editor buit in Common Lisp, ready to use out of the box for Common
-Lisp, that supports more languages and modes (Python, Rust, Elixir,
-Go, JavaScript, TypeScript, Haskell, Java, Nim, Dart, OCaml, Scala,
-Swift, shell, asm, but also markdown, ascii, JSON, HTML and CSS, SQL...)
-thanks to, in part, its built-in LSP support.
-I took the challenge to add an interactive interface for Git, à la
-Magit, because you know, despite all its features (good vim mode,
-project-aware commands, grep, file tree view and directory mode,
-multiple cursors, tabs...), there’s so much an editor should do to be
-useful all day long.
-Now, for a Git project (and to a lower extent, Fossil and
-Mercurial ones) we can see its status, stage changes, commit, push &
-pull, start an interactive …]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -1036,19 +1038,6 @@ You can quickly make an object and display it.
 julia> obj = MyType(4.0, Dict(:x => 5))MyType(4.0, Dict(:x => 5))
 Okay... Julia basically shows the constructor of the object. I would like to see the field names, or maybe other information. Sometimes I want to see statistical properties for example, instead of the raw data.
 As an alternative, to quickly see the field name…]]></summary>
-        <author>
-            <name>Matthijs Cox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JuliaCon Local Eindhoven 2023]]></title>
-        <id>https://scientificcoder.com/juliacon-local-eindhoven-2023</id>
-        <link href="https://scientificcoder.com/juliacon-local-eindhoven-2023"/>
-        <updated>2023-07-11T07:23:12.000Z</updated>
-        <summary type="html"><![CDATA[I am very happy to announce that I am an organizer of the first city-level JuliaCon conference. This will be a one-day event in Eindhoven on December 1st, organized together with the PyData Eindhoven conference on November 30th (the day before).
-The website is live: https://juliacon.org/local/eindhoven2023/. You can submit proposals, book early-bird tickets and consider joining as a volunteer.
-We named it "JuliaCon Local" to avoid any confusion with the yearly Global JuliaCon, which is typically also associated with a city name. The date is also positioned in the winter, to be out of sync with the summer schedule of the Global JuliaCon conferences. People who could not attend the Global JuliaCon now have another opportunity to meet like-minded Julians and computational scientists in the industry and academia.
-My apologies if I notify you via multiple channels, including my blog, but we are really excited about growing our scientific computing community in the area. Please consider sharing the news with your network. Of course everyone on the planet is welcome to join our conference! Hopefully we are paving the path to more city-level JuliaCon conferences.]]></summary>
         <author>
             <name>Matthijs Cox</name>
         </author>

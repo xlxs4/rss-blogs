@@ -303,6 +303,16 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
+          "author": null,
+          "description": "Animated sprites are much cooler that static ones and really make\n  your game come to life.  They are pretty easy to implement, but\n  there are a couple of ways to implement them, and I've seen several\n  projects use the less optimal strategy.\nThe less optimal strategy is straightforward.  We keep a time counter in\n  the animated entity and increment it every time we update the\n  entity.  When the counter exceeds the amount of time for an animation\n  frame, we advance to the next frame and reset the ticker.\n(defclass entity ()\n  ((animation-ticker :initform 0 :accessor animation-ticker)))\n\n(defun entity-step! (entity dticks)\n  (incf (animation-ticker entity) dticks)\n  (when (> (animation-ticker entity) ticks-per-frame)\n    (advance-to-next-frame! entity)\n    (decf (animation-ticker entity)…",
+          "link": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
+          "publishedOn": "2024-05-04T23:09:00.000Z",
+          "wordCount": 3963,
+          "title": "Joe Marshall: Animation: Two Methods",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
           "author": null,
           "description": "In some languages, like Lisp and OCaml, every language construct is an\n  expression that returns a value.  Other languages, like Java or\n  Python, have two kinds of language constructs:  expressions, which\n  combine compositionally and which have return values, and\n  statements, which combine sequentially and which have no return\n  values and thus must operate by side effect.  Having statements\n  in your language needlessly makes things more complicated, but\n  language designers seem to want to go much further and add\n  complexity that just seems capricious.\nYou cannot usually use a statement in a context where an\n  expression is expected because there is no return value.  You can\n  use an expression where a statement is expected by simply discarding\n  the return value.  This means there a…",
@@ -391,16 +401,6 @@
           "wordCount": 4582,
           "title": "Joe Marshall: Porting a Game from Java",
           "imageUrl": null
-        },
-        {
-          "id": "https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/",
-          "author": null,
-          "description": "Lem is an awesome project. It’s an\neditor buit in Common Lisp, ready to use out of the box for Common\nLisp, that supports more languages and modes (Python, Rust, Elixir,\nGo, JavaScript, TypeScript, Haskell, Java, Nim, Dart, OCaml, Scala,\nSwift, shell, asm, but also markdown, ascii, JSON, HTML and CSS, SQL...)\nthanks to, in part, its built-in LSP support.\nI took the challenge to add an interactive interface for Git, à la\nMagit, because you know, despite all its features (good vim mode,\nproject-aware commands, grep, file tree view and directory mode,\nmultiple cursors, tabs...), there’s so much an editor should do to be\nuseful all day long.\nNow, for a Git project (and to a lower extent, Fossil and\nMercurial ones) we can see its status, stage changes, commit, push &\npull, start an interactive …",
-          "link": "https://lisp-journey.gitlab.io/blog/oh-no-i-started-a-magit-like-plugin-for-the-lem-editor/",
-          "publishedOn": "2024-03-14T12:11:34.000Z",
-          "wordCount": 2441,
-          "title": "vindarel: Oh no, I started a Magit-like plugin for the Lem editor",
-          "imageUrl": "/images/default.png"
         }
       ]
     },
@@ -715,29 +715,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-05T00:01:34.620Z",
+          "publishedOn": "2024-05-06T00:01:37.004Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-05T00:01:33.663Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-05T00:01:33.660Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -745,9 +725,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-05T00:01:33.583Z",
+          "publishedOn": "2024-05-06T00:01:32.068Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-05-06T00:01:32.007Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -755,9 +745,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-05T00:01:33.559Z",
+          "publishedOn": "2024-05-06T00:01:31.982Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-06T00:01:31.973Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-05T00:01:33.452Z",
+          "publishedOn": "2024-05-06T00:01:31.784Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-05T00:01:33.450Z",
+          "publishedOn": "2024-05-06T00:01:31.782Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -785,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-05T00:01:33.269Z",
+          "publishedOn": "2024-05-06T00:01:31.073Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -806,16 +806,6 @@
           "wordCount": 7213,
           "title": "User-defined Show Method in Julia",
           "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689686215391%2F469dd124-564a-4ccf-a118-c1c9f885f6b6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://scientificcoder.com/juliacon-local-eindhoven-2023",
-          "author": "Matthijs Cox",
-          "description": "I am very happy to announce that I am an organizer of the first city-level JuliaCon conference. This will be a one-day event in Eindhoven on December 1st, organized together with the PyData Eindhoven conference on November 30th (the day before).\nThe website is live: https://juliacon.org/local/eindhoven2023/. You can submit proposals, book early-bird tickets and consider joining as a volunteer.\nWe named it \"JuliaCon Local\" to avoid any confusion with the yearly Global JuliaCon, which is typically also associated with a city name. The date is also positioned in the winter, to be out of sync with the summer schedule of the Global JuliaCon conferences. People who could not attend the Global JuliaCon now have another opportunity to meet like-minded Julians and computational scientists in the industry and academia.\nMy apologies if I notify you via multiple channels, including my blog, but we are really excited about growing our scientific computing community in the area. Please consider sharing the news with your network. Of course everyone on the planet is welcome to join our conference! Hopefully we are paving the path to more city-level JuliaCon conferences.",
-          "link": "https://scientificcoder.com/juliacon-local-eindhoven-2023",
-          "publishedOn": "2023-07-11T07:23:12.000Z",
-          "wordCount": 2747,
-          "title": "JuliaCon Local Eindhoven 2023",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689059863447%2Ff5218ac5-7cf2-4036-bbd4-b6f01ff19866.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
         }
       ]
     },
