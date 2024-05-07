@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
+          "author": null,
+          "description": "A game where things move around has equations of motion that\n  describe how objects move.  We need to solve these to produce the\n  locations of the objects as a function of time, and we have to do it\n  in lock step real time.  Fortunately, we usually don’t need\n  highly realistic models or highly accurate results.  Game phyiscs,\n  while inspired by real world physics, can be crude\n  approximations.\nIf the velocity of an object changes over time, we need to\n  integrate the velocity to determine the position.  This is typically\n  done with forward Euler integration: the current velocity is\n  multiplied by a small Δt and this is added to the current\n  position.  In other words, we assume the object moves linearly over\n  the amount of time represented by Δt.  If Δt is small\n  enough, the linea…",
+          "link": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
+          "publishedOn": "2024-05-06T14:55:00.000Z",
+          "wordCount": 4234,
+          "title": "Joe Marshall: Motion without Integration",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
           "author": null,
           "description": "Animated sprites are much cooler that static ones and really make\n  your game come to life.  They are pretty easy to implement, but\n  there are a couple of ways to implement them, and I've seen several\n  projects use the less optimal strategy.\nThe less optimal strategy is straightforward.  We keep a time counter in\n  the animated entity and increment it every time we update the\n  entity.  When the counter exceeds the amount of time for an animation\n  frame, we advance to the next frame and reset the ticker.\n(defclass entity ()\n  ((animation-ticker :initform 0 :accessor animation-ticker)))\n\n(defun entity-step! (entity dticks)\n  (incf (animation-ticker entity) dticks)\n  (when (> (animation-ticker entity) ticks-per-frame)\n    (advance-to-next-frame! entity)\n    (decf (animation-ticker entity)…",
           "link": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
           "publishedOn": "2024-05-04T23:09:00.000Z",
-          "wordCount": 3963,
+          "wordCount": 3968,
           "title": "Joe Marshall: Animation: Two Methods",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-03-21T15:00:00.000Z",
           "wordCount": 156,
           "title": "Eugene Zaikonnikov: EURISKO lives",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
-          "author": null,
-          "description": "I decided to learn about games, so I followed along with a tutorial\n  by Kaarin Gaming.  His tutorial was written in Java, but of course I\n  used Common Lisp.  I made no attempt to faithfully replicate his\n  design, but I followed it closely in some places, less so in others.\n  The resulting program was more or less a port of the Java program to\n  Common Lisp, so it not very remarkable in and of itself.  Certainly\n  I don’t expect many people to be interested in reading\n  beyond this point.\nIt’s known that Java is wordy language and it shows in the\n  end result.  The tutorial had 3712 lines of Java code in 39 files\n  and the equivalent Common Lisp was 2255 lines in 21 files.  A\n  typical Common Lisp file would contain more code than a typical Java\n  file.  It was often the case that a Comm…",
-          "link": "http://funcall.blogspot.com/2024/03/porting-game-from-java.html",
-          "publishedOn": "2024-03-19T17:10:00.000Z",
-          "wordCount": 4582,
-          "title": "Joe Marshall: Porting a Game from Java",
           "imageUrl": null
         }
       ]
@@ -715,7 +715,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-06T00:01:37.004Z",
+          "publishedOn": "2024-05-07T00:01:18.110Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -725,9 +725,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-06T00:01:32.068Z",
+          "publishedOn": "2024-05-07T00:01:12.170Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-07T00:01:12.153Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -735,7 +745,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-06T00:01:32.007Z",
+          "publishedOn": "2024-05-07T00:01:12.146Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -745,19 +755,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-06T00:01:31.982Z",
+          "publishedOn": "2024-05-07T00:01:12.126Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-06T00:01:31.973Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-06T00:01:31.784Z",
+          "publishedOn": "2024-05-07T00:01:11.910Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-06T00:01:31.782Z",
+          "publishedOn": "2024-05-07T00:01:11.907Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -785,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-06T00:01:31.073Z",
+          "publishedOn": "2024-05-07T00:01:11.788Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
