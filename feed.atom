@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-07T00:01:18.130Z</id>
+    <id>urn:2024-05-08T00:01:13.746Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-07T00:01:18.130Z</updated>
+    <updated>2024-05-08T00:01:13.746Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-07T00:01:18.110Z</updated>
+        <updated>2024-05-08T00:01:13.726Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-07T00:01:12.170Z</updated>
+        <updated>2024-05-08T00:01:10.561Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-07T00:01:12.153Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +29,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-07T00:01:12.146Z</updated>
+        <updated>2024-05-08T00:01:10.551Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,18 +39,18 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-07T00:01:12.126Z</updated>
+        <updated>2024-05-08T00:01:10.544Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-07T00:01:11.910Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-05-08T00:01:10.540Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +59,18 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-07T00:01:11.907Z</updated>
+        <updated>2024-05-08T00:01:10.531Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-05-08T00:01:10.526Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,7 +79,7 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-07T00:01:11.788Z</updated>
+        <updated>2024-05-08T00:01:10.421Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -162,6 +162,17 @@ You cannot usually use a statement in a context where an
   expression is expected because there is no return value.  You can
   use an expression where a statement is expected by simply discarding
   the return value.  This means there a…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eugene Zaikonnikov: The World's Loudest Lisp Program to the Rescue]]></title>
+        <id>http://blog.funcall.org//lisp psychoacoustics/2024/05/01/worlds-loudest-lisp-program/</id>
+        <link href="http://blog.funcall.org//lisp%20psychoacoustics/2024/05/01/worlds-loudest-lisp-program/"/>
+        <updated>2024-04-30T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It is interesting that while I think of myself as a generalist developer the vast portion of my career has been towards embedded and systems programming. I'm firmly a Common Lisp guy at heart but embedded tech landscape is the entrenched realm of C sprinkled with some C++ and nowadays Rust. However I had incredible fortune to work for the last few years on a substantial embedded system project in Common Lisp.
+The story starts in Western Norway, the world capital of tunnels with over 650 located in the area. Tunnels are equipped and maintained to high standard and accidents are infrequent but by the nature of quantities serious ones get to happen. The worst of these are naturally fires, which are notoriously dangerous. Consider that many of single bore tunnels have length over 5km (and up t…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -413,18 +424,6 @@ Tags: books]]></summary>
         <link href="http://funcall.blogspot.com/2024/03/porting-game-from-java-update.html"/>
         <updated>2024-03-21T17:08:00.000Z</updated>
         <summary type="html"><![CDATA[I didn’t expect anyone would be interested, so I just pushed the code that I had with little thought about anyone trying to use it.  It turns out that some people actually wanted to run it, so I polished off some of the rough edges and made it easier to get working.  Feel free to email me if you have questions or suggestions.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eugene Zaikonnikov: EURISKO lives]]></title>
-        <id>http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/</id>
-        <link href="http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/"/>
-        <updated>2024-03-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When I wrote about EURISKO a few years before there hardly was an expectation of a follow-up. The system was a dusty legend with some cynical minds arguing whether it existed in the first place.
-However, Lenat's death in August last year has unlocked his SAILDART archives account. This has led to a thrilling discovery of both AM and EURISKO sources by WhiteFlame. In a further development, seveno4 has managed to adapt EURISKO to run on Medley Interlisp.
-While I marveled at the idea of discovery systems before I hadn't even considered ever running EURISKO myself as a possibility. Truly an Indiana Jones finding the Lost Ark moment. Yet this very low probability event has indeed happened, as documented in the video below. Rewind to 8:20 for the Medley run.]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>

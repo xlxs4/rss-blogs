@@ -109,7 +109,7 @@
           "description": "GSoC and JSoC Fellows and Projects announced for 2024.\nRead more",
           "link": "https://julialang.org/blog/2024/05/gsoc-2024-fellows/",
           "publishedOn": "2024-05-03T00:00:00.000Z",
-          "wordCount": 904,
+          "wordCount": 881,
           "title": "2024 GSoC and JSoC Fellows Announced",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -119,7 +119,7 @@
           "description": "Highlights of the Julia 1.10 release.\nRead more",
           "link": "https://julialang.org/blog/2023/12/julia-1.10-highlights/",
           "publishedOn": "2023-12-27T00:00:00.000Z",
-          "wordCount": 2156,
+          "wordCount": 2133,
           "title": "Julia 1.10 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         }
@@ -308,7 +308,7 @@
           "description": "A game where things move around has equations of motion that\n  describe how objects move.  We need to solve these to produce the\n  locations of the objects as a function of time, and we have to do it\n  in lock step real time.  Fortunately, we usually don’t need\n  highly realistic models or highly accurate results.  Game phyiscs,\n  while inspired by real world physics, can be crude\n  approximations.\nIf the velocity of an object changes over time, we need to\n  integrate the velocity to determine the position.  This is typically\n  done with forward Euler integration: the current velocity is\n  multiplied by a small Δt and this is added to the current\n  position.  In other words, we assume the object moves linearly over\n  the amount of time represented by Δt.  If Δt is small\n  enough, the linea…",
           "link": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
           "publishedOn": "2024-05-06T14:55:00.000Z",
-          "wordCount": 4234,
+          "wordCount": 4298,
           "title": "Joe Marshall: Motion without Integration",
           "imageUrl": null
         },
@@ -330,6 +330,16 @@
           "publishedOn": "2024-04-30T16:18:00.000Z",
           "wordCount": 4244,
           "title": "Joe Marshall: Statements and Expressions",
+          "imageUrl": null
+        },
+        {
+          "id": "http://blog.funcall.org//lisp psychoacoustics/2024/05/01/worlds-loudest-lisp-program/",
+          "author": null,
+          "description": "It is interesting that while I think of myself as a generalist developer the vast portion of my career has been towards embedded and systems programming. I'm firmly a Common Lisp guy at heart but embedded tech landscape is the entrenched realm of C sprinkled with some C++ and nowadays Rust. However I had incredible fortune to work for the last few years on a substantial embedded system project in Common Lisp.\nThe story starts in Western Norway, the world capital of tunnels with over 650 located in the area. Tunnels are equipped and maintained to high standard and accidents are infrequent but by the nature of quantities serious ones get to happen. The worst of these are naturally fires, which are notoriously dangerous. Consider that many of single bore tunnels have length over 5km (and up t…",
+          "link": "http://blog.funcall.org//lisp%20psychoacoustics/2024/05/01/worlds-loudest-lisp-program/",
+          "publishedOn": "2024-04-30T15:00:00.000Z",
+          "wordCount": 2523,
+          "title": "Eugene Zaikonnikov: The World's Loudest Lisp Program to the Rescue",
           "imageUrl": null
         },
         {
@@ -390,16 +400,6 @@
           "publishedOn": "2024-03-21T17:08:00.000Z",
           "wordCount": 3573,
           "title": "Joe Marshall: Porting a Game from Java (update)",
-          "imageUrl": null
-        },
-        {
-          "id": "http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/",
-          "author": null,
-          "description": "When I wrote about EURISKO a few years before there hardly was an expectation of a follow-up. The system was a dusty legend with some cynical minds arguing whether it existed in the first place.\nHowever, Lenat's death in August last year has unlocked his SAILDART archives account. This has led to a thrilling discovery of both AM and EURISKO sources by WhiteFlame. In a further development, seveno4 has managed to adapt EURISKO to run on Medley Interlisp.\nWhile I marveled at the idea of discovery systems before I hadn't even considered ever running EURISKO myself as a possibility. Truly an Indiana Jones finding the Lost Ark moment. Yet this very low probability event has indeed happened, as documented in the video below. Rewind to 8:20 for the Medley run.",
-          "link": "http://blog.funcall.org//lisp/2024/03/22/eurisko-lives/",
-          "publishedOn": "2024-03-21T15:00:00.000Z",
-          "wordCount": 156,
-          "title": "Eugene Zaikonnikov: EURISKO lives",
           "imageUrl": null
         }
       ]
@@ -715,7 +715,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-07T00:01:18.110Z",
+          "publishedOn": "2024-05-08T00:01:13.726Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -725,19 +725,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-07T00:01:12.170Z",
+          "publishedOn": "2024-05-08T00:01:10.561Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-07T00:01:12.153Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -745,7 +735,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-07T00:01:12.146Z",
+          "publishedOn": "2024-05-08T00:01:10.551Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -755,19 +745,19 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-07T00:01:12.126Z",
+          "publishedOn": "2024-05-08T00:01:10.544Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-07T00:01:11.910Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-08T00:01:10.540Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -775,9 +765,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-07T00:01:11.907Z",
+          "publishedOn": "2024-05-08T00:01:10.531Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-08T00:01:10.526Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -785,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-07T00:01:11.788Z",
+          "publishedOn": "2024-05-08T00:01:10.421Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
