@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-10T00:01:40.992Z</id>
+    <id>urn:2024-05-11T00:01:24.365Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-10T00:01:40.992Z</updated>
+    <updated>2024-05-11T00:01:24.365Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-10T00:01:40.972Z</updated>
+        <updated>2024-05-11T00:01:24.345Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-10T00:01:37.125Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-10T00:01:37.119Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-10T00:01:37.118Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-10T00:01:37.080Z</updated>
+        <updated>2024-05-11T00:01:18.848Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-10T00:01:37.078Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,8 +29,48 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-10T00:01:37.068Z</updated>
+        <updated>2024-05-11T00:01:18.736Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-05-11T00:01:18.680Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-05-11T00:01:18.675Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-05-11T00:01:18.663Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-05-11T00:01:18.502Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,36 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-10T00:01:36.789Z</updated>
+        <updated>2024-05-11T00:01:18.447Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: The Way of Lisp or The Right Way]]></title>
+        <id>http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html"/>
+        <updated>2024-05-10T15:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Interpreting Richard Gabriel with a nod to Tim Peters
+
+Keep it simple.
+  A simple interface is better than a simple implementation.
+  Complete is better than simple.
+  Consistent is better than complete.
+  Correctness trumps all.  Incorrectness is simply not allowed.
+  If the interface is hard to use, it is probably a bad idea.
+  If the interface is easy to use, it may be a good idea.
+  A weak language makes it hard to write good code, but a powerful
+  language makes it easy to write bad code that looks good.
+  The first thing that comes to mind is not always the best
+  thing.
+  When performace matters, get your declarations right.
+  There is always another way to do it, and maybe a better one.
+  Lists aren’t the only data type.
+  The right thing and 2 shillings will get you a cup of tea.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -342,39 +368,6 @@ in the  mode.  This article is a step-by-step
 for how to get started wit…]]></summary>
         <author>
             <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: With- vs. call-with-]]></title>
-        <id>http://funcall.blogspot.com/2024/03/with-vs-call-with.html</id>
-        <link href="http://funcall.blogspot.com/2024/03/with-vs-call-with.html"/>
-        <updated>2024-03-26T11:04:00.000Z</updated>
-        <summary type="html"><![CDATA[In Common Lisp, there are a lot of macros that begin with the word
-  “with-”.  These typically wrap a body of
-  code, and establish a context around the execution of the code.
-In Scheme, they instead have a lot of functions that begin with the
-  words “call-with-”.  They typically take
-  a thunk or receiver as an argument, and establish a
-  context around a call to the thunk or receiver.
-Both of these forms accomplish the same sort of thing: running some
-  user supplied code within a context.  The Scheme way accomplishes
-  this without a macro, but “call-with-”
-  functions are rarely used as arguments to higher order functions.
-  Writing one as a function is slightly easier than writing one as a
-  macro because the compiler takes care of avoiding variable capture.
-  Writing one as a macro leaves it up to the implementor to use
-  appropriate gensyms.  Writing one as a macro avoids a closure and a
-  function call, but so does inlining the function.  The macro
-  form is slightly more concise because it doesn’t have
-  a lambda at every call site.  The function form will
-  likely be easier to debug because it will probably involve a frame
-  on the stack.
-There’s no need to commit to either.  Just write a
-  “with-” macro that expands into a call to
-  an inline “call-with-” function.  This
-  should equally please and irritate everyone.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
