@@ -109,7 +109,7 @@
           "description": "GSoC and JSoC Fellows and Projects announced for 2024.\nRead more",
           "link": "https://julialang.org/blog/2024/05/gsoc-2024-fellows/",
           "publishedOn": "2024-05-03T00:00:00.000Z",
-          "wordCount": 881,
+          "wordCount": 821,
           "title": "2024 GSoC and JSoC Fellows Announced",
           "imageUrl": "/assets/images/julia-open-graph.png"
         },
@@ -119,7 +119,7 @@
           "description": "Highlights of the Julia 1.10 release.\nRead more",
           "link": "https://julialang.org/blog/2023/12/julia-1.10-highlights/",
           "publishedOn": "2023-12-27T00:00:00.000Z",
-          "wordCount": 2133,
+          "wordCount": 2073,
           "title": "Julia 1.10 Highlights",
           "imageUrl": "/assets/images/julia-open-graph.png"
         }
@@ -303,13 +303,23 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign=rss-feed",
+          "author": null,
+          "description": "I'm developing the new program Insphex (inspect hex), a hex dump tool that is created with and runs on the Medley Interlisp environment.\nSimilarly to the Linux command hexdump, it shows the contents of files as hexadecimal values and the corresponding ASCII characters. An early version of the program prints the hex dump to the standard output like this.\n\nI plan to enhance Insphex to optionally display the dump in a separate window one page at a time. An attached menu will have options for showing the next page and exiting. I'll also provide an Exec command for running the program.\nThe code is in Common Lisp but will include some Interlisp to access the required system functionality.\nAlthough Insphex is useful in itself, I have three main goals for it. First, I want a real project to practice the process for writing Common Lisp with the residential environment of Medley. This is the native way of coding on Medley and takes full advantage of its development environment and features such as the File Manager and the SEdit editor.\nMost Medley tools and facilities are written in Interlisp or expose Interlisp APIs through which the functionality can be invoked. So another goal is to interface with Interlisp from Common Lisp to access the functionality I need like windows and menus.\nMy third goal is to experiment with displaying textual output in TEdit, the Medley word processor where the hex dump will optionally go.\nAlthough the Interlisp API of TEdit supports advanced editing and formatting, Insphex does only basic text output. The primary feature I want is TEdit's ability to automatically handle repainting the window after it's resized or a hidden portion is exposed. This is handy as by default Interlisp windows mostly don't handle the repaint.\nNow that the basic functionality of Insphex is in place I will implement displaying the hex dump in a TEdit window.\n#insphex #CommonLisp #Interlisp #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
+          "link": "https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign=rss-feed",
+          "publishedOn": "2024-05-11T10:17:08.000Z",
+          "wordCount": 842,
+          "title": "Paolo Amoroso: Insphex, a hex dump tool in Medley Common Lisp",
+          "imageUrl": "https://i.snap.as/QAznV3xz.png"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "author": null,
-          "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performace matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
+          "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
           "wordCount": 3663,
-          "title": "Joe Marshall: The Way of Lisp or The Right Way",
+          "title": "Joe Marshall: The Way of Lisp or The Right Thing",
           "imageUrl": null
         },
         {
@@ -385,22 +395,12 @@
         {
           "id": "https://journal.paoloamoroso.com/testing-the-practical-common-lisp-code-on-medley?pk_campaign=rss-feed",
           "author": null,
-          "description": "When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered out in the 1990s, mostly prior to the ANSI standard.\nBack then Medley Common Lisp mostly supported CLtL1 plus CLOS and the condition system. Some patches submitted several years later to bring the language closer to CLtL2 needed review and integration.\nAside from these general areas there was no detailed information on what Medley missed or differed from ANSI Common Lisp.\nIn late 2021 Larry Masinter proposed to evaluate the ANSI compatibility of Medley Common Lisp by running the code of popular Common Lisp books and documenting any divergences. In March of 2024 I set to work to test the code of the book Practical Common Lisp by …",
+          "description": "When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered off in the 1990s, mostly prior to the ANSI standard.\nBack then Medley Common Lisp mostly supported CLtL1 plus CLOS and the condition system. Some patches submitted several years later to bring the language closer to CLtL2 needed review and integration.\nAside from these general areas there was no detailed information on what Medley missed or differed from ANSI Common Lisp.\nIn late 2021 Larry Masinter proposed to evaluate the ANSI compatibility of Medley Common Lisp by running the code of popular Common Lisp books and documenting any divergences. In March of 2024 I set to work to test the code of the book Practical Common Lisp by …",
           "link": "https://journal.paoloamoroso.com/testing-the-practical-common-lisp-code-on-medley?pk_campaign=rss-feed",
           "publishedOn": "2024-04-14T10:51:12.000Z",
           "wordCount": 1265,
           "title": "Paolo Amoroso: Testing the Practical Common Lisp code on Medley",
           "imageUrl": "https://i.snap.as/68i8povn.jpg"
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html",
-          "author": null,
-          "description": "I’ve seen this “anti-pattern” a few times in CLOS\n  code.  A superclass ’super will have a\n  subclass ’sub and there will be a primary method\n  specialized to the superclass.\n(defmethod foo ((instance super) arg)\n  (format t \"~&Foo called on ~s.\" arg))\n\n\nThen I’ll see an :around method defined on the\n  subclass:\n(defmethod foo :around ((instance sub) arg)\n  (format t \"~&Start foo...~%\")\n  (call-next-method)\n  (format t \"~&End foo.~%\"))\nBut the :around qualifier is not necessary and\n  probably doesn’t do what is intended.  If we remove\n  the :around qualifier, then the most specific primary\n  method will be the foo method specialized\n  on ’sub.  And the (call-next-method)\n  invokation will chain up to the foo method specialized\n  on ’super.  It will work as was likely intended.\n:around methods are useful when\n  the superclass wants to run a method “around”\n  the subclass.  :around methods are combined from least\n  specific to most specific — the opposite order of primary\n  methods — so that the superclass can wrap the call to the\n  subclass.  An good example of where an :around method\n  would be handy is when you need to sieze a lock around the call to\n  the method.  The superclass would sieze the lock in\n  an :around method that would run before any of the\n  subclass primary methods ran.\nOrdinary chaining of methods doesn’t need\n  the :around qualifier.  Just chain the methods.",
-          "link": "http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html",
-          "publishedOn": "2024-04-02T04:25:00.000Z",
-          "wordCount": 3768,
-          "title": "Joe Marshall: You May Not Need That :around Method",
-          "imageUrl": null
         }
       ]
     },
@@ -715,7 +715,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-11T00:01:24.345Z",
+          "publishedOn": "2024-05-12T00:01:29.878Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -725,9 +725,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-11T00:01:18.848Z",
+          "publishedOn": "2024-05-12T00:01:23.876Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-12T00:01:23.866Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -735,7 +745,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-11T00:01:18.736Z",
+          "publishedOn": "2024-05-12T00:01:23.854Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -745,19 +755,9 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-11T00:01:18.680Z",
+          "publishedOn": "2024-05-12T00:01:23.842Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-11T00:01:18.675Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-11T00:01:18.663Z",
+          "publishedOn": "2024-05-12T00:01:23.840Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-11T00:01:18.502Z",
+          "publishedOn": "2024-05-12T00:01:23.330Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -785,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-11T00:01:18.447Z",
+          "publishedOn": "2024-05-12T00:01:23.327Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

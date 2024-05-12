@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-11 datetime="2024-05-11T00:01:24.345Z">2024-05-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-11 datetime="2024-05-11T00:01:24.345Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-12 datetime="2024-05-12T00:01:29.878Z">2024-05-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-12 datetime="2024-05-12T00:01:29.878Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -80,6 +80,25 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://applied-langua.ge/posts/omrn-compiler.html"
+                        open
+                      >
+                        <summary class="article-expander__title">The one-more-re-nightmare compiler</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://applied-langua.ge/posts/omrn-compiler.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"
                         open
                       >
@@ -108,25 +127,6 @@
                             <span class="media-object__text">
                               <span>A systems language is a collection of things that don&#x27;t fit into a modular language. There shouldn&#x27;t be one.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://applied-langua.ge/posts/omrn-compiler.html"
-                        open
-                      >
-                        <summary class="article-expander__title">The one-more-re-nightmare compiler</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://applied-langua.ge/posts/omrn-compiler.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -202,6 +202,66 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-11 datetime="2024-05-11T10:17:08.000Z">2024-05-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-11 datetime="2024-05-11T10:17:08.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Planet Lisp</button>
+                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign&#x3D;rss-feed"
+                        open
+                      >
+                        <summary class="article-expander__title">Paolo Amoroso: Insphex, a hex dump tool in Medley Common Lisp</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign&#x3D;rss-feed">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://i.snap.as/QAznV3xz.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I&#x27;m developing the new program Insphex (inspect hex), a hex dump tool that is created with and runs on the Medley Interlisp environment.
+Similarly to the Linux command hexdump, it shows the contents of files as hexadecimal values and the corresponding ASCII characters. An early version of the program prints the hex dump to the standard output like this.
+
+I plan to enhance Insphex to optionally display the dump in a separate window one page at a time. An attached menu will have options for showing the next page and exiting. I&#x27;ll also provide an Exec command for running the program.
+The code is in Common Lisp but will include some Interlisp to access the required system functionality.
+Although Insphex is useful in itself, I have three main goals for it. First, I want a real project to practice the process for writing Common Lisp with the residential environment of Medley. This is the native way of coding on Medley and takes full advantage of its development environment and features such as the File Manager and the SEdit editor.
+Most Medley tools and facilities are written in Interlisp or expose Interlisp APIs through which the functionality can be invoked. So another goal is to interface with Interlisp from Common Lisp to access the functionality I need like windows and menus.
+My third goal is to experiment with displaying textual output in TEdit, the Medley word processor where the hex dump will optionally go.
+Although the Interlisp API of TEdit supports advanced editing and formatting, Insphex does only basic text output. The primary feature I want is TEdit&#x27;s ability to automatically handle repainting the window after it&#x27;s resized or a hidden portion is exposed. This is handy as by default Interlisp windows mostly don&#x27;t handle the repaint.
+Now that the basic functionality of Insphex is in place I will implement displaying the hex dump in a TEdit window.
+#insphex #CommonLisp #Interlisp #Lisp
+Discuss...
+Email | Reply @amoroso@fosstodon.org</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-10 datetime="2024-05-10T15:56:00.000Z">2024-05-10</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-10 datetime="2024-05-10T15:56:00.000Z"></time>
           </button>
@@ -225,7 +285,7 @@
                         data-accordion-key="http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html"
                         open
                       >
-                        <summary class="article-expander__title">Joe Marshall: The Way of Lisp or The Right Way</summary>
+                        <summary class="article-expander__title">Joe Marshall: The Way of Lisp or The Right Thing</summary>
                         <a class="article-summary-link article-summary-box-outer" href="http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -242,7 +302,7 @@ Keep it simple.
   language makes it easy to write bad code that looks good.
   The first thing that comes to mind is not always the best
   thing.
-  When performace matters, get your declarations right.
+  When performance matters, get your declarations right.
   There is always another way to do it, and maybe a better one.
   Lists aren’t the only data type.
   The right thing and 2 shillings will get you a cup of tea.</span>
@@ -753,7 +813,7 @@ But enough people were interested that I decided to give it a once over.  At htt
                           <div class="article-summary-box-inner media-object">
                               <img src="https://i.snap.as/68i8povn.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered out in the 1990s, mostly prior to the ANSI standard.
+                              <span>When the Medley Interlisp Project began reviving the system around 2020, its Common Lisp implementation was in the state it had when commercial development petered off in the 1990s, mostly prior to the ANSI standard.
 Back then Medley Common Lisp mostly supported CLtL1 plus CLOS and the condition system. Some patches submitted several years later to bring the language closer to CLtL2 needed review and integration.
 Aside from these general areas there was no detailed information on what Medley missed or differed from ANSI Common Lisp.
 In late 2021 Larry Masinter proposed to evaluate the ANSI compatibility of Medley Common Lisp by running the code of popular Common Lisp books and documenting any divergences. In March of 2024 I set to work to test the code of the book Practical Common Lisp by …</span>
@@ -860,85 +920,6 @@ The post Differences Between Methods for Solving Stiff ODEs appeared first on St
                             <span class="media-object__text">
                               <span>Writing is thinking. Software is peoples&#x27; thoughts on repeat. Developers who can pen their thoughts clearly multiply their impact. This matters even more in group work. Common sense rules; no literature major necessary.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-02 datetime="2024-04-02T04:25:00.000Z">2024-04-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-02 datetime="2024-04-02T04:25:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Planet Lisp</button>
-                  <a class="source-heading__link" href="http://planet.lisp.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Joe Marshall: You May Not Need That :around Method</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://funcall.blogspot.com/2024/04/you-may-not-need-that-around-method.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I’ve seen this “anti-pattern” a few times in CLOS
-  code.  A superclass ’super will have a
-  subclass ’sub and there will be a primary method
-  specialized to the superclass.
-(defmethod foo ((instance super) arg)
-  (format t &quot;~&amp;Foo called on ~s.&quot; arg))
-
-
-Then I’ll see an :around method defined on the
-  subclass:
-(defmethod foo :around ((instance sub) arg)
-  (format t &quot;~&amp;Start foo...~%&quot;)
-  (call-next-method)
-  (format t &quot;~&amp;End foo.~%&quot;))
-But the :around qualifier is not necessary and
-  probably doesn’t do what is intended.  If we remove
-  the :around qualifier, then the most specific primary
-  method will be the foo method specialized
-  on ’sub.  And the (call-next-method)
-  invokation will chain up to the foo method specialized
-  on ’super.  It will work as was likely intended.
-:around methods are useful when
-  the superclass wants to run a method “around”
-  the subclass.  :around methods are combined from least
-  specific to most specific — the opposite order of primary
-  methods — so that the superclass can wrap the call to the
-  subclass.  An good example of where an :around method
-  would be handy is when you need to sieze a lock around the call to
-  the method.  The superclass would sieze the lock in
-  an :around method that would run before any of the
-  subclass primary methods ran.
-Ordinary chaining of methods doesn’t need
-  the :around qualifier.  Just chain the methods.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3336,8 +3317,8 @@ As an alternative, to quickly see the field name…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/9039386561">
-        <time id="build-timestamp" datetime="2024-05-11T00:01:24.345Z">2024-05-11T00:01:24.345Z</time>
+      <a class="footer-link" href="https://github.com/xlxs4/rss-blogs/actions/runs/9047259092">
+        <time id="build-timestamp" datetime="2024-05-12T00:01:29.879Z">2024-05-12T00:01:29.879Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
