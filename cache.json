@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/05/13/partitioning-pitfalls-for-generational-collectors",
+          "author": null,
+          "description": "You might have heard of long-pole problems: when you are packing a\ntent, its bag needs to be at least as big as the longest pole.  (This is\nmy preferred etymology; .)\nIn garbage collection, the long pole is the longest chain of object\nreferences; there is no way you can algorithmically speed up\npointer-chasing of (say) a long linked-list.there are\nothers\nAs a GC author, some of your standard tools can mitigate the long-pole\nproblem, and some don’t apply.\n doesn’t help: a baby takes 9 months, no matter how many\npeople you assign to the problem.  You need to visit each node in the\nchain, one after the other, and having multiple workers available to\nprocess those nodes does not get us there any faster.  Parallelism does\nhelp in general, of course, but doesn’t help for long poles.Parallelism\nY…",
+          "link": "https://wingolog.org/archives/2024/05/13/partitioning-pitfalls-for-generational-collectors",
+          "publishedOn": "2024-05-13T13:03:26.000Z",
+          "wordCount": 2386,
+          "title": "partitioning pitfalls for generational collectors",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/03/26/hacking-v8-with-guix-bis",
           "author": null,
           "description": "Good day, hackers.  Today, a pragmatic note, on hacking on  from a\n system.V8Guix\nI’m going to skip a lot of the background because, as it turns out, I\n.\nBut following that piece, I mostly gave up on doing V8 hacking from a\nGuix machine—it was more important to just go with the flow of the\never-evolving upstream toolchain.  In fact, I ended up installing Ubuntu\nLTS on my main workstations for precisely this reason, which has worked\nfine; I still get Guix in user-space, which is better than nothing.wrote about this already almost a decade\nago\nSince then, though, Guix has grown to the point that it’s easier to\ncreate an environment that can run a complicated upstream source\nmanagement project like V8’s.  This is mainly \nin the  mode.  This article is a step-by-step\nfor how to get started wit…",
@@ -284,16 +294,6 @@
           "wordCount": 1814,
           "title": "v8's precise field-logging remembered set",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2023/12/14/service-update",
-          "author": null,
-          "description": "Late last year I switched blog entries and comments to be written in , but there was a bug that I never noticed: if a text consisted only of a single paragraph or block, it would trigger an error that got reported back to the user in a very strange way, and which would prevent the comment from being posted.a dialect of markdown\nI had never seen the error myself because blog posts are generally more than a paragraph, but it must have been quite irritating when commenting.  Sorry about that; it should be fixed now.  Should you experience more strange errors, please do send me an email with the comment to .  Cheers.wingo@igalia.com",
-          "link": "https://wingolog.org/archives/2023/12/14/service-update",
-          "publishedOn": "2023-12-14T14:28:45.000Z",
-          "wordCount": 884,
-          "title": "service update",
-          "imageUrl": null
         }
       ]
     },
@@ -318,7 +318,7 @@
           "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
-          "wordCount": 3730,
+          "wordCount": 4054,
           "title": "Joe Marshall: The Way of Lisp or The Right Thing",
           "imageUrl": null
         },
@@ -715,7 +715,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-13T00:01:33.782Z",
+          "publishedOn": "2024-05-14T00:01:30.962Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -725,19 +725,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-13T00:01:26.663Z",
+          "publishedOn": "2024-05-14T00:01:29.486Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-13T00:01:26.640Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -745,7 +735,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-13T00:01:26.638Z",
+          "publishedOn": "2024-05-14T00:01:29.473Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -755,9 +745,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-13T00:01:26.634Z",
+          "publishedOn": "2024-05-14T00:01:29.467Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-05-14T00:01:29.459Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-13T00:01:26.625Z",
+          "publishedOn": "2024-05-14T00:01:29.448Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-13T00:01:26.480Z",
+          "publishedOn": "2024-05-14T00:01:29.434Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -785,7 +785,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-13T00:01:26.464Z",
+          "publishedOn": "2024-05-14T00:01:29.316Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -796,18 +796,7 @@
       "title": "The Scientific Coder",
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
-      "articles": [
-        {
-          "id": "https://scientificcoder.com/user-defined-show-method-in-julia",
-          "author": "Matthijs Cox",
-          "description": "I often find myself looking for a way to write custom display methods for Julia types on the REPL. Time to write it down in a short pragmatic blog post, for you and my future self.\nWhat's the issue? When exploring on the Julia REPL or in notebooks, you display your own custom type, then it doesn't look always look the most informative. Let's say you have some type:\nstruct MyType    some_number::Float64    some_dict::Dictend\nYou can quickly make an object and display it.\njulia> obj = MyType(4.0, Dict(:x => 5))MyType(4.0, Dict(:x => 5))\nOkay... Julia basically shows the constructor of the object. I would like to see the field names, or maybe other information. Sometimes I want to see statistical properties for example, instead of the raw data.\nAs an alternative, to quickly see the field name…",
-          "link": "https://scientificcoder.com/user-defined-show-method-in-julia",
-          "publishedOn": "2023-07-18T13:24:13.000Z",
-          "wordCount": 7213,
-          "title": "User-defined Show Method in Julia",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1689686215391%2F469dd124-564a-4ccf-a118-c1c9f885f6b6.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "妖怪世捨て人",
