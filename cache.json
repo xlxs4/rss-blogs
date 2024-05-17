@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
+          "author": null,
+          "description": "I realized recently that I haven’t been writing much about the .  Upon\nreflection, I have been too conscious of its\nlimitations to give it verbal tribute, preferring to spend each marginal\nhour fixing bugs and filling in features rather than publicising\nprogress.Hoot\nScheme-to-WebAssembly compiler\nIn the last month or so, though, Hoot has gotten to a point that pleases\nme.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth\nwriting about.\nSo let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot\nof Hoot.\nThe first axis of boot is time.  In the\nbeginning, there was nary a toot, and now, through boot, there is Hoot.\nThe first boot of Hoot was on paper.  \nhad asked me, ages ago, what I thought G…",
+          "link": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
+          "publishedOn": "2024-05-16T20:01:41.000Z",
+          "wordCount": 1783,
+          "title": "on hoot, on boot",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/05/13/partitioning-pitfalls-for-generational-collectors",
           "author": null,
           "description": "You might have heard of long-pole problems: when you are packing a\ntent, its bag needs to be at least as big as the longest pole.  (This is\nmy preferred etymology; .)\nIn garbage collection, the long pole is the longest chain of object\nreferences; there is no way you can algorithmically speed up\npointer-chasing of (say) a long linked-list.there are\nothers\nAs a GC author, some of your standard tools can mitigate the long-pole\nproblem, and some don’t apply.\n doesn’t help: a baby takes 9 months, no matter how many\npeople you assign to the problem.  You need to visit each node in the\nchain, one after the other, and having multiple workers available to\nprocess those nodes does not get us there any faster.  Parallelism does\nhelp in general, of course, but doesn’t help for long poles.Parallelism\nY…",
@@ -261,7 +271,7 @@
           "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
           "link": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
           "publishedOn": "2024-01-11T14:10:38.000Z",
-          "wordCount": 1319,
+          "wordCount": 1320,
           "title": "micro macro story time",
           "imageUrl": null
         },
@@ -271,7 +281,7 @@
           "description": "I find most descriptions of WebAssembly to be uninspiring: if you\nstart with a phrase like “assembly-like language” or a “virtual machine”,\nwe have already lost the plot.  That’s not to say that these\ndescriptions are incorrect, but it’s like explaining what a dog is by\nstarting with its circulatory system.  You’re not wrong, but you should probably lead with the bark.\nI have a different preferred starting point which is less descriptive\nbut more operational: .  WebAssembly is a new way of dividing computing systems into\npieces and of composing systems from parts.WebAssembly is a new fundamental abstraction\nboundary\nThis all may sound high-falutin´, but it’s for real: this is the\nactually interesting thing about Wasm.\nIt’s probably easiest to explain what I mean by example.  Consider the\nL…",
           "link": "https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly",
           "publishedOn": "2024-01-08T11:45:39.000Z",
-          "wordCount": 3467,
+          "wordCount": 3468,
           "title": "missing the point of webassembly",
           "imageUrl": null
         },
@@ -284,16 +294,6 @@
           "wordCount": 2460,
           "title": "scheme modules vs whole-program compilation: fight",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set",
-          "author": null,
-          "description": "A  is used by a garbage collector to identify graph\nedges between partitioned sub-spaces of a heap.  The canonical example\nis in generational collection, where you allocate new objects in\n, and eventually promote survivor objects to .  If\nmost objects die young, we can focus GC effort on newspace, to avoid\ntraversing all of oldspace all the time.remembered setnewspaceoldspace\nCollecting a subspace instead of the whole heap is sound if and only if\nwe can identify all live objects in the subspace.  We start with some\nset of  that point into the subspace from outside, and then\ntraverse all links in those objects, but only to other objects within\nthe subspace.roots\nThe roots are, like, global variables, and the stack, and registers; and\nin the case of a partial collection in which we identify …",
-          "link": "https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set",
-          "publishedOn": "2024-01-05T09:44:21.000Z",
-          "wordCount": 1814,
-          "title": "v8's precise field-logging remembered set",
-          "imageUrl": null
         }
       ]
     },
@@ -302,6 +302,16 @@
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
+          "author": null,
+          "description": "Over the years I was a developer at Google I never once tried to\n  pass “readability” for any language.  If you didn’t have\n  “readability”, then any code you checked in would need\n  an additionally review by someone who did have\n  “readability”.  The theory was that the code base would\n  turn into an unreadable patchwork of different styles if everyone\n  didn't adhere to the same set of rules.  By having a\n  “readability” requirement, the code base would be\n  uniform and understandable.  In practice, however, it was a social\n  signal that indicated whether you were a card carrying member of the\n  “in” group or not.  Having “readability” meant you\n  were a nobleman.  Not having it meant you were a commoner.\nTo get “readability” you had to endure a struggle\n  session with a current holder o…",
+          "link": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
+          "publishedOn": "2024-05-16T17:25:00.000Z",
+          "wordCount": 4183,
+          "title": "Joe Marshall: Readability at Google",
+          "imageUrl": null
+        },
         {
           "id": "https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&utm_medium=RSS",
           "author": null,
@@ -328,7 +338,7 @@
           "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
-          "wordCount": 4072,
+          "wordCount": 4077,
           "title": "Joe Marshall: The Way of Lisp or The Right Thing",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "A game where things move around has equations of motion that\n  describe how objects move.  We need to solve these to produce the\n  locations of the objects as a function of time, and we have to do it\n  in lock step real time.  Fortunately, we usually don’t need\n  highly realistic models or highly accurate results.  Game phyiscs,\n  while inspired by real world physics, can be crude\n  approximations.\nIf the velocity of an object changes over time, we need to\n  integrate the velocity to determine the position.  This is typically\n  done with forward Euler integration: the current velocity is\n  multiplied by a small Δt and this is added to the current\n  position.  In other words, we assume the object moves linearly over\n  the amount of time represented by Δt.  If Δt is small\n  enough, the linea…",
           "link": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
           "publishedOn": "2024-05-06T14:55:00.000Z",
-          "wordCount": 4308,
+          "wordCount": 4311,
           "title": "Joe Marshall: Motion without Integration",
           "imageUrl": null
         },
@@ -358,7 +368,7 @@
           "description": "Animated sprites are much cooler that static ones and really make\n  your game come to life.  They are pretty easy to implement, but\n  there are a couple of ways to implement them, and I've seen several\n  projects use the less optimal strategy.\nThe less optimal strategy is straightforward.  We keep a time counter in\n  the animated entity and increment it every time we update the\n  entity.  When the counter exceeds the amount of time for an animation\n  frame, we advance to the next frame and reset the ticker.\n(defclass entity ()\n  ((animation-ticker :initform 0 :accessor animation-ticker)))\n\n(defun entity-step! (entity dticks)\n  (incf (animation-ticker entity) dticks)\n  (when (> (animation-ticker entity) ticks-per-frame)\n    (advance-to-next-frame! entity)\n    (decf (animation-ticker entity)…",
           "link": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
           "publishedOn": "2024-05-04T23:09:00.000Z",
-          "wordCount": 3976,
+          "wordCount": 3979,
           "title": "Joe Marshall: Animation: Two Methods",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-04-25T15:51:00.000Z",
           "wordCount": 4197,
           "title": "Joe Marshall: State Machines",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
-          "author": null,
-          "description": "I was suprised by the interest in the code I wrote for learning the platformer game.\n  It wasn’t the best Lisp code.  I just uploaded what I had.\nBut enough people were interested that I decided to give it a once over.  At https://github.com/jrm-code-project/PlatformerTutorial I have a rewrite where each\n  chapter of the tutorial has been broken off into a separate git branch.  The code is much cleaner and several kludges\n  and idioticies were removed (and I hope none added).",
-          "link": "http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html",
-          "publishedOn": "2024-04-19T21:01:00.000Z",
-          "wordCount": 3580,
-          "title": "Joe Marshall: Plaformer Game Tutorial",
           "imageUrl": null
         }
       ]
@@ -715,9 +715,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-16T00:01:21.196Z",
+          "publishedOn": "2024-05-17T00:01:28.668Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-05-17T00:01:23.945Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -725,7 +735,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-16T00:01:20.155Z",
+          "publishedOn": "2024-05-17T00:01:23.943Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -735,19 +745,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-16T00:01:20.152Z",
+          "publishedOn": "2024-05-17T00:01:23.939Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-16T00:01:20.115Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -755,29 +755,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-16T00:01:20.074Z",
+          "publishedOn": "2024-05-17T00:01:23.901Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-16T00:01:19.996Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-16T00:01:19.987Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -785,9 +765,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-16T00:01:19.983Z",
+          "publishedOn": "2024-05-17T00:01:23.870Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-05-17T00:01:23.781Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-05-17T00:01:23.626Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
@@ -842,16 +842,6 @@
           "wordCount": 1893,
           "title": "Selbstsamkeit - Confession 92",
           "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2518"
-        },
-        {
-          "id": "https://reader.tymoon.eu/article/430",
-          "author": null,
-          "description": "I don't like sleeping. I like the idea of sleep, but the practise of it seems all too often fraught with issues for me. I do consider myself fortunate that I don't suffer from any major sleeping disabilities like insomnia, but my quality of sleep is nevertheless far from ideal, despite adhering to a rather strict and regular sleeping schedule.\nI frequently grind my teeth during sleep, and so have started wearing a denture during the night. The denture makes things permanently uncomfortable, and I honestly don't know if it's the major cause of me grinding my teeth at this point. I definitely wouldn't be surprised at all if it exacerbates the problem. I don't know why I grind my teeth, though I figure that since most of the time I can't remember my dreams at all, and when I do, they're usual…",
-          "link": "https://reader.tymoon.eu/article/430",
-          "publishedOn": "2023-07-22T08:59:01.000Z",
-          "wordCount": 2091,
-          "title": "Die Toteninsel - Confession 91",
-          "imageUrl": "https://studio.tymoon.eu/api/studio/file?id=2537"
         }
       ]
     }

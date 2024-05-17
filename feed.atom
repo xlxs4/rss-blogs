@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-16T00:01:21.224Z</id>
+    <id>urn:2024-05-17T00:01:28.688Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-16T00:01:21.224Z</updated>
+    <updated>2024-05-17T00:01:28.688Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-16T00:01:21.196Z</updated>
+        <updated>2024-05-17T00:01:28.668Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-05-17T00:01:23.945Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -19,7 +29,7 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-16T00:01:20.155Z</updated>
+        <updated>2024-05-17T00:01:23.943Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -29,18 +39,8 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-16T00:01:20.152Z</updated>
+        <updated>2024-05-17T00:01:23.939Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-16T00:01:20.115Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,28 +49,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-16T00:01:20.074Z</updated>
+        <updated>2024-05-17T00:01:23.901Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
-        <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
-        <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-16T00:01:19.996Z</updated>
-        <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-16T00:01:19.987Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +59,77 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-16T00:01:19.983Z</updated>
+        <updated>2024-05-17T00:01:23.870Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-05-17T00:01:23.781Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
+        <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
+        <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
+        <updated>2024-05-17T00:01:23.626Z</updated>
+        <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[on hoot, on boot]]></title>
+        <id>https://wingolog.org/archives/2024/05/16/on-hoot-on-boot</id>
+        <link href="https://wingolog.org/archives/2024/05/16/on-hoot-on-boot"/>
+        <updated>2024-05-16T20:01:41.000Z</updated>
+        <summary type="html"><![CDATA[I realized recently that I haven’t been writing much about the .  Upon
+reflection, I have been too conscious of its
+limitations to give it verbal tribute, preferring to spend each marginal
+hour fixing bugs and filling in features rather than publicising
+progress.Hoot
+Scheme-to-WebAssembly compiler
+In the last month or so, though, Hoot has gotten to a point that pleases
+me.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth
+writing about.
+So let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot
+of Hoot.
+The first axis of boot is time.  In the
+beginning, there was nary a toot, and now, through boot, there is Hoot.
+The first boot of Hoot was on paper.  
+had asked me, ages ago, what I thought G…]]></summary>
+        <author>
+            <name>wingolog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Readability at Google]]></title>
+        <id>http://funcall.blogspot.com/2024/05/readability-at-google.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/readability-at-google.html"/>
+        <updated>2024-05-16T17:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the years I was a developer at Google I never once tried to
+  pass “readability” for any language.  If you didn’t have
+  “readability”, then any code you checked in would need
+  an additionally review by someone who did have
+  “readability”.  The theory was that the code base would
+  turn into an unreadable patchwork of different styles if everyone
+  didn't adhere to the same set of rules.  By having a
+  “readability” requirement, the code base would be
+  uniform and understandable.  In practice, however, it was a social
+  signal that indicated whether you were a card carrying member of the
+  “in” group or not.  Having “readability” meant you
+  were a nobleman.  Not having it meant you were a commoner.
+To get “readability” you had to endure a struggle
+  session with a current holder o…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -305,20 +352,6 @@ CLOS provides a particularly elegant way to code up a state
   for each state is written.
 (defclass my-state-machine ()
   (…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Plaformer Game Tutorial]]></title>
-        <id>http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html</id>
-        <link href="http://funcall.blogspot.com/2024/04/plaformer-game-tutorial.html"/>
-        <updated>2024-04-19T21:01:00.000Z</updated>
-        <summary type="html"><![CDATA[I was suprised by the interest in the code I wrote for learning the platformer game.
-  It wasn’t the best Lisp code.  I just uploaded what I had.
-But enough people were interested that I decided to give it a once over.  At https://github.com/jrm-code-project/PlatformerTutorial I have a rewrite where each
-  chapter of the tutorial has been broken off into a separate git branch.  The code is much cleaner and several kludges
-  and idioticies were removed (and I hope none added).]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -780,28 +813,6 @@ primitive binding.  Using thi…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[v8's precise field-logging remembered set]]></title>
-        <id>https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set</id>
-        <link href="https://wingolog.org/archives/2024/01/05/v8s-precise-field-logging-remembered-set"/>
-        <updated>2024-01-05T09:44:21.000Z</updated>
-        <summary type="html"><![CDATA[A  is used by a garbage collector to identify graph
-edges between partitioned sub-spaces of a heap.  The canonical example
-is in generational collection, where you allocate new objects in
-, and eventually promote survivor objects to .  If
-most objects die young, we can focus GC effort on newspace, to avoid
-traversing all of oldspace all the time.remembered setnewspaceoldspace
-Collecting a subspace instead of the whole heap is sound if and only if
-we can identify all live objects in the subspace.  We start with some
-set of  that point into the subspace from outside, and then
-traverse all links in those objects, but only to other objects within
-the subspace.roots
-The roots are, like, global variables, and the stack, and registers; and
-in the case of a partial collection in which we identify …]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Julia 1.10 Highlights]]></title>
         <id>https://julialang.org/blog/2023/12/julia-1.10-highlights/</id>
         <link href="https://julialang.org/blog/2023/12/julia-1.10-highlights/"/>
@@ -1002,17 +1013,6 @@ Er, okay, you probably don’t think about the Fibonacci sequence much at all. I
         <summary type="html"><![CDATA[Or the one in which we confront our elisp n00bishness and try to be better at using it. And we learn new habits to understand our Emacs better. Better late than never.]]></summary>
         <author>
             <name>Aditya Athalye writes and works here.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Die Toteninsel - Confession 91]]></title>
-        <id>https://reader.tymoon.eu/article/430</id>
-        <link href="https://reader.tymoon.eu/article/430"/>
-        <updated>2023-07-22T08:59:01.000Z</updated>
-        <summary type="html"><![CDATA[I don't like sleeping. I like the idea of sleep, but the practise of it seems all too often fraught with issues for me. I do consider myself fortunate that I don't suffer from any major sleeping disabilities like insomnia, but my quality of sleep is nevertheless far from ideal, despite adhering to a rather strict and regular sleeping schedule.
-I frequently grind my teeth during sleep, and so have started wearing a denture during the night. The denture makes things permanently uncomfortable, and I honestly don't know if it's the major cause of me grinding my teeth at this point. I definitely wouldn't be surprised at all if it exacerbates the problem. I don't know why I grind my teeth, though I figure that since most of the time I can't remember my dreams at all, and when I do, they're usual…]]></summary>
-        <author>
-            <name>妖怪世捨て人</name>
         </author>
     </entry>
 </feed>
