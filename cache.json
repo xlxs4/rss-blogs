@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/if-only.html",
+          "author": null,
+          "description": "I have a problem with Lisp.  It doesn’t do what I want.\n  Whenever I write a Lisp program, I always find myself wanting new\n  special forms that aren’t in the language.  The object system almost\n  never does exactly what I want.  The control structures never\n  cover all my use cases.\nIf only I could add new syntactic forms to the language.  If only I\n  could tweak the internals of the object system.  If only I could add\n  new kinds of control structure.\nOh, wait.  I can.",
+          "link": "http://funcall.blogspot.com/2024/05/if-only.html",
+          "publishedOn": "2024-05-21T18:51:00.000Z",
+          "wordCount": 3593,
+          "title": "Joe Marshall: If only ...",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
           "author": null,
           "description": "At the end of 6.004, we had a contest for improving the performance\n  of the Maybe machine.  There was an 8-bit ALU included in the chip set we were\n  given, so the logical thing to do was to incorporate it into the\n  machine in place of the shift register.  This would naturally\n  improve the performance of arithmetic operations, but there were\n  other reasons that the Maybe machine was slow.\nOne of the rules of the contest was that we were not allowed to\n  change the clock speed.  But the Maybe machine had a four phase\n  clock.  The first phase would address the device driving the bus,\n  the second phase would connect it to the bus, the third phase would\n  clock the receiving device, and the fourth phase would keep the data\n  asserted to obey the hold time on the logic.\nThe four phase clo…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
           "publishedOn": "2024-05-20T14:13:00.000Z",
-          "wordCount": 4245,
+          "wordCount": 4250,
           "title": "Joe Marshall: Maybe machine (part 2)",
           "imageUrl": null
         },
@@ -318,8 +328,18 @@
           "description": "When I took 6.004, Computation Structures, we built the\n  “Maybe” machine, a pedagogical microcomputer made from\n  discrete TTL.   It had no CPU.  It had no ALU.  It had a shift\n  register.  The microcode could load the shift register from memory,\n  test the low bit, shift the register, and store the register to memory.\n  That was it.  It was universal (Turing complete), but it was\n  primitive.  If I recall correctly, Steve Ward, Chris Terman, and Dan\n  Nussbaum designed it.\nWe each built our own Maybe machine on a “nerd kit” — a large\n  briefcase/small suitcase with a power supply, some solderless breadboards, some\n  switches and LEDs, and a bunch of TTL chips.  We had to wire up the\n  chips ourselves.  I was maybe a bit anal about wiring it up.  I\n  color coded the wires, made neat right…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine.html",
           "publishedOn": "2024-05-20T13:40:00.000Z",
-          "wordCount": 4411,
+          "wordCount": 4414,
           "title": "Joe Marshall: Maybe machine",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.tfeb.org/fragments/2024/05/20/monochrome/?utm_source=lisp&utm_medium=RSS",
+          "author": null,
+          "description": "Or, why limitations matter.\nAfter we released Štar, my friend Zyni had a rather distressing and inconclusive exchange with someone on reddit. Apart from making me feel even better about walking away from reddit a decade and more ago, I realised an interesting thing when talking to her about her experience.\nLimitations\nHere are some curious things that people do.\nWhy, in 2024, would anyone use a digital camera which can only make monochrome pictures?\nWhy, in 2024, would anyone use a film camera?\nWhy, in 2024, would anyone record music in a studio which uses tape?\nWhy, in 2024, would any guitarist use a collection of flaky old FX pedals connected by noisy and unreliable cables, and a valve amplifier which occasionally catches fire1?\nWhy, in 2024, would anyone shoot a movie on film?\n\n\nYet peo…",
+          "link": "https://www.tfeb.org/fragments/2024/05/20/monochrome/?utm_source=lisp&utm_medium=RSS",
+          "publishedOn": "2024-05-20T08:58:05.000Z",
+          "wordCount": 1754,
+          "title": "Tim Bradshaw: Monochrome",
           "imageUrl": null
         },
         {
@@ -328,7 +348,7 @@
           "description": "Over the years I was a developer at Google I never once tried to\n  pass “readability” for any language.  If you didn’t have\n  “readability”, then any code you checked in would need\n  an additionally review by someone who did have\n  “readability”.  The theory was that the code base would\n  turn into an unreadable patchwork of different styles if everyone\n  didn't adhere to the same set of rules.  By having a\n  “readability” requirement, the code base would be\n  uniform and understandable.  In practice, however, it was a social\n  signal that indicated whether you were a card carrying member of the\n  “in” group or not.  Having “readability” meant you\n  were a nobleman.  Not having it meant you were a commoner.\nTo get “readability” you had to endure a struggle\n  session with a current holder o…",
           "link": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
           "publishedOn": "2024-05-16T17:25:00.000Z",
-          "wordCount": 4191,
+          "wordCount": 4194,
           "title": "Joe Marshall: Readability at Google",
           "imageUrl": null
         },
@@ -338,7 +358,7 @@
           "description": "Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.\nCommon Lisp has multiple iteration constructs: mapping functions such as mapcar, special-purpose constructs such as dotimes and dolist, the general but somewhat clumsy construct which is do and do*, and finally the extended loop macro which aims to embed a ‘more friendly’ iteration language into CL and succeeds in being so complex that it is often hard to know whether a given form is legal or not without poring over loop’s grammar.\nNone of these constructs manage to be all three of pleasant to use, easy to understand and general. loop somehow fails to be any of these things in many cases. None are extensible1.\nBut …",
           "link": "https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2024-05-15T06:37:18.000Z",
-          "wordCount": 1730,
+          "wordCount": 1732,
           "title": "Tim Bradshaw: &#352;tar: an iteration construct for Common Lisp",
           "imageUrl": null
         },
@@ -358,7 +378,7 @@
           "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
-          "wordCount": 4083,
+          "wordCount": 4086,
           "title": "Joe Marshall: The Way of Lisp or The Right Thing",
           "imageUrl": null
         },
@@ -378,28 +398,8 @@
           "description": "A game where things move around has equations of motion that\n  describe how objects move.  We need to solve these to produce the\n  locations of the objects as a function of time, and we have to do it\n  in lock step real time.  Fortunately, we usually don’t need\n  highly realistic models or highly accurate results.  Game phyiscs,\n  while inspired by real world physics, can be crude\n  approximations.\nIf the velocity of an object changes over time, we need to\n  integrate the velocity to determine the position.  This is typically\n  done with forward Euler integration: the current velocity is\n  multiplied by a small Δt and this is added to the current\n  position.  In other words, we assume the object moves linearly over\n  the amount of time represented by Δt.  If Δt is small\n  enough, the linea…",
           "link": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
           "publishedOn": "2024-05-06T14:55:00.000Z",
-          "wordCount": 4317,
+          "wordCount": 4320,
           "title": "Joe Marshall: Motion without Integration",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
-          "author": null,
-          "description": "Animated sprites are much cooler that static ones and really make\n  your game come to life.  They are pretty easy to implement, but\n  there are a couple of ways to implement them, and I've seen several\n  projects use the less optimal strategy.\nThe less optimal strategy is straightforward.  We keep a time counter in\n  the animated entity and increment it every time we update the\n  entity.  When the counter exceeds the amount of time for an animation\n  frame, we advance to the next frame and reset the ticker.\n(defclass entity ()\n  ((animation-ticker :initform 0 :accessor animation-ticker)))\n\n(defun entity-step! (entity dticks)\n  (incf (animation-ticker entity) dticks)\n  (when (> (animation-ticker entity) ticks-per-frame)\n    (advance-to-next-frame! entity)\n    (decf (animation-ticker entity)…",
-          "link": "http://funcall.blogspot.com/2024/05/animation-two-methods.html",
-          "publishedOn": "2024-05-04T23:09:00.000Z",
-          "wordCount": 3985,
-          "title": "Joe Marshall: Animation: Two Methods",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
-          "author": null,
-          "description": "In some languages, like Lisp and OCaml, every language construct is an\n  expression that returns a value.  Other languages, like Java or\n  Python, have two kinds of language constructs:  expressions, which\n  combine compositionally and which have return values, and\n  statements, which combine sequentially and which have no return\n  values and thus must operate by side effect.  Having statements\n  in your language needlessly makes things more complicated, but\n  language designers seem to want to go much further and add\n  complexity that just seems capricious.\nYou cannot usually use a statement in a context where an\n  expression is expected because there is no return value.  You can\n  use an expression where a statement is expected by simply discarding\n  the return value.  This means there a…",
-          "link": "http://funcall.blogspot.com/2024/04/statements-and-expressions.html",
-          "publishedOn": "2024-04-30T16:18:00.000Z",
-          "wordCount": 4244,
-          "title": "Joe Marshall: Statements and Expressions",
           "imageUrl": null
         }
       ]
@@ -705,29 +705,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-21T00:01:28.401Z",
+          "publishedOn": "2024-05-22T00:01:24.836Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-21T00:01:25.766Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-21T00:01:25.763Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -735,19 +715,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-21T00:01:25.740Z",
+          "publishedOn": "2024-05-22T00:01:23.867Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
           "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-21T00:01:25.703Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-22T00:01:23.864Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -755,19 +735,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-21T00:01:25.697Z",
+          "publishedOn": "2024-05-22T00:01:23.733Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-21T00:01:25.655Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -775,9 +745,39 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-21T00:01:25.617Z",
+          "publishedOn": "2024-05-22T00:01:23.698Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-22T00:01:23.607Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-05-22T00:01:23.604Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-05-22T00:01:23.459Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
