@@ -196,12 +196,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/05/22/growing-a-bootie",
+          "author": null,
+          "description": "Following on ,\ntoday I would like to examine another axis of boot, which is a kind of\nrebased branch of history: not the hack as it happened, but the logic inside the\nhack, the structure of the built thing, the history as it might have been.  Instead of describing the layers of shims and props that we used while discovering what were building, let’s look at how we would build Hoot again, if we had to.last week’s\negregious discussion of the Hoot Scheme-to-WebAssembly compiler bootie\nI think many readers of this blog will have seen , a talk /\nperformance art piece in which Guy L. Steele—I once mentioned to him\nthat Guy L. was one of the back-justifications for the name Guile; he\ndid not take it well—in which Steele takes the set of monosyllabic words as primitives\nand builds up a tower of te…",
+          "link": "https://wingolog.org/archives/2024/05/22/growing-a-bootie",
+          "publishedOn": "2024-05-22T08:16:58.000Z",
+          "wordCount": 3406,
+          "title": "growing a bootie",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
           "author": null,
           "description": "I realized recently that I haven’t been writing much about the .  Upon\nreflection, I have been too conscious of its\nlimitations to give it verbal tribute, preferring to spend each marginal\nhour fixing bugs and filling in features rather than publicising\nprogress.Hoot\nScheme-to-WebAssembly compiler\nIn the last month or so, though, Hoot has gotten to a point that pleases\nme.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth\nwriting about.\nSo let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot\nof Hoot.\nThe first axis of boot is time.  In the\nbeginning, there was nary a toot, and now, through boot, there is Hoot.\nThe first boot of Hoot was on paper.  \nhad asked me, ages ago, what I thought G…",
           "link": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
           "publishedOn": "2024-05-16T20:01:41.000Z",
-          "wordCount": 1801,
+          "wordCount": 1799,
           "title": "on hoot, on boot",
           "imageUrl": null
         },
@@ -283,16 +293,6 @@
           "publishedOn": "2024-01-08T11:45:39.000Z",
           "wordCount": 3468,
           "title": "missing the point of webassembly",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight",
-          "author": null,
-          "description": "In a recent dispatch, I explained .\nToday’s note explores what a correct solution might look like.the whole-program compilation\nstrategy used in Whiffle and\nHoot\nConsider a module that exports an increment-this-integer procedure.\nWe’ll use syntax from the :R6RS\nstandard\nIf we then have a program:\nThen the meaning of this program is clear: it reduces to ,\nthen to 43.  Fine enough.  But how do we get there?  How does the\ncompiler compose the program with the modules that it uses\n(transitively), to produce a single output?(+ 42 1)\nIn\n\n(and ), the answer is,\nsloppily.  There is a \nthat initially has a number of bindings from the host compiler,\n.  One of these is , exposed under\nthe name , where the  in this case is just a warning to the reader that this is a weird\nprimitive binding.  Using thi…",
-          "link": "https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight",
-          "publishedOn": "2024-01-05T20:43:49.000Z",
-          "wordCount": 2460,
-          "title": "scheme modules vs whole-program compilation: fight",
           "imageUrl": null
         }
       ]
@@ -705,7 +705,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-22T00:01:24.836Z",
+          "publishedOn": "2024-05-23T00:01:37.733Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -715,19 +715,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-22T00:01:23.867Z",
+          "publishedOn": "2024-05-23T00:01:33.412Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-22T00:01:23.864Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -735,19 +725,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-22T00:01:23.733Z",
+          "publishedOn": "2024-05-23T00:01:33.331Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-22T00:01:23.698Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -755,9 +735,29 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-22T00:01:23.607Z",
+          "publishedOn": "2024-05-23T00:01:33.325Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-05-23T00:01:33.324Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-05-23T00:01:33.321Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-22T00:01:23.604Z",
+          "publishedOn": "2024-05-23T00:01:33.107Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-22T00:01:23.459Z",
+          "publishedOn": "2024-05-23T00:01:33.020Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

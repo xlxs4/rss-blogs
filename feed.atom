@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-22T00:01:24.856Z</id>
+    <id>urn:2024-05-23T00:01:37.752Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-22T00:01:24.856Z</updated>
+    <updated>2024-05-23T00:01:37.752Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-22T00:01:24.836Z</updated>
+        <updated>2024-05-23T00:01:37.733Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-22T00:01:23.867Z</updated>
+        <updated>2024-05-23T00:01:33.412Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-22T00:01:23.864Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,18 +29,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-22T00:01:23.733Z</updated>
+        <updated>2024-05-23T00:01:33.331Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-22T00:01:23.698Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,8 +39,28 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-22T00:01:23.607Z</updated>
+        <updated>2024-05-23T00:01:33.325Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-05-23T00:01:33.324Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-05-23T00:01:33.321Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-22T00:01:23.604Z</updated>
+        <updated>2024-05-23T00:01:33.107Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,29 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-22T00:01:23.459Z</updated>
+        <updated>2024-05-23T00:01:33.020Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[growing a bootie]]></title>
+        <id>https://wingolog.org/archives/2024/05/22/growing-a-bootie</id>
+        <link href="https://wingolog.org/archives/2024/05/22/growing-a-bootie"/>
+        <updated>2024-05-22T08:16:58.000Z</updated>
+        <summary type="html"><![CDATA[Following on ,
+today I would like to examine another axis of boot, which is a kind of
+rebased branch of history: not the hack as it happened, but the logic inside the
+hack, the structure of the built thing, the history as it might have been.  Instead of describing the layers of shims and props that we used while discovering what were building, let’s look at how we would build Hoot again, if we had to.last week’s
+egregious discussion of the Hoot Scheme-to-WebAssembly compiler bootie
+I think many readers of this blog will have seen , a talk /
+performance art piece in which Guy L. Steele—I once mentioned to him
+that Guy L. was one of the back-justifications for the name Guile; he
+did not take it well—in which Steele takes the set of monosyllabic words as primitives
+and builds up a tower of te…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -790,35 +809,6 @@ This all may sound high-falutin´, but it’s for real: this is the
 actually interesting thing about Wasm.
 It’s probably easiest to explain what I mean by example.  Consider the
 L…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scheme modules vs whole-program compilation: fight]]></title>
-        <id>https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight</id>
-        <link href="https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight"/>
-        <updated>2024-01-05T20:43:49.000Z</updated>
-        <summary type="html"><![CDATA[In a recent dispatch, I explained .
-Today’s note explores what a correct solution might look like.the whole-program compilation
-strategy used in Whiffle and
-Hoot
-Consider a module that exports an increment-this-integer procedure.
-We’ll use syntax from the :R6RS
-standard
-If we then have a program:
-Then the meaning of this program is clear: it reduces to ,
-then to 43.  Fine enough.  But how do we get there?  How does the
-compiler compose the program with the modules that it uses
-(transitively), to produce a single output?(+ 42 1)
-In
-
-(and ), the answer is,
-sloppily.  There is a 
-that initially has a number of bindings from the host compiler,
-.  One of these is , exposed under
-the name , where the  in this case is just a warning to the reader that this is a weird
-primitive binding.  Using thi…]]></summary>
         <author>
             <name>wingolog</name>
         </author>
