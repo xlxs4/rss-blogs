@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/rewrite-rules.html",
+          "author": null,
+          "description": "I like rewrite rules.  They are simple to understand and easy to\n  implement.  If you have a rewrite rule (or a set of them) that makes\n  incremental progress in making an expression \"simpler\" in some\n  sense, you can keep applying it (or them) repeatedly until you have\n  finished the calculation.\nIf a function directly returns the result of calling another function,\n  we say that the call is in \"tail position\".  We can view this as a\n  simple rewrite rule.  Consider the fact-mul function\n  which computes the factorial of a number n and multiplies it by\n  another number m:\nfact-mul (n, m) = n! * m\nWe can define two rewrite rules for this function.  If n is 0, then\n  the factorial is 1, so we just rewrite this as m.  If n is not 0, we\n  can rewrite this as fact-mul (n-1, n*m).  This translates directly\n  into Lisp:\n(defun fact-mul (n m)\n  (if (zerop n)\n      m\n     (fact-mul (- n 1) (* n m))))\nThe rewrite rule doesn't have to rewrite into the same function.\n  For instance, we can rewrite odd? (x) to even? (x-1) and even? (x)\n  to odd? (x-1):\n(defun odd? (x)\n  (if (zerop x)\n      nil\n      (even? (1- x))))\n\n(defun even? (x)\n  (if (zerop x)\n      t  \n      (odd? (1- x))))\nYes, this is bog-simple tail recursion, but somehow it seems\n  even simpler to me if I think of it as a rewrite rule.\nEven if you don't have tail recursion, or if you have disabled it,\n  it still works, but the number of rewrites is limited by the stack\n  depth.",
+          "link": "http://funcall.blogspot.com/2024/05/rewrite-rules.html",
+          "publishedOn": "2024-05-23T15:15:00.000Z",
+          "wordCount": 3766,
+          "title": "Joe Marshall: Rewrite rules",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/if-only.html",
           "author": null,
           "description": "I have a problem with Lisp.  It doesn’t do what I want.\n  Whenever I write a Lisp program, I always find myself wanting new\n  special forms that aren’t in the language.  The object system almost\n  never does exactly what I want.  The control structures never\n  cover all my use cases.\nIf only I could add new syntactic forms to the language.  If only I\n  could tweak the internals of the object system.  If only I could add\n  new kinds of control structure.\nOh, wait.  I can.",
           "link": "http://funcall.blogspot.com/2024/05/if-only.html",
           "publishedOn": "2024-05-21T18:51:00.000Z",
-          "wordCount": 3593,
+          "wordCount": 3597,
           "title": "Joe Marshall: If only ...",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "At the end of 6.004, we had a contest for improving the performance\n  of the Maybe machine.  There was an 8-bit ALU included in the chip set we were\n  given, so the logical thing to do was to incorporate it into the\n  machine in place of the shift register.  This would naturally\n  improve the performance of arithmetic operations, but there were\n  other reasons that the Maybe machine was slow.\nOne of the rules of the contest was that we were not allowed to\n  change the clock speed.  But the Maybe machine had a four phase\n  clock.  The first phase would address the device driving the bus,\n  the second phase would connect it to the bus, the third phase would\n  clock the receiving device, and the fourth phase would keep the data\n  asserted to obey the hold time on the logic.\nThe four phase clo…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
           "publishedOn": "2024-05-20T14:13:00.000Z",
-          "wordCount": 4250,
+          "wordCount": 4252,
           "title": "Joe Marshall: Maybe machine (part 2)",
           "imageUrl": null
         },
@@ -328,7 +338,7 @@
           "description": "When I took 6.004, Computation Structures, we built the\n  “Maybe” machine, a pedagogical microcomputer made from\n  discrete TTL.   It had no CPU.  It had no ALU.  It had a shift\n  register.  The microcode could load the shift register from memory,\n  test the low bit, shift the register, and store the register to memory.\n  That was it.  It was universal (Turing complete), but it was\n  primitive.  If I recall correctly, Steve Ward, Chris Terman, and Dan\n  Nussbaum designed it.\nWe each built our own Maybe machine on a “nerd kit” — a large\n  briefcase/small suitcase with a power supply, some solderless breadboards, some\n  switches and LEDs, and a bunch of TTL chips.  We had to wire up the\n  chips ourselves.  I was maybe a bit anal about wiring it up.  I\n  color coded the wires, made neat right…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine.html",
           "publishedOn": "2024-05-20T13:40:00.000Z",
-          "wordCount": 4414,
+          "wordCount": 4416,
           "title": "Joe Marshall: Maybe machine",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "Over the years I was a developer at Google I never once tried to\n  pass “readability” for any language.  If you didn’t have\n  “readability”, then any code you checked in would need\n  an additionally review by someone who did have\n  “readability”.  The theory was that the code base would\n  turn into an unreadable patchwork of different styles if everyone\n  didn't adhere to the same set of rules.  By having a\n  “readability” requirement, the code base would be\n  uniform and understandable.  In practice, however, it was a social\n  signal that indicated whether you were a card carrying member of the\n  “in” group or not.  Having “readability” meant you\n  were a nobleman.  Not having it meant you were a commoner.\nTo get “readability” you had to endure a struggle\n  session with a current holder o…",
           "link": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
           "publishedOn": "2024-05-16T17:25:00.000Z",
-          "wordCount": 4194,
+          "wordCount": 4196,
           "title": "Joe Marshall: Readability at Google",
           "imageUrl": null
         },
@@ -378,7 +388,7 @@
           "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
-          "wordCount": 4086,
+          "wordCount": 4088,
           "title": "Joe Marshall: The Way of Lisp or The Right Thing",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-05-08T11:28:00.000Z",
           "wordCount": 1830,
           "title": "Marco Antoniotti: ELS 2024 in Vienna",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
-          "author": null,
-          "description": "A game where things move around has equations of motion that\n  describe how objects move.  We need to solve these to produce the\n  locations of the objects as a function of time, and we have to do it\n  in lock step real time.  Fortunately, we usually don’t need\n  highly realistic models or highly accurate results.  Game phyiscs,\n  while inspired by real world physics, can be crude\n  approximations.\nIf the velocity of an object changes over time, we need to\n  integrate the velocity to determine the position.  This is typically\n  done with forward Euler integration: the current velocity is\n  multiplied by a small Δt and this is added to the current\n  position.  In other words, we assume the object moves linearly over\n  the amount of time represented by Δt.  If Δt is small\n  enough, the linea…",
-          "link": "http://funcall.blogspot.com/2024/05/motion-without-integration.html",
-          "publishedOn": "2024-05-06T14:55:00.000Z",
-          "wordCount": 4320,
-          "title": "Joe Marshall: Motion without Integration",
           "imageUrl": null
         }
       ]
@@ -705,19 +705,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-23T00:01:37.733Z",
+          "publishedOn": "2024-05-24T00:01:27.166Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-23T00:01:33.412Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -725,19 +715,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-23T00:01:33.331Z",
+          "publishedOn": "2024-05-24T00:01:25.132Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-23T00:01:33.325Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-05-24T00:01:25.094Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -745,7 +735,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-23T00:01:33.324Z",
+          "publishedOn": "2024-05-24T00:01:25.090Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -755,9 +745,19 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-23T00:01:33.321Z",
+          "publishedOn": "2024-05-24T00:01:25.077Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-24T00:01:25.057Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -765,7 +765,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-23T00:01:33.107Z",
+          "publishedOn": "2024-05-24T00:01:24.744Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -775,7 +775,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-23T00:01:33.020Z",
+          "publishedOn": "2024-05-24T00:01:24.198Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -786,7 +786,18 @@
       "title": "The Scientific Coder",
       "feedUrl": "https://scientificcoder.com/rss.xml",
       "siteUrl": "https://scientificcoder.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust",
+          "author": "Matthijs Cox",
+          "description": "When switching between programming languages, people often start with comparing syntax differences, and many overview exist on this topic. However, a large part of programming revolves around package management, especially if you want to develop your own packages, and I have not encountered many overviews comparing programming languages on this topic. A package is essentially how code is shared between programmers. Understanding package management and package development is vital when you want to get good at a language.\nTo satisfy my curiosity, and help myself and others, I decided to write this package management overview myself. I have chosen to compare popular languages Python and R, my personal favorite language Julia, and the rising star Rust, which has notoriously good package manage…",
+          "link": "https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust",
+          "publishedOn": "2024-05-23T09:23:13.000Z",
+          "wordCount": 21995,
+          "title": "Comparing Package Management in Python, R, Julia, and Rust",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1716453066068%2F3cc0f5a8-83e5-455e-80a4-761753dea076.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        }
+      ]
     },
     {
       "title": "妖怪世捨て人",

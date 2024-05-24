@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-23T00:01:37.752Z</id>
+    <id>urn:2024-05-24T00:01:27.194Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-23T00:01:37.752Z</updated>
+    <updated>2024-05-24T00:01:27.194Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-23T00:01:37.733Z</updated>
+        <updated>2024-05-24T00:01:27.166Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-23T00:01:33.412Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,18 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-23T00:01:33.331Z</updated>
+        <updated>2024-05-24T00:01:25.132Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-23T00:01:33.325Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-05-24T00:01:25.094Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +39,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-23T00:01:33.324Z</updated>
+        <updated>2024-05-24T00:01:25.090Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,8 +49,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-23T00:01:33.321Z</updated>
+        <updated>2024-05-24T00:01:25.077Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-05-24T00:01:25.057Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-23T00:01:33.107Z</updated>
+        <updated>2024-05-24T00:01:24.744Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,66 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-23T00:01:33.020Z</updated>
+        <updated>2024-05-24T00:01:24.198Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Rewrite rules]]></title>
+        <id>http://funcall.blogspot.com/2024/05/rewrite-rules.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/rewrite-rules.html"/>
+        <updated>2024-05-23T15:15:00.000Z</updated>
+        <summary type="html"><![CDATA[I like rewrite rules.  They are simple to understand and easy to
+  implement.  If you have a rewrite rule (or a set of them) that makes
+  incremental progress in making an expression "simpler" in some
+  sense, you can keep applying it (or them) repeatedly until you have
+  finished the calculation.
+If a function directly returns the result of calling another function,
+  we say that the call is in "tail position".  We can view this as a
+  simple rewrite rule.  Consider the fact-mul function
+  which computes the factorial of a number n and multiplies it by
+  another number m:
+fact-mul (n, m) = n! * m
+We can define two rewrite rules for this function.  If n is 0, then
+  the factorial is 1, so we just rewrite this as m.  If n is not 0, we
+  can rewrite this as fact-mul (n-1, n*m).  This translates directly
+  into Lisp:
+(defun fact-mul (n m)
+  (if (zerop n)
+      m
+     (fact-mul (- n 1) (* n m))))
+The rewrite rule doesn't have to rewrite into the same function.
+  For instance, we can rewrite odd? (x) to even? (x-1) and even? (x)
+  to odd? (x-1):
+(defun odd? (x)
+  (if (zerop x)
+      nil
+      (even? (1- x))))
+
+(defun even? (x)
+  (if (zerop x)
+      t  
+      (odd? (1- x))))
+Yes, this is bog-simple tail recursion, but somehow it seems
+  even simpler to me if I think of it as a rewrite rule.
+Even if you don't have tail recursion, or if you have disabled it,
+  it still works, but the number of rewrites is limited by the stack
+  depth.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comparing Package Management in Python, R, Julia, and Rust]]></title>
+        <id>https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust</id>
+        <link href="https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust"/>
+        <updated>2024-05-23T09:23:13.000Z</updated>
+        <summary type="html"><![CDATA[When switching between programming languages, people often start with comparing syntax differences, and many overview exist on this topic. However, a large part of programming revolves around package management, especially if you want to develop your own packages, and I have not encountered many overviews comparing programming languages on this topic. A package is essentially how code is shared between programmers. Understanding package management and package development is vital when you want to get good at a language.
+To satisfy my curiosity, and help myself and others, I decided to write this package management overview myself. I have chosen to compare popular languages Python and R, my personal favorite language Julia, and the rising star Rust, which has notoriously good package manage…]]></summary>
+        <author>
+            <name>Matthijs Cox</name>
         </author>
     </entry>
     <entry>
@@ -338,29 +394,6 @@ Keep it simple.
 After many years it was good to meet again in person with so many talented and interesting
   people (all interested in parentheses).
 Many, many thanks to Beppe Attardi, Philipp Marek, Georgiy Tugai, Yukari Hafner, and, especially, Didier Verna, for pulling this together.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Motion without Integration]]></title>
-        <id>http://funcall.blogspot.com/2024/05/motion-without-integration.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/motion-without-integration.html"/>
-        <updated>2024-05-06T14:55:00.000Z</updated>
-        <summary type="html"><![CDATA[A game where things move around has equations of motion that
-  describe how objects move.  We need to solve these to produce the
-  locations of the objects as a function of time, and we have to do it
-  in lock step real time.  Fortunately, we usually don’t need
-  highly realistic models or highly accurate results.  Game phyiscs,
-  while inspired by real world physics, can be crude
-  approximations.
-If the velocity of an object changes over time, we need to
-  integrate the velocity to determine the position.  This is typically
-  done with forward Euler integration: the current velocity is
-  multiplied by a small Δt and this is added to the current
-  position.  In other words, we assume the object moves linearly over
-  the amount of time represented by Δt.  If Δt is small
-  enough, the linea…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
