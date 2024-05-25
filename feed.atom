@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-24T00:01:27.194Z</id>
+    <id>urn:2024-05-25T00:01:31.910Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-24T00:01:27.194Z</updated>
+    <updated>2024-05-25T00:01:31.910Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-24T00:01:27.166Z</updated>
+        <updated>2024-05-25T00:01:31.890Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,8 +19,18 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-24T00:01:25.132Z</updated>
+        <updated>2024-05-25T00:01:30.036Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-05-25T00:01:30.008Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,8 +39,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-24T00:01:25.094Z</updated>
+        <updated>2024-05-25T00:01:29.990Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-05-25T00:01:29.977Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +59,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-24T00:01:25.090Z</updated>
+        <updated>2024-05-25T00:01:29.976Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,28 +69,8 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-24T00:01:25.077Z</updated>
+        <updated>2024-05-25T00:01:29.964Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-24T00:01:25.057Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-24T00:01:24.744Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,62 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-24T00:01:24.198Z</updated>
+        <updated>2024-05-25T00:01:29.909Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Why I Want Tail Recursion]]></title>
+        <id>http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html"/>
+        <updated>2024-05-24T14:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The reason I want tail recursion is not to write loops (I can do
+  that with a while loop), but to write in continuation passing style
+  if I need to.  Continuation passing style allows you to implement
+  any control flow pattern you can imagine, not just the ones
+  intrinsic to the language.  You don’t want to use it all the time,
+  but it’s a valuable fallback when you need some ad hoc advanced
+  control flow.  Without tail recursion, any non-trivial use of
+  continuation passing style risks blowing the stack.
+Iteration is just the special case of linear recursion that doesn’t
+  accumulate state.  99 percent of the time, you know beforehand that
+  you are looping and can use a looping construct, but sometimes you
+  have the general case where whether you loop or not depends on the
+  data at runtime.  If you have tail recursion, you just write the
+  code recursively and the tail recursion mechanism will turn it into
+  a loop if it notices that you aren’t accumulating state.
+If your language has lambda and tail recursion, it can implement
+  any other control flow that might have been overlooked by the
+  language designer.  If it doesn’t, you're limited to the control
+  flow the language designer bothered to implement.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hoot's wasm toolkit]]></title>
+        <id>https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit</id>
+        <link href="https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit"/>
+        <updated>2024-05-24T10:37:54.000Z</updated>
+        <summary type="html"><![CDATA[Good morning!  Today we continue our dive into .
+Instead of talking about Scheme, today let’s focus on WebAssembly,
+specifically the set of tools that we have built in Hoot to wrangle
+Wasm.  I think it’s neat, but I have a story to push as well: if you
+compile to Wasm, probably you should write a low-level Wasm toolchain as
+well.the Hoot
+Scheme-to-WebAssembly compiler
+(Incidentally, some of this material was taken from a ,
+which I think I haven’t shared yet in this space, so if you want some
+more context, have at it.)presentation I gave
+to the Wasm standardization organization back in
+October
+Compilers are all about names: definitions of globals, types, local
+variables, and so on.  An intermediate representation in a compiler is a
+graph of definitions and uses in which the edges are names,…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -381,19 +433,6 @@ Keep it simple.
   There is always another way to do it, and maybe a better one.
   Lists aren’t the only data type.
   The right thing and 2 shillings will get you a cup of tea.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marco Antoniotti: ELS 2024 in Vienna]]></title>
-        <id>http://within-parens.blogspot.com/2024/05/els-2024-in-vienna.html</id>
-        <link href="http://within-parens.blogspot.com/2024/05/els-2024-in-vienna.html"/>
-        <updated>2024-05-08T11:28:00.000Z</updated>
-        <summary type="html"><![CDATA[I just got back from the 2024 European Lisp Symposium in Vienna.
-After many years it was good to meet again in person with so many talented and interesting
-  people (all interested in parentheses).
-Many, many thanks to Beppe Attardi, Philipp Marek, Georgiy Tugai, Yukari Hafner, and, especially, Didier Verna, for pulling this together.]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -825,28 +864,6 @@ works once you are used to it, but it’s gnarly.pre-expanded copy o…]]></summ
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[missing the point of webassembly]]></title>
-        <id>https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly</id>
-        <link href="https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly"/>
-        <updated>2024-01-08T11:45:39.000Z</updated>
-        <summary type="html"><![CDATA[I find most descriptions of WebAssembly to be uninspiring: if you
-start with a phrase like “assembly-like language” or a “virtual machine”,
-we have already lost the plot.  That’s not to say that these
-descriptions are incorrect, but it’s like explaining what a dog is by
-starting with its circulatory system.  You’re not wrong, but you should probably lead with the bark.
-I have a different preferred starting point which is less descriptive
-but more operational: .  WebAssembly is a new way of dividing computing systems into
-pieces and of composing systems from parts.WebAssembly is a new fundamental abstraction
-boundary
-This all may sound high-falutin´, but it’s for real: this is the
-actually interesting thing about Wasm.
-It’s probably easiest to explain what I mean by example.  Consider the
-L…]]></summary>
-        <author>
-            <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Julia 1.10 Highlights]]></title>
         <id>https://julialang.org/blog/2023/12/julia-1.10-highlights/</id>
         <link href="https://julialang.org/blog/2023/12/julia-1.10-highlights/"/>
@@ -1011,22 +1028,6 @@ Naturally, for only recently coming out as trans, accepting that I am a woman is
         <summary type="html"><![CDATA[We want to maximize our ability to "stay in The Zone". So the aim is to create the fastest, smoothest, tightly integrated, and unobtrusive mechanism to get things done using the keyboard alone.]]></summary>
         <author>
             <name>Aditya Athalye writes and works here.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Fibonacci Matrix]]></title>
-        <id>https://ianthehenry.com/posts/fibonacci/</id>
-        <link href="https://ianthehenry.com/posts/fibonacci/"/>
-        <updated>2023-07-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When you think about the Fibonacci sequence, you probably imagine a swirling vortex of oscillating points stretching outwards to infinity:
-
-
-
-Okay, no, obviously you don’t. Yet.
-When you think about the Fibonacci sequence, you probably flush with a latent rage when you remember that it is, more often than not, the way that we introduce the concept of “recursive functions” to new programmers, in some sort of cruel hazing intended to make it harder for them to ever appreciate how recursion can help them write better programs. Sometimes we even add memoization, and call it “dynamic programming,” in order to impress upon them that even the most trivial problems deserve complex, inefficient solutions.
-Er, okay, you probably don’t think about the Fibonacci sequence much at all. It doesn’t, you k…]]></summary>
-        <author>
-            <name>Ian Henry</name>
         </author>
     </entry>
 </feed>

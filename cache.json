@@ -196,12 +196,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit",
+          "author": null,
+          "description": "Good morning!  Today we continue our dive into .\nInstead of talking about Scheme, today let’s focus on WebAssembly,\nspecifically the set of tools that we have built in Hoot to wrangle\nWasm.  I think it’s neat, but I have a story to push as well: if you\ncompile to Wasm, probably you should write a low-level Wasm toolchain as\nwell.the Hoot\nScheme-to-WebAssembly compiler\n(Incidentally, some of this material was taken from a ,\nwhich I think I haven’t shared yet in this space, so if you want some\nmore context, have at it.)presentation I gave\nto the Wasm standardization organization back in\nOctober\nCompilers are all about names: definitions of globals, types, local\nvariables, and so on.  An intermediate representation in a compiler is a\ngraph of definitions and uses in which the edges are names,…",
+          "link": "https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit",
+          "publishedOn": "2024-05-24T10:37:54.000Z",
+          "wordCount": 1906,
+          "title": "hoot's wasm toolkit",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/05/22/growing-a-bootie",
           "author": null,
           "description": "Following on ,\ntoday I would like to examine another axis of boot, which is a kind of\nrebased branch of history: not the hack as it happened, but the logic inside the\nhack, the structure of the built thing, the history as it might have been.  Instead of describing the layers of shims and props that we used while discovering what were building, let’s look at how we would build Hoot again, if we had to.last week’s\negregious discussion of the Hoot Scheme-to-WebAssembly compiler bootie\nI think many readers of this blog will have seen , a talk /\nperformance art piece in which Guy L. Steele—I once mentioned to him\nthat Guy L. was one of the back-justifications for the name Guile; he\ndid not take it well—in which Steele takes the set of monosyllabic words as primitives\nand builds up a tower of te…",
           "link": "https://wingolog.org/archives/2024/05/22/growing-a-bootie",
           "publishedOn": "2024-05-22T08:16:58.000Z",
-          "wordCount": 3406,
+          "wordCount": 3404,
           "title": "growing a bootie",
           "imageUrl": null
         },
@@ -211,7 +221,7 @@
           "description": "I realized recently that I haven’t been writing much about the .  Upon\nreflection, I have been too conscious of its\nlimitations to give it verbal tribute, preferring to spend each marginal\nhour fixing bugs and filling in features rather than publicising\nprogress.Hoot\nScheme-to-WebAssembly compiler\nIn the last month or so, though, Hoot has gotten to a point that pleases\nme.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth\nwriting about.\nSo let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot\nof Hoot.\nThe first axis of boot is time.  In the\nbeginning, there was nary a toot, and now, through boot, there is Hoot.\nThe first boot of Hoot was on paper.  \nhad asked me, ages ago, what I thought G…",
           "link": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
           "publishedOn": "2024-05-16T20:01:41.000Z",
-          "wordCount": 1799,
+          "wordCount": 1797,
           "title": "on hoot, on boot",
           "imageUrl": null
         },
@@ -281,18 +291,8 @@
           "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
           "link": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
           "publishedOn": "2024-01-11T14:10:38.000Z",
-          "wordCount": 1320,
+          "wordCount": 1319,
           "title": "micro macro story time",
-          "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly",
-          "author": null,
-          "description": "I find most descriptions of WebAssembly to be uninspiring: if you\nstart with a phrase like “assembly-like language” or a “virtual machine”,\nwe have already lost the plot.  That’s not to say that these\ndescriptions are incorrect, but it’s like explaining what a dog is by\nstarting with its circulatory system.  You’re not wrong, but you should probably lead with the bark.\nI have a different preferred starting point which is less descriptive\nbut more operational: .  WebAssembly is a new way of dividing computing systems into\npieces and of composing systems from parts.WebAssembly is a new fundamental abstraction\nboundary\nThis all may sound high-falutin´, but it’s for real: this is the\nactually interesting thing about Wasm.\nIt’s probably easiest to explain what I mean by example.  Consider the\nL…",
-          "link": "https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly",
-          "publishedOn": "2024-01-08T11:45:39.000Z",
-          "wordCount": 3468,
-          "title": "missing the point of webassembly",
           "imageUrl": null
         }
       ]
@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html",
+          "author": null,
+          "description": "The reason I want tail recursion is not to write loops (I can do\n  that with a while loop), but to write in continuation passing style\n  if I need to.  Continuation passing style allows you to implement\n  any control flow pattern you can imagine, not just the ones\n  intrinsic to the language.  You don’t want to use it all the time,\n  but it’s a valuable fallback when you need some ad hoc advanced\n  control flow.  Without tail recursion, any non-trivial use of\n  continuation passing style risks blowing the stack.\nIteration is just the special case of linear recursion that doesn’t\n  accumulate state.  99 percent of the time, you know beforehand that\n  you are looping and can use a looping construct, but sometimes you\n  have the general case where whether you loop or not depends on the\n  data at runtime.  If you have tail recursion, you just write the\n  code recursively and the tail recursion mechanism will turn it into\n  a loop if it notices that you aren’t accumulating state.\nIf your language has lambda and tail recursion, it can implement\n  any other control flow that might have been overlooked by the\n  language designer.  If it doesn’t, you're limited to the control\n  flow the language designer bothered to implement.",
+          "link": "http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html",
+          "publishedOn": "2024-05-24T14:55:00.000Z",
+          "wordCount": 3735,
+          "title": "Joe Marshall: Why I Want Tail Recursion",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/rewrite-rules.html",
           "author": null,
           "description": "I like rewrite rules.  They are simple to understand and easy to\n  implement.  If you have a rewrite rule (or a set of them) that makes\n  incremental progress in making an expression \"simpler\" in some\n  sense, you can keep applying it (or them) repeatedly until you have\n  finished the calculation.\nIf a function directly returns the result of calling another function,\n  we say that the call is in \"tail position\".  We can view this as a\n  simple rewrite rule.  Consider the fact-mul function\n  which computes the factorial of a number n and multiplies it by\n  another number m:\nfact-mul (n, m) = n! * m\nWe can define two rewrite rules for this function.  If n is 0, then\n  the factorial is 1, so we just rewrite this as m.  If n is not 0, we\n  can rewrite this as fact-mul (n-1, n*m).  This translates directly\n  into Lisp:\n(defun fact-mul (n m)\n  (if (zerop n)\n      m\n     (fact-mul (- n 1) (* n m))))\nThe rewrite rule doesn't have to rewrite into the same function.\n  For instance, we can rewrite odd? (x) to even? (x-1) and even? (x)\n  to odd? (x-1):\n(defun odd? (x)\n  (if (zerop x)\n      nil\n      (even? (1- x))))\n\n(defun even? (x)\n  (if (zerop x)\n      t  \n      (odd? (1- x))))\nYes, this is bog-simple tail recursion, but somehow it seems\n  even simpler to me if I think of it as a rewrite rule.\nEven if you don't have tail recursion, or if you have disabled it,\n  it still works, but the number of rewrites is limited by the stack\n  depth.",
           "link": "http://funcall.blogspot.com/2024/05/rewrite-rules.html",
           "publishedOn": "2024-05-23T15:15:00.000Z",
-          "wordCount": 3766,
+          "wordCount": 3773,
           "title": "Joe Marshall: Rewrite rules",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "I have a problem with Lisp.  It doesn’t do what I want.\n  Whenever I write a Lisp program, I always find myself wanting new\n  special forms that aren’t in the language.  The object system almost\n  never does exactly what I want.  The control structures never\n  cover all my use cases.\nIf only I could add new syntactic forms to the language.  If only I\n  could tweak the internals of the object system.  If only I could add\n  new kinds of control structure.\nOh, wait.  I can.",
           "link": "http://funcall.blogspot.com/2024/05/if-only.html",
           "publishedOn": "2024-05-21T18:51:00.000Z",
-          "wordCount": 3597,
+          "wordCount": 3602,
           "title": "Joe Marshall: If only ...",
           "imageUrl": null
         },
@@ -328,7 +338,7 @@
           "description": "At the end of 6.004, we had a contest for improving the performance\n  of the Maybe machine.  There was an 8-bit ALU included in the chip set we were\n  given, so the logical thing to do was to incorporate it into the\n  machine in place of the shift register.  This would naturally\n  improve the performance of arithmetic operations, but there were\n  other reasons that the Maybe machine was slow.\nOne of the rules of the contest was that we were not allowed to\n  change the clock speed.  But the Maybe machine had a four phase\n  clock.  The first phase would address the device driving the bus,\n  the second phase would connect it to the bus, the third phase would\n  clock the receiving device, and the fourth phase would keep the data\n  asserted to obey the hold time on the logic.\nThe four phase clo…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
           "publishedOn": "2024-05-20T14:13:00.000Z",
-          "wordCount": 4252,
+          "wordCount": 4257,
           "title": "Joe Marshall: Maybe machine (part 2)",
           "imageUrl": null
         },
@@ -338,7 +348,7 @@
           "description": "When I took 6.004, Computation Structures, we built the\n  “Maybe” machine, a pedagogical microcomputer made from\n  discrete TTL.   It had no CPU.  It had no ALU.  It had a shift\n  register.  The microcode could load the shift register from memory,\n  test the low bit, shift the register, and store the register to memory.\n  That was it.  It was universal (Turing complete), but it was\n  primitive.  If I recall correctly, Steve Ward, Chris Terman, and Dan\n  Nussbaum designed it.\nWe each built our own Maybe machine on a “nerd kit” — a large\n  briefcase/small suitcase with a power supply, some solderless breadboards, some\n  switches and LEDs, and a bunch of TTL chips.  We had to wire up the\n  chips ourselves.  I was maybe a bit anal about wiring it up.  I\n  color coded the wires, made neat right…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine.html",
           "publishedOn": "2024-05-20T13:40:00.000Z",
-          "wordCount": 4416,
+          "wordCount": 4421,
           "title": "Joe Marshall: Maybe machine",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "Or, why limitations matter.\nAfter we released Štar, my friend Zyni had a rather distressing and inconclusive exchange with someone on reddit. Apart from making me feel even better about walking away from reddit a decade and more ago, I realised an interesting thing when talking to her about her experience.\nLimitations\nHere are some curious things that people do.\nWhy, in 2024, would anyone use a digital camera which can only make monochrome pictures?\nWhy, in 2024, would anyone use a film camera?\nWhy, in 2024, would anyone record music in a studio which uses tape?\nWhy, in 2024, would any guitarist use a collection of flaky old FX pedals connected by noisy and unreliable cables, and a valve amplifier which occasionally catches fire1?\nWhy, in 2024, would anyone shoot a movie on film?\n\n\nYet peo…",
           "link": "https://www.tfeb.org/fragments/2024/05/20/monochrome/?utm_source=lisp&utm_medium=RSS",
           "publishedOn": "2024-05-20T08:58:05.000Z",
-          "wordCount": 1754,
+          "wordCount": 1755,
           "title": "Tim Bradshaw: Monochrome",
           "imageUrl": null
         },
@@ -358,7 +368,7 @@
           "description": "Over the years I was a developer at Google I never once tried to\n  pass “readability” for any language.  If you didn’t have\n  “readability”, then any code you checked in would need\n  an additionally review by someone who did have\n  “readability”.  The theory was that the code base would\n  turn into an unreadable patchwork of different styles if everyone\n  didn't adhere to the same set of rules.  By having a\n  “readability” requirement, the code base would be\n  uniform and understandable.  In practice, however, it was a social\n  signal that indicated whether you were a card carrying member of the\n  “in” group or not.  Having “readability” meant you\n  were a nobleman.  Not having it meant you were a commoner.\nTo get “readability” you had to endure a struggle\n  session with a current holder o…",
           "link": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
           "publishedOn": "2024-05-16T17:25:00.000Z",
-          "wordCount": 4196,
+          "wordCount": 4201,
           "title": "Joe Marshall: Readability at Google",
           "imageUrl": null
         },
@@ -388,18 +398,8 @@
           "description": "Interpreting Richard Gabriel with a nod to Tim Peters\n\nKeep it simple.\n  A simple interface is better than a simple implementation.\n  Complete is better than simple.\n  Consistent is better than complete.\n  Correctness trumps all.  Incorrectness is simply not allowed.\n  If the interface is hard to use, it is probably a bad idea.\n  If the interface is easy to use, it may be a good idea.\n  A weak language makes it hard to write good code, but a powerful\n  language makes it easy to write bad code that looks good.\n  The first thing that comes to mind is not always the best\n  thing.\n  When performance matters, get your declarations right.\n  There is always another way to do it, and maybe a better one.\n  Lists aren’t the only data type.\n  The right thing and 2 shillings will get you a cup of tea.",
           "link": "http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html",
           "publishedOn": "2024-05-10T15:56:00.000Z",
-          "wordCount": 4088,
+          "wordCount": 4093,
           "title": "Joe Marshall: The Way of Lisp or The Right Thing",
-          "imageUrl": null
-        },
-        {
-          "id": "http://within-parens.blogspot.com/2024/05/els-2024-in-vienna.html",
-          "author": null,
-          "description": "I just got back from the 2024 European Lisp Symposium in Vienna.\nAfter many years it was good to meet again in person with so many talented and interesting\n  people (all interested in parentheses).\nMany, many thanks to Beppe Attardi, Philipp Marek, Georgiy Tugai, Yukari Hafner, and, especially, Didier Verna, for pulling this together.",
-          "link": "http://within-parens.blogspot.com/2024/05/els-2024-in-vienna.html",
-          "publishedOn": "2024-05-08T11:28:00.000Z",
-          "wordCount": 1830,
-          "title": "Marco Antoniotti: ELS 2024 in Vienna",
           "imageUrl": null
         }
       ]
@@ -682,16 +682,6 @@
           "wordCount": 2242,
           "title": "How to Learn Nix, Part 48: Installing (single-user) Nix on macOS",
           "imageUrl": "https://ianthehenry.com/checkerboard.png"
-        },
-        {
-          "id": "https://ianthehenry.com/posts/fibonacci/",
-          "author": null,
-          "description": "When you think about the Fibonacci sequence, you probably imagine a swirling vortex of oscillating points stretching outwards to infinity:\n\n\n\nOkay, no, obviously you don’t. Yet.\nWhen you think about the Fibonacci sequence, you probably flush with a latent rage when you remember that it is, more often than not, the way that we introduce the concept of “recursive functions” to new programmers, in some sort of cruel hazing intended to make it harder for them to ever appreciate how recursion can help them write better programs. Sometimes we even add memoization, and call it “dynamic programming,” in order to impress upon them that even the most trivial problems deserve complex, inefficient solutions.\nEr, okay, you probably don’t think about the Fibonacci sequence much at all. It doesn’t, you k…",
-          "link": "https://ianthehenry.com/posts/fibonacci/",
-          "publishedOn": "2023-07-30T00:00:00.000Z",
-          "wordCount": 5215,
-          "title": "The Fibonacci Matrix",
-          "imageUrl": "https://ianthehenry.com/posts/fibonacci/hero.png"
         }
       ]
     },
@@ -705,7 +695,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-24T00:01:27.166Z",
+          "publishedOn": "2024-05-25T00:01:31.890Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -715,9 +705,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-24T00:01:25.132Z",
+          "publishedOn": "2024-05-25T00:01:30.036Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-05-25T00:01:30.008Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -725,9 +725,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-24T00:01:25.094Z",
+          "publishedOn": "2024-05-25T00:01:29.990Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-25T00:01:29.977Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -735,7 +745,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-24T00:01:25.090Z",
+          "publishedOn": "2024-05-25T00:01:29.976Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -745,29 +755,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-24T00:01:25.077Z",
+          "publishedOn": "2024-05-25T00:01:29.964Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-24T00:01:25.057Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-24T00:01:24.744Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -775,7 +765,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-24T00:01:24.198Z",
+          "publishedOn": "2024-05-25T00:01:29.909Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
