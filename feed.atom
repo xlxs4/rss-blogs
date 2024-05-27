@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-26T00:01:42.118Z</id>
+    <id>urn:2024-05-27T00:01:46.520Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-26T00:01:42.118Z</updated>
+    <updated>2024-05-27T00:01:46.520Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-26T00:01:42.091Z</updated>
+        <updated>2024-05-27T00:01:46.489Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,18 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-26T00:01:37.160Z</updated>
+        <updated>2024-05-27T00:01:42.908Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-26T00:01:37.123Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,8 +29,18 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-26T00:01:37.121Z</updated>
+        <updated>2024-05-27T00:01:42.904Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-05-27T00:01:42.894Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-26T00:01:37.068Z</updated>
+        <updated>2024-05-27T00:01:42.826Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-26T00:01:37.016Z</updated>
+        <updated>2024-05-27T00:01:42.793Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-26T00:01:37.014Z</updated>
+        <updated>2024-05-27T00:01:42.693Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,32 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-26T00:01:36.904Z</updated>
+        <updated>2024-05-27T00:01:42.663Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: ECS in CLOS]]></title>
+        <id>http://funcall.blogspot.com/2024/05/ecs-in-clos.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/ecs-in-clos.html"/>
+        <updated>2024-05-25T22:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Object systems make a natural fit for the game programming domain,
+  but over time people have found that the object-oriented model
+  provided by their favorite language doesn't always fit the use case.  So developers have come
+  up with “entity-component systems” (ECS) of varying complexity to
+  fill the gap.
+The basic idea is that a game object, called an “entity”, contains
+  or refers to a set of “components” that define its behavior.
+  Entities are too varied to be captured by a single class hierarchy,
+  so we abandon inheritance in favor of composition.  An entity that
+  can be displayed on the screen has a “sprite” component, an entity
+  that can move has “position” and “velocity” components, an entity
+  that you can attack has a “hitbox” component and a “health”
+  component.  A enti…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -119,9 +141,9 @@ If your language has lambda and tail recursion, it can implement
         <link href="https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit"/>
         <updated>2024-05-24T10:37:54.000Z</updated>
         <summary type="html"><![CDATA[Good morning!  Today we continue our dive into .
-Instead of talking about Scheme, today let’s focus on WebAssembly,
+Instead of talking about Scheme, let’s focus on WebAssembly,
 specifically the set of tools that we have built in Hoot to wrangle
-Wasm.  I think it’s neat, but I have a story to push as well: if you
+Wasm.  I am peddling a thesis: if you
 compile to Wasm, probably you should write a low-level Wasm toolchain as
 well.the Hoot
 Scheme-to-WebAssembly compiler
@@ -132,7 +154,8 @@ to the Wasm standardization organization back in
 October
 Compilers are all about names: definitions of globals, types, local
 variables, and so on.  An intermediate representation in a compiler is a
-graph of definitions and uses in which the edges are names,…]]></summary>
+graph of definitions and uses in which the edges are names, and the set of
+possible names is gen…]]></summary>
         <author>
             <name>wingolog</name>
         </author>
@@ -407,32 +430,6 @@ Now that the basic functionality of Insphex is in place I will implement display
 #insphex #CommonLisp #Interlisp #Lisp
 Discuss...
 Email | Reply @amoroso@fosstodon.org]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: The Way of Lisp or The Right Thing]]></title>
-        <id>http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/the-way-of-lisp-or-right-way.html"/>
-        <updated>2024-05-10T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Interpreting Richard Gabriel with a nod to Tim Peters
-
-Keep it simple.
-  A simple interface is better than a simple implementation.
-  Complete is better than simple.
-  Consistent is better than complete.
-  Correctness trumps all.  Incorrectness is simply not allowed.
-  If the interface is hard to use, it is probably a bad idea.
-  If the interface is easy to use, it may be a good idea.
-  A weak language makes it hard to write good code, but a powerful
-  language makes it easy to write bad code that looks good.
-  The first thing that comes to mind is not always the best
-  thing.
-  When performance matters, get your declarations right.
-  There is always another way to do it, and maybe a better one.
-  Lists aren’t the only data type.
-  The right thing and 2 shillings will get you a cup of tea.]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
