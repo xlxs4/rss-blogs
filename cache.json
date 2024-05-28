@@ -196,12 +196,22 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/05/27/cps-in-hoot",
+          "author": null,
+          "description": "Good morning good morning!  Today I have another article on the , this time on\nHoot’s use of the continuation-passing-style (CPS) transformation.Hoot\nScheme-to-Wasm compiler\nSo, just a bit of context to start out: Hoot is a Guile, Guile is a\nScheme, Scheme is a Lisp, one with :\nfunction calls are either in tail position, syntactically, in which case\nthey are , or they are not in tail position, in which they\nare .  A non-tail call suspends the calling function,\nputting the rest of it (the ) on some sort of stack, and\nwill resume when the callee returns.  Because non-tail calls push their\ncontinuation on a stack, we can call them .“proper tail\ncalls”tail callsnon-tail callscontinuationpush calls\nUsually the problem in implementing Scheme on other language run-times\ncomes in tail calls, but W…",
+          "link": "https://wingolog.org/archives/2024/05/27/cps-in-hoot",
+          "publishedOn": "2024-05-27T12:36:44.000Z",
+          "wordCount": 2882,
+          "title": "cps in hoot",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit",
           "author": null,
           "description": "Good morning!  Today we continue our dive into .\nInstead of talking about Scheme, let’s focus on WebAssembly,\nspecifically the set of tools that we have built in Hoot to wrangle\nWasm.  I am peddling a thesis: if you\ncompile to Wasm, probably you should write a low-level Wasm toolchain as\nwell.the Hoot\nScheme-to-WebAssembly compiler\n(Incidentally, some of this material was taken from a ,\nwhich I think I haven’t shared yet in this space, so if you want some\nmore context, have at it.)presentation I gave\nto the Wasm standardization organization back in\nOctober\nCompilers are all about names: definitions of globals, types, local\nvariables, and so on.  An intermediate representation in a compiler is a\ngraph of definitions and uses in which the edges are names, and the set of\npossible names is gen…",
           "link": "https://wingolog.org/archives/2024/05/24/hoots-wasm-toolkit",
           "publishedOn": "2024-05-24T10:37:54.000Z",
-          "wordCount": 1897,
+          "wordCount": 1894,
           "title": "hoot's wasm toolkit",
           "imageUrl": null
         },
@@ -211,7 +221,7 @@
           "description": "Following on ,\ntoday I would like to examine another axis of boot, which is a kind of\nrebased branch of history: not the hack as it happened, but the logic inside the\nhack, the structure of the built thing, the history as it might have been.  Instead of describing the layers of shims and props that we used while discovering what were building, let’s look at how we would build Hoot again, if we had to.last week’s\negregious discussion of the Hoot Scheme-to-WebAssembly compiler bootie\nI think many readers of this blog will have seen , a talk /\nperformance art piece in which Guy L. Steele—I once mentioned to him\nthat Guy L. was one of the back-justifications for the name Guile; he\ndid not take it well—in which Steele takes the set of monosyllabic words as primitives\nand builds up a tower of te…",
           "link": "https://wingolog.org/archives/2024/05/22/growing-a-bootie",
           "publishedOn": "2024-05-22T08:16:58.000Z",
-          "wordCount": 3404,
+          "wordCount": 3401,
           "title": "growing a bootie",
           "imageUrl": null
         },
@@ -221,7 +231,7 @@
           "description": "I realized recently that I haven’t been writing much about the .  Upon\nreflection, I have been too conscious of its\nlimitations to give it verbal tribute, preferring to spend each marginal\nhour fixing bugs and filling in features rather than publicising\nprogress.Hoot\nScheme-to-WebAssembly compiler\nIn the last month or so, though, Hoot has gotten to a point that pleases\nme.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth\nwriting about.\nSo let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot\nof Hoot.\nThe first axis of boot is time.  In the\nbeginning, there was nary a toot, and now, through boot, there is Hoot.\nThe first boot of Hoot was on paper.  \nhad asked me, ages ago, what I thought G…",
           "link": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
           "publishedOn": "2024-05-16T20:01:41.000Z",
-          "wordCount": 1797,
+          "wordCount": 1794,
           "title": "on hoot, on boot",
           "imageUrl": null
         },
@@ -284,16 +294,6 @@
           "wordCount": 1377,
           "title": "nombrilliant, actually",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
-          "author": null,
-          "description": "Today, a tiny tale:  I was working\non .\nGuile inherited this code from an early version of Kent Dybvig’s\n.  It\nwas... not easy to work with.about 15 years\nagoGuile’s macro\nexpanderportable syntax\nexpander\nSome difficulties were essential.  Scope is tricky, after all.\nSome difficulties were incidental, but deep.  The expander is ultimately\na function that translates Scheme-with-macros to Scheme-without-macros.\nHowever, it is itself written in Scheme-with-macros, so to load it on a\nsubstrate without macros requires a ,\nwhose data representations need to be compatible with any incremental\nchange, so that you will be able to use the new expander to produce a\nfresh pre-expansion.  This difficulty could have been avoided by\n.  It\nworks once you are used to it, but it’s gnarly.pre-expanded copy o…",
-          "link": "https://wingolog.org/archives/2024/01/11/micro-macro-story-time",
-          "publishedOn": "2024-01-11T14:10:38.000Z",
-          "wordCount": 1319,
-          "title": "micro macro story time",
-          "imageUrl": null
         }
       ]
     },
@@ -302,6 +302,16 @@
       "feedUrl": "http://planet.lisp.org/rss20.xml",
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
+        {
+          "id": "http://funcall.blogspot.com/2024/05/exception-handling-for-control-flow.html",
+          "author": null,
+          "description": "Back when I was taking a Software Engineering course we used a\n  language called CLU.  CLU was an early object-oriented language.  A\n  feature of CLU was that if you wrote your code correctly, the\n  compiler could enforce completely opaque abstract data types.  A\n  good chunk of your grade depended on whether you were able to follow\n  insructions and write your data types so that they were opaque.\nCLU did not have polymorphism, but it did have discriminated type\n  unions.  You could fake simple polymorphism by using a discriminated\n  type union as the representation of an opaque type.  Methods on the\n  opaque type would have to dispatch on the union subtype.  Now to\n  implement this correctly, you should write your methods to check the\n  union subtype even if you “know” what it is.  The co…",
+          "link": "http://funcall.blogspot.com/2024/05/exception-handling-for-control-flow.html",
+          "publishedOn": "2024-05-26T22:27:00.000Z",
+          "wordCount": 4539,
+          "title": "Joe Marshall: Exception Handling for Control Flow",
+          "imageUrl": null
+        },
         {
           "id": "http://funcall.blogspot.com/2024/05/ecs-in-clos.html",
           "author": null,
@@ -391,16 +401,6 @@
           "wordCount": 1732,
           "title": "Tim Bradshaw: &#352;tar: an iteration construct for Common Lisp",
           "imageUrl": null
-        },
-        {
-          "id": "https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign=rss-feed",
-          "author": null,
-          "description": "I'm developing the new program Insphex (inspect hex), a hex dump tool that is created with and runs on the Medley Interlisp environment.\nSimilarly to the Linux command hexdump, it shows the contents of files as hexadecimal values and the corresponding ASCII characters. An early version of the program prints the hex dump to the standard output like this.\n\nI plan to enhance Insphex to optionally display the dump in a separate window one page at a time. An attached menu will have options for showing the next page and exiting. I'll also provide an Exec command for running the program.\nThe code is in Common Lisp but will include some Interlisp to access the required system functionality.\nAlthough Insphex is useful in itself, I have three main goals for it. First, I want a real project to practice the process for writing Common Lisp with the residential environment of Medley. This is the native way of coding on Medley and takes full advantage of its development environment and features such as the File Manager and the SEdit editor.\nMost Medley tools and facilities are written in Interlisp or expose Interlisp APIs through which the functionality can be invoked. So another goal is to interface with Interlisp from Common Lisp to access the functionality I need like windows and menus.\nMy third goal is to experiment with displaying textual output in TEdit, the Medley word processor where the hex dump will optionally go.\nAlthough the Interlisp API of TEdit supports advanced editing and formatting, Insphex does only basic text output. The primary feature I want is TEdit's ability to automatically handle repainting the window after it's resized or a hidden portion is exposed. This is handy as by default Interlisp windows mostly don't handle the repaint.\nNow that the basic functionality of Insphex is in place I will implement displaying the hex dump in a TEdit window.\n#insphex #CommonLisp #Interlisp #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
-          "link": "https://journal.paoloamoroso.com/insphex-a-hex-dump-tool-in-medley-common-lisp?pk_campaign=rss-feed",
-          "publishedOn": "2024-05-11T10:17:08.000Z",
-          "wordCount": 842,
-          "title": "Paolo Amoroso: Insphex, a hex dump tool in Medley Common Lisp",
-          "imageUrl": "https://i.snap.as/QAznV3xz.png"
         }
       ]
     },
@@ -645,16 +645,6 @@
           "wordCount": 4780,
           "title": "Emerging from dotemacs bankruptcy the hard way: integrating the IDE (feat. Clojure(Script))",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-getting-about/",
-          "author": null,
-          "description": "We want to maximize our ability to \"stay in The Zone\". So the aim is to create the fastest, smoothest, tightly integrated, and unobtrusive mechanism to get things done using the keyboard alone.",
-          "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-getting-about/index.html",
-          "publishedOn": "2023-08-02T00:00:00.000Z",
-          "wordCount": 2926,
-          "title": "Emerging from dotemacs bankruptcy the hard way: getting about",
-          "imageUrl": null
         }
       ]
     },
@@ -695,9 +685,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-27T00:01:46.489Z",
+          "publishedOn": "2024-05-28T00:01:29.854Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-05-28T00:01:25.795Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -705,9 +705,29 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-27T00:01:42.908Z",
+          "publishedOn": "2024-05-28T00:01:25.753Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-05-28T00:01:25.751Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-28T00:01:25.748Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -715,7 +735,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-27T00:01:42.904Z",
+          "publishedOn": "2024-05-28T00:01:25.740Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -725,39 +745,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-27T00:01:42.894Z",
+          "publishedOn": "2024-05-28T00:01:25.717Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-27T00:01:42.826Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-27T00:01:42.793Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-27T00:01:42.693Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -765,7 +755,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-27T00:01:42.663Z",
+          "publishedOn": "2024-05-28T00:01:25.665Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
@@ -780,7 +770,7 @@
         {
           "id": "https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust",
           "author": "Matthijs Cox",
-          "description": "When switching between programming languages, people often start with comparing syntax differences, and many overview exist on this topic. However, a large part of programming revolves around package management, especially if you want to develop your own packages, and I have not encountered many overviews comparing programming languages on this topic. A package is essentially how code is shared between programmers. Understanding package management and package development is vital when you want to get good at a language.\nTo satisfy my curiosity, and help myself and others, I decided to write this package management overview myself. I have chosen to compare popular languages Python and R, my personal favorite language Julia, and the rising star Rust, which has notoriously good package manage…",
+          "description": "When switching between programming languages, people often start with comparing syntax differences, and many overview exist on this topic. However, a large part of programming revolves around package management, especially if you want to develop your...",
           "link": "https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust",
           "publishedOn": "2024-05-23T09:23:13.000Z",
           "wordCount": 21995,
