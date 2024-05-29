@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-28T00:01:29.874Z</id>
+    <id>urn:2024-05-29T00:01:28.285Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-05-28T00:01:29.874Z</updated>
+    <updated>2024-05-29T00:01:28.285Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-05-28T00:01:29.854Z</updated>
+        <updated>2024-05-29T00:01:28.030Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -19,38 +19,8 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-05-28T00:01:25.795Z</updated>
+        <updated>2024-05-29T00:01:25.677Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-05-28T00:01:25.753Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-05-28T00:01:25.751Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-05-28T00:01:25.748Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +29,7 @@
         <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
         <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
         <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-05-28T00:01:25.740Z</updated>
+        <updated>2024-05-29T00:01:25.593Z</updated>
         <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,8 +39,38 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-05-28T00:01:25.717Z</updated>
+        <updated>2024-05-29T00:01:25.589Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-05-29T00:01:25.570Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-05-29T00:01:25.567Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-05-29T00:01:25.550Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +79,64 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-05-28T00:01:25.665Z</updated>
+        <updated>2024-05-29T00:01:25.466Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: If I Were in Charge]]></title>
+        <id>http://funcall.blogspot.com/2024/05/if-i-were-in-charge.html</id>
+        <link href="http://funcall.blogspot.com/2024/05/if-i-were-in-charge.html"/>
+        <updated>2024-05-28T14:27:00.000Z</updated>
+        <summary type="html"><![CDATA[If I were in charge of Python development, here are a few things I would
+  do:
+Add (optional) tail recursion.  This would make it easier to
+    write pure functional code. It would also make it possible to
+    effectively program in continuation passing style.  Making tail
+    recursion optional should placate those that feel that stack
+    traces are important for debugging.
+Add macros.  I am thinking of Lisp-like macros that do code
+  transformation, not C-like macros that simply do token
+  substitution.  A good macro system would allow advanced users to
+  create new syntactic forms for the language and provide a way to
+  abstract boilerplate.
+Allow a way to use statements inside expressions, or beef up the
+  expression syntax to have exception expressions, loop expressions,
+    etc.  This, too, would make it easier to write pure functional code.
+Optional end-of-block markers.  These would allow you to
+  automatically fix indentation errors and recover indentation when
+  it is lost.
+Use true lexical scoping.  Changing this
+  might break legacy code that depends on the current scoping quirks, though.
+Use modern interpretation techniques to get the performance up
+    to a more reasonable level.  Performance doesn't matter that
+    much, but Python is notably slow.
+Get rid of the global interpreter lock so that multithreading
+  works better.  Probably easier said than done.
+I don't believe any of these necessarily involve fundamental
+  changes to the language.  They'd just make the language more
+  flexible, though I'm sure many people would disagree with me.
+But, perhaps for the best, they're not going to put me in charge.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paolo Amoroso: Building a GUI for Insphex]]></title>
+        <id>https://journal.paoloamoroso.com/building-a-gui-for-insphex?pk_campaign=rss-feed</id>
+        <link href="https://journal.paoloamoroso.com/building-a-gui-for-insphex?pk_campaign=rss-feed"/>
+        <updated>2024-05-28T09:25:43.000Z</updated>
+        <summary type="html"><![CDATA[I added a GUI to Insphex, the hex dump tool I'm writing in Common Lisp on the Medley Interlisp environment.
+The initial version printed the hex dump only to the standard output, now optionally to a separate TEdit window with a command menu. The menu has items for displaying the next page of output, redisplaying from the beginning of the file, and exiting the program.
+
+Most window, menu, and other Medley GUI facilities, like the TEdit rich text editor, provide Interlisp APIs in the IL package that Common Lisp programs such as Insphex can access. However, since the APIs usually rely on Interlisp records, from Common Lisp it's often necessary to write quite a few package qualifiers like this example to create a menu record:
+(IL:CREATE IL:MENU
+           IL:ITEMS IL:← '(ITEM1 ITEM2 ITEM3)
+    …]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -393,42 +447,6 @@ The first boot of Hoot was on paper.
 had asked me, ages ago, what I thought G…]]></summary>
         <author>
             <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Readability at Google]]></title>
-        <id>http://funcall.blogspot.com/2024/05/readability-at-google.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/readability-at-google.html"/>
-        <updated>2024-05-16T17:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Over the years I was a developer at Google I never once tried to
-  pass “readability” for any language.  If you didn’t have
-  “readability”, then any code you checked in would need
-  an additionally review by someone who did have
-  “readability”.  The theory was that the code base would
-  turn into an unreadable patchwork of different styles if everyone
-  didn't adhere to the same set of rules.  By having a
-  “readability” requirement, the code base would be
-  uniform and understandable.  In practice, however, it was a social
-  signal that indicated whether you were a card carrying member of the
-  “in” group or not.  Having “readability” meant you
-  were a nobleman.  Not having it meant you were a commoner.
-To get “readability” you had to endure a struggle
-  session with a current holder o…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tim Bradshaw: &#352;tar: an iteration construct for Common Lisp]]></title>
-        <id>https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&amp;utm_medium=RSS</id>
-        <link href="https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&amp;utm_medium=RSS"/>
-        <updated>2024-05-15T06:37:18.000Z</updated>
-        <summary type="html"><![CDATA[Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.
-Common Lisp has multiple iteration constructs: mapping functions such as mapcar, special-purpose constructs such as dotimes and dolist, the general but somewhat clumsy construct which is do and do*, and finally the extended loop macro which aims to embed a ‘more friendly’ iteration language into CL and succeeds in being so complex that it is often hard to know whether a given form is legal or not without poring over loop’s grammar.
-None of these constructs manage to be all three of pleasant to use, easy to understand and general. loop somehow fails to be any of these things in many cases. None are extensible1.
-But …]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>

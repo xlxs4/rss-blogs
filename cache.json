@@ -303,12 +303,32 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/05/if-i-were-in-charge.html",
+          "author": null,
+          "description": "If I were in charge of Python development, here are a few things I would\n  do:\nAdd (optional) tail recursion.  This would make it easier to\n    write pure functional code. It would also make it possible to\n    effectively program in continuation passing style.  Making tail\n    recursion optional should placate those that feel that stack\n    traces are important for debugging.\nAdd macros.  I am thinking of Lisp-like macros that do code\n  transformation, not C-like macros that simply do token\n  substitution.  A good macro system would allow advanced users to\n  create new syntactic forms for the language and provide a way to\n  abstract boilerplate.\nAllow a way to use statements inside expressions, or beef up the\n  expression syntax to have exception expressions, loop expressions,\n    etc.  This, too, would make it easier to write pure functional code.\nOptional end-of-block markers.  These would allow you to\n  automatically fix indentation errors and recover indentation when\n  it is lost.\nUse true lexical scoping.  Changing this\n  might break legacy code that depends on the current scoping quirks, though.\nUse modern interpretation techniques to get the performance up\n    to a more reasonable level.  Performance doesn't matter that\n    much, but Python is notably slow.\nGet rid of the global interpreter lock so that multithreading\n  works better.  Probably easier said than done.\nI don't believe any of these necessarily involve fundamental\n  changes to the language.  They'd just make the language more\n  flexible, though I'm sure many people would disagree with me.\nBut, perhaps for the best, they're not going to put me in charge.",
+          "link": "http://funcall.blogspot.com/2024/05/if-i-were-in-charge.html",
+          "publishedOn": "2024-05-28T14:27:00.000Z",
+          "wordCount": 3870,
+          "title": "Joe Marshall: If I Were in Charge",
+          "imageUrl": null
+        },
+        {
+          "id": "https://journal.paoloamoroso.com/building-a-gui-for-insphex?pk_campaign=rss-feed",
+          "author": null,
+          "description": "I added a GUI to Insphex, the hex dump tool I'm writing in Common Lisp on the Medley Interlisp environment.\nThe initial version printed the hex dump only to the standard output, now optionally to a separate TEdit window with a command menu. The menu has items for displaying the next page of output, redisplaying from the beginning of the file, and exiting the program.\n\nMost window, menu, and other Medley GUI facilities, like the TEdit rich text editor, provide Interlisp APIs in the IL package that Common Lisp programs such as Insphex can access. However, since the APIs usually rely on Interlisp records, from Common Lisp it's often necessary to write quite a few package qualifiers like this example to create a menu record:\n(IL:CREATE IL:MENU\n           IL:ITEMS IL:← '(ITEM1 ITEM2 ITEM3)\n    …",
+          "link": "https://journal.paoloamoroso.com/building-a-gui-for-insphex?pk_campaign=rss-feed",
+          "publishedOn": "2024-05-28T09:25:43.000Z",
+          "wordCount": 911,
+          "title": "Paolo Amoroso: Building a GUI for Insphex",
+          "imageUrl": "https://i.snap.as/7ufwKQZx.png"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/05/exception-handling-for-control-flow.html",
           "author": null,
           "description": "Back when I was taking a Software Engineering course we used a\n  language called CLU.  CLU was an early object-oriented language.  A\n  feature of CLU was that if you wrote your code correctly, the\n  compiler could enforce completely opaque abstract data types.  A\n  good chunk of your grade depended on whether you were able to follow\n  insructions and write your data types so that they were opaque.\nCLU did not have polymorphism, but it did have discriminated type\n  unions.  You could fake simple polymorphism by using a discriminated\n  type union as the representation of an opaque type.  Methods on the\n  opaque type would have to dispatch on the union subtype.  Now to\n  implement this correctly, you should write your methods to check the\n  union subtype even if you “know” what it is.  The co…",
           "link": "http://funcall.blogspot.com/2024/05/exception-handling-for-control-flow.html",
           "publishedOn": "2024-05-26T22:27:00.000Z",
-          "wordCount": 4539,
+          "wordCount": 4546,
           "title": "Joe Marshall: Exception Handling for Control Flow",
           "imageUrl": null
         },
@@ -318,7 +338,7 @@
           "description": "Object systems make a natural fit for the game programming domain,\n  but over time people have found that the object-oriented model\n  provided by their favorite language doesn't always fit the use case.  So developers have come\n  up with “entity-component systems” (ECS) of varying complexity to\n  fill the gap.\nThe basic idea is that a game object, called an “entity”, contains\n  or refers to a set of “components” that define its behavior.\n  Entities are too varied to be captured by a single class hierarchy,\n  so we abandon inheritance in favor of composition.  An entity that\n  can be displayed on the screen has a “sprite” component, an entity\n  that can move has “position” and “velocity” components, an entity\n  that you can attack has a “hitbox” component and a “health”\n  component.  A enti…",
           "link": "http://funcall.blogspot.com/2024/05/ecs-in-clos.html",
           "publishedOn": "2024-05-25T22:36:00.000Z",
-          "wordCount": 4070,
+          "wordCount": 4075,
           "title": "Joe Marshall: ECS in CLOS",
           "imageUrl": null
         },
@@ -328,7 +348,7 @@
           "description": "The reason I want tail recursion is not to write loops (I can do\n  that with a while loop), but to write in continuation passing style\n  if I need to.  Continuation passing style allows you to implement\n  any control flow pattern you can imagine, not just the ones\n  intrinsic to the language.  You don’t want to use it all the time,\n  but it’s a valuable fallback when you need some ad hoc advanced\n  control flow.  Without tail recursion, any non-trivial use of\n  continuation passing style risks blowing the stack.\nIteration is just the special case of linear recursion that doesn’t\n  accumulate state.  99 percent of the time, you know beforehand that\n  you are looping and can use a looping construct, but sometimes you\n  have the general case where whether you loop or not depends on the\n  data at runtime.  If you have tail recursion, you just write the\n  code recursively and the tail recursion mechanism will turn it into\n  a loop if it notices that you aren’t accumulating state.\nIf your language has lambda and tail recursion, it can implement\n  any other control flow that might have been overlooked by the\n  language designer.  If it doesn’t, you're limited to the control\n  flow the language designer bothered to implement.",
           "link": "http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html",
           "publishedOn": "2024-05-24T14:55:00.000Z",
-          "wordCount": 3768,
+          "wordCount": 3773,
           "title": "Joe Marshall: Why I Want Tail Recursion",
           "imageUrl": null
         },
@@ -338,7 +358,7 @@
           "description": "I like rewrite rules.  They are simple to understand and easy to\n  implement.  If you have a rewrite rule (or a set of them) that makes\n  incremental progress in making an expression \"simpler\" in some\n  sense, you can keep applying it (or them) repeatedly until you have\n  finished the calculation.\nIf a function directly returns the result of calling another function,\n  we say that the call is in \"tail position\".  We can view this as a\n  simple rewrite rule.  Consider the fact-mul function\n  which computes the factorial of a number n and multiplies it by\n  another number m:\nfact-mul (n, m) = n! * m\nWe can define two rewrite rules for this function.  If n is 0, then\n  the factorial is 1, so we just rewrite this as m.  If n is not 0, we\n  can rewrite this as fact-mul (n-1, n*m).  This translates directly\n  into Lisp:\n(defun fact-mul (n m)\n  (if (zerop n)\n      m\n     (fact-mul (- n 1) (* n m))))\nThe rewrite rule doesn't have to rewrite into the same function.\n  For instance, we can rewrite odd? (x) to even? (x-1) and even? (x)\n  to odd? (x-1):\n(defun odd? (x)\n  (if (zerop x)\n      nil\n      (even? (1- x))))\n\n(defun even? (x)\n  (if (zerop x)\n      t  \n      (odd? (1- x))))\nYes, this is bog-simple tail recursion, but somehow it seems\n  even simpler to me if I think of it as a rewrite rule.\nEven if you don't have tail recursion, or if you have disabled it,\n  it still works, but the number of rewrites is limited by the stack\n  depth.",
           "link": "http://funcall.blogspot.com/2024/05/rewrite-rules.html",
           "publishedOn": "2024-05-23T15:15:00.000Z",
-          "wordCount": 3781,
+          "wordCount": 3786,
           "title": "Joe Marshall: Rewrite rules",
           "imageUrl": null
         },
@@ -348,7 +368,7 @@
           "description": "I have a problem with Lisp.  It doesn’t do what I want.\n  Whenever I write a Lisp program, I always find myself wanting new\n  special forms that aren’t in the language.  The object system almost\n  never does exactly what I want.  The control structures never\n  cover all my use cases.\nIf only I could add new syntactic forms to the language.  If only I\n  could tweak the internals of the object system.  If only I could add\n  new kinds of control structure.\nOh, wait.  I can.",
           "link": "http://funcall.blogspot.com/2024/05/if-only.html",
           "publishedOn": "2024-05-21T18:51:00.000Z",
-          "wordCount": 3610,
+          "wordCount": 3615,
           "title": "Joe Marshall: If only ...",
           "imageUrl": null
         },
@@ -358,7 +378,7 @@
           "description": "At the end of 6.004, we had a contest for improving the performance\n  of the Maybe machine.  There was an 8-bit ALU included in the chip set we were\n  given, so the logical thing to do was to incorporate it into the\n  machine in place of the shift register.  This would naturally\n  improve the performance of arithmetic operations, but there were\n  other reasons that the Maybe machine was slow.\nOne of the rules of the contest was that we were not allowed to\n  change the clock speed.  But the Maybe machine had a four phase\n  clock.  The first phase would address the device driving the bus,\n  the second phase would connect it to the bus, the third phase would\n  clock the receiving device, and the fourth phase would keep the data\n  asserted to obey the hold time on the logic.\nThe four phase clo…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
           "publishedOn": "2024-05-20T14:13:00.000Z",
-          "wordCount": 4265,
+          "wordCount": 4270,
           "title": "Joe Marshall: Maybe machine (part 2)",
           "imageUrl": null
         },
@@ -368,7 +388,7 @@
           "description": "When I took 6.004, Computation Structures, we built the\n  “Maybe” machine, a pedagogical microcomputer made from\n  discrete TTL.   It had no CPU.  It had no ALU.  It had a shift\n  register.  The microcode could load the shift register from memory,\n  test the low bit, shift the register, and store the register to memory.\n  That was it.  It was universal (Turing complete), but it was\n  primitive.  If I recall correctly, Steve Ward, Chris Terman, and Dan\n  Nussbaum designed it.\nWe each built our own Maybe machine on a “nerd kit” — a large\n  briefcase/small suitcase with a power supply, some solderless breadboards, some\n  switches and LEDs, and a bunch of TTL chips.  We had to wire up the\n  chips ourselves.  I was maybe a bit anal about wiring it up.  I\n  color coded the wires, made neat right…",
           "link": "http://funcall.blogspot.com/2024/05/maybe-machine.html",
           "publishedOn": "2024-05-20T13:40:00.000Z",
-          "wordCount": 4429,
+          "wordCount": 4434,
           "title": "Joe Marshall: Maybe machine",
           "imageUrl": null
         },
@@ -380,26 +400,6 @@
           "publishedOn": "2024-05-20T08:58:05.000Z",
           "wordCount": 1755,
           "title": "Tim Bradshaw: Monochrome",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
-          "author": null,
-          "description": "Over the years I was a developer at Google I never once tried to\n  pass “readability” for any language.  If you didn’t have\n  “readability”, then any code you checked in would need\n  an additionally review by someone who did have\n  “readability”.  The theory was that the code base would\n  turn into an unreadable patchwork of different styles if everyone\n  didn't adhere to the same set of rules.  By having a\n  “readability” requirement, the code base would be\n  uniform and understandable.  In practice, however, it was a social\n  signal that indicated whether you were a card carrying member of the\n  “in” group or not.  Having “readability” meant you\n  were a nobleman.  Not having it meant you were a commoner.\nTo get “readability” you had to endure a struggle\n  session with a current holder o…",
-          "link": "http://funcall.blogspot.com/2024/05/readability-at-google.html",
-          "publishedOn": "2024-05-16T17:25:00.000Z",
-          "wordCount": 4209,
-          "title": "Joe Marshall: Readability at Google",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "author": null,
-          "description": "Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.\nCommon Lisp has multiple iteration constructs: mapping functions such as mapcar, special-purpose constructs such as dotimes and dolist, the general but somewhat clumsy construct which is do and do*, and finally the extended loop macro which aims to embed a ‘more friendly’ iteration language into CL and succeeds in being so complex that it is often hard to know whether a given form is legal or not without poring over loop’s grammar.\nNone of these constructs manage to be all three of pleasant to use, easy to understand and general. loop somehow fails to be any of these things in many cases. None are extensible1.\nBut …",
-          "link": "https://www.tfeb.org/fragments/2024/05/15/an-iteration-construct-for-common-lisp/?utm_source=lisp&utm_medium=RSS",
-          "publishedOn": "2024-05-15T06:37:18.000Z",
-          "wordCount": 1732,
-          "title": "Tim Bradshaw: &#352;tar: an iteration construct for Common Lisp",
           "imageUrl": null
         }
       ]
@@ -685,7 +685,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-28T00:01:29.854Z",
+          "publishedOn": "2024-05-29T00:01:28.030Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -695,39 +695,9 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-28T00:01:25.795Z",
+          "publishedOn": "2024-05-29T00:01:25.677Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-28T00:01:25.753Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-28T00:01:25.751Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-28T00:01:25.748Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -735,7 +705,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-28T00:01:25.740Z",
+          "publishedOn": "2024-05-29T00:01:25.593Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -745,9 +715,39 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-28T00:01:25.717Z",
+          "publishedOn": "2024-05-29T00:01:25.589Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-29T00:01:25.570Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-05-29T00:01:25.567Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-05-29T00:01:25.550Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -755,7 +755,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-28T00:01:25.665Z",
+          "publishedOn": "2024-05-29T00:01:25.466Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
