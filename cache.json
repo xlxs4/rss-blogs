@@ -308,7 +308,7 @@
           "description": "If I were in charge of Python development, here are a few things I would\n  do:\nAdd (optional) tail recursion.  This would make it easier to\n    write pure functional code. It would also make it possible to\n    effectively program in continuation passing style.  Making tail\n    recursion optional should placate those that feel that stack\n    traces are important for debugging.\nAdd macros.  I am thinking of Lisp-like macros that do code\n  transformation, not C-like macros that simply do token\n  substitution.  A good macro system would allow advanced users to\n  create new syntactic forms for the language and provide a way to\n  abstract boilerplate.\nAllow a way to use statements inside expressions, or beef up the\n  expression syntax to have exception expressions, loop expressions,\n    etc.  This, too, would make it easier to write pure functional code.\nOptional end-of-block markers.  These would allow you to\n  automatically fix indentation errors and recover indentation when\n  it is lost.\nUse true lexical scoping.  Changing this\n  might break legacy code that depends on the current scoping quirks, though.\nUse modern interpretation techniques to get the performance up\n    to a more reasonable level.  Performance doesn't matter that\n    much, but Python is notably slow.\nGet rid of the global interpreter lock so that multithreading\n  works better.  Probably easier said than done.\nI don't believe any of these necessarily involve fundamental\n  changes to the language.  They'd just make the language more\n  flexible, though I'm sure many people would disagree with me.\nBut, perhaps for the best, they're not going to put me in charge.",
           "link": "http://funcall.blogspot.com/2024/05/if-i-were-in-charge.html",
           "publishedOn": "2024-05-28T14:27:00.000Z",
-          "wordCount": 3870,
+          "wordCount": 3902,
           "title": "Joe Marshall: If I Were in Charge",
           "imageUrl": null
         },
@@ -685,7 +685,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-05-29T00:01:28.030Z",
+          "publishedOn": "2024-05-30T00:01:56.474Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -695,9 +695,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-05-29T00:01:25.677Z",
+          "publishedOn": "2024-05-30T00:01:54.136Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "author": null,
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-05-30T00:01:54.130Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -705,7 +715,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-05-29T00:01:25.593Z",
+          "publishedOn": "2024-05-30T00:01:54.127Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -715,19 +725,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-05-29T00:01:25.589Z",
+          "publishedOn": "2024-05-30T00:01:54.106Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-05-29T00:01:25.570Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -735,19 +735,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-05-29T00:01:25.567Z",
+          "publishedOn": "2024-05-30T00:01:54.004Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
           "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-05-29T00:01:25.550Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-05-30T00:01:53.999Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -755,7 +755,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-05-29T00:01:25.466Z",
+          "publishedOn": "2024-05-30T00:01:53.914Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
