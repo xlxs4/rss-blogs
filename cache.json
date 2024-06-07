@@ -231,7 +231,7 @@
           "description": "I realized recently that I haven’t been writing much about the .  Upon\nreflection, I have been too conscious of its\nlimitations to give it verbal tribute, preferring to spend each marginal\nhour fixing bugs and filling in features rather than publicising\nprogress.Hoot\nScheme-to-WebAssembly compiler\nIn the last month or so, though, Hoot has gotten to a point that pleases\nme.  Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth\nwriting about.\nSo let’s start today by talking about bootie.  Boot, I mean!  The boot, the boot, the boot\nof Hoot.\nThe first axis of boot is time.  In the\nbeginning, there was nary a toot, and now, through boot, there is Hoot.\nThe first boot of Hoot was on paper.  \nhad asked me, ages ago, what I thought G…",
           "link": "https://wingolog.org/archives/2024/05/16/on-hoot-on-boot",
           "publishedOn": "2024-05-16T20:01:41.000Z",
-          "wordCount": 1794,
+          "wordCount": 1780,
           "title": "on hoot, on boot",
           "imageUrl": null
         },
@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/06/d-day-80-years-ago-today.html",
+          "author": null,
+          "description": "More than 150,000 troops, 5,000 ships, 13,000 aircraft in the largest amphibious assault in history.",
+          "link": "http://funcall.blogspot.com/2024/06/d-day-80-years-ago-today.html",
+          "publishedOn": "2024-06-06T11:23:00.000Z",
+          "wordCount": 3526,
+          "title": "Joe Marshall: D-day, 80 years ago today",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyy0B1YxQsCNz_rPegS8Zq-ZMkBI9MaNxRZCqdVk437K0ywpvGnQROfgCTgkHqrzArg9wYJ_sCjKEtRXwgPPBR78IhDzwYRqdWMtkM_jaORoMBtXldjHUprgroQJOaG2scBKmX73HKJ68OurTYhOmoyggFIZglBL6yd1OSofcm3Nqd_uva7G5MAF1HGbhK/w1200-h630-p-k-no-nu/d-day.jpg"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html",
           "author": null,
           "description": "I was amusing myself by looking at Lisp tutorials.  They used the\n  idea of a Tic-Tac-Toe service as a motivating example.  You’d be\n  able to play Tic-Tac-Toe against the computer or another\n  opponent.\nMy immediate thought went to the issue of multithreading.  If you\n  were going to serve hundreds of people at once, you’d need to have a\n  multi-threaded service.  Multi-threaded code is hard to write and\n  debug, and it is much better if you have a plan before you start\n  than if you try to retrofit it later (that trick never works).\nThe magic bullet for multi-threading is immutable data.  Immutable\n  data is inherently thread-safe.  It doesn’t need synchronization or\n  locks.  If all your data are immutable, you can pretty much ignore\n  multi-threading issues and your code will just work…",
           "link": "http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html",
           "publishedOn": "2024-06-05T16:16:00.000Z",
-          "wordCount": 4013,
+          "wordCount": 4132,
           "title": "Joe Marshall: Multithreading and Immutable Data",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "Unlike most languages, Lisp represents its programs as data\n  structures.  A Lisp program is a set of nested lists.  We can look\n  at a Lisp program as a tree, with each nested list as a node in the\n  tree.  The first element of each list indicates the kind of node it\n  is.  For instance, a sublist beginning with LET binds local\n  variables, a sublist beginning with IF is a conditional, and so\n  on.\nIn most languages, it difficult or impossible to add new node types\n  to the syntax tree.  The syntax is wired into the language parser\n  and if you even can add new syntax, you have to carefully modify the\n  parser to recognize it.  In Lisp, adding new node types is quite\n  easy:  you just mention them.\nTo give an example, suppose you wanted to add a new node to the\n  syntax tree called COMMEN…",
           "link": "http://funcall.blogspot.com/2024/06/roll-your-own-syntax.html",
           "publishedOn": "2024-06-01T14:54:00.000Z",
-          "wordCount": 4107,
+          "wordCount": 4112,
           "title": "Joe Marshall: Roll Your Own Syntax",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "Back when I was taking a Software Engineering course we used a\n  language called CLU.  CLU was an early object-oriented language.  A\n  feature of CLU was that if you wrote your code correctly, the\n  compiler could enforce completely opaque abstract data types.  A\n  good chunk of your grade depended on whether you were able to follow\n  insructions and write your data types so that they were opaque.\nCLU did not have polymorphism, but it did have discriminated type\n  unions.  You could fake simple polymorphism by using a discriminated\n  type union as the representation of an opaque type.  Methods on the\n  opaque type would have to dispatch on the union subtype.  Now to\n  implement this correctly, you should write your methods to check the\n  union subtype even if you “know” what it is.  The co…",
           "link": "http://funcall.blogspot.com/2024/05/exception-handling-for-control-flow.html",
           "publishedOn": "2024-05-26T22:27:00.000Z",
-          "wordCount": 4549,
+          "wordCount": 4803,
           "title": "Joe Marshall: Exception Handling for Control Flow",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-05-21T18:51:00.000Z",
           "wordCount": 3618,
           "title": "Joe Marshall: If only ...",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
-          "author": null,
-          "description": "At the end of 6.004, we had a contest for improving the performance\n  of the Maybe machine.  There was an 8-bit ALU included in the chip set we were\n  given, so the logical thing to do was to incorporate it into the\n  machine in place of the shift register.  This would naturally\n  improve the performance of arithmetic operations, but there were\n  other reasons that the Maybe machine was slow.\nOne of the rules of the contest was that we were not allowed to\n  change the clock speed.  But the Maybe machine had a four phase\n  clock.  The first phase would address the device driving the bus,\n  the second phase would connect it to the bus, the third phase would\n  clock the receiving device, and the fourth phase would keep the data\n  asserted to obey the hold time on the logic.\nThe four phase clo…",
-          "link": "http://funcall.blogspot.com/2024/05/maybe-machine-part-2.html",
-          "publishedOn": "2024-05-20T14:13:00.000Z",
-          "wordCount": 4273,
-          "title": "Joe Marshall: Maybe machine (part 2)",
           "imageUrl": null
         }
       ]
@@ -675,7 +675,7 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-06-06T00:01:36.522Z",
+          "publishedOn": "2024-06-07T00:01:27.771Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
@@ -685,7 +685,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-06-06T00:01:34.633Z",
+          "publishedOn": "2024-06-07T00:01:25.819Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -695,9 +695,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-06-06T00:01:34.631Z",
+          "publishedOn": "2024-06-07T00:01:25.569Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-06-07T00:01:25.553Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         },
         {
@@ -705,7 +715,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-06-06T00:01:34.625Z",
+          "publishedOn": "2024-06-07T00:01:25.478Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -715,29 +725,9 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-06-06T00:01:34.622Z",
+          "publishedOn": "2024-06-07T00:01:25.471Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-06-06T00:01:34.593Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "author": null,
-          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
-          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-06-06T00:01:34.526Z",
-          "wordCount": 1293,
-          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         },
         {
@@ -745,9 +735,19 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-06-06T00:01:34.524Z",
+          "publishedOn": "2024-06-07T00:01:25.389Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "author": null,
+          "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
+          "link": "https://applied-langua.ge/~hayley/pmrgc.html",
+          "publishedOn": "2024-06-07T00:01:25.143Z",
+          "wordCount": 1293,
+          "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
         }
       ]
