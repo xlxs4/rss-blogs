@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-16T00:01:42.961Z</id>
+    <id>urn:2024-06-17T00:01:36.600Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-06-16T00:01:42.961Z</updated>
+    <updated>2024-06-17T00:01:36.600Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-06-16T00:01:42.938Z</updated>
+        <updated>2024-06-17T00:01:36.575Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
-        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
-        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-06-16T00:01:42.144Z</updated>
-        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-06-16T00:01:42.026Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-06-16T00:01:42.020Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -49,8 +19,38 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-06-16T00:01:42.012Z</updated>
+        <updated>2024-06-17T00:01:32.017Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
+        <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
+        <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
+        <updated>2024-06-17T00:01:32.015Z</updated>
+        <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-06-17T00:01:32.012Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-06-17T00:01:32.004Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-06-16T00:01:42.000Z</updated>
+        <updated>2024-06-17T00:01:31.944Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-06-16T00:01:41.852Z</updated>
+        <updated>2024-06-17T00:01:31.895Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,53 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-06-16T00:01:41.756Z</updated>
+        <updated>2024-06-17T00:01:31.862Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Decode a Float (Solution)]]></title>
+        <id>http://funcall.blogspot.com/2024/06/decode-float-solution.html</id>
+        <link href="http://funcall.blogspot.com/2024/06/decode-float-solution.html"/>
+        <updated>2024-06-16T19:19:00.000Z</updated>
+        <summary type="html"><![CDATA[We can multiply or divide a floating point number by 2 without
+  changing the bits in the mantissa.  So we can rescale the number to
+  be in the range [1, 2) by repeatedly multiplying or dividing by 2.
+  The leftmost bit of the mantissa is always
+  1, but next bit determines whether the number is in the top half of
+  the range or the bottom half.  So if the number is equal to or
+  greater than 1.5, the next bit is 1, otherwise it is 0.
+If the number is in the range [1, 2), we can subtract 1 from it.
+  The remaining bits will be shifted left until the leftmost bit is 1.
+  If the number is greater than or equal to 1.5, then subtracting 1
+  will shift the bits left by one.  But if the number is in [1, 1.5),
+  we won’t know how many zero bits will be shifted out when we
+  subtract 1.  What we’ll do is add .5 to the number to turn on the
+  next bit, then subtract 1 to shift the bits left by one.
+Here is the code in Common Lisp:
+Note that all these operations are exact and do not cause round off.]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Decode a Float]]></title>
+        <id>http://funcall.blogspot.com/2024/06/decode-float.html</id>
+        <link href="http://funcall.blogspot.com/2024/06/decode-float.html"/>
+        <updated>2024-06-16T00:50:00.000Z</updated>
+        <summary type="html"><![CDATA[The leftmost bit of any positive binary number is always 1.
+  So if you were to left-justify a positive binary number, the top bit
+  would always be 1.  If the top bit is always 1, there is no need to
+  implement it.  Floating point numbers use this trick.
+You can determine the bits of an integer using only arithmetic
+  operations by repeatedly dividing by two and collecting the
+  remainders.  Today’s puzzle is to determine the bits of a floating
+  point number using only arithmetic operations
+  (no decode-float or integer-decode-float).]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -324,51 +367,6 @@ possible names is gen…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Joe Marshall: Rewrite rules]]></title>
-        <id>http://funcall.blogspot.com/2024/05/rewrite-rules.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/rewrite-rules.html"/>
-        <updated>2024-05-23T15:15:00.000Z</updated>
-        <summary type="html"><![CDATA[I like rewrite rules.  They are simple to understand and easy to
-  implement.  If you have a rewrite rule (or a set of them) that makes
-  incremental progress in making an expression "simpler" in some
-  sense, you can keep applying it (or them) repeatedly until you have
-  finished the calculation.
-If a function directly returns the result of calling another function,
-  we say that the call is in "tail position".  We can view this as a
-  simple rewrite rule.  Consider the fact-mul function
-  which computes the factorial of a number n and multiplies it by
-  another number m:
-fact-mul (n, m) = n! * m
-We can define two rewrite rules for this function.  If n is 0, then
-  the factorial is 1, so we just rewrite this as m.  If n is not 0, we
-  can rewrite this as fact-mul (n-1, n*m).  This translates directly
-  into Lisp:
-(defun fact-mul (n m)
-  (if (zerop n)
-      m
-     (fact-mul (- n 1) (* n m))))
-The rewrite rule doesn't have to rewrite into the same function.
-  For instance, we can rewrite odd? (x) to even? (x-1) and even? (x)
-  to odd? (x-1):
-(defun odd? (x)
-  (if (zerop x)
-      nil
-      (even? (1- x))))
-
-(defun even? (x)
-  (if (zerop x)
-      t  
-      (odd? (1- x))))
-Yes, this is bog-simple tail recursion, but somehow it seems
-  even simpler to me if I think of it as a rewrite rule.
-Even if you don't have tail recursion, or if you have disabled it,
-  it still works, but the number of rewrites is limited by the stack
-  depth.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Comparing Package Management in Python, R, Julia, and Rust]]></title>
         <id>https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust</id>
         <link href="https://scientificcoder.com/comparing-package-management-in-python-r-julia-and-rust"/>
@@ -395,24 +393,6 @@ did not take it well—in which Steele takes the set of monosyllabic words as pr
 and builds up a tower of te…]]></summary>
         <author>
             <name>wingolog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: If only ...]]></title>
-        <id>http://funcall.blogspot.com/2024/05/if-only.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/if-only.html"/>
-        <updated>2024-05-21T18:51:00.000Z</updated>
-        <summary type="html"><![CDATA[I have a problem with Lisp.  It doesn’t do what I want.
-  Whenever I write a Lisp program, I always find myself wanting new
-  special forms that aren’t in the language.  The object system almost
-  never does exactly what I want.  The control structures never
-  cover all my use cases.
-If only I could add new syntactic forms to the language.  If only I
-  could tweak the internals of the object system.  If only I could add
-  new kinds of control structure.
-Oh, wait.  I can.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
