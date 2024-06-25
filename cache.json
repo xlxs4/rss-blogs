@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/06/embrace-suck.html",
+          "author": null,
+          "description": "The key point here is our programmers are Googlers,\n  they're not researchers. They're typically fairly young, fresh out\n  of school, probably learned Java, maybe learned C or C++, probably\n  learned Python. They're not capable of understanding a brilliant\n  language but we want to use them to build good software. So, the\n  language that we give them has to be easy for them to understand and\n  easy to adopt.\n— Rob Pike\nHow sad.  Google used to hire top-notch programmers.  Now it appears\n  that they have hired a bunch of mediocre programmers who can't even\n  learn how to properly use exceptions or ternary conditionals.\n  Programmers that need “training wheels” on their C.\nAnd how insulting to Googlers to be told\n  that they are not capable of understanding a brilliant language.  To\n  be seen as merely a fungible resource to be “used” to build\n  software.  I'm sure some of them are capable of understanding a\n  brilliant language.  I'm sure that some are capable of learning how\n  to use Haskell or OCaml or Clojure (or F# or Rust or Erlang or Scala)\n  whatever language is best for the task.\nDoes success come to those that strive for\n  excellence or those that embrace mediocrity?",
+          "link": "http://funcall.blogspot.com/2024/06/embrace-suck.html",
+          "publishedOn": "2024-06-24T14:20:00.000Z",
+          "wordCount": 3731,
+          "title": "Joe Marshall: Embrace the Suck",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/06/decode-float-solution.html",
           "author": null,
           "description": "We can multiply or divide a floating point number by 2 without\n  changing the bits in the mantissa.  So we can rescale the number to\n  be in the range [1, 2) by repeatedly multiplying or dividing by 2.\n  The leftmost bit of the mantissa is always\n  1, but next bit determines whether the number is in the top half of\n  the range or the bottom half.  So if the number is equal to or\n  greater than 1.5, the next bit is 1, otherwise it is 0.\nIf the number is in the range [1, 2), we can subtract 1 from it.\n  The remaining bits will be shifted left until the leftmost bit is 1.\n  If the number is greater than or equal to 1.5, then subtracting 1\n  will shift the bits left by one.  But if the number is in [1, 1.5),\n  we won’t know how many zero bits will be shifted out when we\n  subtract 1.  What we’ll do is add .5 to the number to turn on the\n  next bit, then subtract 1 to shift the bits left by one.\nHere is the code in Common Lisp:\nNote that all these operations are exact and do not cause round off.",
           "link": "http://funcall.blogspot.com/2024/06/decode-float-solution.html",
           "publishedOn": "2024-06-16T19:19:00.000Z",
-          "wordCount": 3769,
+          "wordCount": 3774,
           "title": "Joe Marshall: Decode a Float (Solution)",
           "imageUrl": null
         },
@@ -318,7 +328,7 @@
           "description": "The leftmost bit of any positive binary number is always 1.\n  So if you were to left-justify a positive binary number, the top bit\n  would always be 1.  If the top bit is always 1, there is no need to\n  implement it.  Floating point numbers use this trick.\nYou can determine the bits of an integer using only arithmetic\n  operations by repeatedly dividing by two and collecting the\n  remainders.  Today’s puzzle is to determine the bits of a floating\n  point number using only arithmetic operations\n  (no decode-float or integer-decode-float).",
           "link": "http://funcall.blogspot.com/2024/06/decode-float.html",
           "publishedOn": "2024-06-16T00:50:00.000Z",
-          "wordCount": 3593,
+          "wordCount": 3596,
           "title": "Joe Marshall: Decode a Float",
           "imageUrl": null
         },
@@ -328,7 +338,7 @@
           "description": "More than 150,000 troops, 5,000 ships, 13,000 aircraft in the largest amphibious assault in history.",
           "link": "http://funcall.blogspot.com/2024/06/d-day-80-years-ago-today.html",
           "publishedOn": "2024-06-06T11:23:00.000Z",
-          "wordCount": 3535,
+          "wordCount": 3538,
           "title": "Joe Marshall: D-day, 80 years ago today",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyy0B1YxQsCNz_rPegS8Zq-ZMkBI9MaNxRZCqdVk437K0ywpvGnQROfgCTgkHqrzArg9wYJ_sCjKEtRXwgPPBR78IhDzwYRqdWMtkM_jaORoMBtXldjHUprgroQJOaG2scBKmX73HKJ68OurTYhOmoyggFIZglBL6yd1OSofcm3Nqd_uva7G5MAF1HGbhK/w1200-h630-p-k-no-nu/d-day.jpg"
         },
@@ -338,7 +348,7 @@
           "description": "I was amusing myself by looking at Lisp tutorials.  They used the\n  idea of a Tic-Tac-Toe service as a motivating example.  You’d be\n  able to play Tic-Tac-Toe against the computer or another\n  opponent.\nMy immediate thought went to the issue of multithreading.  If you\n  were going to serve hundreds of people at once, you’d need to have a\n  multi-threaded service.  Multi-threaded code is hard to write and\n  debug, and it is much better if you have a plan before you start\n  than if you try to retrofit it later (that trick never works).\nThe magic bullet for multi-threading is immutable data.  Immutable\n  data is inherently thread-safe.  It doesn’t need synchronization or\n  locks.  If all your data are immutable, you can pretty much ignore\n  multi-threading issues and your code will just work…",
           "link": "http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html",
           "publishedOn": "2024-06-05T16:16:00.000Z",
-          "wordCount": 4139,
+          "wordCount": 4142,
           "title": "Joe Marshall: Multithreading and Immutable Data",
           "imageUrl": null
         },
@@ -348,7 +358,7 @@
           "description": "Unlike most languages, Lisp represents its programs as data\n  structures.  A Lisp program is a set of nested lists.  We can look\n  at a Lisp program as a tree, with each nested list as a node in the\n  tree.  The first element of each list indicates the kind of node it\n  is.  For instance, a sublist beginning with LET binds local\n  variables, a sublist beginning with IF is a conditional, and so\n  on.\nIn most languages, it difficult or impossible to add new node types\n  to the syntax tree.  The syntax is wired into the language parser\n  and if you even can add new syntax, you have to carefully modify the\n  parser to recognize it.  In Lisp, adding new node types is quite\n  easy:  you just mention them.\nTo give an example, suppose you wanted to add a new node to the\n  syntax tree called COMMEN…",
           "link": "http://funcall.blogspot.com/2024/06/roll-your-own-syntax.html",
           "publishedOn": "2024-06-01T14:54:00.000Z",
-          "wordCount": 4119,
+          "wordCount": 4122,
           "title": "Joe Marshall: Roll Your Own Syntax",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-05-25T22:36:00.000Z",
           "wordCount": 4078,
           "title": "Joe Marshall: ECS in CLOS",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html",
-          "author": null,
-          "description": "The reason I want tail recursion is not to write loops (I can do\n  that with a while loop), but to write in continuation passing style\n  if I need to.  Continuation passing style allows you to implement\n  any control flow pattern you can imagine, not just the ones\n  intrinsic to the language.  You don’t want to use it all the time,\n  but it’s a valuable fallback when you need some ad hoc advanced\n  control flow.  Without tail recursion, any non-trivial use of\n  continuation passing style risks blowing the stack.\nIteration is just the special case of linear recursion that doesn’t\n  accumulate state.  99 percent of the time, you know beforehand that\n  you are looping and can use a looping construct, but sometimes you\n  have the general case where whether you loop or not depends on the\n  data at runtime.  If you have tail recursion, you just write the\n  code recursively and the tail recursion mechanism will turn it into\n  a loop if it notices that you aren’t accumulating state.\nIf your language has lambda and tail recursion, it can implement\n  any other control flow that might have been overlooked by the\n  language designer.  If it doesn’t, you're limited to the control\n  flow the language designer bothered to implement.",
-          "link": "http://funcall.blogspot.com/2024/05/why-i-want-tail-recursion.html",
-          "publishedOn": "2024-05-24T14:55:00.000Z",
-          "wordCount": 3776,
-          "title": "Joe Marshall: Why I Want Tail Recursion",
           "imageUrl": null
         }
       ]
@@ -685,29 +685,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-06-24T00:02:22.909Z",
+          "publishedOn": "2024-06-25T00:01:21.418Z",
           "wordCount": 765,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-06-24T00:02:21.112Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "author": null,
-          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
-          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-06-24T00:02:21.109Z",
-          "wordCount": 4249,
-          "title": "The poverty of \"post-open\" source",
           "imageUrl": null
         },
         {
@@ -715,7 +695,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-06-24T00:02:21.026Z",
+          "publishedOn": "2024-06-25T00:01:20.475Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -725,19 +705,29 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-06-24T00:02:20.973Z",
+          "publishedOn": "2024-06-25T00:01:20.463Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "id": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
           "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-06-24T00:02:20.953Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
+          "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
+          "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
+          "publishedOn": "2024-06-25T00:01:20.445Z",
+          "wordCount": 4249,
+          "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-06-25T00:01:20.442Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -745,9 +735,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-06-24T00:02:20.947Z",
+          "publishedOn": "2024-06-25T00:01:20.352Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-06-25T00:01:20.341Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -755,7 +755,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-06-24T00:02:20.802Z",
+          "publishedOn": "2024-06-25T00:01:20.070Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
