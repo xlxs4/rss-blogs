@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "https://journal.paoloamoroso.com/adding-an-exec-command-and-file-browser-support-to-insphex?pk_campaign=rss-feed",
+          "author": null,
+          "description": "I implemented the last features originally planned for Insphex, my hex dump tool in Common Lisp for Medley Interlisp.\nThe first new feature is an Exec command for invoking the program. The command HD works the same way as the function INSPHEX:HEXDUMP and accepts the same arguments, a file name and an optional boolean flag to indicate whether the output should go to a separate window:\n← HD FILENAME [NEWIN-P]\n\nThe other feature is the addition to the File Browser menu of the Hexdump command, which shows the hex dump of the selected files in as many separate windows:\n\nFor other commands that produce output in windows the File Browser lets the user view one window at a time, with menu options for skipping through the windows. Insphex doesn't do anything so elaborate though.\nImplementing the features was easy as the relevant Interlisp APIs are well documented and I have experience with adding an Exec command to Stringscope.\nThe Medley Lisp library modules manual covers the File Browser API from page 115 of the PDF, with the explanation of how to add commands on page 118. It's as simple as registering a callback function the command invokes, INSPHEX::FB-HEXDUMP for Insphex.\nAn issue I bumped into is that instead of 4 arguments as the manual says, the callback actually requires 5. The last, undocumented argument was likely introduced since the publication of the manual.\n#insphex #CommonLisp #Interlisp #Lisp\nDiscuss...\nEmail | Reply @amoroso@fosstodon.org",
+          "link": "https://journal.paoloamoroso.com/adding-an-exec-command-and-file-browser-support-to-insphex?pk_campaign=rss-feed",
+          "publishedOn": "2024-06-25T08:54:57.000Z",
+          "wordCount": 760,
+          "title": "Paolo Amoroso: Adding an Exec command and File Browser support to Insphex",
+          "imageUrl": "https://i.snap.as/RxzT0KL3.png"
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/06/embrace-suck.html",
           "author": null,
           "description": "The key point here is our programmers are Googlers,\n  they're not researchers. They're typically fairly young, fresh out\n  of school, probably learned Java, maybe learned C or C++, probably\n  learned Python. They're not capable of understanding a brilliant\n  language but we want to use them to build good software. So, the\n  language that we give them has to be easy for them to understand and\n  easy to adopt.\n— Rob Pike\nHow sad.  Google used to hire top-notch programmers.  Now it appears\n  that they have hired a bunch of mediocre programmers who can't even\n  learn how to properly use exceptions or ternary conditionals.\n  Programmers that need “training wheels” on their C.\nAnd how insulting to Googlers to be told\n  that they are not capable of understanding a brilliant language.  To\n  be seen as merely a fungible resource to be “used” to build\n  software.  I'm sure some of them are capable of understanding a\n  brilliant language.  I'm sure that some are capable of learning how\n  to use Haskell or OCaml or Clojure (or F# or Rust or Erlang or Scala)\n  whatever language is best for the task.\nDoes success come to those that strive for\n  excellence or those that embrace mediocrity?",
           "link": "http://funcall.blogspot.com/2024/06/embrace-suck.html",
           "publishedOn": "2024-06-24T14:20:00.000Z",
-          "wordCount": 3731,
+          "wordCount": 3781,
           "title": "Joe Marshall: Embrace the Suck",
           "imageUrl": null
         },
@@ -390,16 +400,6 @@
           "publishedOn": "2024-05-26T22:27:00.000Z",
           "wordCount": 4803,
           "title": "Joe Marshall: Exception Handling for Control Flow",
-          "imageUrl": null
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/05/ecs-in-clos.html",
-          "author": null,
-          "description": "Object systems make a natural fit for the game programming domain,\n  but over time people have found that the object-oriented model\n  provided by their favorite language doesn't always fit the use case.  So developers have come\n  up with “entity-component systems” (ECS) of varying complexity to\n  fill the gap.\nThe basic idea is that a game object, called an “entity”, contains\n  or refers to a set of “components” that define its behavior.\n  Entities are too varied to be captured by a single class hierarchy,\n  so we abandon inheritance in favor of composition.  An entity that\n  can be displayed on the screen has a “sprite” component, an entity\n  that can move has “position” and “velocity” components, an entity\n  that you can attack has a “hitbox” component and a “health”\n  component.  A enti…",
-          "link": "http://funcall.blogspot.com/2024/05/ecs-in-clos.html",
-          "publishedOn": "2024-05-25T22:36:00.000Z",
-          "wordCount": 4078,
-          "title": "Joe Marshall: ECS in CLOS",
           "imageUrl": null
         }
       ]
@@ -685,29 +685,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-06-25T00:01:21.418Z",
+          "publishedOn": "2024-06-26T00:01:33.651Z",
           "wordCount": 765,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-06-25T00:01:20.475Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "author": null,
-          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
-          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-06-25T00:01:20.463Z",
-          "wordCount": 3276,
-          "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
         },
         {
@@ -715,39 +695,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-06-25T00:01:20.445Z",
+          "publishedOn": "2024-06-26T00:01:31.282Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-06-25T00:01:20.442Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/zero-feet.html",
-          "author": null,
-          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
-          "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-06-25T00:01:20.352Z",
-          "wordCount": 2014,
-          "title": "Zero Feet: a proposal for a systems-free Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-06-25T00:01:20.341Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -755,9 +705,59 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-06-25T00:01:20.070Z",
+          "publishedOn": "2024-06-26T00:01:31.274Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-06-26T00:01:31.230Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-06-26T00:01:31.219Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-06-26T00:01:31.199Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "author": null,
+          "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
+          "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
+          "publishedOn": "2024-06-26T00:01:31.190Z",
+          "wordCount": 3276,
+          "title": "The Lisp Curse Redemption Arc",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/zero-feet.html",
+          "author": null,
+          "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
+          "link": "https://applied-langua.ge/posts/zero-feet.html",
+          "publishedOn": "2024-06-26T00:01:31.188Z",
+          "wordCount": 2014,
+          "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
         }
       ]

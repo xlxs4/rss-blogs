@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-25T00:01:21.438Z</id>
+    <id>urn:2024-06-26T00:01:34.420Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-06-25T00:01:21.438Z</updated>
+    <updated>2024-06-26T00:01:34.420Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-06-25T00:01:21.418Z</updated>
+        <updated>2024-06-26T00:01:33.651Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
-        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
-        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-06-25T00:01:20.475Z</updated>
-        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
-        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
-        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-06-25T00:01:20.463Z</updated>
-        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,38 +19,8 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-06-25T00:01:20.445Z</updated>
+        <updated>2024-06-26T00:01:31.282Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-06-25T00:01:20.442Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
-        <id>https://applied-langua.ge/posts/zero-feet.html</id>
-        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-06-25T00:01:20.352Z</updated>
-        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
-        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
-        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-06-25T00:01:20.341Z</updated>
-        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -79,10 +29,82 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-06-25T00:01:20.070Z</updated>
+        <updated>2024-06-26T00:01:31.274Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-06-26T00:01:31.230Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
+        <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
+        <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
+        <updated>2024-06-26T00:01:31.219Z</updated>
+        <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next 700 virtual machines]]></title>
+        <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
+        <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
+        <updated>2024-06-26T00:01:31.199Z</updated>
+        <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
+        <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
+        <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
+        <updated>2024-06-26T00:01:31.190Z</updated>
+        <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
+        <id>https://applied-langua.ge/posts/zero-feet.html</id>
+        <link href="https://applied-langua.ge/posts/zero-feet.html"/>
+        <updated>2024-06-26T00:01:31.188Z</updated>
+        <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paolo Amoroso: Adding an Exec command and File Browser support to Insphex]]></title>
+        <id>https://journal.paoloamoroso.com/adding-an-exec-command-and-file-browser-support-to-insphex?pk_campaign=rss-feed</id>
+        <link href="https://journal.paoloamoroso.com/adding-an-exec-command-and-file-browser-support-to-insphex?pk_campaign=rss-feed"/>
+        <updated>2024-06-25T08:54:57.000Z</updated>
+        <summary type="html"><![CDATA[I implemented the last features originally planned for Insphex, my hex dump tool in Common Lisp for Medley Interlisp.
+The first new feature is an Exec command for invoking the program. The command HD works the same way as the function INSPHEX:HEXDUMP and accepts the same arguments, a file name and an optional boolean flag to indicate whether the output should go to a separate window:
+← HD FILENAME [NEWIN-P]
+
+The other feature is the addition to the File Browser menu of the Hexdump command, which shows the hex dump of the selected files in as many separate windows:
+
+For other commands that produce output in windows the File Browser lets the user view one window at a time, with menu options for skipping through the windows. Insphex doesn't do anything so elaborate though.
+Implementing the features was easy as the relevant Interlisp APIs are well documented and I have experience with adding an Exec command to Stringscope.
+The Medley Lisp library modules manual covers the File Browser API from page 115 of the PDF, with the explanation of how to add commands on page 118. It's as simple as registering a callback function the command invokes, INSPHEX::FB-HEXDUMP for Insphex.
+An issue I bumped into is that instead of 4 arguments as the manual says, the callback actually requires 5. The last, undocumented argument was likely introduced since the publication of the manual.
+#insphex #CommonLisp #Interlisp #Lisp
+Discuss...
+Email | Reply @amoroso@fosstodon.org]]></summary>
+        <author>
+            <name>Planet Lisp</name>
         </author>
     </entry>
     <entry>
@@ -327,28 +349,6 @@ CLU did not have polymorphism, but it did have discriminated type
   opaque type would have to dispatch on the union subtype.  Now to
   implement this correctly, you should write your methods to check the
   union subtype even if you “know” what it is.  The co…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: ECS in CLOS]]></title>
-        <id>http://funcall.blogspot.com/2024/05/ecs-in-clos.html</id>
-        <link href="http://funcall.blogspot.com/2024/05/ecs-in-clos.html"/>
-        <updated>2024-05-25T22:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Object systems make a natural fit for the game programming domain,
-  but over time people have found that the object-oriented model
-  provided by their favorite language doesn't always fit the use case.  So developers have come
-  up with “entity-component systems” (ECS) of varying complexity to
-  fill the gap.
-The basic idea is that a game object, called an “entity”, contains
-  or refers to a set of “components” that define its behavior.
-  Entities are too varied to be captured by a single class hierarchy,
-  so we abandon inheritance in favor of composition.  An entity that
-  can be displayed on the screen has a “sprite” component, an entity
-  that can move has “position” and “velocity” components, an entity
-  that you can attack has a “hitbox” component and a “health”
-  component.  A enti…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
