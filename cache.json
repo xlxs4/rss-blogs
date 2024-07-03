@@ -348,7 +348,7 @@
           "description": "The key point here is our programmers are Googlers,\n  they're not researchers. They're typically fairly young, fresh out\n  of school, probably learned Java, maybe learned C or C++, probably\n  learned Python. They're not capable of understanding a brilliant\n  language but we want to use them to build good software. So, the\n  language that we give them has to be easy for them to understand and\n  easy to adopt.\n— Rob Pike\nHow sad.  Google used to hire top-notch programmers.  Now it appears\n  that they have hired a bunch of mediocre programmers who can't even\n  learn how to properly use exceptions or ternary conditionals.\n  Programmers that need “training wheels” on their C.\nAnd how insulting to Googlers to be told\n  that they are not capable of understanding a brilliant language.  To\n  be seen as merely a fungible resource to be “used” to build\n  software.  I'm sure some of them are capable of understanding a\n  brilliant language.  I'm sure that some are capable of learning how\n  to use Haskell or OCaml or Clojure (or F# or Rust or Erlang or Scala)\n  whatever language is best for the task.\nDoes success come to those that strive for\n  excellence or those that embrace mediocrity?",
           "link": "http://funcall.blogspot.com/2024/06/embrace-suck.html",
           "publishedOn": "2024-06-24T14:20:00.000Z",
-          "wordCount": 3847,
+          "wordCount": 3992,
           "title": "Joe Marshall: Embrace the Suck",
           "imageUrl": null
         },
@@ -635,16 +635,6 @@
           "wordCount": 1101,
           "title": "Riff: A \"mycelium-clj\" for the Clojure ecosystem?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/",
-          "author": null,
-          "description": "The one in which we design a rich Integrated Development Environment (IDE) experience, using Clojure as our muse. Featuring Language Server Protocol (lsp-mode + clojure-lsp), clojure-mode, cider, and more! Buckle up and get a coffee.",
-          "link": "https://www.evalapply.org/posts/emerging-from-dotemacs-bankruptcy-ide-experience/index.html",
-          "publishedOn": "2023-09-07T00:00:00.000Z",
-          "wordCount": 4780,
-          "title": "Emerging from dotemacs bankruptcy the hard way: integrating the IDE (feat. Clojure(Script))",
-          "imageUrl": null
         }
       ]
     },
@@ -685,9 +675,19 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-07-02T00:01:35.487Z",
+          "publishedOn": "2024-07-03T00:01:36.639Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "author": null,
+          "description": "When \"simple\" programming languages aren't.",
+          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
+          "publishedOn": "2024-07-03T00:01:34.635Z",
+          "wordCount": 7575,
+          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -695,7 +695,7 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-07-02T00:01:33.600Z",
+          "publishedOn": "2024-07-03T00:01:34.623Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
           "imageUrl": null
@@ -705,7 +705,7 @@
           "author": null,
           "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
           "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-07-02T00:01:33.562Z",
+          "publishedOn": "2024-07-03T00:01:34.620Z",
           "wordCount": 3092,
           "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
@@ -715,19 +715,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-07-02T00:01:33.554Z",
+          "publishedOn": "2024-07-03T00:01:34.613Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "author": null,
-          "description": "When \"simple\" programming languages aren't.",
-          "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-07-02T00:01:33.547Z",
-          "wordCount": 7575,
-          "title": "I don't want to go to Chel-C",
           "imageUrl": null
         },
         {
@@ -735,7 +725,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-07-02T00:01:33.512Z",
+          "publishedOn": "2024-07-03T00:01:34.553Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -745,7 +735,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-07-02T00:01:33.492Z",
+          "publishedOn": "2024-07-03T00:01:34.551Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -755,7 +745,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-07-02T00:01:33.466Z",
+          "publishedOn": "2024-07-03T00:01:34.477Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
