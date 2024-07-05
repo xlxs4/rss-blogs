@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-04T00:01:33.441Z</id>
+    <id>urn:2024-07-05T00:01:41.093Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-07-04T00:01:33.441Z</updated>
+    <updated>2024-07-05T00:01:41.093Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-07-04T00:01:33.419Z</updated>
+        <updated>2024-07-05T00:01:41.072Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-07-04T00:01:30.875Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,8 +19,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-07-04T00:01:30.871Z</updated>
+        <updated>2024-07-05T00:01:39.520Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-07-05T00:01:39.517Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +39,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-07-04T00:01:30.772Z</updated>
+        <updated>2024-07-05T00:01:39.439Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-07-04T00:01:30.748Z</updated>
+        <updated>2024-07-05T00:01:39.417Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-07-04T00:01:30.716Z</updated>
+        <updated>2024-07-05T00:01:39.414Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-07-04T00:01:30.699Z</updated>
+        <updated>2024-07-05T00:01:39.388Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,50 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-07-04T00:01:30.563Z</updated>
+        <updated>2024-07-05T00:01:39.283Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: A YouTuber's First Look at Lisp]]></title>
+        <id>http://funcall.blogspot.com/2024/07/a-youtubers-first-look-at-lisp.html</id>
+        <link href="http://funcall.blogspot.com/2024/07/a-youtubers-first-look-at-lisp.html"/>
+        <updated>2024-07-04T14:25:00.000Z</updated>
+        <summary type="html"><![CDATA[There is a guy who is making a series of videos where he takes a
+  “first look” at various programming languages.  I
+  watched his “first look” at Lisp.  Now he wasn’t
+  going into it completely cold — he had looked at Scheme
+  previously and had seen some Lisp — but it was still an early
+  experience for him.
+He gave it a good go.  He didn’t have a pathological hatred
+  for parenthesis and seemed willing to give it a fair shake.  He
+  downloaded SBCL and started playing with it.
+Since he only had allocated an hour to it, he didn't cover much.
+  But he encountered a few pitfalls that Lisp newbies often fall into.
+  I found myself wanting to talk back at the screen and point out
+  where he was going wrong when simple typos were causing errors.
+For example, he was trying to format some outpu…]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[enable persistent history in gdb]]></title>
+        <id>https://wingolog.org/archives/2024/07/04/enable-persistent-history-in-gdb</id>
+        <link href="https://wingolog.org/archives/2024/07/04/enable-persistent-history-in-gdb"/>
+        <updated>2024-07-04T10:10:49.000Z</updated>
+        <summary type="html"><![CDATA[Friends.  I have been using GDB for more than two decades and have been annoyed by the fact that, unlike the shell, it doesn’t keep a persistent history.
+Of course, it has always been able to do that, but history saving is just not on by default.  So do yourself a favor and turn it on by pasting this into your terminal:
+You are welcome!
+mkdir -p ~/.config/gdb
+mkdir -p ~/.cache/gdb
+echo 'set history filename ~/.cache/gdb/history' >> ~/.config/gdb/gdbinit
+echo 'set history save on' >> ~/.config/gdb/gdbinit
+echo 'set history size unlimited' >> ~/.config/gdb/gdbinit]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -294,29 +334,6 @@ The magic bullet for multi-threading is immutable data.  Immutable
   data is inherently thread-safe.  It doesn’t need synchronization or
   locks.  If all your data are immutable, you can pretty much ignore
   multi-threading issues and your code will just work…]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Roll Your Own Syntax]]></title>
-        <id>http://funcall.blogspot.com/2024/06/roll-your-own-syntax.html</id>
-        <link href="http://funcall.blogspot.com/2024/06/roll-your-own-syntax.html"/>
-        <updated>2024-06-01T14:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Unlike most languages, Lisp represents its programs as data
-  structures.  A Lisp program is a set of nested lists.  We can look
-  at a Lisp program as a tree, with each nested list as a node in the
-  tree.  The first element of each list indicates the kind of node it
-  is.  For instance, a sublist beginning with LET binds local
-  variables, a sublist beginning with IF is a conditional, and so
-  on.
-In most languages, it difficult or impossible to add new node types
-  to the syntax tree.  The syntax is wired into the language parser
-  and if you even can add new syntax, you have to carefully modify the
-  parser to recognize it.  In Lisp, adding new node types is quite
-  easy:  you just mention them.
-To give an example, suppose you wanted to add a new node to the
-  syntax tree called COMMEN…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -830,29 +847,6 @@ I suppose I can't help myself in part because I lack the self confidence to even
         <summary type="html"><![CDATA[There's no official support for system-versioned tables in Postgres yet, and the temporal extensions aren't supported on Azure/AWS/GCP. Let's implement it ourselves with 3 triggers and an index.]]></summary>
         <author>
             <name>hyPiRion</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nombrilliant, actually]]></title>
-        <id>https://wingolog.org/archives/2024/01/18/nombrilliant-actually</id>
-        <link href="https://wingolog.org/archives/2024/01/18/nombrilliant-actually"/>
-        <updated>2024-01-18T23:15:58.000Z</updated>
-        <summary type="html"><![CDATA[Today, a middle-aged note: when you are young, unless you been
-failed by The System, you enjoy a radiant confidence: everything you say
-burns with rightness and righteousness, that the world Actually Is This
-Way, You See, and if you think about it, it Actually Should Be This
-Other Specific Way.  This is how you get the fervent young communists
-and Scala enthusiasts and ecologists and Ayn Randians.  The ideas are so
-right that you become an evangelist, a
-,
-a truth-speaker; a youtuber, perhaps.prophet
-Then, with luck, you meet the world: you build, you organize, you
-invest, you double down.  And in that doubling, the ideas waver,
-tremble, resonate, imperceptibly at first, reinforced in some ways,
-impeded in others.  The world works in specific ways, too, and you don’t
-really know them in the…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
