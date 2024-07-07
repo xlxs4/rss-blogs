@@ -308,7 +308,7 @@
           "description": "There is a guy who is making a series of videos where he takes a\n  “first look” at various programming languages.  I\n  watched his “first look” at Lisp.  Now he wasn’t\n  going into it completely cold — he had looked at Scheme\n  previously and had seen some Lisp — but it was still an early\n  experience for him.\nHe gave it a good go.  He didn’t have a pathological hatred\n  for parenthesis and seemed willing to give it a fair shake.  He\n  downloaded SBCL and started playing with it.\nSince he only had allocated an hour to it, he didn't cover much.\n  But he encountered a few pitfalls that Lisp newbies often fall into.\n  I found myself wanting to talk back at the screen and point out\n  where he was going wrong when simple typos were causing errors.\nFor example, he was trying to format some outpu…",
           "link": "http://funcall.blogspot.com/2024/07/a-youtubers-first-look-at-lisp.html",
           "publishedOn": "2024-07-04T14:25:00.000Z",
-          "wordCount": 4306,
+          "wordCount": 4046,
           "title": "Joe Marshall: A YouTuber's First Look at Lisp",
           "imageUrl": null
         },
@@ -675,8 +675,8 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-07-06T00:01:43.842Z",
-          "wordCount": null,
+          "publishedOn": "2024-07-07T00:01:44.509Z",
+          "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
           "imageUrl": null
         },
@@ -685,19 +685,9 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-07-06T00:01:19.643Z",
+          "publishedOn": "2024-07-07T00:01:42.361Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-07-06T00:01:19.641Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -705,9 +695,19 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-07-06T00:01:19.609Z",
+          "publishedOn": "2024-07-07T00:01:42.252Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-07-07T00:01:42.232Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -715,19 +715,9 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-07-06T00:01:19.545Z",
+          "publishedOn": "2024-07-07T00:01:42.224Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "author": null,
-          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
-          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-07-06T00:01:19.394Z",
-          "wordCount": 4640,
-          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -735,9 +725,19 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-07-06T00:01:19.351Z",
+          "publishedOn": "2024-07-07T00:01:42.221Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "author": null,
+          "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
+          "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
+          "publishedOn": "2024-07-07T00:01:42.108Z",
+          "wordCount": 4640,
+          "title": "The next 700 virtual machines",
           "imageUrl": null
         },
         {
@@ -745,7 +745,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-07-06T00:01:19.306Z",
+          "publishedOn": "2024-07-07T00:01:42.064Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null
