@@ -196,6 +196,16 @@
       "siteUrl": "https://wingolog.org/",
       "articles": [
         {
+          "id": "https://wingolog.org/archives/2024/07/10/copying-collectors-with-block-structured-heaps-are-unreliable",
+          "author": null,
+          "description": "Good day, garbage pals!  This morning, a quick note on “reliability” and\ngarbage collectors, how a common GC construction is unreliable, and why\nwe choose it anyway.\nFor context, I’m easing back in to\n development.  One of Whippet’s collectors is .  Semi-space collectors are useful as correctness oracles: they always move objects, so they require their embedder to be able to precisely enumerate all edges of the object graph, to update those edges to point to the relocated objects.  A semi-space collector is so simple that if there is a bug, it is probably in the mutator rather than the collector.  They also have well-understood performance, as as such are useful when comparing performance of other collectors.Whippeta semi-space\ncollector\nBut one other virtue of the simple semi-space collec…",
+          "link": "https://wingolog.org/archives/2024/07/10/copying-collectors-with-block-structured-heaps-are-unreliable",
+          "publishedOn": "2024-07-10T08:48:19.000Z",
+          "wordCount": 2263,
+          "title": "copying collectors with block-structured heaps are unreliable",
+          "imageUrl": null
+        },
+        {
           "id": "https://wingolog.org/archives/2024/07/04/enable-persistent-history-in-gdb",
           "author": null,
           "description": "Friends.  I have been using GDB for more than two decades and have been annoyed by the fact that, unlike the shell, it doesn’t keep a persistent history.\nOf course, it has always been able to do that, but history saving is just not on by default.  So do yourself a favor and turn it on by pasting this into your terminal:\nYou are welcome!\nmkdir -p ~/.config/gdb\nmkdir -p ~/.cache/gdb\necho 'set history filename ~/.cache/gdb/history' >> ~/.config/gdb/gdbinit\necho 'set history save on' >> ~/.config/gdb/gdbinit\necho 'set history size unlimited' >> ~/.config/gdb/gdbinit",
@@ -251,7 +261,7 @@
           "description": "You might have heard of long-pole problems: when you are packing a\ntent, its bag needs to be at least as big as the longest pole.  (This is\nmy preferred etymology; .)\nIn garbage collection, the long pole is the longest chain of object\nreferences; there is no way you can algorithmically speed up\npointer-chasing of (say) a long linked-list.there are\nothers\nAs a GC author, some of your standard tools can mitigate the long-pole\nproblem, and some don’t apply.\n doesn’t help: a baby takes 9 months, no matter how many\npeople you assign to the problem.  You need to visit each node in the\nchain, one after the other, and having multiple workers available to\nprocess those nodes does not get us there any faster.  Parallelism does\nhelp in general, of course, but doesn’t help for long poles.Parallelism\nY…",
           "link": "https://wingolog.org/archives/2024/05/13/partitioning-pitfalls-for-generational-collectors",
           "publishedOn": "2024-05-13T13:03:26.000Z",
-          "wordCount": 2371,
+          "wordCount": 2373,
           "title": "partitioning pitfalls for generational collectors",
           "imageUrl": null
         },
@@ -271,7 +281,7 @@
           "description": "While poking the other day at making a Guile binding for\n, I remembered why I don’t much do this\nany more: it is impossible to compose GC with explicit ownership.Harfbuzz\nAllow me to illustrate with an example.  Harfbuzz has a concept of , which are\nrefcounted sequences of bytes.  It uses these in a number of places, for example when loading OpenType fonts.\nYou can get a peek at the blob’s contents back with\n,\nwhich gives you a pointer and a length.blobshb_blob_get_data\nSay you are in LuaJIT.  (To think that for a couple years, I wrote\nLuaJIT all day long; now I can hardly remember.)  You get a blob from\nsomewhere and want to get its data.  You define a wrapper for\n:hb_blob_get_data\nPresumably you then arrange to release LuaJIT’s reference on the blob\nwhen GC collects a Lua wrapper for a b…",
           "link": "https://wingolog.org/archives/2024/02/26/on-the-impossibility-of-composing-finalizers-and-ffi",
           "publishedOn": "2024-02-26T10:05:43.000Z",
-          "wordCount": 2642,
+          "wordCount": 2645,
           "title": "on the impossibility of composing finalizers and ffi",
           "imageUrl": null
         },
@@ -284,16 +294,6 @@
           "wordCount": 2608,
           "title": "guix on the framework 13 amd",
           "imageUrl": null
-        },
-        {
-          "id": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
-          "author": null,
-          "description": "Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.\nSo, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…",
-          "link": "https://wingolog.org/archives/2024/02/14/family-bike-transportation",
-          "publishedOn": "2024-02-14T21:49:24.000Z",
-          "wordCount": 1602,
-          "title": "family bike transportation",
-          "imageUrl": null
         }
       ]
     },
@@ -303,12 +303,22 @@
       "siteUrl": "http://planet.lisp.org/",
       "articles": [
         {
+          "id": "http://funcall.blogspot.com/2024/07/monkeys-vs-shakespeare.html",
+          "author": null,
+          "description": "Google's golang was designed for mediocre programmers that aren't\n  “capable of understanding a brilliant language”.  It\n  omits features that are hard to understand or hard to use, like\n  conditional expressions, macros, exceptions, and object systems.\nLisp, on the other hand, was originally designed for smart\n  programmers in order to research artificial intelligence.  It\n  contains language constructs like conditional expressions, a\n  powerful macro system, a highly customizable error handling system,\n  and a sophisticated object system.\nA million monkeys typing on a million keyboards will eventually\n  produce the works of Shakespeare.  Lisp is a language for\n  Shakespeares, while golang is a language for monkeys.\nWhat is the fundamental problem we are solving?  If the problem\n  is simply an insufficient amount of software, then we need to write as much\n  software as possible as rapidly as possible.  Hire more monkeys.\n  If the problem is gainfully employing all the monkeys quickly, give\n  them crude tools that are easy to use.  But if the problem is lack\n  of quality software, then we need the tools to write the best\n  software possible.  Hire more Shakespeares and give them powerful tools.\n \n\nHiring monkeys is easier and cheaper than hiring Shakespeares.  So\n  why not just keep hiring monkeys until you have a Shakespeare\n  equivalent?  Experience shows how well this works.  Just think of\n  all the projects that were brought in on time and under budget when\n  they doubled the number of monkeys.  Just think of any project that\n  was brought in on time and under budget when they doubled the number\n  of monkeys. Surely there must be one?",
+          "link": "http://funcall.blogspot.com/2024/07/monkeys-vs-shakespeare.html",
+          "publishedOn": "2024-07-10T16:21:00.000Z",
+          "wordCount": 3758,
+          "title": "Joe Marshall: Monkeys vs. Shakespeare",
+          "imageUrl": null
+        },
+        {
           "id": "http://funcall.blogspot.com/2024/07/a-youtubers-first-look-at-lisp.html",
           "author": null,
           "description": "There is a guy who is making a series of videos where he takes a\n  “first look” at various programming languages.  I\n  watched his “first look” at Lisp.  Now he wasn’t\n  going into it completely cold — he had looked at Scheme\n  previously and had seen some Lisp — but it was still an early\n  experience for him.\nHe gave it a good go.  He didn’t have a pathological hatred\n  for parenthesis and seemed willing to give it a fair shake.  He\n  downloaded SBCL and started playing with it.\nSince he only had allocated an hour to it, he didn't cover much.\n  But he encountered a few pitfalls that Lisp newbies often fall into.\n  I found myself wanting to talk back at the screen and point out\n  where he was going wrong when simple typos were causing errors.\nFor example, he was trying to format some outpu…",
           "link": "http://funcall.blogspot.com/2024/07/a-youtubers-first-look-at-lisp.html",
           "publishedOn": "2024-07-04T14:25:00.000Z",
-          "wordCount": 4046,
+          "wordCount": 4051,
           "title": "Joe Marshall: A YouTuber's First Look at Lisp",
           "imageUrl": null
         },
@@ -391,16 +401,6 @@
           "wordCount": 3545,
           "title": "Joe Marshall: D-day, 80 years ago today",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyy0B1YxQsCNz_rPegS8Zq-ZMkBI9MaNxRZCqdVk437K0ywpvGnQROfgCTgkHqrzArg9wYJ_sCjKEtRXwgPPBR78IhDzwYRqdWMtkM_jaORoMBtXldjHUprgroQJOaG2scBKmX73HKJ68OurTYhOmoyggFIZglBL6yd1OSofcm3Nqd_uva7G5MAF1HGbhK/w1200-h630-p-k-no-nu/d-day.jpg"
-        },
-        {
-          "id": "http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html",
-          "author": null,
-          "description": "I was amusing myself by looking at Lisp tutorials.  They used the\n  idea of a Tic-Tac-Toe service as a motivating example.  You’d be\n  able to play Tic-Tac-Toe against the computer or another\n  opponent.\nMy immediate thought went to the issue of multithreading.  If you\n  were going to serve hundreds of people at once, you’d need to have a\n  multi-threaded service.  Multi-threaded code is hard to write and\n  debug, and it is much better if you have a plan before you start\n  than if you try to retrofit it later (that trick never works).\nThe magic bullet for multi-threading is immutable data.  Immutable\n  data is inherently thread-safe.  It doesn’t need synchronization or\n  locks.  If all your data are immutable, you can pretty much ignore\n  multi-threading issues and your code will just work…",
-          "link": "http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html",
-          "publishedOn": "2024-06-05T16:16:00.000Z",
-          "wordCount": 4149,
-          "title": "Joe Marshall: Multithreading and Immutable Data",
-          "imageUrl": null
         }
       ]
     },
@@ -675,19 +675,9 @@
           "author": null,
           "description": "The design and implementation of a non-moving parallel generational garbage collector for SBCL.",
           "link": "https://zenodo.org/record/7816398",
-          "publishedOn": "2024-07-10T00:01:26.570Z",
+          "publishedOn": "2024-07-11T00:01:33.753Z",
           "wordCount": 744,
           "title": "Parallel garbage collection for SBCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "author": null,
-          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
-          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
-          "publishedOn": "2024-07-10T00:01:25.075Z",
-          "wordCount": 3092,
-          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -695,9 +685,19 @@
           "author": null,
           "description": "Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.",
           "link": "https://applied-langua.ge/posts/the-poverty-of-post-open-source.html",
-          "publishedOn": "2024-07-10T00:01:25.071Z",
+          "publishedOn": "2024-07-11T00:01:32.692Z",
           "wordCount": 4249,
           "title": "The poverty of \"post-open\" source",
+          "imageUrl": null
+        },
+        {
+          "id": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "author": null,
+          "description": "A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.",
+          "link": "https://applied-langua.ge/posts/omrn-compiler.html",
+          "publishedOn": "2024-07-11T00:01:32.684Z",
+          "wordCount": 3092,
+          "title": "The one-more-re-nightmare compiler",
           "imageUrl": null
         },
         {
@@ -705,7 +705,7 @@
           "author": null,
           "description": "When \"simple\" programming languages aren't.",
           "link": "https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html",
-          "publishedOn": "2024-07-10T00:01:24.979Z",
+          "publishedOn": "2024-07-11T00:01:32.655Z",
           "wordCount": 7575,
           "title": "I don't want to go to Chel-C",
           "imageUrl": null
@@ -715,7 +715,7 @@
           "author": null,
           "description": "Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.",
           "link": "https://applied-langua.ge/posts/lisp-curse-redemption-arc.html",
-          "publishedOn": "2024-07-10T00:01:24.953Z",
+          "publishedOn": "2024-07-11T00:01:32.637Z",
           "wordCount": 3276,
           "title": "The Lisp Curse Redemption Arc",
           "imageUrl": null
@@ -725,7 +725,7 @@
           "author": null,
           "description": "A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.",
           "link": "https://applied-langua.ge/posts/zero-feet.html",
-          "publishedOn": "2024-07-10T00:01:24.876Z",
+          "publishedOn": "2024-07-11T00:01:32.626Z",
           "wordCount": 2014,
           "title": "Zero Feet: a proposal for a systems-free Lisp",
           "imageUrl": null
@@ -735,7 +735,7 @@
           "author": null,
           "description": "Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.",
           "link": "https://applied-langua.ge/posts/the-next-700-virtual-machines.html",
-          "publishedOn": "2024-07-10T00:01:24.874Z",
+          "publishedOn": "2024-07-11T00:01:32.621Z",
           "wordCount": 4640,
           "title": "The next 700 virtual machines",
           "imageUrl": null
@@ -745,7 +745,7 @@
           "author": null,
           "description": "How to build the new parallel GC for SBCL, and how to tell if it's working.",
           "link": "https://applied-langua.ge/~hayley/pmrgc.html",
-          "publishedOn": "2024-07-10T00:01:24.859Z",
+          "publishedOn": "2024-07-11T00:01:32.598Z",
           "wordCount": 1293,
           "title": "Please test the parallel mark-region collector for SBCL",
           "imageUrl": null

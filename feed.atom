@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-10T00:01:26.591Z</id>
+    <id>urn:2024-07-11T00:01:35.772Z</id>
     <title>A curated list of ramblings</title>
-    <updated>2024-07-10T00:01:26.591Z</updated>
+    <updated>2024-07-11T00:01:35.772Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Parallel garbage collection for SBCL]]></title>
         <id>https://zenodo.org/record/7816398</id>
         <link href="https://zenodo.org/record/7816398"/>
-        <updated>2024-07-10T00:01:26.570Z</updated>
+        <updated>2024-07-11T00:01:33.753Z</updated>
         <summary type="html"><![CDATA[The design and implementation of a non-moving parallel generational garbage collector for SBCL.]]></summary>
-        <author>
-            <name>Applied Language musings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
-        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
-        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
-        <updated>2024-07-10T00:01:25.075Z</updated>
-        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -29,8 +19,18 @@
         <title type="html"><![CDATA[The poverty of "post-open" source]]></title>
         <id>https://applied-langua.ge/posts/the-poverty-of-post-open-source.html</id>
         <link href="https://applied-langua.ge/posts/the-poverty-of-post-open-source.html"/>
-        <updated>2024-07-10T00:01:25.071Z</updated>
+        <updated>2024-07-11T00:01:32.692Z</updated>
         <summary type="html"><![CDATA[Post-open source falls short on what improvements it was supposed to make. It prefigures a boring future, mostly because it carries on productivist logic, and makes programming even more of a difficult and esoteric tool. Capitalism isn't the only problem threatening peer production; it is rather threatened by more general principles, which even radicals can believe.]]></summary>
+        <author>
+            <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The one-more-re-nightmare compiler]]></title>
+        <id>https://applied-langua.ge/posts/omrn-compiler.html</id>
+        <link href="https://applied-langua.ge/posts/omrn-compiler.html"/>
+        <updated>2024-07-11T00:01:32.684Z</updated>
+        <summary type="html"><![CDATA[A pile of regular expression derivatives, myths about Ediware, SIMD instruction selection and using the Common Lisp compiler as a backend for a regular expression compiler.]]></summary>
         <author>
             <name>Applied Language musings</name>
         </author>
@@ -39,7 +39,7 @@
         <title type="html"><![CDATA[I don't want to go to Chel-C]]></title>
         <id>https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html</id>
         <link href="https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html"/>
-        <updated>2024-07-10T00:01:24.979Z</updated>
+        <updated>2024-07-11T00:01:32.655Z</updated>
         <summary type="html"><![CDATA[When "simple" programming languages aren't.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -49,7 +49,7 @@
         <title type="html"><![CDATA[The Lisp Curse Redemption Arc]]></title>
         <id>https://applied-langua.ge/posts/lisp-curse-redemption-arc.html</id>
         <link href="https://applied-langua.ge/posts/lisp-curse-redemption-arc.html"/>
-        <updated>2024-07-10T00:01:24.953Z</updated>
+        <updated>2024-07-11T00:01:32.637Z</updated>
         <summary type="html"><![CDATA[Pondering marketing strategies, and how we aren't supposed to be productive in Common Lisp.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -59,7 +59,7 @@
         <title type="html"><![CDATA[Zero Feet: a proposal for a systems-free Lisp]]></title>
         <id>https://applied-langua.ge/posts/zero-feet.html</id>
         <link href="https://applied-langua.ge/posts/zero-feet.html"/>
-        <updated>2024-07-10T00:01:24.876Z</updated>
+        <updated>2024-07-11T00:01:32.626Z</updated>
         <summary type="html"><![CDATA[A systems language is a collection of things that don't fit into a modular language. There shouldn't be one.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -69,7 +69,7 @@
         <title type="html"><![CDATA[The next 700 virtual machines]]></title>
         <id>https://applied-langua.ge/posts/the-next-700-virtual-machines.html</id>
         <link href="https://applied-langua.ge/posts/the-next-700-virtual-machines.html"/>
-        <updated>2024-07-10T00:01:24.874Z</updated>
+        <updated>2024-07-11T00:01:32.621Z</updated>
         <summary type="html"><![CDATA[Virtual machine will eat themselves, by being similar enough that most can subsume each other. This can be furthered by making it easier to target abstract machines, and using object capabilities to allow cohabitation of languages and incremental extension to languages.]]></summary>
         <author>
             <name>Applied Language musings</name>
@@ -79,10 +79,63 @@
         <title type="html"><![CDATA[Please test the parallel mark-region collector for SBCL]]></title>
         <id>https://applied-langua.ge/~hayley/pmrgc.html</id>
         <link href="https://applied-langua.ge/~hayley/pmrgc.html"/>
-        <updated>2024-07-10T00:01:24.859Z</updated>
+        <updated>2024-07-11T00:01:32.598Z</updated>
         <summary type="html"><![CDATA[How to build the new parallel GC for SBCL, and how to tell if it's working.]]></summary>
         <author>
             <name>Applied Language musings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joe Marshall: Monkeys vs. Shakespeare]]></title>
+        <id>http://funcall.blogspot.com/2024/07/monkeys-vs-shakespeare.html</id>
+        <link href="http://funcall.blogspot.com/2024/07/monkeys-vs-shakespeare.html"/>
+        <updated>2024-07-10T16:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Google's golang was designed for mediocre programmers that aren't
+  “capable of understanding a brilliant language”.  It
+  omits features that are hard to understand or hard to use, like
+  conditional expressions, macros, exceptions, and object systems.
+Lisp, on the other hand, was originally designed for smart
+  programmers in order to research artificial intelligence.  It
+  contains language constructs like conditional expressions, a
+  powerful macro system, a highly customizable error handling system,
+  and a sophisticated object system.
+A million monkeys typing on a million keyboards will eventually
+  produce the works of Shakespeare.  Lisp is a language for
+  Shakespeares, while golang is a language for monkeys.
+What is the fundamental problem we are solving?  If the problem
+  is simply an insufficient amount of software, then we need to write as much
+  software as possible as rapidly as possible.  Hire more monkeys.
+  If the problem is gainfully employing all the monkeys quickly, give
+  them crude tools that are easy to use.  But if the problem is lack
+  of quality software, then we need the tools to write the best
+  software possible.  Hire more Shakespeares and give them powerful tools.
+ 
+
+Hiring monkeys is easier and cheaper than hiring Shakespeares.  So
+  why not just keep hiring monkeys until you have a Shakespeare
+  equivalent?  Experience shows how well this works.  Just think of
+  all the projects that were brought in on time and under budget when
+  they doubled the number of monkeys.  Just think of any project that
+  was brought in on time and under budget when they doubled the number
+  of monkeys. Surely there must be one?]]></summary>
+        <author>
+            <name>Planet Lisp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[copying collectors with block-structured heaps are unreliable]]></title>
+        <id>https://wingolog.org/archives/2024/07/10/copying-collectors-with-block-structured-heaps-are-unreliable</id>
+        <link href="https://wingolog.org/archives/2024/07/10/copying-collectors-with-block-structured-heaps-are-unreliable"/>
+        <updated>2024-07-10T08:48:19.000Z</updated>
+        <summary type="html"><![CDATA[Good day, garbage pals!  This morning, a quick note on “reliability” and
+garbage collectors, how a common GC construction is unreliable, and why
+we choose it anyway.
+For context, I’m easing back in to
+ development.  One of Whippet’s collectors is .  Semi-space collectors are useful as correctness oracles: they always move objects, so they require their embedder to be able to precisely enumerate all edges of the object graph, to update those edges to point to the relocated objects.  A semi-space collector is so simple that if there is a bug, it is probably in the mutator rather than the collector.  They also have well-understood performance, as as such are useful when comparing performance of other collectors.Whippeta semi-space
+collector
+But one other virtue of the simple semi-space collec…]]></summary>
+        <author>
+            <name>wingolog</name>
         </author>
     </entry>
     <entry>
@@ -312,28 +365,6 @@ You can determine the bits of an integer using only arithmetic
         <link href="http://funcall.blogspot.com/2024/06/d-day-80-years-ago-today.html"/>
         <updated>2024-06-06T11:23:00.000Z</updated>
         <summary type="html"><![CDATA[More than 150,000 troops, 5,000 ships, 13,000 aircraft in the largest amphibious assault in history.]]></summary>
-        <author>
-            <name>Planet Lisp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Joe Marshall: Multithreading and Immutable Data]]></title>
-        <id>http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html</id>
-        <link href="http://funcall.blogspot.com/2024/06/multithreading-and-immutable-data.html"/>
-        <updated>2024-06-05T16:16:00.000Z</updated>
-        <summary type="html"><![CDATA[I was amusing myself by looking at Lisp tutorials.  They used the
-  idea of a Tic-Tac-Toe service as a motivating example.  You’d be
-  able to play Tic-Tac-Toe against the computer or another
-  opponent.
-My immediate thought went to the issue of multithreading.  If you
-  were going to serve hundreds of people at once, you’d need to have a
-  multi-threaded service.  Multi-threaded code is hard to write and
-  debug, and it is much better if you have a plan before you start
-  than if you try to retrofit it later (that trick never works).
-The magic bullet for multi-threading is immutable data.  Immutable
-  data is inherently thread-safe.  It doesn’t need synchronization or
-  locks.  If all your data are immutable, you can pretty much ignore
-  multi-threading issues and your code will just work…]]></summary>
         <author>
             <name>Planet Lisp</name>
         </author>
@@ -743,17 +774,6 @@ Upstream Guix works on the Framework 13 AMD, but only with software rendering an
         <summary type="html"><![CDATA[After my recent article on Bluesky something rather unexpected happened. I noticed a link to an interesting post on Mastodon and when I signed in to check it out, I was surprised to see that my feed there was pretty active. There were many familiar people (mostly from the Emacs, Clojure and Ruby communities) and some pretty nice conversations going on. That got me thinking if I should revisit it.]]></summary>
         <author>
             <name>(think)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[family bike transportation]]></title>
-        <id>https://wingolog.org/archives/2024/02/14/family-bike-transportation</id>
-        <link href="https://wingolog.org/archives/2024/02/14/family-bike-transportation"/>
-        <updated>2024-02-14T21:49:24.000Z</updated>
-        <summary type="html"><![CDATA[Good evening!  Tonight I have a brief and unusual post, which is a product review of an electric cargo bike and its accessories for transporting kids.  Let’s see if I can get this finished while I wait for my new laptop to finish installing.
-So, I have three young kids (5yo, 3yo, 1yo), and I need to get them places.  Before the 3rd was born I would use a bike trailer (, bought when there was just one kid) and a bike seat (, attached on seat-post).  That was fine, though sometimes the thought of lugging their ever-increasing kilograms somewhere would give me pause.  Then when the third kid arrived, hoo boy; I got a front-mount , to see if I could do three kids on one me-powered bike, but that was too tight to manage; not enough space to kick my leg over when getting on.Thule Chariot Lite si…]]></summary>
-        <author>
-            <name>wingolog</name>
         </author>
     </entry>
     <entry>
